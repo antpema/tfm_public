@@ -1,0 +1,461 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1206831"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1206831,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-12T17:00:00+00:00",
+                "timestamp": 1723482000,
+                "periods": {
+                    "first": 1723482000,
+                    "second": 1723485600
+                },
+                "venue": {
+                    "id": 1258,
+                    "name": "Stadion Miejski im. Henryka Reymana",
+                    "city": "Krak\u00f3w"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 107,
+                "name": "I Liga",
+                "country": "Poland",
+                "logo": "https://media.api-sports.io/football/leagues/107.png",
+                "flag": "https://media.api-sports.io/flags/pl.svg",
+                "season": 2024,
+                "round": "Regular Season - 4"
+            },
+            "teams": {
+                "home": {
+                    "id": 338,
+                    "name": "Wisla Krakow",
+                    "logo": "https://media.api-sports.io/football/teams/338.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 6953,
+                    "name": "Ruch Chorz\u00f3w",
+                    "logo": "https://media.api-sports.io/football/teams/6953.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 3,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 3,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 39,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6953,
+                        "name": "Ruch Chorz\u00f3w",
+                        "logo": "https://media.api-sports.io/football/teams/6953.png"
+                    },
+                    "player": {
+                        "id": 61299,
+                        "name": "D. Ventura"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 42,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 338,
+                        "name": "Wisla Krakow",
+                        "logo": "https://media.api-sports.io/football/teams/338.png"
+                    },
+                    "player": {
+                        "id": 41035,
+                        "name": "W. Biedrzycki"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 2
+                    },
+                    "team": {
+                        "id": 338,
+                        "name": "Wisla Krakow",
+                        "logo": "https://media.api-sports.io/football/teams/338.png"
+                    },
+                    "player": {
+                        "id": 181533,
+                        "name": "A. Rodado"
+                    },
+                    "assist": {
+                        "id": 105097,
+                        "name": "M. Carbo"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 50,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6953,
+                        "name": "Ruch Chorz\u00f3w",
+                        "logo": "https://media.api-sports.io/football/teams/6953.png"
+                    },
+                    "player": {
+                        "id": 40535,
+                        "name": "F. Starzynski"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 57,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6953,
+                        "name": "Ruch Chorz\u00f3w",
+                        "logo": "https://media.api-sports.io/football/teams/6953.png"
+                    },
+                    "player": {
+                        "id": 148568,
+                        "name": "S. Szymanski"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 338,
+                        "name": "Wisla Krakow",
+                        "logo": "https://media.api-sports.io/football/teams/338.png"
+                    },
+                    "player": {
+                        "id": 14381,
+                        "name": "L. Zwolinski"
+                    },
+                    "assist": {
+                        "id": 185478,
+                        "name": "A. Baena Perez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 338,
+                        "name": "Wisla Krakow",
+                        "logo": "https://media.api-sports.io/football/teams/338.png"
+                    },
+                    "player": {
+                        "id": 301269,
+                        "name": "P. Starzynski"
+                    },
+                    "assist": {
+                        "id": 429982,
+                        "name": "M. Kutwa"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 68,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6953,
+                        "name": "Ruch Chorz\u00f3w",
+                        "logo": "https://media.api-sports.io/football/teams/6953.png"
+                    },
+                    "player": {
+                        "id": 216608,
+                        "name": "W. Laski"
+                    },
+                    "assist": {
+                        "id": 40781,
+                        "name": "M. Kozak"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6953,
+                        "name": "Ruch Chorz\u00f3w",
+                        "logo": "https://media.api-sports.io/football/teams/6953.png"
+                    },
+                    "player": {
+                        "id": 40416,
+                        "name": "M. Konczkowski"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 75,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 338,
+                        "name": "Wisla Krakow",
+                        "logo": "https://media.api-sports.io/football/teams/338.png"
+                    },
+                    "player": {
+                        "id": 181533,
+                        "name": "A. Rodado"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 338,
+                        "name": "Wisla Krakow",
+                        "logo": "https://media.api-sports.io/football/teams/338.png"
+                    },
+                    "player": {
+                        "id": 107533,
+                        "name": "R. Mikulec"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 81,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 338,
+                        "name": "Wisla Krakow",
+                        "logo": "https://media.api-sports.io/football/teams/338.png"
+                    },
+                    "player": {
+                        "id": 135861,
+                        "name": "G. Kiakos"
+                    },
+                    "assist": {
+                        "id": 107533,
+                        "name": "R. Mikulec"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6953,
+                        "name": "Ruch Chorz\u00f3w",
+                        "logo": "https://media.api-sports.io/football/teams/6953.png"
+                    },
+                    "player": {
+                        "id": 61151,
+                        "name": "Nono"
+                    },
+                    "assist": {
+                        "id": 40173,
+                        "name": "M. Sadlok"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6953,
+                        "name": "Ruch Chorz\u00f3w",
+                        "logo": "https://media.api-sports.io/football/teams/6953.png"
+                    },
+                    "player": {
+                        "id": 41023,
+                        "name": "L. Moneta"
+                    },
+                    "assist": {
+                        "id": 40354,
+                        "name": "D. Szczepan"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 6
+                    },
+                    "team": {
+                        "id": 338,
+                        "name": "Wisla Krakow",
+                        "logo": "https://media.api-sports.io/football/teams/338.png"
+                    },
+                    "player": {
+                        "id": 14381,
+                        "name": "L. Zwolinski"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 7
+                    },
+                    "team": {
+                        "id": 338,
+                        "name": "Wisla Krakow",
+                        "logo": "https://media.api-sports.io/football/teams/338.png"
+                    },
+                    "player": {
+                        "id": 269891,
+                        "name": "P. Gogol"
+                    },
+                    "assist": {
+                        "id": 28474,
+                        "name": "T. Kiss"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 9
+                    },
+                    "team": {
+                        "id": 338,
+                        "name": "Wisla Krakow",
+                        "logo": "https://media.api-sports.io/football/teams/338.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "O. Sukiennicki"
+                    },
+                    "assist": {
+                        "id": 40769,
+                        "name": "B. Jaroch"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

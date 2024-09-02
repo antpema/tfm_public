@@ -1,0 +1,859 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1223085"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1223085,
+                "referee": "D. Ben\u00edtez",
+                "timezone": "UTC",
+                "date": "2024-07-27T22:30:00+00:00",
+                "timestamp": 1722119400,
+                "periods": {
+                    "first": 1722119400,
+                    "second": 1722123000
+                },
+                "venue": {
+                    "id": 1226,
+                    "name": "Estadio Feliciano C\u00e1ceres",
+                    "city": "Luque"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 252,
+                "name": "Division Profesional - Clausura",
+                "country": "Paraguay",
+                "logo": "https://media.api-sports.io/football/leagues/252.png",
+                "flag": "https://media.api-sports.io/flags/py.svg",
+                "season": 2024,
+                "round": "Clausura - 2"
+            },
+            "teams": {
+                "home": {
+                    "id": 1183,
+                    "name": "Sportivo Luqueno",
+                    "logo": "https://media.api-sports.io/football/teams/1183.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 1177,
+                    "name": "SOL DE America",
+                    "logo": "https://media.api-sports.io/football/teams/1177.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 17,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1177,
+                        "name": "SOL DE America",
+                        "logo": "https://media.api-sports.io/football/teams/1177.png"
+                    },
+                    "player": {
+                        "id": 36082,
+                        "name": "D. Orue"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 38,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1177,
+                        "name": "SOL DE America",
+                        "logo": "https://media.api-sports.io/football/teams/1177.png"
+                    },
+                    "player": {
+                        "id": 70630,
+                        "name": "R. Roa"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 4
+                    },
+                    "team": {
+                        "id": 1183,
+                        "name": "Sportivo Luqueno",
+                        "logo": "https://media.api-sports.io/football/teams/1183.png"
+                    },
+                    "player": {
+                        "id": 95291,
+                        "name": "A. Gim\u00e9nez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Own Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1183,
+                        "name": "Sportivo Luqueno",
+                        "logo": "https://media.api-sports.io/football/teams/1183.png"
+                    },
+                    "player": {
+                        "id": 6472,
+                        "name": "L. Comas"
+                    },
+                    "assist": {
+                        "id": 265918,
+                        "name": "E. Vera"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1183,
+                        "name": "Sportivo Luqueno",
+                        "logo": "https://media.api-sports.io/football/teams/1183.png"
+                    },
+                    "player": {
+                        "id": 6188,
+                        "name": "L. Barrios"
+                    },
+                    "assist": {
+                        "id": 95545,
+                        "name": "M. Ferreira"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 50,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1177,
+                        "name": "SOL DE America",
+                        "logo": "https://media.api-sports.io/football/teams/1177.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "D. Fernandez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 58,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1183,
+                        "name": "Sportivo Luqueno",
+                        "logo": "https://media.api-sports.io/football/teams/1183.png"
+                    },
+                    "player": {
+                        "id": 2512,
+                        "name": "Rodrigo Rojas"
+                    },
+                    "assist": {
+                        "id": 70567,
+                        "name": "J. Ben\u00edtez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 58,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1183,
+                        "name": "Sportivo Luqueno",
+                        "logo": "https://media.api-sports.io/football/teams/1183.png"
+                    },
+                    "player": {
+                        "id": 26787,
+                        "name": "N. Man\u00e1"
+                    },
+                    "assist": {
+                        "id": 70474,
+                        "name": "I. Torres"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1177,
+                        "name": "SOL DE America",
+                        "logo": "https://media.api-sports.io/football/teams/1177.png"
+                    },
+                    "player": {
+                        "id": 414507,
+                        "name": "D. Fern\u00e1ndez"
+                    },
+                    "assist": {
+                        "id": 70591,
+                        "name": "M. Gonz\u00e1lez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1177,
+                        "name": "SOL DE America",
+                        "logo": "https://media.api-sports.io/football/teams/1177.png"
+                    },
+                    "player": {
+                        "id": 70630,
+                        "name": "R. Roa"
+                    },
+                    "assist": {
+                        "id": 359797,
+                        "name": "O. Coronel"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 75,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1183,
+                        "name": "Sportivo Luqueno",
+                        "logo": "https://media.api-sports.io/football/teams/1183.png"
+                    },
+                    "player": {
+                        "id": 457050,
+                        "name": "M. Su\u00e1rez"
+                    },
+                    "assist": {
+                        "id": 406270,
+                        "name": "S. Ruiz D\u00edaz"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1183,
+                        "name": "Sportivo Luqueno",
+                        "logo": "https://media.api-sports.io/football/teams/1183.png"
+                    },
+                    "player": {
+                        "id": 95545,
+                        "name": "M. Ferreira"
+                    },
+                    "assist": {
+                        "id": 70474,
+                        "name": "I. Torres"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1183,
+                        "name": "Sportivo Luqueno",
+                        "logo": "https://media.api-sports.io/football/teams/1183.png"
+                    },
+                    "player": {
+                        "id": 70758,
+                        "name": "S. Otalvaro"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1177,
+                        "name": "SOL DE America",
+                        "logo": "https://media.api-sports.io/football/teams/1177.png"
+                    },
+                    "player": {
+                        "id": 5307,
+                        "name": "C. Amarilla"
+                    },
+                    "assist": {
+                        "id": 159141,
+                        "name": "J. Jara"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1177,
+                        "name": "SOL DE America",
+                        "logo": "https://media.api-sports.io/football/teams/1177.png"
+                    },
+                    "player": {
+                        "id": 70800,
+                        "name": "L. Ortiz"
+                    },
+                    "assist": {
+                        "id": 195793,
+                        "name": "M. Acosta"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 1183,
+                        "name": "Sportivo Luqueno",
+                        "logo": "https://media.api-sports.io/football/teams/1183.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 15918,
+                        "name": "J. C\u00e1ceres",
+                        "photo": "https://media.api-sports.io/football/coachs/15918.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 70471,
+                                "name": "A. Aguilar",
+                                "number": 12,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70758,
+                                "name": "S. Ot\u00e1lvaro",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70756,
+                                "name": "J. Leguizam\u00f3n",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70583,
+                                "name": "A. Villalba",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 457050,
+                                "name": "M. Su\u00e1rez",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 2512,
+                                "name": "Rodrigo Rojas",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70594,
+                                "name": "J. Mendoza",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70705,
+                                "name": "D. R\u00edos",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6188,
+                                "name": "L. Barrios",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6472,
+                                "name": "L. Comas",
+                                "number": 37,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 26787,
+                                "name": "N. Man\u00e1",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 265918,
+                                "name": "E. Vera",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 95545,
+                                "name": "M. Ferreira",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70567,
+                                "name": "J. Ben\u00edtez",
+                                "number": 27,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70474,
+                                "name": "I. Torres",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 406270,
+                                "name": "S. Ruiz D\u00edaz",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 5841,
+                                "name": "A. Ledesma",
+                                "number": 24,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 95295,
+                                "name": "R. Alborno",
+                                "number": 33,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 80826,
+                                "name": "G. Hauch\u00e9",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 147838,
+                                "name": "F. Ben\u00edtez",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35560,
+                                "name": "P. Aguilar",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 51325,
+                                "name": "G. Falc\u00f3n",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 237092,
+                                "name": "D. Acosta",
+                                "number": 28,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 1177,
+                        "name": "SOL DE America",
+                        "logo": "https://media.api-sports.io/football/teams/1177.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 7584,
+                        "name": "T. Duarte",
+                        "photo": "https://media.api-sports.io/football/coachs/7584.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 16671,
+                                "name": "B. Medina",
+                                "number": 36,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6202,
+                                "name": "R. Garc\u00eda",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 95291,
+                                "name": "A. Gim\u00e9nez",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 191864,
+                                "name": "R. Delvalle",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 36082,
+                                "name": "D. Oru\u00e9",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15290,
+                                "name": "B. Cascini",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70800,
+                                "name": "L. Ortiz",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 359096,
+                                "name": "F. D\u00edaz",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 5307,
+                                "name": "C. Amarilla",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70630,
+                                "name": "R. Roa",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 414507,
+                                "name": "D. Fern\u00e1ndez",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 70591,
+                                "name": "M. Gonz\u00e1lez",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 359797,
+                                "name": "O. Coronel",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 159141,
+                                "name": "J. Jara",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 195793,
+                                "name": "M. Acosta",
+                                "number": 31,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13664,
+                                "name": "G. Ortiz",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 95241,
+                                "name": "G. Gim\u00e9nez",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70823,
+                                "name": "J. Ojeda",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52493,
+                                "name": "A. Graterol",
+                                "number": 27,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 95449,
+                                "name": "E. C\u00e1ceres",
+                                "number": 32,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 411454,
+                                "name": "B. Quintana",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 195771,
+                                "name": "V. Barrios",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

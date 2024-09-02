@@ -1,0 +1,756 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1168931"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1168931,
+                "referee": "F. Vejar",
+                "timezone": "UTC",
+                "date": "2024-07-19T23:00:00+00:00",
+                "timestamp": 1721430000,
+                "periods": {
+                    "first": 1721430000,
+                    "second": 1721433600
+                },
+                "venue": {
+                    "id": 343,
+                    "name": "Estadio Municipal Nicol\u00e1s Chahu\u00e1n Nazar",
+                    "city": "La Calera"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 266,
+                "name": "Primera B",
+                "country": "Chile",
+                "logo": "https://media.api-sports.io/football/leagues/266.png",
+                "flag": "https://media.api-sports.io/flags/cl.svg",
+                "season": 2024,
+                "round": "Regular Season - 17"
+            },
+            "teams": {
+                "home": {
+                    "id": 16730,
+                    "name": "Deportes Limache",
+                    "logo": "https://media.api-sports.io/football/teams/16730.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 2317,
+                    "name": "Deportes Temuco",
+                    "logo": "https://media.api-sports.io/football/teams/2317.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 31,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2317,
+                        "name": "Deportes Temuco",
+                        "logo": "https://media.api-sports.io/football/teams/2317.png"
+                    },
+                    "player": {
+                        "id": 51518,
+                        "name": "D. Gonz\u00e1lez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 33,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 16730,
+                        "name": "Deportes Limache",
+                        "logo": "https://media.api-sports.io/football/teams/16730.png"
+                    },
+                    "player": {
+                        "id": 74853,
+                        "name": "N. Da Silva"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 16730,
+                        "name": "Deportes Limache",
+                        "logo": "https://media.api-sports.io/football/teams/16730.png"
+                    },
+                    "player": {
+                        "id": 11623,
+                        "name": "R. Tarife\u00f1o"
+                    },
+                    "assist": {
+                        "id": 80827,
+                        "name": "D. Castro"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 62,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2317,
+                        "name": "Deportes Temuco",
+                        "logo": "https://media.api-sports.io/football/teams/2317.png"
+                    },
+                    "player": {
+                        "id": 71998,
+                        "name": "F. Cort\u00e9s"
+                    },
+                    "assist": {
+                        "id": 12066,
+                        "name": "G. Castro"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 69,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2317,
+                        "name": "Deportes Temuco",
+                        "logo": "https://media.api-sports.io/football/teams/2317.png"
+                    },
+                    "player": {
+                        "id": 51853,
+                        "name": "M. Abisab"
+                    },
+                    "assist": {
+                        "id": 361817,
+                        "name": "J. Vel\u00e1squez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 76,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2317,
+                        "name": "Deportes Temuco",
+                        "logo": "https://media.api-sports.io/football/teams/2317.png"
+                    },
+                    "player": {
+                        "id": 193324,
+                        "name": "J. Castro"
+                    },
+                    "assist": {
+                        "id": 12118,
+                        "name": "B. Bustamante"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 76,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2317,
+                        "name": "Deportes Temuco",
+                        "logo": "https://media.api-sports.io/football/teams/2317.png"
+                    },
+                    "player": {
+                        "id": 80822,
+                        "name": "F. Espinoza"
+                    },
+                    "assist": {
+                        "id": 78721,
+                        "name": "C. Melivil\u00fa"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 77,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 16730,
+                        "name": "Deportes Limache",
+                        "logo": "https://media.api-sports.io/football/teams/16730.png"
+                    },
+                    "player": {
+                        "id": 70156,
+                        "name": "A. Jara"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 16730,
+                        "name": "Deportes Limache",
+                        "logo": "https://media.api-sports.io/football/teams/16730.png"
+                    },
+                    "player": {
+                        "id": 11428,
+                        "name": "B. Provoste"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 16730,
+                        "name": "Deportes Limache",
+                        "logo": "https://media.api-sports.io/football/teams/16730.png"
+                    },
+                    "player": {
+                        "id": 70156,
+                        "name": "A. Jara"
+                    },
+                    "assist": {
+                        "id": 11779,
+                        "name": "F. Flores"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2317,
+                        "name": "Deportes Temuco",
+                        "logo": "https://media.api-sports.io/football/teams/2317.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "J. Velasquez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2317,
+                        "name": "Deportes Temuco",
+                        "logo": "https://media.api-sports.io/football/teams/2317.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "G. Baeza"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2317,
+                        "name": "Deportes Temuco",
+                        "logo": "https://media.api-sports.io/football/teams/2317.png"
+                    },
+                    "player": {
+                        "id": 12118,
+                        "name": "B. Bustamante"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 4
+                    },
+                    "team": {
+                        "id": 2317,
+                        "name": "Deportes Temuco",
+                        "logo": "https://media.api-sports.io/football/teams/2317.png"
+                    },
+                    "player": {
+                        "id": 78721,
+                        "name": "C. Melivilu Fuentes"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 16730,
+                        "name": "Deportes Limache",
+                        "logo": "https://media.api-sports.io/football/teams/16730.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 475,
+                        "name": "V. Rivero",
+                        "photo": "https://media.api-sports.io/football/coachs/475.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 6073,
+                                "name": "M. \u00c1lvarez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6676,
+                                "name": "R. Moreira",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 59319,
+                                "name": "G. Paz",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 12208,
+                                "name": "G. Avello",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 12383,
+                                "name": "\u00c1. C\u00e9sped",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 11428,
+                                "name": "B. Provoste",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70156,
+                                "name": "A. Jara",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 424721,
+                                "name": "G. Pinto",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 11623,
+                                "name": "R. Tarife\u00f1o",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 74853,
+                                "name": "N. Da Silva",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 12202,
+                                "name": "F. Fritz",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 80827,
+                                "name": "D. Castro",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 11779,
+                                "name": "F. Flores",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6091,
+                                "name": "F. Silva",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 193189,
+                                "name": "Joaqu\u00edn Abdala",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 11592,
+                                "name": "M. B\u00f3rquez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 316503,
+                                "name": "N. Mu\u00f1oz",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 409880,
+                                "name": "R. D\u00edaz",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 2317,
+                        "name": "Deportes Temuco",
+                        "logo": "https://media.api-sports.io/football/teams/2317.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 3976,
+                        "name": "E. Valencia",
+                        "photo": "https://media.api-sports.io/football/coachs/3976.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 11657,
+                                "name": "Y. Urra",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 317849,
+                                "name": "V. Concha",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 408365,
+                                "name": "A. Pe\u00f1ailillo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 51853,
+                                "name": "M. Abisab",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 12151,
+                                "name": "V. Gonz\u00e1lez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 51518,
+                                "name": "D. Gonz\u00e1lez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 51862,
+                                "name": "C. N\u00fa\u00f1ez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 71998,
+                                "name": "F. Cort\u00e9s",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 12367,
+                                "name": "G. Villegas",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 193324,
+                                "name": "J. Castro",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 80822,
+                                "name": "F. Espinoza",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 12066,
+                                "name": "G. Castro",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 361817,
+                                "name": "J. Vel\u00e1squez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 12118,
+                                "name": "B. Bustamante",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 78721,
+                                "name": "C. Melivil\u00fa",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 284069,
+                                "name": "D. Sobarzo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 411628,
+                                "name": "J. Garrido",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 325269,
+                                "name": "V. Lav\u00edn",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

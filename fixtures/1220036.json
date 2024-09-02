@@ -1,0 +1,182 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1220036"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1220036,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-31T10:00:00+00:00",
+                "timestamp": 1722420000,
+                "periods": {
+                    "first": 1722420000,
+                    "second": 1722423600
+                },
+                "venue": {
+                    "id": 968,
+                    "name": "Machida Gion Stadium",
+                    "city": "Tokyo"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 303,
+                    "name": "Machida Zelvia",
+                    "logo": "https://media.api-sports.io/football/teams/303.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 93,
+                    "name": "Reims",
+                    "logo": "https://media.api-sports.io/football/teams/93.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 29,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 93,
+                        "name": "Reims",
+                        "logo": "https://media.api-sports.io/football/teams/93.png"
+                    },
+                    "player": {
+                        "id": 334429,
+                        "name": "O. Diakite"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 77,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 93,
+                        "name": "Reims",
+                        "logo": "https://media.api-sports.io/football/teams/93.png"
+                    },
+                    "player": {
+                        "id": 352990,
+                        "name": "A. Salama"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 93,
+                        "name": "Reims",
+                        "logo": "https://media.api-sports.io/football/teams/93.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 303,
+                        "name": "Machida Zelvia",
+                        "logo": "https://media.api-sports.io/football/teams/303.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 19388,
+                        "name": "G. Kuroda",
+                        "photo": "https://media.api-sports.io/football/coachs/19388.png"
+                    },
+                    "formation": null
+                },
+                {
+                    "team": {
+                        "id": 93,
+                        "name": "Reims",
+                        "logo": "https://media.api-sports.io/football/teams/93.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 22444,
+                        "name": "S. Diawara",
+                        "photo": "https://media.api-sports.io/football/coachs/22444.png"
+                    },
+                    "formation": null
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

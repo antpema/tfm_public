@@ -1,0 +1,748 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1206810"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1206810,
+                "referee": "S. Jarzebak",
+                "timezone": "UTC",
+                "date": "2024-07-22T17:00:00+00:00",
+                "timestamp": 1721667600,
+                "periods": {
+                    "first": 1721667600,
+                    "second": 1721671200
+                },
+                "venue": {
+                    "id": 5075,
+                    "name": "Stadion Stal",
+                    "city": "Rzesz\u00f3w"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 107,
+                "name": "I Liga",
+                "country": "Poland",
+                "logo": "https://media.api-sports.io/football/leagues/107.png",
+                "flag": "https://media.api-sports.io/flags/pl.svg",
+                "season": 2024,
+                "round": "Regular Season - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 6957,
+                    "name": "Stal Rzesz\u00f3w",
+                    "logo": "https://media.api-sports.io/football/teams/6957.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 344,
+                    "name": "Arka Gdynia",
+                    "logo": "https://media.api-sports.io/football/teams/344.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 58,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 344,
+                        "name": "Arka Gdynia",
+                        "logo": "https://media.api-sports.io/football/teams/344.png"
+                    },
+                    "player": {
+                        "id": 40960,
+                        "name": "M. Borecki"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 66,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 344,
+                        "name": "Arka Gdynia",
+                        "logo": "https://media.api-sports.io/football/teams/344.png"
+                    },
+                    "player": {
+                        "id": 40960,
+                        "name": "M. Borecki"
+                    },
+                    "assist": {
+                        "id": 40720,
+                        "name": "H. Adamczyk"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 66,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 344,
+                        "name": "Arka Gdynia",
+                        "logo": "https://media.api-sports.io/football/teams/344.png"
+                    },
+                    "player": {
+                        "id": 40942,
+                        "name": "S. Sobczak"
+                    },
+                    "assist": {
+                        "id": 296713,
+                        "name": "H. Vitalucci"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6957,
+                        "name": "Stal Rzesz\u00f3w",
+                        "logo": "https://media.api-sports.io/football/teams/6957.png"
+                    },
+                    "player": {
+                        "id": 40673,
+                        "name": "A. Proki\u0107"
+                    },
+                    "assist": {
+                        "id": 265824,
+                        "name": "T. Ba\u0142a"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 75,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 344,
+                        "name": "Arka Gdynia",
+                        "logo": "https://media.api-sports.io/football/teams/344.png"
+                    },
+                    "player": {
+                        "id": 48635,
+                        "name": "J. Oliveira"
+                    },
+                    "assist": {
+                        "id": 40646,
+                        "name": "A. Ratajczyk"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 75,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 344,
+                        "name": "Arka Gdynia",
+                        "logo": "https://media.api-sports.io/football/teams/344.png"
+                    },
+                    "player": {
+                        "id": 24576,
+                        "name": "T. Gaprindashvili"
+                    },
+                    "assist": {
+                        "id": 302131,
+                        "name": "K. Sk\u00f3ra"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6957,
+                        "name": "Stal Rzesz\u00f3w",
+                        "logo": "https://media.api-sports.io/football/teams/6957.png"
+                    },
+                    "player": {
+                        "id": 133986,
+                        "name": "J. D\u00edaz"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 84,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6957,
+                        "name": "Stal Rzesz\u00f3w",
+                        "logo": "https://media.api-sports.io/football/teams/6957.png"
+                    },
+                    "player": {
+                        "id": 394878,
+                        "name": "S. K\u0105dzio\u0142ka"
+                    },
+                    "assist": {
+                        "id": 349007,
+                        "name": "B. Piotrowski"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 86,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 344,
+                        "name": "Arka Gdynia",
+                        "logo": "https://media.api-sports.io/football/teams/344.png"
+                    },
+                    "player": {
+                        "id": 31228,
+                        "name": "M. Marcjanik"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 86,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 344,
+                        "name": "Arka Gdynia",
+                        "logo": "https://media.api-sports.io/football/teams/344.png"
+                    },
+                    "player": {
+                        "id": 340207,
+                        "name": "J. Staniszewski"
+                    },
+                    "assist": {
+                        "id": 357760,
+                        "name": "W. Zieli\u0144ski"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6957,
+                        "name": "Stal Rzesz\u00f3w",
+                        "logo": "https://media.api-sports.io/football/teams/6957.png"
+                    },
+                    "player": {
+                        "id": 410630,
+                        "name": "S. \u0141yczko"
+                    },
+                    "assist": {
+                        "id": 426401,
+                        "name": "C. Pe\u00f1a"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6957,
+                        "name": "Stal Rzesz\u00f3w",
+                        "logo": "https://media.api-sports.io/football/teams/6957.png"
+                    },
+                    "player": {
+                        "id": 133986,
+                        "name": "J. D\u00edaz"
+                    },
+                    "assist": {
+                        "id": 40885,
+                        "name": "K. Wachowiak"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 6957,
+                        "name": "Stal Rzesz\u00f3w",
+                        "logo": "https://media.api-sports.io/football/teams/6957.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 561,
+                        "name": "M. Zub",
+                        "photo": "https://media.api-sports.io/football/coachs/561.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 40542,
+                                "name": "K. B\u0105kowski",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 40603,
+                                "name": "K. Ko\u015bcielny",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 61170,
+                                "name": "M. \u0160im\u010d\u00e1k",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 324066,
+                                "name": "P. Warczak",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 457765,
+                                "name": "M. Syno\u015b",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 105829,
+                                "name": "S. Thill",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 40673,
+                                "name": "A. Proki\u0107",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 133986,
+                                "name": "J. D\u00edaz",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 394878,
+                                "name": "S. K\u0105dzio\u0142ka",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 410630,
+                                "name": "S. \u0141yczko",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 429984,
+                                "name": "K. \u0141ysiak",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 265824,
+                                "name": "T. Ba\u0142a",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 349007,
+                                "name": "B. Piotrowski",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 426401,
+                                "name": "C. Pe\u00f1a",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 40885,
+                                "name": "K. Wachowiak",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 476161,
+                                "name": "A. Gaza",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 410629,
+                                "name": "J. Raciniewski",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 384719,
+                                "name": "K. Pa\u015bko",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 457766,
+                                "name": "K. Plichta",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 40773,
+                                "name": "P. Oleksy",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 344,
+                        "name": "Arka Gdynia",
+                        "logo": "https://media.api-sports.io/football/teams/344.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 15064,
+                        "name": "W. \u0141obodzi\u0144ski",
+                        "photo": "https://media.api-sports.io/football/coachs/15064.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 128606,
+                                "name": "P. Lenarcik",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 31228,
+                                "name": "M. Marcjanik",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 40956,
+                                "name": "P. Stolc",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 40742,
+                                "name": "D. Gojny",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 18800,
+                                "name": "Marc Navarro",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 48635,
+                                "name": "J. Oliveira",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 40960,
+                                "name": "M. Borecki",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 24576,
+                                "name": "T. Gaprindashvili",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 340207,
+                                "name": "J. Staniszewski",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 40942,
+                                "name": "S. Sobczak",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 148421,
+                                "name": "K. Czubak",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 40720,
+                                "name": "H. Adamczyk",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 296713,
+                                "name": "H. Vitalucci",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 40646,
+                                "name": "A. Ratajczyk",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 302131,
+                                "name": "K. Sk\u00f3ra",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 357760,
+                                "name": "W. Zieli\u0144ski",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41033,
+                                "name": "D. W\u0119glarz",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 471464,
+                                "name": "K. G\u00f3recki",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 442828,
+                                "name": "K. Jakubczyk",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 357241,
+                                "name": "K. Lipkowski",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

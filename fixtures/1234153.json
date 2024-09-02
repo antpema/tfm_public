@@ -1,0 +1,3310 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1234153"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1234153,
+                "referee": "L. Su\u00e1rez",
+                "timezone": "UTC",
+                "date": "2024-07-20T21:00:00+00:00",
+                "timestamp": 1721509200,
+                "periods": {
+                    "first": 1721509200,
+                    "second": 1721512800
+                },
+                "venue": {
+                    "id": 379,
+                    "name": "Estadio Polideportivo Sur",
+                    "city": "Envigado"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 239,
+                "name": "Primera A",
+                "country": "Colombia",
+                "logo": "https://media.api-sports.io/football/leagues/239.png",
+                "flag": "https://media.api-sports.io/flags/co.svg",
+                "season": 2024,
+                "round": "Clausura - 2"
+            },
+            "teams": {
+                "home": {
+                    "id": 1129,
+                    "name": "Envigado",
+                    "logo": "https://media.api-sports.io/football/teams/1129.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 1139,
+                    "name": "Santa Fe",
+                    "logo": "https://media.api-sports.io/football/teams/1139.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 18,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1129,
+                        "name": "Envigado",
+                        "logo": "https://media.api-sports.io/football/teams/1129.png"
+                    },
+                    "player": {
+                        "id": 13737,
+                        "name": "Carlos Ramirez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Argument"
+                },
+                {
+                    "time": {
+                        "elapsed": 23,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1139,
+                        "name": "Santa Fe",
+                        "logo": "https://media.api-sports.io/football/teams/1139.png"
+                    },
+                    "player": {
+                        "id": 13290,
+                        "name": "Yilmar Vel\u00e1zquez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Foul"
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 2
+                    },
+                    "team": {
+                        "id": 1139,
+                        "name": "Santa Fe",
+                        "logo": "https://media.api-sports.io/football/teams/1139.png"
+                    },
+                    "player": {
+                        "id": 153380,
+                        "name": "A. Rodr\u00edguez"
+                    },
+                    "assist": {
+                        "id": 13504,
+                        "name": "E. Perlaza"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1129,
+                        "name": "Envigado",
+                        "logo": "https://media.api-sports.io/football/teams/1129.png"
+                    },
+                    "player": {
+                        "id": 324730,
+                        "name": "W. Hurtado"
+                    },
+                    "assist": {
+                        "id": 13271,
+                        "name": "B. Garc\u00e9s"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1139,
+                        "name": "Santa Fe",
+                        "logo": "https://media.api-sports.io/football/teams/1139.png"
+                    },
+                    "player": {
+                        "id": 13290,
+                        "name": "Y. Vel\u00e1squez"
+                    },
+                    "assist": {
+                        "id": 13545,
+                        "name": "J. Zuluaga"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 57,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1129,
+                        "name": "Envigado",
+                        "logo": "https://media.api-sports.io/football/teams/1129.png"
+                    },
+                    "player": {
+                        "id": 324731,
+                        "name": "L. D\u00edaz"
+                    },
+                    "assist": {
+                        "id": 297949,
+                        "name": "L. Robledo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 58,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1129,
+                        "name": "Envigado",
+                        "logo": "https://media.api-sports.io/football/teams/1129.png"
+                    },
+                    "player": {
+                        "id": 13514,
+                        "name": "J. Cuesta"
+                    },
+                    "assist": {
+                        "id": 431431,
+                        "name": "A. Palacios"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1139,
+                        "name": "Santa Fe",
+                        "logo": "https://media.api-sports.io/football/teams/1139.png"
+                    },
+                    "player": {
+                        "id": 51135,
+                        "name": "H. Mosquera"
+                    },
+                    "assist": {
+                        "id": 6417,
+                        "name": "E. L\u00f3pez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1129,
+                        "name": "Envigado",
+                        "logo": "https://media.api-sports.io/football/teams/1129.png"
+                    },
+                    "player": {
+                        "id": 13763,
+                        "name": "C. Arboleda"
+                    },
+                    "assist": {
+                        "id": 382936,
+                        "name": "G. Cuervo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1129,
+                        "name": "Envigado",
+                        "logo": "https://media.api-sports.io/football/teams/1129.png"
+                    },
+                    "player": {
+                        "id": 59540,
+                        "name": "Y. Moreno"
+                    },
+                    "assist": {
+                        "id": 13464,
+                        "name": "S. Nore\u00f1a"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1139,
+                        "name": "Santa Fe",
+                        "logo": "https://media.api-sports.io/football/teams/1139.png"
+                    },
+                    "player": {
+                        "id": 13169,
+                        "name": "D. Hern\u00e1ndez"
+                    },
+                    "assist": {
+                        "id": 59416,
+                        "name": "I. Scarpeta"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1139,
+                        "name": "Santa Fe",
+                        "logo": "https://media.api-sports.io/football/teams/1139.png"
+                    },
+                    "player": {
+                        "id": 379104,
+                        "name": "J. Torres"
+                    },
+                    "assist": {
+                        "id": 59617,
+                        "name": "J. Melendez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1139,
+                        "name": "Santa Fe",
+                        "logo": "https://media.api-sports.io/football/teams/1139.png"
+                    },
+                    "player": {
+                        "id": 153380,
+                        "name": "A. Rodr\u00edguez"
+                    },
+                    "assist": {
+                        "id": 59471,
+                        "name": "J. Monroy"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 7
+                    },
+                    "team": {
+                        "id": 1129,
+                        "name": "Envigado",
+                        "logo": "https://media.api-sports.io/football/teams/1129.png"
+                    },
+                    "player": {
+                        "id": 13650,
+                        "name": "Felipe Jaramillo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Argument"
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 3
+                    },
+                    "team": {
+                        "id": 1139,
+                        "name": "Santa Fe",
+                        "logo": "https://media.api-sports.io/football/teams/1139.png"
+                    },
+                    "player": {
+                        "id": 13504,
+                        "name": "Elvis Perlaza"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Foul"
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 2
+                    },
+                    "team": {
+                        "id": 1139,
+                        "name": "Santa Fe",
+                        "logo": "https://media.api-sports.io/football/teams/1139.png"
+                    },
+                    "player": {
+                        "id": 13496,
+                        "name": "Andr\u00e9s Mosquera"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Time wasting"
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 1129,
+                        "name": "Envigado",
+                        "logo": "https://media.api-sports.io/football/teams/1129.png",
+                        "colors": {
+                            "player": {
+                                "primary": "ff5706",
+                                "number": "ffffff",
+                                "border": "ff5706"
+                            },
+                            "goalkeeper": {
+                                "primary": "fdff29",
+                                "number": "ffffff",
+                                "border": "fdff29"
+                            }
+                        }
+                    },
+                    "coach": {
+                        "id": 13204,
+                        "name": "A. M\u00e1rquez",
+                        "photo": "https://media.api-sports.io/football/coachs/13204.png"
+                    },
+                    "formation": "4-2-3-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 363499,
+                                "name": "A. Tovar",
+                                "number": 88,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13763,
+                                "name": "C. Arboleda",
+                                "number": 4,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 311435,
+                                "name": "J. Palacios",
+                                "number": 6,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13737,
+                                "name": "C. Ram\u00edrez",
+                                "number": 29,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 406432,
+                                "name": "K. Tamayo",
+                                "number": 33,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13650,
+                                "name": "F. Jaramillo",
+                                "number": 14,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 129780,
+                                "name": "J. Villa",
+                                "number": 16,
+                                "pos": null,
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 324731,
+                                "name": "L. D\u00edaz",
+                                "number": 34,
+                                "pos": null,
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 324730,
+                                "name": "W. Hurtado",
+                                "number": 18,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13514,
+                                "name": "J. Cuesta",
+                                "number": 7,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 59540,
+                                "name": "Y. Moreno",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 13271,
+                                "name": "B. Garc\u00e9s",
+                                "number": 10,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 297949,
+                                "name": "L. Robledo",
+                                "number": 20,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 431431,
+                                "name": "A. Palacios",
+                                "number": 19,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 382936,
+                                "name": "G. Cuervo",
+                                "number": 15,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13464,
+                                "name": "S. Nore\u00f1a",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13474,
+                                "name": "E. L\u00f3pez",
+                                "number": 21,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 195721,
+                                "name": "J. Parra",
+                                "number": 23,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 1139,
+                        "name": "Santa Fe",
+                        "logo": "https://media.api-sports.io/football/teams/1139.png",
+                        "colors": {
+                            "player": {
+                                "primary": "dd0000",
+                                "number": "ffffff",
+                                "border": "dd0000"
+                            },
+                            "goalkeeper": {
+                                "primary": "f1ff00",
+                                "number": "f63636",
+                                "border": "f1ff00"
+                            }
+                        }
+                    },
+                    "coach": {
+                        "id": 2134,
+                        "name": "P. Peirano",
+                        "photo": "https://media.api-sports.io/football/coachs/2134.png"
+                    },
+                    "formation": "5-3-2",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 13496,
+                                "name": "A. Mosquera",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13504,
+                                "name": "E. Perlaza",
+                                "number": 22,
+                                "pos": "D",
+                                "grid": "2:5"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13169,
+                                "name": "D. Hern\u00e1ndez",
+                                "number": 6,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 5779,
+                                "name": "F. Aguero",
+                                "number": 2,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13715,
+                                "name": "J. Mill\u00e1n",
+                                "number": 29,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13500,
+                                "name": "D. Mosquera",
+                                "number": 30,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 379104,
+                                "name": "J. Torres",
+                                "number": 14,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13290,
+                                "name": "Y. Vel\u00e1squez",
+                                "number": 20,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 46720,
+                                "name": "D. Torres",
+                                "number": 16,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 51135,
+                                "name": "H. Mosquera",
+                                "number": 23,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 153380,
+                                "name": "A. Rodr\u00edguez",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 13545,
+                                "name": "J. Zuluaga",
+                                "number": 8,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6417,
+                                "name": "E. L\u00f3pez",
+                                "number": 28,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 59416,
+                                "name": "I. Scarpeta",
+                                "number": 15,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 59617,
+                                "name": "J. Melendez",
+                                "number": 18,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 59471,
+                                "name": "J. Monroy",
+                                "number": 17,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13759,
+                                "name": "J. Espitia",
+                                "number": 12,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 375858,
+                                "name": "S. Cuero",
+                                "number": 25,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [
+                {
+                    "team": {
+                        "id": 1129,
+                        "name": "Envigado",
+                        "logo": "https://media.api-sports.io/football/teams/1129.png"
+                    },
+                    "statistics": [
+                        {
+                            "type": "Shots on Goal",
+                            "value": 3
+                        },
+                        {
+                            "type": "Shots off Goal",
+                            "value": 10
+                        },
+                        {
+                            "type": "Total Shots",
+                            "value": 15
+                        },
+                        {
+                            "type": "Blocked Shots",
+                            "value": 2
+                        },
+                        {
+                            "type": "Shots insidebox",
+                            "value": 6
+                        },
+                        {
+                            "type": "Shots outsidebox",
+                            "value": 9
+                        },
+                        {
+                            "type": "Fouls",
+                            "value": 5
+                        },
+                        {
+                            "type": "Corner Kicks",
+                            "value": 3
+                        },
+                        {
+                            "type": "Offsides",
+                            "value": 3
+                        },
+                        {
+                            "type": "Ball Possession",
+                            "value": "52%"
+                        },
+                        {
+                            "type": "Yellow Cards",
+                            "value": 2
+                        },
+                        {
+                            "type": "Red Cards",
+                            "value": null
+                        },
+                        {
+                            "type": "Goalkeeper Saves",
+                            "value": 4
+                        },
+                        {
+                            "type": "Total passes",
+                            "value": 370
+                        },
+                        {
+                            "type": "Passes accurate",
+                            "value": 288
+                        },
+                        {
+                            "type": "Passes %",
+                            "value": "78%"
+                        },
+                        {
+                            "type": "expected_goals",
+                            "value": null
+                        },
+                        {
+                            "type": "goals_prevented",
+                            "value": null
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 1139,
+                        "name": "Santa Fe",
+                        "logo": "https://media.api-sports.io/football/teams/1139.png"
+                    },
+                    "statistics": [
+                        {
+                            "type": "Shots on Goal",
+                            "value": 5
+                        },
+                        {
+                            "type": "Shots off Goal",
+                            "value": 7
+                        },
+                        {
+                            "type": "Total Shots",
+                            "value": 16
+                        },
+                        {
+                            "type": "Blocked Shots",
+                            "value": 4
+                        },
+                        {
+                            "type": "Shots insidebox",
+                            "value": 11
+                        },
+                        {
+                            "type": "Shots outsidebox",
+                            "value": 5
+                        },
+                        {
+                            "type": "Fouls",
+                            "value": 15
+                        },
+                        {
+                            "type": "Corner Kicks",
+                            "value": 7
+                        },
+                        {
+                            "type": "Offsides",
+                            "value": 1
+                        },
+                        {
+                            "type": "Ball Possession",
+                            "value": "48%"
+                        },
+                        {
+                            "type": "Yellow Cards",
+                            "value": 3
+                        },
+                        {
+                            "type": "Red Cards",
+                            "value": null
+                        },
+                        {
+                            "type": "Goalkeeper Saves",
+                            "value": 3
+                        },
+                        {
+                            "type": "Total passes",
+                            "value": 341
+                        },
+                        {
+                            "type": "Passes accurate",
+                            "value": 250
+                        },
+                        {
+                            "type": "Passes %",
+                            "value": "73%"
+                        },
+                        {
+                            "type": "expected_goals",
+                            "value": null
+                        },
+                        {
+                            "type": "goals_prevented",
+                            "value": null
+                        }
+                    ]
+                }
+            ],
+            "players": [
+                {
+                    "team": {
+                        "id": 1129,
+                        "name": "Envigado",
+                        "logo": "https://media.api-sports.io/football/teams/1129.png",
+                        "update": "2024-08-09T04:13:25+00:00"
+                    },
+                    "players": [
+                        {
+                            "player": {
+                                "id": 363499,
+                                "name": "Andr\u00e9s Tovar",
+                                "photo": "https://media.api-sports.io/football/players/363499.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": 90,
+                                        "number": 88,
+                                        "position": "G",
+                                        "rating": "7.3",
+                                        "captain": false,
+                                        "substitute": false
+                                    },
+                                    "offsides": null,
+                                    "shots": {
+                                        "total": null,
+                                        "on": null
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 1,
+                                        "assists": 0,
+                                        "saves": 4
+                                    },
+                                    "passes": {
+                                        "total": 14,
+                                        "key": null,
+                                        "accuracy": "9"
+                                    },
+                                    "tackles": {
+                                        "total": null,
+                                        "blocks": null,
+                                        "interceptions": null
+                                    },
+                                    "duels": {
+                                        "total": 1,
+                                        "won": 1
+                                    },
+                                    "dribbles": {
+                                        "attempts": null,
+                                        "success": null,
+                                        "past": null
+                                    },
+                                    "fouls": {
+                                        "drawn": null,
+                                        "committed": null
+                                    },
+                                    "cards": {
+                                        "yellow": 0,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": 0
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "player": {
+                                "id": 13763,
+                                "name": "Carlos Arboleda",
+                                "photo": "https://media.api-sports.io/football/players/13763.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": 73,
+                                        "number": 4,
+                                        "position": "D",
+                                        "rating": "6.2",
+                                        "captain": false,
+                                        "substitute": false
+                                    },
+                                    "offsides": null,
+                                    "shots": {
+                                        "total": null,
+                                        "on": null
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 0,
+                                        "assists": 0,
+                                        "saves": null
+                                    },
+                                    "passes": {
+                                        "total": 33,
+                                        "key": null,
+                                        "accuracy": "19"
+                                    },
+                                    "tackles": {
+                                        "total": null,
+                                        "blocks": null,
+                                        "interceptions": 1
+                                    },
+                                    "duels": {
+                                        "total": 7,
+                                        "won": 3
+                                    },
+                                    "dribbles": {
+                                        "attempts": null,
+                                        "success": null,
+                                        "past": 1
+                                    },
+                                    "fouls": {
+                                        "drawn": 3,
+                                        "committed": 1
+                                    },
+                                    "cards": {
+                                        "yellow": 0,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": null
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "player": {
+                                "id": 311435,
+                                "name": "Juli\u00e1n Palacios",
+                                "photo": "https://media.api-sports.io/football/players/311435.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": 90,
+                                        "number": 6,
+                                        "position": "D",
+                                        "rating": "7.7",
+                                        "captain": false,
+                                        "substitute": false
+                                    },
+                                    "offsides": null,
+                                    "shots": {
+                                        "total": 1,
+                                        "on": null
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 0,
+                                        "assists": 0,
+                                        "saves": null
+                                    },
+                                    "passes": {
+                                        "total": 49,
+                                        "key": null,
+                                        "accuracy": "42"
+                                    },
+                                    "tackles": {
+                                        "total": 1,
+                                        "blocks": 1,
+                                        "interceptions": 1
+                                    },
+                                    "duels": {
+                                        "total": 11,
+                                        "won": 9
+                                    },
+                                    "dribbles": {
+                                        "attempts": 1,
+                                        "success": 1,
+                                        "past": 1
+                                    },
+                                    "fouls": {
+                                        "drawn": 2,
+                                        "committed": null
+                                    },
+                                    "cards": {
+                                        "yellow": 0,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": null
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "player": {
+                                "id": 13737,
+                                "name": "Carlos Ramirez",
+                                "photo": "https://media.api-sports.io/football/players/13737.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": 90,
+                                        "number": 29,
+                                        "position": "D",
+                                        "rating": "6.6",
+                                        "captain": false,
+                                        "substitute": false
+                                    },
+                                    "offsides": null,
+                                    "shots": {
+                                        "total": null,
+                                        "on": null
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 0,
+                                        "assists": 0,
+                                        "saves": null
+                                    },
+                                    "passes": {
+                                        "total": 55,
+                                        "key": null,
+                                        "accuracy": "43"
+                                    },
+                                    "tackles": {
+                                        "total": 2,
+                                        "blocks": 2,
+                                        "interceptions": null
+                                    },
+                                    "duels": {
+                                        "total": 9,
+                                        "won": 5
+                                    },
+                                    "dribbles": {
+                                        "attempts": 1,
+                                        "success": null,
+                                        "past": 1
+                                    },
+                                    "fouls": {
+                                        "drawn": null,
+                                        "committed": null
+                                    },
+                                    "cards": {
+                                        "yellow": 1,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": null
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "player": {
+                                "id": 406432,
+                                "name": "Kevin Tamayo",
+                                "photo": "https://media.api-sports.io/football/players/406432.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": 90,
+                                        "number": 33,
+                                        "position": "D",
+                                        "rating": "7.2",
+                                        "captain": false,
+                                        "substitute": false
+                                    },
+                                    "offsides": null,
+                                    "shots": {
+                                        "total": 2,
+                                        "on": null
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 0,
+                                        "assists": 0,
+                                        "saves": null
+                                    },
+                                    "passes": {
+                                        "total": 37,
+                                        "key": 1,
+                                        "accuracy": "28"
+                                    },
+                                    "tackles": {
+                                        "total": 2,
+                                        "blocks": null,
+                                        "interceptions": 1
+                                    },
+                                    "duels": {
+                                        "total": 7,
+                                        "won": 6
+                                    },
+                                    "dribbles": {
+                                        "attempts": null,
+                                        "success": null,
+                                        "past": 1
+                                    },
+                                    "fouls": {
+                                        "drawn": 2,
+                                        "committed": null
+                                    },
+                                    "cards": {
+                                        "yellow": 0,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": null
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "player": {
+                                "id": 13650,
+                                "name": "Felipe Jaramillo",
+                                "photo": "https://media.api-sports.io/football/players/13650.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": 90,
+                                        "number": 14,
+                                        "position": "M",
+                                        "rating": "7",
+                                        "captain": true,
+                                        "substitute": false
+                                    },
+                                    "offsides": null,
+                                    "shots": {
+                                        "total": null,
+                                        "on": null
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 0,
+                                        "assists": 0,
+                                        "saves": null
+                                    },
+                                    "passes": {
+                                        "total": 45,
+                                        "key": 1,
+                                        "accuracy": "37"
+                                    },
+                                    "tackles": {
+                                        "total": 2,
+                                        "blocks": null,
+                                        "interceptions": 1
+                                    },
+                                    "duels": {
+                                        "total": 5,
+                                        "won": 4
+                                    },
+                                    "dribbles": {
+                                        "attempts": null,
+                                        "success": null,
+                                        "past": null
+                                    },
+                                    "fouls": {
+                                        "drawn": 1,
+                                        "committed": null
+                                    },
+                                    "cards": {
+                                        "yellow": 1,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": null
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "player": {
+                                "id": 147781,
+                                "name": "Juan Villa",
+                                "photo": "https://media.api-sports.io/football/players/147781.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": 90,
+                                        "number": 16,
+                                        "position": "M",
+                                        "rating": "8.2",
+                                        "captain": false,
+                                        "substitute": false
+                                    },
+                                    "offsides": null,
+                                    "shots": {
+                                        "total": 2,
+                                        "on": 1
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 0,
+                                        "assists": 0,
+                                        "saves": null
+                                    },
+                                    "passes": {
+                                        "total": 54,
+                                        "key": 5,
+                                        "accuracy": "45"
+                                    },
+                                    "tackles": {
+                                        "total": 2,
+                                        "blocks": null,
+                                        "interceptions": 3
+                                    },
+                                    "duels": {
+                                        "total": 13,
+                                        "won": 8
+                                    },
+                                    "dribbles": {
+                                        "attempts": 4,
+                                        "success": 2,
+                                        "past": null
+                                    },
+                                    "fouls": {
+                                        "drawn": 1,
+                                        "committed": null
+                                    },
+                                    "cards": {
+                                        "yellow": 0,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": null
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "player": {
+                                "id": 369678,
+                                "name": "Luis D\u00edaz",
+                                "photo": "https://media.api-sports.io/football/players/369678.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": 57,
+                                        "number": 34,
+                                        "position": "M",
+                                        "rating": "6.7",
+                                        "captain": false,
+                                        "substitute": false
+                                    },
+                                    "offsides": null,
+                                    "shots": {
+                                        "total": 1,
+                                        "on": null
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 0,
+                                        "assists": 0,
+                                        "saves": null
+                                    },
+                                    "passes": {
+                                        "total": 11,
+                                        "key": 1,
+                                        "accuracy": "8"
+                                    },
+                                    "tackles": {
+                                        "total": 1,
+                                        "blocks": 1,
+                                        "interceptions": 1
+                                    },
+                                    "duels": {
+                                        "total": 5,
+                                        "won": 1
+                                    },
+                                    "dribbles": {
+                                        "attempts": null,
+                                        "success": null,
+                                        "past": null
+                                    },
+                                    "fouls": {
+                                        "drawn": null,
+                                        "committed": null
+                                    },
+                                    "cards": {
+                                        "yellow": 0,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": null
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "player": {
+                                "id": 324730,
+                                "name": "William Hurtado",
+                                "photo": "https://media.api-sports.io/football/players/324730.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": 45,
+                                        "number": 18,
+                                        "position": "M",
+                                        "rating": "6.3",
+                                        "captain": false,
+                                        "substitute": false
+                                    },
+                                    "offsides": null,
+                                    "shots": {
+                                        "total": null,
+                                        "on": null
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 0,
+                                        "assists": 0,
+                                        "saves": null
+                                    },
+                                    "passes": {
+                                        "total": 12,
+                                        "key": 1,
+                                        "accuracy": "8"
+                                    },
+                                    "tackles": {
+                                        "total": null,
+                                        "blocks": null,
+                                        "interceptions": null
+                                    },
+                                    "duels": {
+                                        "total": 1,
+                                        "won": null
+                                    },
+                                    "dribbles": {
+                                        "attempts": null,
+                                        "success": null,
+                                        "past": null
+                                    },
+                                    "fouls": {
+                                        "drawn": null,
+                                        "committed": 1
+                                    },
+                                    "cards": {
+                                        "yellow": 0,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": null
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "player": {
+                                "id": 13514,
+                                "name": "Juan Manuel Cuesta",
+                                "photo": "https://media.api-sports.io/football/players/13514.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": 58,
+                                        "number": 7,
+                                        "position": "M",
+                                        "rating": "6.9",
+                                        "captain": false,
+                                        "substitute": false
+                                    },
+                                    "offsides": 1,
+                                    "shots": {
+                                        "total": 3,
+                                        "on": 1
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 0,
+                                        "assists": 0,
+                                        "saves": null
+                                    },
+                                    "passes": {
+                                        "total": 8,
+                                        "key": null,
+                                        "accuracy": "6"
+                                    },
+                                    "tackles": {
+                                        "total": null,
+                                        "blocks": null,
+                                        "interceptions": null
+                                    },
+                                    "duels": {
+                                        "total": 6,
+                                        "won": 4
+                                    },
+                                    "dribbles": {
+                                        "attempts": 1,
+                                        "success": 1,
+                                        "past": null
+                                    },
+                                    "fouls": {
+                                        "drawn": null,
+                                        "committed": 1
+                                    },
+                                    "cards": {
+                                        "yellow": 0,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": null
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "player": {
+                                "id": 59540,
+                                "name": "Yeison Moreno",
+                                "photo": "https://media.api-sports.io/football/players/59540.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": 73,
+                                        "number": 9,
+                                        "position": "F",
+                                        "rating": "6.7",
+                                        "captain": false,
+                                        "substitute": false
+                                    },
+                                    "offsides": 1,
+                                    "shots": {
+                                        "total": null,
+                                        "on": null
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 0,
+                                        "assists": 0,
+                                        "saves": null
+                                    },
+                                    "passes": {
+                                        "total": 4,
+                                        "key": 1,
+                                        "accuracy": "3"
+                                    },
+                                    "tackles": {
+                                        "total": null,
+                                        "blocks": null,
+                                        "interceptions": null
+                                    },
+                                    "duels": {
+                                        "total": 6,
+                                        "won": 4
+                                    },
+                                    "dribbles": {
+                                        "attempts": 1,
+                                        "success": 1,
+                                        "past": 1
+                                    },
+                                    "fouls": {
+                                        "drawn": 2,
+                                        "committed": 1
+                                    },
+                                    "cards": {
+                                        "yellow": 0,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": null
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "player": {
+                                "id": 13271,
+                                "name": "Bayron Garc\u00e9s",
+                                "photo": "https://media.api-sports.io/football/players/13271.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": 45,
+                                        "number": 10,
+                                        "position": "F",
+                                        "rating": "6.7",
+                                        "captain": false,
+                                        "substitute": true
+                                    },
+                                    "offsides": 1,
+                                    "shots": {
+                                        "total": 2,
+                                        "on": 1
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 0,
+                                        "assists": 0,
+                                        "saves": null
+                                    },
+                                    "passes": {
+                                        "total": 8,
+                                        "key": null,
+                                        "accuracy": "6"
+                                    },
+                                    "tackles": {
+                                        "total": null,
+                                        "blocks": null,
+                                        "interceptions": null
+                                    },
+                                    "duels": {
+                                        "total": 3,
+                                        "won": 2
+                                    },
+                                    "dribbles": {
+                                        "attempts": 1,
+                                        "success": 1,
+                                        "past": null
+                                    },
+                                    "fouls": {
+                                        "drawn": null,
+                                        "committed": null
+                                    },
+                                    "cards": {
+                                        "yellow": 0,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": null
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "player": {
+                                "id": 297949,
+                                "name": "Leyder Robledo",
+                                "photo": "https://media.api-sports.io/football/players/297949.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": 33,
+                                        "number": 20,
+                                        "position": "F",
+                                        "rating": "6.9",
+                                        "captain": false,
+                                        "substitute": true
+                                    },
+                                    "offsides": null,
+                                    "shots": {
+                                        "total": 1,
+                                        "on": null
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 0,
+                                        "assists": 0,
+                                        "saves": null
+                                    },
+                                    "passes": {
+                                        "total": 5,
+                                        "key": null,
+                                        "accuracy": "2"
+                                    },
+                                    "tackles": {
+                                        "total": null,
+                                        "blocks": null,
+                                        "interceptions": null
+                                    },
+                                    "duels": {
+                                        "total": 11,
+                                        "won": 6
+                                    },
+                                    "dribbles": {
+                                        "attempts": 3,
+                                        "success": 3,
+                                        "past": null
+                                    },
+                                    "fouls": {
+                                        "drawn": 2,
+                                        "committed": 1
+                                    },
+                                    "cards": {
+                                        "yellow": 0,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": null
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "player": {
+                                "id": 431431,
+                                "name": "Aly Palacios",
+                                "photo": "https://media.api-sports.io/football/players/431431.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": 32,
+                                        "number": 19,
+                                        "position": "F",
+                                        "rating": "7.2",
+                                        "captain": false,
+                                        "substitute": true
+                                    },
+                                    "offsides": null,
+                                    "shots": {
+                                        "total": 1,
+                                        "on": null
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 0,
+                                        "assists": 0,
+                                        "saves": null
+                                    },
+                                    "passes": {
+                                        "total": 9,
+                                        "key": 2,
+                                        "accuracy": "9"
+                                    },
+                                    "tackles": {
+                                        "total": 1,
+                                        "blocks": null,
+                                        "interceptions": null
+                                    },
+                                    "duels": {
+                                        "total": 11,
+                                        "won": 7
+                                    },
+                                    "dribbles": {
+                                        "attempts": 6,
+                                        "success": 5,
+                                        "past": null
+                                    },
+                                    "fouls": {
+                                        "drawn": 1,
+                                        "committed": null
+                                    },
+                                    "cards": {
+                                        "yellow": 0,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": null
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "player": {
+                                "id": 13464,
+                                "name": "Santiago Nore\u00f1a",
+                                "photo": "https://media.api-sports.io/football/players/13464.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": 17,
+                                        "number": 5,
+                                        "position": "D",
+                                        "rating": "6.6",
+                                        "captain": false,
+                                        "substitute": true
+                                    },
+                                    "offsides": null,
+                                    "shots": {
+                                        "total": null,
+                                        "on": null
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 0,
+                                        "assists": 0,
+                                        "saves": null
+                                    },
+                                    "passes": {
+                                        "total": 17,
+                                        "key": null,
+                                        "accuracy": "15"
+                                    },
+                                    "tackles": {
+                                        "total": null,
+                                        "blocks": null,
+                                        "interceptions": null
+                                    },
+                                    "duels": {
+                                        "total": 3,
+                                        "won": 2
+                                    },
+                                    "dribbles": {
+                                        "attempts": null,
+                                        "success": null,
+                                        "past": null
+                                    },
+                                    "fouls": {
+                                        "drawn": 1,
+                                        "committed": null
+                                    },
+                                    "cards": {
+                                        "yellow": 0,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": null
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "player": {
+                                "id": 382936,
+                                "name": "Geindry Cuervo",
+                                "photo": "https://media.api-sports.io/football/players/382936.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": 17,
+                                        "number": 15,
+                                        "position": "D",
+                                        "rating": "6.9",
+                                        "captain": false,
+                                        "substitute": true
+                                    },
+                                    "offsides": null,
+                                    "shots": {
+                                        "total": null,
+                                        "on": null
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 0,
+                                        "assists": 0,
+                                        "saves": null
+                                    },
+                                    "passes": {
+                                        "total": 9,
+                                        "key": null,
+                                        "accuracy": "8"
+                                    },
+                                    "tackles": {
+                                        "total": null,
+                                        "blocks": null,
+                                        "interceptions": null
+                                    },
+                                    "duels": {
+                                        "total": 1,
+                                        "won": 1
+                                    },
+                                    "dribbles": {
+                                        "attempts": 1,
+                                        "success": 1,
+                                        "past": null
+                                    },
+                                    "fouls": {
+                                        "drawn": null,
+                                        "committed": null
+                                    },
+                                    "cards": {
+                                        "yellow": 0,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": null
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "player": {
+                                "id": 195721,
+                                "name": "Felipe Parra",
+                                "photo": "https://media.api-sports.io/football/players/195721.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": null,
+                                        "number": 23,
+                                        "position": "G",
+                                        "rating": null,
+                                        "captain": false,
+                                        "substitute": true
+                                    },
+                                    "offsides": null,
+                                    "shots": {
+                                        "total": null,
+                                        "on": null
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 0,
+                                        "assists": null,
+                                        "saves": null
+                                    },
+                                    "passes": {
+                                        "total": null,
+                                        "key": null,
+                                        "accuracy": null
+                                    },
+                                    "tackles": {
+                                        "total": null,
+                                        "blocks": null,
+                                        "interceptions": null
+                                    },
+                                    "duels": {
+                                        "total": null,
+                                        "won": null
+                                    },
+                                    "dribbles": {
+                                        "attempts": null,
+                                        "success": null,
+                                        "past": null
+                                    },
+                                    "fouls": {
+                                        "drawn": null,
+                                        "committed": null
+                                    },
+                                    "cards": {
+                                        "yellow": 0,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": null
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "player": {
+                                "id": 13474,
+                                "name": "Edison L\u00f3pez",
+                                "photo": "https://media.api-sports.io/football/players/13474.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": null,
+                                        "number": 21,
+                                        "position": "M",
+                                        "rating": null,
+                                        "captain": false,
+                                        "substitute": true
+                                    },
+                                    "offsides": null,
+                                    "shots": {
+                                        "total": null,
+                                        "on": null
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 0,
+                                        "assists": null,
+                                        "saves": null
+                                    },
+                                    "passes": {
+                                        "total": null,
+                                        "key": null,
+                                        "accuracy": null
+                                    },
+                                    "tackles": {
+                                        "total": null,
+                                        "blocks": null,
+                                        "interceptions": null
+                                    },
+                                    "duels": {
+                                        "total": null,
+                                        "won": null
+                                    },
+                                    "dribbles": {
+                                        "attempts": null,
+                                        "success": null,
+                                        "past": null
+                                    },
+                                    "fouls": {
+                                        "drawn": null,
+                                        "committed": null
+                                    },
+                                    "cards": {
+                                        "yellow": 0,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": null
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 1139,
+                        "name": "Santa Fe",
+                        "logo": "https://media.api-sports.io/football/teams/1139.png",
+                        "update": "2024-08-09T04:13:25+00:00"
+                    },
+                    "players": [
+                        {
+                            "player": {
+                                "id": 13496,
+                                "name": "Andr\u00e9s Mosquera",
+                                "photo": "https://media.api-sports.io/football/players/13496.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": 90,
+                                        "number": 1,
+                                        "position": "G",
+                                        "rating": "7.5",
+                                        "captain": false,
+                                        "substitute": false
+                                    },
+                                    "offsides": null,
+                                    "shots": {
+                                        "total": null,
+                                        "on": null
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 0,
+                                        "assists": 0,
+                                        "saves": 3
+                                    },
+                                    "passes": {
+                                        "total": 27,
+                                        "key": null,
+                                        "accuracy": "18"
+                                    },
+                                    "tackles": {
+                                        "total": null,
+                                        "blocks": null,
+                                        "interceptions": null
+                                    },
+                                    "duels": {
+                                        "total": null,
+                                        "won": null
+                                    },
+                                    "dribbles": {
+                                        "attempts": null,
+                                        "success": null,
+                                        "past": null
+                                    },
+                                    "fouls": {
+                                        "drawn": null,
+                                        "committed": null
+                                    },
+                                    "cards": {
+                                        "yellow": 1,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": 0
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "player": {
+                                "id": 13504,
+                                "name": "Elvis Perlaza",
+                                "photo": "https://media.api-sports.io/football/players/13504.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": 90,
+                                        "number": 22,
+                                        "position": "D",
+                                        "rating": "7.3",
+                                        "captain": false,
+                                        "substitute": false
+                                    },
+                                    "offsides": null,
+                                    "shots": {
+                                        "total": null,
+                                        "on": null
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 0,
+                                        "assists": 1,
+                                        "saves": null
+                                    },
+                                    "passes": {
+                                        "total": 20,
+                                        "key": 4,
+                                        "accuracy": "16"
+                                    },
+                                    "tackles": {
+                                        "total": null,
+                                        "blocks": null,
+                                        "interceptions": null
+                                    },
+                                    "duels": {
+                                        "total": 11,
+                                        "won": 2
+                                    },
+                                    "dribbles": {
+                                        "attempts": 2,
+                                        "success": 1,
+                                        "past": 2
+                                    },
+                                    "fouls": {
+                                        "drawn": 1,
+                                        "committed": 3
+                                    },
+                                    "cards": {
+                                        "yellow": 1,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": null
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "player": {
+                                "id": 13169,
+                                "name": "Diego Hern\u00e1ndez",
+                                "photo": "https://media.api-sports.io/football/players/13169.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": 82,
+                                        "number": 6,
+                                        "position": "D",
+                                        "rating": "6.7",
+                                        "captain": false,
+                                        "substitute": false
+                                    },
+                                    "offsides": null,
+                                    "shots": {
+                                        "total": null,
+                                        "on": null
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 0,
+                                        "assists": 0,
+                                        "saves": null
+                                    },
+                                    "passes": {
+                                        "total": 44,
+                                        "key": null,
+                                        "accuracy": "32"
+                                    },
+                                    "tackles": {
+                                        "total": null,
+                                        "blocks": null,
+                                        "interceptions": 2
+                                    },
+                                    "duels": {
+                                        "total": 7,
+                                        "won": 2
+                                    },
+                                    "dribbles": {
+                                        "attempts": 1,
+                                        "success": 1,
+                                        "past": 1
+                                    },
+                                    "fouls": {
+                                        "drawn": 1,
+                                        "committed": 1
+                                    },
+                                    "cards": {
+                                        "yellow": 0,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": null
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "player": {
+                                "id": 5779,
+                                "name": "Facundo Ag\u00fcero",
+                                "photo": "https://media.api-sports.io/football/players/5779.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": 90,
+                                        "number": 2,
+                                        "position": "D",
+                                        "rating": "7.2",
+                                        "captain": false,
+                                        "substitute": false
+                                    },
+                                    "offsides": null,
+                                    "shots": {
+                                        "total": 2,
+                                        "on": null
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 0,
+                                        "assists": 0,
+                                        "saves": null
+                                    },
+                                    "passes": {
+                                        "total": 32,
+                                        "key": null,
+                                        "accuracy": "23"
+                                    },
+                                    "tackles": {
+                                        "total": 1,
+                                        "blocks": 1,
+                                        "interceptions": null
+                                    },
+                                    "duels": {
+                                        "total": 4,
+                                        "won": 1
+                                    },
+                                    "dribbles": {
+                                        "attempts": null,
+                                        "success": null,
+                                        "past": 2
+                                    },
+                                    "fouls": {
+                                        "drawn": null,
+                                        "committed": null
+                                    },
+                                    "cards": {
+                                        "yellow": 0,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": null
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "player": {
+                                "id": 13715,
+                                "name": "Julian Millan",
+                                "photo": "https://media.api-sports.io/football/players/13715.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": 90,
+                                        "number": 29,
+                                        "position": "D",
+                                        "rating": "7.2",
+                                        "captain": false,
+                                        "substitute": false
+                                    },
+                                    "offsides": null,
+                                    "shots": {
+                                        "total": null,
+                                        "on": null
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 0,
+                                        "assists": 0,
+                                        "saves": null
+                                    },
+                                    "passes": {
+                                        "total": 31,
+                                        "key": null,
+                                        "accuracy": "22"
+                                    },
+                                    "tackles": {
+                                        "total": 2,
+                                        "blocks": null,
+                                        "interceptions": 1
+                                    },
+                                    "duels": {
+                                        "total": 10,
+                                        "won": 7
+                                    },
+                                    "dribbles": {
+                                        "attempts": null,
+                                        "success": null,
+                                        "past": null
+                                    },
+                                    "fouls": {
+                                        "drawn": 1,
+                                        "committed": null
+                                    },
+                                    "cards": {
+                                        "yellow": 0,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": null
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "player": {
+                                "id": 13500,
+                                "name": "Dairon Mosquera",
+                                "photo": "https://media.api-sports.io/football/players/13500.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": 90,
+                                        "number": 30,
+                                        "position": "D",
+                                        "rating": "7.3",
+                                        "captain": false,
+                                        "substitute": false
+                                    },
+                                    "offsides": null,
+                                    "shots": {
+                                        "total": null,
+                                        "on": null
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 0,
+                                        "assists": 0,
+                                        "saves": null
+                                    },
+                                    "passes": {
+                                        "total": 31,
+                                        "key": 2,
+                                        "accuracy": "19"
+                                    },
+                                    "tackles": {
+                                        "total": 1,
+                                        "blocks": null,
+                                        "interceptions": 3
+                                    },
+                                    "duels": {
+                                        "total": 11,
+                                        "won": 5
+                                    },
+                                    "dribbles": {
+                                        "attempts": 1,
+                                        "success": 1,
+                                        "past": 3
+                                    },
+                                    "fouls": {
+                                        "drawn": null,
+                                        "committed": 2
+                                    },
+                                    "cards": {
+                                        "yellow": 0,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": null
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "player": {
+                                "id": 379104,
+                                "name": "Johan Torres",
+                                "photo": "https://media.api-sports.io/football/players/379104.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": 82,
+                                        "number": 14,
+                                        "position": "M",
+                                        "rating": "6.9",
+                                        "captain": false,
+                                        "substitute": false
+                                    },
+                                    "offsides": null,
+                                    "shots": {
+                                        "total": 1,
+                                        "on": null
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 0,
+                                        "assists": 0,
+                                        "saves": null
+                                    },
+                                    "passes": {
+                                        "total": 40,
+                                        "key": 1,
+                                        "accuracy": "32"
+                                    },
+                                    "tackles": {
+                                        "total": 1,
+                                        "blocks": null,
+                                        "interceptions": null
+                                    },
+                                    "duels": {
+                                        "total": 8,
+                                        "won": 2
+                                    },
+                                    "dribbles": {
+                                        "attempts": null,
+                                        "success": null,
+                                        "past": 1
+                                    },
+                                    "fouls": {
+                                        "drawn": null,
+                                        "committed": 3
+                                    },
+                                    "cards": {
+                                        "yellow": 0,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": null
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "player": {
+                                "id": 13290,
+                                "name": "Yilmar Vel\u00e1zquez",
+                                "photo": "https://media.api-sports.io/football/players/13290.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": 45,
+                                        "number": 20,
+                                        "position": "M",
+                                        "rating": "7",
+                                        "captain": false,
+                                        "substitute": false
+                                    },
+                                    "offsides": null,
+                                    "shots": {
+                                        "total": null,
+                                        "on": null
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 0,
+                                        "assists": 0,
+                                        "saves": null
+                                    },
+                                    "passes": {
+                                        "total": 14,
+                                        "key": 1,
+                                        "accuracy": "12"
+                                    },
+                                    "tackles": {
+                                        "total": 2,
+                                        "blocks": 1,
+                                        "interceptions": 2
+                                    },
+                                    "duels": {
+                                        "total": 5,
+                                        "won": 3
+                                    },
+                                    "dribbles": {
+                                        "attempts": 1,
+                                        "success": 1,
+                                        "past": 1
+                                    },
+                                    "fouls": {
+                                        "drawn": null,
+                                        "committed": 1
+                                    },
+                                    "cards": {
+                                        "yellow": 1,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": null
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "player": {
+                                "id": 46720,
+                                "name": "Daniel Torres",
+                                "photo": "https://media.api-sports.io/football/players/46720.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": 90,
+                                        "number": 16,
+                                        "position": "M",
+                                        "rating": "6.9",
+                                        "captain": true,
+                                        "substitute": false
+                                    },
+                                    "offsides": null,
+                                    "shots": {
+                                        "total": 1,
+                                        "on": null
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 0,
+                                        "assists": 0,
+                                        "saves": null
+                                    },
+                                    "passes": {
+                                        "total": 35,
+                                        "key": 1,
+                                        "accuracy": "31"
+                                    },
+                                    "tackles": {
+                                        "total": null,
+                                        "blocks": null,
+                                        "interceptions": 1
+                                    },
+                                    "duels": {
+                                        "total": 5,
+                                        "won": 1
+                                    },
+                                    "dribbles": {
+                                        "attempts": null,
+                                        "success": null,
+                                        "past": 1
+                                    },
+                                    "fouls": {
+                                        "drawn": null,
+                                        "committed": 2
+                                    },
+                                    "cards": {
+                                        "yellow": 0,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": null
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "player": {
+                                "id": 51135,
+                                "name": "Harold Mosquera",
+                                "photo": "https://media.api-sports.io/football/players/51135.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": 64,
+                                        "number": 23,
+                                        "position": "F",
+                                        "rating": "7",
+                                        "captain": false,
+                                        "substitute": false
+                                    },
+                                    "offsides": 1,
+                                    "shots": {
+                                        "total": 4,
+                                        "on": 2
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 0,
+                                        "assists": 0,
+                                        "saves": null
+                                    },
+                                    "passes": {
+                                        "total": 9,
+                                        "key": 1,
+                                        "accuracy": "9"
+                                    },
+                                    "tackles": {
+                                        "total": null,
+                                        "blocks": null,
+                                        "interceptions": null
+                                    },
+                                    "duels": {
+                                        "total": 4,
+                                        "won": null
+                                    },
+                                    "dribbles": {
+                                        "attempts": 1,
+                                        "success": null,
+                                        "past": null
+                                    },
+                                    "fouls": {
+                                        "drawn": null,
+                                        "committed": null
+                                    },
+                                    "cards": {
+                                        "yellow": 0,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": null
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "player": {
+                                "id": 153380,
+                                "name": "Agust\u00edn Rodr\u00edguez",
+                                "photo": "https://media.api-sports.io/football/players/153380.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": 87,
+                                        "number": 9,
+                                        "position": "F",
+                                        "rating": "7.6",
+                                        "captain": false,
+                                        "substitute": false
+                                    },
+                                    "offsides": null,
+                                    "shots": {
+                                        "total": 3,
+                                        "on": 3
+                                    },
+                                    "goals": {
+                                        "total": 1,
+                                        "conceded": 0,
+                                        "assists": 0,
+                                        "saves": null
+                                    },
+                                    "passes": {
+                                        "total": 17,
+                                        "key": 1,
+                                        "accuracy": "10"
+                                    },
+                                    "tackles": {
+                                        "total": 1,
+                                        "blocks": null,
+                                        "interceptions": null
+                                    },
+                                    "duels": {
+                                        "total": 13,
+                                        "won": 4
+                                    },
+                                    "dribbles": {
+                                        "attempts": 1,
+                                        "success": 1,
+                                        "past": null
+                                    },
+                                    "fouls": {
+                                        "drawn": 1,
+                                        "committed": 3
+                                    },
+                                    "cards": {
+                                        "yellow": 0,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": null
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "player": {
+                                "id": 13545,
+                                "name": "Juan Zuluaga",
+                                "photo": "https://media.api-sports.io/football/players/13545.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": 45,
+                                        "number": 8,
+                                        "position": "D",
+                                        "rating": "6.9",
+                                        "captain": false,
+                                        "substitute": true
+                                    },
+                                    "offsides": null,
+                                    "shots": {
+                                        "total": 1,
+                                        "on": null
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 0,
+                                        "assists": 0,
+                                        "saves": null
+                                    },
+                                    "passes": {
+                                        "total": 16,
+                                        "key": null,
+                                        "accuracy": "12"
+                                    },
+                                    "tackles": {
+                                        "total": 4,
+                                        "blocks": null,
+                                        "interceptions": null
+                                    },
+                                    "duels": {
+                                        "total": 9,
+                                        "won": 4
+                                    },
+                                    "dribbles": {
+                                        "attempts": null,
+                                        "success": null,
+                                        "past": 3
+                                    },
+                                    "fouls": {
+                                        "drawn": null,
+                                        "committed": null
+                                    },
+                                    "cards": {
+                                        "yellow": 0,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": null
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "player": {
+                                "id": 6417,
+                                "name": "Edwar L\u00f3pez",
+                                "photo": "https://media.api-sports.io/football/players/6417.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": 26,
+                                        "number": 28,
+                                        "position": "F",
+                                        "rating": "6.7",
+                                        "captain": false,
+                                        "substitute": true
+                                    },
+                                    "offsides": null,
+                                    "shots": {
+                                        "total": null,
+                                        "on": null
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 0,
+                                        "assists": 0,
+                                        "saves": null
+                                    },
+                                    "passes": {
+                                        "total": 13,
+                                        "key": null,
+                                        "accuracy": "8"
+                                    },
+                                    "tackles": {
+                                        "total": 1,
+                                        "blocks": null,
+                                        "interceptions": null
+                                    },
+                                    "duels": {
+                                        "total": 7,
+                                        "won": 2
+                                    },
+                                    "dribbles": {
+                                        "attempts": null,
+                                        "success": null,
+                                        "past": null
+                                    },
+                                    "fouls": {
+                                        "drawn": null,
+                                        "committed": null
+                                    },
+                                    "cards": {
+                                        "yellow": 0,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": null
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "player": {
+                                "id": 59617,
+                                "name": "Jhon Mel\u00e9ndez",
+                                "photo": "https://media.api-sports.io/football/players/59617.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": 8,
+                                        "number": 18,
+                                        "position": "D",
+                                        "rating": "6.5",
+                                        "captain": false,
+                                        "substitute": true
+                                    },
+                                    "offsides": null,
+                                    "shots": {
+                                        "total": null,
+                                        "on": null
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 0,
+                                        "assists": 0,
+                                        "saves": null
+                                    },
+                                    "passes": {
+                                        "total": 4,
+                                        "key": null,
+                                        "accuracy": "3"
+                                    },
+                                    "tackles": {
+                                        "total": null,
+                                        "blocks": null,
+                                        "interceptions": null
+                                    },
+                                    "duels": {
+                                        "total": 2,
+                                        "won": null
+                                    },
+                                    "dribbles": {
+                                        "attempts": null,
+                                        "success": null,
+                                        "past": 1
+                                    },
+                                    "fouls": {
+                                        "drawn": null,
+                                        "committed": null
+                                    },
+                                    "cards": {
+                                        "yellow": 0,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": null
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "player": {
+                                "id": 59416,
+                                "name": "Ivan Scarpetta",
+                                "photo": "https://media.api-sports.io/football/players/59416.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": 8,
+                                        "number": 15,
+                                        "position": "D",
+                                        "rating": "6.9",
+                                        "captain": false,
+                                        "substitute": true
+                                    },
+                                    "offsides": null,
+                                    "shots": {
+                                        "total": null,
+                                        "on": null
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 0,
+                                        "assists": 0,
+                                        "saves": null
+                                    },
+                                    "passes": {
+                                        "total": 5,
+                                        "key": null,
+                                        "accuracy": "1"
+                                    },
+                                    "tackles": {
+                                        "total": 1,
+                                        "blocks": null,
+                                        "interceptions": null
+                                    },
+                                    "duels": {
+                                        "total": 4,
+                                        "won": 4
+                                    },
+                                    "dribbles": {
+                                        "attempts": null,
+                                        "success": null,
+                                        "past": null
+                                    },
+                                    "fouls": {
+                                        "drawn": null,
+                                        "committed": null
+                                    },
+                                    "cards": {
+                                        "yellow": 0,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": null
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "player": {
+                                "id": 59471,
+                                "name": "Jordy Ararat",
+                                "photo": "https://media.api-sports.io/football/players/59471.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": 11,
+                                        "number": 17,
+                                        "position": "D",
+                                        "rating": "6.3",
+                                        "captain": false,
+                                        "substitute": true
+                                    },
+                                    "offsides": null,
+                                    "shots": {
+                                        "total": null,
+                                        "on": null
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 0,
+                                        "assists": 0,
+                                        "saves": null
+                                    },
+                                    "passes": {
+                                        "total": 3,
+                                        "key": null,
+                                        "accuracy": "2"
+                                    },
+                                    "tackles": {
+                                        "total": null,
+                                        "blocks": null,
+                                        "interceptions": null
+                                    },
+                                    "duels": {
+                                        "total": null,
+                                        "won": null
+                                    },
+                                    "dribbles": {
+                                        "attempts": null,
+                                        "success": null,
+                                        "past": null
+                                    },
+                                    "fouls": {
+                                        "drawn": null,
+                                        "committed": null
+                                    },
+                                    "cards": {
+                                        "yellow": 0,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": null
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "player": {
+                                "id": 344938,
+                                "name": "Juan Espitia",
+                                "photo": "https://media.api-sports.io/football/players/344938.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": null,
+                                        "number": 12,
+                                        "position": "G",
+                                        "rating": null,
+                                        "captain": false,
+                                        "substitute": true
+                                    },
+                                    "offsides": null,
+                                    "shots": {
+                                        "total": null,
+                                        "on": null
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 0,
+                                        "assists": null,
+                                        "saves": null
+                                    },
+                                    "passes": {
+                                        "total": null,
+                                        "key": null,
+                                        "accuracy": null
+                                    },
+                                    "tackles": {
+                                        "total": null,
+                                        "blocks": null,
+                                        "interceptions": null
+                                    },
+                                    "duels": {
+                                        "total": null,
+                                        "won": null
+                                    },
+                                    "dribbles": {
+                                        "attempts": null,
+                                        "success": null,
+                                        "past": null
+                                    },
+                                    "fouls": {
+                                        "drawn": null,
+                                        "committed": null
+                                    },
+                                    "cards": {
+                                        "yellow": 0,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": null
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "player": {
+                                "id": 375858,
+                                "name": "Santiago Cuero",
+                                "photo": "https://media.api-sports.io/football/players/375858.png"
+                            },
+                            "statistics": [
+                                {
+                                    "games": {
+                                        "minutes": null,
+                                        "number": 25,
+                                        "position": "D",
+                                        "rating": null,
+                                        "captain": false,
+                                        "substitute": true
+                                    },
+                                    "offsides": null,
+                                    "shots": {
+                                        "total": null,
+                                        "on": null
+                                    },
+                                    "goals": {
+                                        "total": null,
+                                        "conceded": 0,
+                                        "assists": null,
+                                        "saves": null
+                                    },
+                                    "passes": {
+                                        "total": null,
+                                        "key": null,
+                                        "accuracy": null
+                                    },
+                                    "tackles": {
+                                        "total": null,
+                                        "blocks": null,
+                                        "interceptions": null
+                                    },
+                                    "duels": {
+                                        "total": null,
+                                        "won": null
+                                    },
+                                    "dribbles": {
+                                        "attempts": null,
+                                        "success": null,
+                                        "past": null
+                                    },
+                                    "fouls": {
+                                        "drawn": null,
+                                        "committed": null
+                                    },
+                                    "cards": {
+                                        "yellow": 0,
+                                        "red": 0
+                                    },
+                                    "penalty": {
+                                        "won": null,
+                                        "commited": null,
+                                        "scored": 0,
+                                        "missed": 0,
+                                        "saved": null
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

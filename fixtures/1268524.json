@@ -1,0 +1,109 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1268524"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1268524,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-29T12:30:00+00:00",
+                "timestamp": 1722256200,
+                "periods": {
+                    "first": 1722256200,
+                    "second": 1722259800
+                },
+                "venue": {
+                    "id": 835,
+                    "name": "Stadion Gelora Bung Tomo",
+                    "city": "Surabaya"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 928,
+                "name": "AFF U19 Championship",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/928.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Final"
+            },
+            "teams": {
+                "home": {
+                    "id": 19155,
+                    "name": "Thailand U19",
+                    "logo": "https://media.api-sports.io/football/teams/19155.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 19149,
+                    "name": "Indonesia U19",
+                    "logo": "https://media.api-sports.io/football/teams/19149.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 17,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 19149,
+                        "name": "Indonesia U19",
+                        "logo": "https://media.api-sports.io/football/teams/19149.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "J. Raven"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

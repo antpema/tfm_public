@@ -1,0 +1,153 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1159761"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1159761,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-28T18:00:00+00:00",
+                "timestamp": 1722189600,
+                "periods": {
+                    "first": 1722189600,
+                    "second": 1722193200
+                },
+                "venue": {
+                    "id": 71,
+                    "name": "Estadio Ciudad de Caseros",
+                    "city": "Caseros, Provincia de Buenos Aires"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 132,
+                "name": "Primera C",
+                "country": "Argentina",
+                "logo": "https://media.api-sports.io/football/leagues/132.png",
+                "flag": "https://media.api-sports.io/flags/ar.svg",
+                "season": 2024,
+                "round": "Clausura - 4"
+            },
+            "teams": {
+                "home": {
+                    "id": 1967,
+                    "name": "Central Ballester",
+                    "logo": "https://media.api-sports.io/football/teams/1967.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 1940,
+                    "name": "Leandro N. Alem",
+                    "logo": "https://media.api-sports.io/football/teams/1940.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 23,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1940,
+                        "name": "Leandro N. Alem",
+                        "logo": "https://media.api-sports.io/football/teams/1940.png"
+                    },
+                    "player": {
+                        "id": 108430,
+                        "name": "F. Maldonado"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 29,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1967,
+                        "name": "Central Ballester",
+                        "logo": "https://media.api-sports.io/football/teams/1967.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "L. Unate"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 88,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1940,
+                        "name": "Leandro N. Alem",
+                        "logo": "https://media.api-sports.io/football/teams/1940.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "J. Tonet"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

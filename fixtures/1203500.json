@@ -1,0 +1,153 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1203500"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1203500,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-07T16:00:00+00:00",
+                "timestamp": 1723046400,
+                "periods": {
+                    "first": 1723046400,
+                    "second": 1723050000
+                },
+                "venue": {
+                    "id": 19931,
+                    "name": "ArcelorMittal Park",
+                    "city": "Sosnowiec"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 108,
+                "name": "Cup",
+                "country": "Poland",
+                "logo": "https://media.api-sports.io/football/leagues/108.png",
+                "flag": "https://media.api-sports.io/flags/pl.svg",
+                "season": 2024,
+                "round": "Preliminary Round"
+            },
+            "teams": {
+                "home": {
+                    "id": 342,
+                    "name": "Zaglebie Sosnowiec",
+                    "logo": "https://media.api-sports.io/football/teams/342.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 3492,
+                    "name": "Sandecja Nowy S\u0105cz",
+                    "logo": "https://media.api-sports.io/football/teams/3492.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 43,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3492,
+                        "name": "Sandecja Nowy S\u0105cz",
+                        "logo": "https://media.api-sports.io/football/teams/3492.png"
+                    },
+                    "player": {
+                        "id": 41022,
+                        "name": "M. Kwietniewski"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3492,
+                        "name": "Sandecja Nowy S\u0105cz",
+                        "logo": "https://media.api-sports.io/football/teams/3492.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "R. Golebiowski"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3492,
+                        "name": "Sandecja Nowy S\u0105cz",
+                        "logo": "https://media.api-sports.io/football/teams/3492.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "R. Golebiowski"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

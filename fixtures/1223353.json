@@ -1,0 +1,505 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1223353"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1223353,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-11T15:00:00+00:00",
+                "timestamp": 1723388400,
+                "periods": {
+                    "first": 1723388400,
+                    "second": 1723392000
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Letn\u00ed Stadion",
+                    "city": "Milevsko"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 685,
+                "name": "3. liga - CFL B",
+                "country": "Czech-Republic",
+                "logo": "https://media.api-sports.io/football/leagues/685.png",
+                "flag": "https://media.api-sports.io/flags/cz.svg",
+                "season": 2024,
+                "round": "\u010cFL B - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 7274,
+                    "name": "Ben\u00e1tky nad Jizerou",
+                    "logo": "https://media.api-sports.io/football/teams/7274.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 7381,
+                    "name": "\u00dast\u00ed nad Orlic\u00ed",
+                    "logo": "https://media.api-sports.io/football/teams/7381.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 19,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7381,
+                        "name": "\u00dast\u00ed nad Orlic\u00ed",
+                        "logo": "https://media.api-sports.io/football/teams/7381.png"
+                    },
+                    "player": {
+                        "id": 140159,
+                        "name": "J. Soucek"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 27,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7381,
+                        "name": "\u00dast\u00ed nad Orlic\u00ed",
+                        "logo": "https://media.api-sports.io/football/teams/7381.png"
+                    },
+                    "player": {
+                        "id": 140159,
+                        "name": "J. Soucek"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 37,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7274,
+                        "name": "Ben\u00e1tky nad Jizerou",
+                        "logo": "https://media.api-sports.io/football/teams/7274.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "T. Hajek"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "M. Bodlak"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 41,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7274,
+                        "name": "Ben\u00e1tky nad Jizerou",
+                        "logo": "https://media.api-sports.io/football/teams/7274.png"
+                    },
+                    "player": {
+                        "id": 80422,
+                        "name": "T. Fabian"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7274,
+                        "name": "Ben\u00e1tky nad Jizerou",
+                        "logo": "https://media.api-sports.io/football/teams/7274.png"
+                    },
+                    "player": {
+                        "id": 140176,
+                        "name": "M. Macek"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "P. Voboril"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7274,
+                        "name": "Ben\u00e1tky nad Jizerou",
+                        "logo": "https://media.api-sports.io/football/teams/7274.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "J. Zabilansky"
+                    },
+                    "assist": {
+                        "id": 277741,
+                        "name": "M. Hell"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 48,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7274,
+                        "name": "Ben\u00e1tky nad Jizerou",
+                        "logo": "https://media.api-sports.io/football/teams/7274.png"
+                    },
+                    "player": {
+                        "id": 140176,
+                        "name": "M. Macek"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 52,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7381,
+                        "name": "\u00dast\u00ed nad Orlic\u00ed",
+                        "logo": "https://media.api-sports.io/football/teams/7381.png"
+                    },
+                    "player": {
+                        "id": 140152,
+                        "name": "P. Chleboun"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7274,
+                        "name": "Ben\u00e1tky nad Jizerou",
+                        "logo": "https://media.api-sports.io/football/teams/7274.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "O. Komma"
+                    },
+                    "assist": {
+                        "id": 278888,
+                        "name": "P. Tvaroha"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 66,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7381,
+                        "name": "\u00dast\u00ed nad Orlic\u00ed",
+                        "logo": "https://media.api-sports.io/football/teams/7381.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "D. Ralis"
+                    },
+                    "assist": {
+                        "id": 140159,
+                        "name": "J. Soucek"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 66,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7381,
+                        "name": "\u00dast\u00ed nad Orlic\u00ed",
+                        "logo": "https://media.api-sports.io/football/teams/7381.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "F. Faltus"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "F. Hoffman"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7274,
+                        "name": "Ben\u00e1tky nad Jizerou",
+                        "logo": "https://media.api-sports.io/football/teams/7274.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "A. Kohout"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "P. Zitka"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 74,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7274,
+                        "name": "Ben\u00e1tky nad Jizerou",
+                        "logo": "https://media.api-sports.io/football/teams/7274.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "D. Duch"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 74,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7381,
+                        "name": "\u00dast\u00ed nad Orlic\u00ed",
+                        "logo": "https://media.api-sports.io/football/teams/7381.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "M. Zvolanek"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "J. Bednar"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 74,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7381,
+                        "name": "\u00dast\u00ed nad Orlic\u00ed",
+                        "logo": "https://media.api-sports.io/football/teams/7381.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "M. Kuja"
+                    },
+                    "assist": {
+                        "id": 80516,
+                        "name": "T. Hynek"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7381,
+                        "name": "\u00dast\u00ed nad Orlic\u00ed",
+                        "logo": "https://media.api-sports.io/football/teams/7381.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "J. Stransky"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 88,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7274,
+                        "name": "Ben\u00e1tky nad Jizerou",
+                        "logo": "https://media.api-sports.io/football/teams/7274.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "O. Komma"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7381,
+                        "name": "\u00dast\u00ed nad Orlic\u00ed",
+                        "logo": "https://media.api-sports.io/football/teams/7381.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "A. Mach"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "J. Stransky"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7381,
+                        "name": "\u00dast\u00ed nad Orlic\u00ed",
+                        "logo": "https://media.api-sports.io/football/teams/7381.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "J. Tlusty"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

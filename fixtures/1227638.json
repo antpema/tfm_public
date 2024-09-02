@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1227638"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1227638,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-11T19:00:00+00:00",
+                "timestamp": 1723402800,
+                "periods": {
+                    "first": 1723402800,
+                    "second": 1723406400
+                },
+                "venue": {
+                    "id": 923,
+                    "name": "Stadio Adriatico-Giovanni Cornacchia",
+                    "city": "Pescara"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 891,
+                "name": "Coppa Italia Serie C",
+                "country": "Italy",
+                "logo": "https://media.api-sports.io/football/leagues/891.png",
+                "flag": "https://media.api-sports.io/flags/it.svg",
+                "season": 2024,
+                "round": "1st Round"
+            },
+            "teams": {
+                "home": {
+                    "id": 525,
+                    "name": "Pescara",
+                    "logo": "https://media.api-sports.io/football/teams/525.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 9514,
+                    "name": "Pineto",
+                    "logo": "https://media.api-sports.io/football/teams/9514.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 52,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 9514,
+                        "name": "Pineto",
+                        "logo": "https://media.api-sports.io/football/teams/9514.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "L. Fabrizi"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 9514,
+                        "name": "Pineto",
+                        "logo": "https://media.api-sports.io/football/teams/9514.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "A. Marrancone"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

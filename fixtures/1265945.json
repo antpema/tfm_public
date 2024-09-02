@@ -1,0 +1,756 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1265945"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1265945,
+                "referee": "J. Grutter",
+                "timezone": "UTC",
+                "date": "2024-08-04T12:00:00+00:00",
+                "timestamp": 1722772800,
+                "periods": {
+                    "first": 1722772800,
+                    "second": 1722776400
+                },
+                "venue": {
+                    "id": 6476,
+                    "name": "Franz-Kremer-Stadion",
+                    "city": "K\u00f6ln"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 488,
+                "name": "U19 Bundesliga",
+                "country": "Germany",
+                "logo": "https://media.api-sports.io/football/leagues/488.png",
+                "flag": "https://media.api-sports.io/flags/de.svg",
+                "season": 2024,
+                "round": "West - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 10265,
+                    "name": "K\u00f6ln U19",
+                    "logo": "https://media.api-sports.io/football/teams/10265.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 10262,
+                    "name": "Kaiserslautern U19",
+                    "logo": "https://media.api-sports.io/football/teams/10262.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 4,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 4,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 12,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10265,
+                        "name": "K\u00f6ln U19",
+                        "logo": "https://media.api-sports.io/football/teams/10265.png"
+                    },
+                    "player": {
+                        "id": 415724,
+                        "name": "Y. Niang"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 37,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10265,
+                        "name": "K\u00f6ln U19",
+                        "logo": "https://media.api-sports.io/football/teams/10265.png"
+                    },
+                    "player": {
+                        "id": 438033,
+                        "name": "N. Zimmermann"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 10265,
+                        "name": "K\u00f6ln U19",
+                        "logo": "https://media.api-sports.io/football/teams/10265.png"
+                    },
+                    "player": {
+                        "id": 415724,
+                        "name": "Y. Niang"
+                    },
+                    "assist": {
+                        "id": 448560,
+                        "name": "C. Chukwukelu"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10262,
+                        "name": "Kaiserslautern U19",
+                        "logo": "https://media.api-sports.io/football/teams/10262.png"
+                    },
+                    "player": {
+                        "id": 479087,
+                        "name": "M. Y\u00fcs\u00fcn"
+                    },
+                    "assist": {
+                        "id": 479088,
+                        "name": "N. Tamakloe"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10262,
+                        "name": "Kaiserslautern U19",
+                        "logo": "https://media.api-sports.io/football/teams/10262.png"
+                    },
+                    "player": {
+                        "id": 436340,
+                        "name": "M. Baser"
+                    },
+                    "assist": {
+                        "id": 479089,
+                        "name": "P. Besch"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 60,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10265,
+                        "name": "K\u00f6ln U19",
+                        "logo": "https://media.api-sports.io/football/teams/10265.png"
+                    },
+                    "player": {
+                        "id": 432575,
+                        "name": "K. Sancarbarlaz"
+                    },
+                    "assist": {
+                        "id": 479084,
+                        "name": "F. Schenten"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10262,
+                        "name": "Kaiserslautern U19",
+                        "logo": "https://media.api-sports.io/football/teams/10262.png"
+                    },
+                    "player": {
+                        "id": 479090,
+                        "name": "K. Ramadani"
+                    },
+                    "assist": {
+                        "id": 479091,
+                        "name": "E. M\u00fcller"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10262,
+                        "name": "Kaiserslautern U19",
+                        "logo": "https://media.api-sports.io/football/teams/10262.png"
+                    },
+                    "player": {
+                        "id": 432304,
+                        "name": "D. Tuttobene"
+                    },
+                    "assist": {
+                        "id": 479092,
+                        "name": "J. Mensah"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10265,
+                        "name": "K\u00f6ln U19",
+                        "logo": "https://media.api-sports.io/football/teams/10265.png"
+                    },
+                    "player": {
+                        "id": 394172,
+                        "name": "K. Irmiev"
+                    },
+                    "assist": {
+                        "id": 467192,
+                        "name": "A. Puzzo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10265,
+                        "name": "K\u00f6ln U19",
+                        "logo": "https://media.api-sports.io/football/teams/10265.png"
+                    },
+                    "player": {
+                        "id": 432632,
+                        "name": "G. Mio\u0107evi\u010d"
+                    },
+                    "assist": {
+                        "id": 479085,
+                        "name": "D. Williams"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10265,
+                        "name": "K\u00f6ln U19",
+                        "logo": "https://media.api-sports.io/football/teams/10265.png"
+                    },
+                    "player": {
+                        "id": 432573,
+                        "name": "A. Yilmaz"
+                    },
+                    "assist": {
+                        "id": 479086,
+                        "name": "J. Ponente"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10262,
+                        "name": "Kaiserslautern U19",
+                        "logo": "https://media.api-sports.io/football/teams/10262.png"
+                    },
+                    "player": {
+                        "id": 456188,
+                        "name": "I. Elyazidi"
+                    },
+                    "assist": {
+                        "id": 432342,
+                        "name": "O. Gibs"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 76,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10265,
+                        "name": "K\u00f6ln U19",
+                        "logo": "https://media.api-sports.io/football/teams/10265.png"
+                    },
+                    "player": {
+                        "id": 448560,
+                        "name": "C. Chukwukelu"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10265,
+                        "name": "K\u00f6ln U19",
+                        "logo": "https://media.api-sports.io/football/teams/10265.png"
+                    },
+                    "player": {
+                        "id": 448560,
+                        "name": "C. Chukwukelu"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 10265,
+                        "name": "K\u00f6ln U19",
+                        "logo": "https://media.api-sports.io/football/teams/10265.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 8180,
+                        "name": "S. Ruthenbeck",
+                        "photo": "https://media.api-sports.io/football/coachs/8180.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 363044,
+                                "name": "L. Hauer",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 413299,
+                                "name": "S. Spitali",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 396428,
+                                "name": "J. von der Hitz",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 432632,
+                                "name": "G. Mio\u0107evi\u010d",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 456257,
+                                "name": "L. Stapelmann",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 438033,
+                                "name": "N. Zimmermann",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 394733,
+                                "name": "F. Harchaoui",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 432575,
+                                "name": "K. Sancarbarlaz",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 394172,
+                                "name": "K. Irmiev",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 432573,
+                                "name": "A. Yilmaz",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 415724,
+                                "name": "Y. Niang",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 448560,
+                                "name": "C. Chukwukelu",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 479084,
+                                "name": "F. Schenten",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 467192,
+                                "name": "A. Puzzo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 479085,
+                                "name": "D. Williams",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 479086,
+                                "name": "J. Ponente",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 457043,
+                                "name": "J. Friemel",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 479175,
+                                "name": "M. Marutzki",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 10262,
+                        "name": "Kaiserslautern U19",
+                        "logo": "https://media.api-sports.io/football/teams/10262.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 22827,
+                        "name": "E. Baffoun",
+                        "photo": "https://media.api-sports.io/football/coachs/22827.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 466009,
+                                "name": "E. Kamga",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 432341,
+                                "name": "M. Hommes",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 435078,
+                                "name": "T. Zeigler",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 479174,
+                                "name": "F. Ammann",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 432335,
+                                "name": "M. Heinz",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 456188,
+                                "name": "I. Elyazidi",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 448624,
+                                "name": "K. Scheer",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 436340,
+                                "name": "M. Baser",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 432304,
+                                "name": "D. Tuttobene",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 479087,
+                                "name": "M. Y\u00fcs\u00fcn",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 479090,
+                                "name": "K. Ramadani",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 479088,
+                                "name": "N. Tamakloe",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 479089,
+                                "name": "P. Besch",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 479091,
+                                "name": "E. M\u00fcller",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 479092,
+                                "name": "J. Mensah",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 432342,
+                                "name": "O. Gibs",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 392138,
+                                "name": "L. Tauer",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 479176,
+                                "name": "M. Seegel",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

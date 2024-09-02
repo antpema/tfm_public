@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1211106"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1211106,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-26T18:30:00+00:00",
+                "timestamp": 1722018600,
+                "periods": {
+                    "first": 1722018600,
+                    "second": 1722022200
+                },
+                "venue": {
+                    "id": 20248,
+                    "name": "Gentles Construction Stadium",
+                    "city": "Taffs Well / Ffynnnon Taf, Rhondda Cynon Taf"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 111,
+                "name": "FAW Championship",
+                "country": "Wales",
+                "logo": "https://media.api-sports.io/football/leagues/111.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2024,
+                "round": "South - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 2199,
+                    "name": "Taffs Well",
+                    "logo": "https://media.api-sports.io/football/teams/2199.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 355,
+                    "name": "llanelli AFC",
+                    "logo": "https://media.api-sports.io/football/teams/355.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 33,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 355,
+                        "name": "llanelli AFC",
+                        "logo": "https://media.api-sports.io/football/teams/355.png"
+                    },
+                    "player": {
+                        "id": 53294,
+                        "name": "H. Jones"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 49,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2199,
+                        "name": "Taffs Well",
+                        "logo": "https://media.api-sports.io/football/teams/2199.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "D. Lyon"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

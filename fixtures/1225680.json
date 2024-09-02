@@ -1,0 +1,595 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1225680"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1225680,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-17T17:00:00+00:00",
+                "timestamp": 1721235600,
+                "periods": {
+                    "first": 1721235600,
+                    "second": 1721239200
+                },
+                "venue": {
+                    "id": 6504,
+                    "name": "Camp Municipal d'Olot",
+                    "city": "Olot"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 9403,
+                    "name": "Olot",
+                    "logo": "https://media.api-sports.io/football/teams/9403.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 547,
+                    "name": "Girona",
+                    "logo": "https://media.api-sports.io/football/teams/547.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 49,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 9403,
+                        "name": "Olot",
+                        "logo": "https://media.api-sports.io/football/teams/9403.png"
+                    },
+                    "player": {
+                        "id": 70499,
+                        "name": "A. Torras"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 51,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 547,
+                        "name": "Girona",
+                        "logo": "https://media.api-sports.io/football/teams/547.png"
+                    },
+                    "player": {
+                        "id": 389602,
+                        "name": "I. Almena"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 9403,
+                        "name": "Olot",
+                        "logo": "https://media.api-sports.io/football/teams/9403.png",
+                        "colors": {
+                            "player": {
+                                "primary": "ff0000",
+                                "number": "222226",
+                                "border": "ff0000"
+                            },
+                            "goalkeeper": {
+                                "primary": "fafb00",
+                                "number": "000000",
+                                "border": "fafb00"
+                            }
+                        }
+                    },
+                    "formation": "4-2-3-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 178951,
+                                "name": "Pol Ballest\u00e9",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Yaya Sidibe",
+                                "number": 2,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Robert Costa",
+                                "number": 22,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47241,
+                                "name": "Oriol Ayala",
+                                "number": 6,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 181653,
+                                "name": "Joan Maynau",
+                                "number": 3,
+                                "pos": "M",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Uri Gonz\u00e1lez",
+                                "number": 16,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Guillem Terma",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 192008,
+                                "name": "Pau Salvans",
+                                "number": 7,
+                                "pos": "F",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 181735,
+                                "name": "Pedro del Campo",
+                                "number": 11,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Arnau For\u00e9s",
+                                "number": 14,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 122392,
+                                "name": "Marc Mas Costa",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Jan Dan\u00e9s",
+                                "number": 13,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 181733,
+                                "name": "Roger Barnils",
+                                "number": 4,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Gerard de Marco",
+                                "number": 12,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Sergi Marcillo",
+                                "number": 27,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70499,
+                                "name": "Albert Torras",
+                                "number": 20,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "David L\u00f3pez",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Pau Juvanteny",
+                                "number": 5,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Marc Comamala",
+                                "number": 23,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Iburraima Ceesay",
+                                "number": 26,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Marti Puigbert",
+                                "number": 24,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 125554,
+                                "name": "Chema Moreno",
+                                "number": 18,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Guillem Farr\u00e9s",
+                                "number": 28,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Roger Cortes Guzm\u00e1n",
+                                "number": 25,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 6820,
+                        "name": "Pedro D\u00f3lera",
+                        "photo": "https://media.api-sports.io/football/coachs/6820.png"
+                    }
+                },
+                {
+                    "team": {
+                        "id": 547,
+                        "name": "Girona",
+                        "logo": "https://media.api-sports.io/football/teams/547.png",
+                        "colors": {
+                            "player": {
+                                "primary": "f0f0f0",
+                                "number": "3a3f54",
+                                "border": "f0f0f0"
+                            },
+                            "goalkeeper": {
+                                "primary": "050505",
+                                "number": "ffffff",
+                                "border": "050505"
+                            }
+                        }
+                    },
+                    "formation": "3-4-3",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 158,
+                                "name": "Paulo Gazzaniga",
+                                "number": 13,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 283668,
+                                "name": "Arnau Mart\u00ednez",
+                                "number": 4,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47511,
+                                "name": "Juanpe",
+                                "number": 15,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 402280,
+                                "name": "Antal Yaakobishvili",
+                                "number": 32,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 266202,
+                                "name": "Ilyas Chaira",
+                                "number": 16,
+                                "pos": "M",
+                                "grid": "3:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 402281,
+                                "name": "Silvi Cl\u00faa",
+                                "number": 18,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1700,
+                                "name": "Iv\u00e1n Mart\u00edn",
+                                "number": 23,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 336674,
+                                "name": "Gabriel Misehouy",
+                                "number": 20,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47514,
+                                "name": "Valery Fern\u00e1ndez",
+                                "number": 11,
+                                "pos": "D",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 2617,
+                                "name": "Cristhian Stuani",
+                                "number": 7,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 263530,
+                                "name": "Pau V\u00edctor",
+                                "number": 14,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 47153,
+                                "name": "Juan Carlos",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 122985,
+                                "name": "Sergi Puig",
+                                "number": null,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47334,
+                                "name": "David L\u00f3pez",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Oriol Comas",
+                                "number": null,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47492,
+                                "name": "Toni Villa",
+                                "number": 19,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 263529,
+                                "name": "Ibrahima K\u00e9b\u00e9",
+                                "number": 6,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Min-su Kim",
+                                "number": null,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15811,
+                                "name": "Artem Dovbyk",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 46782,
+                                "name": "Manu Vallejo",
+                                "number": 19,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 389602,
+                                "name": "Iker Almena",
+                                "number": 30,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 82,
+                        "name": "M\u00edchel S\u00e1nchez",
+                        "photo": "https://media.api-sports.io/football/coachs/82.png"
+                    }
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

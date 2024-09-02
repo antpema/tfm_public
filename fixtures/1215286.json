@@ -1,0 +1,417 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1215286"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1215286,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-11T13:00:00+00:00",
+                "timestamp": 1723381200,
+                "periods": {
+                    "first": 1723381200,
+                    "second": 1723384800
+                },
+                "venue": {
+                    "id": 494,
+                    "name": "Emirates Stadium",
+                    "city": "London"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 937,
+                "name": "Emirates Cup",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/937.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Final"
+            },
+            "teams": {
+                "home": {
+                    "id": 42,
+                    "name": "Arsenal",
+                    "logo": "https://media.api-sports.io/football/teams/42.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 80,
+                    "name": "Lyon",
+                    "logo": "https://media.api-sports.io/football/teams/80.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 9,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 42,
+                        "name": "Arsenal",
+                        "logo": "https://media.api-sports.io/football/teams/42.png"
+                    },
+                    "player": {
+                        "id": 22090,
+                        "name": "W. Saliba"
+                    },
+                    "assist": {
+                        "id": 2937,
+                        "name": "D. Rice"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 27,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 42,
+                        "name": "Arsenal",
+                        "logo": "https://media.api-sports.io/football/teams/42.png"
+                    },
+                    "player": {
+                        "id": 22224,
+                        "name": "Gabriel"
+                    },
+                    "assist": {
+                        "id": 2937,
+                        "name": "D. Rice"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 42,
+                        "name": "Arsenal",
+                        "logo": "https://media.api-sports.io/football/teams/42.png"
+                    },
+                    "player": {
+                        "id": 643,
+                        "name": "Gabriel Jesus"
+                    },
+                    "assist": {
+                        "id": 2937,
+                        "name": "D. Rice"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 42,
+                        "name": "Arsenal",
+                        "logo": "https://media.api-sports.io/football/teams/42.png"
+                    },
+                    "player": {
+                        "id": 157052,
+                        "name": "R. Calafiori"
+                    },
+                    "assist": {
+                        "id": 641,
+                        "name": "O. Zinchenko"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 80,
+                        "name": "Lyon",
+                        "logo": "https://media.api-sports.io/football/teams/80.png"
+                    },
+                    "player": {
+                        "id": 350856,
+                        "name": "E. Nuamah"
+                    },
+                    "assist": {
+                        "id": 9700,
+                        "name": "Abner"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 80,
+                        "name": "Lyon",
+                        "logo": "https://media.api-sports.io/football/teams/80.png"
+                    },
+                    "player": {
+                        "id": 41323,
+                        "name": "M. Balde"
+                    },
+                    "assist": {
+                        "id": 19361,
+                        "name": "S. Benrahma"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 80,
+                        "name": "Lyon",
+                        "logo": "https://media.api-sports.io/football/teams/80.png"
+                    },
+                    "player": {
+                        "id": 368260,
+                        "name": "G. Orban"
+                    },
+                    "assist": {
+                        "id": 180496,
+                        "name": "G. Mikautadze"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 80,
+                        "name": "Lyon",
+                        "logo": "https://media.api-sports.io/football/teams/80.png"
+                    },
+                    "player": {
+                        "id": 386284,
+                        "name": "M. Diawara"
+                    },
+                    "assist": {
+                        "id": 659,
+                        "name": "M. Caqueret"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 77,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 42,
+                        "name": "Arsenal",
+                        "logo": "https://media.api-sports.io/football/teams/42.png"
+                    },
+                    "player": {
+                        "id": 2289,
+                        "name": "Jorginho"
+                    },
+                    "assist": {
+                        "id": 49,
+                        "name": "T. Partey"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 77,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 42,
+                        "name": "Arsenal",
+                        "logo": "https://media.api-sports.io/football/teams/42.png"
+                    },
+                    "player": {
+                        "id": 727,
+                        "name": "R. Nelson"
+                    },
+                    "assist": {
+                        "id": 1460,
+                        "name": "B. Saka"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 77,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 42,
+                        "name": "Arsenal",
+                        "logo": "https://media.api-sports.io/football/teams/42.png"
+                    },
+                    "player": {
+                        "id": 313236,
+                        "name": "E. Nwaneri"
+                    },
+                    "assist": {
+                        "id": 978,
+                        "name": "K. Havertz"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 42,
+                        "name": "Arsenal",
+                        "logo": "https://media.api-sports.io/football/teams/42.png"
+                    },
+                    "player": {
+                        "id": 61431,
+                        "name": "J. Kiwior"
+                    },
+                    "assist": {
+                        "id": 22090,
+                        "name": "W. Saliba"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 6",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 42,
+                        "name": "Arsenal",
+                        "logo": "https://media.api-sports.io/football/teams/42.png"
+                    },
+                    "player": {
+                        "id": 313245,
+                        "name": "M. Lewis-Skelly"
+                    },
+                    "assist": {
+                        "id": 22224,
+                        "name": "Gabriel"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 7",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 42,
+                        "name": "Arsenal",
+                        "logo": "https://media.api-sports.io/football/teams/42.png"
+                    },
+                    "player": {
+                        "id": 1946,
+                        "name": "L. Trossard"
+                    },
+                    "assist": {
+                        "id": 127769,
+                        "name": "G. Martinelli"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 8",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 80,
+                        "name": "Lyon",
+                        "logo": "https://media.api-sports.io/football/teams/80.png"
+                    },
+                    "player": {
+                        "id": 24882,
+                        "name": "O. Mangala"
+                    },
+                    "assist": {
+                        "id": 519,
+                        "name": "C. Tolisso"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

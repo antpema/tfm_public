@@ -1,0 +1,946 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1234071"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1234071,
+                "referee": "J. Maya",
+                "timezone": "UTC",
+                "date": "2024-08-07T23:45:00+00:00",
+                "timestamp": 1723074300,
+                "periods": {
+                    "first": 1723074300,
+                    "second": 1723077900
+                },
+                "venue": {
+                    "id": 1664,
+                    "name": "Estadio Rafael Agust\u00edn Tovar",
+                    "city": "Barinas"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 299,
+                "name": "Primera Divisi\u00f3n",
+                "country": "Venezuela",
+                "logo": "https://media.api-sports.io/football/leagues/299.png",
+                "flag": "https://media.api-sports.io/flags/ve.svg",
+                "season": 2024,
+                "round": "Clausura - 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 2814,
+                    "name": "Portuguesa FC",
+                    "logo": "https://media.api-sports.io/football/teams/2814.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 2808,
+                    "name": "Caracas FC",
+                    "logo": "https://media.api-sports.io/football/teams/2808.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 1,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2814,
+                        "name": "Portuguesa FC",
+                        "logo": "https://media.api-sports.io/football/teams/2814.png"
+                    },
+                    "player": {
+                        "id": 52738,
+                        "name": "M. Granados"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 3,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2808,
+                        "name": "Caracas FC",
+                        "logo": "https://media.api-sports.io/football/teams/2808.png"
+                    },
+                    "player": {
+                        "id": 57710,
+                        "name": "L. Heraldez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 31,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2808,
+                        "name": "Caracas FC",
+                        "logo": "https://media.api-sports.io/football/teams/2808.png"
+                    },
+                    "player": {
+                        "id": 11719,
+                        "name": "E. Pernia"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 31,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2814,
+                        "name": "Portuguesa FC",
+                        "logo": "https://media.api-sports.io/football/teams/2814.png"
+                    },
+                    "player": {
+                        "id": 53041,
+                        "name": "D. Rodriguez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 52,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2808,
+                        "name": "Caracas FC",
+                        "logo": "https://media.api-sports.io/football/teams/2808.png"
+                    },
+                    "player": {
+                        "id": 52838,
+                        "name": "A. Herrera"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 55,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2814,
+                        "name": "Portuguesa FC",
+                        "logo": "https://media.api-sports.io/football/teams/2814.png"
+                    },
+                    "player": {
+                        "id": 52756,
+                        "name": "J. Ram\u00edrez"
+                    },
+                    "assist": {
+                        "id": 311652,
+                        "name": "R. Chirinos"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 57,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2808,
+                        "name": "Caracas FC",
+                        "logo": "https://media.api-sports.io/football/teams/2808.png"
+                    },
+                    "player": {
+                        "id": 137620,
+                        "name": "R. Rivas"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2808,
+                        "name": "Caracas FC",
+                        "logo": "https://media.api-sports.io/football/teams/2808.png"
+                    },
+                    "player": {
+                        "id": 52838,
+                        "name": "A. Herrera"
+                    },
+                    "assist": {
+                        "id": 304611,
+                        "name": "M. Sulbar\u00e1n"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 66,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2808,
+                        "name": "Caracas FC",
+                        "logo": "https://media.api-sports.io/football/teams/2808.png"
+                    },
+                    "player": {
+                        "id": 11719,
+                        "name": "E. Pern\u00eda"
+                    },
+                    "assist": {
+                        "id": 475118,
+                        "name": "S. Oduoye"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 72,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2808,
+                        "name": "Caracas FC",
+                        "logo": "https://media.api-sports.io/football/teams/2808.png"
+                    },
+                    "player": {
+                        "id": 57710,
+                        "name": "L. Her\u00e1ldez"
+                    },
+                    "assist": {
+                        "id": 53001,
+                        "name": "V. Rodr\u00edguez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 72,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2808,
+                        "name": "Caracas FC",
+                        "logo": "https://media.api-sports.io/football/teams/2808.png"
+                    },
+                    "player": {
+                        "id": 425135,
+                        "name": "W. Correa"
+                    },
+                    "assist": {
+                        "id": 330240,
+                        "name": "B. Ortega"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2814,
+                        "name": "Portuguesa FC",
+                        "logo": "https://media.api-sports.io/football/teams/2814.png"
+                    },
+                    "player": {
+                        "id": 58820,
+                        "name": "G. Blanc"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2814,
+                        "name": "Portuguesa FC",
+                        "logo": "https://media.api-sports.io/football/teams/2814.png"
+                    },
+                    "player": {
+                        "id": 70538,
+                        "name": "D. Echeverri"
+                    },
+                    "assist": {
+                        "id": 53066,
+                        "name": "Junior Moreno"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2808,
+                        "name": "Caracas FC",
+                        "logo": "https://media.api-sports.io/football/teams/2808.png"
+                    },
+                    "player": {
+                        "id": 316822,
+                        "name": "N. Jim\u00e9nez"
+                    },
+                    "assist": {
+                        "id": 52566,
+                        "name": "L. Casiani"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2814,
+                        "name": "Portuguesa FC",
+                        "logo": "https://media.api-sports.io/football/teams/2814.png"
+                    },
+                    "player": {
+                        "id": 58820,
+                        "name": "G. Blanc"
+                    },
+                    "assist": {
+                        "id": 103933,
+                        "name": "A. Moreno"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2814,
+                        "name": "Portuguesa FC",
+                        "logo": "https://media.api-sports.io/football/teams/2814.png"
+                    },
+                    "player": {
+                        "id": 156424,
+                        "name": "Y. Colmen\u00e1rez"
+                    },
+                    "assist": {
+                        "id": 51097,
+                        "name": "R. Pe\u00f1a"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2814,
+                        "name": "Portuguesa FC",
+                        "logo": "https://media.api-sports.io/football/teams/2814.png"
+                    },
+                    "player": {
+                        "id": 52556,
+                        "name": "F. Gonz\u00e1lez"
+                    },
+                    "assist": {
+                        "id": 288477,
+                        "name": "C. Ram\u00edrez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 86,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2808,
+                        "name": "Caracas FC",
+                        "logo": "https://media.api-sports.io/football/teams/2808.png"
+                    },
+                    "player": {
+                        "id": 137620,
+                        "name": "R. Rivas"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 86,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2808,
+                        "name": "Caracas FC",
+                        "logo": "https://media.api-sports.io/football/teams/2808.png"
+                    },
+                    "player": {
+                        "id": 137620,
+                        "name": "R. Rivas"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 2
+                    },
+                    "team": {
+                        "id": 2808,
+                        "name": "Caracas FC",
+                        "logo": "https://media.api-sports.io/football/teams/2808.png"
+                    },
+                    "player": {
+                        "id": 52566,
+                        "name": "L. Casiani"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 4
+                    },
+                    "team": {
+                        "id": 2814,
+                        "name": "Portuguesa FC",
+                        "logo": "https://media.api-sports.io/football/teams/2814.png"
+                    },
+                    "player": {
+                        "id": 53066,
+                        "name": "J. Moreno"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 2814,
+                        "name": "Portuguesa FC",
+                        "logo": "https://media.api-sports.io/football/teams/2814.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 18192,
+                        "name": "J. Ort\u00edz",
+                        "photo": "https://media.api-sports.io/football/coachs/18192.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 52451,
+                                "name": "Y. Y\u00fastiz",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52738,
+                                "name": "M. Granados",
+                                "number": 88,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6466,
+                                "name": "N. Pantaleone",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13320,
+                                "name": "D. Carrero",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 156424,
+                                "name": "Y. Colmen\u00e1rez",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 12228,
+                                "name": "Johan Moreno",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 53041,
+                                "name": "D. Rodr\u00edguez",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 58820,
+                                "name": "G. Blanc",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70538,
+                                "name": "D. Echeverri",
+                                "number": 27,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52556,
+                                "name": "F. Gonz\u00e1lez",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52756,
+                                "name": "J. Ram\u00edrez",
+                                "number": 28,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 311652,
+                                "name": "R. Chirinos",
+                                "number": 3,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 53066,
+                                "name": "Junior Moreno",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 103933,
+                                "name": "A. Moreno",
+                                "number": 31,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 51097,
+                                "name": "R. Pe\u00f1a",
+                                "number": 77,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 288477,
+                                "name": "C. Ram\u00edrez",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 440283,
+                                "name": "M. Rivero",
+                                "number": 34,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 424647,
+                                "name": "Y. Bullones",
+                                "number": 35,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 313117,
+                                "name": "C. Hern\u00e1ndez",
+                                "number": 32,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 479726,
+                                "name": "R. Peraza",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 2808,
+                        "name": "Caracas FC",
+                        "logo": "https://media.api-sports.io/football/teams/2808.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 21942,
+                        "name": "F. Aristeguieta",
+                        "photo": "https://media.api-sports.io/football/coachs/21942.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 2437,
+                                "name": "W. Fari\u00f1ez",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52572,
+                                "name": "R. Quijada",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 137620,
+                                "name": "R. Rivas",
+                                "number": 29,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 354030,
+                                "name": "B. Tamayo",
+                                "number": 25,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 57710,
+                                "name": "L. Her\u00e1ldez",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52669,
+                                "name": "F. La Mantia",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 414408,
+                                "name": "M. Vegas",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 425135,
+                                "name": "W. Correa",
+                                "number": 33,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52838,
+                                "name": "A. Herrera",
+                                "number": 96,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 11719,
+                                "name": "E. Pern\u00eda",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 316822,
+                                "name": "N. Jim\u00e9nez",
+                                "number": 24,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 304611,
+                                "name": "M. Sulbar\u00e1n",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 475118,
+                                "name": "S. Oduoye",
+                                "number": 44,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 53001,
+                                "name": "V. Rodr\u00edguez",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 330240,
+                                "name": "B. Ortega",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52566,
+                                "name": "L. Casiani",
+                                "number": 30,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 455479,
+                                "name": "B. Edet",
+                                "number": 27,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52581,
+                                "name": "A. Contreras",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 354028,
+                                "name": "F. Ben\u00edtez",
+                                "number": 12,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 424714,
+                                "name": "A. Kinsler",
+                                "number": 32,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

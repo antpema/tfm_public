@@ -1,0 +1,109 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1148802"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1148802,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-11T04:30:00+00:00",
+                "timestamp": 1723350600,
+                "periods": {
+                    "first": 1723350600,
+                    "second": 1723354200
+                },
+                "venue": {
+                    "id": 7154,
+                    "name": "Lisle Carr Oval",
+                    "city": "Whitebridge"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 481,
+                "name": "Northern NSW NPL",
+                "country": "Australia",
+                "logo": "https://media.api-sports.io/football/leagues/481.png",
+                "flag": "https://media.api-sports.io/flags/au.svg",
+                "season": 2024,
+                "round": "Regular Season - 21"
+            },
+            "teams": {
+                "home": {
+                    "id": 10203,
+                    "name": "Charlestown City Blues",
+                    "logo": "https://media.api-sports.io/football/teams/10203.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 10208,
+                    "name": "Maitland",
+                    "logo": "https://media.api-sports.io/football/teams/10208.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 69,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10203,
+                        "name": "Charlestown City Blues",
+                        "logo": "https://media.api-sports.io/football/teams/10203.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

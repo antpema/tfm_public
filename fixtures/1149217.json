@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1149217"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1149217,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-21T05:00:00+00:00",
+                "timestamp": 1721538000,
+                "periods": {
+                    "first": 1721538000,
+                    "second": 1721541600
+                },
+                "venue": {
+                    "id": 2555,
+                    "name": "Sydney United Sports Center",
+                    "city": "Sydney"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 192,
+                "name": "New South Wales NPL",
+                "country": "Australia",
+                "logo": "https://media.api-sports.io/football/leagues/192.png",
+                "flag": "https://media.api-sports.io/flags/au.svg",
+                "season": 2024,
+                "round": "Regular Season - 25"
+            },
+            "teams": {
+                "home": {
+                    "id": 3776,
+                    "name": "Sydney United",
+                    "logo": "https://media.api-sports.io/football/teams/3776.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 3764,
+                    "name": "APIA Leichhardt Tigers",
+                    "logo": "https://media.api-sports.io/football/teams/3764.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 62,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3776,
+                        "name": "Sydney United",
+                        "logo": "https://media.api-sports.io/football/teams/3776.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "A. Lacalandra"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3776,
+                        "name": "Sydney United",
+                        "logo": "https://media.api-sports.io/football/teams/3776.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "S. Nakamura"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1221650"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1221650,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-08T17:30:00+00:00",
+                "timestamp": 1723138200,
+                "periods": {
+                    "first": 1723138200,
+                    "second": 1723141800
+                },
+                "venue": {
+                    "id": 2348,
+                    "name": "Al-Sadaqua Walsalam Stadium",
+                    "city": "Kuwait City"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 330,
+                "name": "Premier League",
+                "country": "Kuwait",
+                "logo": "https://media.api-sports.io/football/leagues/330.png",
+                "flag": "https://media.api-sports.io/flags/kw.svg",
+                "season": 2024,
+                "round": "Regular Season - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 3535,
+                    "name": "Al Kuwait",
+                    "logo": "https://media.api-sports.io/football/teams/3535.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 3537,
+                    "name": "Al Qadsia",
+                    "logo": "https://media.api-sports.io/football/teams/3537.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 7
+                    },
+                    "team": {
+                        "id": 3535,
+                        "name": "Al Kuwait",
+                        "logo": "https://media.api-sports.io/football/teams/3535.png"
+                    },
+                    "player": {
+                        "id": 3027,
+                        "name": "A. Zola"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3537,
+                        "name": "Al Qadsia",
+                        "logo": "https://media.api-sports.io/football/teams/3537.png"
+                    },
+                    "player": {
+                        "id": 134612,
+                        "name": "M. Berrahma"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

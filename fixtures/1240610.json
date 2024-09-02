@@ -1,0 +1,752 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1240610"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1240610,
+                "referee": "S. Matveev",
+                "timezone": "UTC",
+                "date": "2024-08-04T12:00:00+00:00",
+                "timestamp": 1722772800,
+                "periods": {
+                    "first": 1722772800,
+                    "second": 1722776400
+                },
+                "venue": {
+                    "id": 4957,
+                    "name": "Stadion Central'nyj",
+                    "city": "Chelyabinsk"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 1025,
+                "name": "Second League A - Fall Season Gold",
+                "country": "Russia",
+                "logo": "https://media.api-sports.io/football/leagues/1025.png",
+                "flag": "https://media.api-sports.io/flags/ru.svg",
+                "season": 2024,
+                "round": "Fall Season Gold - 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 6790,
+                    "name": "Chelyabinsk",
+                    "logo": "https://media.api-sports.io/football/teams/6790.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 6831,
+                    "name": "Urozhay",
+                    "logo": "https://media.api-sports.io/football/teams/6831.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 3,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6831,
+                        "name": "Urozhay",
+                        "logo": "https://media.api-sports.io/football/teams/6831.png"
+                    },
+                    "player": {
+                        "id": 306475,
+                        "name": "D. Ezhkov"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 36,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6790,
+                        "name": "Chelyabinsk",
+                        "logo": "https://media.api-sports.io/football/teams/6790.png"
+                    },
+                    "player": {
+                        "id": 43432,
+                        "name": "A. Nosov"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 6790,
+                        "name": "Chelyabinsk",
+                        "logo": "https://media.api-sports.io/football/teams/6790.png"
+                    },
+                    "player": {
+                        "id": 43713,
+                        "name": "S. Takazov"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Own Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6831,
+                        "name": "Urozhay",
+                        "logo": "https://media.api-sports.io/football/teams/6831.png"
+                    },
+                    "player": {
+                        "id": 457241,
+                        "name": "M. Gaynov"
+                    },
+                    "assist": {
+                        "id": 104584,
+                        "name": "G. Makhatadze"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 61,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6790,
+                        "name": "Chelyabinsk",
+                        "logo": "https://media.api-sports.io/football/teams/6790.png"
+                    },
+                    "player": {
+                        "id": 125473,
+                        "name": "I. Gruznov"
+                    },
+                    "assist": {
+                        "id": 7859,
+                        "name": "V. Gorbachik"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 61,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6790,
+                        "name": "Chelyabinsk",
+                        "logo": "https://media.api-sports.io/football/teams/6790.png"
+                    },
+                    "player": {
+                        "id": 125628,
+                        "name": "K. Kertanov"
+                    },
+                    "assist": {
+                        "id": 43356,
+                        "name": "R. Kosyanchuk"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6831,
+                        "name": "Urozhay",
+                        "logo": "https://media.api-sports.io/football/teams/6831.png"
+                    },
+                    "player": {
+                        "id": 268607,
+                        "name": "I. Moseychuk"
+                    },
+                    "assist": {
+                        "id": 53663,
+                        "name": "I. Temnikov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6831,
+                        "name": "Urozhay",
+                        "logo": "https://media.api-sports.io/football/teams/6831.png"
+                    },
+                    "player": {
+                        "id": 306475,
+                        "name": "D. Ezhkov"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6790,
+                        "name": "Chelyabinsk",
+                        "logo": "https://media.api-sports.io/football/teams/6790.png"
+                    },
+                    "player": {
+                        "id": 271666,
+                        "name": "G. Levin"
+                    },
+                    "assist": {
+                        "id": 455441,
+                        "name": "D. Pokotylo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6790,
+                        "name": "Chelyabinsk",
+                        "logo": "https://media.api-sports.io/football/teams/6790.png"
+                    },
+                    "player": {
+                        "id": 43432,
+                        "name": "A. Nosov"
+                    },
+                    "assist": {
+                        "id": 104566,
+                        "name": "N. Goldobin"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6790,
+                        "name": "Chelyabinsk",
+                        "logo": "https://media.api-sports.io/football/teams/6790.png"
+                    },
+                    "player": {
+                        "id": 267983,
+                        "name": "Y. Gudkov"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6790,
+                        "name": "Chelyabinsk",
+                        "logo": "https://media.api-sports.io/football/teams/6790.png"
+                    },
+                    "player": {
+                        "id": 426613,
+                        "name": "D. Pushkarev"
+                    },
+                    "assist": {
+                        "id": 324147,
+                        "name": "V. Ulyanovskiy"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 3
+                    },
+                    "team": {
+                        "id": 6790,
+                        "name": "Chelyabinsk",
+                        "logo": "https://media.api-sports.io/football/teams/6790.png"
+                    },
+                    "player": {
+                        "id": 1198,
+                        "name": "N. Rybikov"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 6790,
+                        "name": "Chelyabinsk",
+                        "logo": "https://media.api-sports.io/football/teams/6790.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 2677,
+                        "name": "R. Pilipchuk",
+                        "photo": "https://media.api-sports.io/football/coachs/2677.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 1198,
+                                "name": "N. Rybikov",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 65357,
+                                "name": "V. Khozin",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 127592,
+                                "name": "A. Samsonov",
+                                "number": 44,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43480,
+                                "name": "A. Nikitenkov",
+                                "number": 63,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 267983,
+                                "name": "Y. Gudkov",
+                                "number": 66,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43359,
+                                "name": "A. Pomerko",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 125628,
+                                "name": "K. Kertanov",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43432,
+                                "name": "A. Nosov",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 271666,
+                                "name": "G. Levin",
+                                "number": 70,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 125473,
+                                "name": "I. Gruznov",
+                                "number": 36,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 426613,
+                                "name": "D. Pushkarev",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 7859,
+                                "name": "V. Gorbachik",
+                                "number": 33,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43356,
+                                "name": "R. Kosyanchuk",
+                                "number": 37,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 455441,
+                                "name": "D. Pokotylo",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 104566,
+                                "name": "N. Goldobin",
+                                "number": 97,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 324147,
+                                "name": "V. Ulyanovskiy",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 314373,
+                                "name": "V. Zadiraka",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 104621,
+                                "name": "R. Vazitdinov",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 268969,
+                                "name": "D. Pakhomov",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 324710,
+                                "name": "K. Furman",
+                                "number": 47,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 6831,
+                        "name": "Urozhay",
+                        "logo": "https://media.api-sports.io/football/teams/6831.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 3023,
+                        "name": "R. Evdokimov",
+                        "photo": "https://media.api-sports.io/football/coachs/3023.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 53750,
+                                "name": "Y. Nesterenko",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43713,
+                                "name": "S. Takazov",
+                                "number": 30,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43584,
+                                "name": "A. Smirnov",
+                                "number": 96,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 402269,
+                                "name": "M. Vedeneev",
+                                "number": 37,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43621,
+                                "name": "A. Sharipov",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 53711,
+                                "name": "I. Bezdenezhnykh",
+                                "number": 87,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 321446,
+                                "name": "B. Reykhmen",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 268607,
+                                "name": "I. Moseychuk",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 374549,
+                                "name": "A. Solop",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 457241,
+                                "name": "M. Gaynov",
+                                "number": 90,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 306475,
+                                "name": "D. Ezhkov",
+                                "number": 33,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 104584,
+                                "name": "G. Makhatadze",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 53663,
+                                "name": "I. Temnikov",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 104586,
+                                "name": "I. Zhilov",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 60621,
+                                "name": "E. Osipov",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 476766,
+                                "name": "E. Shalimov",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43644,
+                                "name": "N. Bakalyuk",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 97530,
+                                "name": "D. Ternovskiy",
+                                "number": 24,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

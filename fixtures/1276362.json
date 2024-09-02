@@ -1,0 +1,109 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1276362"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1276362,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-03T14:30:00+00:00",
+                "timestamp": 1722695400,
+                "periods": {
+                    "first": 1722695400,
+                    "second": 1722699000
+                },
+                "venue": {
+                    "id": null,
+                    "name": null,
+                    "city": null
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 4"
+            },
+            "teams": {
+                "home": {
+                    "id": 884,
+                    "name": "Feralpisalo",
+                    "logo": "https://media.api-sports.io/football/teams/884.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 527,
+                    "name": "Virtus Entella",
+                    "logo": "https://media.api-sports.io/football/teams/527.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 10,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 527,
+                        "name": "Virtus Entella",
+                        "logo": "https://media.api-sports.io/football/teams/527.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "D. Castelli"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

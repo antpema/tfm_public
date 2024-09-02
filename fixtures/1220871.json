@@ -1,0 +1,806 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1220871"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1220871,
+                "referee": "M. Raida",
+                "timezone": "UTC",
+                "date": "2024-08-04T15:00:00+00:00",
+                "timestamp": 1722783600,
+                "periods": {
+                    "first": 1722783600,
+                    "second": 1722787200
+                },
+                "venue": {
+                    "id": 1597,
+                    "name": "Stadion Dynamo im. Valeriy Lobanovskyi",
+                    "city": "Kyiv"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 333,
+                "name": "Premier League",
+                "country": "Ukraine",
+                "logo": "https://media.api-sports.io/football/leagues/333.png",
+                "flag": "https://media.api-sports.io/flags/ua.svg",
+                "season": 2024,
+                "round": "Regular Season - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 599,
+                    "name": "Zorya Luhansk",
+                    "logo": "https://media.api-sports.io/football/teams/599.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 3625,
+                    "name": "Inhulets",
+                    "logo": "https://media.api-sports.io/football/teams/3625.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 16,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 599,
+                        "name": "Zorya Luhansk",
+                        "logo": "https://media.api-sports.io/football/teams/599.png"
+                    },
+                    "player": {
+                        "id": 14580,
+                        "name": "J. Basic"
+                    },
+                    "assist": {
+                        "id": 162323,
+                        "name": "O. Yatsyk"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 29,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3625,
+                        "name": "Inhulets",
+                        "logo": "https://media.api-sports.io/football/teams/3625.png"
+                    },
+                    "player": {
+                        "id": 263520,
+                        "name": "V. Bilotserkovets"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "O. Pyatov"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 599,
+                        "name": "Zorya Luhansk",
+                        "logo": "https://media.api-sports.io/football/teams/599.png"
+                    },
+                    "player": {
+                        "id": 43387,
+                        "name": "Benito"
+                    },
+                    "assist": {
+                        "id": 95105,
+                        "name": "E. Guerrero"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 61,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 599,
+                        "name": "Zorya Luhansk",
+                        "logo": "https://media.api-sports.io/football/teams/599.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "C. Nwaeze"
+                    },
+                    "assist": {
+                        "id": 271314,
+                        "name": "G. Eskinja"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 62,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 599,
+                        "name": "Zorya Luhansk",
+                        "logo": "https://media.api-sports.io/football/teams/599.png"
+                    },
+                    "player": {
+                        "id": 30811,
+                        "name": "P. Micin"
+                    },
+                    "assist": {
+                        "id": 63389,
+                        "name": "K. Dryshlyuk"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 75,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 599,
+                        "name": "Zorya Luhansk",
+                        "logo": "https://media.api-sports.io/football/teams/599.png"
+                    },
+                    "player": {
+                        "id": 335045,
+                        "name": "I. Gorbach"
+                    },
+                    "assist": {
+                        "id": 63410,
+                        "name": "I. Kyryukhantsev"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 79,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3625,
+                        "name": "Inhulets",
+                        "logo": "https://media.api-sports.io/football/teams/3625.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "B. Mogylnyi"
+                    },
+                    "assist": {
+                        "id": 8357,
+                        "name": "Y. Bogunov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 599,
+                        "name": "Zorya Luhansk",
+                        "logo": "https://media.api-sports.io/football/teams/599.png"
+                    },
+                    "player": {
+                        "id": 109601,
+                        "name": "Juninho"
+                    },
+                    "assist": {
+                        "id": 63511,
+                        "name": "R. Vantukh"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3625,
+                        "name": "Inhulets",
+                        "logo": "https://media.api-sports.io/football/teams/3625.png"
+                    },
+                    "player": {
+                        "id": 130891,
+                        "name": "V. Sydorenko"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "V. Dubilei"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3625,
+                        "name": "Inhulets",
+                        "logo": "https://media.api-sports.io/football/teams/3625.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "O. Pushkaryov"
+                    },
+                    "assist": {
+                        "id": 263520,
+                        "name": "V. Bilotserkovets"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 3625,
+                        "name": "Inhulets",
+                        "logo": "https://media.api-sports.io/football/teams/3625.png"
+                    },
+                    "player": {
+                        "id": 274615,
+                        "name": "D. Rezepov"
+                    },
+                    "assist": {
+                        "id": 101471,
+                        "name": "O. Kozak"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 2
+                    },
+                    "team": {
+                        "id": 599,
+                        "name": "Zorya Luhansk",
+                        "logo": "https://media.api-sports.io/football/teams/599.png"
+                    },
+                    "player": {
+                        "id": 162323,
+                        "name": "O. Yatsyk"
+                    },
+                    "assist": {
+                        "id": 101487,
+                        "name": "D. Antyukh"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 599,
+                        "name": "Zorya Luhansk",
+                        "logo": "https://media.api-sports.io/football/teams/599.png",
+                        "colors": {
+                            "player": {
+                                "primary": "000000",
+                                "number": "ffffff",
+                                "border": "000000"
+                            },
+                            "goalkeeper": {
+                                "primary": "f30c0c",
+                                "number": "ffffff",
+                                "border": "f30c0c"
+                            }
+                        }
+                    },
+                    "formation": "4-1-4-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 162488,
+                                "name": "Mykyta Turbaievskyi",
+                                "number": 30,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 109940,
+                                "name": "\u017dan Trontelj",
+                                "number": 32,
+                                "pos": "M",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 80322,
+                                "name": "Anderson Jordan",
+                                "number": 55,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 271314,
+                                "name": "Gabriel Eskinja",
+                                "number": 4,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 63511,
+                                "name": "Roman Vantukh",
+                                "number": 47,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 14580,
+                                "name": "Jakov Ba\u0161i\u0107",
+                                "number": 21,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 63410,
+                                "name": "Ihor Kyriukhantsev",
+                                "number": 70,
+                                "pos": "D",
+                                "grid": "4:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 162323,
+                                "name": "Oleksandr Yatsyk",
+                                "number": 5,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 63389,
+                                "name": "Kyrylo Dryshlyuk",
+                                "number": 15,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 101487,
+                                "name": "Denys Antyukh",
+                                "number": 7,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 95105,
+                                "name": "Eduardo Guerrero",
+                                "number": 39,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 43387,
+                                "name": "Benito",
+                                "number": 77,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Christopher Nwaeze",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 30811,
+                                "name": "Petar Mi\u0107in",
+                                "number": 22,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 335045,
+                                "name": "Igor Gorbach",
+                                "number": 17,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 109601,
+                                "name": "Reis Rodriguez Leovigildo Junior",
+                                "number": 10,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 335178,
+                                "name": "Oleksandr Saputin",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 264709,
+                                "name": "Dmytro Matsapura",
+                                "number": 53,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 63627,
+                                "name": "Arseniy Batagov",
+                                "number": 16,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 345408,
+                                "name": "Oleksii Husiev",
+                                "number": 90,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 199778,
+                                "name": "Oleksii Khakhliov",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 335048,
+                                "name": "Artem Slesar",
+                                "number": 9,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 63423,
+                                "name": "Vladyslav Bugai",
+                                "number": 19,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 21420,
+                        "name": "Y. Koval",
+                        "photo": "https://media.api-sports.io/football/coachs/21420.png"
+                    }
+                },
+                {
+                    "team": {
+                        "id": 3625,
+                        "name": "Inhulets",
+                        "logo": "https://media.api-sports.io/football/teams/3625.png",
+                        "colors": {
+                            "player": {
+                                "primary": "a80000",
+                                "number": "ffee00",
+                                "border": "a80000"
+                            },
+                            "goalkeeper": {
+                                "primary": "0de7eb",
+                                "number": "ffffff",
+                                "border": "0de7eb"
+                            }
+                        }
+                    },
+                    "formation": "4-1-4-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 63747,
+                                "name": "Oleksiy Palamarchuk",
+                                "number": 12,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Vitalii Dubilei",
+                                "number": 4,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 63737,
+                                "name": "Mykhailo Shershen",
+                                "number": 23,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Stanislav-Nuri Malish",
+                                "number": 2,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 157021,
+                                "name": "Maksym Melnychuk",
+                                "number": 91,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 63653,
+                                "name": "Serhii Petko",
+                                "number": 32,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Volodymyr Bilotserkovets",
+                                "number": 22,
+                                "pos": "D",
+                                "grid": "4:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Oleksandr Piatov",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Roman Volokhatyi",
+                                "number": 20,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 101471,
+                                "name": "Oleksandr Kozak",
+                                "number": 10,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 8357,
+                                "name": "Yaroslav Bogunov",
+                                "number": 11,
+                                "pos": "M",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Bogdan Mogilnyi",
+                                "number": 59,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 130891,
+                                "name": "Vladyslav Sydorenko",
+                                "number": 26,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Oleh Pushkarov",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 274615,
+                                "name": "Denis Sergeevich Rezepov",
+                                "number": 97,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Bogdan Smetanka",
+                                "number": 77,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Volodymyr Vilivald",
+                                "number": 45,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1519,
+                                "name": "Marian Mysyk",
+                                "number": 33,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Ivan Losenko",
+                                "number": 6,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Vladyslav Chaban",
+                                "number": 44,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Radion Lisnyak",
+                                "number": 19,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 0,
+                        "name": null,
+                        "photo": null
+                    }
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

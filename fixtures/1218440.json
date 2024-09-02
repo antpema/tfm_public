@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1218440"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1218440,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-27T16:00:00+00:00",
+                "timestamp": 1722096000,
+                "periods": {
+                    "first": 1722096000,
+                    "second": 1722099600
+                },
+                "venue": {
+                    "id": 4596,
+                    "name": "Gemeentelijk Sportcentrum",
+                    "city": "Heist-Op-Den-Berg"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 6217,
+                    "name": "Heist",
+                    "logo": "https://media.api-sports.io/football/teams/6217.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 6219,
+                    "name": "Lierse Kempenzonen",
+                    "logo": "https://media.api-sports.io/football/teams/6219.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 24,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6219,
+                        "name": "Lierse Kempenzonen",
+                        "logo": "https://media.api-sports.io/football/teams/6219.png"
+                    },
+                    "player": {
+                        "id": 320036,
+                        "name": "A. Sampers"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 76,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6219,
+                        "name": "Lierse Kempenzonen",
+                        "logo": "https://media.api-sports.io/football/teams/6219.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "O. Sow"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

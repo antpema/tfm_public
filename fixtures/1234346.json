@@ -1,0 +1,954 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1234346"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1234346,
+                "referee": "J. Alba",
+                "timezone": "UTC",
+                "date": "2024-07-27T20:00:00+00:00",
+                "timestamp": 1722110400,
+                "periods": {
+                    "first": 1722110400,
+                    "second": 1722114000
+                },
+                "venue": {
+                    "id": 1867,
+                    "name": "Estadio Francisco Rivera Escobar",
+                    "city": "Palmira"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 240,
+                "name": "Primera B",
+                "country": "Colombia",
+                "logo": "https://media.api-sports.io/football/leagues/240.png",
+                "flag": "https://media.api-sports.io/flags/co.svg",
+                "season": 2024,
+                "round": "Clausura - 2"
+            },
+            "teams": {
+                "home": {
+                    "id": 1469,
+                    "name": "Orsomarso",
+                    "logo": "https://media.api-sports.io/football/teams/1469.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 23326,
+                    "name": "Internacional Palmira",
+                    "logo": "https://media.api-sports.io/football/teams/23326.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 13,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 23326,
+                        "name": "Internacional Palmira",
+                        "logo": "https://media.api-sports.io/football/teams/23326.png"
+                    },
+                    "player": {
+                        "id": 373760,
+                        "name": "S. Valencia"
+                    },
+                    "assist": {
+                        "id": 409260,
+                        "name": "S. Acha"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 14,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1469,
+                        "name": "Orsomarso",
+                        "logo": "https://media.api-sports.io/football/teams/1469.png"
+                    },
+                    "player": {
+                        "id": 279358,
+                        "name": "D. Copete"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 25,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1469,
+                        "name": "Orsomarso",
+                        "logo": "https://media.api-sports.io/football/teams/1469.png"
+                    },
+                    "player": {
+                        "id": 411170,
+                        "name": "S. Mayo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 29,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 23326,
+                        "name": "Internacional Palmira",
+                        "logo": "https://media.api-sports.io/football/teams/23326.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 34,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1469,
+                        "name": "Orsomarso",
+                        "logo": "https://media.api-sports.io/football/teams/1469.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 35,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1469,
+                        "name": "Orsomarso",
+                        "logo": "https://media.api-sports.io/football/teams/1469.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 37,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 23326,
+                        "name": "Internacional Palmira",
+                        "logo": "https://media.api-sports.io/football/teams/23326.png"
+                    },
+                    "player": {
+                        "id": 60007,
+                        "name": "J. Leudo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 23326,
+                        "name": "Internacional Palmira",
+                        "logo": "https://media.api-sports.io/football/teams/23326.png"
+                    },
+                    "player": {
+                        "id": 59739,
+                        "name": "E. Mosquera"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 23326,
+                        "name": "Internacional Palmira",
+                        "logo": "https://media.api-sports.io/football/teams/23326.png"
+                    },
+                    "player": {
+                        "id": 414168,
+                        "name": "J. Morcillo"
+                    },
+                    "assist": {
+                        "id": 13532,
+                        "name": "J. Escobar"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 50,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 23326,
+                        "name": "Internacional Palmira",
+                        "logo": "https://media.api-sports.io/football/teams/23326.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 50,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1469,
+                        "name": "Orsomarso",
+                        "logo": "https://media.api-sports.io/football/teams/1469.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1469,
+                        "name": "Orsomarso",
+                        "logo": "https://media.api-sports.io/football/teams/1469.png"
+                    },
+                    "player": {
+                        "id": 449373,
+                        "name": "S. Ag\u00e1mez"
+                    },
+                    "assist": {
+                        "id": 375860,
+                        "name": "E. Preciado"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1469,
+                        "name": "Orsomarso",
+                        "logo": "https://media.api-sports.io/football/teams/1469.png"
+                    },
+                    "player": {
+                        "id": 456477,
+                        "name": "S. Gonz\u00e1lez"
+                    },
+                    "assist": {
+                        "id": 439969,
+                        "name": "B. Correa"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1469,
+                        "name": "Orsomarso",
+                        "logo": "https://media.api-sports.io/football/teams/1469.png"
+                    },
+                    "player": {
+                        "id": 405558,
+                        "name": "L. G\u00f3mez"
+                    },
+                    "assist": {
+                        "id": 200157,
+                        "name": "S. Girado"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 23326,
+                        "name": "Internacional Palmira",
+                        "logo": "https://media.api-sports.io/football/teams/23326.png"
+                    },
+                    "player": {
+                        "id": 410372,
+                        "name": "J. Gamboa"
+                    },
+                    "assist": {
+                        "id": 467182,
+                        "name": "Y. Valois"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 69,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1469,
+                        "name": "Orsomarso",
+                        "logo": "https://media.api-sports.io/football/teams/1469.png"
+                    },
+                    "player": {
+                        "id": 378206,
+                        "name": "A. Arag\u00f3n"
+                    },
+                    "assist": {
+                        "id": 477182,
+                        "name": "J. Angulo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 69,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 23326,
+                        "name": "Internacional Palmira",
+                        "logo": "https://media.api-sports.io/football/teams/23326.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 72,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 23326,
+                        "name": "Internacional Palmira",
+                        "logo": "https://media.api-sports.io/football/teams/23326.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 74,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1469,
+                        "name": "Orsomarso",
+                        "logo": "https://media.api-sports.io/football/teams/1469.png"
+                    },
+                    "player": {
+                        "id": 375860,
+                        "name": "E. Preciado"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 79,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 23326,
+                        "name": "Internacional Palmira",
+                        "logo": "https://media.api-sports.io/football/teams/23326.png"
+                    },
+                    "player": {
+                        "id": 59507,
+                        "name": "F. Delgado"
+                    },
+                    "assist": {
+                        "id": 13338,
+                        "name": "C. Mosquera"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 79,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 23326,
+                        "name": "Internacional Palmira",
+                        "logo": "https://media.api-sports.io/football/teams/23326.png"
+                    },
+                    "player": {
+                        "id": 169877,
+                        "name": "F. Mon\u00edn"
+                    },
+                    "assist": {
+                        "id": 431877,
+                        "name": "J. Hurtado"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 88,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1469,
+                        "name": "Orsomarso",
+                        "logo": "https://media.api-sports.io/football/teams/1469.png"
+                    },
+                    "player": {
+                        "id": 200157,
+                        "name": "S. Girado"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 2
+                    },
+                    "team": {
+                        "id": 1469,
+                        "name": "Orsomarso",
+                        "logo": "https://media.api-sports.io/football/teams/1469.png"
+                    },
+                    "player": {
+                        "id": 456476,
+                        "name": "D. Bonilla"
+                    },
+                    "assist": {
+                        "id": 437105,
+                        "name": "G. Benavides"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 1469,
+                        "name": "Orsomarso",
+                        "logo": "https://media.api-sports.io/football/teams/1469.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 15733,
+                        "name": "S. S\u00e1nchez",
+                        "photo": "https://media.api-sports.io/football/coachs/15733.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 352517,
+                                "name": "E. Obando",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 411170,
+                                "name": "S. Mayo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 454541,
+                                "name": "J. Casta\u00f1o",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 456477,
+                                "name": "S. Gonz\u00e1lez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 456476,
+                                "name": "D. Bonilla",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 471060,
+                                "name": "A. Ru\u00edz",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 279358,
+                                "name": "D. Copete",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 405558,
+                                "name": "L. G\u00f3mez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 378206,
+                                "name": "A. Arag\u00f3n",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 383250,
+                                "name": "C. Ibarra",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 449373,
+                                "name": "S. Ag\u00e1mez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 439969,
+                                "name": "B. Correa",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 375860,
+                                "name": "E. Preciado",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 200157,
+                                "name": "S. Girado",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 477182,
+                                "name": "J. Angulo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 437105,
+                                "name": "G. Benavides",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 408338,
+                                "name": "B. Ben\u00edtez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 456478,
+                                "name": "J. Villarreal",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 23326,
+                        "name": "Internacional Palmira",
+                        "logo": "https://media.api-sports.io/football/teams/23326.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 21977,
+                        "name": "C. Hern\u00e1ndez",
+                        "photo": "https://media.api-sports.io/football/coachs/21977.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 59504,
+                                "name": "J. Loaiza",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 59739,
+                                "name": "E. Mosquera",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 59507,
+                                "name": "F. Delgado",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 59691,
+                                "name": "L. Becerra",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 198228,
+                                "name": "K. Su\u00e1rez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 373760,
+                                "name": "S. Valencia",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 60007,
+                                "name": "J. Leudo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 410372,
+                                "name": "J. Gamboa",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 414168,
+                                "name": "J. Morcillo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 169877,
+                                "name": "F. Mon\u00edn",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 406200,
+                                "name": "J. Trochez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 409260,
+                                "name": "S. Acha",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13532,
+                                "name": "J. Escobar",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 467182,
+                                "name": "Y. Valois",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13338,
+                                "name": "C. Mosquera",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 431877,
+                                "name": "J. Hurtado",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 337111,
+                                "name": "E. Facuss\u00e9",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 468446,
+                                "name": "J. Montiel",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

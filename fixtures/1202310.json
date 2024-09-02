@@ -1,0 +1,770 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1202310"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1202310,
+                "referee": "C. Graham",
+                "timezone": "UTC",
+                "date": "2024-07-23T18:45:00+00:00",
+                "timestamp": 1721760300,
+                "periods": {
+                    "first": 1721760300,
+                    "second": 1721763900
+                },
+                "venue": {
+                    "id": 1383,
+                    "name": "Pittodrie Stadium",
+                    "city": "Aberdeen"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 185,
+                "name": "League Cup",
+                "country": "Scotland",
+                "logo": "https://media.api-sports.io/football/leagues/185.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2024,
+                "round": "Group Stage - 7"
+            },
+            "teams": {
+                "home": {
+                    "id": 252,
+                    "name": "Aberdeen",
+                    "logo": "https://media.api-sports.io/football/teams/252.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 4668,
+                    "name": "Airdrie United",
+                    "logo": "https://media.api-sports.io/football/teams/4668.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 40,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4668,
+                        "name": "Airdrie United",
+                        "logo": "https://media.api-sports.io/football/teams/4668.png"
+                    },
+                    "player": {
+                        "id": 159437,
+                        "name": "B. Wilson"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 42,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 252,
+                        "name": "Aberdeen",
+                        "logo": "https://media.api-sports.io/football/teams/252.png"
+                    },
+                    "player": {
+                        "id": 15644,
+                        "name": "Sivert Heltne Nilsen"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 252,
+                        "name": "Aberdeen",
+                        "logo": "https://media.api-sports.io/football/teams/252.png"
+                    },
+                    "player": {
+                        "id": 152698,
+                        "name": "S. Morris"
+                    },
+                    "assist": {
+                        "id": 109564,
+                        "name": "B. Miovski"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4668,
+                        "name": "Airdrie United",
+                        "logo": "https://media.api-sports.io/football/teams/4668.png"
+                    },
+                    "player": {
+                        "id": 321858,
+                        "name": "L. McGregor"
+                    },
+                    "assist": {
+                        "id": 45189,
+                        "name": "L. McGrattan"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 49,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 252,
+                        "name": "Aberdeen",
+                        "logo": "https://media.api-sports.io/football/teams/252.png"
+                    },
+                    "player": {
+                        "id": 44812,
+                        "name": "G. Shinnie"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 252,
+                        "name": "Aberdeen",
+                        "logo": "https://media.api-sports.io/football/teams/252.png"
+                    },
+                    "player": {
+                        "id": 151754,
+                        "name": "L. Clarkson"
+                    },
+                    "assist": {
+                        "id": 44812,
+                        "name": "G. Shinnie"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 252,
+                        "name": "Aberdeen",
+                        "logo": "https://media.api-sports.io/football/teams/252.png"
+                    },
+                    "player": {
+                        "id": 44812,
+                        "name": "Graeme Shinnie"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 79,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4668,
+                        "name": "Airdrie United",
+                        "logo": "https://media.api-sports.io/football/teams/4668.png"
+                    },
+                    "player": {
+                        "id": 326912,
+                        "name": "M. Aiken"
+                    },
+                    "assist": {
+                        "id": 379132,
+                        "name": "T. Agyemang"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 84,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4668,
+                        "name": "Airdrie United",
+                        "logo": "https://media.api-sports.io/football/teams/4668.png"
+                    },
+                    "player": {
+                        "id": 357895,
+                        "name": "R. Armstrong"
+                    },
+                    "assist": {
+                        "id": 45107,
+                        "name": "C. Mochrie"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 84,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4668,
+                        "name": "Airdrie United",
+                        "logo": "https://media.api-sports.io/football/teams/4668.png"
+                    },
+                    "player": {
+                        "id": 44794,
+                        "name": "A. Frizzell"
+                    },
+                    "assist": {
+                        "id": 355074,
+                        "name": "A. Reid"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 252,
+                        "name": "Aberdeen",
+                        "logo": "https://media.api-sports.io/football/teams/252.png"
+                    },
+                    "player": {
+                        "id": 109712,
+                        "name": "E. Sokler"
+                    },
+                    "assist": {
+                        "id": 351317,
+                        "name": "P. Ambrose"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 252,
+                        "name": "Aberdeen",
+                        "logo": "https://media.api-sports.io/football/teams/252.png"
+                    },
+                    "player": {
+                        "id": 161806,
+                        "name": "Gavin Molloy"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 252,
+                        "name": "Aberdeen",
+                        "logo": "https://media.api-sports.io/football/teams/252.png",
+                        "colors": {
+                            "player": {
+                                "primary": "cc0000",
+                                "number": "ffffff",
+                                "border": "cc0000"
+                            },
+                            "goalkeeper": {
+                                "primary": "e1ff13",
+                                "number": "ff0000",
+                                "border": "e1ff13"
+                            }
+                        }
+                    },
+                    "coach": {
+                        "id": 1387,
+                        "name": "J. Thelin",
+                        "photo": "https://media.api-sports.io/football/coachs/1387.png"
+                    },
+                    "formation": "4-2-3-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 17939,
+                                "name": "D. Mitov",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 20422,
+                                "name": "N. Devlin",
+                                "number": 2,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 45800,
+                                "name": "S. Rube\u017ei\u0107",
+                                "number": 33,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 161806,
+                                "name": "G. Molloy",
+                                "number": 21,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 44810,
+                                "name": "J. MacKenzie",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15644,
+                                "name": "S. Heltne Nilsen",
+                                "number": 6,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 151754,
+                                "name": "L. Clarkson",
+                                "number": 10,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 152698,
+                                "name": "S. Morris",
+                                "number": 20,
+                                "pos": "F",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 69243,
+                                "name": "J. McGrath",
+                                "number": 7,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 44812,
+                                "name": "G. Shinnie",
+                                "number": 4,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 109712,
+                                "name": "E. Sokler",
+                                "number": 19,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 109564,
+                                "name": "B. Miovski",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 351317,
+                                "name": "P. Ambrose",
+                                "number": 32,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 36782,
+                                "name": "J. McGarry",
+                                "number": 15,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 321860,
+                                "name": "J. Milne",
+                                "number": 22,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 291984,
+                                "name": "R. Duncan",
+                                "number": 23,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 162953,
+                                "name": "V. Besuijen",
+                                "number": 17,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 469479,
+                                "name": "F. Boyd",
+                                "number": 30,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 45150,
+                                "name": "R. Doohan",
+                                "number": 31,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 37062,
+                                "name": "R. Jensen",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 4668,
+                        "name": "Airdrie United",
+                        "logo": "https://media.api-sports.io/football/teams/4668.png",
+                        "colors": {
+                            "player": {
+                                "primary": "ffffff",
+                                "number": "ff0000",
+                                "border": "ffffff"
+                            },
+                            "goalkeeper": {
+                                "primary": "fafb00",
+                                "number": "000000",
+                                "border": "fafb00"
+                            }
+                        }
+                    },
+                    "coach": {
+                        "id": 17605,
+                        "name": "R. McCabe",
+                        "photo": "https://media.api-sports.io/football/coachs/17605.png"
+                    },
+                    "formation": "3-4-3",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 326940,
+                                "name": "M. Johnson",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 323377,
+                                "name": "M. Hancock",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 69353,
+                                "name": "R. McCabe",
+                                "number": 4,
+                                "pos": "M",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 97960,
+                                "name": "A. Wilson",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 326925,
+                                "name": "D. MacDonald",
+                                "number": 2,
+                                "pos": null,
+                                "grid": "3:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 326912,
+                                "name": "M. Aiken",
+                                "number": 22,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 146323,
+                                "name": "D. McMaster",
+                                "number": 6,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 321858,
+                                "name": "L. McGregor",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 44794,
+                                "name": "A. Frizzell",
+                                "number": 10,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 159437,
+                                "name": "B. Wilson",
+                                "number": 7,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 357895,
+                                "name": "R. Armstrong",
+                                "number": 44,
+                                "pos": null,
+                                "grid": "4:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 45189,
+                                "name": "L. McGrattan",
+                                "number": 17,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 379132,
+                                "name": "T. Agyemang",
+                                "number": 28,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 45107,
+                                "name": "C. Mochrie",
+                                "number": 24,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 355074,
+                                "name": "A. Reid",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 104763,
+                                "name": "C. Watson",
+                                "number": 16,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 361407,
+                                "name": "C. Cooper",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 138415,
+                                "name": "K. Wright",
+                                "number": 30,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 326966,
+                                "name": "G. Gallagher",
+                                "number": 18,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 359506,
+                                "name": "C. Bruce",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

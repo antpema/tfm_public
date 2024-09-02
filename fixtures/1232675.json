@@ -1,0 +1,831 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1232675"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1232675,
+                "referee": "R. M\u00e1rton",
+                "timezone": "UTC",
+                "date": "2024-07-28T17:00:00+00:00",
+                "timestamp": 1722186000,
+                "periods": {
+                    "first": 1722186000,
+                    "second": 1722189600
+                },
+                "venue": {
+                    "id": 811,
+                    "name": "Szamosi Mih\u00e1ly Sporttelep",
+                    "city": "Budapest"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 272,
+                "name": "NB II",
+                "country": "Hungary",
+                "logo": "https://media.api-sports.io/football/leagues/272.png",
+                "flag": "https://media.api-sports.io/flags/hu.svg",
+                "season": 2024,
+                "round": "Regular Season - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 2404,
+                    "name": "Soroksar",
+                    "logo": "https://media.api-sports.io/football/teams/2404.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 2398,
+                    "name": "Gyirmot SE",
+                    "logo": "https://media.api-sports.io/football/teams/2398.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 15,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2404,
+                        "name": "Soroksar",
+                        "logo": "https://media.api-sports.io/football/teams/2404.png"
+                    },
+                    "player": {
+                        "id": 28045,
+                        "name": "B. Lovrencsics"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 22,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2404,
+                        "name": "Soroksar",
+                        "logo": "https://media.api-sports.io/football/teams/2404.png"
+                    },
+                    "player": {
+                        "id": 127244,
+                        "name": "\u00c1. Halmai"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 25,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2404,
+                        "name": "Soroksar",
+                        "logo": "https://media.api-sports.io/football/teams/2404.png"
+                    },
+                    "player": {
+                        "id": 397432,
+                        "name": "B. Manner"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2404,
+                        "name": "Soroksar",
+                        "logo": "https://media.api-sports.io/football/teams/2404.png"
+                    },
+                    "player": {
+                        "id": 361485,
+                        "name": "A. T\u00f3th"
+                    },
+                    "assist": {
+                        "id": 28556,
+                        "name": "\u00c1. Vass"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 51,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2398,
+                        "name": "Gyirmot SE",
+                        "logo": "https://media.api-sports.io/football/teams/2398.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "R. Horvath"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 61,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2398,
+                        "name": "Gyirmot SE",
+                        "logo": "https://media.api-sports.io/football/teams/2398.png"
+                    },
+                    "player": {
+                        "id": 324817,
+                        "name": "D. Kov\u00e1cs"
+                    },
+                    "assist": {
+                        "id": 27847,
+                        "name": "\u00c1. Hajd\u00fa"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 61,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2398,
+                        "name": "Gyirmot SE",
+                        "logo": "https://media.api-sports.io/football/teams/2398.png"
+                    },
+                    "player": {
+                        "id": 27885,
+                        "name": "M. Adamcsek"
+                    },
+                    "assist": {
+                        "id": 325710,
+                        "name": "O. Pishchur"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 68,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2398,
+                        "name": "Gyirmot SE",
+                        "logo": "https://media.api-sports.io/football/teams/2398.png"
+                    },
+                    "player": {
+                        "id": 26662,
+                        "name": "R. Ugrai"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2404,
+                        "name": "Soroksar",
+                        "logo": "https://media.api-sports.io/football/teams/2404.png"
+                    },
+                    "player": {
+                        "id": 419576,
+                        "name": "S. Szab\u00f3"
+                    },
+                    "assist": {
+                        "id": 37024,
+                        "name": "\u00c1. Dobos"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 72,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2404,
+                        "name": "Soroksar",
+                        "logo": "https://media.api-sports.io/football/teams/2404.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "K. Kobol"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 77,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2398,
+                        "name": "Gyirmot SE",
+                        "logo": "https://media.api-sports.io/football/teams/2398.png"
+                    },
+                    "player": {
+                        "id": 428572,
+                        "name": "B. L\u00e1nyi"
+                    },
+                    "assist": {
+                        "id": 27881,
+                        "name": "V. Szegi"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2404,
+                        "name": "Soroksar",
+                        "logo": "https://media.api-sports.io/football/teams/2404.png"
+                    },
+                    "player": {
+                        "id": 127244,
+                        "name": "\u00c1. Halmai"
+                    },
+                    "assist": {
+                        "id": 28454,
+                        "name": "F. Drag\u00f3ner"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 84,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2398,
+                        "name": "Gyirmot SE",
+                        "logo": "https://media.api-sports.io/football/teams/2398.png"
+                    },
+                    "player": {
+                        "id": 325710,
+                        "name": "O. Pishchur"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 84,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2404,
+                        "name": "Soroksar",
+                        "logo": "https://media.api-sports.io/football/teams/2404.png"
+                    },
+                    "player": {
+                        "id": 397432,
+                        "name": "B. Manner"
+                    },
+                    "assist": {
+                        "id": 419577,
+                        "name": "B. Somfalvi"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2398,
+                        "name": "Gyirmot SE",
+                        "logo": "https://media.api-sports.io/football/teams/2398.png"
+                    },
+                    "player": {
+                        "id": 26662,
+                        "name": "R. Ugrai"
+                    },
+                    "assist": {
+                        "id": 353057,
+                        "name": "N. Kiss"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2398,
+                        "name": "Gyirmot SE",
+                        "logo": "https://media.api-sports.io/football/teams/2398.png"
+                    },
+                    "player": {
+                        "id": 303230,
+                        "name": "R. Horv\u00e1th"
+                    },
+                    "assist": {
+                        "id": 89214,
+                        "name": "J. Moln\u00e1r"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 3
+                    },
+                    "team": {
+                        "id": 2398,
+                        "name": "Gyirmot SE",
+                        "logo": "https://media.api-sports.io/football/teams/2398.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "A. Harsfalvi"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 2404,
+                        "name": "Soroksar",
+                        "logo": "https://media.api-sports.io/football/teams/2404.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 2734,
+                        "name": "P. Lipcsei",
+                        "photo": "https://media.api-sports.io/football/coachs/2734.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 339072,
+                                "name": "S. Mergl",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 27896,
+                                "name": "A. K\u00e9kesi",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 27783,
+                                "name": "Erik N\u00e9meth",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 325356,
+                                "name": "O. Nagy",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 416316,
+                                "name": "S. Say",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 146367,
+                                "name": "K. K\u00f6b\u00f6l",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 397432,
+                                "name": "B. Manner",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28045,
+                                "name": "B. Lovrencsics",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 127244,
+                                "name": "\u00c1. Halmai",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 419576,
+                                "name": "S. Szab\u00f3",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 361485,
+                                "name": "A. T\u00f3th",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 28556,
+                                "name": "\u00c1. Vass",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 37024,
+                                "name": "\u00c1. Dobos",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28454,
+                                "name": "F. Drag\u00f3ner",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 419577,
+                                "name": "B. Somfalvi",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28323,
+                                "name": "\u00c1. Holczer",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28500,
+                                "name": "A. V\u00e1gi",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 382286,
+                                "name": "I. Varga",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 2398,
+                        "name": "Gyirmot SE",
+                        "logo": "https://media.api-sports.io/football/teams/2398.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 22768,
+                        "name": "Z. Tamasi",
+                        "photo": "https://media.api-sports.io/football/coachs/22768.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 2327,
+                                "name": "A. H\u00e1rsfalvi",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28440,
+                                "name": "D. Hud\u00e1k",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 340538,
+                                "name": "M. Helembai",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 294560,
+                                "name": "V. Cs\u00f6rg\u0151",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 428572,
+                                "name": "B. L\u00e1nyi",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 27790,
+                                "name": "M. Hud\u00e1k",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28562,
+                                "name": "M. Katona",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 324817,
+                                "name": "D. Kov\u00e1cs",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 26662,
+                                "name": "R. Ugrai",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 27885,
+                                "name": "M. Adamcsek",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 303230,
+                                "name": "R. Horv\u00e1th",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 27847,
+                                "name": "\u00c1. Hajd\u00fa",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 325710,
+                                "name": "O. Pishchur",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 27881,
+                                "name": "V. Szegi",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 89214,
+                                "name": "J. Moln\u00e1r",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 353057,
+                                "name": "N. Kiss",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 353146,
+                                "name": "B. Kecsk\u00e9s",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 292370,
+                                "name": "B. Ominger",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 429995,
+                                "name": "O. Cserkuti-N\u00e9meth",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

@@ -1,0 +1,153 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1244354"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1244354,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-20T10:30:00+00:00",
+                "timestamp": 1721471400,
+                "periods": {
+                    "first": 1721471400,
+                    "second": 1721475000
+                },
+                "venue": {
+                    "id": 8160,
+                    "name": "Stadion Alte M\u00fchle",
+                    "city": "Kirchansch\u00f6ring"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 939,
+                "name": "Oberliga - Bayern S\u00fcd",
+                "country": "Germany",
+                "logo": "https://media.api-sports.io/football/leagues/939.png",
+                "flag": "https://media.api-sports.io/flags/de.svg",
+                "season": 2024,
+                "round": "Bayern S\u00fcd - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 12805,
+                    "name": "Kirchansch\u00f6ring",
+                    "logo": "https://media.api-sports.io/football/teams/12805.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 12807,
+                    "name": "Kottern",
+                    "logo": "https://media.api-sports.io/football/teams/12807.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 25,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 12807,
+                        "name": "Kottern",
+                        "logo": "https://media.api-sports.io/football/teams/12807.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "K. Haug"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 12805,
+                        "name": "Kirchansch\u00f6ring",
+                        "logo": "https://media.api-sports.io/football/teams/12805.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "N. Schreiber"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 7
+                    },
+                    "team": {
+                        "id": 12807,
+                        "name": "Kottern",
+                        "logo": "https://media.api-sports.io/football/teams/12807.png"
+                    },
+                    "player": {
+                        "id": 177513,
+                        "name": "T. Buchmann"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

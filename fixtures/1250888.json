@@ -1,0 +1,623 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1250888"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1250888,
+                "referee": "L. Mart\u00ednez",
+                "timezone": "UTC",
+                "date": "2024-08-04T18:00:00+00:00",
+                "timestamp": 1722794400,
+                "periods": {
+                    "first": 1722794400,
+                    "second": 1722798000
+                },
+                "venue": {
+                    "id": 1771,
+                    "name": "Estadio Sol De Mayo",
+                    "city": "Viedma, Provincia de R\u00edo Negro"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 134,
+                "name": "Torneo Federal A",
+                "country": "Argentina",
+                "logo": "https://media.api-sports.io/football/leagues/134.png",
+                "flag": "https://media.api-sports.io/flags/ar.svg",
+                "season": 2024,
+                "round": "Lower Table Round - 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 1941,
+                    "name": "Sol de Mayo",
+                    "logo": "https://media.api-sports.io/football/teams/1941.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 1959,
+                    "name": "Deportivo Rincon",
+                    "logo": "https://media.api-sports.io/football/teams/1959.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 55,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1959,
+                        "name": "Deportivo Rincon",
+                        "logo": "https://media.api-sports.io/football/teams/1959.png"
+                    },
+                    "player": {
+                        "id": 411412,
+                        "name": "C. L\u00f3pez"
+                    },
+                    "assist": {
+                        "id": 463441,
+                        "name": "J. Mart\u00edn"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 55,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1959,
+                        "name": "Deportivo Rincon",
+                        "logo": "https://media.api-sports.io/football/teams/1959.png"
+                    },
+                    "player": {
+                        "id": 58738,
+                        "name": "F. Miguel"
+                    },
+                    "assist": {
+                        "id": 64841,
+                        "name": "J. Lazaneo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1959,
+                        "name": "Deportivo Rincon",
+                        "logo": "https://media.api-sports.io/football/teams/1959.png"
+                    },
+                    "player": {
+                        "id": 75393,
+                        "name": "E. Cano"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1941,
+                        "name": "Sol de Mayo",
+                        "logo": "https://media.api-sports.io/football/teams/1941.png"
+                    },
+                    "player": {
+                        "id": 471876,
+                        "name": "A. Turnes"
+                    },
+                    "assist": {
+                        "id": 75681,
+                        "name": "B. Acu\u00f1a"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1941,
+                        "name": "Sol de Mayo",
+                        "logo": "https://media.api-sports.io/football/teams/1941.png"
+                    },
+                    "player": {
+                        "id": 393105,
+                        "name": "I. Zanzi"
+                    },
+                    "assist": {
+                        "id": 58382,
+                        "name": "F. Valdebenito"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1959,
+                        "name": "Deportivo Rincon",
+                        "logo": "https://media.api-sports.io/football/teams/1959.png"
+                    },
+                    "player": {
+                        "id": 472285,
+                        "name": "L. Inostroza"
+                    },
+                    "assist": {
+                        "id": 75384,
+                        "name": "N. Di Bello"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 76,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1959,
+                        "name": "Deportivo Rincon",
+                        "logo": "https://media.api-sports.io/football/teams/1959.png"
+                    },
+                    "player": {
+                        "id": 6458,
+                        "name": "M. Aruga"
+                    },
+                    "assist": {
+                        "id": 462819,
+                        "name": "A. Ortega"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 76,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1959,
+                        "name": "Deportivo Rincon",
+                        "logo": "https://media.api-sports.io/football/teams/1959.png"
+                    },
+                    "player": {
+                        "id": 75393,
+                        "name": "E. Cano"
+                    },
+                    "assist": {
+                        "id": 170066,
+                        "name": "J. Moreira"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1941,
+                        "name": "Sol de Mayo",
+                        "logo": "https://media.api-sports.io/football/teams/1941.png"
+                    },
+                    "player": {
+                        "id": 462816,
+                        "name": "I. Zappulla"
+                    },
+                    "assist": {
+                        "id": 465568,
+                        "name": "F. Lezcano"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 1941,
+                        "name": "Sol de Mayo",
+                        "logo": "https://media.api-sports.io/football/teams/1941.png"
+                    },
+                    "player": {
+                        "id": 292850,
+                        "name": "G. Gil\u00e9"
+                    },
+                    "assist": {
+                        "id": 367594,
+                        "name": "F. Trujillo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 1941,
+                        "name": "Sol de Mayo",
+                        "logo": "https://media.api-sports.io/football/teams/1941.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 22131,
+                        "name": "D. Galv\u00e1n",
+                        "photo": "https://media.api-sports.io/football/coachs/22131.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 410025,
+                                "name": "K. Semeniuk",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6710,
+                                "name": "E. Yba\u00f1ez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 58653,
+                                "name": "A. Herrera",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 292850,
+                                "name": "G. Gil\u00e9",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 294034,
+                                "name": "V. Robatto",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 58375,
+                                "name": "L. Morales",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 462816,
+                                "name": "I. Zappulla",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6130,
+                                "name": "N. Mazzola",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 393105,
+                                "name": "I. Zanzi",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 411533,
+                                "name": "M. Mart\u00ednez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 471876,
+                                "name": "A. Turnes",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 75681,
+                                "name": "B. Acu\u00f1a",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 58382,
+                                "name": "F. Valdebenito",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 465568,
+                                "name": "F. Lezcano",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 367594,
+                                "name": "F. Trujillo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 1959,
+                        "name": "Deportivo Rincon",
+                        "logo": "https://media.api-sports.io/football/teams/1959.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 847,
+                        "name": "A. Abaurre",
+                        "photo": "https://media.api-sports.io/football/coachs/847.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 75214,
+                                "name": "J. Criado",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6458,
+                                "name": "M. Aruga",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 58738,
+                                "name": "F. Miguel",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6426,
+                                "name": "J. Chac\u00f3n",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 462841,
+                                "name": "C. Esteves",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 463443,
+                                "name": "A. P\u00e1ez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 58612,
+                                "name": "L. Mellado",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 75393,
+                                "name": "E. Cano",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 411412,
+                                "name": "C. L\u00f3pez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 58216,
+                                "name": "J. Juncos",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 472285,
+                                "name": "L. Inostroza",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 463441,
+                                "name": "J. Mart\u00edn",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 64841,
+                                "name": "J. Lazaneo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 75384,
+                                "name": "N. Di Bello",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 462819,
+                                "name": "A. Ortega",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 170066,
+                                "name": "J. Moreira",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

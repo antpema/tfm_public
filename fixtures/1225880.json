@@ -1,0 +1,810 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1225880"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1225880,
+                "referee": "M. Perezva",
+                "timezone": "UTC",
+                "date": "2024-07-28T15:30:00+00:00",
+                "timestamp": 1722180600,
+                "periods": {
+                    "first": 1722180600,
+                    "second": 1722184200
+                },
+                "venue": {
+                    "id": 1350,
+                    "name": "Stadion Shinnik",
+                    "city": "Yaroslavl'"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 236,
+                "name": "First League",
+                "country": "Russia",
+                "logo": "https://media.api-sports.io/football/leagues/236.png",
+                "flag": "https://media.api-sports.io/flags/ru.svg",
+                "season": 2024,
+                "round": "Regular Season - 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 1998,
+                    "name": "Shinnik Yaroslavl",
+                    "logo": "https://media.api-sports.io/football/teams/1998.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 2000,
+                    "name": "Tyumen",
+                    "logo": "https://media.api-sports.io/football/teams/2000.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 57,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1998,
+                        "name": "Shinnik Yaroslavl",
+                        "logo": "https://media.api-sports.io/football/teams/1998.png"
+                    },
+                    "player": {
+                        "id": 40570,
+                        "name": "Timur Zhamaletdinov"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 60,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2000,
+                        "name": "Tyumen",
+                        "logo": "https://media.api-sports.io/football/teams/2000.png"
+                    },
+                    "player": {
+                        "id": 365910,
+                        "name": "O. Kenfack"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1998,
+                        "name": "Shinnik Yaroslavl",
+                        "logo": "https://media.api-sports.io/football/teams/1998.png"
+                    },
+                    "player": {
+                        "id": 2238,
+                        "name": "L. Skvortsov"
+                    },
+                    "assist": {
+                        "id": 367685,
+                        "name": "A. Kosogorov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1998,
+                        "name": "Shinnik Yaroslavl",
+                        "logo": "https://media.api-sports.io/football/teams/1998.png"
+                    },
+                    "player": {
+                        "id": 40570,
+                        "name": "T. Zhamaletdinov"
+                    },
+                    "assist": {
+                        "id": 43719,
+                        "name": "M. Lauk"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1998,
+                        "name": "Shinnik Yaroslavl",
+                        "logo": "https://media.api-sports.io/football/teams/1998.png"
+                    },
+                    "player": {
+                        "id": 43622,
+                        "name": "M. Sultonov"
+                    },
+                    "assist": {
+                        "id": 138564,
+                        "name": "A. Malakhov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2000,
+                        "name": "Tyumen",
+                        "logo": "https://media.api-sports.io/football/teams/2000.png"
+                    },
+                    "player": {
+                        "id": 53579,
+                        "name": "A. Kulishev"
+                    },
+                    "assist": {
+                        "id": 43627,
+                        "name": "A. Korotaev"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2000,
+                        "name": "Tyumen",
+                        "logo": "https://media.api-sports.io/football/teams/2000.png"
+                    },
+                    "player": {
+                        "id": 365910,
+                        "name": "O. Kenfack"
+                    },
+                    "assist": {
+                        "id": 279846,
+                        "name": "A. Medvedev"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1998,
+                        "name": "Shinnik Yaroslavl",
+                        "logo": "https://media.api-sports.io/football/teams/1998.png"
+                    },
+                    "player": {
+                        "id": 43814,
+                        "name": "P. Shakuro"
+                    },
+                    "assist": {
+                        "id": 307484,
+                        "name": "J. John"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 74,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2000,
+                        "name": "Tyumen",
+                        "logo": "https://media.api-sports.io/football/teams/2000.png"
+                    },
+                    "player": {
+                        "id": 322083,
+                        "name": "D. Kuptsov"
+                    },
+                    "assist": {
+                        "id": 43384,
+                        "name": "D. Klenkin"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 74,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2000,
+                        "name": "Tyumen",
+                        "logo": "https://media.api-sports.io/football/teams/2000.png"
+                    },
+                    "player": {
+                        "id": 53689,
+                        "name": "D. Tkachuk"
+                    },
+                    "assist": {
+                        "id": 335081,
+                        "name": "A. Maryanov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1998,
+                        "name": "Shinnik Yaroslavl",
+                        "logo": "https://media.api-sports.io/football/teams/1998.png"
+                    },
+                    "player": {
+                        "id": 162973,
+                        "name": "R. Kul"
+                    },
+                    "assist": {
+                        "id": 97605,
+                        "name": "V. Zinkov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2000,
+                        "name": "Tyumen",
+                        "logo": "https://media.api-sports.io/football/teams/2000.png"
+                    },
+                    "player": {
+                        "id": 162924,
+                        "name": "A. Savinov"
+                    },
+                    "assist": {
+                        "id": 149914,
+                        "name": "M. Petrov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 4
+                    },
+                    "team": {
+                        "id": 2000,
+                        "name": "Tyumen",
+                        "logo": "https://media.api-sports.io/football/teams/2000.png"
+                    },
+                    "player": {
+                        "id": 43627,
+                        "name": "A. Korotaev"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 1998,
+                        "name": "Shinnik Yaroslavl",
+                        "logo": "https://media.api-sports.io/football/teams/1998.png",
+                        "colors": {
+                            "player": {
+                                "primary": "0066ff",
+                                "number": "ffffff",
+                                "border": "0066ff"
+                            },
+                            "goalkeeper": {
+                                "primary": "ff3366",
+                                "number": "000000",
+                                "border": "ff3366"
+                            }
+                        }
+                    },
+                    "coach": {
+                        "id": 1088,
+                        "name": "D. Cheryshev",
+                        "photo": "https://media.api-sports.io/football/coachs/1088.png"
+                    },
+                    "formation": "4-2-3-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 411972,
+                                "name": "T. Mitrov",
+                                "number": 51,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43523,
+                                "name": "D. Samoylov",
+                                "number": 15,
+                                "pos": "F",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43814,
+                                "name": "P. Shakuro",
+                                "number": 90,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 187922,
+                                "name": "B. Zagr\u00e8",
+                                "number": 89,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 162505,
+                                "name": "A. Cherny",
+                                "number": 27,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 162973,
+                                "name": "R. Kul",
+                                "number": 70,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43514,
+                                "name": "V. Aleynikov",
+                                "number": 38,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43622,
+                                "name": "M. Sultonov",
+                                "number": 22,
+                                "pos": "F",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 277972,
+                                "name": "D. Sukhomlinov",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 40570,
+                                "name": "T. Zhamaletdinov",
+                                "number": 10,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 2238,
+                                "name": "L. Skvortsov",
+                                "number": 91,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 367685,
+                                "name": "A. Kosogorov",
+                                "number": 2,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43719,
+                                "name": "M. Lauk",
+                                "number": 55,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 138564,
+                                "name": "A. Malakhov",
+                                "number": 61,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 307484,
+                                "name": "J. John",
+                                "number": 24,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 97605,
+                                "name": "V. Zinkov",
+                                "number": 5,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 147843,
+                                "name": "G. Yakushevich",
+                                "number": 4,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 474889,
+                                "name": "G. Kalinin",
+                                "number": 14,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 384432,
+                                "name": "S. Fofana",
+                                "number": 19,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43809,
+                                "name": "D. Vambolt",
+                                "number": 75,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 474888,
+                                "name": "N. Kuzminykh",
+                                "number": 84,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 2000,
+                        "name": "Tyumen",
+                        "logo": "https://media.api-sports.io/football/teams/2000.png",
+                        "colors": {
+                            "player": {
+                                "primary": "ffffff",
+                                "number": "000000",
+                                "border": "ffffff"
+                            },
+                            "goalkeeper": {
+                                "primary": "00ff00",
+                                "number": "000000",
+                                "border": "00ff00"
+                            }
+                        }
+                    },
+                    "coach": {
+                        "id": 1085,
+                        "name": "I. Menshchikov",
+                        "photo": "https://media.api-sports.io/football/coachs/1085.png"
+                    },
+                    "formation": "4-4-2",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 139829,
+                                "name": "A. Savin",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43641,
+                                "name": "A. Voropaev",
+                                "number": 36,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 149573,
+                                "name": "D. Shavlokhov",
+                                "number": 30,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 358942,
+                                "name": "M. Sukhoruchenko",
+                                "number": 41,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43811,
+                                "name": "A. Bem",
+                                "number": 72,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 365910,
+                                "name": "O. Kenfack",
+                                "number": 20,
+                                "pos": "M",
+                                "grid": "3:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 65336,
+                                "name": "D. Talalay",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 162924,
+                                "name": "A. Savinov",
+                                "number": 10,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 53689,
+                                "name": "D. Tkachuk",
+                                "number": 31,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 53579,
+                                "name": "A. Kulishev",
+                                "number": 32,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 322083,
+                                "name": "D. Kuptsov",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 43627,
+                                "name": "A. Korotaev",
+                                "number": 24,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 279846,
+                                "name": "A. Medvedev",
+                                "number": 71,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43384,
+                                "name": "D. Klenkin",
+                                "number": 4,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 335081,
+                                "name": "A. Maryanov",
+                                "number": 70,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 149914,
+                                "name": "M. Petrov",
+                                "number": 13,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43346,
+                                "name": "N. Kalugin",
+                                "number": 2,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 414258,
+                                "name": "S. Poroykov",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 136508,
+                                "name": "K. Kosarev",
+                                "number": 17,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 161985,
+                                "name": "I. Petukhov",
+                                "number": 27,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43504,
+                                "name": "E. Goshev",
+                                "number": 97,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

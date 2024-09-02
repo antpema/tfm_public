@@ -1,0 +1,819 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1234055"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1234055,
+                "referee": "J. Uzc\u00e1tegui",
+                "timezone": "UTC",
+                "date": "2024-07-18T21:00:00+00:00",
+                "timestamp": 1721336400,
+                "periods": {
+                    "first": 1721336400,
+                    "second": 1721340000
+                },
+                "venue": {
+                    "id": 1653,
+                    "name": "Estadio Ol\u00edmpico de la UCV",
+                    "city": "Caracas"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 299,
+                "name": "Primera Divisi\u00f3n",
+                "country": "Venezuela",
+                "logo": "https://media.api-sports.io/football/leagues/299.png",
+                "flag": "https://media.api-sports.io/flags/ve.svg",
+                "season": 2024,
+                "round": "Clausura - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 2840,
+                    "name": "UCV",
+                    "logo": "https://media.api-sports.io/football/teams/2840.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 2838,
+                    "name": "Angostura FC",
+                    "logo": "https://media.api-sports.io/football/teams/2838.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2840,
+                        "name": "UCV",
+                        "logo": "https://media.api-sports.io/football/teams/2840.png"
+                    },
+                    "player": {
+                        "id": 52885,
+                        "name": "J. Ortiz"
+                    },
+                    "assist": {
+                        "id": 53051,
+                        "name": "Y. Murillo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 56,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2840,
+                        "name": "UCV",
+                        "logo": "https://media.api-sports.io/football/teams/2840.png"
+                    },
+                    "player": {
+                        "id": 52976,
+                        "name": "C. Ort\u00edz"
+                    },
+                    "assist": {
+                        "id": 53051,
+                        "name": "Y. Murillo"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2838,
+                        "name": "Angostura FC",
+                        "logo": "https://media.api-sports.io/football/teams/2838.png"
+                    },
+                    "player": {
+                        "id": 278377,
+                        "name": "J. Lovera"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 62,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2840,
+                        "name": "UCV",
+                        "logo": "https://media.api-sports.io/football/teams/2840.png"
+                    },
+                    "player": {
+                        "id": 135109,
+                        "name": "B. Alc\u00f3cer"
+                    },
+                    "assist": {
+                        "id": 6453,
+                        "name": "J. Vargas"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 62,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2838,
+                        "name": "Angostura FC",
+                        "logo": "https://media.api-sports.io/football/teams/2838.png"
+                    },
+                    "player": {
+                        "id": 52954,
+                        "name": "C. G\u00f3mez"
+                    },
+                    "assist": {
+                        "id": 197082,
+                        "name": "E. Pereira"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 62,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2838,
+                        "name": "Angostura FC",
+                        "logo": "https://media.api-sports.io/football/teams/2838.png"
+                    },
+                    "player": {
+                        "id": 59483,
+                        "name": "D. Moreno"
+                    },
+                    "assist": {
+                        "id": 103915,
+                        "name": "J. G\u00f3mez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2840,
+                        "name": "UCV",
+                        "logo": "https://media.api-sports.io/football/teams/2840.png"
+                    },
+                    "player": {
+                        "id": 52976,
+                        "name": "C. Ortiz"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2840,
+                        "name": "UCV",
+                        "logo": "https://media.api-sports.io/football/teams/2840.png"
+                    },
+                    "player": {
+                        "id": 71096,
+                        "name": "B. Hurtado"
+                    },
+                    "assist": {
+                        "id": 53122,
+                        "name": "J. Soto"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 75,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2838,
+                        "name": "Angostura FC",
+                        "logo": "https://media.api-sports.io/football/teams/2838.png"
+                    },
+                    "player": {
+                        "id": 197666,
+                        "name": "J. Pacheco"
+                    },
+                    "assist": {
+                        "id": 13342,
+                        "name": "A. Velasco"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 86,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2840,
+                        "name": "UCV",
+                        "logo": "https://media.api-sports.io/football/teams/2840.png"
+                    },
+                    "player": {
+                        "id": 5292,
+                        "name": "N. Iribarren"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2840,
+                        "name": "UCV",
+                        "logo": "https://media.api-sports.io/football/teams/2840.png"
+                    },
+                    "player": {
+                        "id": 52685,
+                        "name": "Y. Cuman\u00e1"
+                    },
+                    "assist": {
+                        "id": 52492,
+                        "name": "J. Gonz\u00e1lez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2840,
+                        "name": "UCV",
+                        "logo": "https://media.api-sports.io/football/teams/2840.png"
+                    },
+                    "player": {
+                        "id": 75864,
+                        "name": "F. Sol\u00e9"
+                    },
+                    "assist": {
+                        "id": 311452,
+                        "name": "J. Alvarado"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 89,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2838,
+                        "name": "Angostura FC",
+                        "logo": "https://media.api-sports.io/football/teams/2838.png"
+                    },
+                    "player": {
+                        "id": 53088,
+                        "name": "R. Maza"
+                    },
+                    "assist": {
+                        "id": 196604,
+                        "name": "J. Graterol"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 89,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2838,
+                        "name": "Angostura FC",
+                        "logo": "https://media.api-sports.io/football/teams/2838.png"
+                    },
+                    "player": {
+                        "id": 313624,
+                        "name": "A. Contreras"
+                    },
+                    "assist": {
+                        "id": 52377,
+                        "name": "A. Cardozo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 2840,
+                        "name": "UCV",
+                        "logo": "https://media.api-sports.io/football/teams/2840.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 14789,
+                        "name": "D. Sasso",
+                        "photo": "https://media.api-sports.io/football/coachs/14789.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 52915,
+                                "name": "M. Silva",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 5292,
+                                "name": "N. Iribarren",
+                                "number": 3,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52697,
+                                "name": "D. Carrillo",
+                                "number": 27,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52685,
+                                "name": "Y. Cuman\u00e1",
+                                "number": 24,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 53021,
+                                "name": "P. Bonilla",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 57840,
+                                "name": "A. Gonz\u00e1lez",
+                                "number": 30,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 75864,
+                                "name": "F. Sol\u00e9",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52976,
+                                "name": "C. Ort\u00edz",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52885,
+                                "name": "J. Ortiz",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 71096,
+                                "name": "B. Hurtado",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 135109,
+                                "name": "B. Alc\u00f3cer",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 53051,
+                                "name": "Y. Murillo",
+                                "number": 12,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6453,
+                                "name": "J. Vargas",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 53122,
+                                "name": "J. Soto",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52492,
+                                "name": "J. Gonz\u00e1lez",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 311452,
+                                "name": "J. Alvarado",
+                                "number": 28,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 409143,
+                                "name": "J. Polo",
+                                "number": 25,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52773,
+                                "name": "J. Reyes",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 442019,
+                                "name": "F. Huice",
+                                "number": 26,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 316309,
+                                "name": "K. Mendoza",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 314309,
+                                "name": "D. de Sousa",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13190,
+                                "name": "C. Sierra",
+                                "number": 77,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 456311,
+                                "name": "S. Hern\u00e1ndez",
+                                "number": 32,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 2838,
+                        "name": "Angostura FC",
+                        "logo": "https://media.api-sports.io/football/teams/2838.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 19335,
+                        "name": "O. Castillo",
+                        "photo": "https://media.api-sports.io/football/coachs/19335.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 126664,
+                                "name": "V. L\u00f3pez",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52958,
+                                "name": "A. Matos",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13565,
+                                "name": "J. Silgado",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52753,
+                                "name": "A. Monta\u00f1ez",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52871,
+                                "name": "T. Zamora",
+                                "number": 26,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52954,
+                                "name": "C. G\u00f3mez",
+                                "number": 80,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 197666,
+                                "name": "J. Pacheco",
+                                "number": 28,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 278377,
+                                "name": "J. Lovera",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 313624,
+                                "name": "A. Contreras",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 53088,
+                                "name": "R. Maza",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 59483,
+                                "name": "D. Moreno",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 197082,
+                                "name": "E. Pereira",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 103915,
+                                "name": "J. G\u00f3mez",
+                                "number": 31,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13342,
+                                "name": "A. Velasco",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 196604,
+                                "name": "J. Graterol",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52377,
+                                "name": "A. Cardozo",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52353,
+                                "name": "M. Gallo",
+                                "number": 24,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52960,
+                                "name": "J. Rond\u00f3n",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 418639,
+                                "name": "C. Roca",
+                                "number": 79,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52961,
+                                "name": "K. Saab",
+                                "number": 3,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

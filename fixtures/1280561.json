@@ -1,0 +1,138 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1280561"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1280561,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-10T18:00:00+00:00",
+                "timestamp": 1723312800,
+                "periods": {
+                    "first": 1723312800,
+                    "second": 1723316400
+                },
+                "venue": {
+                    "id": 20300,
+                    "name": "Nou Estadi Costa Daurada",
+                    "city": "Tarragona"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 714,
+                    "name": "Gimnastic",
+                    "logo": "https://media.api-sports.io/football/teams/714.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 726,
+                    "name": "Huesca",
+                    "logo": "https://media.api-sports.io/football/teams/726.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 17,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 714,
+                        "name": "Gimnastic",
+                        "logo": "https://media.api-sports.io/football/teams/714.png"
+                    },
+                    "player": {
+                        "id": 91238,
+                        "name": "J. Oriol"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 714,
+                        "name": "Gimnastic",
+                        "logo": "https://media.api-sports.io/football/teams/714.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 13489,
+                        "name": "Dani Vidal",
+                        "photo": "https://media.api-sports.io/football/coachs/13489.png"
+                    },
+                    "formation": null
+                },
+                {
+                    "team": {
+                        "id": 726,
+                        "name": "Huesca",
+                        "logo": "https://media.api-sports.io/football/teams/726.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 6821,
+                        "name": "Antonio Hidalgo",
+                        "photo": "https://media.api-sports.io/football/coachs/6821.png"
+                    },
+                    "formation": null
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

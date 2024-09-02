@@ -1,0 +1,472 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1277954"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1277954,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-08T15:45:00+00:00",
+                "timestamp": 1723131900,
+                "periods": {
+                    "first": 1723131900,
+                    "second": 1723135500
+                },
+                "venue": {
+                    "id": null,
+                    "name": null,
+                    "city": null
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 5"
+            },
+            "teams": {
+                "home": {
+                    "id": 12260,
+                    "name": "Atromitos",
+                    "logo": "https://media.api-sports.io/football/teams/12260.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 1124,
+                    "name": "OFI",
+                    "logo": "https://media.api-sports.io/football/teams/1124.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1124,
+                        "name": "OFI",
+                        "logo": "https://media.api-sports.io/football/teams/1124.png"
+                    },
+                    "player": {
+                        "id": 26905,
+                        "name": "J. Neira"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 12260,
+                        "name": "Atromitos",
+                        "logo": "https://media.api-sports.io/football/teams/12260.png",
+                        "colors": {
+                            "player": {
+                                "primary": "0000ff",
+                                "number": "ffffff",
+                                "border": "0000ff"
+                            },
+                            "goalkeeper": {
+                                "primary": "fa7f34",
+                                "number": "151413",
+                                "border": "fa7f34"
+                            }
+                        }
+                    },
+                    "formation": "4-2-3-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 1587,
+                                "name": "Lefteris Choutesiotis",
+                                "number": 94,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 46679,
+                                "name": "Quini",
+                                "number": 17,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 9672,
+                                "name": "Mansur",
+                                "number": 70,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1951,
+                                "name": "Franz Brorsson",
+                                "number": 31,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 310442,
+                                "name": "Nikolaos Athanasiou",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 297614,
+                                "name": "Ismahila Ou\u00e9draogo",
+                                "number": 18,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 127340,
+                                "name": "Eder Gonz\u00e1lez",
+                                "number": 6,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 26568,
+                                "name": "Makana Baku",
+                                "number": 32,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 40406,
+                                "name": "Carlitos",
+                                "number": 10,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 2667,
+                                "name": "Amr Warda",
+                                "number": 7,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15735,
+                                "name": "Tom van Weert",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 0,
+                        "name": null,
+                        "photo": null
+                    }
+                },
+                {
+                    "team": {
+                        "id": 1124,
+                        "name": "OFI",
+                        "logo": "https://media.api-sports.io/football/teams/1124.png",
+                        "colors": {
+                            "player": {
+                                "primary": "f0f0f0",
+                                "number": "0d0d0d",
+                                "border": "f0f0f0"
+                            },
+                            "goalkeeper": {
+                                "primary": "7eeea7",
+                                "number": "181616",
+                                "border": "7eeea7"
+                            }
+                        }
+                    },
+                    "formation": "4-2-3-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Nikolaos Christogeorgos",
+                                "number": 31,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 26771,
+                                "name": "Nikolaos Marinakis",
+                                "number": 4,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 594,
+                                "name": "Vasilis Lampropoulos",
+                                "number": 24,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 26826,
+                                "name": "Giannis Christopoulos",
+                                "number": 22,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 162990,
+                                "name": "Leroy Abanda",
+                                "number": 99,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35639,
+                                "name": "Felipe Gallegos",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 26952,
+                                "name": "Zisis Karachalios",
+                                "number": 6,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 170077,
+                                "name": "Thiago Nuss",
+                                "number": 18,
+                                "pos": "F",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 349497,
+                                "name": "Giannis Apostolakis",
+                                "number": 45,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 40241,
+                                "name": "Jes\u00fas Jim\u00e9nez",
+                                "number": 11,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 22153,
+                                "name": "Aaron Leya Iseka",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 48393,
+                                "name": "Noam Baumann",
+                                "number": 33,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 51127,
+                                "name": "Bressan",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Konstantinos Chnaris",
+                                "number": 64,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 92525,
+                                "name": "Borja Gonzalez Tejada",
+                                "number": 17,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 8588,
+                                "name": "Marko Baki\u0107",
+                                "number": 88,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 26733,
+                                "name": "Ilias Chatzitheodoridis",
+                                "number": 12,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 453919,
+                                "name": "Andreas Adamakis",
+                                "number": 15,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 340658,
+                                "name": "Titos Koutentakis",
+                                "number": 80,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 133918,
+                                "name": "Adri\u00e1n Riera",
+                                "number": 7,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Theodoros Fanourakis",
+                                "number": 97,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 26905,
+                                "name": "Juan Angel Neira",
+                                "number": 10,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 382218,
+                                "name": "Giannis Theodosoulakis",
+                                "number": 46,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 2527,
+                        "name": "T. Dellas",
+                        "photo": "https://media.api-sports.io/football/coachs/2527.png"
+                    }
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

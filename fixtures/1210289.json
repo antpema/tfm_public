@@ -1,0 +1,463 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1210289"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1210289,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-18T16:30:00+00:00",
+                "timestamp": 1721320200,
+                "periods": {
+                    "first": 1721320200,
+                    "second": 1721323800
+                },
+                "venue": {
+                    "id": 3260,
+                    "name": "SPORTCLUB Arena",
+                    "city": "Verl"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 4265,
+                    "name": "Verl",
+                    "logo": "https://media.api-sports.io/football/teams/4265.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 174,
+                    "name": "FC Schalke 04",
+                    "logo": "https://media.api-sports.io/football/teams/174.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 24,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 174,
+                        "name": "FC Schalke 04",
+                        "logo": "https://media.api-sports.io/football/teams/174.png"
+                    },
+                    "player": {
+                        "id": 203018,
+                        "name": "M. Aydin"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 4265,
+                        "name": "Verl",
+                        "logo": "https://media.api-sports.io/football/teams/4265.png",
+                        "colors": {
+                            "player": {
+                                "primary": "ffffff",
+                                "number": "000000",
+                                "border": "ffffff"
+                            },
+                            "goalkeeper": {
+                                "primary": "ffbb05",
+                                "number": "ffffff",
+                                "border": "ffbb05"
+                            }
+                        }
+                    },
+                    "formation": "4-3-1-2",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 261210,
+                                "name": "Philipp Schulze",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 202845,
+                                "name": "Fabio Gruber",
+                                "number": 2,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 202942,
+                                "name": "Fynn Otto",
+                                "number": 34,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 380626,
+                                "name": "Max Scholze",
+                                "number": 16,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 127884,
+                                "name": "Michel St\u00f6cker",
+                                "number": 24,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 24856,
+                                "name": "Berkan Taz",
+                                "number": 9,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 90648,
+                                "name": "Marcel Benger",
+                                "number": 23,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 25059,
+                                "name": "Tom Baack",
+                                "number": 5,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 119203,
+                                "name": "Dominik Steczyk",
+                                "number": 11,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 26289,
+                                "name": "Yari Otto",
+                                "number": 28,
+                                "pos": "M",
+                                "grid": "5:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 25513,
+                                "name": "Lars Lokotsch",
+                                "number": 13,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 12520,
+                        "name": "A. Ende",
+                        "photo": "https://media.api-sports.io/football/coachs/12520.png"
+                    }
+                },
+                {
+                    "team": {
+                        "id": 174,
+                        "name": "FC Schalke 04",
+                        "logo": "https://media.api-sports.io/football/teams/174.png",
+                        "colors": {
+                            "player": {
+                                "primary": "ffffff",
+                                "number": "004cff",
+                                "border": "ffffff"
+                            },
+                            "goalkeeper": {
+                                "primary": "32ee2b",
+                                "number": "ffffff",
+                                "border": "32ee2b"
+                            }
+                        }
+                    },
+                    "formation": "4-2-3-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 397,
+                                "name": "Michael Langer",
+                                "number": 34,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 178375,
+                                "name": "Henning Matriciani",
+                                "number": 41,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 3003,
+                                "name": "Marcin Kami\u0144ski",
+                                "number": 35,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 323584,
+                                "name": "Martin Wasinski",
+                                "number": 21,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1717,
+                                "name": "Leo Greiml",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 380507,
+                                "name": "Aris Bayindir",
+                                "number": 20,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 203018,
+                                "name": "Mehmet Ayd\u0131n",
+                                "number": 23,
+                                "pos": "D",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 356492,
+                                "name": "Peter Remmert",
+                                "number": 39,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 25155,
+                                "name": "Tobias Mohr",
+                                "number": 29,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 335,
+                                "name": "Amin Younes",
+                                "number": 8,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 24861,
+                                "name": "Sebastian Polter",
+                                "number": 40,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 334361,
+                                "name": "Luca Podlech",
+                                "number": 32,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 380977,
+                                "name": "Niklas Barthel",
+                                "number": 36,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 361411,
+                                "name": "Vitalie Becker",
+                                "number": 33,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 394663,
+                                "name": "Taylan Bulut",
+                                "number": 31,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Malik Talabidi",
+                                "number": 12,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 380854,
+                                "name": "Max Gr\u00fcger",
+                                "number": 37,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Tristan Osmani",
+                                "number": null,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 282087,
+                                "name": "Seok-ju Hong",
+                                "number": 38,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Yannick Aime Tonye",
+                                "number": 17,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Kelsey Owusu Aninkorah Meisel",
+                                "number": 24,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Tim Schmidt",
+                                "number": 27,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 17637,
+                        "name": "K. Geraerts",
+                        "photo": "https://media.api-sports.io/football/coachs/17637.png"
+                    }
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

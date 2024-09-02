@@ -1,0 +1,761 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1230654"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1230654,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-03T12:00:00+00:00",
+                "timestamp": 1722686400,
+                "periods": {
+                    "first": 1722686400,
+                    "second": 1722690000
+                },
+                "venue": {
+                    "id": null,
+                    "name": "TBC",
+                    "city": "TBC"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 58,
+                    "name": "Millwall",
+                    "logo": "https://media.api-sports.io/football/teams/58.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 41,
+                    "name": "Southampton",
+                    "logo": "https://media.api-sports.io/football/teams/41.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 41,
+                        "name": "Southampton",
+                        "logo": "https://media.api-sports.io/football/teams/41.png"
+                    },
+                    "player": {
+                        "id": 19587,
+                        "name": "R. Manning"
+                    },
+                    "assist": {
+                        "id": 18918,
+                        "name": "C. Taylor"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 41,
+                        "name": "Southampton",
+                        "logo": "https://media.api-sports.io/football/teams/41.png"
+                    },
+                    "player": {
+                        "id": 19248,
+                        "name": "N. Wood"
+                    },
+                    "assist": {
+                        "id": 2999,
+                        "name": "J. Bednarek"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 60,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 41,
+                        "name": "Southampton",
+                        "logo": "https://media.api-sports.io/football/teams/41.png"
+                    },
+                    "player": {
+                        "id": 334035,
+                        "name": "S. Amo-Ameyaw"
+                    },
+                    "assist": {
+                        "id": 18940,
+                        "name": "J. Stephens"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 41,
+                        "name": "Southampton",
+                        "logo": "https://media.api-sports.io/football/teams/41.png"
+                    },
+                    "player": {
+                        "id": 19484,
+                        "name": "A. Armstrong"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 69,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 41,
+                        "name": "Southampton",
+                        "logo": "https://media.api-sports.io/football/teams/41.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 41,
+                        "name": "Southampton",
+                        "logo": "https://media.api-sports.io/football/teams/41.png"
+                    },
+                    "player": {
+                        "id": 304317,
+                        "name": "T. Dibling"
+                    },
+                    "assist": {
+                        "id": 278085,
+                        "name": "S. Edozie"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 41,
+                        "name": "Southampton",
+                        "logo": "https://media.api-sports.io/football/teams/41.png"
+                    },
+                    "player": {
+                        "id": 19485,
+                        "name": "B. Brereton Diaz"
+                    },
+                    "assist": {
+                        "id": 19484,
+                        "name": "A. Armstrong"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 41,
+                        "name": "Southampton",
+                        "logo": "https://media.api-sports.io/football/teams/41.png"
+                    },
+                    "player": {
+                        "id": 19719,
+                        "name": "J. Bree"
+                    },
+                    "assist": {
+                        "id": 32887,
+                        "name": "Y. Sugawara"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 6",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 41,
+                        "name": "Southampton",
+                        "logo": "https://media.api-sports.io/football/teams/41.png"
+                    },
+                    "player": {
+                        "id": 159420,
+                        "name": "R. Edwards"
+                    },
+                    "assist": {
+                        "id": 144729,
+                        "name": "T. Harwood-Bellis"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 7",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 41,
+                        "name": "Southampton",
+                        "logo": "https://media.api-sports.io/football/teams/41.png"
+                    },
+                    "player": {
+                        "id": 284356,
+                        "name": "S. Charles"
+                    },
+                    "assist": {
+                        "id": 19733,
+                        "name": "F. Downes"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 8",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 41,
+                        "name": "Southampton",
+                        "logo": "https://media.api-sports.io/football/teams/41.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "J. Robinson"
+                    },
+                    "assist": {
+                        "id": 130421,
+                        "name": "W. Smallbone"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 9",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 41,
+                        "name": "Southampton",
+                        "logo": "https://media.api-sports.io/football/teams/41.png"
+                    },
+                    "player": {
+                        "id": 195993,
+                        "name": "C. Alcaraz"
+                    },
+                    "assist": {
+                        "id": 19825,
+                        "name": "J. Aribo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 10",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 58,
+                        "name": "Millwall",
+                        "logo": "https://media.api-sports.io/football/teams/58.png",
+                        "colors": {
+                            "player": {
+                                "primary": "2d456e",
+                                "number": "ffffff",
+                                "border": "2d456e"
+                            },
+                            "goalkeeper": {
+                                "primary": "6ad2f5",
+                                "number": "ffffff",
+                                "border": "6ad2f5"
+                            }
+                        }
+                    },
+                    "formation": "4-4-2",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 190595,
+                                "name": "Lukas Jensen",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19913,
+                                "name": "Duncan Watmore",
+                                "number": 19,
+                                "pos": "F",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19631,
+                                "name": "Jake Cooper",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19632,
+                                "name": "Shaun Hutchinson",
+                                "number": 4,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19015,
+                                "name": "Joe Bryan",
+                                "number": 15,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 402640,
+                                "name": "Romain Esse",
+                                "number": 25,
+                                "pos": "M",
+                                "grid": "3:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19244,
+                                "name": "George Saville",
+                                "number": 23,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19639,
+                                "name": "Ryan Leonard",
+                                "number": 18,
+                                "pos": "D",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1935,
+                                "name": "Casper De Norre",
+                                "number": 24,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19649,
+                                "name": "Tom Bradshaw",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19903,
+                                "name": "George Honeyman",
+                                "number": 39,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 19520,
+                                "name": "Wes Harding",
+                                "number": 45,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 20419,
+                                "name": "Liam Roberts",
+                                "number": 13,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 149550,
+                                "name": "Japhet Tanganga",
+                                "number": 6,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19641,
+                                "name": "Danny McNamara",
+                                "number": 2,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Alfie Massey",
+                                "number": 42,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 199856,
+                                "name": "Aidomo Emakhu",
+                                "number": 22,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 82594,
+                                "name": "Macaulay Langstaff",
+                                "number": 17,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 97896,
+                                "name": "Kevin Nisbet",
+                                "number": 7,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 2816,
+                        "name": "G. Rowett",
+                        "photo": "https://media.api-sports.io/football/coachs/2816.png"
+                    }
+                },
+                {
+                    "team": {
+                        "id": 41,
+                        "name": "Southampton",
+                        "logo": "https://media.api-sports.io/football/teams/41.png",
+                        "colors": {
+                            "player": {
+                                "primary": "ffffff",
+                                "number": "000000",
+                                "border": "ffffff"
+                            },
+                            "goalkeeper": {
+                                "primary": "3cabb0",
+                                "number": "ffffff",
+                                "border": "3cabb0"
+                            }
+                        }
+                    },
+                    "formation": "4-2-3-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 18935,
+                                "name": "Alex McCarthy",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 32887,
+                                "name": "Yukinari Sugawara",
+                                "number": 16,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 18940,
+                                "name": "Jack Stephens",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 2999,
+                                "name": "Jan Bednarek",
+                                "number": 35,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 18918,
+                                "name": "Charlie Taylor",
+                                "number": 21,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 144729,
+                                "name": "Taylor Harwood-Bellis",
+                                "number": 6,
+                                "pos": "D",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19733,
+                                "name": "Flynn Downes",
+                                "number": 4,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19825,
+                                "name": "Joe Aribo",
+                                "number": 7,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 130421,
+                                "name": "Will Smallbone",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 278085,
+                                "name": "Samuel Edozie",
+                                "number": 23,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19484,
+                                "name": "Adam Armstrong",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 19587,
+                                "name": "Ryan Manning",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19248,
+                                "name": "Nathan Wood",
+                                "number": 15,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 304317,
+                                "name": "Tyler Dibling",
+                                "number": 33,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19485,
+                                "name": "Ben Brereton D\u00edaz",
+                                "number": 11,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 159420,
+                                "name": "Ronnie Edwards",
+                                "number": 12,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19719,
+                                "name": "James Bree",
+                                "number": 14,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 284356,
+                                "name": "Shea Charles",
+                                "number": 24,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 195993,
+                                "name": "Carlos Alcaraz",
+                                "number": 22,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Jay Robinson",
+                                "number": 19,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 6025,
+                        "name": "R. Martin",
+                        "photo": "https://media.api-sports.io/football/coachs/6025.png"
+                    }
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

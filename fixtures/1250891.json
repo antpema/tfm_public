@@ -1,0 +1,698 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1250891"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1250891,
+                "referee": "N. Vi\u00f1as",
+                "timezone": "UTC",
+                "date": "2024-08-04T18:30:00+00:00",
+                "timestamp": 1722796200,
+                "periods": {
+                    "first": 1722796200,
+                    "second": 1722799800
+                },
+                "venue": {
+                    "id": 2999,
+                    "name": "Estadio Delio Esteban Cardozo",
+                    "city": "Pronunciamiento, Provincia de Entre R\u00edos"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 134,
+                "name": "Torneo Federal A",
+                "country": "Argentina",
+                "logo": "https://media.api-sports.io/football/leagues/134.png",
+                "flag": "https://media.api-sports.io/flags/ar.svg",
+                "season": 2024,
+                "round": "Lower Table Round - 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 3942,
+                    "name": "Def. de Pronunciamiento",
+                    "logo": "https://media.api-sports.io/football/teams/3942.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 3945,
+                    "name": "Gimnasia Concepci\u00f3n",
+                    "logo": "https://media.api-sports.io/football/teams/3945.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 35,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3945,
+                        "name": "Gimnasia Concepci\u00f3n",
+                        "logo": "https://media.api-sports.io/football/teams/3945.png"
+                    },
+                    "player": {
+                        "id": 463314,
+                        "name": "J. Cubas"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Own Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3942,
+                        "name": "Def. de Pronunciamiento",
+                        "logo": "https://media.api-sports.io/football/teams/3942.png"
+                    },
+                    "player": {
+                        "id": 463314,
+                        "name": "J. Cubas"
+                    },
+                    "assist": {
+                        "id": 294028,
+                        "name": "L. Pelud\u00e9"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3942,
+                        "name": "Def. de Pronunciamiento",
+                        "logo": "https://media.api-sports.io/football/teams/3942.png"
+                    },
+                    "player": {
+                        "id": 411496,
+                        "name": "J. Rodr\u00edguez"
+                    },
+                    "assist": {
+                        "id": 310720,
+                        "name": "L. Ilari"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 57,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3942,
+                        "name": "Def. de Pronunciamiento",
+                        "logo": "https://media.api-sports.io/football/teams/3942.png"
+                    },
+                    "player": {
+                        "id": 58525,
+                        "name": "R. R\u00edos"
+                    },
+                    "assist": {
+                        "id": 58827,
+                        "name": "B. Valenzuela"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 68,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3942,
+                        "name": "Def. de Pronunciamiento",
+                        "logo": "https://media.api-sports.io/football/teams/3942.png"
+                    },
+                    "player": {
+                        "id": 58827,
+                        "name": "B. Valenzuela"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3945,
+                        "name": "Gimnasia Concepci\u00f3n",
+                        "logo": "https://media.api-sports.io/football/teams/3945.png"
+                    },
+                    "player": {
+                        "id": 75070,
+                        "name": "M. Medina"
+                    },
+                    "assist": {
+                        "id": 411486,
+                        "name": "C. Rothermel"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3945,
+                        "name": "Gimnasia Concepci\u00f3n",
+                        "logo": "https://media.api-sports.io/football/teams/3945.png"
+                    },
+                    "player": {
+                        "id": 311753,
+                        "name": "D. Baltor\u00e9"
+                    },
+                    "assist": {
+                        "id": 58540,
+                        "name": "A. Garc\u00eda"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3945,
+                        "name": "Gimnasia Concepci\u00f3n",
+                        "logo": "https://media.api-sports.io/football/teams/3945.png"
+                    },
+                    "player": {
+                        "id": 411485,
+                        "name": "N. Germanier"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 72,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3945,
+                        "name": "Gimnasia Concepci\u00f3n",
+                        "logo": "https://media.api-sports.io/football/teams/3945.png"
+                    },
+                    "player": {
+                        "id": 404888,
+                        "name": "S. Malimberni"
+                    },
+                    "assist": {
+                        "id": 456367,
+                        "name": "J. Vallejos"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3942,
+                        "name": "Def. de Pronunciamiento",
+                        "logo": "https://media.api-sports.io/football/teams/3942.png"
+                    },
+                    "player": {
+                        "id": 58817,
+                        "name": "M. Villagr\u00e1n"
+                    },
+                    "assist": {
+                        "id": 473291,
+                        "name": "L. de Olivera"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3942,
+                        "name": "Def. de Pronunciamiento",
+                        "logo": "https://media.api-sports.io/football/teams/3942.png"
+                    },
+                    "player": {
+                        "id": 5206,
+                        "name": "L. Coyette"
+                    },
+                    "assist": {
+                        "id": 311206,
+                        "name": "P. Chalup"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3945,
+                        "name": "Gimnasia Concepci\u00f3n",
+                        "logo": "https://media.api-sports.io/football/teams/3945.png"
+                    },
+                    "player": {
+                        "id": 463404,
+                        "name": "A. Gonz\u00e1lez"
+                    },
+                    "assist": {
+                        "id": 59243,
+                        "name": "F. Romero"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3945,
+                        "name": "Gimnasia Concepci\u00f3n",
+                        "logo": "https://media.api-sports.io/football/teams/3945.png"
+                    },
+                    "player": {
+                        "id": 423438,
+                        "name": "S. Acu\u00f1a"
+                    },
+                    "assist": {
+                        "id": 463401,
+                        "name": "G. Garz\u00f3n"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 3942,
+                        "name": "Def. de Pronunciamiento",
+                        "logo": "https://media.api-sports.io/football/teams/3942.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 891,
+                        "name": "H. Orcellet",
+                        "photo": "https://media.api-sports.io/football/coachs/891.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 411484,
+                                "name": "F. Dobler",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 58817,
+                                "name": "M. Villagr\u00e1n",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 58525,
+                                "name": "R. R\u00edos",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 411765,
+                                "name": "D. S\u00e1nchez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 412333,
+                                "name": "N. G\u00f3mez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 5206,
+                                "name": "L. Coyette",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 58825,
+                                "name": "J. Rossi",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 463932,
+                                "name": "L. Ojeda",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 5339,
+                                "name": "L. Robles",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 411496,
+                                "name": "J. Rodr\u00edguez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 463314,
+                                "name": "J. Cubas",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 294028,
+                                "name": "L. Pelud\u00e9",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 310720,
+                                "name": "L. Ilari",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 58827,
+                                "name": "B. Valenzuela",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 473291,
+                                "name": "L. de Olivera",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 311206,
+                                "name": "P. Chalup",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 3945,
+                        "name": "Gimnasia Concepci\u00f3n",
+                        "logo": "https://media.api-sports.io/football/teams/3945.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 22468,
+                        "name": "L. Tonelotto",
+                        "photo": "https://media.api-sports.io/football/coachs/22468.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 58698,
+                                "name": "J. D\u00edaz",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 58521,
+                                "name": "J. Ben\u00edtez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 463404,
+                                "name": "A. Gonz\u00e1lez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 58821,
+                                "name": "J. Laureiro",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 58528,
+                                "name": "L. L\u00f3pez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 75070,
+                                "name": "M. Medina",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 311753,
+                                "name": "D. Baltor\u00e9",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 312107,
+                                "name": "J. Meza",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 411485,
+                                "name": "N. Germanier",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 423438,
+                                "name": "S. Acu\u00f1a",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 404888,
+                                "name": "S. Malimberni",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 411486,
+                                "name": "C. Rothermel",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 58540,
+                                "name": "A. Garc\u00eda",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 456367,
+                                "name": "J. Vallejos",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 59243,
+                                "name": "F. Romero",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 463401,
+                                "name": "G. Garz\u00f3n",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

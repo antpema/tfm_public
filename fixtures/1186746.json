@@ -1,0 +1,731 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1186746"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1186746,
+                "referee": "Roger Goulart",
+                "timezone": "UTC",
+                "date": "2024-07-20T19:00:00+00:00",
+                "timestamp": 1721502000,
+                "periods": {
+                    "first": 1721502000,
+                    "second": 1721505600
+                },
+                "venue": {
+                    "id": 7045,
+                    "name": "Est\u00e1dio Bruno Jos\u00e9 Daniel",
+                    "city": "Santo Andr\u00e9, S\u00e3o Paulo"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 76,
+                "name": "Serie D",
+                "country": "Brazil",
+                "logo": "https://media.api-sports.io/football/leagues/76.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "season": 2024,
+                "round": "1st Phase - 14"
+            },
+            "teams": {
+                "home": {
+                    "id": 10003,
+                    "name": "Santo Andr\u00e9",
+                    "logo": "https://media.api-sports.io/football/teams/10003.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 7833,
+                    "name": "Maring\u00e1",
+                    "logo": "https://media.api-sports.io/football/teams/7833.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 61,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7833,
+                        "name": "Maring\u00e1",
+                        "logo": "https://media.api-sports.io/football/teams/7833.png"
+                    },
+                    "player": {
+                        "id": 55186,
+                        "name": "Robertinho"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 62,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10003,
+                        "name": "Santo Andr\u00e9",
+                        "logo": "https://media.api-sports.io/football/teams/10003.png"
+                    },
+                    "player": {
+                        "id": 267769,
+                        "name": "Dioran"
+                    },
+                    "assist": {
+                        "id": 371454,
+                        "name": "Alexiel"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 62,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10003,
+                        "name": "Santo Andr\u00e9",
+                        "logo": "https://media.api-sports.io/football/teams/10003.png"
+                    },
+                    "player": {
+                        "id": 143640,
+                        "name": "Kawan"
+                    },
+                    "assist": {
+                        "id": 156546,
+                        "name": "Hadrian"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7833,
+                        "name": "Maring\u00e1",
+                        "logo": "https://media.api-sports.io/football/teams/7833.png"
+                    },
+                    "player": {
+                        "id": 195409,
+                        "name": "Lucas Black"
+                    },
+                    "assist": {
+                        "id": 281330,
+                        "name": "D\u00e9rick"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7833,
+                        "name": "Maring\u00e1",
+                        "logo": "https://media.api-sports.io/football/teams/7833.png"
+                    },
+                    "player": {
+                        "id": 55182,
+                        "name": "Parrudo"
+                    },
+                    "assist": {
+                        "id": 9654,
+                        "name": "Caique"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7833,
+                        "name": "Maring\u00e1",
+                        "logo": "https://media.api-sports.io/football/teams/7833.png"
+                    },
+                    "player": {
+                        "id": 159802,
+                        "name": "J\u00falio Rodrigues"
+                    },
+                    "assist": {
+                        "id": 276686,
+                        "name": "Luan Santos"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 75,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10003,
+                        "name": "Santo Andr\u00e9",
+                        "logo": "https://media.api-sports.io/football/teams/10003.png"
+                    },
+                    "player": {
+                        "id": 262596,
+                        "name": "Rafael"
+                    },
+                    "assist": {
+                        "id": 353748,
+                        "name": "Jesus C\u00e9sar"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 75,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10003,
+                        "name": "Santo Andr\u00e9",
+                        "logo": "https://media.api-sports.io/football/teams/10003.png"
+                    },
+                    "player": {
+                        "id": 140465,
+                        "name": "Jo\u00e3o Marcos"
+                    },
+                    "assist": {
+                        "id": 313759,
+                        "name": "Ruan"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 79,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7833,
+                        "name": "Maring\u00e1",
+                        "logo": "https://media.api-sports.io/football/teams/7833.png"
+                    },
+                    "player": {
+                        "id": 278385,
+                        "name": "Ronald Carvalho"
+                    },
+                    "assist": {
+                        "id": 335651,
+                        "name": "Jo\u00e3o Victor"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 79,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7833,
+                        "name": "Maring\u00e1",
+                        "logo": "https://media.api-sports.io/football/teams/7833.png"
+                    },
+                    "player": {
+                        "id": 55186,
+                        "name": "Robertinho"
+                    },
+                    "assist": {
+                        "id": 372618,
+                        "name": "Romailson"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 10003,
+                        "name": "Santo Andr\u00e9",
+                        "logo": "https://media.api-sports.io/football/teams/10003.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 2578,
+                        "name": "Leston J\u00fanior",
+                        "photo": "https://media.api-sports.io/football/coachs/2578.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 309379,
+                                "name": "Wellington Santana",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 195404,
+                                "name": "Lucas Oliveira",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 199381,
+                                "name": "Ben-Hur",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 262596,
+                                "name": "Rafael",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 297221,
+                                "name": "Almir Luan",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 195312,
+                                "name": "Nelsinho",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 143640,
+                                "name": "Kawan",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 197389,
+                                "name": "J\u00falio Cesar",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 356757,
+                                "name": "Enzo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 140465,
+                                "name": "Jo\u00e3o Marcos",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 267769,
+                                "name": "Dioran",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 371454,
+                                "name": "Alexiel",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 156546,
+                                "name": "Hadrian",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 353748,
+                                "name": "Jesus C\u00e9sar",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 313759,
+                                "name": "Ruan",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 435560,
+                                "name": "Renan",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 283833,
+                                "name": "Alessandro",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 403966,
+                                "name": "Andr\u00e9",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 426812,
+                                "name": "Gabriel Paz Silva",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 333287,
+                                "name": "Henrique Torelli",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 306779,
+                                "name": "Ighor Gabryel",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 425131,
+                                "name": "Jhonatas",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 352794,
+                                "name": "Pato",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 7833,
+                        "name": "Maring\u00e1",
+                        "logo": "https://media.api-sports.io/football/teams/7833.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 16527,
+                        "name": "Jorge Castilho",
+                        "photo": "https://media.api-sports.io/football/coachs/16527.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 9448,
+                                "name": "Dheimison",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 278385,
+                                "name": "Ronald Carvalho",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 358983,
+                                "name": "Max Miller",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 454375,
+                                "name": "Luis Fernando",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 55182,
+                                "name": "Parrudo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 195409,
+                                "name": "Lucas Black",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 364472,
+                                "name": "Lucas Bonif\u00e1cio",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 9397,
+                                "name": "L\u00e9o Cear\u00e1",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 55186,
+                                "name": "Robertinho",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 159802,
+                                "name": "J\u00falio Rodrigues",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 278499,
+                                "name": "Moraes",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 281330,
+                                "name": "D\u00e9rick",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 9654,
+                                "name": "Caique",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 276686,
+                                "name": "Luan Santos",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 335651,
+                                "name": "Jo\u00e3o Victor",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 372618,
+                                "name": "Romailson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 312069,
+                                "name": "Rafael William",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 472275,
+                                "name": "Caio",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 166700,
+                                "name": "Guilherme Santos",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 474279,
+                                "name": "Rafael",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

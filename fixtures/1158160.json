@@ -1,0 +1,792 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1158160"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1158160,
+                "referee": "B. Amiconi",
+                "timezone": "UTC",
+                "date": "2024-07-21T18:30:00+00:00",
+                "timestamp": 1721586600,
+                "periods": {
+                    "first": 1721586600,
+                    "second": 1721590200
+                },
+                "venue": {
+                    "id": 64,
+                    "name": "Estadio Omar Higinio Sperdutti",
+                    "city": "Maip\u00fa, Provincia de Mendoza"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 129,
+                "name": "Primera Nacional",
+                "country": "Argentina",
+                "logo": "https://media.api-sports.io/football/leagues/129.png",
+                "flag": "https://media.api-sports.io/flags/ar.svg",
+                "season": 2024,
+                "round": "Regular Season - 24"
+            },
+            "teams": {
+                "home": {
+                    "id": 1954,
+                    "name": "Deportivo Maipu",
+                    "logo": "https://media.api-sports.io/football/teams/1954.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 472,
+                    "name": "Guillermo Brown",
+                    "logo": "https://media.api-sports.io/football/teams/472.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 18,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 472,
+                        "name": "Guillermo Brown",
+                        "logo": "https://media.api-sports.io/football/teams/472.png"
+                    },
+                    "player": {
+                        "id": 6205,
+                        "name": "M. Pinto"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 22,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1954,
+                        "name": "Deportivo Maipu",
+                        "logo": "https://media.api-sports.io/football/teams/1954.png"
+                    },
+                    "player": {
+                        "id": 5602,
+                        "name": "N. Del Priore"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 472,
+                        "name": "Guillermo Brown",
+                        "logo": "https://media.api-sports.io/football/teams/472.png"
+                    },
+                    "player": {
+                        "id": 278368,
+                        "name": "M. Luayza"
+                    },
+                    "assist": {
+                        "id": 412331,
+                        "name": "F. Funes"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 51,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1954,
+                        "name": "Deportivo Maipu",
+                        "logo": "https://media.api-sports.io/football/teams/1954.png"
+                    },
+                    "player": {
+                        "id": 295494,
+                        "name": "M. Sosa"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 61,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 472,
+                        "name": "Guillermo Brown",
+                        "logo": "https://media.api-sports.io/football/teams/472.png"
+                    },
+                    "player": {
+                        "id": 51665,
+                        "name": "E. Gonz\u00e1lez"
+                    },
+                    "assist": {
+                        "id": 58852,
+                        "name": "S. Guti\u00e9rrez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 61,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 472,
+                        "name": "Guillermo Brown",
+                        "logo": "https://media.api-sports.io/football/teams/472.png"
+                    },
+                    "player": {
+                        "id": 302617,
+                        "name": "M. Galeano"
+                    },
+                    "assist": {
+                        "id": 415132,
+                        "name": "M. Moreno"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1954,
+                        "name": "Deportivo Maipu",
+                        "logo": "https://media.api-sports.io/football/teams/1954.png"
+                    },
+                    "player": {
+                        "id": 5217,
+                        "name": "G. G\u00f3mez"
+                    },
+                    "assist": {
+                        "id": 368672,
+                        "name": "J. Arno"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1954,
+                        "name": "Deportivo Maipu",
+                        "logo": "https://media.api-sports.io/football/teams/1954.png"
+                    },
+                    "player": {
+                        "id": 6720,
+                        "name": "F. Montero"
+                    },
+                    "assist": {
+                        "id": 75413,
+                        "name": "F. Giaccone"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 75,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1954,
+                        "name": "Deportivo Maipu",
+                        "logo": "https://media.api-sports.io/football/teams/1954.png"
+                    },
+                    "player": {
+                        "id": 15450,
+                        "name": "F. Rasic"
+                    },
+                    "assist": {
+                        "id": 323777,
+                        "name": "E. Almir\u00f3n"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 472,
+                        "name": "Guillermo Brown",
+                        "logo": "https://media.api-sports.io/football/teams/472.png"
+                    },
+                    "player": {
+                        "id": 306546,
+                        "name": "R. Riquelme"
+                    },
+                    "assist": {
+                        "id": 456285,
+                        "name": "A. Silva"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1954,
+                        "name": "Deportivo Maipu",
+                        "logo": "https://media.api-sports.io/football/teams/1954.png"
+                    },
+                    "player": {
+                        "id": 125175,
+                        "name": "M. Viguet"
+                    },
+                    "assist": {
+                        "id": 58393,
+                        "name": "R. Ram\u00edrez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1954,
+                        "name": "Deportivo Maipu",
+                        "logo": "https://media.api-sports.io/football/teams/1954.png"
+                    },
+                    "player": {
+                        "id": 5602,
+                        "name": "N. Del Priore"
+                    },
+                    "assist": {
+                        "id": 468681,
+                        "name": "D. Gaitan"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 4
+                    },
+                    "team": {
+                        "id": 1954,
+                        "name": "Deportivo Maipu",
+                        "logo": "https://media.api-sports.io/football/teams/1954.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "A. Cruz"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 472,
+                        "name": "Guillermo Brown",
+                        "logo": "https://media.api-sports.io/football/teams/472.png"
+                    },
+                    "player": {
+                        "id": 363353,
+                        "name": "V. Werro"
+                    },
+                    "assist": {
+                        "id": 95273,
+                        "name": "H. Sandoval"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 1954,
+                        "name": "Deportivo Maipu",
+                        "logo": "https://media.api-sports.io/football/teams/1954.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 16640,
+                        "name": "J. Sara",
+                        "photo": "https://media.api-sports.io/football/coachs/16640.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 35931,
+                                "name": "S. Sosa",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 5796,
+                                "name": "S. Moyano",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 308195,
+                                "name": "M. Tar\u00f3n",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6720,
+                                "name": "F. Montero",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6280,
+                                "name": "E. Ozuna",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 5602,
+                                "name": "N. Del Priore",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 125175,
+                                "name": "M. Viguet",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 295494,
+                                "name": "M. Sosa",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 411479,
+                                "name": "S. Paulini",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15450,
+                                "name": "F. Rasic",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 5217,
+                                "name": "G. G\u00f3mez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 368672,
+                                "name": "J. Arno",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 75413,
+                                "name": "F. Giaccone",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 323777,
+                                "name": "E. Almir\u00f3n",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 58393,
+                                "name": "R. Ram\u00edrez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 468681,
+                                "name": "D. Gaitan",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 363395,
+                                "name": "L. Paredes",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 311375,
+                                "name": "F. Coronel",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 363346,
+                                "name": "M. Solari",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 58961,
+                                "name": "J. Noce",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 472,
+                        "name": "Guillermo Brown",
+                        "logo": "https://media.api-sports.io/football/teams/472.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 257,
+                        "name": "A. Sialle",
+                        "photo": "https://media.api-sports.io/football/coachs/257.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 5716,
+                                "name": "S. Giovini",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6205,
+                                "name": "M. Pinto",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 75530,
+                                "name": "C. Gorgerino",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 306546,
+                                "name": "R. Riquelme",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 363353,
+                                "name": "V. Werro",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 411464,
+                                "name": "E. Mart\u00ednez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 51665,
+                                "name": "E. Gonz\u00e1lez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6396,
+                                "name": "N. Bazzana",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 5677,
+                                "name": "C. Machado",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 278368,
+                                "name": "M. Luayza",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 302617,
+                                "name": "M. Galeano",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 412331,
+                                "name": "F. Funes",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 58852,
+                                "name": "S. Guti\u00e9rrez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 415132,
+                                "name": "M. Moreno",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 456285,
+                                "name": "A. Silva",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 95273,
+                                "name": "H. Sandoval",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6293,
+                                "name": "M. Soria",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 310433,
+                                "name": "S. Vel\u00e1squez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 5322,
+                                "name": "R. P\u00e9rez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6182,
+                                "name": "F. Mar\u00edn",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

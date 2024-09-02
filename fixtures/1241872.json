@@ -1,0 +1,153 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1241872"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1241872,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-03T12:00:00+00:00",
+                "timestamp": 1722686400,
+                "periods": {
+                    "first": 1722686400,
+                    "second": 1722690000
+                },
+                "venue": {
+                    "id": 8173,
+                    "name": "Waldsportplatz Oberachern",
+                    "city": "Achern"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 753,
+                "name": "Oberliga - Baden-W\u00fcrttemberg",
+                "country": "Germany",
+                "logo": "https://media.api-sports.io/football/leagues/753.png",
+                "flag": "https://media.api-sports.io/flags/de.svg",
+                "season": 2024,
+                "round": "Baden-W\u00fcrttemberg - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 12822,
+                    "name": "Oberachern",
+                    "logo": "https://media.api-sports.io/football/teams/12822.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 1624,
+                    "name": "FV Ravensburg",
+                    "logo": "https://media.api-sports.io/football/teams/1624.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 28,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 12822,
+                        "name": "Oberachern",
+                        "logo": "https://media.api-sports.io/football/teams/12822.png"
+                    },
+                    "player": {
+                        "id": 376567,
+                        "name": "N. Huber"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 66,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1624,
+                        "name": "FV Ravensburg",
+                        "logo": "https://media.api-sports.io/football/teams/1624.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "L. Kukic"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 89,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1624,
+                        "name": "FV Ravensburg",
+                        "logo": "https://media.api-sports.io/football/teams/1624.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "D. Geiselhart"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

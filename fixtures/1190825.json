@@ -1,0 +1,756 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1190825"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1190825,
+                "referee": "M. Persson",
+                "timezone": "UTC",
+                "date": "2024-08-03T11:00:00+00:00",
+                "timestamp": 1722682800,
+                "periods": {
+                    "first": 1722682800,
+                    "second": 1722686400
+                },
+                "venue": {
+                    "id": 4897,
+                    "name": "Tornvallen",
+                    "city": "Lund"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 564,
+                "name": "Ettan - S\u00f6dra",
+                "country": "Sweden",
+                "logo": "https://media.api-sports.io/football/leagues/564.png",
+                "flag": "https://media.api-sports.io/flags/se.svg",
+                "season": 2024,
+                "round": "S\u00f6dra - 16"
+            },
+            "teams": {
+                "home": {
+                    "id": 6701,
+                    "name": "Torns",
+                    "logo": "https://media.api-sports.io/football/teams/6701.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 812,
+                    "name": "falkenbergs FF",
+                    "logo": "https://media.api-sports.io/football/teams/812.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 5,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 812,
+                        "name": "falkenbergs FF",
+                        "logo": "https://media.api-sports.io/football/teams/812.png"
+                    },
+                    "player": {
+                        "id": 47586,
+                        "name": "N. Bertilsson"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6701,
+                        "name": "Torns",
+                        "logo": "https://media.api-sports.io/football/teams/6701.png"
+                    },
+                    "player": {
+                        "id": 315602,
+                        "name": "E. Persson"
+                    },
+                    "assist": {
+                        "id": 449964,
+                        "name": "A. Obasoto"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6701,
+                        "name": "Torns",
+                        "logo": "https://media.api-sports.io/football/teams/6701.png"
+                    },
+                    "player": {
+                        "id": 433189,
+                        "name": "H. K\u00e4llstr\u00f6m"
+                    },
+                    "assist": {
+                        "id": 455564,
+                        "name": "J. Jacobsson"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 49,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 812,
+                        "name": "falkenbergs FF",
+                        "logo": "https://media.api-sports.io/football/teams/812.png"
+                    },
+                    "player": {
+                        "id": 161450,
+                        "name": "O. Lindberg"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6701,
+                        "name": "Torns",
+                        "logo": "https://media.api-sports.io/football/teams/6701.png"
+                    },
+                    "player": {
+                        "id": 360318,
+                        "name": "O. Khattab"
+                    },
+                    "assist": {
+                        "id": 226350,
+                        "name": "J. Gr\u00f6nneberg-Johansen"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6701,
+                        "name": "Torns",
+                        "logo": "https://media.api-sports.io/football/teams/6701.png"
+                    },
+                    "player": {
+                        "id": 262857,
+                        "name": "O. Hallberg"
+                    },
+                    "assist": {
+                        "id": 338875,
+                        "name": "L. Hamawand"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 812,
+                        "name": "falkenbergs FF",
+                        "logo": "https://media.api-sports.io/football/teams/812.png"
+                    },
+                    "player": {
+                        "id": 282635,
+                        "name": "Leonardo Farah Shahin"
+                    },
+                    "assist": {
+                        "id": 321497,
+                        "name": "H. Tilly"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 812,
+                        "name": "falkenbergs FF",
+                        "logo": "https://media.api-sports.io/football/teams/812.png"
+                    },
+                    "player": {
+                        "id": 413727,
+                        "name": "R. Gotfredsen Grgic"
+                    },
+                    "assist": {
+                        "id": 267838,
+                        "name": "I. Shears"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 74,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6701,
+                        "name": "Torns",
+                        "logo": "https://media.api-sports.io/football/teams/6701.png"
+                    },
+                    "player": {
+                        "id": 326568,
+                        "name": "M. Fatahi"
+                    },
+                    "assist": {
+                        "id": 47731,
+                        "name": "M. Halvad\u017ei\u0107"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 74,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 812,
+                        "name": "falkenbergs FF",
+                        "logo": "https://media.api-sports.io/football/teams/812.png"
+                    },
+                    "player": {
+                        "id": 83227,
+                        "name": "R. Andersson"
+                    },
+                    "assist": {
+                        "id": 344644,
+                        "name": "L. Sibelius"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 74,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 812,
+                        "name": "falkenbergs FF",
+                        "logo": "https://media.api-sports.io/football/teams/812.png"
+                    },
+                    "player": {
+                        "id": 161450,
+                        "name": "O. Lindberg"
+                    },
+                    "assist": {
+                        "id": 269558,
+                        "name": "M. Larsson"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 76,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6701,
+                        "name": "Torns",
+                        "logo": "https://media.api-sports.io/football/teams/6701.png"
+                    },
+                    "player": {
+                        "id": 338875,
+                        "name": "L. Hamawand"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 812,
+                        "name": "falkenbergs FF",
+                        "logo": "https://media.api-sports.io/football/teams/812.png"
+                    },
+                    "player": {
+                        "id": 47586,
+                        "name": "N. Bertilsson"
+                    },
+                    "assist": {
+                        "id": 198822,
+                        "name": "G. Johansson"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 88,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6701,
+                        "name": "Torns",
+                        "logo": "https://media.api-sports.io/football/teams/6701.png"
+                    },
+                    "player": {
+                        "id": 362006,
+                        "name": "O. Khattab"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 6701,
+                        "name": "Torns",
+                        "logo": "https://media.api-sports.io/football/teams/6701.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 13686,
+                        "name": "I. Kaljic",
+                        "photo": "https://media.api-sports.io/football/coachs/13686.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 433189,
+                                "name": "H. K\u00e4llstr\u00f6m",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 139619,
+                                "name": "A. Larsson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 190556,
+                                "name": "L. Persson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 413660,
+                                "name": "J. Lynard",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 262857,
+                                "name": "O. Hallberg",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 267886,
+                                "name": "R. Kukoyi",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 315602,
+                                "name": "E. Persson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 326568,
+                                "name": "M. Fatahi",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 268551,
+                                "name": "E. Karaman",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 360318,
+                                "name": "O. Khattab",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 362006,
+                                "name": "Osama Khattab",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 449964,
+                                "name": "A. Obasoto",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 455564,
+                                "name": "J. Jacobsson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 226350,
+                                "name": "J. Gr\u00f6nneberg-Johansen",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 338875,
+                                "name": "L. Hamawand",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47731,
+                                "name": "M. Halvad\u017ei\u0107",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 100127,
+                                "name": "A. Winberg",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 309748,
+                                "name": "R. Norlander",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 812,
+                        "name": "falkenbergs FF",
+                        "logo": "https://media.api-sports.io/football/teams/812.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 16731,
+                        "name": "C. Andersson",
+                        "photo": "https://media.api-sports.io/football/coachs/16731.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 161499,
+                                "name": "A. Andersson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 162379,
+                                "name": "T. St\u00e5lheden",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47586,
+                                "name": "N. Bertilsson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 128335,
+                                "name": "N. Hansson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 167712,
+                                "name": "L. Borgstr\u00f6m",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 48353,
+                                "name": "C. Carlsson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 83227,
+                                "name": "R. Andersson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 127355,
+                                "name": "M. Nilsson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 161450,
+                                "name": "O. Lindberg",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 282635,
+                                "name": "Leonardo Farah Shahin",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 413727,
+                                "name": "R. Gotfredsen Grgic",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 321497,
+                                "name": "H. Tilly",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 267838,
+                                "name": "I. Shears",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 344644,
+                                "name": "L. Sibelius",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 269558,
+                                "name": "M. Larsson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 198822,
+                                "name": "G. Johansson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 413726,
+                                "name": "E. Christiansson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 284544,
+                                "name": "G. Lillienberg",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

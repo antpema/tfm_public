@@ -1,0 +1,153 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1232606"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1232606,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-30T00:00:00+00:00",
+                "timestamp": 1722297600,
+                "periods": {
+                    "first": 1722297600,
+                    "second": 1722301200
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Estadio Jose Silva Romo",
+                    "city": "Ba\u00f1os de Agua Santa"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 917,
+                "name": "Copa Ecuador",
+                "country": "Ecuador",
+                "logo": "https://media.api-sports.io/football/leagues/917.png",
+                "flag": "https://media.api-sports.io/flags/ec.svg",
+                "season": 2023,
+                "round": "2nd Round"
+            },
+            "teams": {
+                "home": {
+                    "id": 24074,
+                    "name": "Vicentino Dragons",
+                    "logo": "https://media.api-sports.io/football/teams/24074.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 18762,
+                    "name": "Libertad",
+                    "logo": "https://media.api-sports.io/football/teams/18762.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 7,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 18762,
+                        "name": "Libertad",
+                        "logo": "https://media.api-sports.io/football/teams/18762.png"
+                    },
+                    "player": {
+                        "id": 81199,
+                        "name": "D. Avila"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 28,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 18762,
+                        "name": "Libertad",
+                        "logo": "https://media.api-sports.io/football/teams/18762.png"
+                    },
+                    "player": {
+                        "id": 16732,
+                        "name": "I. Zambrano"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 34,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 24074,
+                        "name": "Vicentino Dragons",
+                        "logo": "https://media.api-sports.io/football/teams/24074.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

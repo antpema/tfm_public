@@ -1,0 +1,832 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1202603"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1202603,
+                "referee": "A. Matonte",
+                "timezone": "UTC",
+                "date": "2024-07-21T19:00:00+00:00",
+                "timestamp": 1721588400,
+                "periods": {
+                    "first": 1721588400,
+                    "second": 1721592000
+                },
+                "venue": {
+                    "id": 1640,
+                    "name": "Estadio Campe\u00f3n del Siglo",
+                    "city": "Montevideo"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 268,
+                "name": "Primera Divisi\u00f3n - Apertura",
+                "country": "Uruguay",
+                "logo": "https://media.api-sports.io/football/leagues/268.png",
+                "flag": "https://media.api-sports.io/flags/uy.svg",
+                "season": 2024,
+                "round": "Intermediate Round - 6"
+            },
+            "teams": {
+                "home": {
+                    "id": 2348,
+                    "name": "Penarol",
+                    "logo": "https://media.api-sports.io/football/teams/2348.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 2357,
+                    "name": "Fenix",
+                    "logo": "https://media.api-sports.io/football/teams/2357.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 22,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2348,
+                        "name": "Penarol",
+                        "logo": "https://media.api-sports.io/football/teams/2348.png"
+                    },
+                    "player": {
+                        "id": 6122,
+                        "name": "J. M\u00e9ndez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 44,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2357,
+                        "name": "Fenix",
+                        "logo": "https://media.api-sports.io/football/teams/2357.png"
+                    },
+                    "player": {
+                        "id": 199077,
+                        "name": "Agust\u00edn Alfaro"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2357,
+                        "name": "Fenix",
+                        "logo": "https://media.api-sports.io/football/teams/2357.png"
+                    },
+                    "player": {
+                        "id": 199077,
+                        "name": "A. Alfaro"
+                    },
+                    "assist": {
+                        "id": 321471,
+                        "name": "M. Juambeltz"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 52,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2348,
+                        "name": "Penarol",
+                        "logo": "https://media.api-sports.io/football/teams/2348.png"
+                    },
+                    "player": {
+                        "id": 9723,
+                        "name": "F. Batista"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2348,
+                        "name": "Penarol",
+                        "logo": "https://media.api-sports.io/football/teams/2348.png"
+                    },
+                    "player": {
+                        "id": 9723,
+                        "name": "F. Batista"
+                    },
+                    "assist": {
+                        "id": 134615,
+                        "name": "L\u00e9o Coelho"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2357,
+                        "name": "Fenix",
+                        "logo": "https://media.api-sports.io/football/teams/2357.png"
+                    },
+                    "player": {
+                        "id": 31340,
+                        "name": "A. Schetino"
+                    },
+                    "assist": {
+                        "id": 399519,
+                        "name": "F. de Le\u00f3n"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2357,
+                        "name": "Fenix",
+                        "logo": "https://media.api-sports.io/football/teams/2357.png"
+                    },
+                    "player": {
+                        "id": 375546,
+                        "name": "Sebasti\u00e1n da Silva"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2348,
+                        "name": "Penarol",
+                        "logo": "https://media.api-sports.io/football/teams/2348.png"
+                    },
+                    "player": {
+                        "id": 51597,
+                        "name": "L. Hern\u00e1ndez"
+                    },
+                    "assist": {
+                        "id": 6158,
+                        "name": "D. Sosa"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2348,
+                        "name": "Penarol",
+                        "logo": "https://media.api-sports.io/football/teams/2348.png"
+                    },
+                    "player": {
+                        "id": 51804,
+                        "name": "E. Darias"
+                    },
+                    "assist": {
+                        "id": 67899,
+                        "name": "N. Acosta"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 74,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2357,
+                        "name": "Fenix",
+                        "logo": "https://media.api-sports.io/football/teams/2357.png"
+                    },
+                    "player": {
+                        "id": 310782,
+                        "name": "S. de Marco"
+                    },
+                    "assist": {
+                        "id": 195511,
+                        "name": "\u00c1. P\u00e9rez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 74,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2357,
+                        "name": "Fenix",
+                        "logo": "https://media.api-sports.io/football/teams/2357.png"
+                    },
+                    "player": {
+                        "id": 375546,
+                        "name": "S. da Silva"
+                    },
+                    "assist": {
+                        "id": 458942,
+                        "name": "R. Hern\u00e1ndez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2357,
+                        "name": "Fenix",
+                        "logo": "https://media.api-sports.io/football/teams/2357.png"
+                    },
+                    "player": {
+                        "id": 59006,
+                        "name": "M. Cachi"
+                    },
+                    "assist": {
+                        "id": 51606,
+                        "name": "F. Estoyanoff"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2348,
+                        "name": "Penarol",
+                        "logo": "https://media.api-sports.io/football/teams/2348.png"
+                    },
+                    "player": {
+                        "id": 30455,
+                        "name": "G. Ram\u00edrez"
+                    },
+                    "assist": {
+                        "id": 47260,
+                        "name": "S. Crist\u00f3foro"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2348,
+                        "name": "Penarol",
+                        "logo": "https://media.api-sports.io/football/teams/2348.png"
+                    },
+                    "player": {
+                        "id": 51786,
+                        "name": "J. Cabrera"
+                    },
+                    "assist": {
+                        "id": 362575,
+                        "name": "F. Gonz\u00e1lez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 2348,
+                        "name": "Penarol",
+                        "logo": "https://media.api-sports.io/football/teams/2348.png",
+                        "colors": {
+                            "player": {
+                                "primary": "ffdf00",
+                                "number": "ffffff",
+                                "border": "ffdf00"
+                            },
+                            "goalkeeper": {
+                                "primary": "ff7900",
+                                "number": "000000",
+                                "border": "ff7900"
+                            }
+                        }
+                    },
+                    "coach": {
+                        "id": 1898,
+                        "name": "D. Aguirre",
+                        "photo": "https://media.api-sports.io/football/coachs/1898.png"
+                    },
+                    "formation": "4-2-3-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 51385,
+                                "name": "W. Aguerre",
+                                "number": 29,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 182025,
+                                "name": "P. Milans",
+                                "number": 20,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6122,
+                                "name": "J. M\u00e9ndez",
+                                "number": 23,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 152410,
+                                "name": "G. Rodr\u00edguez",
+                                "number": 4,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 51597,
+                                "name": "L. Hern\u00e1ndez",
+                                "number": 27,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 354063,
+                                "name": "D. Garc\u00eda",
+                                "number": 14,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 30455,
+                                "name": "G. Ram\u00edrez",
+                                "number": 10,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 51786,
+                                "name": "J. Cabrera",
+                                "number": 7,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 51804,
+                                "name": "E. Darias",
+                                "number": 13,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52058,
+                                "name": "M. Silvera",
+                                "number": 11,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 9723,
+                                "name": "F. Batista",
+                                "number": 21,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 134615,
+                                "name": "L\u00e9o Coelho",
+                                "number": 2,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6158,
+                                "name": "D. Sosa",
+                                "number": 19,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 67899,
+                                "name": "N. Acosta",
+                                "number": 33,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47260,
+                                "name": "S. Crist\u00f3foro",
+                                "number": 5,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 362575,
+                                "name": "F. Gonz\u00e1lez",
+                                "number": 9,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 10297,
+                                "name": "G. de Amores",
+                                "number": 12,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 414340,
+                                "name": "L. Gonz\u00e1lez",
+                                "number": 17,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 159718,
+                                "name": "Matheus Babi",
+                                "number": 22,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 363142,
+                                "name": "N. Herrera",
+                                "number": 34,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 410431,
+                                "name": "T. Olase",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 2357,
+                        "name": "Fenix",
+                        "logo": "https://media.api-sports.io/football/teams/2357.png",
+                        "colors": {
+                            "player": {
+                                "primary": "000000",
+                                "number": "ffffff",
+                                "border": "000000"
+                            },
+                            "goalkeeper": {
+                                "primary": "00ccff",
+                                "number": "ffffff",
+                                "border": "00ccff"
+                            }
+                        }
+                    },
+                    "coach": {
+                        "id": 14824,
+                        "name": "N. Vigneri",
+                        "photo": "https://media.api-sports.io/football/coachs/14824.png"
+                    },
+                    "formation": "3-4-3",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 355985,
+                                "name": "E. M\u00e1rquez",
+                                "number": 25,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 51457,
+                                "name": "M. Perg",
+                                "number": 4,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 310305,
+                                "name": "G. Pereira",
+                                "number": 13,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 51479,
+                                "name": "J. \u00c1lvez",
+                                "number": 24,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 316506,
+                                "name": "A. Chopitea",
+                                "number": 15,
+                                "pos": "D",
+                                "grid": "3:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 199077,
+                                "name": "A. Alfaro",
+                                "number": 14,
+                                "pos": "D",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 51339,
+                                "name": "W. Fern\u00e1ndez",
+                                "number": 7,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 31340,
+                                "name": "A. Schetino",
+                                "number": 5,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 59006,
+                                "name": "M. Cachi",
+                                "number": 27,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 375546,
+                                "name": "S. da Silva",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 310782,
+                                "name": "S. de Marco",
+                                "number": 26,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 321471,
+                                "name": "M. Juambeltz",
+                                "number": 19,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 399519,
+                                "name": "F. de Le\u00f3n",
+                                "number": 40,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 195511,
+                                "name": "\u00c1. P\u00e9rez",
+                                "number": 18,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 458942,
+                                "name": "R. Hern\u00e1ndez",
+                                "number": 32,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 51606,
+                                "name": "F. Estoyanoff",
+                                "number": 11,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 51487,
+                                "name": "Breno Caetano",
+                                "number": 8,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 310304,
+                                "name": "S. Franca",
+                                "number": 20,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 75151,
+                                "name": "A. Argach\u00e1",
+                                "number": 23,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 51476,
+                                "name": "A. Requena",
+                                "number": 33,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 16567,
+                                "name": "N. Queiroz",
+                                "number": 57,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

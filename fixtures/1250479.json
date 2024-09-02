@@ -1,0 +1,109 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1250479"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1250479,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-19T23:30:00+00:00",
+                "timestamp": 1721431800,
+                "periods": {
+                    "first": 1721431800,
+                    "second": 1721435400
+                },
+                "venue": {
+                    "id": 3112,
+                    "name": "Carey Stadium",
+                    "city": "Ocean City, New Jersey"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 256,
+                "name": "USL League Two",
+                "country": "USA",
+                "logo": "https://media.api-sports.io/football/leagues/256.png",
+                "flag": "https://media.api-sports.io/flags/us.svg",
+                "season": 2024,
+                "round": "Conference - Quarter-finals"
+            },
+            "teams": {
+                "home": {
+                    "id": 4068,
+                    "name": "Ocean City Nor'easters",
+                    "logo": "https://media.api-sports.io/football/teams/4068.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 4082,
+                    "name": "Seacoast United Phantoms",
+                    "logo": "https://media.api-sports.io/football/teams/4082.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 79,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4082,
+                        "name": "Seacoast United Phantoms",
+                        "logo": "https://media.api-sports.io/football/teams/4082.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "Z. Rodriguez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

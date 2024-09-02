@@ -1,0 +1,890 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1245605"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1245605,
+                "referee": "J. Pignard",
+                "timezone": "UTC",
+                "date": "2024-07-31T18:00:00+00:00",
+                "timestamp": 1722448800,
+                "periods": {
+                    "first": 1722448800,
+                    "second": 1722452400
+                },
+                "venue": {
+                    "id": 11902,
+                    "name": "Bozsik Ar\u00e9na",
+                    "city": "Budapest"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 2,
+                "name": "UEFA Champions League",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/2.png",
+                "flag": null,
+                "season": 2024,
+                "round": "2nd Qualifying Round"
+            },
+            "teams": {
+                "home": {
+                    "id": 604,
+                    "name": "Maccabi Tel Aviv",
+                    "logo": "https://media.api-sports.io/football/teams/604.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 559,
+                    "name": "FCSB",
+                    "logo": "https://media.api-sports.io/football/teams/559.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 38,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 559,
+                        "name": "FCSB",
+                        "logo": "https://media.api-sports.io/football/teams/559.png"
+                    },
+                    "player": {
+                        "id": 43153,
+                        "name": "Valentin Cre\u021bu"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Foul"
+                },
+                {
+                    "time": {
+                        "elapsed": 43,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 559,
+                        "name": "FCSB",
+                        "logo": "https://media.api-sports.io/football/teams/559.png"
+                    },
+                    "player": {
+                        "id": 1238,
+                        "name": "Alexandru B\u0103lu\u021b\u0103"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Foul"
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 604,
+                        "name": "Maccabi Tel Aviv",
+                        "logo": "https://media.api-sports.io/football/teams/604.png"
+                    },
+                    "player": {
+                        "id": 70481,
+                        "name": "D. Biton"
+                    },
+                    "assist": {
+                        "id": 111284,
+                        "name": "S. Jehezkel"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 559,
+                        "name": "FCSB",
+                        "logo": "https://media.api-sports.io/football/teams/559.png"
+                    },
+                    "player": {
+                        "id": 1238,
+                        "name": "A. B\u0103lu\u021b\u0103"
+                    },
+                    "assist": {
+                        "id": 131603,
+                        "name": "W. Baeten"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 559,
+                        "name": "FCSB",
+                        "logo": "https://media.api-sports.io/football/teams/559.png"
+                    },
+                    "player": {
+                        "id": 119278,
+                        "name": "M. \u0218tef\u0103nescu"
+                    },
+                    "assist": {
+                        "id": 64356,
+                        "name": "Luis Phelipe"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 50,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 559,
+                        "name": "FCSB",
+                        "logo": "https://media.api-sports.io/football/teams/559.png"
+                    },
+                    "player": {
+                        "id": 64356,
+                        "name": "Luis Phelipe"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Foul"
+                },
+                {
+                    "time": {
+                        "elapsed": 62,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 604,
+                        "name": "Maccabi Tel Aviv",
+                        "logo": "https://media.api-sports.io/football/teams/604.png"
+                    },
+                    "player": {
+                        "id": 111148,
+                        "name": "Gabi Kanikovski"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Foul"
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 559,
+                        "name": "FCSB",
+                        "logo": "https://media.api-sports.io/football/teams/559.png"
+                    },
+                    "player": {
+                        "id": 43171,
+                        "name": "D. Olaru"
+                    },
+                    "assist": {
+                        "id": 286671,
+                        "name": "B. Alhassan"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 604,
+                        "name": "Maccabi Tel Aviv",
+                        "logo": "https://media.api-sports.io/football/teams/604.png"
+                    },
+                    "player": {
+                        "id": 111288,
+                        "name": "I. Nachmias"
+                    },
+                    "assist": {
+                        "id": 111309,
+                        "name": "M. Baltaxa"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 75,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 559,
+                        "name": "FCSB",
+                        "logo": "https://media.api-sports.io/football/teams/559.png"
+                    },
+                    "player": {
+                        "id": 42687,
+                        "name": "D. Miculescu"
+                    },
+                    "assist": {
+                        "id": 43199,
+                        "name": "Daniel Popa"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 77,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 604,
+                        "name": "Maccabi Tel Aviv",
+                        "logo": "https://media.api-sports.io/football/teams/604.png"
+                    },
+                    "player": {
+                        "id": 12943,
+                        "name": "E. Zahavi"
+                    },
+                    "assist": {
+                        "id": 111319,
+                        "name": "Y. Malede"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 559,
+                        "name": "FCSB",
+                        "logo": "https://media.api-sports.io/football/teams/559.png"
+                    },
+                    "player": {
+                        "id": 3399,
+                        "name": "Joyskim Dawa"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Foul"
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 3
+                    },
+                    "team": {
+                        "id": 604,
+                        "name": "Maccabi Tel Aviv",
+                        "logo": "https://media.api-sports.io/football/teams/604.png"
+                    },
+                    "player": {
+                        "id": 274199,
+                        "name": "Tyrese Asante"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Foul"
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 3
+                    },
+                    "team": {
+                        "id": 559,
+                        "name": "FCSB",
+                        "logo": "https://media.api-sports.io/football/teams/559.png"
+                    },
+                    "player": {
+                        "id": 46365,
+                        "name": "Siyabonga Ngezana"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Foul"
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 559,
+                        "name": "FCSB",
+                        "logo": "https://media.api-sports.io/football/teams/559.png"
+                    },
+                    "player": {
+                        "id": 131603,
+                        "name": "W. Baeten"
+                    },
+                    "assist": {
+                        "id": 43199,
+                        "name": "Daniel Popa"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 604,
+                        "name": "Maccabi Tel Aviv",
+                        "logo": "https://media.api-sports.io/football/teams/604.png",
+                        "colors": {
+                            "player": {
+                                "primary": "ffee05",
+                                "number": "050505",
+                                "border": "ffee05"
+                            },
+                            "goalkeeper": {
+                                "primary": "e7bc0e",
+                                "number": "ffffff",
+                                "border": "e7bc0e"
+                            }
+                        }
+                    },
+                    "coach": {
+                        "id": 12159,
+                        "name": "\u017d. Lazeti\u0107",
+                        "photo": "https://media.api-sports.io/football/coachs/12159.png"
+                    },
+                    "formation": "4-3-3",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 111003,
+                                "name": "R. Mishpati",
+                                "number": 90,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 111288,
+                                "name": "I. Nachmias",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 111016,
+                                "name": "R. Shlomo",
+                                "number": 13,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 274199,
+                                "name": "T. Asante",
+                                "number": 6,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 79153,
+                                "name": "O. Davidzada",
+                                "number": 27,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 56011,
+                                "name": "Dor Peretz",
+                                "number": 42,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 37183,
+                                "name": "J. van Overeem",
+                                "number": 14,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 111148,
+                                "name": "G. Kanichowsky",
+                                "number": 16,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70481,
+                                "name": "D. Biton",
+                                "number": 10,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 12943,
+                                "name": "E. Zahavi",
+                                "number": 7,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 342928,
+                                "name": "H. Addo",
+                                "number": 20,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 111284,
+                                "name": "S. Jehezkel",
+                                "number": 29,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 111309,
+                                "name": "M. Baltaxa",
+                                "number": 30,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 111319,
+                                "name": "Y. Malede",
+                                "number": 15,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1122,
+                                "name": "N. Bitton",
+                                "number": 55,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 106811,
+                                "name": "A. Cohen",
+                                "number": 2,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 395777,
+                                "name": "S. Abu Farkhi",
+                                "number": 34,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 412770,
+                                "name": "R. Amedi",
+                                "number": 50,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 162829,
+                                "name": "N. Niddam",
+                                "number": 26,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 371132,
+                                "name": "R. Nawi",
+                                "number": 37,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 105824,
+                                "name": "M. Hozez",
+                                "number": 18,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 329703,
+                                "name": "S. Rosen",
+                                "number": 35,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 360150,
+                                "name": "O. Melika",
+                                "number": 22,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 559,
+                        "name": "FCSB",
+                        "logo": "https://media.api-sports.io/football/teams/559.png",
+                        "colors": {
+                            "player": {
+                                "primary": "0550cd",
+                                "number": "ffffff",
+                                "border": "0550cd"
+                            },
+                            "goalkeeper": {
+                                "primary": "070604",
+                                "number": "ffffff",
+                                "border": "070604"
+                            }
+                        }
+                    },
+                    "coach": {
+                        "id": 8021,
+                        "name": "I. Charalampous",
+                        "photo": "https://media.api-sports.io/football/coachs/8021.png"
+                    },
+                    "formation": "4-2-3-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 42589,
+                                "name": "\u0218. T\u00e2rnovanu",
+                                "number": 32,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43153,
+                                "name": "V. Cre\u021bu",
+                                "number": 2,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 3399,
+                                "name": "J. Dawa",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 46365,
+                                "name": "S. Ngezana",
+                                "number": 30,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43109,
+                                "name": "R. Radunovi\u0107",
+                                "number": 33,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 42500,
+                                "name": "A. \u0218ut",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 322179,
+                                "name": "M. Lixandru",
+                                "number": 16,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 119278,
+                                "name": "M. \u0218tef\u0103nescu",
+                                "number": 15,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43171,
+                                "name": "D. Olaru",
+                                "number": 27,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1238,
+                                "name": "A. B\u0103lu\u021b\u0103",
+                                "number": 25,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 42687,
+                                "name": "D. Miculescu",
+                                "number": 11,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 131603,
+                                "name": "W. Baeten",
+                                "number": 24,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 64356,
+                                "name": "Luis Phelipe",
+                                "number": 70,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 286671,
+                                "name": "B. Alhassan",
+                                "number": 42,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43199,
+                                "name": "Daniel Popa",
+                                "number": 19,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43009,
+                                "name": "A. Vlad",
+                                "number": 99,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 315,
+                                "name": "V. Chiriche\u0219",
+                                "number": 21,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 307497,
+                                "name": "A. Musi",
+                                "number": 29,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 3380,
+                                "name": "D. Kiki",
+                                "number": 12,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 96956,
+                                "name": "D. Haru\u0163",
+                                "number": 6,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 65437,
+                                "name": "N. Antwi",
+                                "number": 20,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 104456,
+                                "name": "I. Pan\u021b\u00eeru",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 21067,
+                                "name": "M. Edjouma",
+                                "number": 18,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

@@ -1,0 +1,153 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1215476"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1215476,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-10T12:00:00+00:00",
+                "timestamp": 1723291200,
+                "periods": {
+                    "first": 1723291200,
+                    "second": 1723294800
+                },
+                "venue": {
+                    "id": 442,
+                    "name": "Sundby Idr\u00e6tspark",
+                    "city": "K\u00f8benhavn"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 862,
+                "name": "3. Division",
+                "country": "Denmark",
+                "logo": "https://media.api-sports.io/football/leagues/862.png",
+                "flag": "https://media.api-sports.io/flags/dk.svg",
+                "season": 2024,
+                "round": "Regular Season - 2"
+            },
+            "teams": {
+                "home": {
+                    "id": 11566,
+                    "name": "Sundby",
+                    "logo": "https://media.api-sports.io/football/teams/11566.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 6064,
+                    "name": "VSK \u00c5rhus",
+                    "logo": "https://media.api-sports.io/football/teams/6064.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 7,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6064,
+                        "name": "VSK \u00c5rhus",
+                        "logo": "https://media.api-sports.io/football/teams/6064.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "C. Mihigo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6064,
+                        "name": "VSK \u00c5rhus",
+                        "logo": "https://media.api-sports.io/football/teams/6064.png"
+                    },
+                    "player": {
+                        "id": 15962,
+                        "name": "C. Gandrup"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 11566,
+                        "name": "Sundby",
+                        "logo": "https://media.api-sports.io/football/teams/11566.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "B. Juel-Berg"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

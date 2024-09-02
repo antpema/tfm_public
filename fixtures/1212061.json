@@ -1,0 +1,711 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1212061"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1212061,
+                "referee": "D. Vokoun",
+                "timezone": "UTC",
+                "date": "2024-07-26T16:00:00+00:00",
+                "timestamp": 1722009600,
+                "periods": {
+                    "first": 1722009600,
+                    "second": 1722013200
+                },
+                "venue": {
+                    "id": 2492,
+                    "name": "Stadion Letn\u00e1",
+                    "city": "Zl\u00edn"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 346,
+                "name": "FNL",
+                "country": "Czech-Republic",
+                "logo": "https://media.api-sports.io/football/leagues/346.png",
+                "flag": "https://media.api-sports.io/flags/cz.svg",
+                "season": 2024,
+                "round": "Regular Season - 2"
+            },
+            "teams": {
+                "home": {
+                    "id": 603,
+                    "name": "Zlin",
+                    "logo": "https://media.api-sports.io/football/teams/603.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 3726,
+                    "name": "T\u00e1borsko",
+                    "logo": "https://media.api-sports.io/football/teams/3726.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 13,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 603,
+                        "name": "Zlin",
+                        "logo": "https://media.api-sports.io/football/teams/603.png"
+                    },
+                    "player": {
+                        "id": 66313,
+                        "name": "T. Poznar"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Foul"
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 3726,
+                        "name": "T\u00e1borsko",
+                        "logo": "https://media.api-sports.io/football/teams/3726.png"
+                    },
+                    "player": {
+                        "id": 66433,
+                        "name": "J. Katerinak"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Tripping"
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3726,
+                        "name": "T\u00e1borsko",
+                        "logo": "https://media.api-sports.io/football/teams/3726.png"
+                    },
+                    "player": {
+                        "id": 203528,
+                        "name": "N. Sunzu"
+                    },
+                    "assist": {
+                        "id": 140227,
+                        "name": "M. Folt\u00fdn"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 56,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 603,
+                        "name": "Zlin",
+                        "logo": "https://media.api-sports.io/football/teams/603.png"
+                    },
+                    "player": {
+                        "id": 87729,
+                        "name": "Z. Natchkebia"
+                    },
+                    "assist": {
+                        "id": 62066,
+                        "name": "V. Vukadinovi\u0107"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 62,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3726,
+                        "name": "T\u00e1borsko",
+                        "logo": "https://media.api-sports.io/football/teams/3726.png"
+                    },
+                    "player": {
+                        "id": 66148,
+                        "name": "J. Ne\u010das"
+                    },
+                    "assist": {
+                        "id": 66633,
+                        "name": "P. Plach\u00fd"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 69,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 603,
+                        "name": "Zlin",
+                        "logo": "https://media.api-sports.io/football/teams/603.png"
+                    },
+                    "player": {
+                        "id": 281983,
+                        "name": "C. Nombil"
+                    },
+                    "assist": {
+                        "id": 337830,
+                        "name": "P. Kul\u00ed\u0161ek"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 603,
+                        "name": "Zlin",
+                        "logo": "https://media.api-sports.io/football/teams/603.png"
+                    },
+                    "player": {
+                        "id": 314227,
+                        "name": "D. Tk\u00e1\u010d"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3726,
+                        "name": "T\u00e1borsko",
+                        "logo": "https://media.api-sports.io/football/teams/3726.png"
+                    },
+                    "player": {
+                        "id": 357703,
+                        "name": "J. Mach"
+                    },
+                    "assist": {
+                        "id": 341367,
+                        "name": "J. \u0160pl\u00edchal"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3726,
+                        "name": "T\u00e1borsko",
+                        "logo": "https://media.api-sports.io/football/teams/3726.png"
+                    },
+                    "player": {
+                        "id": 66478,
+                        "name": "B. \u0110or\u0111i\u0107"
+                    },
+                    "assist": {
+                        "id": 310890,
+                        "name": "J. Kubovsk\u00fd"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3726,
+                        "name": "T\u00e1borsko",
+                        "logo": "https://media.api-sports.io/football/teams/3726.png"
+                    },
+                    "player": {
+                        "id": 302365,
+                        "name": "M. Kon\u00e9"
+                    },
+                    "assist": {
+                        "id": 376320,
+                        "name": "J. Kop\u00e1\u010dek"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 88,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3726,
+                        "name": "T\u00e1borsko",
+                        "logo": "https://media.api-sports.io/football/teams/3726.png"
+                    },
+                    "player": {
+                        "id": 66477,
+                        "name": "O. Blaha"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Unsportsmanlike conduct"
+                },
+                {
+                    "time": {
+                        "elapsed": 89,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 603,
+                        "name": "Zlin",
+                        "logo": "https://media.api-sports.io/football/teams/603.png"
+                    },
+                    "player": {
+                        "id": 314227,
+                        "name": "D. Tk\u00e1\u010d"
+                    },
+                    "assist": {
+                        "id": 444223,
+                        "name": "\u0160. Pol\u00e1\u0161ek"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 89,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 603,
+                        "name": "Zlin",
+                        "logo": "https://media.api-sports.io/football/teams/603.png"
+                    },
+                    "player": {
+                        "id": 66355,
+                        "name": "P. Brandner"
+                    },
+                    "assist": {
+                        "id": 477051,
+                        "name": "M. Slouk"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 603,
+                        "name": "Zlin",
+                        "logo": "https://media.api-sports.io/football/teams/603.png"
+                    },
+                    "player": {
+                        "id": 66434,
+                        "name": "M. Kopecny"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Tripping"
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 603,
+                        "name": "Zlin",
+                        "logo": "https://media.api-sports.io/football/teams/603.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 19314,
+                        "name": "B. \u010cervenka",
+                        "photo": "https://media.api-sports.io/football/coachs/19314.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 66293,
+                                "name": "S. Dost\u00e1l",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66297,
+                                "name": "L. Barto\u0161\u00e1k",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66114,
+                                "name": "D. Simersk\u00fd",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66434,
+                                "name": "M. Kope\u010dn\u00fd",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 119906,
+                                "name": "J. \u010cern\u00edn",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66680,
+                                "name": "D. Machal\u00edk",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 87729,
+                                "name": "Z. Natchkebia",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 281983,
+                                "name": "C. Nombil",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 314227,
+                                "name": "D. Tk\u00e1\u010d",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66313,
+                                "name": "T. Poznar",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66355,
+                                "name": "P. Brandner",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 62066,
+                                "name": "V. Vukadinovi\u0107",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 337830,
+                                "name": "P. Kul\u00ed\u0161ek",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 444223,
+                                "name": "\u0160. Pol\u00e1\u0161ek",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 477051,
+                                "name": "M. Slouk",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 3726,
+                        "name": "T\u00e1borsko",
+                        "logo": "https://media.api-sports.io/football/teams/3726.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 1802,
+                        "name": "R. Nadvornik",
+                        "photo": "https://media.api-sports.io/football/coachs/1802.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 66187,
+                                "name": "M. Pastornick\u00fd",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66352,
+                                "name": "P. Nov\u00e1k",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66738,
+                                "name": "L. Tusjak",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 302365,
+                                "name": "M. Kon\u00e9",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66148,
+                                "name": "J. Ne\u010das",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66478,
+                                "name": "B. \u0110or\u0111i\u0107",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66477,
+                                "name": "O. Bl\u00e1ha",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66433,
+                                "name": "J. Kate\u0159i\u0148\u00e1k",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 203528,
+                                "name": "N. Sunzu",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 357703,
+                                "name": "J. Mach",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 377067,
+                                "name": "M. Vara\u010dka",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 140227,
+                                "name": "M. Folt\u00fdn",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66633,
+                                "name": "P. Plach\u00fd",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 341367,
+                                "name": "J. \u0160pl\u00edchal",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 310890,
+                                "name": "J. Kubovsk\u00fd",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 376320,
+                                "name": "J. Kop\u00e1\u010dek",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

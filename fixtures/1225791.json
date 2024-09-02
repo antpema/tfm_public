@@ -1,0 +1,599 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1225791"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1225791,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-03T14:00:00+00:00",
+                "timestamp": 1722693600,
+                "periods": {
+                    "first": 1722693600,
+                    "second": 1722697200
+                },
+                "venue": {
+                    "id": 574,
+                    "name": "Deepdale",
+                    "city": "Preston"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 59,
+                    "name": "Preston",
+                    "logo": "https://media.api-sports.io/football/teams/59.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 45,
+                    "name": "Everton",
+                    "logo": "https://media.api-sports.io/football/teams/45.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 3
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 3
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 19,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 45,
+                        "name": "Everton",
+                        "logo": "https://media.api-sports.io/football/teams/45.png"
+                    },
+                    "player": {
+                        "id": 18766,
+                        "name": "D. Calvert-Lewin"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 61,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 45,
+                        "name": "Everton",
+                        "logo": "https://media.api-sports.io/football/teams/45.png"
+                    },
+                    "player": {
+                        "id": 270139,
+                        "name": "J. O'Brien"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 45,
+                        "name": "Everton",
+                        "logo": "https://media.api-sports.io/football/teams/45.png"
+                    },
+                    "player": {
+                        "id": 15884,
+                        "name": "J. Lindstrom"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 59,
+                        "name": "Preston",
+                        "logo": "https://media.api-sports.io/football/teams/59.png",
+                        "colors": {
+                            "player": {
+                                "primary": "ffffff",
+                                "number": "00004d",
+                                "border": "ffffff"
+                            },
+                            "goalkeeper": {
+                                "primary": "e2dd8c",
+                                "number": "009bdd",
+                                "border": "e2dd8c"
+                            }
+                        }
+                    },
+                    "formation": "3-4-1-2",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 17767,
+                                "name": "David Cornell",
+                                "number": 21,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19455,
+                                "name": "Brad Potts",
+                                "number": 44,
+                                "pos": "M",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 17534,
+                                "name": "Andrew Hughes",
+                                "number": 16,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19787,
+                                "name": "Liam Lindsay",
+                                "number": 6,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 153400,
+                                "name": "Sam Greenwood",
+                                "number": 15,
+                                "pos": "M",
+                                "grid": "3:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19857,
+                                "name": "Jack Whatmough",
+                                "number": 26,
+                                "pos": "D",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19941,
+                                "name": "Benjamin Whiteman",
+                                "number": 4,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 18921,
+                                "name": "Robbie Brady",
+                                "number": 11,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19452,
+                                "name": "Ryan Ledson",
+                                "number": 18,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19745,
+                                "name": "Will Keane",
+                                "number": 7,
+                                "pos": "F",
+                                "grid": "5:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15858,
+                                "name": "Mads Fr\u00f8kj\u00e6r-Jensen",
+                                "number": 10,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 15705,
+                                "name": "Emil Riis Jacobsen",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 345433,
+                                "name": "James Pradic",
+                                "number": 38,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19442,
+                                "name": "Jordan Storey",
+                                "number": 14,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 457039,
+                                "name": "Kacper Pasiek",
+                                "number": 15,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 430236,
+                                "name": "Kian Best",
+                                "number": 33,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28714,
+                                "name": "Stef\u00e1n Teitur \u00de\u00f3r\u00f0arson",
+                                "number": 34,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 325757,
+                                "name": "Noah Mawene",
+                                "number": 35,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 459286,
+                                "name": "Theo Mawene",
+                                "number": 31,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19214,
+                                "name": "Duane Holmes",
+                                "number": 25,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66761,
+                                "name": "Milutin Osmaji\u0107",
+                                "number": 28,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 618,
+                        "name": "R. Lowe",
+                        "photo": "https://media.api-sports.io/football/coachs/618.png"
+                    }
+                },
+                {
+                    "team": {
+                        "id": 45,
+                        "name": "Everton",
+                        "logo": "https://media.api-sports.io/football/teams/45.png",
+                        "colors": {
+                            "player": {
+                                "primary": "fb5a52",
+                                "number": "2f3d52",
+                                "border": "fb5a52"
+                            },
+                            "goalkeeper": {
+                                "primary": "030303",
+                                "number": "ffffff",
+                                "border": "030303"
+                            }
+                        }
+                    },
+                    "formation": "4-3-3",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 18755,
+                                "name": "Jo\u00e3o Virg\u00ednia",
+                                "number": 12,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 894,
+                                "name": "Ashley Young",
+                                "number": 18,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 2934,
+                                "name": "Michael Keane",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 2936,
+                                "name": "James Tarkowski",
+                                "number": 6,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 2165,
+                                "name": "Vitaliy Mykolenko",
+                                "number": 19,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 2990,
+                                "name": "Idrissa Gueye",
+                                "number": 27,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 284500,
+                                "name": "Tim Iroegbunam",
+                                "number": 42,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19128,
+                                "name": "Jack Harrison",
+                                "number": 11,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 18929,
+                                "name": "Dwight McNeil",
+                                "number": 7,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 18766,
+                                "name": "Dominic Calvert-Lewin",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15884,
+                                "name": "Jesper Lindstr\u00f8m",
+                                "number": 29,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 19150,
+                                "name": "Mason Holgate",
+                                "number": 4,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 270139,
+                                "name": "Jake O'Brien",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Elijah Xavier Campbell",
+                                "number": 20,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 20069,
+                                "name": "William Crellin",
+                                "number": 43,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 138844,
+                                "name": "Harry Tyrer",
+                                "number": 53,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 389306,
+                                "name": "Roman Dixon",
+                                "number": 2,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Harrison Armstrong",
+                                "number": 18,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 297641,
+                                "name": "Jenson Metcalfe",
+                                "number": 29,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 18592,
+                                "name": "Iliman Ndiaye",
+                                "number": 10,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19364,
+                                "name": "Neal Maupay",
+                                "number": 13,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 125743,
+                                "name": "Beto",
+                                "number": 14,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 7,
+                        "name": "S. Dyche",
+                        "photo": "https://media.api-sports.io/football/coachs/7.png"
+                    }
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

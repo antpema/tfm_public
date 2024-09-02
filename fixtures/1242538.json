@@ -1,0 +1,109 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1242538"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1242538,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-11T11:00:00+00:00",
+                "timestamp": 1723374000,
+                "periods": {
+                    "first": 1723374000,
+                    "second": 1723377600
+                },
+                "venue": {
+                    "id": 2701,
+                    "name": "Stadion Chemnitz",
+                    "city": "Chemnitz"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 85,
+                "name": "Regionalliga - Nordost",
+                "country": "Germany",
+                "logo": "https://media.api-sports.io/football/leagues/85.png",
+                "flag": "https://media.api-sports.io/flags/de.svg",
+                "season": 2024,
+                "round": "Nordost - 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 1328,
+                    "name": "Chemnitzer FC",
+                    "logo": "https://media.api-sports.io/football/teams/1328.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 1315,
+                    "name": "FSV Zwickau",
+                    "logo": "https://media.api-sports.io/football/teams/1315.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 58,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1315,
+                        "name": "FSV Zwickau",
+                        "logo": "https://media.api-sports.io/football/teams/1315.png"
+                    },
+                    "player": {
+                        "id": 202666,
+                        "name": "N. Walther"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Own Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

@@ -1,0 +1,868 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1234056"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1234056,
+                "referee": "J. Valenzuela",
+                "timezone": "UTC",
+                "date": "2024-07-18T23:45:00+00:00",
+                "timestamp": 1721346300,
+                "periods": {
+                    "first": 1721346300,
+                    "second": 1721349900
+                },
+                "venue": {
+                    "id": 1654,
+                    "name": "Estadio Polideportivo Misael Delgado",
+                    "city": "Valencia"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 299,
+                "name": "Primera Divisi\u00f3n",
+                "country": "Venezuela",
+                "logo": "https://media.api-sports.io/football/leagues/299.png",
+                "flag": "https://media.api-sports.io/flags/ve.svg",
+                "season": 2024,
+                "round": "Clausura - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 2810,
+                    "name": "Carabobo FC",
+                    "logo": "https://media.api-sports.io/football/teams/2810.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 2827,
+                    "name": "Puerto Cabello",
+                    "logo": "https://media.api-sports.io/football/teams/2827.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 12,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2810,
+                        "name": "Carabobo FC",
+                        "logo": "https://media.api-sports.io/football/teams/2810.png"
+                    },
+                    "player": {
+                        "id": 52682,
+                        "name": "J. Balza"
+                    },
+                    "assist": {
+                        "id": 53072,
+                        "name": "H. Contreras"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 14,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2810,
+                        "name": "Carabobo FC",
+                        "logo": "https://media.api-sports.io/football/teams/2810.png"
+                    },
+                    "player": {
+                        "id": 52682,
+                        "name": "J. Balza"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 41,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2827,
+                        "name": "Puerto Cabello",
+                        "logo": "https://media.api-sports.io/football/teams/2827.png"
+                    },
+                    "player": {
+                        "id": 80123,
+                        "name": "R. Rivas"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 3
+                    },
+                    "team": {
+                        "id": 2810,
+                        "name": "Carabobo FC",
+                        "logo": "https://media.api-sports.io/football/teams/2810.png"
+                    },
+                    "player": {
+                        "id": 52443,
+                        "name": "G. Gonz\u00e1lez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2827,
+                        "name": "Puerto Cabello",
+                        "logo": "https://media.api-sports.io/football/teams/2827.png"
+                    },
+                    "player": {
+                        "id": 5606,
+                        "name": "C. Moreno"
+                    },
+                    "assist": {
+                        "id": 52959,
+                        "name": "C. Rivero"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 57,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2827,
+                        "name": "Puerto Cabello",
+                        "logo": "https://media.api-sports.io/football/teams/2827.png"
+                    },
+                    "player": {
+                        "id": 52421,
+                        "name": "R. Guerrero"
+                    },
+                    "assist": {
+                        "id": 410437,
+                        "name": "J. Cantillo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 68,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2810,
+                        "name": "Carabobo FC",
+                        "logo": "https://media.api-sports.io/football/teams/2810.png"
+                    },
+                    "player": {
+                        "id": 52598,
+                        "name": "R. Hern\u00e1ndez"
+                    },
+                    "assist": {
+                        "id": 53125,
+                        "name": "E. Gallardo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 68,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2810,
+                        "name": "Carabobo FC",
+                        "logo": "https://media.api-sports.io/football/teams/2810.png"
+                    },
+                    "player": {
+                        "id": 52682,
+                        "name": "J. Balza"
+                    },
+                    "assist": {
+                        "id": 52973,
+                        "name": "R. Blanco"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 75,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2810,
+                        "name": "Carabobo FC",
+                        "logo": "https://media.api-sports.io/football/teams/2810.png"
+                    },
+                    "player": {
+                        "id": 323321,
+                        "name": "F. L\u00f3pez"
+                    },
+                    "assist": {
+                        "id": 13398,
+                        "name": "J. Congo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 76,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2827,
+                        "name": "Puerto Cabello",
+                        "logo": "https://media.api-sports.io/football/teams/2827.png"
+                    },
+                    "player": {
+                        "id": 6470,
+                        "name": "F. Bravo"
+                    },
+                    "assist": {
+                        "id": 52745,
+                        "name": "C. Cerme\u00f1o"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 81,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2810,
+                        "name": "Carabobo FC",
+                        "logo": "https://media.api-sports.io/football/teams/2810.png"
+                    },
+                    "player": {
+                        "id": 52552,
+                        "name": "E. Tortolero"
+                    },
+                    "assist": {
+                        "id": 311254,
+                        "name": "F. Ru\u00edz"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2810,
+                        "name": "Carabobo FC",
+                        "logo": "https://media.api-sports.io/football/teams/2810.png"
+                    },
+                    "player": {
+                        "id": 53072,
+                        "name": "H. Contreras"
+                    },
+                    "assist": {
+                        "id": 52965,
+                        "name": "F. Flores"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2827,
+                        "name": "Puerto Cabello",
+                        "logo": "https://media.api-sports.io/football/teams/2827.png"
+                    },
+                    "player": {
+                        "id": 80123,
+                        "name": "R. Rivas"
+                    },
+                    "assist": {
+                        "id": 52445,
+                        "name": "L. P\u00e9rez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2827,
+                        "name": "Puerto Cabello",
+                        "logo": "https://media.api-sports.io/football/teams/2827.png"
+                    },
+                    "player": {
+                        "id": 53011,
+                        "name": "R. Rojas"
+                    },
+                    "assist": {
+                        "id": 410438,
+                        "name": "M. D\u00edaz"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 2827,
+                        "name": "Puerto Cabello",
+                        "logo": "https://media.api-sports.io/football/teams/2827.png"
+                    },
+                    "player": {
+                        "id": 410437,
+                        "name": "J. Cantillo"
+                    },
+                    "assist": {
+                        "id": 52745,
+                        "name": "C. Cerme\u00f1o"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 2810,
+                        "name": "Carabobo FC",
+                        "logo": "https://media.api-sports.io/football/teams/2810.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 6840,
+                        "name": "Diego Merino",
+                        "photo": "https://media.api-sports.io/football/coachs/6840.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 5833,
+                                "name": "L. Bruera",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52739,
+                                "name": "C. Lujano",
+                                "number": 3,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52532,
+                                "name": "M. Guaramato",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52696,
+                                "name": "L. Aponte",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52704,
+                                "name": "M. Pern\u00eda",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52598,
+                                "name": "R. Hern\u00e1ndez",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 53072,
+                                "name": "H. Contreras",
+                                "number": 24,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52443,
+                                "name": "G. Gonz\u00e1lez",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52552,
+                                "name": "E. Tortolero",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 323321,
+                                "name": "F. L\u00f3pez",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52682,
+                                "name": "J. Balza",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 53125,
+                                "name": "E. Gallardo",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52973,
+                                "name": "R. Blanco",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13398,
+                                "name": "J. Congo",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 311254,
+                                "name": "F. Ru\u00edz",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52965,
+                                "name": "F. Flores",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52608,
+                                "name": "P. Chac\u00f3n",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 405993,
+                                "name": "F. Oliveros",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 266015,
+                                "name": "D. Gil",
+                                "number": 44,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 465300,
+                                "name": "S. Mendoza",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 311837,
+                                "name": "T. Riveros",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 369843,
+                                "name": "A. Polo",
+                                "number": 26,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6482,
+                                "name": "F. Apaolaza",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 2827,
+                        "name": "Puerto Cabello",
+                        "logo": "https://media.api-sports.io/football/teams/2827.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 2253,
+                        "name": "N. Sanvicente",
+                        "photo": "https://media.api-sports.io/football/coachs/2253.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 52914,
+                                "name": "G. Schiavone",
+                                "number": 12,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52662,
+                                "name": "E. Peraza",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6299,
+                                "name": "F. Cobos",
+                                "number": 28,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52421,
+                                "name": "R. Guerrero",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 5606,
+                                "name": "C. Moreno",
+                                "number": 32,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 53110,
+                                "name": "\u00d3. Hern\u00e1ndez",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6470,
+                                "name": "F. Bravo",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52678,
+                                "name": "K. Silva",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 53011,
+                                "name": "R. Rojas",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 59672,
+                                "name": "A. Carabal\u00ed",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 80123,
+                                "name": "R. Rivas",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 52959,
+                                "name": "C. Rivero",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 410437,
+                                "name": "J. Cantillo",
+                                "number": 26,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52745,
+                                "name": "C. Cerme\u00f1o",
+                                "number": 24,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52445,
+                                "name": "L. P\u00e9rez",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 410438,
+                                "name": "M. D\u00edaz",
+                                "number": 37,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 410435,
+                                "name": "P. Fulco",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52106,
+                                "name": "J. Cede\u00f1o",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52925,
+                                "name": "A. Bahachille",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 457119,
+                                "name": "Y. Rebolledo",
+                                "number": 35,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52987,
+                                "name": "J. Yendis",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52661,
+                                "name": "S. Notaroberto",
+                                "number": 65,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 361666,
+                                "name": "G. Monjes",
+                                "number": 31,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

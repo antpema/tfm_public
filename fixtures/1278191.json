@@ -1,0 +1,439 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1278191"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1278191,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-08T12:00:00+00:00",
+                "timestamp": 1723118400,
+                "periods": {
+                    "first": 1723118400,
+                    "second": 1723122000
+                },
+                "venue": {
+                    "id": 20316,
+                    "name": "Stadion Kolos",
+                    "city": "Boryspil"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 334,
+                "name": "Persha Liga",
+                "country": "Ukraine",
+                "logo": "https://media.api-sports.io/football/leagues/334.png",
+                "flag": "https://media.api-sports.io/flags/ua.svg",
+                "season": 2024,
+                "round": "Regular Season - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 14441,
+                    "name": "Yarud Mariupol'",
+                    "logo": "https://media.api-sports.io/football/teams/14441.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 3628,
+                    "name": "Metalist 1925 Kharkiv",
+                    "logo": "https://media.api-sports.io/football/teams/3628.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 23,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14441,
+                        "name": "Yarud Mariupol'",
+                        "logo": "https://media.api-sports.io/football/teams/14441.png"
+                    },
+                    "player": {
+                        "id": 308102,
+                        "name": "V. Salyuk"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Own Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 26,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14441,
+                        "name": "Yarud Mariupol'",
+                        "logo": "https://media.api-sports.io/football/teams/14441.png"
+                    },
+                    "player": {
+                        "id": 163195,
+                        "name": "l. Karavashchenko"
+                    },
+                    "assist": {
+                        "id": 266180,
+                        "name": "P. Kravtsov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3628,
+                        "name": "Metalist 1925 Kharkiv",
+                        "logo": "https://media.api-sports.io/football/teams/3628.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "O. Smitiukh"
+                    },
+                    "assist": {
+                        "id": 276633,
+                        "name": "S. Sten"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3628,
+                        "name": "Metalist 1925 Kharkiv",
+                        "logo": "https://media.api-sports.io/football/teams/3628.png"
+                    },
+                    "player": {
+                        "id": 63631,
+                        "name": "I. Kogut"
+                    },
+                    "assist": {
+                        "id": 15676,
+                        "name": "V. Yurchenko"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 56,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14441,
+                        "name": "Yarud Mariupol'",
+                        "logo": "https://media.api-sports.io/football/teams/14441.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "D. Pudy"
+                    },
+                    "assist": {
+                        "id": 136734,
+                        "name": "A. Baydal"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 56,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14441,
+                        "name": "Yarud Mariupol'",
+                        "logo": "https://media.api-sports.io/football/teams/14441.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "I. Melnychenko"
+                    },
+                    "assist": {
+                        "id": 63489,
+                        "name": "A. Bogdanov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3628,
+                        "name": "Metalist 1925 Kharkiv",
+                        "logo": "https://media.api-sports.io/football/teams/3628.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "S. Obinaiah"
+                    },
+                    "assist": {
+                        "id": 63416,
+                        "name": "V. Churko"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3628,
+                        "name": "Metalist 1925 Kharkiv",
+                        "logo": "https://media.api-sports.io/football/teams/3628.png"
+                    },
+                    "player": {
+                        "id": 442643,
+                        "name": "M. Panchenko"
+                    },
+                    "assist": {
+                        "id": 63422,
+                        "name": "A. Boryachuk"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14441,
+                        "name": "Yarud Mariupol'",
+                        "logo": "https://media.api-sports.io/football/teams/14441.png"
+                    },
+                    "player": {
+                        "id": 63732,
+                        "name": "Y. Demchenko"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3628,
+                        "name": "Metalist 1925 Kharkiv",
+                        "logo": "https://media.api-sports.io/football/teams/3628.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "S. Obinaiah"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 72,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14441,
+                        "name": "Yarud Mariupol'",
+                        "logo": "https://media.api-sports.io/football/teams/14441.png"
+                    },
+                    "player": {
+                        "id": 277906,
+                        "name": "I. Petrenko"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "I. Zubkov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 72,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14441,
+                        "name": "Yarud Mariupol'",
+                        "logo": "https://media.api-sports.io/football/teams/14441.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "Y. Bulgakov"
+                    },
+                    "assist": {
+                        "id": 63732,
+                        "name": "Y. Demchenko"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 74,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3628,
+                        "name": "Metalist 1925 Kharkiv",
+                        "logo": "https://media.api-sports.io/football/teams/3628.png"
+                    },
+                    "player": {
+                        "id": 306197,
+                        "name": "R. Owusu"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "O. Sydorov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 75,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14441,
+                        "name": "Yarud Mariupol'",
+                        "logo": "https://media.api-sports.io/football/teams/14441.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "Y. Bulgakov"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3628,
+                        "name": "Metalist 1925 Kharkiv",
+                        "logo": "https://media.api-sports.io/football/teams/3628.png"
+                    },
+                    "player": {
+                        "id": 308102,
+                        "name": "V. Salyuk"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3628,
+                        "name": "Metalist 1925 Kharkiv",
+                        "logo": "https://media.api-sports.io/football/teams/3628.png"
+                    },
+                    "player": {
+                        "id": 63631,
+                        "name": "I. Kogut"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

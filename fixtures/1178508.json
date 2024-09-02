@@ -1,0 +1,109 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1178508"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1178508,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-25T10:00:00+00:00",
+                "timestamp": 1721901600,
+                "periods": {
+                    "first": 1721901600,
+                    "second": 1721905200
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Changning Sports Park",
+                    "city": "Bugok"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 660,
+                "name": "WK-League",
+                "country": "South-Korea",
+                "logo": "https://media.api-sports.io/football/leagues/660.png",
+                "flag": "https://media.api-sports.io/flags/kr.svg",
+                "season": 2024,
+                "round": "Regular Season - 20"
+            },
+            "teams": {
+                "home": {
+                    "id": 14373,
+                    "name": "Changnyeong",
+                    "logo": "https://media.api-sports.io/football/teams/14373.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 14374,
+                    "name": "Gumi Sportstoto",
+                    "logo": "https://media.api-sports.io/football/teams/14374.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14374,
+                        "name": "Gumi Sportstoto",
+                        "logo": "https://media.api-sports.io/football/teams/14374.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "Jung Seol-Bin"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

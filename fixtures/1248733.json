@@ -1,0 +1,153 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1248733"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1248733,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-04T13:00:00+00:00",
+                "timestamp": 1722776400,
+                "periods": {
+                    "first": 1722776400,
+                    "second": 1722780000
+                },
+                "venue": {
+                    "id": 10697,
+                    "name": "Hasestadion",
+                    "city": "Bersenbr\u00fcck"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 748,
+                "name": "Oberliga - Niedersachsen",
+                "country": "Germany",
+                "logo": "https://media.api-sports.io/football/leagues/748.png",
+                "flag": "https://media.api-sports.io/flags/de.svg",
+                "season": 2024,
+                "round": "Niedersachsen - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 14635,
+                    "name": "Bersenbr\u00fcck",
+                    "logo": "https://media.api-sports.io/football/teams/14635.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 12729,
+                    "name": "Arminia Hannover",
+                    "logo": "https://media.api-sports.io/football/teams/12729.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 6,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14635,
+                        "name": "Bersenbr\u00fcck",
+                        "logo": "https://media.api-sports.io/football/teams/14635.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "P. Schmidt"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 12729,
+                        "name": "Arminia Hannover",
+                        "logo": "https://media.api-sports.io/football/teams/12729.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "P. Ballerstedt"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 5
+                    },
+                    "team": {
+                        "id": 14635,
+                        "name": "Bersenbr\u00fcck",
+                        "logo": "https://media.api-sports.io/football/teams/14635.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "M. Alvarez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

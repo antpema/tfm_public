@@ -1,0 +1,964 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1245444"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1245444,
+                "referee": "A. Rodr\u00edguez",
+                "timezone": "UTC",
+                "date": "2024-08-03T23:00:00+00:00",
+                "timestamp": 1722726000,
+                "periods": {
+                    "first": 1722726000,
+                    "second": 1722729600
+                },
+                "venue": {
+                    "id": 1070,
+                    "name": "Estadio Ol\u00edmpico Andr\u00e9s Quintana Roo",
+                    "city": "Canc\u00fan"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 263,
+                "name": "Liga de Expansi\u00f3n MX",
+                "country": "Mexico",
+                "logo": "https://media.api-sports.io/football/leagues/263.png",
+                "flag": "https://media.api-sports.io/flags/mx.svg",
+                "season": 2024,
+                "round": "Apertura - 2"
+            },
+            "teams": {
+                "home": {
+                    "id": 14276,
+                    "name": "Canc\u00fan",
+                    "logo": "https://media.api-sports.io/football/teams/14276.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 14279,
+                    "name": "Tepatitl\u00e1n",
+                    "logo": "https://media.api-sports.io/football/teams/14279.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 32,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14276,
+                        "name": "Canc\u00fan",
+                        "logo": "https://media.api-sports.io/football/teams/14276.png"
+                    },
+                    "player": {
+                        "id": 404435,
+                        "name": "A. Padilla"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 35,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14276,
+                        "name": "Canc\u00fan",
+                        "logo": "https://media.api-sports.io/football/teams/14276.png"
+                    },
+                    "player": {
+                        "id": 35490,
+                        "name": "J. D\u00edaz"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 36,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14276,
+                        "name": "Canc\u00fan",
+                        "logo": "https://media.api-sports.io/football/teams/14276.png"
+                    },
+                    "player": {
+                        "id": 36213,
+                        "name": "P. Uscanga"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 14279,
+                        "name": "Tepatitl\u00e1n",
+                        "logo": "https://media.api-sports.io/football/teams/14279.png"
+                    },
+                    "player": {
+                        "id": 94565,
+                        "name": "E. Pastrana"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14279,
+                        "name": "Tepatitl\u00e1n",
+                        "logo": "https://media.api-sports.io/football/teams/14279.png"
+                    },
+                    "player": {
+                        "id": 36150,
+                        "name": "L. Loro\u00f1a"
+                    },
+                    "assist": {
+                        "id": 35927,
+                        "name": "A. Hern\u00e1ndez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14279,
+                        "name": "Tepatitl\u00e1n",
+                        "logo": "https://media.api-sports.io/football/teams/14279.png"
+                    },
+                    "player": {
+                        "id": 36021,
+                        "name": "A. Ruiz"
+                    },
+                    "assist": {
+                        "id": 269587,
+                        "name": "S. Casta\u00f1eda"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14279,
+                        "name": "Tepatitl\u00e1n",
+                        "logo": "https://media.api-sports.io/football/teams/14279.png"
+                    },
+                    "player": {
+                        "id": 36153,
+                        "name": "M. Vallejo"
+                    },
+                    "assist": {
+                        "id": 94832,
+                        "name": "J. Machado"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 56,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14279,
+                        "name": "Tepatitl\u00e1n",
+                        "logo": "https://media.api-sports.io/football/teams/14279.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "M. Aguilar"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14279,
+                        "name": "Tepatitl\u00e1n",
+                        "logo": "https://media.api-sports.io/football/teams/14279.png"
+                    },
+                    "player": {
+                        "id": 94565,
+                        "name": "E. Pastrana"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14279,
+                        "name": "Tepatitl\u00e1n",
+                        "logo": "https://media.api-sports.io/football/teams/14279.png"
+                    },
+                    "player": {
+                        "id": 94565,
+                        "name": "E. Pastrana"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 62,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14279,
+                        "name": "Tepatitl\u00e1n",
+                        "logo": "https://media.api-sports.io/football/teams/14279.png"
+                    },
+                    "player": {
+                        "id": 36217,
+                        "name": "A. Tamay"
+                    },
+                    "assist": {
+                        "id": 476896,
+                        "name": "J. Cruz"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 62,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14276,
+                        "name": "Canc\u00fan",
+                        "logo": "https://media.api-sports.io/football/teams/14276.png"
+                    },
+                    "player": {
+                        "id": 36213,
+                        "name": "P. Uscanga"
+                    },
+                    "assist": {
+                        "id": 108543,
+                        "name": "A. Rodr\u00edguez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14279,
+                        "name": "Tepatitl\u00e1n",
+                        "logo": "https://media.api-sports.io/football/teams/14279.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "B. Rodriguez Vazquez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 72,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14276,
+                        "name": "Canc\u00fan",
+                        "logo": "https://media.api-sports.io/football/teams/14276.png"
+                    },
+                    "player": {
+                        "id": 308393,
+                        "name": "J. Hern\u00e1ndez"
+                    },
+                    "assist": {
+                        "id": 324683,
+                        "name": "C. Prieto"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 72,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14276,
+                        "name": "Canc\u00fan",
+                        "logo": "https://media.api-sports.io/football/teams/14276.png"
+                    },
+                    "player": {
+                        "id": 404435,
+                        "name": "A. Padilla"
+                    },
+                    "assist": {
+                        "id": 287910,
+                        "name": "\u00d3. Villa"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 72,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14276,
+                        "name": "Canc\u00fan",
+                        "logo": "https://media.api-sports.io/football/teams/14276.png"
+                    },
+                    "player": {
+                        "id": 92508,
+                        "name": "J. Rodr\u00edguez"
+                    },
+                    "assist": {
+                        "id": 324691,
+                        "name": "M. P\u00e9rez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14279,
+                        "name": "Tepatitl\u00e1n",
+                        "logo": "https://media.api-sports.io/football/teams/14279.png"
+                    },
+                    "player": {
+                        "id": 476897,
+                        "name": "B. Rodr\u00edguez"
+                    },
+                    "assist": {
+                        "id": 288575,
+                        "name": "J. Rodr\u00edguez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 84,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14279,
+                        "name": "Tepatitl\u00e1n",
+                        "logo": "https://media.api-sports.io/football/teams/14279.png"
+                    },
+                    "player": {
+                        "id": 92724,
+                        "name": "R. Hernandez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14276,
+                        "name": "Canc\u00fan",
+                        "logo": "https://media.api-sports.io/football/teams/14276.png"
+                    },
+                    "player": {
+                        "id": 35499,
+                        "name": "J. Alonzo"
+                    },
+                    "assist": {
+                        "id": 478572,
+                        "name": "J. Unjanque"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14279,
+                        "name": "Tepatitl\u00e1n",
+                        "logo": "https://media.api-sports.io/football/teams/14279.png"
+                    },
+                    "player": {
+                        "id": 36132,
+                        "name": "J. Saavedra"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 2
+                    },
+                    "team": {
+                        "id": 14276,
+                        "name": "Canc\u00fan",
+                        "logo": "https://media.api-sports.io/football/teams/14276.png"
+                    },
+                    "player": {
+                        "id": 478572,
+                        "name": "J. Unjanque"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 14276,
+                        "name": "Canc\u00fan",
+                        "logo": "https://media.api-sports.io/football/teams/14276.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 20265,
+                        "name": "L. Arce",
+                        "photo": "https://media.api-sports.io/football/coachs/20265.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 372039,
+                                "name": "C. Andrade",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35869,
+                                "name": "H. Mar\u00edn",
+                                "number": 26,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 102587,
+                                "name": "B. Galindo",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35499,
+                                "name": "J. Alonzo",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 308393,
+                                "name": "J. Hern\u00e1ndez",
+                                "number": 3,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 404435,
+                                "name": "A. Padilla",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 36213,
+                                "name": "P. Uscanga",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35490,
+                                "name": "J. D\u00edaz",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 36114,
+                                "name": "Z. Mu\u00f1oz",
+                                "number": 33,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 339015,
+                                "name": "Junior Moreira",
+                                "number": 28,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 92508,
+                                "name": "J. Rodr\u00edguez",
+                                "number": 12,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 108543,
+                                "name": "A. Rodr\u00edguez",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 324691,
+                                "name": "M. P\u00e9rez",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 287910,
+                                "name": "\u00d3. Villa",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 324683,
+                                "name": "C. Prieto",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 478572,
+                                "name": "J. Unjanque",
+                                "number": 24,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35920,
+                                "name": "A. Iniestra",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 384665,
+                                "name": "G. Rodr\u00edguez",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 324752,
+                                "name": "A. Zaragoza",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 388584,
+                                "name": "S. Rubio",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 153155,
+                                "name": "R. Reyes",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 14279,
+                        "name": "Tepatitl\u00e1n",
+                        "logo": "https://media.api-sports.io/football/teams/14279.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 17518,
+                        "name": "H. Real",
+                        "photo": "https://media.api-sports.io/football/coachs/17518.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 36125,
+                                "name": "R. D\u00edaz",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 36132,
+                                "name": "J. Saavedra",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 94565,
+                                "name": "E. Pastrana",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 36153,
+                                "name": "M. Vallejo",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 372057,
+                                "name": "M. Hern\u00e1ndez",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 36021,
+                                "name": "A. Ruiz",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 478574,
+                                "name": "M. Mares",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 36217,
+                                "name": "A. Tamay",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 36150,
+                                "name": "L. Loro\u00f1a",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 36025,
+                                "name": "M. Barra",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 476897,
+                                "name": "B. Rodr\u00edguez",
+                                "number": 35,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 94832,
+                                "name": "J. Machado",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 269587,
+                                "name": "S. Casta\u00f1eda",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35927,
+                                "name": "A. Hern\u00e1ndez",
+                                "number": 28,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 476896,
+                                "name": "J. Cruz",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 288575,
+                                "name": "J. Rodr\u00edguez",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 93462,
+                                "name": "D. Hern\u00e1ndez",
+                                "number": 3,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 476900,
+                                "name": "T. Montano",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 402963,
+                                "name": "L. Gonz\u00e1lez",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35759,
+                                "name": "A. Soto",
+                                "number": 25,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 306794,
+                                "name": "E. Mart\u00ednez",
+                                "number": 30,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

@@ -1,0 +1,690 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1209303"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1209303,
+                "referee": "P. Koscielnicki",
+                "timezone": "UTC",
+                "date": "2024-07-26T17:00:00+00:00",
+                "timestamp": 1722013200,
+                "periods": {
+                    "first": 1722013200,
+                    "second": 1722016800
+                },
+                "venue": {
+                    "id": 5847,
+                    "name": "Hans-Ludwig-Stadion",
+                    "city": "Wals"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 220,
+                "name": "Cup",
+                "country": "Austria",
+                "logo": "https://media.api-sports.io/football/leagues/220.png",
+                "flag": "https://media.api-sports.io/flags/at.svg",
+                "season": 2024,
+                "round": "1st Round"
+            },
+            "teams": {
+                "home": {
+                    "id": 8261,
+                    "name": "Wals-Gr\u00fcnau",
+                    "logo": "https://media.api-sports.io/football/teams/8261.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 1399,
+                    "name": "Austria Lustenau",
+                    "logo": "https://media.api-sports.io/football/teams/1399.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 43,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1399,
+                        "name": "Austria Lustenau",
+                        "logo": "https://media.api-sports.io/football/teams/1399.png"
+                    },
+                    "player": {
+                        "id": 412784,
+                        "name": "A. Baallal"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 50,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1399,
+                        "name": "Austria Lustenau",
+                        "logo": "https://media.api-sports.io/football/teams/1399.png"
+                    },
+                    "player": {
+                        "id": 7731,
+                        "name": "M. Maak"
+                    },
+                    "assist": {
+                        "id": 476933,
+                        "name": "A. Rouquette"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 66,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1399,
+                        "name": "Austria Lustenau",
+                        "logo": "https://media.api-sports.io/football/teams/1399.png"
+                    },
+                    "player": {
+                        "id": 412784,
+                        "name": "A. Baallal"
+                    },
+                    "assist": {
+                        "id": 336857,
+                        "name": "S. Berkani"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8261,
+                        "name": "Wals-Gr\u00fcnau",
+                        "logo": "https://media.api-sports.io/football/teams/8261.png"
+                    },
+                    "player": {
+                        "id": 169744,
+                        "name": "C. Schn\u00f6ll"
+                    },
+                    "assist": {
+                        "id": 476932,
+                        "name": "Y. Hoffmann"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8261,
+                        "name": "Wals-Gr\u00fcnau",
+                        "logo": "https://media.api-sports.io/football/teams/8261.png"
+                    },
+                    "player": {
+                        "id": 120516,
+                        "name": "P. Nika"
+                    },
+                    "assist": {
+                        "id": 323876,
+                        "name": "S. Paji\u0107"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8261,
+                        "name": "Wals-Gr\u00fcnau",
+                        "logo": "https://media.api-sports.io/football/teams/8261.png"
+                    },
+                    "player": {
+                        "id": 421781,
+                        "name": "F. Lindner"
+                    },
+                    "assist": {
+                        "id": 169776,
+                        "name": "N. Sturm"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8261,
+                        "name": "Wals-Gr\u00fcnau",
+                        "logo": "https://media.api-sports.io/football/teams/8261.png"
+                    },
+                    "player": {
+                        "id": 176024,
+                        "name": "N. Trkulja"
+                    },
+                    "assist": {
+                        "id": 169743,
+                        "name": "A. Lapkalo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1399,
+                        "name": "Austria Lustenau",
+                        "logo": "https://media.api-sports.io/football/teams/1399.png"
+                    },
+                    "player": {
+                        "id": 179401,
+                        "name": "S. Delaye"
+                    },
+                    "assist": {
+                        "id": 476934,
+                        "name": "M. Akubulut"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 88,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1399,
+                        "name": "Austria Lustenau",
+                        "logo": "https://media.api-sports.io/football/teams/1399.png"
+                    },
+                    "player": {
+                        "id": 286722,
+                        "name": "N. Ciss\u00e9"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 89,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8261,
+                        "name": "Wals-Gr\u00fcnau",
+                        "logo": "https://media.api-sports.io/football/teams/8261.png"
+                    },
+                    "player": {
+                        "id": 175982,
+                        "name": "M. Dembele"
+                    },
+                    "assist": {
+                        "id": 222558,
+                        "name": "G. Brennsteiner"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 4
+                    },
+                    "team": {
+                        "id": 8261,
+                        "name": "Wals-Gr\u00fcnau",
+                        "logo": "https://media.api-sports.io/football/teams/8261.png"
+                    },
+                    "player": {
+                        "id": 323876,
+                        "name": "S. Paji\u0107"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 8261,
+                        "name": "Wals-Gr\u00fcnau",
+                        "logo": "https://media.api-sports.io/football/teams/8261.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 22064,
+                        "name": "C. Knaus",
+                        "photo": "https://media.api-sports.io/football/coachs/22064.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 169847,
+                                "name": "V. Rehrl",
+                                "number": 39,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 169840,
+                                "name": "T. Pertl",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 170797,
+                                "name": "F. Ruf",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 175981,
+                                "name": "P. Kanzler",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 121118,
+                                "name": "J. Feiser",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 176024,
+                                "name": "N. Trkulja",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 322175,
+                                "name": "B. Sabi\u0107",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 421781,
+                                "name": "F. Lindner",
+                                "number": 3,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 120516,
+                                "name": "P. Nika",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 175982,
+                                "name": "M. Dembele",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 169744,
+                                "name": "C. Schn\u00f6ll",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 476932,
+                                "name": "Y. Hoffmann",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 323876,
+                                "name": "S. Paji\u0107",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 169776,
+                                "name": "N. Sturm",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 169743,
+                                "name": "A. Lapkalo",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 222558,
+                                "name": "G. Brennsteiner",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 340854,
+                                "name": "M. Auner",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 175975,
+                                "name": "P. Bauer",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 1399,
+                        "name": "Austria Lustenau",
+                        "logo": "https://media.api-sports.io/football/teams/1399.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 17643,
+                        "name": "M. Brenner",
+                        "photo": "https://media.api-sports.io/football/coachs/17643.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 7258,
+                                "name": "D. Schierl",
+                                "number": 27,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7731,
+                                "name": "M. Maak",
+                                "number": 31,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 94221,
+                                "name": "F. Gmeiner",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 125625,
+                                "name": "L. M\u00e4tzler",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 272456,
+                                "name": "R. Voisine",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7071,
+                                "name": "P. Grabher",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7271,
+                                "name": "N. Gorzel",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 179401,
+                                "name": "S. Delaye",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 412784,
+                                "name": "A. Baallal",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 128359,
+                                "name": "L. Miki\u0107",
+                                "number": 12,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 286722,
+                                "name": "N. Ciss\u00e9",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 476933,
+                                "name": "A. Rouquette",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 336857,
+                                "name": "S. Berkani",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 476934,
+                                "name": "M. Akubulut",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 322798,
+                                "name": "L. Schachner",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 279899,
+                                "name": "D. Au Yeong",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 349422,
+                                "name": "E. Koc",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 371247,
+                                "name": "S. Nesler-T\u00e4ubl",
+                                "number": 29,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

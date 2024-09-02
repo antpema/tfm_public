@@ -1,0 +1,792 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1206804"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1206804,
+                "referee": "K. Arys",
+                "timezone": "UTC",
+                "date": "2024-07-19T18:30:00+00:00",
+                "timestamp": 1721413800,
+                "periods": {
+                    "first": 1721413800,
+                    "second": 1721417400
+                },
+                "venue": {
+                    "id": 2289,
+                    "name": "Stadion Miejski",
+                    "city": "Opole"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 107,
+                "name": "I Liga",
+                "country": "Poland",
+                "logo": "https://media.api-sports.io/football/leagues/107.png",
+                "flag": "https://media.api-sports.io/flags/pl.svg",
+                "season": 2024,
+                "round": "Regular Season - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 3488,
+                    "name": "Odra Opole",
+                    "logo": "https://media.api-sports.io/football/teams/3488.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 6953,
+                    "name": "Ruch Chorz\u00f3w",
+                    "logo": "https://media.api-sports.io/football/teams/6953.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 13,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6953,
+                        "name": "Ruch Chorz\u00f3w",
+                        "logo": "https://media.api-sports.io/football/teams/6953.png"
+                    },
+                    "player": {
+                        "id": 34183,
+                        "name": "S. Novothny"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 56,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3488,
+                        "name": "Odra Opole",
+                        "logo": "https://media.api-sports.io/football/teams/3488.png"
+                    },
+                    "player": {
+                        "id": 40912,
+                        "name": "R. Nizio\u0142ek"
+                    },
+                    "assist": {
+                        "id": 106758,
+                        "name": "Jordan Dom\u00ednguez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 56,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3488,
+                        "name": "Odra Opole",
+                        "logo": "https://media.api-sports.io/football/teams/3488.png"
+                    },
+                    "player": {
+                        "id": 475467,
+                        "name": "S. Mida"
+                    },
+                    "assist": {
+                        "id": 475466,
+                        "name": "O. Zawada"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3488,
+                        "name": "Odra Opole",
+                        "logo": "https://media.api-sports.io/football/teams/3488.png"
+                    },
+                    "player": {
+                        "id": 40827,
+                        "name": "K. Nowak"
+                    },
+                    "assist": {
+                        "id": 148726,
+                        "name": "D. Wolny"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3488,
+                        "name": "Odra Opole",
+                        "logo": "https://media.api-sports.io/football/teams/3488.png"
+                    },
+                    "player": {
+                        "id": 40981,
+                        "name": "M. Kami\u0144ski"
+                    },
+                    "assist": {
+                        "id": 40903,
+                        "name": "P. \u017bem\u0142o"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6953,
+                        "name": "Ruch Chorz\u00f3w",
+                        "logo": "https://media.api-sports.io/football/teams/6953.png"
+                    },
+                    "player": {
+                        "id": 41023,
+                        "name": "\u0141. Moneta"
+                    },
+                    "assist": {
+                        "id": 40354,
+                        "name": "D. Szczepan"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6953,
+                        "name": "Ruch Chorz\u00f3w",
+                        "logo": "https://media.api-sports.io/football/teams/6953.png"
+                    },
+                    "player": {
+                        "id": 375116,
+                        "name": "M. Chmarek"
+                    },
+                    "assist": {
+                        "id": 375118,
+                        "name": "S. Karasi\u0144ski"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 75,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6953,
+                        "name": "Ruch Chorz\u00f3w",
+                        "logo": "https://media.api-sports.io/football/teams/6953.png"
+                    },
+                    "player": {
+                        "id": 40601,
+                        "name": "L. Gora"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 75,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6953,
+                        "name": "Ruch Chorz\u00f3w",
+                        "logo": "https://media.api-sports.io/football/teams/6953.png"
+                    },
+                    "player": {
+                        "id": 40535,
+                        "name": "F. Starzy\u0144ski"
+                    },
+                    "assist": {
+                        "id": 61151,
+                        "name": "Nono"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 84,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6953,
+                        "name": "Ruch Chorz\u00f3w",
+                        "logo": "https://media.api-sports.io/football/teams/6953.png"
+                    },
+                    "player": {
+                        "id": 40601,
+                        "name": "\u0141. G\u00f3ra"
+                    },
+                    "assist": {
+                        "id": 37288,
+                        "name": "A. Luki\u0107"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 88,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6953,
+                        "name": "Ruch Chorz\u00f3w",
+                        "logo": "https://media.api-sports.io/football/teams/6953.png"
+                    },
+                    "player": {
+                        "id": 40354,
+                        "name": "D. Szczepan"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6953,
+                        "name": "Ruch Chorz\u00f3w",
+                        "logo": "https://media.api-sports.io/football/teams/6953.png"
+                    },
+                    "player": {
+                        "id": 34183,
+                        "name": "S. Novothny"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 4
+                    },
+                    "team": {
+                        "id": 3488,
+                        "name": "Odra Opole",
+                        "logo": "https://media.api-sports.io/football/teams/3488.png"
+                    },
+                    "player": {
+                        "id": 148726,
+                        "name": "D. Wolny"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 4
+                    },
+                    "team": {
+                        "id": 3488,
+                        "name": "Odra Opole",
+                        "logo": "https://media.api-sports.io/football/teams/3488.png"
+                    },
+                    "player": {
+                        "id": 148623,
+                        "name": "J. Szrek"
+                    },
+                    "assist": {
+                        "id": 40254,
+                        "name": "A. Pikk"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 3488,
+                        "name": "Odra Opole",
+                        "logo": "https://media.api-sports.io/football/teams/3488.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 1230,
+                        "name": "R. Sobolewski",
+                        "photo": "https://media.api-sports.io/football/coachs/1230.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 128639,
+                                "name": "A. Haluch",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 40981,
+                                "name": "M. Kami\u0144ski",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66497,
+                                "name": "J. Piroch",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 40167,
+                                "name": "J. Bartosz",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 148623,
+                                "name": "J. Szrek",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 40912,
+                                "name": "R. Nizio\u0142ek",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 40827,
+                                "name": "K. Nowak",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 40314,
+                                "name": "M. Banaszewski",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 40263,
+                                "name": "A. Purzycki",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 40996,
+                                "name": "A. \u0141yszczarz",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 475467,
+                                "name": "S. Mida",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 106758,
+                                "name": "Jordan Dom\u00ednguez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 475466,
+                                "name": "O. Zawada",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 148726,
+                                "name": "D. Wolny",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 40903,
+                                "name": "P. \u017bem\u0142o",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 40254,
+                                "name": "A. Pikk",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 148655,
+                                "name": "J. Burta",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 475659,
+                                "name": "J. D\u0119bski",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 465094,
+                                "name": "M. Osipiak",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 144706,
+                                "name": "W. B\u0142yszko",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 6953,
+                        "name": "Ruch Chorz\u00f3w",
+                        "logo": "https://media.api-sports.io/football/teams/6953.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 5032,
+                        "name": "J. Nied\u017awied\u017a",
+                        "photo": "https://media.api-sports.io/football/coachs/5032.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 271600,
+                                "name": "J. Szyma\u0144ski",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 40173,
+                                "name": "M. Sadlok",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 40601,
+                                "name": "\u0141. G\u00f3ra",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 40416,
+                                "name": "M. Konczkowski",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 40535,
+                                "name": "F. Starzy\u0144ski",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 61299,
+                                "name": "D. Vent\u00fara",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 40781,
+                                "name": "M. Kozak",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41023,
+                                "name": "\u0141. Moneta",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 148568,
+                                "name": "S. Szyma\u0144ski",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 375116,
+                                "name": "M. Chmarek",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 34183,
+                                "name": "S. Novothny",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 40354,
+                                "name": "D. Szczepan",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 375118,
+                                "name": "S. Karasi\u0144ski",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 61151,
+                                "name": "Nono",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 37288,
+                                "name": "A. Luki\u0107",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 460820,
+                                "name": "K. Kwiatkowski",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 475660,
+                                "name": "K. Lipinski",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 394881,
+                                "name": "M. Huras",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 420942,
+                                "name": "M. Potoczny",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 324548,
+                                "name": "T. W\u00f3jtowicz",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

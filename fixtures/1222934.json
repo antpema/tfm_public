@@ -1,0 +1,483 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1222934"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1222934,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-03T08:15:00+00:00",
+                "timestamp": 1722672900,
+                "periods": {
+                    "first": 1722672900,
+                    "second": 1722676500
+                },
+                "venue": {
+                    "id": 10548,
+                    "name": "Stadion Rudolfa Labaje",
+                    "city": "T\u0159inec"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 349,
+                "name": "3. liga - MSFL",
+                "country": "Czech-Republic",
+                "logo": "https://media.api-sports.io/football/leagues/349.png",
+                "flag": "https://media.api-sports.io/flags/cz.svg",
+                "season": 2024,
+                "round": "MSFL - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 3727,
+                    "name": "T\u0159inec",
+                    "logo": "https://media.api-sports.io/football/teams/3727.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 7288,
+                    "name": "Fr\u00fddek-M\u00edstek",
+                    "logo": "https://media.api-sports.io/football/teams/7288.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 25,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3727,
+                        "name": "T\u0159inec",
+                        "logo": "https://media.api-sports.io/football/teams/3727.png"
+                    },
+                    "player": {
+                        "id": 66565,
+                        "name": "R. Dedic"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 29,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3727,
+                        "name": "T\u0159inec",
+                        "logo": "https://media.api-sports.io/football/teams/3727.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "C. Agbo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 31,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7288,
+                        "name": "Fr\u00fddek-M\u00edstek",
+                        "logo": "https://media.api-sports.io/football/teams/7288.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "M. Obuch"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 56,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3727,
+                        "name": "T\u0159inec",
+                        "logo": "https://media.api-sports.io/football/teams/3727.png"
+                    },
+                    "player": {
+                        "id": 66204,
+                        "name": "M. Vlachovsky"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7288,
+                        "name": "Fr\u00fddek-M\u00edstek",
+                        "logo": "https://media.api-sports.io/football/teams/7288.png"
+                    },
+                    "player": {
+                        "id": 140117,
+                        "name": "B. Velicka"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "K. Michlik"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3727,
+                        "name": "T\u0159inec",
+                        "logo": "https://media.api-sports.io/football/teams/3727.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "N. Trcek"
+                    },
+                    "assist": {
+                        "id": 66204,
+                        "name": "M. Vlachovsky"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3727,
+                        "name": "T\u0159inec",
+                        "logo": "https://media.api-sports.io/football/teams/3727.png"
+                    },
+                    "player": {
+                        "id": 66556,
+                        "name": "L. Cienciala"
+                    },
+                    "assist": {
+                        "id": 264092,
+                        "name": "A. Yakubu"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 69,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7288,
+                        "name": "Fr\u00fddek-M\u00edstek",
+                        "logo": "https://media.api-sports.io/football/teams/7288.png"
+                    },
+                    "player": {
+                        "id": 140117,
+                        "name": "B. Velicka"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 75,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7288,
+                        "name": "Fr\u00fddek-M\u00edstek",
+                        "logo": "https://media.api-sports.io/football/teams/7288.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "F. Sponer"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "M. Obuch"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 75,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7288,
+                        "name": "Fr\u00fddek-M\u00edstek",
+                        "logo": "https://media.api-sports.io/football/teams/7288.png"
+                    },
+                    "player": {
+                        "id": 140222,
+                        "name": "J. Massaniec"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "J. Makowiecki"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 75,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3727,
+                        "name": "T\u0159inec",
+                        "logo": "https://media.api-sports.io/football/teams/3727.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "P. Brzoska"
+                    },
+                    "assist": {
+                        "id": 66381,
+                        "name": "O. Machuca"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7288,
+                        "name": "Fr\u00fddek-M\u00edstek",
+                        "logo": "https://media.api-sports.io/football/teams/7288.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "D. Kedron"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 81,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7288,
+                        "name": "Fr\u00fddek-M\u00edstek",
+                        "logo": "https://media.api-sports.io/football/teams/7288.png"
+                    },
+                    "player": {
+                        "id": 140117,
+                        "name": "B. Velicka"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7288,
+                        "name": "Fr\u00fddek-M\u00edstek",
+                        "logo": "https://media.api-sports.io/football/teams/7288.png"
+                    },
+                    "player": {
+                        "id": 108506,
+                        "name": "T. Hykel"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7288,
+                        "name": "Fr\u00fddek-M\u00edstek",
+                        "logo": "https://media.api-sports.io/football/teams/7288.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "J. Harustak"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "R. Coufal"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3727,
+                        "name": "T\u0159inec",
+                        "logo": "https://media.api-sports.io/football/teams/3727.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "A. Nguyen"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "C. Agbo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 7288,
+                        "name": "Fr\u00fddek-M\u00edstek",
+                        "logo": "https://media.api-sports.io/football/teams/7288.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "A. Gorcica"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 2
+                    },
+                    "team": {
+                        "id": 3727,
+                        "name": "T\u0159inec",
+                        "logo": "https://media.api-sports.io/football/teams/3727.png"
+                    },
+                    "player": {
+                        "id": 265683,
+                        "name": "O. Mrozek"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

@@ -1,0 +1,461 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1239468"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1239468,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-10T17:00:00+00:00",
+                "timestamp": 1723309200,
+                "periods": {
+                    "first": 1723309200,
+                    "second": 1723312800
+                },
+                "venue": {
+                    "id": 10892,
+                    "name": "Campo Ch\u00e3 das Padeiras",
+                    "city": "Santar\u00e9m"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 865,
+                "name": "Liga 3",
+                "country": "Portugal",
+                "logo": "https://media.api-sports.io/football/leagues/865.png",
+                "flag": "https://media.api-sports.io/flags/pt.svg",
+                "season": 2024,
+                "round": "Regular Season - 2"
+            },
+            "teams": {
+                "home": {
+                    "id": 6369,
+                    "name": "Uni\u00e3o Santar\u00e9m",
+                    "logo": "https://media.api-sports.io/football/teams/6369.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 4872,
+                    "name": "Atl\u00e9tico CP",
+                    "logo": "https://media.api-sports.io/football/teams/4872.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 6,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6369,
+                        "name": "Uni\u00e3o Santar\u00e9m",
+                        "logo": "https://media.api-sports.io/football/teams/6369.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "R. Araujo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 24,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4872,
+                        "name": "Atl\u00e9tico CP",
+                        "logo": "https://media.api-sports.io/football/teams/4872.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "D. Silva"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 27,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4872,
+                        "name": "Atl\u00e9tico CP",
+                        "logo": "https://media.api-sports.io/football/teams/4872.png"
+                    },
+                    "player": {
+                        "id": 96373,
+                        "name": "H. Balde"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 40,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6369,
+                        "name": "Uni\u00e3o Santar\u00e9m",
+                        "logo": "https://media.api-sports.io/football/teams/6369.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "Juninho"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 2
+                    },
+                    "team": {
+                        "id": 4872,
+                        "name": "Atl\u00e9tico CP",
+                        "logo": "https://media.api-sports.io/football/teams/4872.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "D. Dinamite"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6369,
+                        "name": "Uni\u00e3o Santar\u00e9m",
+                        "logo": "https://media.api-sports.io/football/teams/6369.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "Gladison"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "R. Araujo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 51,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6369,
+                        "name": "Uni\u00e3o Santar\u00e9m",
+                        "logo": "https://media.api-sports.io/football/teams/6369.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "R. Guedes"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 58,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4872,
+                        "name": "Atl\u00e9tico CP",
+                        "logo": "https://media.api-sports.io/football/teams/4872.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "Joaozinho"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "M. Barandas"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 66,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4872,
+                        "name": "Atl\u00e9tico CP",
+                        "logo": "https://media.api-sports.io/football/teams/4872.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "Pipo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "E. Pinheiro"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 69,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6369,
+                        "name": "Uni\u00e3o Santar\u00e9m",
+                        "logo": "https://media.api-sports.io/football/teams/6369.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "D. Balau"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "Juninho"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6369,
+                        "name": "Uni\u00e3o Santar\u00e9m",
+                        "logo": "https://media.api-sports.io/football/teams/6369.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "K. Sebastian"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "P. Araujo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 77,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4872,
+                        "name": "Atl\u00e9tico CP",
+                        "logo": "https://media.api-sports.io/football/teams/4872.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "T. Junior"
+                    },
+                    "assist": {
+                        "id": 96373,
+                        "name": "H. Balde"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6369,
+                        "name": "Uni\u00e3o Santar\u00e9m",
+                        "logo": "https://media.api-sports.io/football/teams/6369.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "R. Apolinario"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4872,
+                        "name": "Atl\u00e9tico CP",
+                        "logo": "https://media.api-sports.io/football/teams/4872.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "Balotelli"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "Balotelli"
+                    },
+                    "type": "Goal",
+                    "detail": "Missed Penalty",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4872,
+                        "name": "Atl\u00e9tico CP",
+                        "logo": "https://media.api-sports.io/football/teams/4872.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "Joaozinho"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "Joaozinho"
+                    },
+                    "type": "Goal",
+                    "detail": "Missed Penalty",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 86,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6369,
+                        "name": "Uni\u00e3o Santar\u00e9m",
+                        "logo": "https://media.api-sports.io/football/teams/6369.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "D. Balau"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 4
+                    },
+                    "team": {
+                        "id": 6369,
+                        "name": "Uni\u00e3o Santar\u00e9m",
+                        "logo": "https://media.api-sports.io/football/teams/6369.png"
+                    },
+                    "player": {
+                        "id": 96358,
+                        "name": "D. Bras"
+                    },
+                    "assist": {
+                        "id": 179674,
+                        "name": "L. Silva"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

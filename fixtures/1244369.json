@@ -1,0 +1,153 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1244369"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1244369,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-30T16:30:00+00:00",
+                "timestamp": 1722357000,
+                "periods": {
+                    "first": 1722357000,
+                    "second": 1722360600
+                },
+                "venue": {
+                    "id": 6441,
+                    "name": "Georg-Weber-Stadion",
+                    "city": "Rain"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 939,
+                "name": "Oberliga - Bayern S\u00fcd",
+                "country": "Germany",
+                "logo": "https://media.api-sports.io/football/leagues/939.png",
+                "flag": "https://media.api-sports.io/flags/de.svg",
+                "season": 2024,
+                "round": "Bayern S\u00fcd - 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 9333,
+                    "name": "Rain / Lech",
+                    "logo": "https://media.api-sports.io/football/teams/9333.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 9331,
+                    "name": "Memmingen",
+                    "logo": "https://media.api-sports.io/football/teams/9331.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 56,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 9331,
+                        "name": "Memmingen",
+                        "logo": "https://media.api-sports.io/football/teams/9331.png"
+                    },
+                    "player": {
+                        "id": 177355,
+                        "name": "F. Schwarzholz"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 9331,
+                        "name": "Memmingen",
+                        "logo": "https://media.api-sports.io/football/teams/9331.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "D. Spizert"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 2
+                    },
+                    "team": {
+                        "id": 9333,
+                        "name": "Rain / Lech",
+                        "logo": "https://media.api-sports.io/football/teams/9333.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "M. Sodji"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

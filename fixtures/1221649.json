@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1221649"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1221649,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-10T16:05:00+00:00",
+                "timestamp": 1723305900,
+                "periods": {
+                    "first": 1723305900,
+                    "second": 1723309500
+                },
+                "venue": {
+                    "id": 2345,
+                    "name": "Ali Sabah Al Salem Stadium",
+                    "city": "Kuwait City"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 330,
+                "name": "Premier League",
+                "country": "Kuwait",
+                "logo": "https://media.api-sports.io/football/leagues/330.png",
+                "flag": "https://media.api-sports.io/flags/kw.svg",
+                "season": 2024,
+                "round": "Regular Season - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 3532,
+                    "name": "Al Arabi",
+                    "logo": "https://media.api-sports.io/football/teams/3532.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 3540,
+                    "name": "Kazma",
+                    "logo": "https://media.api-sports.io/football/teams/3540.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 14,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3532,
+                        "name": "Al Arabi",
+                        "logo": "https://media.api-sports.io/football/teams/3532.png"
+                    },
+                    "player": {
+                        "id": 61004,
+                        "name": "A. Khalaf"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3532,
+                        "name": "Al Arabi",
+                        "logo": "https://media.api-sports.io/football/teams/3532.png"
+                    },
+                    "player": {
+                        "id": 180847,
+                        "name": "A. Iwuala"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

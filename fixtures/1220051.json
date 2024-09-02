@@ -1,0 +1,406 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1220051"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1220051,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-31T18:30:00+00:00",
+                "timestamp": 1722450600,
+                "periods": {
+                    "first": 1722450600,
+                    "second": 1722454200
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Cardiff City Stadium",
+                    "city": "Caerdydd"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 43,
+                    "name": "Cardiff",
+                    "logo": "https://media.api-sports.io/football/teams/43.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 53,
+                    "name": "Reading",
+                    "logo": "https://media.api-sports.io/football/teams/53.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 4,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 43,
+                        "name": "Cardiff",
+                        "logo": "https://media.api-sports.io/football/teams/43.png"
+                    },
+                    "player": {
+                        "id": 19462,
+                        "name": "C. Robinson"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 12,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 53,
+                        "name": "Reading",
+                        "logo": "https://media.api-sports.io/football/teams/53.png"
+                    },
+                    "player": {
+                        "id": 282637,
+                        "name": "F. Azeez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 79,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 43,
+                        "name": "Cardiff",
+                        "logo": "https://media.api-sports.io/football/teams/43.png"
+                    },
+                    "player": {
+                        "id": 19462,
+                        "name": "C. Robinson"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 43,
+                        "name": "Cardiff",
+                        "logo": "https://media.api-sports.io/football/teams/43.png",
+                        "colors": {
+                            "player": {
+                                "primary": "0246b5",
+                                "number": "ffffff",
+                                "border": "0246b5"
+                            },
+                            "goalkeeper": {
+                                "primary": "fb5200",
+                                "number": "ffffff",
+                                "border": "fb5200"
+                            }
+                        }
+                    },
+                    "formation": "4-2-3-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 20451,
+                                "name": "Jak Alnwick",
+                                "number": 21,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Ronan Kpakio",
+                                "number": 99,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19016,
+                                "name": "Calum Chambers",
+                                "number": 99,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 196875,
+                                "name": "Joel Bagan",
+                                "number": 33,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Tom Davies",
+                                "number": 32,
+                                "pos": null,
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19618,
+                                "name": "Andy Rinomhota",
+                                "number": 12,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 342432,
+                                "name": "Eli King",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 301184,
+                                "name": "Rubin Colwill",
+                                "number": 27,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 44929,
+                                "name": "David Turnbull",
+                                "number": 14,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 383815,
+                                "name": "Cian Ashford",
+                                "number": 45,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19462,
+                                "name": "Callum Robinson",
+                                "number": 47,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 1448,
+                        "name": "E. Bulut",
+                        "photo": "https://media.api-sports.io/football/coachs/1448.png"
+                    }
+                },
+                {
+                    "team": {
+                        "id": 53,
+                        "name": "Reading",
+                        "logo": "https://media.api-sports.io/football/teams/53.png",
+                        "colors": {
+                            "player": {
+                                "primary": "ffffff",
+                                "number": "071733",
+                                "border": "ffffff"
+                            },
+                            "goalkeeper": {
+                                "primary": "19b383",
+                                "number": "ffffff",
+                                "border": "19b383"
+                            }
+                        }
+                    },
+                    "formation": "4-2-3-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 195844,
+                                "name": "Coniah Boyce-Clarke",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 284405,
+                                "name": "Ben Elliott",
+                                "number": 4,
+                                "pos": "M",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 276553,
+                                "name": "Amadou Salif Mbengue",
+                                "number": 27,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19519,
+                                "name": "Harlee Dean",
+                                "number": 6,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Gabriel Osho",
+                                "number": 8,
+                                "pos": null,
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 286772,
+                                "name": "Jack Senga-Ngoyi",
+                                "number": 35,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 284455,
+                                "name": "Michael Craig",
+                                "number": 36,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 282637,
+                                "name": "Femi Azeez",
+                                "number": 11,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 298127,
+                                "name": "Mamadi Camara",
+                                "number": 28,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 129097,
+                                "name": "Harvey Knibbs",
+                                "number": 7,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 20316,
+                                "name": "Sam Smith",
+                                "number": 10,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 18918,
+                        "name": "Rub\u00e9n Sell\u00e9s",
+                        "photo": "https://media.api-sports.io/football/coachs/18918.png"
+                    }
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

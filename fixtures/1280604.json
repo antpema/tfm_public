@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1280604"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1280604,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-10T19:00:00+00:00",
+                "timestamp": 1723316400,
+                "periods": {
+                    "first": 1723316400,
+                    "second": 1723320000
+                },
+                "venue": {
+                    "id": 264,
+                    "name": "Est\u00e1dio Municipal Lindolfo Monteiro",
+                    "city": "Teresina, Piau\u00ed"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 76,
+                "name": "Serie D",
+                "country": "Brazil",
+                "logo": "https://media.api-sports.io/football/leagues/76.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "season": 2024,
+                "round": "Round of 16"
+            },
+            "teams": {
+                "home": {
+                    "id": 1203,
+                    "name": "Altos",
+                    "logo": "https://media.api-sports.io/football/teams/1203.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 7787,
+                    "name": "Treze",
+                    "logo": "https://media.api-sports.io/football/teams/7787.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 10,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7787,
+                        "name": "Treze",
+                        "logo": "https://media.api-sports.io/football/teams/7787.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "Gui Campana"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 8
+                    },
+                    "team": {
+                        "id": 1203,
+                        "name": "Altos",
+                        "logo": "https://media.api-sports.io/football/teams/1203.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "Leandro Amorim"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

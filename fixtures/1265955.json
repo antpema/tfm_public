@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1265955"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1265955,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-10T09:00:00+00:00",
+                "timestamp": 1723280400,
+                "periods": {
+                    "first": 1723280400,
+                    "second": 1723284000
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Rasenplatz Sportschule Oberhaching",
+                    "city": "Oberhaching"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 488,
+                "name": "U19 Bundesliga",
+                "country": "Germany",
+                "logo": "https://media.api-sports.io/football/leagues/488.png",
+                "flag": "https://media.api-sports.io/flags/de.svg",
+                "season": 2024,
+                "round": "West - 2"
+            },
+            "teams": {
+                "home": {
+                    "id": 13963,
+                    "name": "Unterhaching U19",
+                    "logo": "https://media.api-sports.io/football/teams/13963.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 7887,
+                    "name": "Bayern M\u00fcnchen U19",
+                    "logo": "https://media.api-sports.io/football/teams/7887.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 3
+                    },
+                    "team": {
+                        "id": 7887,
+                        "name": "Bayern M\u00fcnchen U19",
+                        "logo": "https://media.api-sports.io/football/teams/7887.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "R. Mijatovic"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 7
+                    },
+                    "team": {
+                        "id": 7887,
+                        "name": "Bayern M\u00fcnchen U19",
+                        "logo": "https://media.api-sports.io/football/teams/7887.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "O. Wilson"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

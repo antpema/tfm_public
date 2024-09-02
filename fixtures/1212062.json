@@ -1,0 +1,852 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1212062"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1212062,
+                "referee": "O. Pechanec",
+                "timezone": "UTC",
+                "date": "2024-07-28T08:15:00+00:00",
+                "timestamp": 1722154500,
+                "periods": {
+                    "first": 1722154500,
+                    "second": 1722158100
+                },
+                "venue": {
+                    "id": 2511,
+                    "name": "eFotbal ar\u00e9na",
+                    "city": "Praha"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 346,
+                "name": "FNL",
+                "country": "Czech-Republic",
+                "logo": "https://media.api-sports.io/football/leagues/346.png",
+                "flag": "https://media.api-sports.io/flags/cz.svg",
+                "season": 2024,
+                "round": "Regular Season - 2"
+            },
+            "teams": {
+                "home": {
+                    "id": 3729,
+                    "name": "Viktoria \u017di\u017ekov",
+                    "logo": "https://media.api-sports.io/football/teams/3729.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 4257,
+                    "name": "L\u00ed\u0161e\u0148",
+                    "logo": "https://media.api-sports.io/football/teams/4257.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 4
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 4
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 20,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4257,
+                        "name": "L\u00ed\u0161e\u0148",
+                        "logo": "https://media.api-sports.io/football/teams/4257.png"
+                    },
+                    "player": {
+                        "id": 125638,
+                        "name": "M. Je\u0159\u00e1bek"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 58,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4257,
+                        "name": "L\u00ed\u0161e\u0148",
+                        "logo": "https://media.api-sports.io/football/teams/4257.png"
+                    },
+                    "player": {
+                        "id": 1381,
+                        "name": "V. Dudl"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4257,
+                        "name": "L\u00ed\u0161e\u0148",
+                        "logo": "https://media.api-sports.io/football/teams/4257.png"
+                    },
+                    "player": {
+                        "id": 1381,
+                        "name": "V. Dudl"
+                    },
+                    "assist": {
+                        "id": 306348,
+                        "name": "I. Aldin"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4257,
+                        "name": "L\u00ed\u0161e\u0148",
+                        "logo": "https://media.api-sports.io/football/teams/4257.png"
+                    },
+                    "player": {
+                        "id": 262814,
+                        "name": "M. Pol\u00e1\u0161ek"
+                    },
+                    "assist": {
+                        "id": 427542,
+                        "name": "A. Vlas\u00e1k"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3729,
+                        "name": "Viktoria \u017di\u017ekov",
+                        "logo": "https://media.api-sports.io/football/teams/3729.png"
+                    },
+                    "player": {
+                        "id": 37944,
+                        "name": "T. Necid"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 66,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3729,
+                        "name": "Viktoria \u017di\u017ekov",
+                        "logo": "https://media.api-sports.io/football/teams/3729.png"
+                    },
+                    "player": {
+                        "id": 66735,
+                        "name": "A. Batioja"
+                    },
+                    "assist": {
+                        "id": 66460,
+                        "name": "V. Pro\u0161ek"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4257,
+                        "name": "L\u00ed\u0161e\u0148",
+                        "logo": "https://media.api-sports.io/football/teams/4257.png"
+                    },
+                    "player": {
+                        "id": 140284,
+                        "name": "J. Siln\u00fd"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 69,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4257,
+                        "name": "L\u00ed\u0161e\u0148",
+                        "logo": "https://media.api-sports.io/football/teams/4257.png"
+                    },
+                    "player": {
+                        "id": 66696,
+                        "name": "D. Klus\u00e1k"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Own Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 72,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4257,
+                        "name": "L\u00ed\u0161e\u0148",
+                        "logo": "https://media.api-sports.io/football/teams/4257.png"
+                    },
+                    "player": {
+                        "id": 140284,
+                        "name": "J. Siln\u00fd"
+                    },
+                    "assist": {
+                        "id": 162759,
+                        "name": "L. Raab"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3729,
+                        "name": "Viktoria \u017di\u017ekov",
+                        "logo": "https://media.api-sports.io/football/teams/3729.png"
+                    },
+                    "player": {
+                        "id": 66075,
+                        "name": "M. Jir\u00e1sek"
+                    },
+                    "assist": {
+                        "id": 66657,
+                        "name": "D. Sixta"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3729,
+                        "name": "Viktoria \u017di\u017ekov",
+                        "logo": "https://media.api-sports.io/football/teams/3729.png"
+                    },
+                    "player": {
+                        "id": 180966,
+                        "name": "D. Gembick\u00fd"
+                    },
+                    "assist": {
+                        "id": 3043,
+                        "name": "I. Muleme"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4257,
+                        "name": "L\u00ed\u0161e\u0148",
+                        "logo": "https://media.api-sports.io/football/teams/4257.png"
+                    },
+                    "player": {
+                        "id": 66510,
+                        "name": "P. Sokol"
+                    },
+                    "assist": {
+                        "id": 123451,
+                        "name": "M. Rolinek"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4257,
+                        "name": "L\u00ed\u0161e\u0148",
+                        "logo": "https://media.api-sports.io/football/teams/4257.png"
+                    },
+                    "player": {
+                        "id": 263210,
+                        "name": "D. Dziuba"
+                    },
+                    "assist": {
+                        "id": 125636,
+                        "name": "M. Mach"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 84,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3729,
+                        "name": "Viktoria \u017di\u017ekov",
+                        "logo": "https://media.api-sports.io/football/teams/3729.png"
+                    },
+                    "player": {
+                        "id": 119904,
+                        "name": "D. Broukal"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 86,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3729,
+                        "name": "Viktoria \u017di\u017ekov",
+                        "logo": "https://media.api-sports.io/football/teams/3729.png"
+                    },
+                    "player": {
+                        "id": 147824,
+                        "name": "A. Petr\u00e1k"
+                    },
+                    "assist": {
+                        "id": 134744,
+                        "name": "M. H\u00f6nig"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 86,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3729,
+                        "name": "Viktoria \u017di\u017ekov",
+                        "logo": "https://media.api-sports.io/football/teams/3729.png"
+                    },
+                    "player": {
+                        "id": 66168,
+                        "name": "J. Tregler"
+                    },
+                    "assist": {
+                        "id": 162165,
+                        "name": "A. Toula"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 88,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4257,
+                        "name": "L\u00ed\u0161e\u0148",
+                        "logo": "https://media.api-sports.io/football/teams/4257.png"
+                    },
+                    "player": {
+                        "id": 427542,
+                        "name": "A. Vlas\u00e1k"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 2
+                    },
+                    "team": {
+                        "id": 4257,
+                        "name": "L\u00ed\u0161e\u0148",
+                        "logo": "https://media.api-sports.io/football/teams/4257.png"
+                    },
+                    "player": {
+                        "id": 306348,
+                        "name": "I. Aldin"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 2
+                    },
+                    "team": {
+                        "id": 3729,
+                        "name": "Viktoria \u017di\u017ekov",
+                        "logo": "https://media.api-sports.io/football/teams/3729.png"
+                    },
+                    "player": {
+                        "id": 66696,
+                        "name": "D. Klusak"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 2
+                    },
+                    "team": {
+                        "id": 3729,
+                        "name": "Viktoria \u017di\u017ekov",
+                        "logo": "https://media.api-sports.io/football/teams/3729.png"
+                    },
+                    "player": {
+                        "id": 66657,
+                        "name": "D. Sixta"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 3729,
+                        "name": "Viktoria \u017di\u017ekov",
+                        "logo": "https://media.api-sports.io/football/teams/3729.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 4487,
+                        "name": "M. Hor\u0148\u00e1k",
+                        "photo": "https://media.api-sports.io/football/coachs/4487.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 153085,
+                                "name": "M. Melichar",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66168,
+                                "name": "J. Tregler",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66472,
+                                "name": "M. Richter",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66696,
+                                "name": "D. Klus\u00e1k",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 119904,
+                                "name": "D. Broukal",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66075,
+                                "name": "M. Jir\u00e1sek",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66735,
+                                "name": "A. Batioja",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 147824,
+                                "name": "A. Petr\u00e1k",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 37944,
+                                "name": "T. Necid",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 176442,
+                                "name": "J. Sodoma",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 180966,
+                                "name": "D. Gembick\u00fd",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 66460,
+                                "name": "V. Pro\u0161ek",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66657,
+                                "name": "D. Sixta",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 3043,
+                                "name": "I. Muleme",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 162165,
+                                "name": "A. Toula",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 134744,
+                                "name": "M. H\u00f6nig",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 4257,
+                        "name": "L\u00ed\u0161e\u0148",
+                        "logo": "https://media.api-sports.io/football/teams/4257.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 11534,
+                        "name": "M. Valachovi\u010d",
+                        "photo": "https://media.api-sports.io/football/coachs/11534.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 278451,
+                                "name": "T. Vajner",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66605,
+                                "name": "M. Lutonsk\u00fd",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66550,
+                                "name": "P. Ilko",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1381,
+                                "name": "V. Dudl",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 14669,
+                                "name": "D. Jokovi\u0107",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 125638,
+                                "name": "M. Je\u0159\u00e1bek",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66411,
+                                "name": "J. Sedl\u00e1k",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66510,
+                                "name": "P. Sokol",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 262814,
+                                "name": "M. Pol\u00e1\u0161ek",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 263210,
+                                "name": "D. Dziuba",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 140284,
+                                "name": "J. Siln\u00fd",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 306348,
+                                "name": "I. Aldin",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 427542,
+                                "name": "A. Vlas\u00e1k",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 162759,
+                                "name": "L. Raab",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 125636,
+                                "name": "M. Mach",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 123451,
+                                "name": "M. Rolinek",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

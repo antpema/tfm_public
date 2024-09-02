@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1192487"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1192487,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-31T12:30:00+00:00",
+                "timestamp": 1722429000,
+                "periods": {
+                    "first": 1722429000,
+                    "second": 1722432600
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Mpira Stadium",
+                    "city": "Blantyre"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 391,
+                "name": "Super League",
+                "country": "Malawi",
+                "logo": "https://media.api-sports.io/football/leagues/391.png",
+                "flag": "https://media.api-sports.io/flags/mw.svg",
+                "season": 2024,
+                "round": "Regular Season - 12"
+            },
+            "teams": {
+                "home": {
+                    "id": 21219,
+                    "name": "Bangwe All Stars",
+                    "logo": "https://media.api-sports.io/football/teams/21219.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 4599,
+                    "name": "Nyasa Big Bullets",
+                    "logo": "https://media.api-sports.io/football/teams/4599.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 48,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4599,
+                        "name": "Nyasa Big Bullets",
+                        "logo": "https://media.api-sports.io/football/teams/4599.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "B. Adepoju"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 52,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4599,
+                        "name": "Nyasa Big Bullets",
+                        "logo": "https://media.api-sports.io/football/teams/4599.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "C. Gumbo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

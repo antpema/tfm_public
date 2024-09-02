@@ -1,0 +1,868 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1245393"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1245393,
+                "referee": "N. Salgado",
+                "timezone": "UTC",
+                "date": "2024-07-28T01:00:00+00:00",
+                "timestamp": 1722128400,
+                "periods": {
+                    "first": 1722128400,
+                    "second": 1722132000
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Estadio Municipal Carlos Miranda",
+                    "city": "Comayagua"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 234,
+                "name": "Liga Nacional",
+                "country": "Honduras",
+                "logo": "https://media.api-sports.io/football/leagues/234.png",
+                "flag": "https://media.api-sports.io/flags/hn.svg",
+                "season": 2024,
+                "round": "Apertura - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 21858,
+                    "name": "G\u00e9nesis",
+                    "logo": "https://media.api-sports.io/football/teams/21858.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 1051,
+                    "name": "CD Olimpia",
+                    "logo": "https://media.api-sports.io/football/teams/1051.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 3
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 3
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 14,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 21858,
+                        "name": "G\u00e9nesis",
+                        "logo": "https://media.api-sports.io/football/teams/21858.png"
+                    },
+                    "player": {
+                        "id": 282193,
+                        "name": "J. Garcia"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 35,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1051,
+                        "name": "CD Olimpia",
+                        "logo": "https://media.api-sports.io/football/teams/1051.png"
+                    },
+                    "player": {
+                        "id": 27545,
+                        "name": "E. Rodriguez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 3
+                    },
+                    "team": {
+                        "id": 1051,
+                        "name": "CD Olimpia",
+                        "logo": "https://media.api-sports.io/football/teams/1051.png"
+                    },
+                    "player": {
+                        "id": 27579,
+                        "name": "Y. Arboleda"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 53,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1051,
+                        "name": "CD Olimpia",
+                        "logo": "https://media.api-sports.io/football/teams/1051.png"
+                    },
+                    "player": {
+                        "id": 27553,
+                        "name": "J. Pinto"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 57,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 21858,
+                        "name": "G\u00e9nesis",
+                        "logo": "https://media.api-sports.io/football/teams/21858.png"
+                    },
+                    "player": {
+                        "id": 429071,
+                        "name": "S. D\u00e1vila"
+                    },
+                    "assist": {
+                        "id": 429069,
+                        "name": "L. Casildo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 21858,
+                        "name": "G\u00e9nesis",
+                        "logo": "https://media.api-sports.io/football/teams/21858.png"
+                    },
+                    "player": {
+                        "id": 27751,
+                        "name": "M. Canales"
+                    },
+                    "assist": {
+                        "id": 429070,
+                        "name": "F. Yanes"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1051,
+                        "name": "CD Olimpia",
+                        "logo": "https://media.api-sports.io/football/teams/1051.png"
+                    },
+                    "player": {
+                        "id": 59228,
+                        "name": "I. Colombini"
+                    },
+                    "assist": {
+                        "id": 27549,
+                        "name": "J. Bengtson"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1051,
+                        "name": "CD Olimpia",
+                        "logo": "https://media.api-sports.io/football/teams/1051.png"
+                    },
+                    "player": {
+                        "id": 27545,
+                        "name": "E. Rodr\u00edguez"
+                    },
+                    "assist": {
+                        "id": 35820,
+                        "name": "M. Chirinos"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 21858,
+                        "name": "G\u00e9nesis",
+                        "logo": "https://media.api-sports.io/football/teams/21858.png"
+                    },
+                    "player": {
+                        "id": 51408,
+                        "name": "C. Fern\u00e1ndez"
+                    },
+                    "assist": {
+                        "id": 304877,
+                        "name": "D. Mel\u00e9ndez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 21858,
+                        "name": "G\u00e9nesis",
+                        "logo": "https://media.api-sports.io/football/teams/21858.png"
+                    },
+                    "player": {
+                        "id": 27615,
+                        "name": "R. Moreira"
+                    },
+                    "assist": {
+                        "id": 304871,
+                        "name": "L. Bodden"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 21858,
+                        "name": "G\u00e9nesis",
+                        "logo": "https://media.api-sports.io/football/teams/21858.png"
+                    },
+                    "player": {
+                        "id": 27532,
+                        "name": "E. G\u00fcity"
+                    },
+                    "assist": {
+                        "id": 88974,
+                        "name": "M. Salinas"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 75,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1051,
+                        "name": "CD Olimpia",
+                        "logo": "https://media.api-sports.io/football/teams/1051.png"
+                    },
+                    "player": {
+                        "id": 27579,
+                        "name": "Y. Arboleda"
+                    },
+                    "assist": {
+                        "id": 27577,
+                        "name": "E. Solano"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 75,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1051,
+                        "name": "CD Olimpia",
+                        "logo": "https://media.api-sports.io/football/teams/1051.png"
+                    },
+                    "player": {
+                        "id": 27553,
+                        "name": "J. Pinto"
+                    },
+                    "assist": {
+                        "id": 27533,
+                        "name": "M. N\u00fa\u00f1ez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 76,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1051,
+                        "name": "CD Olimpia",
+                        "logo": "https://media.api-sports.io/football/teams/1051.png"
+                    },
+                    "player": {
+                        "id": 27549,
+                        "name": "J. Bengtson"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 77,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1051,
+                        "name": "CD Olimpia",
+                        "logo": "https://media.api-sports.io/football/teams/1051.png"
+                    },
+                    "player": {
+                        "id": 27537,
+                        "name": "J. \u00c1lvarez"
+                    },
+                    "assist": {
+                        "id": 382971,
+                        "name": "M. Rodr\u00edguez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 21858,
+                        "name": "G\u00e9nesis",
+                        "logo": "https://media.api-sports.io/football/teams/21858.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 14124,
+                        "name": "R. Tilguath",
+                        "photo": "https://media.api-sports.io/football/coachs/14124.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 27525,
+                                "name": "G. Argueta",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 27532,
+                                "name": "E. G\u00fcity",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 27658,
+                                "name": "J. Fiallos",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 27534,
+                                "name": "E. Oliva",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 282193,
+                                "name": "J. Garc\u00eda",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 27638,
+                                "name": "M. Mart\u00ednez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 27751,
+                                "name": "M. Canales",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 429071,
+                                "name": "S. D\u00e1vila",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 27615,
+                                "name": "R. Moreira",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 27586,
+                                "name": "M. Ram\u00edrez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 51408,
+                                "name": "C. Fern\u00e1ndez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 429069,
+                                "name": "L. Casildo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 429070,
+                                "name": "F. Yanes",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 304877,
+                                "name": "D. Mel\u00e9ndez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 304871,
+                                "name": "L. Bodden",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 88974,
+                                "name": "M. Salinas",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 463881,
+                                "name": "A. Alvarado",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 291650,
+                                "name": "A. \u00c1lvarez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 477000,
+                                "name": "B. Dixon",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 27518,
+                                "name": "C. Tilguath",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 88916,
+                                "name": "H. Col\u00f3n",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 434498,
+                                "name": "J. Cruz",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 430418,
+                                "name": "M. Oliva",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 1051,
+                        "name": "CD Olimpia",
+                        "logo": "https://media.api-sports.io/football/teams/1051.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 2759,
+                        "name": "P. Troglio",
+                        "photo": "https://media.api-sports.io/football/coachs/2759.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 27528,
+                                "name": "E. Menj\u00edvar",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1415,
+                                "name": "A. Najar",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 27536,
+                                "name": "Jhonathan Paz",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 88877,
+                                "name": "J. Garc\u00eda",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 405996,
+                                "name": "J. Mart\u00ednez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 27537,
+                                "name": "J. \u00c1lvarez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 88897,
+                                "name": "C. Pineda",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 27553,
+                                "name": "J. Pinto",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 27545,
+                                "name": "E. Rodr\u00edguez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 59228,
+                                "name": "I. Colombini",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 27579,
+                                "name": "Y. Arboleda",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 27549,
+                                "name": "J. Bengtson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35820,
+                                "name": "M. Chirinos",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 27577,
+                                "name": "E. Solano",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 27533,
+                                "name": "M. N\u00fa\u00f1ez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 382971,
+                                "name": "M. Rodr\u00edguez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 27527,
+                                "name": "A. G\u00fcity",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 27595,
+                                "name": "C. S\u00e1nchez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 377179,
+                                "name": "E. Gordon",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 115882,
+                                "name": "Gabriel Ara\u00fajo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 206989,
+                                "name": "J. Figueroa",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 27592,
+                                "name": "J. Montes",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 27605,
+                                "name": "K. L\u00f3pez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

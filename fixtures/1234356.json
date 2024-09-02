@@ -1,0 +1,888 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1234356"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1234356,
+                "referee": "C. Colmenares",
+                "timezone": "UTC",
+                "date": "2024-08-07T21:00:00+00:00",
+                "timestamp": 1723064400,
+                "periods": {
+                    "first": 1723064400,
+                    "second": 1723068000
+                },
+                "venue": {
+                    "id": 373,
+                    "name": "Estadio General Santander",
+                    "city": "C\u00facuta"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 240,
+                "name": "Primera B",
+                "country": "Colombia",
+                "logo": "https://media.api-sports.io/football/leagues/240.png",
+                "flag": "https://media.api-sports.io/flags/co.svg",
+                "season": 2024,
+                "round": "Clausura - 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 1470,
+                    "name": "Cucuta",
+                    "logo": "https://media.api-sports.io/football/teams/1470.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 1459,
+                    "name": "Real Cartagena",
+                    "logo": "https://media.api-sports.io/football/teams/1459.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 8,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1459,
+                        "name": "Real Cartagena",
+                        "logo": "https://media.api-sports.io/football/teams/1459.png"
+                    },
+                    "player": {
+                        "id": 13167,
+                        "name": "C. Florez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1470,
+                        "name": "Cucuta",
+                        "logo": "https://media.api-sports.io/football/teams/1470.png"
+                    },
+                    "player": {
+                        "id": 196700,
+                        "name": "J. Estupi\u00f1an"
+                    },
+                    "assist": {
+                        "id": 303134,
+                        "name": "J. Angulo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1470,
+                        "name": "Cucuta",
+                        "logo": "https://media.api-sports.io/football/teams/1470.png"
+                    },
+                    "player": {
+                        "id": 342680,
+                        "name": "V. Jaime"
+                    },
+                    "assist": {
+                        "id": 301588,
+                        "name": "J. Rueda"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1459,
+                        "name": "Real Cartagena",
+                        "logo": "https://media.api-sports.io/football/teams/1459.png"
+                    },
+                    "player": {
+                        "id": 13754,
+                        "name": "M. Murillo"
+                    },
+                    "assist": {
+                        "id": 306728,
+                        "name": "J. Valencia"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1459,
+                        "name": "Real Cartagena",
+                        "logo": "https://media.api-sports.io/football/teams/1459.png"
+                    },
+                    "player": {
+                        "id": 271855,
+                        "name": "D. Palomeque"
+                    },
+                    "assist": {
+                        "id": 134002,
+                        "name": "Y. Torres"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 57,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1470,
+                        "name": "Cucuta",
+                        "logo": "https://media.api-sports.io/football/teams/1470.png"
+                    },
+                    "player": {
+                        "id": 197509,
+                        "name": "A. Cano"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1470,
+                        "name": "Cucuta",
+                        "logo": "https://media.api-sports.io/football/teams/1470.png"
+                    },
+                    "player": {
+                        "id": 301588,
+                        "name": "J. Rueda"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1470,
+                        "name": "Cucuta",
+                        "logo": "https://media.api-sports.io/football/teams/1470.png"
+                    },
+                    "player": {
+                        "id": 476348,
+                        "name": "C. C\u00f3rdoba"
+                    },
+                    "assist": {
+                        "id": 384424,
+                        "name": "S. Monsalve"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 66,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1459,
+                        "name": "Real Cartagena",
+                        "logo": "https://media.api-sports.io/football/teams/1459.png"
+                    },
+                    "player": {
+                        "id": 13384,
+                        "name": "J. Angulo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 68,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1459,
+                        "name": "Real Cartagena",
+                        "logo": "https://media.api-sports.io/football/teams/1459.png"
+                    },
+                    "player": {
+                        "id": 52963,
+                        "name": "M. Covea"
+                    },
+                    "assist": {
+                        "id": 59630,
+                        "name": "R. L\u00e1ra"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 68,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1459,
+                        "name": "Real Cartagena",
+                        "logo": "https://media.api-sports.io/football/teams/1459.png"
+                    },
+                    "player": {
+                        "id": 13488,
+                        "name": "W. De La Rosa"
+                    },
+                    "assist": {
+                        "id": 304731,
+                        "name": "J. Ditta"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1459,
+                        "name": "Real Cartagena",
+                        "logo": "https://media.api-sports.io/football/teams/1459.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "J. J. Ditta Ruiz"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 79,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1459,
+                        "name": "Real Cartagena",
+                        "logo": "https://media.api-sports.io/football/teams/1459.png"
+                    },
+                    "player": {
+                        "id": 352515,
+                        "name": "J. Barrios"
+                    },
+                    "assist": {
+                        "id": 52537,
+                        "name": "D. Osio"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 81,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1470,
+                        "name": "Cucuta",
+                        "logo": "https://media.api-sports.io/football/teams/1470.png"
+                    },
+                    "player": {
+                        "id": 13323,
+                        "name": "M. Duarte"
+                    },
+                    "assist": {
+                        "id": 109603,
+                        "name": "A. Borja"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1459,
+                        "name": "Real Cartagena",
+                        "logo": "https://media.api-sports.io/football/teams/1459.png"
+                    },
+                    "player": {
+                        "id": 13694,
+                        "name": "J. Salcedo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 86,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1470,
+                        "name": "Cucuta",
+                        "logo": "https://media.api-sports.io/football/teams/1470.png"
+                    },
+                    "player": {
+                        "id": 449374,
+                        "name": "G. Triana"
+                    },
+                    "assist": {
+                        "id": 157051,
+                        "name": "F. G\u00f3mez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 88,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1459,
+                        "name": "Real Cartagena",
+                        "logo": "https://media.api-sports.io/football/teams/1459.png"
+                    },
+                    "player": {
+                        "id": 52537,
+                        "name": "D. Osio"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 1459,
+                        "name": "Real Cartagena",
+                        "logo": "https://media.api-sports.io/football/teams/1459.png"
+                    },
+                    "player": {
+                        "id": 52537,
+                        "name": "D. Osio"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 1459,
+                        "name": "Real Cartagena",
+                        "logo": "https://media.api-sports.io/football/teams/1459.png"
+                    },
+                    "player": {
+                        "id": 52537,
+                        "name": "D. Osio"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1470,
+                        "name": "Cucuta",
+                        "logo": "https://media.api-sports.io/football/teams/1470.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 1470,
+                        "name": "Cucuta",
+                        "logo": "https://media.api-sports.io/football/teams/1470.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 3690,
+                        "name": "A. Hern\u00e1ndez",
+                        "photo": "https://media.api-sports.io/football/coachs/3690.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 59766,
+                                "name": "E. Esteban",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13323,
+                                "name": "M. Duarte",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13537,
+                                "name": "L. Escorcia",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13389,
+                                "name": "K. Moreno",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 342680,
+                                "name": "V. Jaime",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 59461,
+                                "name": "C. Mosquera",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 196700,
+                                "name": "J. Estupi\u00f1an",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 197509,
+                                "name": "A. Cano",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 339193,
+                                "name": "B. Angulo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 449374,
+                                "name": "G. Triana",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 476348,
+                                "name": "C. C\u00f3rdoba",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 303134,
+                                "name": "J. Angulo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 301588,
+                                "name": "J. Rueda",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 384424,
+                                "name": "S. Monsalve",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 109603,
+                                "name": "A. Borja",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 157051,
+                                "name": "F. G\u00f3mez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 477044,
+                                "name": "L. Ochoa",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 405912,
+                                "name": "S. Avellaneda",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 1459,
+                        "name": "Real Cartagena",
+                        "logo": "https://media.api-sports.io/football/teams/1459.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 3699,
+                        "name": "A. Su\u00e1rez",
+                        "photo": "https://media.api-sports.io/football/coachs/3699.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 79426,
+                                "name": "C. Arroyave",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13384,
+                                "name": "J. Angulo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13167,
+                                "name": "C. Fl\u00f3rez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 271855,
+                                "name": "D. Palomeque",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13651,
+                                "name": "C. Marrugo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52963,
+                                "name": "M. Covea",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13754,
+                                "name": "M. Murillo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13694,
+                                "name": "J. Salcedo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13488,
+                                "name": "W. De La Rosa",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 352515,
+                                "name": "J. Barrios",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 375842,
+                                "name": "M. Castillo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 306728,
+                                "name": "J. Valencia",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 134002,
+                                "name": "Y. Torres",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 304731,
+                                "name": "J. Ditta",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 59630,
+                                "name": "R. L\u00e1ra",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52537,
+                                "name": "D. Osio",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 59881,
+                                "name": "A. Montes",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 306851,
+                                "name": "J. Mendoza",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

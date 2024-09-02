@@ -1,0 +1,577 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1218300"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1218300,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-24T17:00:00+00:00",
+                "timestamp": 1721840400,
+                "periods": {
+                    "first": 1721840400,
+                    "second": 1721844000
+                },
+                "venue": {
+                    "id": 3966,
+                    "name": "Estadio La Planilla",
+                    "city": "Calahorra"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 9581,
+                    "name": "Calahorra",
+                    "logo": "https://media.api-sports.io/football/teams/9581.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 732,
+                    "name": "Zaragoza",
+                    "logo": "https://media.api-sports.io/football/teams/732.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 3,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 732,
+                        "name": "Zaragoza",
+                        "logo": "https://media.api-sports.io/football/teams/732.png"
+                    },
+                    "player": {
+                        "id": 161590,
+                        "name": "I. Azon"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 84,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 732,
+                        "name": "Zaragoza",
+                        "logo": "https://media.api-sports.io/football/teams/732.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "M. Soberon"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 9581,
+                        "name": "Calahorra",
+                        "logo": "https://media.api-sports.io/football/teams/9581.png",
+                        "colors": {
+                            "player": {
+                                "primary": "cc0000",
+                                "number": "222226",
+                                "border": "cc0000"
+                            },
+                            "goalkeeper": {
+                                "primary": "fafb00",
+                                "number": "000000",
+                                "border": "fafb00"
+                            }
+                        }
+                    },
+                    "formation": "4-3-3",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 170858,
+                                "name": "Juan Carlos Az\u00f3n",
+                                "number": 22,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Ugaitz Mart\u00ednez",
+                                "number": 28,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 122963,
+                                "name": "I\u00f1igo Zubiri",
+                                "number": 18,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 122987,
+                                "name": "Jon Vega",
+                                "number": 21,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 141222,
+                                "name": "Julen Hualde Lanz",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 137477,
+                                "name": "David S\u00e1nchez",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 181672,
+                                "name": "Facundo Ballardo",
+                                "number": 6,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 179269,
+                                "name": "Javi Bueno",
+                                "number": 14,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Julen Ekiza",
+                                "number": 10,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 182629,
+                                "name": "Jorge Mart\u00ednez",
+                                "number": 22,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 148143,
+                                "name": "David Aparicio",
+                                "number": 7,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Brais Su\u00e1rez",
+                                "number": 13,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 178925,
+                                "name": "Be\u00f1at Garro",
+                                "number": 4,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 104812,
+                                "name": "V\u00edctor L\u00f3pez",
+                                "number": 17,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Sergio Pascual",
+                                "number": 20,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Aratz Barandiaran",
+                                "number": 27,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 107167,
+                                "name": "Javi Cobo",
+                                "number": 5,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Oier Herrera",
+                                "number": 26,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Rub\u00e9n Azcona",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 285910,
+                                "name": "Jes\u00fas Villar",
+                                "number": 11,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 181501,
+                                "name": "Antonio Salinas",
+                                "number": 19,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 6800,
+                        "name": "Carlos Pouso",
+                        "photo": "https://media.api-sports.io/football/coachs/6800.png"
+                    }
+                },
+                {
+                    "team": {
+                        "id": 732,
+                        "name": "Zaragoza",
+                        "logo": "https://media.api-sports.io/football/teams/732.png",
+                        "colors": {
+                            "player": {
+                                "primary": "eddf64",
+                                "number": "000000",
+                                "border": "eddf64"
+                            },
+                            "goalkeeper": {
+                                "primary": "f01919",
+                                "number": "0a0a0a",
+                                "border": "f01919"
+                            }
+                        }
+                    },
+                    "formation": "4-3-3",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 1254,
+                                "name": "Gaetan Poussin",
+                                "number": 13,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 380261,
+                                "name": "Marcos Luna",
+                                "number": 16,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 104916,
+                                "name": "Jair Amador",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47053,
+                                "name": "Carlos Nieto",
+                                "number": 17,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 20713,
+                                "name": "Quentin Lecoeuche",
+                                "number": 22,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47005,
+                                "name": "Maikel Mesa",
+                                "number": 11,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47,
+                                "name": "Toni Moya",
+                                "number": 21,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 751,
+                                "name": "Jaume Grau",
+                                "number": 5,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47423,
+                                "name": "Sabin Merino",
+                                "number": 15,
+                                "pos": "F",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47395,
+                                "name": "Sergi Enrich",
+                                "number": 23,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 161590,
+                                "name": "Ivan Az\u00f3n Monz\u00f3n",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 47332,
+                                "name": "Llu\u00eds L\u00f3pez",
+                                "number": 24,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 131527,
+                                "name": "Joan Femen\u00edas",
+                                "number": 25,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 184362,
+                                "name": "Dani Tasende",
+                                "number": 4,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 93988,
+                                "name": "Ivan Calero",
+                                "number": 19,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 439419,
+                                "name": "Hugo Barrachina",
+                                "number": 36,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 187318,
+                                "name": "Marc Aguado",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 107158,
+                                "name": "Sergio Bermejo",
+                                "number": 10,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 286604,
+                                "name": "Gori",
+                                "number": 18,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 118129,
+                                "name": "Mario Sober\u00f3n",
+                                "number": 7,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 314377,
+                                "name": "Samed Ba\u017edar",
+                                "number": 20,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 394573,
+                                "name": "Adrian Liso",
+                                "number": 33,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 50,
+                        "name": "Victor Fern\u00e1ndez",
+                        "photo": "https://media.api-sports.io/football/coachs/50.png"
+                    }
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

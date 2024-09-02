@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1209169"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1209169,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-26T18:00:00+00:00",
+                "timestamp": 1722016800,
+                "periods": {
+                    "first": 1722016800,
+                    "second": 1722020400
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Centro de Treinamento do Guarani",
+                    "city": "Campinas, S\u00e3o Paulo"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 1086,
+                "name": "Paulista - U20",
+                "country": "Brazil",
+                "logo": "https://media.api-sports.io/football/leagues/1086.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "season": 2024,
+                "round": "2nd Phase - 4"
+            },
+            "teams": {
+                "home": {
+                    "id": 13012,
+                    "name": "Guarani U20",
+                    "logo": "https://media.api-sports.io/football/teams/13012.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 13077,
+                    "name": "XV de Piracicaba U20",
+                    "logo": "https://media.api-sports.io/football/teams/13077.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 13012,
+                        "name": "Guarani U20",
+                        "logo": "https://media.api-sports.io/football/teams/13012.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "N. Silva"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 66,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 13012,
+                        "name": "Guarani U20",
+                        "logo": "https://media.api-sports.io/football/teams/13012.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "Freitas"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

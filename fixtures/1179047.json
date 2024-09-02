@@ -1,0 +1,805 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1179047"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1179047,
+                "referee": "E. Ma\u013ccevs",
+                "timezone": "UTC",
+                "date": "2024-07-27T15:00:00+00:00",
+                "timestamp": 1722092400,
+                "periods": {
+                    "first": 1722092400,
+                    "second": 1722096000
+                },
+                "venue": {
+                    "id": 3164,
+                    "name": "Stadions Daugava",
+                    "city": "Liep\u0101ja"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 365,
+                "name": "Virsliga",
+                "country": "Latvia",
+                "logo": "https://media.api-sports.io/football/leagues/365.png",
+                "flag": "https://media.api-sports.io/flags/lv.svg",
+                "season": 2024,
+                "round": "Regular Season - 24"
+            },
+            "teams": {
+                "home": {
+                    "id": 4138,
+                    "name": "Grobi\u0146a",
+                    "logo": "https://media.api-sports.io/football/teams/4138.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 4159,
+                    "name": "Metta / LU",
+                    "logo": "https://media.api-sports.io/football/teams/4159.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 18,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4159,
+                        "name": "Metta / LU",
+                        "logo": "https://media.api-sports.io/football/teams/4159.png"
+                    },
+                    "player": {
+                        "id": 374161,
+                        "name": "L. Corr\u00e9a"
+                    },
+                    "assist": {
+                        "id": 282454,
+                        "name": "B. Melnis"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 4159,
+                        "name": "Metta / LU",
+                        "logo": "https://media.api-sports.io/football/teams/4159.png"
+                    },
+                    "player": {
+                        "id": 72529,
+                        "name": "D. Ulimbasevs"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 4
+                    },
+                    "team": {
+                        "id": 4159,
+                        "name": "Metta / LU",
+                        "logo": "https://media.api-sports.io/football/teams/4159.png"
+                    },
+                    "player": {
+                        "id": 374161,
+                        "name": "L. Corr\u00e9a"
+                    },
+                    "assist": {
+                        "id": 307631,
+                        "name": "K. Vilnis"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4138,
+                        "name": "Grobi\u0146a",
+                        "logo": "https://media.api-sports.io/football/teams/4138.png"
+                    },
+                    "player": {
+                        "id": 395856,
+                        "name": "D. Machado"
+                    },
+                    "assist": {
+                        "id": 181895,
+                        "name": "D. Halata"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4138,
+                        "name": "Grobi\u0146a",
+                        "logo": "https://media.api-sports.io/football/teams/4138.png"
+                    },
+                    "player": {
+                        "id": 373718,
+                        "name": "K. Miku\u013cskis"
+                    },
+                    "assist": {
+                        "id": 92158,
+                        "name": "A. Tumanovs"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4138,
+                        "name": "Grobi\u0146a",
+                        "logo": "https://media.api-sports.io/football/teams/4138.png"
+                    },
+                    "player": {
+                        "id": 142199,
+                        "name": "Helistano Manga"
+                    },
+                    "assist": {
+                        "id": 266189,
+                        "name": "M. Kruglau\u017es"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 50,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4138,
+                        "name": "Grobi\u0146a",
+                        "logo": "https://media.api-sports.io/football/teams/4138.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "R. Gaucis"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 56,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4138,
+                        "name": "Grobi\u0146a",
+                        "logo": "https://media.api-sports.io/football/teams/4138.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "N. Mammadzade"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 60,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4159,
+                        "name": "Metta / LU",
+                        "logo": "https://media.api-sports.io/football/teams/4159.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "D. Cinajevs"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4138,
+                        "name": "Grobi\u0146a",
+                        "logo": "https://media.api-sports.io/football/teams/4138.png"
+                    },
+                    "player": {
+                        "id": 373740,
+                        "name": "R. Me\u013c\u0137is"
+                    },
+                    "assist": {
+                        "id": 92147,
+                        "name": "R. D\u017eeri\u0146\u0161"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 72,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4159,
+                        "name": "Metta / LU",
+                        "logo": "https://media.api-sports.io/football/teams/4159.png"
+                    },
+                    "player": {
+                        "id": 410866,
+                        "name": "O. Kurtsev"
+                    },
+                    "assist": {
+                        "id": 289681,
+                        "name": "K. R\u0113\u0137is"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4159,
+                        "name": "Metta / LU",
+                        "logo": "https://media.api-sports.io/football/teams/4159.png"
+                    },
+                    "player": {
+                        "id": 72529,
+                        "name": "D. Ulimba\u0161evs"
+                    },
+                    "assist": {
+                        "id": 459057,
+                        "name": "Y. Stadnik"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 75,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4138,
+                        "name": "Grobi\u0146a",
+                        "logo": "https://media.api-sports.io/football/teams/4138.png"
+                    },
+                    "player": {
+                        "id": 163087,
+                        "name": "Z. Sdaigui"
+                    },
+                    "assist": {
+                        "id": 216928,
+                        "name": "R. S\u0101mietis"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4138,
+                        "name": "Grobi\u0146a",
+                        "logo": "https://media.api-sports.io/football/teams/4138.png"
+                    },
+                    "player": {
+                        "id": 181895,
+                        "name": "D. Halata"
+                    },
+                    "assist": {
+                        "id": 216928,
+                        "name": "R. S\u0101mietis"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 2
+                    },
+                    "team": {
+                        "id": 4159,
+                        "name": "Metta / LU",
+                        "logo": "https://media.api-sports.io/football/teams/4159.png"
+                    },
+                    "player": {
+                        "id": 282454,
+                        "name": "B. Melnis"
+                    },
+                    "assist": {
+                        "id": 368822,
+                        "name": "M. Karimu"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 4138,
+                        "name": "Grobi\u0146a",
+                        "logo": "https://media.api-sports.io/football/teams/4138.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 567,
+                        "name": "V. Dobrecovs",
+                        "photo": "https://media.api-sports.io/football/coachs/567.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 163554,
+                                "name": "A. Malysh",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 72425,
+                                "name": "J. Krautmanis",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 306978,
+                                "name": "N. M\u0259mm\u0259dzad\u0259",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 373718,
+                                "name": "K. Miku\u013cskis",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 373740,
+                                "name": "R. Me\u013c\u0137is",
+                                "number": 12,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 72584,
+                                "name": "A. Kru\u0161atins",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 142199,
+                                "name": "Helistano Manga",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 373737,
+                                "name": "D. Dru\u017ei\u0146ins",
+                                "number": 3,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 163087,
+                                "name": "Z. Sdaigui",
+                                "number": 44,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 373717,
+                                "name": "R. Gau\u010dis",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 395856,
+                                "name": "D. Machado",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 181895,
+                                "name": "D. Halata",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 92158,
+                                "name": "A. Tumanovs",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 266189,
+                                "name": "M. Kruglau\u017es",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 92147,
+                                "name": "R. D\u017eeri\u0146\u0161",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 216928,
+                                "name": "R. S\u0101mietis",
+                                "number": 40,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 72464,
+                                "name": "I. Stuglis",
+                                "number": 67,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 359377,
+                                "name": "\u0145. Pin\u010duks",
+                                "number": 32,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 162328,
+                                "name": "M. Fjodorovs",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 352902,
+                                "name": "D. Mosquera",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 4159,
+                        "name": "Metta / LU",
+                        "logo": "https://media.api-sports.io/football/teams/4159.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 2041,
+                        "name": "A. Riherts",
+                        "photo": "https://media.api-sports.io/football/coachs/2041.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 210181,
+                                "name": "A. Sorokins",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 72556,
+                                "name": "R. \u0160ibass",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 307631,
+                                "name": "K. Vilnis",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 72529,
+                                "name": "D. Ulimba\u0161evs",
+                                "number": 28,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 201708,
+                                "name": "J. Bender",
+                                "number": 3,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 72558,
+                                "name": "O. Vientiess",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 326817,
+                                "name": "D. \u010ci\u0146ajevs",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 410866,
+                                "name": "O. Kurtsev",
+                                "number": 26,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 282454,
+                                "name": "B. Melnis",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 374161,
+                                "name": "L. Corr\u00e9a",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 467161,
+                                "name": "Y. Yakubu",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 289681,
+                                "name": "K. R\u0113\u0137is",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 459057,
+                                "name": "Y. Stadnik",
+                                "number": 25,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 368822,
+                                "name": "M. Karimu",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 326813,
+                                "name": "T. Zants",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 373745,
+                                "name": "M. Ivul\u0101ns",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 326818,
+                                "name": "E. Aizpurietis",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 390591,
+                                "name": "D. Sirbu",
+                                "number": 30,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 417619,
+                                "name": "T. Tolmanis",
+                                "number": 12,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

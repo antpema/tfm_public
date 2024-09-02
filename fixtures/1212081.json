@@ -1,0 +1,786 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1212081"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1212081,
+                "referee": "V. Opo\u010densk\u00fd",
+                "timezone": "UTC",
+                "date": "2024-08-04T08:15:00+00:00",
+                "timestamp": 1722759300,
+                "periods": {
+                    "first": 1722759300,
+                    "second": 1722762900
+                },
+                "venue": {
+                    "id": 2495,
+                    "name": "M\u011bstsk\u00fd stadion - V\u00edtkovice Ar\u00e9na",
+                    "city": "Ostrava"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 346,
+                "name": "FNL",
+                "country": "Czech-Republic",
+                "logo": "https://media.api-sports.io/football/leagues/346.png",
+                "flag": "https://media.api-sports.io/flags/cz.svg",
+                "season": 2024,
+                "round": "Regular Season - 4"
+            },
+            "teams": {
+                "home": {
+                    "id": 8621,
+                    "name": "Ban\u00edk Ostrava II",
+                    "logo": "https://media.api-sports.io/football/teams/8621.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 7379,
+                    "name": "Vy\u0161kov",
+                    "logo": "https://media.api-sports.io/football/teams/7379.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 3
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 3
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 27,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7379,
+                        "name": "Vy\u0161kov",
+                        "logo": "https://media.api-sports.io/football/teams/7379.png"
+                    },
+                    "player": {
+                        "id": 66107,
+                        "name": "T. Zaj\u00edc"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 32,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8621,
+                        "name": "Ban\u00edk Ostrava II",
+                        "logo": "https://media.api-sports.io/football/teams/8621.png"
+                    },
+                    "player": {
+                        "id": 478324,
+                        "name": "A. Komljenovi\u0107"
+                    },
+                    "assist": {
+                        "id": 338973,
+                        "name": "M. M\u00e1lek"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 35,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7379,
+                        "name": "Vy\u0161kov",
+                        "logo": "https://media.api-sports.io/football/teams/7379.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "O. Conde"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 48,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8621,
+                        "name": "Ban\u00edk Ostrava II",
+                        "logo": "https://media.api-sports.io/football/teams/8621.png"
+                    },
+                    "player": {
+                        "id": 363664,
+                        "name": "R. Nogha"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 62,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7379,
+                        "name": "Vy\u0161kov",
+                        "logo": "https://media.api-sports.io/football/teams/7379.png"
+                    },
+                    "player": {
+                        "id": 174796,
+                        "name": "A. Sylla"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8621,
+                        "name": "Ban\u00edk Ostrava II",
+                        "logo": "https://media.api-sports.io/football/teams/8621.png"
+                    },
+                    "player": {
+                        "id": 337726,
+                        "name": "P. Jaro\u0148"
+                    },
+                    "assist": {
+                        "id": 237042,
+                        "name": "David Nzanza"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8621,
+                        "name": "Ban\u00edk Ostrava II",
+                        "logo": "https://media.api-sports.io/football/teams/8621.png"
+                    },
+                    "player": {
+                        "id": 278887,
+                        "name": "I. Fomba"
+                    },
+                    "assist": {
+                        "id": 66527,
+                        "name": "O. Chv\u011bja"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7379,
+                        "name": "Vy\u0161kov",
+                        "logo": "https://media.api-sports.io/football/teams/7379.png"
+                    },
+                    "player": {
+                        "id": 66489,
+                        "name": "P. Sch\u00f6n"
+                    },
+                    "assist": {
+                        "id": 290537,
+                        "name": "B. Lac\u00edk"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7379,
+                        "name": "Vy\u0161kov",
+                        "logo": "https://media.api-sports.io/football/teams/7379.png"
+                    },
+                    "player": {
+                        "id": 439726,
+                        "name": "O. Cond\u00e9"
+                    },
+                    "assist": {
+                        "id": 153076,
+                        "name": "T. Egbri"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 81,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7379,
+                        "name": "Vy\u0161kov",
+                        "logo": "https://media.api-sports.io/football/teams/7379.png"
+                    },
+                    "player": {
+                        "id": 328653,
+                        "name": "T. Ulbrich"
+                    },
+                    "assist": {
+                        "id": 465583,
+                        "name": "D. Mbonu"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 81,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7379,
+                        "name": "Vy\u0161kov",
+                        "logo": "https://media.api-sports.io/football/teams/7379.png"
+                    },
+                    "player": {
+                        "id": 66107,
+                        "name": "T. Zaj\u00edc"
+                    },
+                    "assist": {
+                        "id": 37306,
+                        "name": "Z. El Azzouzi"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8621,
+                        "name": "Ban\u00edk Ostrava II",
+                        "logo": "https://media.api-sports.io/football/teams/8621.png"
+                    },
+                    "player": {
+                        "id": 363664,
+                        "name": "R. Nogha"
+                    },
+                    "assist": {
+                        "id": 123446,
+                        "name": "G. Reteno Elekana"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8621,
+                        "name": "Ban\u00edk Ostrava II",
+                        "logo": "https://media.api-sports.io/football/teams/8621.png"
+                    },
+                    "player": {
+                        "id": 474776,
+                        "name": "T. Sirotek"
+                    },
+                    "assist": {
+                        "id": 207478,
+                        "name": "J. Drozd"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 6
+                    },
+                    "team": {
+                        "id": 7379,
+                        "name": "Vy\u0161kov",
+                        "logo": "https://media.api-sports.io/football/teams/7379.png"
+                    },
+                    "player": {
+                        "id": 465583,
+                        "name": "D. Mbonu"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 7379,
+                        "name": "Vy\u0161kov",
+                        "logo": "https://media.api-sports.io/football/teams/7379.png"
+                    },
+                    "player": {
+                        "id": 293941,
+                        "name": "S. Djanbou"
+                    },
+                    "assist": {
+                        "id": 216701,
+                        "name": "M. Nov\u00e1k"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 7
+                    },
+                    "team": {
+                        "id": 8621,
+                        "name": "Ban\u00edk Ostrava II",
+                        "logo": "https://media.api-sports.io/football/teams/8621.png"
+                    },
+                    "player": {
+                        "id": 367678,
+                        "name": "Z. Riha"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 2
+                    },
+                    "team": {
+                        "id": 7379,
+                        "name": "Vy\u0161kov",
+                        "logo": "https://media.api-sports.io/football/teams/7379.png"
+                    },
+                    "player": {
+                        "id": 66494,
+                        "name": "T. Celustka"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 8621,
+                        "name": "Ban\u00edk Ostrava II",
+                        "logo": "https://media.api-sports.io/football/teams/8621.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 22697,
+                        "name": "J. Dvorn\u00edk",
+                        "photo": "https://media.api-sports.io/football/coachs/22697.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 295836,
+                                "name": "M. Kubn\u00fd",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 388578,
+                                "name": "P. M\u011bkota",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 453727,
+                                "name": "D. Krupi\u010dka",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 478324,
+                                "name": "A. Komljenovi\u0107",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 278887,
+                                "name": "I. Fomba",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 337726,
+                                "name": "P. Jaro\u0148",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 363664,
+                                "name": "R. Nogha",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 419003,
+                                "name": "D. Hola\u0148",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 474776,
+                                "name": "T. Sirotek",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 367678,
+                                "name": "Z. \u0158\u00edha",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 439540,
+                                "name": "D. Ka\u0161p\u00e1rek",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 338973,
+                                "name": "M. M\u00e1lek",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 237042,
+                                "name": "David Nzanza",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66527,
+                                "name": "O. Chv\u011bja",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 123446,
+                                "name": "G. Reteno Elekana",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 207478,
+                                "name": "J. Drozd",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 7379,
+                        "name": "Vy\u0161kov",
+                        "logo": "https://media.api-sports.io/football/teams/7379.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 2725,
+                        "name": "J. Kamen\u00edk",
+                        "photo": "https://media.api-sports.io/football/coachs/2725.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 272141,
+                                "name": "J. Borek",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66494,
+                                "name": "T. \u010cel\u016fstka",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66623,
+                                "name": "M. Pi\u0161ko",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66379,
+                                "name": "F. Vedral",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 174796,
+                                "name": "A. Sylla",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 128778,
+                                "name": "T. Svoboda",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66489,
+                                "name": "P. Sch\u00f6n",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 293941,
+                                "name": "S. Djanbou",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 328653,
+                                "name": "T. Ulbrich",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66107,
+                                "name": "T. Zaj\u00edc",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 439726,
+                                "name": "O. Cond\u00e9",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 290537,
+                                "name": "B. Lac\u00edk",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 153076,
+                                "name": "T. Egbri",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 465583,
+                                "name": "D. Mbonu",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 37306,
+                                "name": "Z. El Azzouzi",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 216701,
+                                "name": "M. Nov\u00e1k",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

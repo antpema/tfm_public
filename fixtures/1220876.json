@@ -1,0 +1,752 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1220876"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1220876,
+                "referee": "Igor Pashal, Ukraine",
+                "timezone": "UTC",
+                "date": "2024-08-11T10:00:00+00:00",
+                "timestamp": 1723370400,
+                "periods": {
+                    "first": 1723370400,
+                    "second": 1723374000
+                },
+                "venue": {
+                    "id": 20122,
+                    "name": "Obolon Arena",
+                    "city": "Kyiv"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 333,
+                "name": "Premier League",
+                "country": "Ukraine",
+                "logo": "https://media.api-sports.io/football/leagues/333.png",
+                "flag": "https://media.api-sports.io/flags/ua.svg",
+                "season": 2024,
+                "round": "Regular Season - 2"
+            },
+            "teams": {
+                "home": {
+                    "id": 3630,
+                    "name": "Obolon'-Brovar",
+                    "logo": "https://media.api-sports.io/football/teams/3630.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 3632,
+                    "name": "Ruh Lviv",
+                    "logo": "https://media.api-sports.io/football/teams/3632.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 4
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 4
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 18,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3632,
+                        "name": "Ruh Lviv",
+                        "logo": "https://media.api-sports.io/football/teams/3632.png"
+                    },
+                    "player": {
+                        "id": 147846,
+                        "name": "O. Prytula"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 55,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3632,
+                        "name": "Ruh Lviv",
+                        "logo": "https://media.api-sports.io/football/teams/3632.png"
+                    },
+                    "player": {
+                        "id": 208391,
+                        "name": "Oleksii Sych"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 57,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3632,
+                        "name": "Ruh Lviv",
+                        "logo": "https://media.api-sports.io/football/teams/3632.png"
+                    },
+                    "player": {
+                        "id": 208392,
+                        "name": "V. Runich"
+                    },
+                    "assist": {
+                        "id": 369528,
+                        "name": "I. Kvasnytsia"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 61,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3630,
+                        "name": "Obolon'-Brovar",
+                        "logo": "https://media.api-sports.io/football/teams/3630.png"
+                    },
+                    "player": {
+                        "id": 63464,
+                        "name": "V. Pryimak"
+                    },
+                    "assist": {
+                        "id": 28525,
+                        "name": "P. Lukianchuk"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 61,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3630,
+                        "name": "Obolon'-Brovar",
+                        "logo": "https://media.api-sports.io/football/teams/3630.png"
+                    },
+                    "player": {
+                        "id": 63904,
+                        "name": "V. Hrusha"
+                    },
+                    "assist": {
+                        "id": 161669,
+                        "name": "V. Bliznichenko"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3632,
+                        "name": "Ruh Lviv",
+                        "logo": "https://media.api-sports.io/football/teams/3632.png"
+                    },
+                    "player": {
+                        "id": 383610,
+                        "name": "I. Krasnopir"
+                    },
+                    "assist": {
+                        "id": 208391,
+                        "name": "O. Sych"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3632,
+                        "name": "Ruh Lviv",
+                        "logo": "https://media.api-sports.io/football/teams/3632.png"
+                    },
+                    "player": {
+                        "id": 63555,
+                        "name": "R. Liakh"
+                    },
+                    "assist": {
+                        "id": 264698,
+                        "name": "Y. Karabin"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3632,
+                        "name": "Ruh Lviv",
+                        "logo": "https://media.api-sports.io/football/teams/3632.png"
+                    },
+                    "player": {
+                        "id": 383610,
+                        "name": "I. Krasnopir"
+                    },
+                    "assist": {
+                        "id": 374492,
+                        "name": "Klayver Gabriel"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 81,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3630,
+                        "name": "Obolon'-Brovar",
+                        "logo": "https://media.api-sports.io/football/teams/3630.png"
+                    },
+                    "player": {
+                        "id": 126798,
+                        "name": "S. Sukhanov"
+                    },
+                    "assist": {
+                        "id": 441801,
+                        "name": "T. Liakh"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 81,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3630,
+                        "name": "Obolon'-Brovar",
+                        "logo": "https://media.api-sports.io/football/teams/3630.png"
+                    },
+                    "player": {
+                        "id": 63902,
+                        "name": "R. Chernenko"
+                    },
+                    "assist": {
+                        "id": 63813,
+                        "name": "V. Vitenchuk"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3632,
+                        "name": "Ruh Lviv",
+                        "logo": "https://media.api-sports.io/football/teams/3632.png"
+                    },
+                    "player": {
+                        "id": 369528,
+                        "name": "I. Kvasnytsia"
+                    },
+                    "assist": {
+                        "id": 264698,
+                        "name": "Y. Karabin"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3632,
+                        "name": "Ruh Lviv",
+                        "logo": "https://media.api-sports.io/football/teams/3632.png"
+                    },
+                    "player": {
+                        "id": 374492,
+                        "name": "Klayver Gabriel"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 3630,
+                        "name": "Obolon'-Brovar",
+                        "logo": "https://media.api-sports.io/football/teams/3630.png",
+                        "colors": {
+                            "player": {
+                                "primary": "cdcdcc",
+                                "number": "297054",
+                                "border": "cdcdcc"
+                            },
+                            "goalkeeper": {
+                                "primary": "0d31d4",
+                                "number": "ffffff",
+                                "border": "0d31d4"
+                            }
+                        }
+                    },
+                    "coach": {
+                        "id": 9765,
+                        "name": "V. Ivashchenko",
+                        "photo": "https://media.api-sports.io/football/coachs/9765.png"
+                    },
+                    "formation": "4-2-3-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 101307,
+                                "name": "O. Rybka",
+                                "number": 23,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 105337,
+                                "name": "D. Karas",
+                                "number": 2,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 264644,
+                                "name": "V. Dubko",
+                                "number": 37,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 63464,
+                                "name": "V. Pryimak",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 63566,
+                                "name": "O. Osman",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 63902,
+                                "name": "R. Chernenko",
+                                "number": 17,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 172844,
+                                "name": "T. Moroz",
+                                "number": 4,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 63711,
+                                "name": "I. Medynskyi",
+                                "number": 9,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 63904,
+                                "name": "V. Hrusha",
+                                "number": 25,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 101460,
+                                "name": "R. Taranukha",
+                                "number": 8,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 126798,
+                                "name": "S. Sukhanov",
+                                "number": 55,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 28525,
+                                "name": "P. Lukianchuk",
+                                "number": 16,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 161669,
+                                "name": "V. Bliznichenko",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 441801,
+                                "name": "T. Liakh",
+                                "number": 90,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 63813,
+                                "name": "V. Vitenchuk",
+                                "number": 44,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 469410,
+                                "name": "R. Liashchuk",
+                                "number": 91,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 63695,
+                                "name": "N. Fedorivskyi",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 276487,
+                                "name": "O. Chernov",
+                                "number": 14,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 428242,
+                                "name": "D. Marchenko",
+                                "number": 31,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 63650,
+                                "name": "V. Kurko",
+                                "number": 95,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 428241,
+                                "name": "O. Kozlov",
+                                "number": 12,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 3632,
+                        "name": "Ruh Lviv",
+                        "logo": "https://media.api-sports.io/football/teams/3632.png",
+                        "colors": {
+                            "player": {
+                                "primary": "fff700",
+                                "number": "000000",
+                                "border": "fff700"
+                            },
+                            "goalkeeper": {
+                                "primary": "1bf132",
+                                "number": "ffffff",
+                                "border": "1bf132"
+                            }
+                        }
+                    },
+                    "coach": {
+                        "id": 18420,
+                        "name": "V. Ponomariov",
+                        "photo": "https://media.api-sports.io/football/coachs/18420.png"
+                    },
+                    "formation": "4-3-3",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 337537,
+                                "name": "D. Ledvii",
+                                "number": 23,
+                                "pos": null,
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 208391,
+                                "name": "O. Sych",
+                                "number": 77,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 382993,
+                                "name": "V. Kholod",
+                                "number": 4,
+                                "pos": null,
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 130875,
+                                "name": "R. Didyk",
+                                "number": 29,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 274631,
+                                "name": "V. Roman",
+                                "number": 93,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 274659,
+                                "name": "D. Pidhurskyi",
+                                "number": 15,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 385457,
+                                "name": "O. Fedor",
+                                "number": 71,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 147846,
+                                "name": "O. Prytula",
+                                "number": 10,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 383610,
+                                "name": "I. Krasnopir",
+                                "number": 95,
+                                "pos": "F",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 208392,
+                                "name": "V. Runich",
+                                "number": 11,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 63555,
+                                "name": "R. Liakh",
+                                "number": 73,
+                                "pos": "D",
+                                "grid": "4:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 369528,
+                                "name": "I. Kvasnytsia",
+                                "number": 14,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 264698,
+                                "name": "Y. Karabin",
+                                "number": 8,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 374492,
+                                "name": "Klayver Gabriel",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 388949,
+                                "name": "S. Vanivskyi",
+                                "number": 62,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 63589,
+                                "name": "V. Semotiuk",
+                                "number": 91,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 388825,
+                                "name": "O. Tovarnytskyi",
+                                "number": 76,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

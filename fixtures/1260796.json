@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1260796"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1260796,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-08T00:00:00+00:00",
+                "timestamp": 1723075200,
+                "periods": {
+                    "first": 1723075200,
+                    "second": 1723078800
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Estadio Municipal P\u00e9rez Zeled\u00f3n",
+                    "city": "San Isidro de El General"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 958,
+                "name": "Copa Costa Rica",
+                "country": "Costa-Rica",
+                "logo": "https://media.api-sports.io/football/leagues/958.png",
+                "flag": "https://media.api-sports.io/flags/cr.svg",
+                "season": 2024,
+                "round": "1st Round"
+            },
+            "teams": {
+                "home": {
+                    "id": 819,
+                    "name": "Perez Zeledon",
+                    "logo": "https://media.api-sports.io/football/teams/819.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 19738,
+                    "name": "Quepos Cambute",
+                    "logo": "https://media.api-sports.io/football/teams/19738.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 819,
+                        "name": "Perez Zeledon",
+                        "logo": "https://media.api-sports.io/football/teams/819.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 5
+                    },
+                    "team": {
+                        "id": 19738,
+                        "name": "Quepos Cambute",
+                        "logo": "https://media.api-sports.io/football/teams/19738.png"
+                    },
+                    "player": {
+                        "id": 13864,
+                        "name": "A. Villalobos"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

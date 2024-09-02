@@ -1,0 +1,461 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1211345"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1211345,
+                "referee": "M. R\u00fasz",
+                "timezone": "UTC",
+                "date": "2024-08-11T13:45:00+00:00",
+                "timestamp": 1723383900,
+                "periods": {
+                    "first": 1723383900,
+                    "second": 1723387500
+                },
+                "venue": {
+                    "id": 801,
+                    "name": "ETO Park",
+                    "city": "Gy\u0151r"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 271,
+                "name": "NB I",
+                "country": "Hungary",
+                "logo": "https://media.api-sports.io/football/leagues/271.png",
+                "flag": "https://media.api-sports.io/flags/hu.svg",
+                "season": 2024,
+                "round": "Regular Season - 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 2402,
+                    "name": "Gyori ETO FC",
+                    "logo": "https://media.api-sports.io/football/teams/2402.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 2396,
+                    "name": "MTK Budapest",
+                    "logo": "https://media.api-sports.io/football/teams/2396.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 2,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2402,
+                        "name": "Gyori ETO FC",
+                        "logo": "https://media.api-sports.io/football/teams/2402.png"
+                    },
+                    "player": {
+                        "id": 45349,
+                        "name": "N. Lukic"
+                    },
+                    "assist": {
+                        "id": 62152,
+                        "name": "C. Bumba"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 33,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2402,
+                        "name": "Gyori ETO FC",
+                        "logo": "https://media.api-sports.io/football/teams/2402.png"
+                    },
+                    "player": {
+                        "id": 467675,
+                        "name": "K. Banati"
+                    },
+                    "assist": {
+                        "id": 62152,
+                        "name": "C. Bumba"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 38,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2396,
+                        "name": "MTK Budapest",
+                        "logo": "https://media.api-sports.io/football/teams/2396.png"
+                    },
+                    "player": {
+                        "id": 28558,
+                        "name": "I. Bognar"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2396,
+                        "name": "MTK Budapest",
+                        "logo": "https://media.api-sports.io/football/teams/2396.png"
+                    },
+                    "player": {
+                        "id": 342469,
+                        "name": "P. Kovacs"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 53,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2402,
+                        "name": "Gyori ETO FC",
+                        "logo": "https://media.api-sports.io/football/teams/2402.png"
+                    },
+                    "player": {
+                        "id": 237091,
+                        "name": "L. Vera"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 54,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2396,
+                        "name": "MTK Budapest",
+                        "logo": "https://media.api-sports.io/football/teams/2396.png"
+                    },
+                    "player": {
+                        "id": 28558,
+                        "name": "I. Bognar"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2396,
+                        "name": "MTK Budapest",
+                        "logo": "https://media.api-sports.io/football/teams/2396.png"
+                    },
+                    "player": {
+                        "id": 50770,
+                        "name": "Z. Stieber"
+                    },
+                    "assist": {
+                        "id": 98862,
+                        "name": "R. Polievka"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2396,
+                        "name": "MTK Budapest",
+                        "logo": "https://media.api-sports.io/football/teams/2396.png"
+                    },
+                    "player": {
+                        "id": 77015,
+                        "name": "M. Jurina"
+                    },
+                    "assist": {
+                        "id": 237189,
+                        "name": "R. Molnar"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2402,
+                        "name": "Gyori ETO FC",
+                        "logo": "https://media.api-sports.io/football/teams/2402.png"
+                    },
+                    "player": {
+                        "id": 196342,
+                        "name": "A. Marku"
+                    },
+                    "assist": {
+                        "id": 182759,
+                        "name": "M. Diarra"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2402,
+                        "name": "Gyori ETO FC",
+                        "logo": "https://media.api-sports.io/football/teams/2402.png"
+                    },
+                    "player": {
+                        "id": 190487,
+                        "name": "F. Vianna"
+                    },
+                    "assist": {
+                        "id": 61242,
+                        "name": "M. Skvarka"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 74,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2396,
+                        "name": "MTK Budapest",
+                        "logo": "https://media.api-sports.io/football/teams/2396.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "B. Vegh"
+                    },
+                    "assist": {
+                        "id": 28558,
+                        "name": "I. Bognar"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 74,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2396,
+                        "name": "MTK Budapest",
+                        "logo": "https://media.api-sports.io/football/teams/2396.png"
+                    },
+                    "player": {
+                        "id": 27781,
+                        "name": "G. Kocsis"
+                    },
+                    "assist": {
+                        "id": 122049,
+                        "name": "Z. Nagy"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 84,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2396,
+                        "name": "MTK Budapest",
+                        "logo": "https://media.api-sports.io/football/teams/2396.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "B. Varju"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 86,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2402,
+                        "name": "Gyori ETO FC",
+                        "logo": "https://media.api-sports.io/football/teams/2402.png"
+                    },
+                    "player": {
+                        "id": 137546,
+                        "name": "B. Farkas"
+                    },
+                    "assist": {
+                        "id": 237091,
+                        "name": "L. Vera"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 3
+                    },
+                    "team": {
+                        "id": 2402,
+                        "name": "Gyori ETO FC",
+                        "logo": "https://media.api-sports.io/football/teams/2402.png"
+                    },
+                    "player": {
+                        "id": 31636,
+                        "name": "D. Boldor"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 4
+                    },
+                    "team": {
+                        "id": 2396,
+                        "name": "MTK Budapest",
+                        "logo": "https://media.api-sports.io/football/teams/2396.png"
+                    },
+                    "player": {
+                        "id": 27883,
+                        "name": "P. Demjen"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 10
+                    },
+                    "team": {
+                        "id": 2396,
+                        "name": "MTK Budapest",
+                        "logo": "https://media.api-sports.io/football/teams/2396.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "A. Molnar"
+                    },
+                    "assist": {
+                        "id": 342469,
+                        "name": "P. Kovacs"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

@@ -1,0 +1,845 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1245438"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1245438,
+                "referee": "E. Mart\u00ednez",
+                "timezone": "UTC",
+                "date": "2024-07-28T01:00:00+00:00",
+                "timestamp": 1722128400,
+                "periods": {
+                    "first": 1722128400,
+                    "second": 1722132000
+                },
+                "venue": {
+                    "id": 1821,
+                    "name": "Estadio Carlos Vega Villalba",
+                    "city": "Zacatecas"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 263,
+                "name": "Liga de Expansi\u00f3n MX",
+                "country": "Mexico",
+                "logo": "https://media.api-sports.io/football/leagues/263.png",
+                "flag": "https://media.api-sports.io/flags/mx.svg",
+                "season": 2024,
+                "round": "Apertura - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 2299,
+                    "name": "Mineros de Zacatecas",
+                    "logo": "https://media.api-sports.io/football/teams/2299.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 2297,
+                    "name": "Dorados",
+                    "logo": "https://media.api-sports.io/football/teams/2297.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 10,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2299,
+                        "name": "Mineros de Zacatecas",
+                        "logo": "https://media.api-sports.io/football/teams/2299.png"
+                    },
+                    "player": {
+                        "id": 35844,
+                        "name": "A. \u00c1vila"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 12,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2297,
+                        "name": "Dorados",
+                        "logo": "https://media.api-sports.io/football/teams/2297.png"
+                    },
+                    "player": {
+                        "id": 153157,
+                        "name": "F. Felix"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 35,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2299,
+                        "name": "Mineros de Zacatecas",
+                        "logo": "https://media.api-sports.io/football/teams/2299.png"
+                    },
+                    "player": {
+                        "id": 354499,
+                        "name": "A. Villacorta"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2299,
+                        "name": "Mineros de Zacatecas",
+                        "logo": "https://media.api-sports.io/football/teams/2299.png"
+                    },
+                    "player": {
+                        "id": 354499,
+                        "name": "A. Villacorta"
+                    },
+                    "assist": {
+                        "id": 280960,
+                        "name": "\u00d3. Mazat\u00e1n"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2297,
+                        "name": "Dorados",
+                        "logo": "https://media.api-sports.io/football/teams/2297.png"
+                    },
+                    "player": {
+                        "id": 349205,
+                        "name": "M. Gonz\u00e1lez"
+                    },
+                    "assist": {
+                        "id": 35567,
+                        "name": "J. Reyes"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2297,
+                        "name": "Dorados",
+                        "logo": "https://media.api-sports.io/football/teams/2297.png"
+                    },
+                    "player": {
+                        "id": 92898,
+                        "name": "J. Peralta"
+                    },
+                    "assist": {
+                        "id": 371765,
+                        "name": "D. Osuna"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 56,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2299,
+                        "name": "Mineros de Zacatecas",
+                        "logo": "https://media.api-sports.io/football/teams/2299.png"
+                    },
+                    "player": {
+                        "id": 405322,
+                        "name": "J. Rodarte"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 68,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2299,
+                        "name": "Mineros de Zacatecas",
+                        "logo": "https://media.api-sports.io/football/teams/2299.png"
+                    },
+                    "player": {
+                        "id": 92885,
+                        "name": "A. Mendoza"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 69,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2299,
+                        "name": "Mineros de Zacatecas",
+                        "logo": "https://media.api-sports.io/football/teams/2299.png"
+                    },
+                    "player": {
+                        "id": 35844,
+                        "name": "A. \u00c1vila"
+                    },
+                    "assist": {
+                        "id": 324915,
+                        "name": "C. Blanco"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 69,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2299,
+                        "name": "Mineros de Zacatecas",
+                        "logo": "https://media.api-sports.io/football/teams/2299.png"
+                    },
+                    "player": {
+                        "id": 36279,
+                        "name": "L. Razo"
+                    },
+                    "assist": {
+                        "id": 35501,
+                        "name": "J. Calero"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 74,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2297,
+                        "name": "Dorados",
+                        "logo": "https://media.api-sports.io/football/teams/2297.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "L. Ruiz"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2299,
+                        "name": "Mineros de Zacatecas",
+                        "logo": "https://media.api-sports.io/football/teams/2299.png"
+                    },
+                    "player": {
+                        "id": 36123,
+                        "name": "K. Magana"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2297,
+                        "name": "Dorados",
+                        "logo": "https://media.api-sports.io/football/teams/2297.png"
+                    },
+                    "player": {
+                        "id": 36251,
+                        "name": "E. S\u00e1nchez"
+                    },
+                    "assist": {
+                        "id": 438947,
+                        "name": "J. Arellano"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2297,
+                        "name": "Dorados",
+                        "logo": "https://media.api-sports.io/football/teams/2297.png"
+                    },
+                    "player": {
+                        "id": 153157,
+                        "name": "L. F\u00e9lix"
+                    },
+                    "assist": {
+                        "id": 403534,
+                        "name": "D. Rivera"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2299,
+                        "name": "Mineros de Zacatecas",
+                        "logo": "https://media.api-sports.io/football/teams/2299.png"
+                    },
+                    "player": {
+                        "id": 372058,
+                        "name": "J. Jim\u00e9nez"
+                    },
+                    "assist": {
+                        "id": 441079,
+                        "name": "D. Marmolejo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 84,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2299,
+                        "name": "Mineros de Zacatecas",
+                        "logo": "https://media.api-sports.io/football/teams/2299.png"
+                    },
+                    "player": {
+                        "id": 92885,
+                        "name": "A. Mendoza"
+                    },
+                    "assist": {
+                        "id": 302626,
+                        "name": "D. Pi\u00f1\u00f3n"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 2299,
+                        "name": "Mineros de Zacatecas",
+                        "logo": "https://media.api-sports.io/football/teams/2299.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 6933,
+                        "name": "Nacho Castro",
+                        "photo": "https://media.api-sports.io/football/coachs/6933.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 415984,
+                                "name": "L. Dur\u00e1n",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35968,
+                                "name": "R. Pe\u00f1a",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 354499,
+                                "name": "A. Villacorta",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 405322,
+                                "name": "J. Rodarte",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 92885,
+                                "name": "A. Mendoza",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35844,
+                                "name": "A. \u00c1vila",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 372058,
+                                "name": "J. Jim\u00e9nez",
+                                "number": 30,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35918,
+                                "name": "B. Figueroa",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 36123,
+                                "name": "K. Maga\u00f1a",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 36279,
+                                "name": "L. Razo",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35593,
+                                "name": "J. Clemente",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 280960,
+                                "name": "\u00d3. Mazat\u00e1n",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 324915,
+                                "name": "C. Blanco",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35501,
+                                "name": "J. Calero",
+                                "number": 27,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 441079,
+                                "name": "D. Marmolejo",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 302626,
+                                "name": "D. Pi\u00f1\u00f3n",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 283467,
+                                "name": "H. M\u00e9ndez",
+                                "number": 99,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 477030,
+                                "name": "P. Castillo",
+                                "number": 102,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35495,
+                                "name": "P. Padilla",
+                                "number": 24,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 266635,
+                                "name": "A. Garc\u00eda",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 477031,
+                                "name": "A. Padilla",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 2297,
+                        "name": "Dorados",
+                        "logo": "https://media.api-sports.io/football/teams/2297.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 10917,
+                        "name": "Rafael Garc\u00eda",
+                        "photo": "https://media.api-sports.io/football/coachs/10917.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 266216,
+                                "name": "V. Mendoza",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 51736,
+                                "name": "J. Fern\u00e1ndez",
+                                "number": 24,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 237241,
+                                "name": "A. Flores",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 153157,
+                                "name": "L. F\u00e9lix",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 371766,
+                                "name": "L. Bustillos",
+                                "number": 28,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 36251,
+                                "name": "E. S\u00e1nchez",
+                                "number": 27,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 297209,
+                                "name": "Christian Castillo",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 349205,
+                                "name": "M. Gonz\u00e1lez",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 92898,
+                                "name": "J. Peralta",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35699,
+                                "name": "D. L\u00f3pez",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 378973,
+                                "name": "Manuel Carrillo",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 35567,
+                                "name": "J. Reyes",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 371765,
+                                "name": "D. Osuna",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 438947,
+                                "name": "J. Arellano",
+                                "number": 31,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 403534,
+                                "name": "D. Rivera",
+                                "number": 34,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 36260,
+                                "name": "J. Garc\u00eda",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 371764,
+                                "name": "C. Castillo",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 424695,
+                                "name": "A. Ega\u00f1a",
+                                "number": 12,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 371767,
+                                "name": "A. Rodr\u00edguez",
+                                "number": 137,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 454542,
+                                "name": "J. Castro",
+                                "number": 30,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

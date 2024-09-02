@@ -1,0 +1,483 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1223213"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1223213,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-10T13:00:00+00:00",
+                "timestamp": 1723294800,
+                "periods": {
+                    "first": 1723294800,
+                    "second": 1723298400
+                },
+                "venue": {
+                    "id": 5302,
+                    "name": "Stadion St\u0159elnice",
+                    "city": "Doma\u017elice"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 348,
+                "name": "3. liga - CFL A",
+                "country": "Czech-Republic",
+                "logo": "https://media.api-sports.io/football/leagues/348.png",
+                "flag": "https://media.api-sports.io/flags/cz.svg",
+                "season": 2024,
+                "round": "\u010cFL A - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 7304,
+                    "name": "Jiskra Doma\u017elice",
+                    "logo": "https://media.api-sports.io/football/teams/7304.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 22094,
+                    "name": "T\u00e1borsko II",
+                    "logo": "https://media.api-sports.io/football/teams/22094.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 4,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 4,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 6,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7304,
+                        "name": "Jiskra Doma\u017elice",
+                        "logo": "https://media.api-sports.io/football/teams/7304.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "J. Zajicek"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 32,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7304,
+                        "name": "Jiskra Doma\u017elice",
+                        "logo": "https://media.api-sports.io/football/teams/7304.png"
+                    },
+                    "player": {
+                        "id": 140059,
+                        "name": "P. Dosly"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 52,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 22094,
+                        "name": "T\u00e1borsko II",
+                        "logo": "https://media.api-sports.io/football/teams/22094.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "L. Hrabak"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 55,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7304,
+                        "name": "Jiskra Doma\u017elice",
+                        "logo": "https://media.api-sports.io/football/teams/7304.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "M. Kapolka"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "J. Zajicek"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 56,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 22094,
+                        "name": "T\u00e1borsko II",
+                        "logo": "https://media.api-sports.io/football/teams/22094.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "A. Soliu"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7304,
+                        "name": "Jiskra Doma\u017elice",
+                        "logo": "https://media.api-sports.io/football/teams/7304.png"
+                    },
+                    "player": {
+                        "id": 140059,
+                        "name": "P. Dosly"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7304,
+                        "name": "Jiskra Doma\u017elice",
+                        "logo": "https://media.api-sports.io/football/teams/7304.png"
+                    },
+                    "player": {
+                        "id": 140059,
+                        "name": "P. Dosly"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 69,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 22094,
+                        "name": "T\u00e1borsko II",
+                        "logo": "https://media.api-sports.io/football/teams/22094.png"
+                    },
+                    "player": {
+                        "id": 344845,
+                        "name": "J. Schindler"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 22094,
+                        "name": "T\u00e1borsko II",
+                        "logo": "https://media.api-sports.io/football/teams/22094.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "O. Pravecek"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "A. Soliu"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 22094,
+                        "name": "T\u00e1borsko II",
+                        "logo": "https://media.api-sports.io/football/teams/22094.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "T. Drchal"
+                    },
+                    "assist": {
+                        "id": 66709,
+                        "name": "M. Novak"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7304,
+                        "name": "Jiskra Doma\u017elice",
+                        "logo": "https://media.api-sports.io/football/teams/7304.png"
+                    },
+                    "player": {
+                        "id": 140057,
+                        "name": "J. Tersl"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "M. Kodydek"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7304,
+                        "name": "Jiskra Doma\u017elice",
+                        "logo": "https://media.api-sports.io/football/teams/7304.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "M. Kapolka"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7304,
+                        "name": "Jiskra Doma\u017elice",
+                        "logo": "https://media.api-sports.io/football/teams/7304.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "O. Oravec"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "S. Fedak"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7304,
+                        "name": "Jiskra Doma\u017elice",
+                        "logo": "https://media.api-sports.io/football/teams/7304.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "K. Jahn"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "K. Pavlik"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7304,
+                        "name": "Jiskra Doma\u017elice",
+                        "logo": "https://media.api-sports.io/football/teams/7304.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "V. Cerny"
+                    },
+                    "assist": {
+                        "id": 140059,
+                        "name": "P. Dosly"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 86,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 22094,
+                        "name": "T\u00e1borsko II",
+                        "logo": "https://media.api-sports.io/football/teams/22094.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "A. Spacek"
+                    },
+                    "assist": {
+                        "id": 341367,
+                        "name": "J. Splichal"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 86,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 22094,
+                        "name": "T\u00e1borsko II",
+                        "logo": "https://media.api-sports.io/football/teams/22094.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "J. Sojka"
+                    },
+                    "assist": {
+                        "id": 66359,
+                        "name": "P. Javorek"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 22094,
+                        "name": "T\u00e1borsko II",
+                        "logo": "https://media.api-sports.io/football/teams/22094.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "D. Zukov"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "F. Vysusil"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

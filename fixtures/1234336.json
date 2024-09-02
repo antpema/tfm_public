@@ -1,0 +1,800 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1234336"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1234336,
+                "referee": "J. Rold\u00e1n",
+                "timezone": "UTC",
+                "date": "2024-07-21T20:30:00+00:00",
+                "timestamp": 1721593800,
+                "periods": {
+                    "first": 1721593800,
+                    "second": 1721597400
+                },
+                "venue": {
+                    "id": 371,
+                    "name": "Estadio Enrique Olaya Herrera",
+                    "city": "Bogot\u00e1, D.C."
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 240,
+                "name": "Primera B",
+                "country": "Colombia",
+                "logo": "https://media.api-sports.io/football/leagues/240.png",
+                "flag": "https://media.api-sports.io/flags/co.svg",
+                "season": 2024,
+                "round": "Clausura - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 1145,
+                    "name": "Tigres FC",
+                    "logo": "https://media.api-sports.io/football/teams/1145.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 1466,
+                    "name": "Barranquilla",
+                    "logo": "https://media.api-sports.io/football/teams/1466.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 3,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1145,
+                        "name": "Tigres FC",
+                        "logo": "https://media.api-sports.io/football/teams/1145.png"
+                    },
+                    "player": {
+                        "id": 393877,
+                        "name": "J. Rivaldo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1466,
+                        "name": "Barranquilla",
+                        "logo": "https://media.api-sports.io/football/teams/1466.png"
+                    },
+                    "player": {
+                        "id": 148021,
+                        "name": "J. Torres"
+                    },
+                    "assist": {
+                        "id": 59417,
+                        "name": "S. Acu\u00f1a"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 60,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1466,
+                        "name": "Barranquilla",
+                        "logo": "https://media.api-sports.io/football/teams/1466.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 61,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1145,
+                        "name": "Tigres FC",
+                        "logo": "https://media.api-sports.io/football/teams/1145.png"
+                    },
+                    "player": {
+                        "id": 393877,
+                        "name": "J. Rivaldo"
+                    },
+                    "assist": {
+                        "id": 324614,
+                        "name": "J. Garc\u00eda"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 62,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1466,
+                        "name": "Barranquilla",
+                        "logo": "https://media.api-sports.io/football/teams/1466.png"
+                    },
+                    "player": {
+                        "id": 428164,
+                        "name": "S. Caballero"
+                    },
+                    "assist": {
+                        "id": 476350,
+                        "name": "M. Ag\u00e1mez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 62,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1466,
+                        "name": "Barranquilla",
+                        "logo": "https://media.api-sports.io/football/teams/1466.png"
+                    },
+                    "player": {
+                        "id": 476351,
+                        "name": "J. Cortez"
+                    },
+                    "assist": {
+                        "id": 476352,
+                        "name": "P. Oviedo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1466,
+                        "name": "Barranquilla",
+                        "logo": "https://media.api-sports.io/football/teams/1466.png"
+                    },
+                    "player": {
+                        "id": 325996,
+                        "name": "M. Carabal\u00ed"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1466,
+                        "name": "Barranquilla",
+                        "logo": "https://media.api-sports.io/football/teams/1466.png"
+                    },
+                    "player": {
+                        "id": 278948,
+                        "name": "R. Caraballo"
+                    },
+                    "assist": {
+                        "id": 375818,
+                        "name": "M. Bacca"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1145,
+                        "name": "Tigres FC",
+                        "logo": "https://media.api-sports.io/football/teams/1145.png"
+                    },
+                    "player": {
+                        "id": 373955,
+                        "name": "M. Mahecha"
+                    },
+                    "assist": {
+                        "id": 328767,
+                        "name": "G. Bol\u00edvar"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 76,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1466,
+                        "name": "Barranquilla",
+                        "logo": "https://media.api-sports.io/football/teams/1466.png"
+                    },
+                    "player": {
+                        "id": 353424,
+                        "name": "A. Higgins"
+                    },
+                    "assist": {
+                        "id": 375667,
+                        "name": "H. Garc\u00eda"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1145,
+                        "name": "Tigres FC",
+                        "logo": "https://media.api-sports.io/football/teams/1145.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 81,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1145,
+                        "name": "Tigres FC",
+                        "logo": "https://media.api-sports.io/football/teams/1145.png"
+                    },
+                    "player": {
+                        "id": 369699,
+                        "name": "K. Balanta"
+                    },
+                    "assist": {
+                        "id": 456491,
+                        "name": "C. Cuadros"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 81,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1145,
+                        "name": "Tigres FC",
+                        "logo": "https://media.api-sports.io/football/teams/1145.png"
+                    },
+                    "player": {
+                        "id": 397956,
+                        "name": "L. Palacios"
+                    },
+                    "assist": {
+                        "id": 308861,
+                        "name": "D. Ibarra"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 81,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1145,
+                        "name": "Tigres FC",
+                        "logo": "https://media.api-sports.io/football/teams/1145.png"
+                    },
+                    "player": {
+                        "id": 414167,
+                        "name": "S. Fl\u00f3rez"
+                    },
+                    "assist": {
+                        "id": 373956,
+                        "name": "J. Lopera"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1466,
+                        "name": "Barranquilla",
+                        "logo": "https://media.api-sports.io/football/teams/1466.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1466,
+                        "name": "Barranquilla",
+                        "logo": "https://media.api-sports.io/football/teams/1466.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 1145,
+                        "name": "Tigres FC",
+                        "logo": "https://media.api-sports.io/football/teams/1145.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 21777,
+                        "name": "J. Castro",
+                        "photo": "https://media.api-sports.io/football/coachs/21777.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 59649,
+                                "name": "O. Rodr\u00edguez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 64158,
+                                "name": "M. Pajaro",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 414167,
+                                "name": "S. Fl\u00f3rez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 59750,
+                                "name": "C. Salguero",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 311433,
+                                "name": "Y. Mart\u00ednez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 311421,
+                                "name": "S. Tamayo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 369699,
+                                "name": "K. Balanta",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 373955,
+                                "name": "M. Mahecha",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 297947,
+                                "name": "H. Mena",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 393877,
+                                "name": "J. Rivaldo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 397956,
+                                "name": "L. Palacios",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 324614,
+                                "name": "J. Garc\u00eda",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 328767,
+                                "name": "G. Bol\u00edvar",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 456491,
+                                "name": "C. Cuadros",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 308861,
+                                "name": "D. Ibarra",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 373956,
+                                "name": "J. Lopera",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 281965,
+                                "name": "J. Huertas",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 364175,
+                                "name": "K. C\u00e1rdenas",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 1466,
+                        "name": "Barranquilla",
+                        "logo": "https://media.api-sports.io/football/teams/1466.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 13736,
+                        "name": "N. Fl\u00f3rez",
+                        "photo": "https://media.api-sports.io/football/coachs/13736.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 339312,
+                                "name": "C. Santander",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 280724,
+                                "name": "J. Caicedo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 353424,
+                                "name": "A. Higgins",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 148021,
+                                "name": "J. Torres",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 410843,
+                                "name": "J. Barrera",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 428164,
+                                "name": "S. Caballero",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 476351,
+                                "name": "J. Cortez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 278948,
+                                "name": "R. Caraballo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 325996,
+                                "name": "M. Carabal\u00ed",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 456884,
+                                "name": "N. Villa",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 476353,
+                                "name": "D. Torres",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 59417,
+                                "name": "S. Acu\u00f1a",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 476350,
+                                "name": "M. Ag\u00e1mez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 476352,
+                                "name": "P. Oviedo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 375818,
+                                "name": "M. Bacca",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 375667,
+                                "name": "H. Garc\u00eda",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 59647,
+                                "name": "J. Lemus",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 476802,
+                                "name": "W. Mosquera",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

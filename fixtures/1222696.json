@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1222696"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1222696,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-10T08:00:00+00:00",
+                "timestamp": 1723276800,
+                "periods": {
+                    "first": 1723276800,
+                    "second": 1723280400
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Kniazha-Arena",
+                    "city": "Shchaslyve"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 1065,
+                "name": "U19 League",
+                "country": "Ukraine",
+                "logo": "https://media.api-sports.io/football/leagues/1065.png",
+                "flag": "https://media.api-sports.io/flags/ua.svg",
+                "season": 2024,
+                "round": "Regular Season - 2"
+            },
+            "teams": {
+                "home": {
+                    "id": 7929,
+                    "name": "Shakhtar Donetsk U19",
+                    "logo": "https://media.api-sports.io/football/teams/7929.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 23084,
+                    "name": "Zhytomyr U19",
+                    "logo": "https://media.api-sports.io/football/teams/23084.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7929,
+                        "name": "Shakhtar Donetsk U19",
+                        "logo": "https://media.api-sports.io/football/teams/7929.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "V. Tyutyunov"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 7929,
+                        "name": "Shakhtar Donetsk U19",
+                        "logo": "https://media.api-sports.io/football/teams/7929.png"
+                    },
+                    "player": {
+                        "id": 386300,
+                        "name": "V. Tsukanov"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

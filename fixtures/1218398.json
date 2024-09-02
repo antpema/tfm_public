@@ -1,0 +1,182 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1218398"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1218398,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-27T14:00:00+00:00",
+                "timestamp": 1722088800,
+                "periods": {
+                    "first": 1722088800,
+                    "second": 1722092400
+                },
+                "venue": {
+                    "id": 577,
+                    "name": "Crown Oil Arena",
+                    "city": "Rochdale, Greater Manchester"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 1339,
+                    "name": "Rochdale",
+                    "logo": "https://media.api-sports.io/football/teams/1339.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 1371,
+                    "name": "Carlisle",
+                    "logo": "https://media.api-sports.io/football/teams/1371.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 42,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1339,
+                        "name": "Rochdale",
+                        "logo": "https://media.api-sports.io/football/teams/1339.png"
+                    },
+                    "player": {
+                        "id": 155282,
+                        "name": "K. Mitchell"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 49,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1339,
+                        "name": "Rochdale",
+                        "logo": "https://media.api-sports.io/football/teams/1339.png"
+                    },
+                    "player": {
+                        "id": 192077,
+                        "name": "A. Henry"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 72,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1371,
+                        "name": "Carlisle",
+                        "logo": "https://media.api-sports.io/football/teams/1371.png"
+                    },
+                    "player": {
+                        "id": 19486,
+                        "name": "D. Butterworth"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 1339,
+                        "name": "Rochdale",
+                        "logo": "https://media.api-sports.io/football/teams/1339.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 18037,
+                        "name": "J. McNulty",
+                        "photo": "https://media.api-sports.io/football/coachs/18037.png"
+                    },
+                    "formation": null
+                },
+                {
+                    "team": {
+                        "id": 1371,
+                        "name": "Carlisle",
+                        "logo": "https://media.api-sports.io/football/teams/1371.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 8208,
+                        "name": "P. Simpson",
+                        "photo": "https://media.api-sports.io/football/coachs/8208.png"
+                    },
+                    "formation": null
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

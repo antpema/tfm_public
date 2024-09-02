@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1172831"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1172831,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-11T16:00:00+00:00",
+                "timestamp": 1723392000,
+                "periods": {
+                    "first": 1723392000,
+                    "second": 1723395600
+                },
+                "venue": {
+                    "id": 346,
+                    "name": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
+                    "city": "Concepci\u00f3n"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 711,
+                "name": "Segunda Divisi\u00f3n",
+                "country": "Chile",
+                "logo": "https://media.api-sports.io/football/leagues/711.png",
+                "flag": "https://media.api-sports.io/flags/cl.svg",
+                "season": 2024,
+                "round": "Regular Season - 18"
+            },
+            "teams": {
+                "home": {
+                    "id": 5635,
+                    "name": "Concepci\u00f3n",
+                    "logo": "https://media.api-sports.io/football/teams/5635.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 2342,
+                    "name": "D. Puerto Montt",
+                    "logo": "https://media.api-sports.io/football/teams/2342.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 84,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 5635,
+                        "name": "Concepci\u00f3n",
+                        "logo": "https://media.api-sports.io/football/teams/5635.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2342,
+                        "name": "D. Puerto Montt",
+                        "logo": "https://media.api-sports.io/football/teams/2342.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "B. Troncoso"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

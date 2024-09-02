@@ -1,0 +1,725 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1273648"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1273648,
+                "referee": "V. Robles",
+                "timezone": "UTC",
+                "date": "2024-08-02T20:15:00+00:00",
+                "timestamp": 1722629700,
+                "periods": {
+                    "first": 1722629700,
+                    "second": 1722633300
+                },
+                "venue": {
+                    "id": 1223,
+                    "name": "Estadio Gunther Vogel",
+                    "city": "San Lorenzo"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 251,
+                "name": "Division Intermedia",
+                "country": "Paraguay",
+                "logo": "https://media.api-sports.io/football/leagues/251.png",
+                "flag": "https://media.api-sports.io/flags/py.svg",
+                "season": 2024,
+                "round": "Regular Season - 19"
+            },
+            "teams": {
+                "home": {
+                    "id": 2125,
+                    "name": "Club Sp. San Lorenzo",
+                    "logo": "https://media.api-sports.io/football/teams/2125.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 23154,
+                    "name": "12 de Junio VH",
+                    "logo": "https://media.api-sports.io/football/teams/23154.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 26,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 23154,
+                        "name": "12 de Junio VH",
+                        "logo": "https://media.api-sports.io/football/teams/23154.png"
+                    },
+                    "player": {
+                        "id": 465371,
+                        "name": "D. Fern\u00e1ndez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 23154,
+                        "name": "12 de Junio VH",
+                        "logo": "https://media.api-sports.io/football/teams/23154.png"
+                    },
+                    "player": {
+                        "id": 6055,
+                        "name": "G. D\u00edaz"
+                    },
+                    "assist": {
+                        "id": 70861,
+                        "name": "V. Gonz\u00e1lez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 23154,
+                        "name": "12 de Junio VH",
+                        "logo": "https://media.api-sports.io/football/teams/23154.png"
+                    },
+                    "player": {
+                        "id": 466154,
+                        "name": "K. Arr\u00faa"
+                    },
+                    "assist": {
+                        "id": 478438,
+                        "name": "C. Cano"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 61,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2125,
+                        "name": "Club Sp. San Lorenzo",
+                        "logo": "https://media.api-sports.io/football/teams/2125.png"
+                    },
+                    "player": {
+                        "id": 70774,
+                        "name": "J. Ortega"
+                    },
+                    "assist": {
+                        "id": 424891,
+                        "name": "R. Araujo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 61,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2125,
+                        "name": "Club Sp. San Lorenzo",
+                        "logo": "https://media.api-sports.io/football/teams/2125.png"
+                    },
+                    "player": {
+                        "id": 410331,
+                        "name": "K. Lezcano"
+                    },
+                    "assist": {
+                        "id": 424933,
+                        "name": "S. Galeano"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 23154,
+                        "name": "12 de Junio VH",
+                        "logo": "https://media.api-sports.io/football/teams/23154.png"
+                    },
+                    "player": {
+                        "id": 95438,
+                        "name": "F. Ayala"
+                    },
+                    "assist": {
+                        "id": 355793,
+                        "name": "J. Flor"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 69,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2125,
+                        "name": "Club Sp. San Lorenzo",
+                        "logo": "https://media.api-sports.io/football/teams/2125.png"
+                    },
+                    "player": {
+                        "id": 95262,
+                        "name": "Ariel Ben\u00edtez"
+                    },
+                    "assist": {
+                        "id": 70860,
+                        "name": "O. Gallardo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 76,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2125,
+                        "name": "Club Sp. San Lorenzo",
+                        "logo": "https://media.api-sports.io/football/teams/2125.png"
+                    },
+                    "player": {
+                        "id": 102207,
+                        "name": "A. Oviedo"
+                    },
+                    "assist": {
+                        "id": 279786,
+                        "name": "B. Fern\u00e1ndez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 76,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2125,
+                        "name": "Club Sp. San Lorenzo",
+                        "logo": "https://media.api-sports.io/football/teams/2125.png"
+                    },
+                    "player": {
+                        "id": 70618,
+                        "name": "I. Sald\u00edvar"
+                    },
+                    "assist": {
+                        "id": 465375,
+                        "name": "J. Duarte"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 79,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 23154,
+                        "name": "12 de Junio VH",
+                        "logo": "https://media.api-sports.io/football/teams/23154.png"
+                    },
+                    "player": {
+                        "id": 465371,
+                        "name": "D. Fern\u00e1ndez"
+                    },
+                    "assist": {
+                        "id": 156500,
+                        "name": "F. Gonz\u00e1lez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 81,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 23154,
+                        "name": "12 de Junio VH",
+                        "logo": "https://media.api-sports.io/football/teams/23154.png"
+                    },
+                    "player": {
+                        "id": 70641,
+                        "name": "E. Riveros"
+                    },
+                    "assist": {
+                        "id": 281353,
+                        "name": "G. Peralta"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 2125,
+                        "name": "Club Sp. San Lorenzo",
+                        "logo": "https://media.api-sports.io/football/teams/2125.png"
+                    },
+                    "player": {
+                        "id": 424891,
+                        "name": "R. Araujo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 2125,
+                        "name": "Club Sp. San Lorenzo",
+                        "logo": "https://media.api-sports.io/football/teams/2125.png"
+                    },
+                    "player": {
+                        "id": 424891,
+                        "name": "R. Araujo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 2125,
+                        "name": "Club Sp. San Lorenzo",
+                        "logo": "https://media.api-sports.io/football/teams/2125.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 4590,
+                        "name": "H. Ovelar",
+                        "photo": "https://media.api-sports.io/football/coachs/4590.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 115522,
+                                "name": "Rhuan",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 95262,
+                                "name": "Ariel Ben\u00edtez",
+                                "number": 25,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 265981,
+                                "name": "P. \u00c1lvarez",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70618,
+                                "name": "I. Sald\u00edvar",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 191866,
+                                "name": "E. Ben\u00edtez",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6434,
+                                "name": "V. Ayala",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 350524,
+                                "name": "J. Heinze",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70774,
+                                "name": "J. Ortega",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 102207,
+                                "name": "A. Oviedo",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 424932,
+                                "name": "F. Rivarola",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 410331,
+                                "name": "K. Lezcano",
+                                "number": 40,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 424891,
+                                "name": "R. Araujo",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 424933,
+                                "name": "S. Galeano",
+                                "number": 28,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70860,
+                                "name": "O. Gallardo",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 279786,
+                                "name": "B. Fern\u00e1ndez",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 465375,
+                                "name": "J. Duarte",
+                                "number": 26,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 424928,
+                                "name": "M. Barrios",
+                                "number": 3,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70607,
+                                "name": "Alcides Ben\u00edtez",
+                                "number": 12,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 23154,
+                        "name": "12 de Junio VH",
+                        "logo": "https://media.api-sports.io/football/teams/23154.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 653,
+                        "name": "M. Jara",
+                        "photo": "https://media.api-sports.io/football/coachs/653.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 217879,
+                                "name": "C. Paniego",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6055,
+                                "name": "G. D\u00edaz",
+                                "number": 24,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 95438,
+                                "name": "F. Ayala",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70838,
+                                "name": "I. Vel\u00e1zquez",
+                                "number": 27,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 404580,
+                                "name": "L. Rol\u00f3n",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 95218,
+                                "name": "M. Paniagua",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 95350,
+                                "name": "C. Garay",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6036,
+                                "name": "T. Rojas",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 465371,
+                                "name": "D. Fern\u00e1ndez",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70641,
+                                "name": "E. Riveros",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 466154,
+                                "name": "K. Arr\u00faa",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 70861,
+                                "name": "V. Gonz\u00e1lez",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 478438,
+                                "name": "C. Cano",
+                                "number": 29,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 355793,
+                                "name": "J. Flor",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 156500,
+                                "name": "F. Gonz\u00e1lez",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 281353,
+                                "name": "G. Peralta",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 95427,
+                                "name": "C. Gamarra",
+                                "number": 25,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

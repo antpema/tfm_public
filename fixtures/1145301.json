@@ -1,0 +1,109 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1145301"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1145301,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-28T05:00:00+00:00",
+                "timestamp": 1722142800,
+                "periods": {
+                    "first": 1722142800,
+                    "second": 1722146400
+                },
+                "venue": {
+                    "id": 7030,
+                    "name": "Churchill Reserve",
+                    "city": "Melbourne"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 195,
+                "name": "Victoria NPL",
+                "country": "Australia",
+                "logo": "https://media.api-sports.io/football/leagues/195.png",
+                "flag": "https://media.api-sports.io/flags/au.svg",
+                "season": 2024,
+                "round": "Regular Season - 24"
+            },
+            "teams": {
+                "home": {
+                    "id": 9978,
+                    "name": "St. Albans Saints",
+                    "logo": "https://media.api-sports.io/football/teams/9978.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 3801,
+                    "name": "Dandenong Thunder",
+                    "logo": "https://media.api-sports.io/football/teams/3801.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 74,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 9978,
+                        "name": "St. Albans Saints",
+                        "logo": "https://media.api-sports.io/football/teams/9978.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "L. Byrns"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

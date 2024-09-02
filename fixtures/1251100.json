@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1251100"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1251100,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-11T21:00:00+00:00",
+                "timestamp": 1723410000,
+                "periods": {
+                    "first": 1723410000,
+                    "second": 1723413600
+                },
+                "venue": {
+                    "id": 21011,
+                    "name": "Estadio Carlos Fonseca Amador",
+                    "city": "Matagalpa"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 396,
+                "name": "Primera Division",
+                "country": "Nicaragua",
+                "logo": "https://media.api-sports.io/football/leagues/396.png",
+                "flag": "https://media.api-sports.io/flags/ni.svg",
+                "season": 2024,
+                "round": "Apertura - 2"
+            },
+            "teams": {
+                "home": {
+                    "id": 19159,
+                    "name": "Matagalpa",
+                    "logo": "https://media.api-sports.io/football/teams/19159.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 4640,
+                    "name": "Deportivo Ocotal",
+                    "logo": "https://media.api-sports.io/football/teams/4640.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 30,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 19159,
+                        "name": "Matagalpa",
+                        "logo": "https://media.api-sports.io/football/teams/19159.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "R. Da Silva"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 48,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4640,
+                        "name": "Deportivo Ocotal",
+                        "logo": "https://media.api-sports.io/football/teams/4640.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "E. Castro"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

@@ -1,0 +1,956 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1223093"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1223093,
+                "referee": "A. Qui\u00f1\u00f3nez",
+                "timezone": "UTC",
+                "date": "2024-08-02T21:30:00+00:00",
+                "timestamp": 1722634200,
+                "periods": {
+                    "first": 1722634200,
+                    "second": 1722637800
+                },
+                "venue": {
+                    "id": 1227,
+                    "name": "Estadio Facundo de Le\u00f3n Fossati",
+                    "city": "Villa Hayes"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 252,
+                "name": "Division Profesional - Clausura",
+                "country": "Paraguay",
+                "logo": "https://media.api-sports.io/football/leagues/252.png",
+                "flag": "https://media.api-sports.io/flags/py.svg",
+                "season": 2024,
+                "round": "Clausura - 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 10491,
+                    "name": "Tacuary",
+                    "logo": "https://media.api-sports.io/football/teams/10491.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 2140,
+                    "name": "2 de Mayo",
+                    "logo": "https://media.api-sports.io/football/teams/2140.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 10,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10491,
+                        "name": "Tacuary",
+                        "logo": "https://media.api-sports.io/football/teams/10491.png"
+                    },
+                    "player": {
+                        "id": 9648,
+                        "name": "Jean Mangabeira"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 35,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2140,
+                        "name": "2 de Mayo",
+                        "logo": "https://media.api-sports.io/football/teams/2140.png"
+                    },
+                    "player": {
+                        "id": 70586,
+                        "name": "B. Ayala"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 44,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10491,
+                        "name": "Tacuary",
+                        "logo": "https://media.api-sports.io/football/teams/10491.png"
+                    },
+                    "player": {
+                        "id": 10175,
+                        "name": "O. Berr\u00edo"
+                    },
+                    "assist": {
+                        "id": 352722,
+                        "name": "A. Amarilla"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 3
+                    },
+                    "team": {
+                        "id": 10491,
+                        "name": "Tacuary",
+                        "logo": "https://media.api-sports.io/football/teams/10491.png"
+                    },
+                    "player": {
+                        "id": 465909,
+                        "name": "M. Arguello"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2140,
+                        "name": "2 de Mayo",
+                        "logo": "https://media.api-sports.io/football/teams/2140.png"
+                    },
+                    "player": {
+                        "id": 424887,
+                        "name": "M. C\u00e1ceres"
+                    },
+                    "assist": {
+                        "id": 237159,
+                        "name": "J. Noguera"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10491,
+                        "name": "Tacuary",
+                        "logo": "https://media.api-sports.io/football/teams/10491.png"
+                    },
+                    "player": {
+                        "id": 95235,
+                        "name": "O. Colm\u00e1n"
+                    },
+                    "assist": {
+                        "id": 10538,
+                        "name": "F. Brizuela"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2140,
+                        "name": "2 de Mayo",
+                        "logo": "https://media.api-sports.io/football/teams/2140.png"
+                    },
+                    "player": {
+                        "id": 319570,
+                        "name": "R. Cornet"
+                    },
+                    "assist": {
+                        "id": 70826,
+                        "name": "J. Dominguez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 50,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2140,
+                        "name": "2 de Mayo",
+                        "logo": "https://media.api-sports.io/football/teams/2140.png"
+                    },
+                    "player": {
+                        "id": 70810,
+                        "name": "R. Ruiz Diaz"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Var",
+                    "detail": "Goal Disallowed - offside",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 56,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10491,
+                        "name": "Tacuary",
+                        "logo": "https://media.api-sports.io/football/teams/10491.png"
+                    },
+                    "player": {
+                        "id": 70547,
+                        "name": "M. Caceres"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 68,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10491,
+                        "name": "Tacuary",
+                        "logo": "https://media.api-sports.io/football/teams/10491.png"
+                    },
+                    "player": {
+                        "id": 70773,
+                        "name": "N. Mor\u00ednigo"
+                    },
+                    "assist": {
+                        "id": 119131,
+                        "name": "D. Fern\u00e1ndez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 68,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2140,
+                        "name": "2 de Mayo",
+                        "logo": "https://media.api-sports.io/football/teams/2140.png"
+                    },
+                    "player": {
+                        "id": 70586,
+                        "name": "B. Ayala"
+                    },
+                    "assist": {
+                        "id": 75417,
+                        "name": "F. Costa"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 75,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2140,
+                        "name": "2 de Mayo",
+                        "logo": "https://media.api-sports.io/football/teams/2140.png"
+                    },
+                    "player": {
+                        "id": 75417,
+                        "name": "F. Costa"
+                    },
+                    "assist": {
+                        "id": 374154,
+                        "name": "M. Gaona"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2140,
+                        "name": "2 de Mayo",
+                        "logo": "https://media.api-sports.io/football/teams/2140.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "R. C. Ramirez Antunez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2140,
+                        "name": "2 de Mayo",
+                        "logo": "https://media.api-sports.io/football/teams/2140.png"
+                    },
+                    "player": {
+                        "id": 70728,
+                        "name": "E. Alfonso"
+                    },
+                    "assist": {
+                        "id": 191867,
+                        "name": "J. Llano"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 89,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10491,
+                        "name": "Tacuary",
+                        "logo": "https://media.api-sports.io/football/teams/10491.png"
+                    },
+                    "player": {
+                        "id": 70547,
+                        "name": "M. Caceres"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 89,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10491,
+                        "name": "Tacuary",
+                        "logo": "https://media.api-sports.io/football/teams/10491.png"
+                    },
+                    "player": {
+                        "id": 70547,
+                        "name": "M. Caceres"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10491,
+                        "name": "Tacuary",
+                        "logo": "https://media.api-sports.io/football/teams/10491.png"
+                    },
+                    "player": {
+                        "id": 195775,
+                        "name": "M. Paredes"
+                    },
+                    "assist": {
+                        "id": 25225,
+                        "name": "D. Lezcano"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10491,
+                        "name": "Tacuary",
+                        "logo": "https://media.api-sports.io/football/teams/10491.png"
+                    },
+                    "player": {
+                        "id": 11749,
+                        "name": "L. Riveros"
+                    },
+                    "assist": {
+                        "id": 54660,
+                        "name": "Valdeci"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 2140,
+                        "name": "2 de Mayo",
+                        "logo": "https://media.api-sports.io/football/teams/2140.png"
+                    },
+                    "player": {
+                        "id": 374154,
+                        "name": "M. Gaona"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 10491,
+                        "name": "Tacuary",
+                        "logo": "https://media.api-sports.io/football/teams/10491.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 22679,
+                        "name": "M. Palau",
+                        "photo": "https://media.api-sports.io/football/coachs/22679.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 10183,
+                                "name": "V\u00e1gner",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70547,
+                                "name": "M. C\u00e1ceres",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70793,
+                                "name": "W. Clar",
+                                "number": 37,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 10053,
+                                "name": "Helerson",
+                                "number": 30,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 195775,
+                                "name": "M. Paredes",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 9648,
+                                "name": "Jean Mangabeira",
+                                "number": 3,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 95235,
+                                "name": "O. Colm\u00e1n",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 465909,
+                                "name": "M. Arguello",
+                                "number": 34,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 10175,
+                                "name": "O. Berr\u00edo",
+                                "number": 28,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 11749,
+                                "name": "L. Riveros",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70773,
+                                "name": "N. Mor\u00ednigo",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 352722,
+                                "name": "A. Amarilla",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 10538,
+                                "name": "F. Brizuela",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 119131,
+                                "name": "D. Fern\u00e1ndez",
+                                "number": 26,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 54660,
+                                "name": "Valdeci",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 25225,
+                                "name": "D. Lezcano",
+                                "number": 25,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 69168,
+                                "name": "R. Pedrozo",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 352718,
+                                "name": "A. Bareiro",
+                                "number": 12,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 278328,
+                                "name": "M. N\u00fa\u00f1ez",
+                                "number": 36,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 363117,
+                                "name": "L. Romero",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 9988,
+                                "name": "Victor Ferraz",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 95538,
+                                "name": "P. Espinoza",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 374099,
+                                "name": "L. Mart\u00ednez",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 2140,
+                        "name": "2 de Mayo",
+                        "logo": "https://media.api-sports.io/football/teams/2140.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 20179,
+                        "name": "F. Gim\u00e9nez",
+                        "photo": "https://media.api-sports.io/football/coachs/20179.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 70722,
+                                "name": "C. Serv\u00edn",
+                                "number": 12,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70692,
+                                "name": "P. Sosa",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70855,
+                                "name": "P. Adorno",
+                                "number": 3,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 95298,
+                                "name": "C. Castro",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70622,
+                                "name": "M. Barreto",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 424887,
+                                "name": "M. C\u00e1ceres",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70586,
+                                "name": "B. Ayala",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70728,
+                                "name": "E. Alfonso",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 265915,
+                                "name": "R. Ram\u00edrez",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 319570,
+                                "name": "R. Cornet",
+                                "number": 38,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70810,
+                                "name": "R. Ruiz D\u00edaz",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 70826,
+                                "name": "J. Dominguez",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 237159,
+                                "name": "J. Noguera",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 75417,
+                                "name": "F. Costa",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 374154,
+                                "name": "M. Gaona",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 191867,
+                                "name": "J. Llano",
+                                "number": 29,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 396514,
+                                "name": "A. Gauto",
+                                "number": 33,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 371530,
+                                "name": "M. Gonz\u00e1lez",
+                                "number": 36,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 465850,
+                                "name": "R. Balbuena",
+                                "number": 31,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 404531,
+                                "name": "V. Arg\u00fcello",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 424888,
+                                "name": "W. Casanova",
+                                "number": 28,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 402424,
+                                "name": "J. Ar\u00edas",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 424885,
+                                "name": "A. Mart\u00ednez",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

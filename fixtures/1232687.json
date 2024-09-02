@@ -1,0 +1,854 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1232687"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1232687,
+                "referee": "T. Tak\u00e1cs",
+                "timezone": "UTC",
+                "date": "2024-08-04T17:00:00+00:00",
+                "timestamp": 1722790800,
+                "periods": {
+                    "first": 1722790800,
+                    "second": 1722794400
+                },
+                "venue": {
+                    "id": 816,
+                    "name": "V\u00e1rkerti Stadion",
+                    "city": "Kisv\u00e1rda"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 272,
+                "name": "NB II",
+                "country": "Hungary",
+                "logo": "https://media.api-sports.io/football/leagues/272.png",
+                "flag": "https://media.api-sports.io/flags/hu.svg",
+                "season": 2024,
+                "round": "Regular Season - 2"
+            },
+            "teams": {
+                "home": {
+                    "id": 2394,
+                    "name": "Kisvarda FC",
+                    "logo": "https://media.api-sports.io/football/teams/2394.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 2399,
+                    "name": "Budafoki LC",
+                    "logo": "https://media.api-sports.io/football/teams/2399.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 27,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2399,
+                        "name": "Budafoki LC",
+                        "logo": "https://media.api-sports.io/football/teams/2399.png"
+                    },
+                    "player": {
+                        "id": 345819,
+                        "name": "A. Mer\u00e9nyi"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 43,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2399,
+                        "name": "Budafoki LC",
+                        "logo": "https://media.api-sports.io/football/teams/2399.png"
+                    },
+                    "player": {
+                        "id": 325200,
+                        "name": "D. Sztojka"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2394,
+                        "name": "Kisvarda FC",
+                        "logo": "https://media.api-sports.io/football/teams/2394.png"
+                    },
+                    "player": {
+                        "id": 74045,
+                        "name": "M. Spasi\u0107"
+                    },
+                    "assist": {
+                        "id": 133584,
+                        "name": "D. Solt\u00e9sz"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2394,
+                        "name": "Kisvarda FC",
+                        "logo": "https://media.api-sports.io/football/teams/2394.png"
+                    },
+                    "player": {
+                        "id": 27866,
+                        "name": "I. Sz\u00e9les"
+                    },
+                    "assist": {
+                        "id": 215785,
+                        "name": "K. K\u00f6rmendi"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2394,
+                        "name": "Kisvarda FC",
+                        "logo": "https://media.api-sports.io/football/teams/2394.png"
+                    },
+                    "player": {
+                        "id": 405252,
+                        "name": "N. Ponomarenko"
+                    },
+                    "assist": {
+                        "id": 478454,
+                        "name": "M. Babj\u00e1k"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 55,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2399,
+                        "name": "Budafoki LC",
+                        "logo": "https://media.api-sports.io/football/teams/2399.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "A. Merenyi"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 55,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2394,
+                        "name": "Kisvarda FC",
+                        "logo": "https://media.api-sports.io/football/teams/2394.png"
+                    },
+                    "player": {
+                        "id": 14360,
+                        "name": "A. Jovicic"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2399,
+                        "name": "Budafoki LC",
+                        "logo": "https://media.api-sports.io/football/teams/2399.png"
+                    },
+                    "player": {
+                        "id": 345819,
+                        "name": "A. Mer\u00e9nyi"
+                    },
+                    "assist": {
+                        "id": 28059,
+                        "name": "B. N\u00e1ndori"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 74,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2394,
+                        "name": "Kisvarda FC",
+                        "logo": "https://media.api-sports.io/football/teams/2394.png"
+                    },
+                    "player": {
+                        "id": 76896,
+                        "name": "B. Mati\u0107"
+                    },
+                    "assist": {
+                        "id": 151000,
+                        "name": "L. Sz\u0151r"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 74,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2394,
+                        "name": "Kisvarda FC",
+                        "logo": "https://media.api-sports.io/football/teams/2394.png"
+                    },
+                    "player": {
+                        "id": 28457,
+                        "name": "G. Moln\u00e1r"
+                    },
+                    "assist": {
+                        "id": 429115,
+                        "name": "M. Gyurk\u00f3"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 76,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2399,
+                        "name": "Budafoki LC",
+                        "logo": "https://media.api-sports.io/football/teams/2399.png"
+                    },
+                    "player": {
+                        "id": 27849,
+                        "name": "R. R\u00e9tyi"
+                    },
+                    "assist": {
+                        "id": 28349,
+                        "name": "K. Szeret\u0151"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 76,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2399,
+                        "name": "Budafoki LC",
+                        "logo": "https://media.api-sports.io/football/teams/2399.png"
+                    },
+                    "player": {
+                        "id": 325200,
+                        "name": "D. Sztojka"
+                    },
+                    "assist": {
+                        "id": 28627,
+                        "name": "M. N\u00e9meth"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 76,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2399,
+                        "name": "Budafoki LC",
+                        "logo": "https://media.api-sports.io/football/teams/2399.png"
+                    },
+                    "player": {
+                        "id": 38724,
+                        "name": "B. Kun"
+                    },
+                    "assist": {
+                        "id": 477009,
+                        "name": "P. Sz\u0171cs"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2394,
+                        "name": "Kisvarda FC",
+                        "logo": "https://media.api-sports.io/football/teams/2394.png"
+                    },
+                    "player": {
+                        "id": 66976,
+                        "name": "D. Camaj"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2399,
+                        "name": "Budafoki LC",
+                        "logo": "https://media.api-sports.io/football/teams/2399.png"
+                    },
+                    "player": {
+                        "id": 212192,
+                        "name": "M. Auerbach"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2399,
+                        "name": "Budafoki LC",
+                        "logo": "https://media.api-sports.io/football/teams/2399.png"
+                    },
+                    "player": {
+                        "id": 411676,
+                        "name": "B. Szab\u00f3"
+                    },
+                    "assist": {
+                        "id": 89198,
+                        "name": "D. Horgosi"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 2394,
+                        "name": "Kisvarda FC",
+                        "logo": "https://media.api-sports.io/football/teams/2394.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 1939,
+                        "name": "T. Feczk\u00f3",
+                        "photo": "https://media.api-sports.io/football/coachs/1939.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 28351,
+                                "name": "A. Hrabina",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 76896,
+                                "name": "B. Mati\u0107",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 14360,
+                                "name": "A. Jovi\u010di\u0107",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 27866,
+                                "name": "I. Sz\u00e9les",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 125692,
+                                "name": "B. Cipeti\u0107",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28457,
+                                "name": "G. Moln\u00e1r",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 405252,
+                                "name": "N. Ponomarenko",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 426198,
+                                "name": "R. Stefan",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 9141,
+                                "name": "J. Me\u0161anovi\u0107",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66976,
+                                "name": "D. Camaj",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 74045,
+                                "name": "M. Spasi\u0107",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 133584,
+                                "name": "D. Solt\u00e9sz",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 215785,
+                                "name": "K. K\u00f6rmendi",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 478454,
+                                "name": "M. Babj\u00e1k",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 151000,
+                                "name": "L. Sz\u0151r",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 429115,
+                                "name": "M. Gyurk\u00f3",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 477033,
+                                "name": "I. Popovich",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 127665,
+                                "name": "I. Solt\u00e9sz",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 477858,
+                                "name": "L. Scsadej",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 465834,
+                                "name": "M. Osztrovka",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 2399,
+                        "name": "Budafoki LC",
+                        "logo": "https://media.api-sports.io/football/teams/2399.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 4010,
+                        "name": "L. Dajka",
+                        "photo": "https://media.api-sports.io/football/coachs/4010.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 212192,
+                                "name": "M. Auerbach",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28413,
+                                "name": "D. K\u00e1lnoki-Kis",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28021,
+                                "name": "O. Kalm\u00e1r",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28144,
+                                "name": "B. Ol\u00e1h",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 38724,
+                                "name": "B. Kun",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28149,
+                                "name": "M. Fekete",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 325200,
+                                "name": "D. Sztojka",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 345819,
+                                "name": "A. Mer\u00e9nyi",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 411676,
+                                "name": "B. Szab\u00f3",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 27849,
+                                "name": "R. R\u00e9tyi",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 340536,
+                                "name": "Z. Vasv\u00e1ri",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 28059,
+                                "name": "B. N\u00e1ndori",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28349,
+                                "name": "K. Szeret\u0151",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28627,
+                                "name": "M. N\u00e9meth",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 477009,
+                                "name": "P. Sz\u0171cs",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 89198,
+                                "name": "D. Horgosi",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28410,
+                                "name": "A. Horv\u00e1th",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 477010,
+                                "name": "B. Balab\u00e1s",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28177,
+                                "name": "B. Elek",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 376201,
+                                "name": "M. B\u00edr\u00f3",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 456308,
+                                "name": "M. Ecseri",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 128310,
+                                "name": "O. Horv\u00e1th",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

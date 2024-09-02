@@ -1,0 +1,659 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1245654"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1245654,
+                "referee": "P. Kralovic",
+                "timezone": "UTC",
+                "date": "2024-07-27T15:00:00+00:00",
+                "timestamp": 1722092400,
+                "periods": {
+                    "first": 1722092400,
+                    "second": 1722096000
+                },
+                "venue": {
+                    "id": 7240,
+                    "name": "Mestsk\u00fd \u0161tadi\u00f3n",
+                    "city": "P\u00fachov"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 506,
+                "name": "2. liga",
+                "country": "Slovakia",
+                "logo": "https://media.api-sports.io/football/leagues/506.png",
+                "flag": "https://media.api-sports.io/flags/sk.svg",
+                "season": 2024,
+                "round": "Regular Season - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 10540,
+                    "name": "P\u00fachov",
+                    "logo": "https://media.api-sports.io/football/teams/10540.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 10550,
+                    "name": "Tatran Pre\u0161ov",
+                    "logo": "https://media.api-sports.io/football/teams/10550.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 34,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10540,
+                        "name": "P\u00fachov",
+                        "logo": "https://media.api-sports.io/football/teams/10540.png"
+                    },
+                    "player": {
+                        "id": 204902,
+                        "name": "\u0160. Holi\u0161"
+                    },
+                    "assist": {
+                        "id": 477929,
+                        "name": "A. Ku\u0161\u00edk"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10550,
+                        "name": "Tatran Pre\u0161ov",
+                        "logo": "https://media.api-sports.io/football/teams/10550.png"
+                    },
+                    "player": {
+                        "id": 477933,
+                        "name": "J. Michl\u00edk"
+                    },
+                    "assist": {
+                        "id": 204822,
+                        "name": "Arthur Legnani"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 51,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10540,
+                        "name": "P\u00fachov",
+                        "logo": "https://media.api-sports.io/football/teams/10540.png"
+                    },
+                    "player": {
+                        "id": 265592,
+                        "name": "N. Martinek"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10550,
+                        "name": "Tatran Pre\u0161ov",
+                        "logo": "https://media.api-sports.io/football/teams/10550.png"
+                    },
+                    "player": {
+                        "id": 306855,
+                        "name": "S. Gladi\u0161"
+                    },
+                    "assist": {
+                        "id": 330233,
+                        "name": "L. Sagna"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10540,
+                        "name": "P\u00fachov",
+                        "logo": "https://media.api-sports.io/football/teams/10540.png"
+                    },
+                    "player": {
+                        "id": 477929,
+                        "name": "A. Ku\u0161\u00edk"
+                    },
+                    "assist": {
+                        "id": 477930,
+                        "name": "D. Brez\u00e1ni"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 84,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10550,
+                        "name": "Tatran Pre\u0161ov",
+                        "logo": "https://media.api-sports.io/football/teams/10550.png"
+                    },
+                    "player": {
+                        "id": 125202,
+                        "name": "R. \u017dupa"
+                    },
+                    "assist": {
+                        "id": 393189,
+                        "name": "D. Vesel\u00fd"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10540,
+                        "name": "P\u00fachov",
+                        "logo": "https://media.api-sports.io/football/teams/10540.png"
+                    },
+                    "player": {
+                        "id": 40363,
+                        "name": "P. Mr\u00e1z"
+                    },
+                    "assist": {
+                        "id": 61420,
+                        "name": "M. Kvocera"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10540,
+                        "name": "P\u00fachov",
+                        "logo": "https://media.api-sports.io/football/teams/10540.png"
+                    },
+                    "player": {
+                        "id": 477931,
+                        "name": "T. Pan\u00e1\u010dek"
+                    },
+                    "assist": {
+                        "id": 477932,
+                        "name": "J. \u010cmelo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10550,
+                        "name": "Tatran Pre\u0161ov",
+                        "logo": "https://media.api-sports.io/football/teams/10550.png"
+                    },
+                    "player": {
+                        "id": 166867,
+                        "name": "M. Franko"
+                    },
+                    "assist": {
+                        "id": 409949,
+                        "name": "A. Diao"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 5
+                    },
+                    "team": {
+                        "id": 10550,
+                        "name": "Tatran Pre\u0161ov",
+                        "logo": "https://media.api-sports.io/football/teams/10550.png"
+                    },
+                    "player": {
+                        "id": 61438,
+                        "name": "D. Fadairo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 10540,
+                        "name": "P\u00fachov",
+                        "logo": "https://media.api-sports.io/football/teams/10540.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 18680,
+                        "name": "M. Zimen",
+                        "photo": "https://media.api-sports.io/football/coachs/18680.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 205219,
+                                "name": "S. Vavr\u00fa\u0161",
+                                "number": 31,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 207952,
+                                "name": "M. Tandara",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 388942,
+                                "name": "M. Ob\u0161ivan",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 40363,
+                                "name": "P. Mr\u00e1z",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 268871,
+                                "name": "S. Kapusniak",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 204763,
+                                "name": "\u013d. L\u00e9vai",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 268749,
+                                "name": "A. Moj\u017ei\u0161",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 265592,
+                                "name": "N. Martinek",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 409003,
+                                "name": "R. Pobo\u0159il",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 204902,
+                                "name": "\u0160. Holi\u0161",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 477931,
+                                "name": "T. Pan\u00e1\u010dek",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 477929,
+                                "name": "A. Ku\u0161\u00edk",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 477930,
+                                "name": "D. Brez\u00e1ni",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 61420,
+                                "name": "M. Kvocera",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 477932,
+                                "name": "J. \u010cmelo",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 204884,
+                                "name": "P. Piln\u00fd",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 477934,
+                                "name": "J. Brunner",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 10550,
+                        "name": "Tatran Pre\u0161ov",
+                        "logo": "https://media.api-sports.io/football/teams/10550.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 8402,
+                        "name": "M. Petru\u0161",
+                        "photo": "https://media.api-sports.io/football/coachs/8402.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 204957,
+                                "name": "A. Knurovsk\u00fd",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66093,
+                                "name": "P. \u0160imko",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 125202,
+                                "name": "R. \u017dupa",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 308819,
+                                "name": "L. Jendrek",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 61438,
+                                "name": "D. Fadairo",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 210201,
+                                "name": "\u00d3scar Castellano",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 204757,
+                                "name": "B. G\u00e1ll",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 306855,
+                                "name": "S. Gladi\u0161",
+                                "number": 24,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 61153,
+                                "name": "D. Potoma",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 477933,
+                                "name": "J. Michl\u00edk",
+                                "number": 30,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 166867,
+                                "name": "M. Franko",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 204822,
+                                "name": "Arthur Legnani",
+                                "number": 27,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 330233,
+                                "name": "L. Sagna",
+                                "number": 80,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 393189,
+                                "name": "D. Vesel\u00fd",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 409949,
+                                "name": "A. Diao",
+                                "number": 99,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 138812,
+                                "name": "A. Fojt\u00ed\u010dek",
+                                "number": 33,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 410905,
+                                "name": "K. Slebodn\u00edk",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 386436,
+                                "name": "S. Novot\u0148\u00e1k",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

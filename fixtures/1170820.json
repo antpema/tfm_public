@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1170820"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1170820,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-09T14:00:00+00:00",
+                "timestamp": 1723212000,
+                "periods": {
+                    "first": 1723212000,
+                    "second": 1723215600
+                },
+                "venue": {
+                    "id": 11920,
+                    "name": "Futbol'noe pole 4 Akademiya Spartak im. F. Cherenkova",
+                    "city": "Moskva"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 238,
+                "name": "Youth Championship",
+                "country": "Russia",
+                "logo": "https://media.api-sports.io/football/leagues/238.png",
+                "flag": "https://media.api-sports.io/flags/ru.svg",
+                "season": 2024,
+                "round": "Regular Season - 18"
+            },
+            "teams": {
+                "home": {
+                    "id": 7996,
+                    "name": "Spartak Moskva U19",
+                    "logo": "https://media.api-sports.io/football/teams/7996.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 9226,
+                    "name": "Rubin Kazan U20",
+                    "logo": "https://media.api-sports.io/football/teams/9226.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 4,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7996,
+                        "name": "Spartak Moskva U19",
+                        "logo": "https://media.api-sports.io/football/teams/7996.png"
+                    },
+                    "player": {
+                        "id": 475007,
+                        "name": "E. Sysoev"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 18,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7996,
+                        "name": "Spartak Moskva U19",
+                        "logo": "https://media.api-sports.io/football/teams/7996.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "D. Plotnikov"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

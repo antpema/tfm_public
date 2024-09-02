@@ -1,0 +1,528 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1220003"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1220003,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-30T18:30:00+00:00",
+                "timestamp": 1722364200,
+                "periods": {
+                    "first": 1722364200,
+                    "second": 1722367800
+                },
+                "venue": {
+                    "id": 19923,
+                    "name": "Toughsheet Community Stadium",
+                    "city": "Bolton"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 68,
+                    "name": "Bolton",
+                    "logo": "https://media.api-sports.io/football/teams/68.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 75,
+                    "name": "Stoke City",
+                    "logo": "https://media.api-sports.io/football/teams/75.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 34,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 75,
+                        "name": "Stoke City",
+                        "logo": "https://media.api-sports.io/football/teams/75.png"
+                    },
+                    "player": {
+                        "id": 272730,
+                        "name": "M. Manhoef"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 68,
+                        "name": "Bolton",
+                        "logo": "https://media.api-sports.io/football/teams/68.png",
+                        "colors": {
+                            "player": {
+                                "primary": "ffffff",
+                                "number": "030303",
+                                "border": "ffffff"
+                            },
+                            "goalkeeper": {
+                                "primary": "ffff33",
+                                "number": "000000",
+                                "border": "ffff33"
+                            }
+                        }
+                    },
+                    "formation": "3-4-3",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 18223,
+                                "name": "Luke Southwood",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 127369,
+                                "name": "George Johnston",
+                                "number": 6,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 18382,
+                                "name": "Ricardo Santos",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 69319,
+                                "name": "Eoin Toal",
+                                "number": 18,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19517,
+                                "name": "Josh Dacres-Cogley",
+                                "number": 12,
+                                "pos": "M",
+                                "grid": "3:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 82034,
+                                "name": "Josh Sheehan",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 20247,
+                                "name": "Aaron Morley",
+                                "number": 16,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 45180,
+                                "name": "Jack Iredale",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 20416,
+                                "name": "Klaidi Lolos",
+                                "number": 17,
+                                "pos": "F",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 130422,
+                                "name": "Dan N'Lundulu",
+                                "number": 11,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1747,
+                                "name": "Scott Arfield",
+                                "number": 29,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 19037,
+                                "name": "Joel Coleman",
+                                "number": 13,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 283023,
+                                "name": "Max Conway",
+                                "number": 17,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 20231,
+                                "name": "Luke Matheson",
+                                "number": 41,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 194461,
+                                "name": "George Thomason",
+                                "number": 4,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 138920,
+                                "name": "Nelson Khumbeni",
+                                "number": 32,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 449527,
+                                "name": "Sonny Sharples",
+                                "number": 58,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 442495,
+                                "name": "Noah Halford",
+                                "number": 70,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19801,
+                                "name": "Victor Adeboyejo",
+                                "number": 14,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 82483,
+                                "name": "Dion Charles",
+                                "number": 10,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 685,
+                        "name": "I. Evatt",
+                        "photo": "https://media.api-sports.io/football/coachs/685.png"
+                    }
+                },
+                {
+                    "team": {
+                        "id": 75,
+                        "name": "Stoke City",
+                        "logo": "https://media.api-sports.io/football/teams/75.png",
+                        "colors": {
+                            "player": {
+                                "primary": "1d1adb",
+                                "number": "a4f1ea",
+                                "border": "1d1adb"
+                            },
+                            "goalkeeper": {
+                                "primary": "1971a7",
+                                "number": "000000",
+                                "border": "1971a7"
+                            }
+                        }
+                    },
+                    "formation": "4-2-3-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 158700,
+                                "name": "Viktor Johansson",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 174636,
+                                "name": "Eric Bocat",
+                                "number": 17,
+                                "pos": "M",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 30800,
+                                "name": "Ben Wilmot",
+                                "number": 16,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 18914,
+                                "name": "Ben Gibson",
+                                "number": 23,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19097,
+                                "name": "Enda Stevens",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 37153,
+                                "name": "Wouter Burger",
+                                "number": 6,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 20303,
+                                "name": "Josh Laurent",
+                                "number": 28,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 272730,
+                                "name": "Million Manhoef",
+                                "number": 42,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 20061,
+                                "name": "Jordan Thompson",
+                                "number": 15,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 294552,
+                                "name": "Junior Tchamadeu",
+                                "number": 24,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 284206,
+                                "name": "Emre Tezgel",
+                                "number": 22,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 418403,
+                                "name": "Jaden Dixon",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19901,
+                                "name": "Lynden Gooch",
+                                "number": 2,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19611,
+                                "name": "Lewis Baker",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15301,
+                                "name": "Andr\u00e9 Vidigal",
+                                "number": 7,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19451,
+                                "name": "Daniel Johnson",
+                                "number": 12,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 30753,
+                                "name": "Mehdi L\u00e9ris",
+                                "number": 27,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 347304,
+                                "name": "Souleymane Sidibe",
+                                "number": 30,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 351338,
+                                "name": "Nathan Lowe",
+                                "number": 35,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 284402,
+                                "name": "Edwin Andersson",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 93,
+                        "name": "A. Neil",
+                        "photo": "https://media.api-sports.io/football/coachs/93.png"
+                    }
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

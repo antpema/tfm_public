@@ -1,0 +1,604 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1225771"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1225771,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-03T14:00:00+00:00",
+                "timestamp": 1722693600,
+                "periods": {
+                    "first": 1722693600,
+                    "second": 1722697200
+                },
+                "venue": {
+                    "id": 20414,
+                    "name": "MATRADE Loftus Road",
+                    "city": "London"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 72,
+                    "name": "QPR",
+                    "logo": "https://media.api-sports.io/football/teams/72.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 51,
+                    "name": "Brighton",
+                    "logo": "https://media.api-sports.io/football/teams/51.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 29,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 51,
+                        "name": "Brighton",
+                        "logo": "https://media.api-sports.io/football/teams/51.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 52,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 51,
+                        "name": "Brighton",
+                        "logo": "https://media.api-sports.io/football/teams/51.png"
+                    },
+                    "player": {
+                        "id": 1469,
+                        "name": "D. Welbeck"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 72,
+                        "name": "QPR",
+                        "logo": "https://media.api-sports.io/football/teams/72.png",
+                        "colors": {
+                            "player": {
+                                "primary": "ffffff",
+                                "number": "f50505",
+                                "border": "ffffff"
+                            },
+                            "goalkeeper": {
+                                "primary": "cc3041",
+                                "number": "f4e5b0",
+                                "border": "cc3041"
+                            }
+                        }
+                    },
+                    "formation": "4-2-3-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 8657,
+                                "name": "Paul Nardi",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19886,
+                                "name": "Jimmy Dunne",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 18863,
+                                "name": "Steve Cook",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 37116,
+                                "name": "Jake Clarke-Salter",
+                                "number": 6,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 36921,
+                                "name": "Kenneth Paal",
+                                "number": 22,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19299,
+                                "name": "Jack Colback",
+                                "number": 4,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19156,
+                                "name": "Sam Field",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 20192,
+                                "name": "Paul Smyth",
+                                "number": 11,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15720,
+                                "name": "Lucas Andersen",
+                                "number": 25,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 431885,
+                                "name": "Rayan Kolli",
+                                "number": 38,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 788,
+                                "name": "\u017dan Celar",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 1372,
+                                "name": "Michael Frey",
+                                "number": 12,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 328037,
+                                "name": "Liam Morrison",
+                                "number": null,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 138829,
+                                "name": "Elijah Dixon-Bonner",
+                                "number": 19,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 309155,
+                                "name": "Hevertton Santos",
+                                "number": 27,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 422929,
+                                "name": "Daniel Bennie",
+                                "number": null,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Alfie Lloyd",
+                                "number": null,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 127206,
+                                "name": "Joe Walsh",
+                                "number": 32,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19372,
+                                "name": "Morgan Fox",
+                                "number": 15,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Alfie Tuck",
+                                "number": null,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 401227,
+                                "name": "Lorent Talla",
+                                "number": 41,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 1878,
+                        "name": "Mart\u00ed Cifuentes",
+                        "photo": "https://media.api-sports.io/football/coachs/1878.png"
+                    }
+                },
+                {
+                    "team": {
+                        "id": 51,
+                        "name": "Brighton",
+                        "logo": "https://media.api-sports.io/football/teams/51.png",
+                        "colors": {
+                            "player": {
+                                "primary": "161618",
+                                "number": "ffffff",
+                                "border": "161618"
+                            },
+                            "goalkeeper": {
+                                "primary": "050505",
+                                "number": "ffffff",
+                                "border": "050505"
+                            }
+                        }
+                    },
+                    "formation": "3-4-3",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 18960,
+                                "name": "Jason Steele",
+                                "number": 23,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 537,
+                                "name": "Jo\u00ebl Veltman",
+                                "number": 34,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 38695,
+                                "name": "Jan Paul van Hecke",
+                                "number": 29,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19265,
+                                "name": "Adam Webster",
+                                "number": 4,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 383685,
+                                "name": "Yankuba Minteh",
+                                "number": 17,
+                                "pos": "F",
+                                "grid": "3:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 356041,
+                                "name": "Carlos Baleba",
+                                "number": 20,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 265820,
+                                "name": "Yasin Ayari",
+                                "number": 26,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 296,
+                                "name": "James Milner",
+                                "number": 6,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 106835,
+                                "name": "Kaoru Mitoma",
+                                "number": 22,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1469,
+                                "name": "Danny Welbeck",
+                                "number": 18,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 202086,
+                                "name": "Jeremy Sarmiento",
+                                "number": 16,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 92993,
+                                "name": "Mats Wieffer",
+                                "number": 20,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 305730,
+                                "name": "Jack Hinshelwood",
+                                "number": 41,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 293643,
+                                "name": "Ibrahim Osman",
+                                "number": null,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 273758,
+                                "name": "Imari Samuels",
+                                "number": 46,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19565,
+                                "name": "Jensen Weir",
+                                "number": 37,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 137220,
+                                "name": "Andrew Moran",
+                                "number": 36,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 311334,
+                                "name": "Facundo Buonanotte",
+                                "number": 40,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 309501,
+                                "name": "Amario Cozier-Duberry",
+                                "number": 33,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 340135,
+                                "name": "Mark O'Mahony",
+                                "number": 99,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 278088,
+                                "name": "Carl Rushworth",
+                                "number": 22,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 201368,
+                                "name": "Killian Cahill",
+                                "number": 12,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 282254,
+                                "name": "Odeluga Offiah",
+                                "number": 42,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 216809,
+                                "name": "Cameron Peupion",
+                                "number": 44,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 410125,
+                                "name": "Malick Yalcouy\u00e9",
+                                "number": null,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 2424,
+                        "name": "R. De Zerbi",
+                        "photo": "https://media.api-sports.io/football/coachs/2424.png"
+                    }
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

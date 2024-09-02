@@ -1,0 +1,109 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1215472"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1215472,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-04T11:00:00+00:00",
+                "timestamp": 1722769200,
+                "periods": {
+                    "first": 1722769200,
+                    "second": 1722772800
+                },
+                "venue": {
+                    "id": 10631,
+                    "name": "T\u00f8mrermester Jim Jensens Park",
+                    "city": "R\u00f8dovre"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 862,
+                "name": "3. Division",
+                "country": "Denmark",
+                "logo": "https://media.api-sports.io/football/leagues/862.png",
+                "flag": "https://media.api-sports.io/flags/dk.svg",
+                "season": 2024,
+                "round": "Regular Season - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 6006,
+                    "name": "Avarta",
+                    "logo": "https://media.api-sports.io/football/teams/6006.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 6027,
+                    "name": "Holb\u00e6k B&I",
+                    "logo": "https://media.api-sports.io/football/teams/6027.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 52,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6006,
+                        "name": "Avarta",
+                        "logo": "https://media.api-sports.io/football/teams/6006.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "M. Balck"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

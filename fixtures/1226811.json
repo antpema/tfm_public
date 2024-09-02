@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1226811"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1226811,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-09T16:00:00+00:00",
+                "timestamp": 1723219200,
+                "periods": {
+                    "first": 1723219200,
+                    "second": 1723222800
+                },
+                "venue": {
+                    "id": 3737,
+                    "name": "Herrenriedstadion Hohenems",
+                    "city": "Hohenems"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 223,
+                "name": "Regionalliga - West",
+                "country": "Austria",
+                "logo": "https://media.api-sports.io/football/leagues/223.png",
+                "flag": "https://media.api-sports.io/flags/at.svg",
+                "season": 2024,
+                "round": "West - 2"
+            },
+            "teams": {
+                "home": {
+                    "id": 4945,
+                    "name": "Hohenems",
+                    "logo": "https://media.api-sports.io/football/teams/4945.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 8258,
+                    "name": "R\u00f6this",
+                    "logo": "https://media.api-sports.io/football/teams/8258.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 7,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4945,
+                        "name": "Hohenems",
+                        "logo": "https://media.api-sports.io/football/teams/4945.png"
+                    },
+                    "player": {
+                        "id": 282277,
+                        "name": "P. Gassner"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 69,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4945,
+                        "name": "Hohenems",
+                        "logo": "https://media.api-sports.io/football/teams/4945.png"
+                    },
+                    "player": {
+                        "id": 375610,
+                        "name": "E. Yabantas"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

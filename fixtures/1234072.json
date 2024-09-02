@@ -1,0 +1,881 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1234072"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1234072,
+                "referee": "J. Uzc\u00e1tegui",
+                "timezone": "UTC",
+                "date": "2024-08-06T19:00:00+00:00",
+                "timestamp": 1722970800,
+                "periods": {
+                    "first": 1722970800,
+                    "second": 1722974400
+                },
+                "venue": {
+                    "id": 1665,
+                    "name": "Estadio Ol\u00edmpico Jos\u00e9 Encarnaci\u00f3n Pachencho Romero",
+                    "city": "Maracaibo"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 299,
+                "name": "Primera Divisi\u00f3n",
+                "country": "Venezuela",
+                "logo": "https://media.api-sports.io/football/leagues/299.png",
+                "flag": "https://media.api-sports.io/flags/ve.svg",
+                "season": 2024,
+                "round": "Clausura - 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 16847,
+                    "name": "Rayo Zuliano",
+                    "logo": "https://media.api-sports.io/football/teams/16847.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 2807,
+                    "name": "Deportivo Tachira FC",
+                    "logo": "https://media.api-sports.io/football/teams/2807.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 10,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2807,
+                        "name": "Deportivo Tachira FC",
+                        "logo": "https://media.api-sports.io/football/teams/2807.png"
+                    },
+                    "player": {
+                        "id": 6594,
+                        "name": "A. Uribe"
+                    },
+                    "assist": {
+                        "id": 36267,
+                        "name": "M. Cova"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 12,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2807,
+                        "name": "Deportivo Tachira FC",
+                        "logo": "https://media.api-sports.io/football/teams/2807.png"
+                    },
+                    "player": {
+                        "id": 52744,
+                        "name": "C. Vivas"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 36,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2807,
+                        "name": "Deportivo Tachira FC",
+                        "logo": "https://media.api-sports.io/football/teams/2807.png"
+                    },
+                    "player": {
+                        "id": 13370,
+                        "name": "C. Robles"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 52,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2807,
+                        "name": "Deportivo Tachira FC",
+                        "logo": "https://media.api-sports.io/football/teams/2807.png"
+                    },
+                    "player": {
+                        "id": 406224,
+                        "name": "G. Mendoza"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 16847,
+                        "name": "Rayo Zuliano",
+                        "logo": "https://media.api-sports.io/football/teams/16847.png"
+                    },
+                    "player": {
+                        "id": 126660,
+                        "name": "E. Castro"
+                    },
+                    "assist": {
+                        "id": 141982,
+                        "name": "George Ayine"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 16847,
+                        "name": "Rayo Zuliano",
+                        "logo": "https://media.api-sports.io/football/teams/16847.png"
+                    },
+                    "player": {
+                        "id": 312306,
+                        "name": "J. Paz"
+                    },
+                    "assist": {
+                        "id": 57685,
+                        "name": "G. Rouse"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 62,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2807,
+                        "name": "Deportivo Tachira FC",
+                        "logo": "https://media.api-sports.io/football/teams/2807.png"
+                    },
+                    "player": {
+                        "id": 6706,
+                        "name": "M. Maidana"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2807,
+                        "name": "Deportivo Tachira FC",
+                        "logo": "https://media.api-sports.io/football/teams/2807.png"
+                    },
+                    "player": {
+                        "id": 35722,
+                        "name": "F. Pardo"
+                    },
+                    "assist": {
+                        "id": 52967,
+                        "name": "N. Hern\u00e1ndez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2807,
+                        "name": "Deportivo Tachira FC",
+                        "logo": "https://media.api-sports.io/football/teams/2807.png"
+                    },
+                    "player": {
+                        "id": 13370,
+                        "name": "C. Robles"
+                    },
+                    "assist": {
+                        "id": 159155,
+                        "name": "C. Calzadilla"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 16847,
+                        "name": "Rayo Zuliano",
+                        "logo": "https://media.api-sports.io/football/teams/16847.png"
+                    },
+                    "player": {
+                        "id": 129953,
+                        "name": "H. Ram\u00edrez"
+                    },
+                    "assist": {
+                        "id": 13303,
+                        "name": "J. Rivera"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2807,
+                        "name": "Deportivo Tachira FC",
+                        "logo": "https://media.api-sports.io/football/teams/2807.png"
+                    },
+                    "player": {
+                        "id": 6594,
+                        "name": "A. Uribe"
+                    },
+                    "assist": {
+                        "id": 146661,
+                        "name": "J. Castillo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2807,
+                        "name": "Deportivo Tachira FC",
+                        "logo": "https://media.api-sports.io/football/teams/2807.png"
+                    },
+                    "player": {
+                        "id": 406224,
+                        "name": "G. Mendoza"
+                    },
+                    "assist": {
+                        "id": 5928,
+                        "name": "A. R\u00edos"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 16847,
+                        "name": "Rayo Zuliano",
+                        "logo": "https://media.api-sports.io/football/teams/16847.png"
+                    },
+                    "player": {
+                        "id": 376741,
+                        "name": "J. Ochoa"
+                    },
+                    "assist": {
+                        "id": 53151,
+                        "name": "L. Paz"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 16847,
+                        "name": "Rayo Zuliano",
+                        "logo": "https://media.api-sports.io/football/teams/16847.png"
+                    },
+                    "player": {
+                        "id": 313622,
+                        "name": "A. Araujo"
+                    },
+                    "assist": {
+                        "id": 57899,
+                        "name": "Y. Paz"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 16847,
+                        "name": "Rayo Zuliano",
+                        "logo": "https://media.api-sports.io/football/teams/16847.png"
+                    },
+                    "player": {
+                        "id": 52754,
+                        "name": "A. Montero"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 89,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2807,
+                        "name": "Deportivo Tachira FC",
+                        "logo": "https://media.api-sports.io/football/teams/2807.png"
+                    },
+                    "player": {
+                        "id": 52588,
+                        "name": "D. Saggiomo"
+                    },
+                    "assist": {
+                        "id": 51629,
+                        "name": "H. Ru\u00edz D\u00edaz"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 16847,
+                        "name": "Rayo Zuliano",
+                        "logo": "https://media.api-sports.io/football/teams/16847.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 19289,
+                        "name": "E. Mart\u00ednez",
+                        "photo": "https://media.api-sports.io/football/coachs/19289.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 53132,
+                                "name": "L. Corredor",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52933,
+                                "name": "D. Mele\u00e1n",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 103799,
+                                "name": "H. Rodr\u00edguez",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 312306,
+                                "name": "J. Paz",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 313622,
+                                "name": "A. Araujo",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 424362,
+                                "name": "F. D\u00edaz",
+                                "number": 34,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52754,
+                                "name": "A. Montero",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 126660,
+                                "name": "E. Castro",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 266017,
+                                "name": "G. Padr\u00f3n",
+                                "number": 30,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 129953,
+                                "name": "H. Ram\u00edrez",
+                                "number": 70,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 376741,
+                                "name": "J. Ochoa",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 141982,
+                                "name": "George Ayine",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 57685,
+                                "name": "G. Rouse",
+                                "number": 28,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13303,
+                                "name": "J. Rivera",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 53151,
+                                "name": "L. Paz",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 57899,
+                                "name": "Y. Paz",
+                                "number": 77,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 53149,
+                                "name": "J. Mart\u00ednez",
+                                "number": 88,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52953,
+                                "name": "\u00c1. Far\u00eda",
+                                "number": 33,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 53094,
+                                "name": "D. Vald\u00e9s",
+                                "number": 29,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 385705,
+                                "name": "C. Maldonado",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 146662,
+                                "name": "P. Pagnano",
+                                "number": 39,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 323161,
+                                "name": "V. Perea",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52204,
+                                "name": "K. Montiel",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 2807,
+                        "name": "Deportivo Tachira FC",
+                        "logo": "https://media.api-sports.io/football/teams/2807.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 11184,
+                        "name": "E. Sarag\u00f3",
+                        "photo": "https://media.api-sports.io/football/coachs/11184.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 311020,
+                                "name": "J. Camargo",
+                                "number": 50,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6706,
+                                "name": "M. Maidana",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52707,
+                                "name": "J. Vargas",
+                                "number": 29,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 224275,
+                                "name": "Y. Hern\u00e1ndez",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52744,
+                                "name": "C. Vivas",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35722,
+                                "name": "F. Pardo",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13370,
+                                "name": "C. Robles",
+                                "number": 24,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 36267,
+                                "name": "M. Cova",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52588,
+                                "name": "D. Saggiomo",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6594,
+                                "name": "A. Uribe",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 406224,
+                                "name": "G. Mendoza",
+                                "number": 28,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 52967,
+                                "name": "N. Hern\u00e1ndez",
+                                "number": 33,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 159155,
+                                "name": "C. Calzadilla",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 146661,
+                                "name": "J. Castillo",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 5928,
+                                "name": "A. R\u00edos",
+                                "number": 25,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 51629,
+                                "name": "H. Ru\u00edz D\u00edaz",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 363111,
+                                "name": "J. Duarte",
+                                "number": 37,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 424390,
+                                "name": "G. Lozano",
+                                "number": 38,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52735,
+                                "name": "P. Camacho",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 363109,
+                                "name": "J. S\u00e1nchez",
+                                "number": 32,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52722,
+                                "name": "B. Castillo",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52810,
+                                "name": "A. Araque",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

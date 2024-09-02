@@ -1,0 +1,880 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1158204"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1158204,
+                "referee": "F. Acita",
+                "timezone": "UTC",
+                "date": "2024-08-04T18:00:00+00:00",
+                "timestamp": 1722794400,
+                "periods": {
+                    "first": 1722794400,
+                    "second": 1722798000
+                },
+                "venue": {
+                    "id": 5957,
+                    "name": "Estadio Dr. Osvaldo Francisco Baletto",
+                    "city": "Avellaneda, Provincia de Buenos Aires"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 129,
+                "name": "Primera Nacional",
+                "country": "Argentina",
+                "logo": "https://media.api-sports.io/football/leagues/129.png",
+                "flag": "https://media.api-sports.io/flags/ar.svg",
+                "season": 2024,
+                "round": "Regular Season - 26"
+            },
+            "teams": {
+                "home": {
+                    "id": 1932,
+                    "name": "San Telmo",
+                    "logo": "https://media.api-sports.io/football/teams/1932.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 468,
+                    "name": "Brown DE Adrogue",
+                    "logo": "https://media.api-sports.io/football/teams/468.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 3,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 3,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 2
+                    },
+                    "team": {
+                        "id": 1932,
+                        "name": "San Telmo",
+                        "logo": "https://media.api-sports.io/football/teams/1932.png"
+                    },
+                    "player": {
+                        "id": 12200,
+                        "name": "D. Diellos"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 50,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1932,
+                        "name": "San Telmo",
+                        "logo": "https://media.api-sports.io/football/teams/1932.png"
+                    },
+                    "player": {
+                        "id": 306704,
+                        "name": "A. Lamosa"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 60,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1932,
+                        "name": "San Telmo",
+                        "logo": "https://media.api-sports.io/football/teams/1932.png"
+                    },
+                    "player": {
+                        "id": 323803,
+                        "name": "I. Lartihrigoyen"
+                    },
+                    "assist": {
+                        "id": 5226,
+                        "name": "J. Cosi"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 61,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1932,
+                        "name": "San Telmo",
+                        "logo": "https://media.api-sports.io/football/teams/1932.png"
+                    },
+                    "player": {
+                        "id": 6484,
+                        "name": "J. Barreto"
+                    },
+                    "assist": {
+                        "id": 59027,
+                        "name": "G. Mayenfisch"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 61,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 468,
+                        "name": "Brown DE Adrogue",
+                        "logo": "https://media.api-sports.io/football/teams/468.png"
+                    },
+                    "player": {
+                        "id": 371581,
+                        "name": "T. Sives"
+                    },
+                    "assist": {
+                        "id": 363335,
+                        "name": "L. Castillo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 62,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 468,
+                        "name": "Brown DE Adrogue",
+                        "logo": "https://media.api-sports.io/football/teams/468.png"
+                    },
+                    "player": {
+                        "id": 5533,
+                        "name": "F. Nouet"
+                    },
+                    "assist": {
+                        "id": 59204,
+                        "name": "G. Tellas"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1932,
+                        "name": "San Telmo",
+                        "logo": "https://media.api-sports.io/football/teams/1932.png"
+                    },
+                    "player": {
+                        "id": 5837,
+                        "name": "R. Ayala"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 69,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 468,
+                        "name": "Brown DE Adrogue",
+                        "logo": "https://media.api-sports.io/football/teams/468.png"
+                    },
+                    "player": {
+                        "id": 59204,
+                        "name": "G. Tellas"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1932,
+                        "name": "San Telmo",
+                        "logo": "https://media.api-sports.io/football/teams/1932.png"
+                    },
+                    "player": {
+                        "id": 294647,
+                        "name": "R. Gonz\u00e1lez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 468,
+                        "name": "Brown DE Adrogue",
+                        "logo": "https://media.api-sports.io/football/teams/468.png"
+                    },
+                    "player": {
+                        "id": 289480,
+                        "name": "G. Desio"
+                    },
+                    "assist": {
+                        "id": 75140,
+                        "name": "N. Pereyra"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 468,
+                        "name": "Brown DE Adrogue",
+                        "logo": "https://media.api-sports.io/football/teams/468.png"
+                    },
+                    "player": {
+                        "id": 294557,
+                        "name": "R. Sangiovani"
+                    },
+                    "assist": {
+                        "id": 325045,
+                        "name": "F. Ben\u00edtez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 468,
+                        "name": "Brown DE Adrogue",
+                        "logo": "https://media.api-sports.io/football/teams/468.png"
+                    },
+                    "player": {
+                        "id": 59204,
+                        "name": "G. Tellas"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 468,
+                        "name": "Brown DE Adrogue",
+                        "logo": "https://media.api-sports.io/football/teams/468.png"
+                    },
+                    "player": {
+                        "id": 59204,
+                        "name": "G. Tellas"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1932,
+                        "name": "San Telmo",
+                        "logo": "https://media.api-sports.io/football/teams/1932.png"
+                    },
+                    "player": {
+                        "id": 169928,
+                        "name": "A. Fern\u00e1ndez"
+                    },
+                    "assist": {
+                        "id": 75259,
+                        "name": "C. Medina"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 79,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1932,
+                        "name": "San Telmo",
+                        "logo": "https://media.api-sports.io/football/teams/1932.png"
+                    },
+                    "player": {
+                        "id": 306704,
+                        "name": "A. Lamosa"
+                    },
+                    "assist": {
+                        "id": 216546,
+                        "name": "G. Lillo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 84,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1932,
+                        "name": "San Telmo",
+                        "logo": "https://media.api-sports.io/football/teams/1932.png"
+                    },
+                    "player": {
+                        "id": 12200,
+                        "name": "D. Diellos"
+                    },
+                    "assist": {
+                        "id": 75408,
+                        "name": "F. Tisera"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 84,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 468,
+                        "name": "Brown DE Adrogue",
+                        "logo": "https://media.api-sports.io/football/teams/468.png"
+                    },
+                    "player": {
+                        "id": 74874,
+                        "name": "M. Nouet"
+                    },
+                    "assist": {
+                        "id": 81413,
+                        "name": "L. Buter"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 88,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1932,
+                        "name": "San Telmo",
+                        "logo": "https://media.api-sports.io/football/teams/1932.png"
+                    },
+                    "player": {
+                        "id": 294647,
+                        "name": "R. Gonz\u00e1lez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 1932,
+                        "name": "San Telmo",
+                        "logo": "https://media.api-sports.io/football/teams/1932.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 3256,
+                        "name": "A. Grelak",
+                        "photo": "https://media.api-sports.io/football/coachs/3256.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 75893,
+                                "name": "B. Bustos",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 58311,
+                                "name": "H. Gonz\u00e1lez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 5837,
+                                "name": "R. Ayala",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 379615,
+                                "name": "M. Vallejos",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 5647,
+                                "name": "G. Ram\u00edrez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 169928,
+                                "name": "A. Fern\u00e1ndez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 306704,
+                                "name": "A. Lamosa",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 323803,
+                                "name": "I. Lartihrigoyen",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 12200,
+                                "name": "D. Diellos",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6484,
+                                "name": "J. Barreto",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 294647,
+                                "name": "R. Gonz\u00e1lez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 5226,
+                                "name": "J. Cosi",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 59027,
+                                "name": "G. Mayenfisch",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 75259,
+                                "name": "C. Medina",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 216546,
+                                "name": "G. Lillo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 75408,
+                                "name": "F. Tisera",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 417938,
+                                "name": "L. Pollacchi",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 456171,
+                                "name": "M. Balderrama",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 355812,
+                                "name": "J. Yangali",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 352493,
+                                "name": "N. Heiz",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 468,
+                        "name": "Brown DE Adrogue",
+                        "logo": "https://media.api-sports.io/football/teams/468.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 3262,
+                        "name": "J. Vivaldo",
+                        "photo": "https://media.api-sports.io/football/coachs/3262.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 303658,
+                                "name": "M. Wysocki",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 5628,
+                                "name": "A. Masuero",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 112758,
+                                "name": "G. Gamarra",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 354943,
+                                "name": "J. Bogado",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 417616,
+                                "name": "M. Heredia",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 39732,
+                                "name": "M. Sproat",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 289480,
+                                "name": "G. Desio",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 294557,
+                                "name": "R. Sangiovani",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 74874,
+                                "name": "M. Nouet",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 5533,
+                                "name": "F. Nouet",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 371581,
+                                "name": "T. Sives",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 363335,
+                                "name": "L. Castillo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 59204,
+                                "name": "G. Tellas",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 75140,
+                                "name": "N. Pereyra",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 325045,
+                                "name": "F. Ben\u00edtez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 81413,
+                                "name": "L. Buter",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 306544,
+                                "name": "A. Palomeque",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 5262,
+                                "name": "N. Arrechea",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 74966,
+                                "name": "G. Rehak",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 456872,
+                                "name": "T. Patrizio",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

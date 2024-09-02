@@ -1,0 +1,734 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1167101"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1167101,
+                "referee": "M. Tsuruoka",
+                "timezone": "UTC",
+                "date": "2024-07-27T10:00:00+00:00",
+                "timestamp": 1722074400,
+                "periods": {
+                    "first": 1722074400,
+                    "second": 1722078000
+                },
+                "venue": {
+                    "id": 959,
+                    "name": "Tapic Kenso Hiyagon Stadium",
+                    "city": "Okinawa"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 100,
+                "name": "J3 League",
+                "country": "Japan",
+                "logo": "https://media.api-sports.io/football/leagues/100.png",
+                "flag": "https://media.api-sports.io/flags/jp.svg",
+                "season": 2024,
+                "round": "Regular Season - 23"
+            },
+            "teams": {
+                "home": {
+                    "id": 2235,
+                    "name": "FC Ryukyu",
+                    "logo": "https://media.api-sports.io/football/teams/2235.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 805,
+                    "name": "Kitakyushu",
+                    "logo": "https://media.api-sports.io/football/teams/805.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 4,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 805,
+                        "name": "Kitakyushu",
+                        "logo": "https://media.api-sports.io/football/teams/805.png"
+                    },
+                    "player": {
+                        "id": 33225,
+                        "name": "R. Nagai"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2235,
+                        "name": "FC Ryukyu",
+                        "logo": "https://media.api-sports.io/football/teams/2235.png"
+                    },
+                    "player": {
+                        "id": 406352,
+                        "name": "S. Iwamoto"
+                    },
+                    "assist": {
+                        "id": 268146,
+                        "name": "S. Hiramatsu"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2235,
+                        "name": "FC Ryukyu",
+                        "logo": "https://media.api-sports.io/football/teams/2235.png"
+                    },
+                    "player": {
+                        "id": 268604,
+                        "name": "M. Uehara"
+                    },
+                    "assist": {
+                        "id": 406349,
+                        "name": "R. Araki"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 805,
+                        "name": "Kitakyushu",
+                        "logo": "https://media.api-sports.io/football/teams/805.png"
+                    },
+                    "player": {
+                        "id": 369603,
+                        "name": "K. Yamawaki"
+                    },
+                    "assist": {
+                        "id": 409793,
+                        "name": "K. Sakamoto"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 805,
+                        "name": "Kitakyushu",
+                        "logo": "https://media.api-sports.io/football/teams/805.png"
+                    },
+                    "player": {
+                        "id": 34041,
+                        "name": "T. Ushinohama"
+                    },
+                    "assist": {
+                        "id": 409788,
+                        "name": "Koh Seung-Jin"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2235,
+                        "name": "FC Ryukyu",
+                        "logo": "https://media.api-sports.io/football/teams/2235.png"
+                    },
+                    "player": {
+                        "id": 353585,
+                        "name": "K. Takezawa"
+                    },
+                    "assist": {
+                        "id": 91630,
+                        "name": "K. Shigematsu"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2235,
+                        "name": "FC Ryukyu",
+                        "logo": "https://media.api-sports.io/football/teams/2235.png"
+                    },
+                    "player": {
+                        "id": 33146,
+                        "name": "R. Noda"
+                    },
+                    "assist": {
+                        "id": 109202,
+                        "name": "R. Iwabuchi"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 79,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 805,
+                        "name": "Kitakyushu",
+                        "logo": "https://media.api-sports.io/football/teams/805.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "S. Koh"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 805,
+                        "name": "Kitakyushu",
+                        "logo": "https://media.api-sports.io/football/teams/805.png"
+                    },
+                    "player": {
+                        "id": 33225,
+                        "name": "R. Nagai"
+                    },
+                    "assist": {
+                        "id": 403459,
+                        "name": "R. Takahashi"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 805,
+                        "name": "Kitakyushu",
+                        "logo": "https://media.api-sports.io/football/teams/805.png"
+                    },
+                    "player": {
+                        "id": 317387,
+                        "name": "K. Fujiwara"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 84,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2235,
+                        "name": "FC Ryukyu",
+                        "logo": "https://media.api-sports.io/football/teams/2235.png"
+                    },
+                    "player": {
+                        "id": 33296,
+                        "name": "H. Fujiharu"
+                    },
+                    "assist": {
+                        "id": 33661,
+                        "name": "K. Masutani"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 805,
+                        "name": "Kitakyushu",
+                        "logo": "https://media.api-sports.io/football/teams/805.png"
+                    },
+                    "player": {
+                        "id": 317387,
+                        "name": "K. Fujiwara"
+                    },
+                    "assist": {
+                        "id": 357592,
+                        "name": "R. Hirahara"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 805,
+                        "name": "Kitakyushu",
+                        "logo": "https://media.api-sports.io/football/teams/805.png"
+                    },
+                    "player": {
+                        "id": 409790,
+                        "name": "R. Okano"
+                    },
+                    "assist": {
+                        "id": 33848,
+                        "name": "T. Inui"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 2235,
+                        "name": "FC Ryukyu",
+                        "logo": "https://media.api-sports.io/football/teams/2235.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 294,
+                        "name": "Kim Jong-Song",
+                        "photo": "https://media.api-sports.io/football/coachs/294.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 304934,
+                                "name": "J. Higashi",
+                                "number": 35,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 33296,
+                                "name": "H. Fujiharu",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 109377,
+                                "name": "J. Suzuki",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 268604,
+                                "name": "M. Uehara",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 289883,
+                                "name": "Y. Mori",
+                                "number": 3,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 406351,
+                                "name": "K. Kagiyama",
+                                "number": 41,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 33677,
+                                "name": "Y. Tomidokoro",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 109364,
+                                "name": "Y. Sato",
+                                "number": 24,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 353585,
+                                "name": "K. Takezawa",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 406352,
+                                "name": "S. Iwamoto",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 33146,
+                                "name": "R. Noda",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 268146,
+                                "name": "S. Hiramatsu",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 406349,
+                                "name": "R. Araki",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 91630,
+                                "name": "K. Shigematsu",
+                                "number": 27,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 109202,
+                                "name": "R. Iwabuchi",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 33661,
+                                "name": "K. Masutani",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 33899,
+                                "name": "Park Seong-Su",
+                                "number": 31,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 34011,
+                                "name": "D. Takagi",
+                                "number": 89,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 805,
+                        "name": "Kitakyushu",
+                        "logo": "https://media.api-sports.io/football/teams/805.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 20128,
+                        "name": "K. Masumoto",
+                        "photo": "https://media.api-sports.io/football/coachs/20128.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 133315,
+                                "name": "Y. Tanaka",
+                                "number": 27,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 304941,
+                                "name": "H. Maeda",
+                                "number": 24,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 317351,
+                                "name": "K. Hasegawa",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 351082,
+                                "name": "K. Sugiyama",
+                                "number": 50,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 369603,
+                                "name": "K. Yamawaki",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 34041,
+                                "name": "T. Ushinohama",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 33703,
+                                "name": "H. Izawa",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 317387,
+                                "name": "K. Fujiwara",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 370142,
+                                "name": "S. Takayoshi",
+                                "number": 34,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 409790,
+                                "name": "R. Okano",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 33225,
+                                "name": "R. Nagai",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 409793,
+                                "name": "K. Sakamoto",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 409788,
+                                "name": "Koh Seung-Jin",
+                                "number": 29,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 403459,
+                                "name": "R. Takahashi",
+                                "number": 30,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 357592,
+                                "name": "R. Hirahara",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 33848,
+                                "name": "T. Inui",
+                                "number": 33,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 33863,
+                                "name": "A. Yada",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 33622,
+                                "name": "K. Otani",
+                                "number": 31,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

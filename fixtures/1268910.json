@@ -1,0 +1,571 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1268910"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1268910,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-03T16:00:00+00:00",
+                "timestamp": 1722700800,
+                "periods": {
+                    "first": 1722700800,
+                    "second": 1722704400
+                },
+                "venue": {
+                    "id": 20109,
+                    "name": "Stadio Carlo Castellani \u2013 Computer Gross Arena",
+                    "city": "Empoli"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 511,
+                    "name": "Empoli",
+                    "logo": "https://media.api-sports.io/football/teams/511.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 498,
+                    "name": "Sampdoria",
+                    "logo": "https://media.api-sports.io/football/teams/498.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 498,
+                        "name": "Sampdoria",
+                        "logo": "https://media.api-sports.io/football/teams/498.png"
+                    },
+                    "player": {
+                        "id": 30635,
+                        "name": "M. Coda"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 511,
+                        "name": "Empoli",
+                        "logo": "https://media.api-sports.io/football/teams/511.png"
+                    },
+                    "player": {
+                        "id": 263481,
+                        "name": "L. Colombo"
+                    },
+                    "assist": {
+                        "id": 31060,
+                        "name": "F. Caputo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 511,
+                        "name": "Empoli",
+                        "logo": "https://media.api-sports.io/football/teams/511.png"
+                    },
+                    "player": {
+                        "id": 287374,
+                        "name": "E. Ekong"
+                    },
+                    "assist": {
+                        "id": 215,
+                        "name": "S. Esposito"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 511,
+                        "name": "Empoli",
+                        "logo": "https://media.api-sports.io/football/teams/511.png"
+                    },
+                    "player": {
+                        "id": 1315,
+                        "name": "P. Stojanovic"
+                    },
+                    "assist": {
+                        "id": 340700,
+                        "name": "J. Fazzini"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 498,
+                        "name": "Sampdoria",
+                        "logo": "https://media.api-sports.io/football/teams/498.png"
+                    },
+                    "player": {
+                        "id": 91527,
+                        "name": "L. Benedetti"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 511,
+                        "name": "Empoli",
+                        "logo": "https://media.api-sports.io/football/teams/511.png",
+                        "colors": {
+                            "player": {
+                                "primary": "0066ff",
+                                "number": "ffffff",
+                                "border": "0066ff"
+                            },
+                            "goalkeeper": {
+                                "primary": "c8f461",
+                                "number": "1f4352",
+                                "border": "c8f461"
+                            }
+                        }
+                    },
+                    "formation": "4-2-3-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 81012,
+                                "name": "Devis V\u00e1squez",
+                                "number": 32,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 318053,
+                                "name": "Saba Goglichidze",
+                                "number": 2,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 14329,
+                                "name": "Ardian Ismajli",
+                                "number": 34,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 180510,
+                                "name": "Mattia Viti",
+                                "number": 21,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 30775,
+                                "name": "Giuseppe Pezzella",
+                                "number": 3,
+                                "pos": "M",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 30932,
+                                "name": "Liam Henderson",
+                                "number": 53,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 31555,
+                                "name": "Nicolas Haas",
+                                "number": 32,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 215,
+                                "name": "Sebastiano Esposito",
+                                "number": 30,
+                                "pos": "F",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 340700,
+                                "name": "Jacopo Fazzini",
+                                "number": 21,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 30845,
+                                "name": "Emmanuel Gyasi",
+                                "number": 11,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 31060,
+                                "name": "Francesco Caputo",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 1315,
+                                "name": "Petar Stojanovi\u0107",
+                                "number": 30,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 287374,
+                                "name": "Emmanuel Ekong",
+                                "number": 19,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 263481,
+                                "name": "Lorenzo Colombo",
+                                "number": 29,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 393947,
+                                "name": "Jacopo Seghetti",
+                                "number": 12,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 165712,
+                                "name": "Niccol\u00f2 Chiorra",
+                                "number": 22,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6931,
+                                "name": "Liberato Cacace",
+                                "number": 13,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 340706,
+                                "name": "Gabriele Guarino",
+                                "number": 14,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 128495,
+                                "name": "Francesco Donati",
+                                "number": 40,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 388547,
+                                "name": "Luca Marianucci",
+                                "number": 35,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 31021,
+                                "name": "Alberto Grassi",
+                                "number": 5,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 367519,
+                                "name": "Andrea Sodero",
+                                "number": 39,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 337982,
+                                "name": "Stiven Shpendi",
+                                "number": 7,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 2916,
+                        "name": "D. Nicola",
+                        "photo": "https://media.api-sports.io/football/coachs/2916.png"
+                    }
+                },
+                {
+                    "team": {
+                        "id": 498,
+                        "name": "Sampdoria",
+                        "logo": "https://media.api-sports.io/football/teams/498.png",
+                        "colors": {
+                            "player": {
+                                "primary": "ffffff",
+                                "number": "0069d2",
+                                "border": "ffffff"
+                            },
+                            "goalkeeper": {
+                                "primary": "aa0000",
+                                "number": "110303",
+                                "border": "aa0000"
+                            }
+                        }
+                    },
+                    "formation": "3-4-2-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 30392,
+                                "name": "Simone Ghidotti",
+                                "number": 22,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 31136,
+                                "name": "Simone Romagnoli",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 3000,
+                                "name": "Bartosz Bereszy\u0144ski",
+                                "number": 2,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 14867,
+                                "name": "Stipe Vuliki\u0107",
+                                "number": 6,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 31730,
+                                "name": "Lorenzo Venuti",
+                                "number": 7,
+                                "pos": "D",
+                                "grid": "3:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 329401,
+                                "name": "Gerard Yepes",
+                                "number": 4,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 56193,
+                                "name": "Alessandro Bellemo",
+                                "number": 14,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15281,
+                                "name": "Nicholas Ioannou",
+                                "number": 44,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 408635,
+                                "name": "Ebenezer Akinsanmiro",
+                                "number": 41,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1648,
+                                "name": "Fabio Borini",
+                                "number": 11,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 30635,
+                                "name": "Massimo Coda",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 91527,
+                                "name": "Leonardo Benedetti",
+                                "number": 10,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 12778,
+                        "name": "A. Pirlo",
+                        "photo": "https://media.api-sports.io/football/coachs/12778.png"
+                    }
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

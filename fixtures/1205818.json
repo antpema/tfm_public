@@ -1,0 +1,698 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1205818"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1205818,
+                "referee": "J. Jerez",
+                "timezone": "UTC",
+                "date": "2024-07-30T00:10:00+00:00",
+                "timestamp": 1722298200,
+                "periods": {
+                    "first": 1722298200,
+                    "second": 1722301800
+                },
+                "venue": {
+                    "id": 36,
+                    "name": "Estadio Juan Carlos Brieva",
+                    "city": "Merlo, Provincia de Buenos Aires"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 131,
+                "name": "Primera B Metropolitana",
+                "country": "Argentina",
+                "logo": "https://media.api-sports.io/football/leagues/131.png",
+                "flag": "https://media.api-sports.io/flags/ar.svg",
+                "season": 2024,
+                "round": "Clausura - 7"
+            },
+            "teams": {
+                "home": {
+                    "id": 2430,
+                    "name": "Argentino de Merlo",
+                    "logo": "https://media.api-sports.io/football/teams/2430.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 1947,
+                    "name": "Canuelas",
+                    "logo": "https://media.api-sports.io/football/teams/1947.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 41,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2430,
+                        "name": "Argentino de Merlo",
+                        "logo": "https://media.api-sports.io/football/teams/2430.png"
+                    },
+                    "player": {
+                        "id": 58556,
+                        "name": "G. Tomasini"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 1947,
+                        "name": "Canuelas",
+                        "logo": "https://media.api-sports.io/football/teams/1947.png"
+                    },
+                    "player": {
+                        "id": 6700,
+                        "name": "A. Barquett"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2430,
+                        "name": "Argentino de Merlo",
+                        "logo": "https://media.api-sports.io/football/teams/2430.png"
+                    },
+                    "player": {
+                        "id": 265913,
+                        "name": "V. Gargiulo"
+                    },
+                    "assist": {
+                        "id": 217781,
+                        "name": "C. Gim\u00e9nez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2430,
+                        "name": "Argentino de Merlo",
+                        "logo": "https://media.api-sports.io/football/teams/2430.png"
+                    },
+                    "player": {
+                        "id": 110579,
+                        "name": "D. Celis"
+                    },
+                    "assist": {
+                        "id": 266382,
+                        "name": "B. Gim\u00e9nez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1947,
+                        "name": "Canuelas",
+                        "logo": "https://media.api-sports.io/football/teams/1947.png"
+                    },
+                    "player": {
+                        "id": 410072,
+                        "name": "D. Soria"
+                    },
+                    "assist": {
+                        "id": 411561,
+                        "name": "B. Guelfi"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 55,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1947,
+                        "name": "Canuelas",
+                        "logo": "https://media.api-sports.io/football/teams/1947.png"
+                    },
+                    "player": {
+                        "id": 465720,
+                        "name": "T. Hirigoyen"
+                    },
+                    "assist": {
+                        "id": 195715,
+                        "name": "B. Gim\u00e9nez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2430,
+                        "name": "Argentino de Merlo",
+                        "logo": "https://media.api-sports.io/football/teams/2430.png"
+                    },
+                    "player": {
+                        "id": 313724,
+                        "name": "A. Guerra"
+                    },
+                    "assist": {
+                        "id": 409926,
+                        "name": "J. Ort\u00edz"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2430,
+                        "name": "Argentino de Merlo",
+                        "logo": "https://media.api-sports.io/football/teams/2430.png"
+                    },
+                    "player": {
+                        "id": 217543,
+                        "name": "L. Romero"
+                    },
+                    "assist": {
+                        "id": 288755,
+                        "name": "M. Landaburu"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 75,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2430,
+                        "name": "Argentino de Merlo",
+                        "logo": "https://media.api-sports.io/football/teams/2430.png"
+                    },
+                    "player": {
+                        "id": 288722,
+                        "name": "K. Ben\u00edtez"
+                    },
+                    "assist": {
+                        "id": 293348,
+                        "name": "M. Ledesma"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 86,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1947,
+                        "name": "Canuelas",
+                        "logo": "https://media.api-sports.io/football/teams/1947.png"
+                    },
+                    "player": {
+                        "id": 349600,
+                        "name": "N. Frias"
+                    },
+                    "assist": {
+                        "id": 457702,
+                        "name": "G. Patritti"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 86,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1947,
+                        "name": "Canuelas",
+                        "logo": "https://media.api-sports.io/football/teams/1947.png"
+                    },
+                    "player": {
+                        "id": 456410,
+                        "name": "W. Naranjo"
+                    },
+                    "assist": {
+                        "id": 441008,
+                        "name": "T. Ybarra"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 86,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1947,
+                        "name": "Canuelas",
+                        "logo": "https://media.api-sports.io/football/teams/1947.png"
+                    },
+                    "player": {
+                        "id": 6700,
+                        "name": "A. Barquett"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 89,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1947,
+                        "name": "Canuelas",
+                        "logo": "https://media.api-sports.io/football/teams/1947.png"
+                    },
+                    "player": {
+                        "id": 74957,
+                        "name": "L. Fern\u00e1ndez"
+                    },
+                    "assist": {
+                        "id": 158570,
+                        "name": "L. Gim\u00e9nez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 2430,
+                        "name": "Argentino de Merlo",
+                        "logo": "https://media.api-sports.io/football/teams/2430.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 19820,
+                        "name": "N. Ferraresi",
+                        "photo": "https://media.api-sports.io/football/coachs/19820.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 75018,
+                                "name": "R. Lugo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 58556,
+                                "name": "G. Tomasini",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 133905,
+                                "name": "D. Ursino",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 148018,
+                                "name": "G. Tellechea",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 265913,
+                                "name": "V. Gargiulo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 294477,
+                                "name": "A. Daivez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 217543,
+                                "name": "L. Romero",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 288722,
+                                "name": "K. Ben\u00edtez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 313724,
+                                "name": "A. Guerra",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 110579,
+                                "name": "D. Celis",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 59255,
+                                "name": "A. Salvador",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 217781,
+                                "name": "C. Gim\u00e9nez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 266382,
+                                "name": "B. Gim\u00e9nez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 409926,
+                                "name": "J. Ort\u00edz",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 288755,
+                                "name": "M. Landaburu",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 293348,
+                                "name": "M. Ledesma",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 1947,
+                        "name": "Canuelas",
+                        "logo": "https://media.api-sports.io/football/teams/1947.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 22632,
+                        "name": "V. Brunetto",
+                        "photo": "https://media.api-sports.io/football/coachs/22632.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 5221,
+                                "name": "A. Bottini",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6700,
+                                "name": "A. Barquett",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 294451,
+                                "name": "B. Dordoni",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 349600,
+                                "name": "N. Frias",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 363759,
+                                "name": "G. Zabala",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 74957,
+                                "name": "L. Fern\u00e1ndez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 430667,
+                                "name": "E. Arrieta",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 122388,
+                                "name": "R. Giacomini",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 410072,
+                                "name": "D. Soria",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 456410,
+                                "name": "W. Naranjo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 465720,
+                                "name": "T. Hirigoyen",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 411561,
+                                "name": "B. Guelfi",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 195715,
+                                "name": "B. Gim\u00e9nez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 457702,
+                                "name": "G. Patritti",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 441008,
+                                "name": "T. Ybarra",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 158570,
+                                "name": "L. Gim\u00e9nez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

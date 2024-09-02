@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1209165"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1209165,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-20T13:00:00+00:00",
+                "timestamp": 1721480400,
+                "periods": {
+                    "first": 1721480400,
+                    "second": 1721484000
+                },
+                "venue": {
+                    "id": 12666,
+                    "name": "Est\u00e1dio Municipal Francisco Marques Figueira",
+                    "city": "Suzano, S\u00e3o Paulo"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 1086,
+                "name": "Paulista - U20",
+                "country": "Brazil",
+                "logo": "https://media.api-sports.io/football/leagues/1086.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "season": 2024,
+                "round": "2nd Phase - 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 20775,
+                    "name": "Uni\u00e3o Suzano U20",
+                    "logo": "https://media.api-sports.io/football/teams/20775.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 13055,
+                    "name": "Santos U20",
+                    "logo": "https://media.api-sports.io/football/teams/13055.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 8,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 13055,
+                        "name": "Santos U20",
+                        "logo": "https://media.api-sports.io/football/teams/13055.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "Rodrigo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 47,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 13055,
+                        "name": "Santos U20",
+                        "logo": "https://media.api-sports.io/football/teams/13055.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "Joanderson"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

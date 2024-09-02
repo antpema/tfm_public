@@ -1,0 +1,934 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1220879"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1220879,
+                "referee": "Oleksiy Derevinskyi, Ukraine",
+                "timezone": "UTC",
+                "date": "2024-08-11T12:30:00+00:00",
+                "timestamp": 1723379400,
+                "periods": {
+                    "first": 1723379400,
+                    "second": 1723383000
+                },
+                "venue": {
+                    "id": 20119,
+                    "name": "Stadion Ukraina",
+                    "city": "Lviv"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 333,
+                "name": "Premier League",
+                "country": "Ukraine",
+                "logo": "https://media.api-sports.io/football/leagues/333.png",
+                "flag": "https://media.api-sports.io/flags/ua.svg",
+                "season": 2024,
+                "round": "Regular Season - 2"
+            },
+            "teams": {
+                "home": {
+                    "id": 3617,
+                    "name": "Karpaty",
+                    "logo": "https://media.api-sports.io/football/teams/3617.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 6489,
+                    "name": "Kryvbas KR",
+                    "logo": "https://media.api-sports.io/football/teams/6489.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 3,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 3,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 38,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6489,
+                        "name": "Kryvbas KR",
+                        "logo": "https://media.api-sports.io/football/teams/6489.png"
+                    },
+                    "player": {
+                        "id": 208397,
+                        "name": "Y. Tverdokhlib"
+                    },
+                    "assist": {
+                        "id": 354017,
+                        "name": "Matteo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 39,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3617,
+                        "name": "Karpaty",
+                        "logo": "https://media.api-sports.io/football/teams/3617.png"
+                    },
+                    "player": {
+                        "id": 383846,
+                        "name": "A. Shakh"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 42,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3617,
+                        "name": "Karpaty",
+                        "logo": "https://media.api-sports.io/football/teams/3617.png"
+                    },
+                    "player": {
+                        "id": 63411,
+                        "name": "P. Polehenko"
+                    },
+                    "assist": {
+                        "id": 101476,
+                        "name": "V. Klymenko"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3617,
+                        "name": "Karpaty",
+                        "logo": "https://media.api-sports.io/football/teams/3617.png"
+                    },
+                    "player": {
+                        "id": 101476,
+                        "name": "V. Klymenko"
+                    },
+                    "assist": {
+                        "id": 63661,
+                        "name": "A. Riabov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6489,
+                        "name": "Kryvbas KR",
+                        "logo": "https://media.api-sports.io/football/teams/6489.png"
+                    },
+                    "player": {
+                        "id": 63582,
+                        "name": "Y. Vakulko"
+                    },
+                    "assist": {
+                        "id": 8728,
+                        "name": "D. Bizimana"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6489,
+                        "name": "Kryvbas KR",
+                        "logo": "https://media.api-sports.io/football/teams/6489.png"
+                    },
+                    "player": {
+                        "id": 63641,
+                        "name": "O. Kozhushko"
+                    },
+                    "assist": {
+                        "id": 410016,
+                        "name": "P. Adu"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6489,
+                        "name": "Kryvbas KR",
+                        "logo": "https://media.api-sports.io/football/teams/6489.png"
+                    },
+                    "player": {
+                        "id": 63453,
+                        "name": "M. Luniov"
+                    },
+                    "assist": {
+                        "id": 323448,
+                        "name": "A. Mykytyshyn"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 48,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6489,
+                        "name": "Kryvbas KR",
+                        "logo": "https://media.api-sports.io/football/teams/6489.png"
+                    },
+                    "player": {
+                        "id": 354017,
+                        "name": "Matteo Amoroso"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 57,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3617,
+                        "name": "Karpaty",
+                        "logo": "https://media.api-sports.io/football/teams/3617.png"
+                    },
+                    "player": {
+                        "id": 383846,
+                        "name": "A. Shakh"
+                    },
+                    "assist": {
+                        "id": 63633,
+                        "name": "O. Kuzyk"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6489,
+                        "name": "Kryvbas KR",
+                        "logo": "https://media.api-sports.io/football/teams/6489.png"
+                    },
+                    "player": {
+                        "id": 8728,
+                        "name": "Djihad Bizimana"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 61,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6489,
+                        "name": "Kryvbas KR",
+                        "logo": "https://media.api-sports.io/football/teams/6489.png"
+                    },
+                    "player": {
+                        "id": 56274,
+                        "name": "Rafael Bandeira"
+                    },
+                    "assist": {
+                        "id": 7877,
+                        "name": "J. Po\u00e9"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 72,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6489,
+                        "name": "Kryvbas KR",
+                        "logo": "https://media.api-sports.io/football/teams/6489.png"
+                    },
+                    "player": {
+                        "id": 63442,
+                        "name": "D. Khomchenovskyi"
+                    },
+                    "assist": {
+                        "id": 294349,
+                        "name": "D. Sosah"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 6",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 76,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3617,
+                        "name": "Karpaty",
+                        "logo": "https://media.api-sports.io/football/teams/3617.png"
+                    },
+                    "player": {
+                        "id": 130941,
+                        "name": "Y. Pidlepenets"
+                    },
+                    "assist": {
+                        "id": 161946,
+                        "name": "O. Ocheretko"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 76,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3617,
+                        "name": "Karpaty",
+                        "logo": "https://media.api-sports.io/football/teams/3617.png"
+                    },
+                    "player": {
+                        "id": 270746,
+                        "name": "Igor Neves"
+                    },
+                    "assist": {
+                        "id": 266552,
+                        "name": "St\u00eanio"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3617,
+                        "name": "Karpaty",
+                        "logo": "https://media.api-sports.io/football/teams/3617.png"
+                    },
+                    "player": {
+                        "id": 24631,
+                        "name": "A. Chachua"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 86,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3617,
+                        "name": "Karpaty",
+                        "logo": "https://media.api-sports.io/football/teams/3617.png"
+                    },
+                    "player": {
+                        "id": 24631,
+                        "name": "A. Chachua"
+                    },
+                    "assist": {
+                        "id": 201332,
+                        "name": "Y. Tlumak"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 3
+                    },
+                    "team": {
+                        "id": 3617,
+                        "name": "Karpaty",
+                        "logo": "https://media.api-sports.io/football/teams/3617.png"
+                    },
+                    "player": {
+                        "id": 63661,
+                        "name": "A. Riabov"
+                    },
+                    "assist": {
+                        "id": 1512,
+                        "name": "T. Sakiv"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 6",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 3617,
+                        "name": "Karpaty",
+                        "logo": "https://media.api-sports.io/football/teams/3617.png",
+                        "colors": {
+                            "player": {
+                                "primary": "fafafa",
+                                "number": "114a3f",
+                                "border": "fafafa"
+                            },
+                            "goalkeeper": {
+                                "primary": "212427",
+                                "number": "ffffff",
+                                "border": "212427"
+                            }
+                        }
+                    },
+                    "coach": {
+                        "id": 20088,
+                        "name": "V. Lupashko",
+                        "photo": "https://media.api-sports.io/football/coachs/20088.png"
+                    },
+                    "formation": "4-1-4-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 181826,
+                                "name": "O. Kemkin",
+                                "number": 35,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 63411,
+                                "name": "P. Polehenko",
+                                "number": 28,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 63457,
+                                "name": "V. Adamiuk",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 63376,
+                                "name": "V. Baboglo",
+                                "number": 4,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 63537,
+                                "name": "D. Miroshnichenko",
+                                "number": 11,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 182623,
+                                "name": "Pablo \u00c1lvarez",
+                                "number": 23,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 130941,
+                                "name": "Y. Pidlepenets",
+                                "number": 7,
+                                "pos": "M",
+                                "grid": "4:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 24631,
+                                "name": "A. Chachua",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 101476,
+                                "name": "V. Klymenko",
+                                "number": 18,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 383846,
+                                "name": "A. Shakh",
+                                "number": 33,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 270746,
+                                "name": "Igor Neves",
+                                "number": 10,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 63661,
+                                "name": "A. Riabov",
+                                "number": 16,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 63633,
+                                "name": "O. Kuzyk",
+                                "number": 17,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 266552,
+                                "name": "St\u00eanio",
+                                "number": 43,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 161946,
+                                "name": "O. Ocheretko",
+                                "number": 20,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 201332,
+                                "name": "Y. Tlumak",
+                                "number": 9,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1512,
+                                "name": "T. Sakiv",
+                                "number": 44,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 384993,
+                                "name": "V. Sydun",
+                                "number": 30,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 384987,
+                                "name": "V. Katrych",
+                                "number": 39,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 402671,
+                                "name": "Jean Pedroso",
+                                "number": 47,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 431177,
+                                "name": "N. Domchak",
+                                "number": 41,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 381603,
+                                "name": "Y. Kinareikin",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 264666,
+                                "name": "B. Vekliak",
+                                "number": 22,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 6489,
+                        "name": "Kryvbas KR",
+                        "logo": "https://media.api-sports.io/football/teams/6489.png",
+                        "colors": {
+                            "player": {
+                                "primary": "bf2b31",
+                                "number": "ffffff",
+                                "border": "bf2b31"
+                            },
+                            "goalkeeper": {
+                                "primary": "0c0c0c",
+                                "number": "ffffff",
+                                "border": "0c0c0c"
+                            }
+                        }
+                    },
+                    "coach": {
+                        "id": 2499,
+                        "name": "Y. Vernydub",
+                        "photo": "https://media.api-sports.io/football/coachs/2499.png"
+                    },
+                    "formation": "4-1-4-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 63617,
+                                "name": "A. Klishchuk",
+                                "number": 33,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 56274,
+                                "name": "Rafael Bandeira",
+                                "number": 25,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 63384,
+                                "name": "T. Stetskov",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 172883,
+                                "name": "O. Romanchuk",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 162047,
+                                "name": "O. Drambaiev",
+                                "number": 15,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 63582,
+                                "name": "Y. Vakulko",
+                                "number": 22,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 161689,
+                                "name": "D. Kuzyk",
+                                "number": 21,
+                                "pos": "M",
+                                "grid": "4:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 208397,
+                                "name": "Y. Tverdokhlib",
+                                "number": 11,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 63453,
+                                "name": "M. Luniov",
+                                "number": 14,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 63442,
+                                "name": "D. Khomchenovskyi",
+                                "number": 10,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 63641,
+                                "name": "O. Kozhushko",
+                                "number": 78,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 354017,
+                                "name": "Matteo",
+                                "number": 27,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 323448,
+                                "name": "A. Mykytyshyn",
+                                "number": 20,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 410016,
+                                "name": "P. Adu",
+                                "number": 80,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 8728,
+                                "name": "D. Bizimana",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7877,
+                                "name": "J. Po\u00e9",
+                                "number": 97,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 294349,
+                                "name": "D. Sosah",
+                                "number": 9,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 323639,
+                                "name": "B. Khoma",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 2159,
+                                "name": "V. Makhankov",
+                                "number": 30,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 303684,
+                                "name": "Y. Dibango",
+                                "number": 55,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 63508,
+                                "name": "I. Snurnitsyn",
+                                "number": 74,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 150540,
+                                "name": "A. Poniedielnik",
+                                "number": 7,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 162915,
+                                "name": "K. Prykhodko",
+                                "number": 6,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

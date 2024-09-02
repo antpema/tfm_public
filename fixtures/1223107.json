@@ -1,0 +1,483 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1223107"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1223107,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-11T22:30:00+00:00",
+                "timestamp": 1723415400,
+                "periods": {
+                    "first": 1723415400,
+                    "second": 1723419000
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Estadio ueno La Nueva Olla",
+                    "city": "Asunci\u00f3n"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 252,
+                "name": "Division Profesional - Clausura",
+                "country": "Paraguay",
+                "logo": "https://media.api-sports.io/football/leagues/252.png",
+                "flag": "https://media.api-sports.io/flags/py.svg",
+                "season": 2024,
+                "round": "Clausura - 5"
+            },
+            "teams": {
+                "home": {
+                    "id": 1176,
+                    "name": "Cerro Porteno",
+                    "logo": "https://media.api-sports.io/football/teams/1176.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 1177,
+                    "name": "SOL DE America",
+                    "logo": "https://media.api-sports.io/football/teams/1177.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1177,
+                        "name": "SOL DE America",
+                        "logo": "https://media.api-sports.io/football/teams/1177.png"
+                    },
+                    "player": {
+                        "id": 13346,
+                        "name": "L. Cabrera"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 60,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1176,
+                        "name": "Cerro Porteno",
+                        "logo": "https://media.api-sports.io/football/teams/1176.png"
+                    },
+                    "player": {
+                        "id": 191865,
+                        "name": "W. Viera"
+                    },
+                    "assist": {
+                        "id": 35928,
+                        "name": "J. Iturbe"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 60,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1176,
+                        "name": "Cerro Porteno",
+                        "logo": "https://media.api-sports.io/football/teams/1176.png"
+                    },
+                    "player": {
+                        "id": 36314,
+                        "name": "F. Fernandez"
+                    },
+                    "assist": {
+                        "id": 70723,
+                        "name": "A. Benitez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1177,
+                        "name": "SOL DE America",
+                        "logo": "https://media.api-sports.io/football/teams/1177.png"
+                    },
+                    "player": {
+                        "id": 70800,
+                        "name": "L. Ortiz"
+                    },
+                    "assist": {
+                        "id": 70591,
+                        "name": "M. Gonzalez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1177,
+                        "name": "SOL DE America",
+                        "logo": "https://media.api-sports.io/football/teams/1177.png"
+                    },
+                    "player": {
+                        "id": 70630,
+                        "name": "R. Roa"
+                    },
+                    "assist": {
+                        "id": 13346,
+                        "name": "L. Cabrera"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1177,
+                        "name": "SOL DE America",
+                        "logo": "https://media.api-sports.io/football/teams/1177.png"
+                    },
+                    "player": {
+                        "id": 195793,
+                        "name": "M. Acosta"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "B. Quintana"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1177,
+                        "name": "SOL DE America",
+                        "logo": "https://media.api-sports.io/football/teams/1177.png"
+                    },
+                    "player": {
+                        "id": 70630,
+                        "name": "R. Roa"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 76,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1176,
+                        "name": "Cerro Porteno",
+                        "logo": "https://media.api-sports.io/football/teams/1176.png"
+                    },
+                    "player": {
+                        "id": 70556,
+                        "name": "F. Carrizo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 76,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1176,
+                        "name": "Cerro Porteno",
+                        "logo": "https://media.api-sports.io/football/teams/1176.png"
+                    },
+                    "player": {
+                        "id": 70568,
+                        "name": "Diego Churin"
+                    },
+                    "assist": {
+                        "id": 36312,
+                        "name": "F. Da Costa"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1176,
+                        "name": "Cerro Porteno",
+                        "logo": "https://media.api-sports.io/football/teams/1176.png"
+                    },
+                    "player": {
+                        "id": 36314,
+                        "name": "F. Fernandez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 81,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1177,
+                        "name": "SOL DE America",
+                        "logo": "https://media.api-sports.io/football/teams/1177.png"
+                    },
+                    "player": {
+                        "id": 159141,
+                        "name": "J. Jorge"
+                    },
+                    "assist": {
+                        "id": 36082,
+                        "name": "D. Orue"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1176,
+                        "name": "Cerro Porteno",
+                        "logo": "https://media.api-sports.io/football/teams/1176.png"
+                    },
+                    "player": {
+                        "id": 311811,
+                        "name": "T. G. Portillo Avalos"
+                    },
+                    "assist": {
+                        "id": 95290,
+                        "name": "D. Rodriguez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1176,
+                        "name": "Cerro Porteno",
+                        "logo": "https://media.api-sports.io/football/teams/1176.png"
+                    },
+                    "player": {
+                        "id": 287377,
+                        "name": "R. De Jesus"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "R. Melgarejo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 86,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1176,
+                        "name": "Cerro Porteno",
+                        "logo": "https://media.api-sports.io/football/teams/1176.png"
+                    },
+                    "player": {
+                        "id": 287377,
+                        "name": "R. De Jesus"
+                    },
+                    "assist": {
+                        "id": 70700,
+                        "name": "E. Gimenez"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1177,
+                        "name": "SOL DE America",
+                        "logo": "https://media.api-sports.io/football/teams/1177.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "D. Fernandez"
+                    },
+                    "assist": {
+                        "id": 5307,
+                        "name": "C. Amarilla"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 89,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1176,
+                        "name": "Cerro Porteno",
+                        "logo": "https://media.api-sports.io/football/teams/1176.png"
+                    },
+                    "player": {
+                        "id": 70700,
+                        "name": "E. Gimenez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 89,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1177,
+                        "name": "SOL DE America",
+                        "logo": "https://media.api-sports.io/football/teams/1177.png"
+                    },
+                    "player": {
+                        "id": 70800,
+                        "name": "L. Ortiz"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1177,
+                        "name": "SOL DE America",
+                        "logo": "https://media.api-sports.io/football/teams/1177.png"
+                    },
+                    "player": {
+                        "id": 70823,
+                        "name": "J. Ojeda"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

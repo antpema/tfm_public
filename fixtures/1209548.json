@@ -1,0 +1,577 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1209548"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1209548,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-19T09:00:00+00:00",
+                "timestamp": 1721379600,
+                "periods": {
+                    "first": 1721379600,
+                    "second": 1721383200
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Pinatar Arena Football Center",
+                    "city": "San Pedro del Pinatar"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 5"
+            },
+            "teams": {
+                "home": {
+                    "id": 69,
+                    "name": "Derby",
+                    "logo": "https://media.api-sports.io/football/teams/69.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 4686,
+                    "name": "Stockport County",
+                    "logo": "https://media.api-sports.io/football/teams/4686.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 5,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4686,
+                        "name": "Stockport County",
+                        "logo": "https://media.api-sports.io/football/teams/4686.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "C. Gardner"
+                    },
+                    "assist": {
+                        "id": 144739,
+                        "name": "L. Fiorini"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 69,
+                        "name": "Derby",
+                        "logo": "https://media.api-sports.io/football/teams/69.png"
+                    },
+                    "player": {
+                        "id": 19753,
+                        "name": "S. Bradley"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 69,
+                        "name": "Derby",
+                        "logo": "https://media.api-sports.io/football/teams/69.png",
+                        "colors": {
+                            "player": {
+                                "primary": "ffffff",
+                                "number": "000000",
+                                "border": "ffffff"
+                            },
+                            "goalkeeper": {
+                                "primary": "f4e767",
+                                "number": "000000",
+                                "border": "f4e767"
+                            }
+                        }
+                    },
+                    "formation": "3-4-1-2",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 17357,
+                                "name": "Josh Vickers",
+                                "number": 31,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 20109,
+                                "name": "Curtis Nelson",
+                                "number": 35,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19470,
+                                "name": "Ryan Nyambe",
+                                "number": 24,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19205,
+                                "name": "Craig Forsyth",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 17599,
+                                "name": "Kane Wilson",
+                                "number": 2,
+                                "pos": "D",
+                                "grid": "3:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 18256,
+                                "name": "Ebou Adams",
+                                "number": 99,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 36896,
+                                "name": "Kenzo Goudmijn",
+                                "number": 10,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19724,
+                                "name": "Callum Elder",
+                                "number": 20,
+                                "pos": "D",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 20450,
+                                "name": "Corey Blackett-Taylor",
+                                "number": 98,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19008,
+                                "name": "Nathaniel M\u00e9ndez-Laing",
+                                "number": 11,
+                                "pos": "M",
+                                "grid": "5:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19682,
+                                "name": "Jerry Yates",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 161662,
+                                "name": "Liam Thompson",
+                                "number": 16,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 313138,
+                                "name": "Rohan Luthra",
+                                "number": 96,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Jack Thompson",
+                                "number": 95,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 161663,
+                                "name": "Eiran Joe Cashin",
+                                "number": 6,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19753,
+                                "name": "Sonny Bradley",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 315769,
+                                "name": "Darren Robinson",
+                                "number": 26,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19444,
+                                "name": "Tom Barkhuizen",
+                                "number": 7,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19302,
+                                "name": "Ben Osborn",
+                                "number": 97,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19744,
+                                "name": "Kayden Jackson",
+                                "number": 99,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 290721,
+                                "name": "Dajaune Brown",
+                                "number": 98,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19771,
+                                "name": "James Collins",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19110,
+                                "name": "Conor Washington",
+                                "number": 14,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 580,
+                        "name": "P. Warne",
+                        "photo": "https://media.api-sports.io/football/coachs/580.png"
+                    }
+                },
+                {
+                    "team": {
+                        "id": 4686,
+                        "name": "Stockport County",
+                        "logo": "https://media.api-sports.io/football/teams/4686.png",
+                        "colors": {
+                            "player": {
+                                "primary": "b8d6cf",
+                                "number": "040404",
+                                "border": "b8d6cf"
+                            },
+                            "goalkeeper": {
+                                "primary": "bf0303",
+                                "number": "131313",
+                                "border": "bf0303"
+                            }
+                        }
+                    },
+                    "formation": "3-4-1-2",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 118391,
+                                "name": "Ben Hinchliffe",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 312267,
+                                "name": "Ethan Pye",
+                                "number": 15,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 18121,
+                                "name": "Ibou Touray",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 82611,
+                                "name": "Fraser Horsfall",
+                                "number": 6,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 453917,
+                                "name": "Jid Okeke",
+                                "number": 97,
+                                "pos": null,
+                                "grid": "3:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 18969,
+                                "name": "Will Collar",
+                                "number": 14,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 162446,
+                                "name": "Lewis Bate",
+                                "number": 98,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 284467,
+                                "name": "Jayden Fevrier",
+                                "number": 42,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 144739,
+                                "name": "Lewis Fiorini",
+                                "number": 46,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 87773,
+                                "name": "Jack Diamond",
+                                "number": 99,
+                                "pos": "F",
+                                "grid": "5:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 20481,
+                                "name": "Kyle Wootton",
+                                "number": 19,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Che Gardner",
+                                "number": 96,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19976,
+                                "name": "Corey Addai",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 17710,
+                                "name": "Kyle Knoyle",
+                                "number": 2,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 82023,
+                                "name": "Odin Bailey",
+                                "number": 27,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Max Metcalfe",
+                                "number": 97,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 82781,
+                                "name": "Sam Hughes",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 355341,
+                                "name": "Cody Johnson",
+                                "number": 30,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 444296,
+                                "name": "Joe Hillary",
+                                "number": 96,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 284211,
+                                "name": "Michael Mellon",
+                                "number": 26,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 665,
+                        "name": "D. Challinor",
+                        "photo": "https://media.api-sports.io/football/coachs/665.png"
+                    }
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

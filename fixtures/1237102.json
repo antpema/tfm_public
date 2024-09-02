@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1237102"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1237102,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-10T21:00:00+00:00",
+                "timestamp": 1723323600,
+                "periods": {
+                    "first": 1723323600,
+                    "second": 1723327200
+                },
+                "venue": {
+                    "id": 2675,
+                    "name": "Estadio CDI Jos\u00e9 Joaqu\u00edn Colleya Fonseca",
+                    "city": "San Jos\u00e9"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 163,
+                "name": "Liga de Ascenso",
+                "country": "Costa-Rica",
+                "logo": "https://media.api-sports.io/football/leagues/163.png",
+                "flag": "https://media.api-sports.io/flags/cr.svg",
+                "season": 2024,
+                "round": "Apertura - 2"
+            },
+            "teams": {
+                "home": {
+                    "id": 2058,
+                    "name": "CS Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/2058.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 2056,
+                    "name": "Aserri FC",
+                    "logo": "https://media.api-sports.io/football/teams/2056.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 9,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2058,
+                        "name": "CS Uruguay",
+                        "logo": "https://media.api-sports.io/football/teams/2058.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "F. Borbon"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 36,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2058,
+                        "name": "CS Uruguay",
+                        "logo": "https://media.api-sports.io/football/teams/2058.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "F. Borbon"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

@@ -1,0 +1,153 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1234047"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1234047,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-21T20:00:00+00:00",
+                "timestamp": 1721592000,
+                "periods": {
+                    "first": 1721592000,
+                    "second": 1721595600
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Estadio Leonel Placido",
+                    "city": "Puerto Plata"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 759,
+                "name": "Liga Mayor",
+                "country": "Dominican-Republic",
+                "logo": "https://media.api-sports.io/football/leagues/759.png",
+                "flag": "https://media.api-sports.io/flags/do.svg",
+                "season": 2024,
+                "round": "Championship Round - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 16138,
+                    "name": "Atl\u00e1ntico",
+                    "logo": "https://media.api-sports.io/football/teams/16138.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 16139,
+                    "name": "Delfines Del Este",
+                    "logo": "https://media.api-sports.io/football/teams/16139.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 49,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 16139,
+                        "name": "Delfines Del Este",
+                        "logo": "https://media.api-sports.io/football/teams/16139.png"
+                    },
+                    "player": {
+                        "id": 55618,
+                        "name": "Y. Mena"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 16138,
+                        "name": "Atl\u00e1ntico",
+                        "logo": "https://media.api-sports.io/football/teams/16138.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "D. Batista"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 16138,
+                        "name": "Atl\u00e1ntico",
+                        "logo": "https://media.api-sports.io/football/teams/16138.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "J. Gonzalez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

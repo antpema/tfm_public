@@ -1,0 +1,153 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1229719"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1229719,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-03T09:30:00+00:00",
+                "timestamp": 1722677400,
+                "periods": {
+                    "first": 1722677400,
+                    "second": 1722681000
+                },
+                "venue": {
+                    "id": 7100,
+                    "name": "P\u00e4rnu Rannastaadion",
+                    "city": "P\u00e4rnu"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 1126,
+                "name": "Esiliiga B",
+                "country": "Estonia",
+                "logo": "https://media.api-sports.io/football/leagues/1126.png",
+                "flag": "https://media.api-sports.io/flags/ee.svg",
+                "season": 2024,
+                "round": "Regular Season - 21"
+            },
+            "teams": {
+                "home": {
+                    "id": 10061,
+                    "name": "P\u00e4rnu",
+                    "logo": "https://media.api-sports.io/football/teams/10061.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 3531,
+                    "name": "Tulevik",
+                    "logo": "https://media.api-sports.io/football/teams/3531.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 40,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3531,
+                        "name": "Tulevik",
+                        "logo": "https://media.api-sports.io/football/teams/3531.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "R. Pilv"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 74,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10061,
+                        "name": "P\u00e4rnu",
+                        "logo": "https://media.api-sports.io/football/teams/10061.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "I. Mohhov"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 5
+                    },
+                    "team": {
+                        "id": 3531,
+                        "name": "Tulevik",
+                        "logo": "https://media.api-sports.io/football/teams/3531.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "I. Ott"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

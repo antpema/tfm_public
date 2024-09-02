@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1245426"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1245426,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-26T12:00:00+00:00",
+                "timestamp": 1721995200,
+                "periods": {
+                    "first": 1721995200,
+                    "second": 1721998800
+                },
+                "venue": {
+                    "id": 12670,
+                    "name": "Est\u00e1dio El\u00e1dio de Barros Carvalho",
+                    "city": "Recife, Pernambuco"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 1088,
+                "name": "Pernambucano - U20",
+                "country": "Brazil",
+                "logo": "https://media.api-sports.io/football/leagues/1088.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "season": 2024,
+                "round": "Semi-finals"
+            },
+            "teams": {
+                "home": {
+                    "id": 13029,
+                    "name": "Nautico U20",
+                    "logo": "https://media.api-sports.io/football/teams/13029.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 13050,
+                    "name": "Retr\u00f4 U20",
+                    "logo": "https://media.api-sports.io/football/teams/13050.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 13050,
+                        "name": "Retr\u00f4 U20",
+                        "logo": "https://media.api-sports.io/football/teams/13050.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "Elves"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 13050,
+                        "name": "Retr\u00f4 U20",
+                        "logo": "https://media.api-sports.io/football/teams/13050.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "Jeronimo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

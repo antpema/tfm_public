@@ -1,0 +1,880 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1179244"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1179244,
+                "referee": "A. Lashuk",
+                "timezone": "UTC",
+                "date": "2024-08-11T12:30:00+00:00",
+                "timestamp": 1723379400,
+                "periods": {
+                    "first": 1723379400,
+                    "second": 1723383000
+                },
+                "venue": {
+                    "id": 169,
+                    "name": "Stadyen Haradski",
+                    "city": "Slutsk"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 116,
+                "name": "Premier League",
+                "country": "Belarus",
+                "logo": "https://media.api-sports.io/football/leagues/116.png",
+                "flag": "https://media.api-sports.io/flags/by.svg",
+                "season": 2024,
+                "round": "Regular Season - 17"
+            },
+            "teams": {
+                "home": {
+                    "id": 379,
+                    "name": "FC Slutsk",
+                    "logo": "https://media.api-sports.io/football/teams/379.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 385,
+                    "name": "Torpedo Zhodino",
+                    "logo": "https://media.api-sports.io/football/teams/385.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 6,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 379,
+                        "name": "FC Slutsk",
+                        "logo": "https://media.api-sports.io/football/teams/379.png"
+                    },
+                    "player": {
+                        "id": 281813,
+                        "name": "Kirill Tsepenkov"
+                    },
+                    "assist": {
+                        "id": 7954,
+                        "name": "Nikita Melnikov"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 52,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 379,
+                        "name": "FC Slutsk",
+                        "logo": "https://media.api-sports.io/football/teams/379.png"
+                    },
+                    "player": {
+                        "id": 7954,
+                        "name": "Nikita Melnikov"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 66,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 385,
+                        "name": "Torpedo Zhodino",
+                        "logo": "https://media.api-sports.io/football/teams/385.png"
+                    },
+                    "player": {
+                        "id": 7920,
+                        "name": "Aleksandr Ksenofontov"
+                    },
+                    "assist": {
+                        "id": 128290,
+                        "name": "Anton Kovalev"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 66,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 385,
+                        "name": "Torpedo Zhodino",
+                        "logo": "https://media.api-sports.io/football/teams/385.png"
+                    },
+                    "player": {
+                        "id": 8017,
+                        "name": "Vadim Pobudey"
+                    },
+                    "assist": {
+                        "id": 318943,
+                        "name": "Timofey Sharkovskiy"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 66,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 385,
+                        "name": "Torpedo Zhodino",
+                        "logo": "https://media.api-sports.io/football/teams/385.png"
+                    },
+                    "player": {
+                        "id": 8012,
+                        "name": "Aleksey Zaleskiy"
+                    },
+                    "assist": {
+                        "id": 108245,
+                        "name": "Ilya Vasilevich"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 66,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 385,
+                        "name": "Torpedo Zhodino",
+                        "logo": "https://media.api-sports.io/football/teams/385.png"
+                    },
+                    "player": {
+                        "id": 8193,
+                        "name": "Ilya Rutskiy"
+                    },
+                    "assist": {
+                        "id": 7774,
+                        "name": "Igor Burko"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 379,
+                        "name": "FC Slutsk",
+                        "logo": "https://media.api-sports.io/football/teams/379.png"
+                    },
+                    "player": {
+                        "id": 281813,
+                        "name": "Kirill Tsepenkov"
+                    },
+                    "assist": {
+                        "id": 311271,
+                        "name": "Arseny Achapovsky"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 79,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 379,
+                        "name": "FC Slutsk",
+                        "logo": "https://media.api-sports.io/football/teams/379.png"
+                    },
+                    "player": {
+                        "id": 8328,
+                        "name": "Ivan Yurin"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 379,
+                        "name": "FC Slutsk",
+                        "logo": "https://media.api-sports.io/football/teams/379.png"
+                    },
+                    "player": {
+                        "id": 8328,
+                        "name": "Ivan Yurin"
+                    },
+                    "assist": {
+                        "id": 265409,
+                        "name": "Andrey Rum"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 379,
+                        "name": "FC Slutsk",
+                        "logo": "https://media.api-sports.io/football/teams/379.png"
+                    },
+                    "player": {
+                        "id": 264162,
+                        "name": "Vladislav Sychev"
+                    },
+                    "assist": {
+                        "id": 411971,
+                        "name": "Ilya Dubinets"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 379,
+                        "name": "FC Slutsk",
+                        "logo": "https://media.api-sports.io/football/teams/379.png",
+                        "colors": {
+                            "player": {
+                                "primary": "ffffff",
+                                "number": "dd0000",
+                                "border": "ffffff"
+                            },
+                            "goalkeeper": {
+                                "primary": "ff3300",
+                                "number": "ffffff",
+                                "border": "ff3300"
+                            }
+                        }
+                    },
+                    "formation": "4-5-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 8076,
+                                "name": "Ilya Branovets",
+                                "number": 30,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 8328,
+                                "name": "Ivan Yurin",
+                                "number": 77,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 76396,
+                                "name": "Nikita Bylinkin",
+                                "number": 12,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 348177,
+                                "name": "Ivan Mikhnyuk",
+                                "number": 5,
+                                "pos": "M",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 266077,
+                                "name": "Aleksey Semenov",
+                                "number": 16,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 318939,
+                                "name": "Grigoriy Martyanov",
+                                "number": 18,
+                                "pos": "D",
+                                "grid": "3:5"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7943,
+                                "name": "Vadim Kurlovich",
+                                "number": 27,
+                                "pos": "M",
+                                "grid": "3:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 281813,
+                                "name": "Kirill Tsepenkov",
+                                "number": 10,
+                                "pos": "F",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 264162,
+                                "name": "Vladislav Sychev",
+                                "number": 9,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 8043,
+                                "name": "Sergei Pushnyakov",
+                                "number": 7,
+                                "pos": "D",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7954,
+                                "name": "Nikita Melnikov",
+                                "number": 11,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 311271,
+                                "name": "Arseny Achapovsky",
+                                "number": 31,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 265409,
+                                "name": "Andrey Rum",
+                                "number": 15,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 411971,
+                                "name": "Ilya Dubinets",
+                                "number": 29,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 359629,
+                                "name": "Vladislav Karpenya",
+                                "number": 2,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 463650,
+                                "name": "Arthur Bougnone",
+                                "number": 30,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 272064,
+                                "name": "Mikhail Sachkovskiy",
+                                "number": 44,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 461108,
+                                "name": "Ilya Tishurov",
+                                "number": 17,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 8146,
+                                "name": "Yaroslav Yarotskiy",
+                                "number": 23,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 19511,
+                        "name": "A. Gurinovich",
+                        "photo": "https://media.api-sports.io/football/coachs/19511.png"
+                    }
+                },
+                {
+                    "team": {
+                        "id": 385,
+                        "name": "Torpedo Zhodino",
+                        "logo": "https://media.api-sports.io/football/teams/385.png",
+                        "colors": {
+                            "player": {
+                                "primary": "000000",
+                                "number": "ffffff",
+                                "border": "000000"
+                            },
+                            "goalkeeper": {
+                                "primary": "0000ff",
+                                "number": "ffffff",
+                                "border": "0000ff"
+                            }
+                        }
+                    },
+                    "formation": "3-4-3",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 76369,
+                                "name": "Evgeni Abramovich",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 8168,
+                                "name": "Danila Nechaev",
+                                "number": 27,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 8193,
+                                "name": "Ilya Rutskiy",
+                                "number": 19,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 8115,
+                                "name": "Aleksey Butarevich",
+                                "number": 44,
+                                "pos": "M",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 8012,
+                                "name": "Aleksey Zaleskiy",
+                                "number": 13,
+                                "pos": "D",
+                                "grid": "3:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7870,
+                                "name": "Kirill Premudrov",
+                                "number": 6,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7920,
+                                "name": "Aleksandr Ksenofontov",
+                                "number": 55,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 8017,
+                                "name": "Vadim Pobudey",
+                                "number": 30,
+                                "pos": "F",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 123896,
+                                "name": "Alimardon Shukurov",
+                                "number": 22,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 2326,
+                                "name": "Maksim Skavysh",
+                                "number": 15,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7867,
+                                "name": "Denis Levitskiy",
+                                "number": 11,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 7774,
+                                "name": "Igor Burko",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 128290,
+                                "name": "Anton Kovalev",
+                                "number": 17,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 318943,
+                                "name": "Timofey Sharkovskiy",
+                                "number": 21,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 108245,
+                                "name": "Ilya Vasilevich",
+                                "number": 23,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 8128,
+                                "name": "Pavel Prishivalko",
+                                "number": 37,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 371033,
+                                "name": "Vladislav Melko",
+                                "number": 96,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 76355,
+                                "name": "Nikita Patsko",
+                                "number": 18,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 106979,
+                                "name": "Andrei Cobet",
+                                "number": 7,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 464733,
+                                "name": "Stanislav Ruban",
+                                "number": 14,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 11609,
+                        "name": "D. Molosh",
+                        "photo": "https://media.api-sports.io/football/coachs/11609.png"
+                    }
+                }
+            ],
+            "statistics": [
+                {
+                    "team": {
+                        "id": 379,
+                        "name": "FC Slutsk",
+                        "logo": "https://media.api-sports.io/football/teams/379.png"
+                    },
+                    "statistics": [
+                        {
+                            "type": "Shots on Goal",
+                            "value": null
+                        },
+                        {
+                            "type": "Shots off Goal",
+                            "value": null
+                        },
+                        {
+                            "type": "Total Shots",
+                            "value": null
+                        },
+                        {
+                            "type": "Blocked Shots",
+                            "value": null
+                        },
+                        {
+                            "type": "Shots insidebox",
+                            "value": null
+                        },
+                        {
+                            "type": "Shots outsidebox",
+                            "value": null
+                        },
+                        {
+                            "type": "Fouls",
+                            "value": null
+                        },
+                        {
+                            "type": "Corner Kicks",
+                            "value": null
+                        },
+                        {
+                            "type": "Offsides",
+                            "value": null
+                        },
+                        {
+                            "type": "Ball Possession",
+                            "value": null
+                        },
+                        {
+                            "type": "Yellow Cards",
+                            "value": 1
+                        },
+                        {
+                            "type": "Red Cards",
+                            "value": 1
+                        },
+                        {
+                            "type": "Goalkeeper Saves",
+                            "value": null
+                        },
+                        {
+                            "type": "Total passes",
+                            "value": null
+                        },
+                        {
+                            "type": "Passes accurate",
+                            "value": null
+                        },
+                        {
+                            "type": "Passes %",
+                            "value": null
+                        },
+                        {
+                            "type": "expected_goals",
+                            "value": null
+                        },
+                        {
+                            "type": "goals_prevented",
+                            "value": null
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 385,
+                        "name": "Torpedo Zhodino",
+                        "logo": "https://media.api-sports.io/football/teams/385.png"
+                    },
+                    "statistics": [
+                        {
+                            "type": "Shots on Goal",
+                            "value": null
+                        },
+                        {
+                            "type": "Shots off Goal",
+                            "value": null
+                        },
+                        {
+                            "type": "Total Shots",
+                            "value": null
+                        },
+                        {
+                            "type": "Blocked Shots",
+                            "value": null
+                        },
+                        {
+                            "type": "Shots insidebox",
+                            "value": null
+                        },
+                        {
+                            "type": "Shots outsidebox",
+                            "value": null
+                        },
+                        {
+                            "type": "Fouls",
+                            "value": null
+                        },
+                        {
+                            "type": "Corner Kicks",
+                            "value": null
+                        },
+                        {
+                            "type": "Offsides",
+                            "value": null
+                        },
+                        {
+                            "type": "Ball Possession",
+                            "value": null
+                        },
+                        {
+                            "type": "Yellow Cards",
+                            "value": 0
+                        },
+                        {
+                            "type": "Red Cards",
+                            "value": 0
+                        },
+                        {
+                            "type": "Goalkeeper Saves",
+                            "value": null
+                        },
+                        {
+                            "type": "Total passes",
+                            "value": null
+                        },
+                        {
+                            "type": "Passes accurate",
+                            "value": null
+                        },
+                        {
+                            "type": "Passes %",
+                            "value": null
+                        },
+                        {
+                            "type": "expected_goals",
+                            "value": null
+                        },
+                        {
+                            "type": "goals_prevented",
+                            "value": null
+                        }
+                    ]
+                }
+            ],
+            "players": []
+        }
+    ]
+}

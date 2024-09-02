@@ -1,0 +1,109 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1149462"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1149462,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-27T09:00:00+00:00",
+                "timestamp": 1722070800,
+                "periods": {
+                    "first": 1722070800,
+                    "second": 1722074400
+                },
+                "venue": {
+                    "id": 19363,
+                    "name": "Arlington Oval",
+                    "city": "Dulwich Hill"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 835,
+                "name": "New South Wales NPL 2",
+                "country": "Australia",
+                "logo": "https://media.api-sports.io/football/leagues/835.png",
+                "flag": "https://media.api-sports.io/flags/au.svg",
+                "season": 2024,
+                "round": "Regular Season - 26"
+            },
+            "teams": {
+                "home": {
+                    "id": 20793,
+                    "name": "Dulwich Hill",
+                    "logo": "https://media.api-sports.io/football/teams/20793.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 12740,
+                    "name": "Bonnyrigg White Eagles",
+                    "logo": "https://media.api-sports.io/football/teams/12740.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 54,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 20793,
+                        "name": "Dulwich Hill",
+                        "logo": "https://media.api-sports.io/football/teams/20793.png"
+                    },
+                    "player": {
+                        "id": 402771,
+                        "name": "J. Bradshaw"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

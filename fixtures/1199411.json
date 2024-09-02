@@ -1,0 +1,739 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1199411"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1199411,
+                "referee": "M. Jackus",
+                "timezone": "UTC",
+                "date": "2024-07-19T17:00:00+00:00",
+                "timestamp": 1721408400,
+                "periods": {
+                    "first": 1721408400,
+                    "second": 1721412000
+                },
+                "venue": {
+                    "id": 2644,
+                    "name": "Tel\u0161i\u0173 centrinis stadionas",
+                    "city": "Tel\u0161iai"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 362,
+                "name": "A Lyga",
+                "country": "Lithuania",
+                "logo": "https://media.api-sports.io/football/leagues/362.png",
+                "flag": "https://media.api-sports.io/flags/lt.svg",
+                "season": 2024,
+                "round": "Regular Season - 23"
+            },
+            "teams": {
+                "home": {
+                    "id": 3860,
+                    "name": "D\u017eiugas Tel\u0161iai",
+                    "logo": "https://media.api-sports.io/football/teams/3860.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 3861,
+                    "name": "Hegelmann Litauen",
+                    "logo": "https://media.api-sports.io/football/teams/3861.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 54,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3861,
+                        "name": "Hegelmann Litauen",
+                        "logo": "https://media.api-sports.io/football/teams/3861.png"
+                    },
+                    "player": {
+                        "id": 96449,
+                        "name": "Michael Thu\u00edque"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3860,
+                        "name": "D\u017eiugas Tel\u0161iai",
+                        "logo": "https://media.api-sports.io/football/teams/3860.png"
+                    },
+                    "player": {
+                        "id": 317444,
+                        "name": "E. Bagu\u017eas"
+                    },
+                    "assist": {
+                        "id": 174563,
+                        "name": "C. Bella"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3860,
+                        "name": "D\u017eiugas Tel\u0161iai",
+                        "logo": "https://media.api-sports.io/football/teams/3860.png"
+                    },
+                    "player": {
+                        "id": 128744,
+                        "name": "D. Kubilinskas"
+                    },
+                    "assist": {
+                        "id": 382501,
+                        "name": "H. Yamada"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3860,
+                        "name": "D\u017eiugas Tel\u0161iai",
+                        "logo": "https://media.api-sports.io/football/teams/3860.png"
+                    },
+                    "player": {
+                        "id": 76447,
+                        "name": "S. Kulynych"
+                    },
+                    "assist": {
+                        "id": 338789,
+                        "name": "D. Aleksa"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3860,
+                        "name": "D\u017eiugas Tel\u0161iai",
+                        "logo": "https://media.api-sports.io/football/teams/3860.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 72,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3861,
+                        "name": "Hegelmann Litauen",
+                        "logo": "https://media.api-sports.io/football/teams/3861.png"
+                    },
+                    "player": {
+                        "id": 96449,
+                        "name": "Michael Thu\u00edque"
+                    },
+                    "assist": {
+                        "id": 459059,
+                        "name": "A. Njoya"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 72,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3861,
+                        "name": "Hegelmann Litauen",
+                        "logo": "https://media.api-sports.io/football/teams/3861.png"
+                    },
+                    "player": {
+                        "id": 69918,
+                        "name": "M. Vareika"
+                    },
+                    "assist": {
+                        "id": 266455,
+                        "name": "E. Kau\u0161inis"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 77,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3860,
+                        "name": "D\u017eiugas Tel\u0161iai",
+                        "logo": "https://media.api-sports.io/football/teams/3860.png"
+                    },
+                    "player": {
+                        "id": 319869,
+                        "name": "L. Estevez Fernandez"
+                    },
+                    "assist": {
+                        "id": 69923,
+                        "name": "M. Mikulenas"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3861,
+                        "name": "Hegelmann Litauen",
+                        "logo": "https://media.api-sports.io/football/teams/3861.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 84,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3860,
+                        "name": "D\u017eiugas Tel\u0161iai",
+                        "logo": "https://media.api-sports.io/football/teams/3860.png"
+                    },
+                    "player": {
+                        "id": 128741,
+                        "name": "E. Gasi\u016bnas"
+                    },
+                    "assist": {
+                        "id": 334269,
+                        "name": "David Braz\u00e3o"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 3
+                    },
+                    "team": {
+                        "id": 3861,
+                        "name": "Hegelmann Litauen",
+                        "logo": "https://media.api-sports.io/football/teams/3861.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 4
+                    },
+                    "team": {
+                        "id": 3861,
+                        "name": "Hegelmann Litauen",
+                        "logo": "https://media.api-sports.io/football/teams/3861.png"
+                    },
+                    "player": {
+                        "id": 266455,
+                        "name": "E. Kau\u0161inis"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 3860,
+                        "name": "D\u017eiugas Tel\u0161iai",
+                        "logo": "https://media.api-sports.io/football/teams/3860.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 21948,
+                        "name": "A. Lipskis",
+                        "photo": "https://media.api-sports.io/football/coachs/21948.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 72443,
+                                "name": "I. Baturins",
+                                "number": 97,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28471,
+                                "name": "D. Trajkovski",
+                                "number": 24,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 76447,
+                                "name": "S. Kulynych",
+                                "number": 62,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 10889,
+                                "name": "M. Pushkarov",
+                                "number": 3,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 237256,
+                                "name": "B. San\u00e9",
+                                "number": 29,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70060,
+                                "name": "T. Dombrauskis",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 128744,
+                                "name": "D. Kubilinskas",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 128741,
+                                "name": "E. Gasi\u016bnas",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 319869,
+                                "name": "L. Estevez Fernandez",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 373787,
+                                "name": "N. Noordanus",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 317444,
+                                "name": "E. Bagu\u017eas",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 174563,
+                                "name": "C. Bella",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 382501,
+                                "name": "H. Yamada",
+                                "number": 27,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 338789,
+                                "name": "D. Aleksa",
+                                "number": 30,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 69923,
+                                "name": "M. Mikulenas",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 334269,
+                                "name": "David Braz\u00e3o",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 357740,
+                                "name": "A. Pilipavi\u010dius",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 131514,
+                                "name": "D. Vinckus",
+                                "number": 37,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 392170,
+                                "name": "A. Stulga",
+                                "number": 77,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 357739,
+                                "name": "V. Gaudie\u0161ius",
+                                "number": 99,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 3861,
+                        "name": "Hegelmann Litauen",
+                        "logo": "https://media.api-sports.io/football/teams/3861.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 14098,
+                        "name": "A. Skerla",
+                        "photo": "https://media.api-sports.io/football/coachs/14098.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 306531,
+                                "name": "A. Bra\u017einskas",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70016,
+                                "name": "K. Upstas",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 54498,
+                                "name": "Hugo Figueiredo",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 157223,
+                                "name": "V. Armalas",
+                                "number": 66,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 102542,
+                                "name": "S. Kingue",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 101536,
+                                "name": "A. Shchedryi",
+                                "number": 45,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 237770,
+                                "name": "Leonardo",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 42839,
+                                "name": "P. Popescu",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7356,
+                                "name": "D. Bo\u0161njak",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 69918,
+                                "name": "M. Vareika",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 96449,
+                                "name": "Michael Thu\u00edque",
+                                "number": 99,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 459059,
+                                "name": "A. Njoya",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 266455,
+                                "name": "E. Kau\u0161inis",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 134735,
+                                "name": "Douglas Cruz",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 338953,
+                                "name": "K. Ol\u0161auskas",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 69947,
+                                "name": "V. \u0160arkauskas",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 469586,
+                                "name": "D. Pa\u0161ilys",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 128729,
+                                "name": "K. Keliauskas",
+                                "number": 25,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 72349,
+                                "name": "Felipe Brisola",
+                                "number": 30,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

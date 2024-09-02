@@ -1,0 +1,668 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1242526"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1242526,
+                "referee": "J. Klemm",
+                "timezone": "UTC",
+                "date": "2024-08-03T11:00:00+00:00",
+                "timestamp": 1722682800,
+                "periods": {
+                    "first": 1722682800,
+                    "second": 1722686400
+                },
+                "venue": {
+                    "id": 2713,
+                    "name": "Karl-Liebknecht-Stadion",
+                    "city": "Potsdam"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 85,
+                "name": "Regionalliga - Nordost",
+                "country": "Germany",
+                "logo": "https://media.api-sports.io/football/leagues/85.png",
+                "flag": "https://media.api-sports.io/flags/de.svg",
+                "season": 2024,
+                "round": "Nordost - 2"
+            },
+            "teams": {
+                "home": {
+                    "id": 1622,
+                    "name": "SV Babelsberg 03",
+                    "logo": "https://media.api-sports.io/football/teams/1622.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 1636,
+                    "name": "BFC Dynamo",
+                    "logo": "https://media.api-sports.io/football/teams/1636.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 30,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1636,
+                        "name": "BFC Dynamo",
+                        "logo": "https://media.api-sports.io/football/teams/1636.png"
+                    },
+                    "player": {
+                        "id": 177346,
+                        "name": "T. Stockinger"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1622,
+                        "name": "SV Babelsberg 03",
+                        "logo": "https://media.api-sports.io/football/teams/1622.png"
+                    },
+                    "player": {
+                        "id": 177960,
+                        "name": "L. Schulz"
+                    },
+                    "assist": {
+                        "id": 162728,
+                        "name": "R. Werthm\u00fcller"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 58,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1636,
+                        "name": "BFC Dynamo",
+                        "logo": "https://media.api-sports.io/football/teams/1636.png"
+                    },
+                    "player": {
+                        "id": 328275,
+                        "name": "K. El Abed"
+                    },
+                    "assist": {
+                        "id": 25958,
+                        "name": "David Haider"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 60,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1622,
+                        "name": "SV Babelsberg 03",
+                        "logo": "https://media.api-sports.io/football/teams/1622.png"
+                    },
+                    "player": {
+                        "id": 261098,
+                        "name": "S. Werbelow"
+                    },
+                    "assist": {
+                        "id": 88007,
+                        "name": "D. Frahn"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 68,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1636,
+                        "name": "BFC Dynamo",
+                        "logo": "https://media.api-sports.io/football/teams/1636.png"
+                    },
+                    "player": {
+                        "id": 177338,
+                        "name": "I. Kne\u017eevi\u0107"
+                    },
+                    "assist": {
+                        "id": 327946,
+                        "name": "J. Hasenberg"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1622,
+                        "name": "SV Babelsberg 03",
+                        "logo": "https://media.api-sports.io/football/teams/1622.png"
+                    },
+                    "player": {
+                        "id": 177619,
+                        "name": "M. Bachmann"
+                    },
+                    "assist": {
+                        "id": 380811,
+                        "name": "G. Didoss"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1636,
+                        "name": "BFC Dynamo",
+                        "logo": "https://media.api-sports.io/football/teams/1636.png"
+                    },
+                    "player": {
+                        "id": 177346,
+                        "name": "T. Stockinger"
+                    },
+                    "assist": {
+                        "id": 279897,
+                        "name": "L. Malina"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1636,
+                        "name": "BFC Dynamo",
+                        "logo": "https://media.api-sports.io/football/teams/1636.png"
+                    },
+                    "player": {
+                        "id": 273127,
+                        "name": "H. Crosthwaite"
+                    },
+                    "assist": {
+                        "id": 7119,
+                        "name": "T. Friedrich"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1622,
+                        "name": "SV Babelsberg 03",
+                        "logo": "https://media.api-sports.io/football/teams/1622.png"
+                    },
+                    "player": {
+                        "id": 273727,
+                        "name": "P. Wegener"
+                    },
+                    "assist": {
+                        "id": 387305,
+                        "name": "D. Silic"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 89,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1622,
+                        "name": "SV Babelsberg 03",
+                        "logo": "https://media.api-sports.io/football/teams/1622.png"
+                    },
+                    "player": {
+                        "id": 88007,
+                        "name": "D. Frahn"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 1622,
+                        "name": "SV Babelsberg 03",
+                        "logo": "https://media.api-sports.io/football/teams/1622.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 12335,
+                        "name": "A. Meyer",
+                        "photo": "https://media.api-sports.io/football/coachs/12335.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 327926,
+                                "name": "S. Jung",
+                                "number": 12,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 90972,
+                                "name": "P. Zeiger",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 153032,
+                                "name": "G. B\u00fcch",
+                                "number": 27,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 91179,
+                                "name": "J. Vollert",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 125234,
+                                "name": "A. Pollasch",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 25347,
+                                "name": "M. \u010covi\u0107",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 202612,
+                                "name": "J. Postelt",
+                                "number": 28,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 261098,
+                                "name": "S. Werbelow",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 273727,
+                                "name": "P. Wegener",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 177960,
+                                "name": "L. Schulz",
+                                "number": 24,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 177619,
+                                "name": "M. Bachmann",
+                                "number": 33,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 162728,
+                                "name": "R. Werthm\u00fcller",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 88007,
+                                "name": "D. Frahn",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 380811,
+                                "name": "G. Didoss",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 387305,
+                                "name": "D. Silic",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 279988,
+                                "name": "L. Dahlke",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 413119,
+                                "name": "J. Korn",
+                                "number": 29,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 87998,
+                                "name": "C. H\u00e4usl",
+                                "number": 31,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 1636,
+                        "name": "BFC Dynamo",
+                        "logo": "https://media.api-sports.io/football/teams/1636.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 14362,
+                        "name": "A. Heraf",
+                        "photo": "https://media.api-sports.io/football/coachs/14362.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 26394,
+                                "name": "L. B\u00e4tge",
+                                "number": 34,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 26028,
+                                "name": "C. Reher",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 90732,
+                                "name": "S. Eder",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 128802,
+                                "name": "D. Gr\u00f6zinger",
+                                "number": 27,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 328275,
+                                "name": "K. El Abed",
+                                "number": 24,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7076,
+                                "name": "J. Wie\u00dfmeier",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 177338,
+                                "name": "I. Kne\u017eevi\u0107",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 177346,
+                                "name": "T. Stockinger",
+                                "number": 25,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 127847,
+                                "name": "M. H\u00fcther",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 26389,
+                                "name": "R. Dada\u015fov",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 273127,
+                                "name": "H. Crosthwaite",
+                                "number": 29,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 25958,
+                                "name": "David Haider",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 327946,
+                                "name": "J. Hasenberg",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 279897,
+                                "name": "L. Malina",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7119,
+                                "name": "T. Friedrich",
+                                "number": 30,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 25209,
+                                "name": "J. Breitfeld",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 127654,
+                                "name": "B. Meyer",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 26003,
+                                "name": "K. Sommer",
+                                "number": 79,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

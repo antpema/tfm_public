@@ -1,0 +1,863 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1234054"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1234054,
+                "referee": "Y. Herrera",
+                "timezone": "UTC",
+                "date": "2024-07-18T00:30:00+00:00",
+                "timestamp": 1721262600,
+                "periods": {
+                    "first": 1721262600,
+                    "second": 1721266200
+                },
+                "venue": {
+                    "id": 1653,
+                    "name": "Estadio Ol\u00edmpico de la UCV",
+                    "city": "Caracas"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 299,
+                "name": "Primera Divisi\u00f3n",
+                "country": "Venezuela",
+                "logo": "https://media.api-sports.io/football/leagues/299.png",
+                "flag": "https://media.api-sports.io/flags/ve.svg",
+                "season": 2024,
+                "round": "Clausura - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 2825,
+                    "name": "Metropolitanos FC",
+                    "logo": "https://media.api-sports.io/football/teams/2825.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 2811,
+                    "name": "Monagas SC",
+                    "logo": "https://media.api-sports.io/football/teams/2811.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 13,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2825,
+                        "name": "Metropolitanos FC",
+                        "logo": "https://media.api-sports.io/football/teams/2825.png"
+                    },
+                    "player": {
+                        "id": 52455,
+                        "name": "R. Manr\u00edque"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Own Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 23,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2825,
+                        "name": "Metropolitanos FC",
+                        "logo": "https://media.api-sports.io/football/teams/2825.png"
+                    },
+                    "player": {
+                        "id": 52554,
+                        "name": "M. Bustillo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 29,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2811,
+                        "name": "Monagas SC",
+                        "logo": "https://media.api-sports.io/football/teams/2811.png"
+                    },
+                    "player": {
+                        "id": 11573,
+                        "name": "H. Garc\u00eda"
+                    },
+                    "assist": {
+                        "id": 57910,
+                        "name": "T. Rodr\u00edguez"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 36,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2811,
+                        "name": "Monagas SC",
+                        "logo": "https://media.api-sports.io/football/teams/2811.png"
+                    },
+                    "player": {
+                        "id": 52797,
+                        "name": "C. Rodriguez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 38,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2811,
+                        "name": "Monagas SC",
+                        "logo": "https://media.api-sports.io/football/teams/2811.png"
+                    },
+                    "player": {
+                        "id": 323846,
+                        "name": "G. Villarreal"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 2
+                    },
+                    "team": {
+                        "id": 2825,
+                        "name": "Metropolitanos FC",
+                        "logo": "https://media.api-sports.io/football/teams/2825.png"
+                    },
+                    "player": {
+                        "id": 52921,
+                        "name": "S. J. Pabon Delgao"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2825,
+                        "name": "Metropolitanos FC",
+                        "logo": "https://media.api-sports.io/football/teams/2825.png"
+                    },
+                    "player": {
+                        "id": 52429,
+                        "name": "R. Garc\u00e9s"
+                    },
+                    "assist": {
+                        "id": 53037,
+                        "name": "J. March\u00e1n"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 49,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2811,
+                        "name": "Monagas SC",
+                        "logo": "https://media.api-sports.io/football/teams/2811.png"
+                    },
+                    "player": {
+                        "id": 57910,
+                        "name": "T. Rodr\u00edguez"
+                    },
+                    "assist": {
+                        "id": 159161,
+                        "name": "A. Romero"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 61,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2811,
+                        "name": "Monagas SC",
+                        "logo": "https://media.api-sports.io/football/teams/2811.png"
+                    },
+                    "player": {
+                        "id": 11573,
+                        "name": "H. Garc\u00eda"
+                    },
+                    "assist": {
+                        "id": 197661,
+                        "name": "J. Caraballo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 62,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2825,
+                        "name": "Metropolitanos FC",
+                        "logo": "https://media.api-sports.io/football/teams/2825.png"
+                    },
+                    "player": {
+                        "id": 52554,
+                        "name": "M. Bustillo"
+                    },
+                    "assist": {
+                        "id": 59937,
+                        "name": "M. Fedor"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2825,
+                        "name": "Metropolitanos FC",
+                        "logo": "https://media.api-sports.io/football/teams/2825.png"
+                    },
+                    "player": {
+                        "id": 199722,
+                        "name": "C. D\u00edaz"
+                    },
+                    "assist": {
+                        "id": 53035,
+                        "name": "\u00c1. Lucena"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2825,
+                        "name": "Metropolitanos FC",
+                        "logo": "https://media.api-sports.io/football/teams/2825.png"
+                    },
+                    "player": {
+                        "id": 52657,
+                        "name": "J. Fuentes"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2825,
+                        "name": "Metropolitanos FC",
+                        "logo": "https://media.api-sports.io/football/teams/2825.png"
+                    },
+                    "player": {
+                        "id": 52924,
+                        "name": "W. Ara\u00fajo"
+                    },
+                    "assist": {
+                        "id": 311018,
+                        "name": "C. Paraco"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2811,
+                        "name": "Monagas SC",
+                        "logo": "https://media.api-sports.io/football/teams/2811.png"
+                    },
+                    "player": {
+                        "id": 197661,
+                        "name": "J. Caraballo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2825,
+                        "name": "Metropolitanos FC",
+                        "logo": "https://media.api-sports.io/football/teams/2825.png"
+                    },
+                    "player": {
+                        "id": 52817,
+                        "name": "D. Lin\u00e1rez"
+                    },
+                    "assist": {
+                        "id": 52939,
+                        "name": "I. Ant\u00f3n"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2811,
+                        "name": "Monagas SC",
+                        "logo": "https://media.api-sports.io/football/teams/2811.png"
+                    },
+                    "player": {
+                        "id": 39612,
+                        "name": "J. Murillo"
+                    },
+                    "assist": {
+                        "id": 415110,
+                        "name": "R. Rodr\u00edguez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 2825,
+                        "name": "Metropolitanos FC",
+                        "logo": "https://media.api-sports.io/football/teams/2825.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 2832,
+                        "name": "J. Morr",
+                        "photo": "https://media.api-sports.io/football/coachs/2832.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 461022,
+                                "name": "S. Aspajo",
+                                "number": 99,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52817,
+                                "name": "D. Lin\u00e1rez",
+                                "number": 3,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 53096,
+                                "name": "K. De la Hoz",
+                                "number": 77,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52657,
+                                "name": "J. Fuentes",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52921,
+                                "name": "S. Pab\u00f3n",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 199722,
+                                "name": "C. D\u00edaz",
+                                "number": 26,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52429,
+                                "name": "R. Garc\u00e9s",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52924,
+                                "name": "W. Ara\u00fajo",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 129951,
+                                "name": "D. Zalzman",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 57688,
+                                "name": "E. Zorrilla",
+                                "number": 28,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52554,
+                                "name": "M. Bustillo",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 53037,
+                                "name": "J. March\u00e1n",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 59937,
+                                "name": "M. Fedor",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 53035,
+                                "name": "\u00c1. Lucena",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 311018,
+                                "name": "C. Paraco",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52939,
+                                "name": "I. Ant\u00f3n",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 126662,
+                                "name": "E. Ru\u00edz",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 461024,
+                                "name": "Y. Lozada",
+                                "number": 24,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52972,
+                                "name": "E. Valderrey",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 311263,
+                                "name": "L. P\u00e9rez",
+                                "number": 31,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 406221,
+                                "name": "J. Lara",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 461025,
+                                "name": "J. Navarro",
+                                "number": 88,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 471412,
+                                "name": "\u00c1. Rivas",
+                                "number": 45,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 2811,
+                        "name": "Monagas SC",
+                        "logo": "https://media.api-sports.io/football/teams/2811.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 22211,
+                        "name": "G. Perozo",
+                        "photo": "https://media.api-sports.io/football/coachs/22211.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 52415,
+                                "name": "E. Herrera",
+                                "number": 12,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 16362,
+                                "name": "\u00d3. Gonz\u00e1lez",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70817,
+                                "name": "R. Cabrera",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52797,
+                                "name": "C. Rodr\u00edguez",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52455,
+                                "name": "R. Manr\u00edque",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 323846,
+                                "name": "G. Villarreal",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 39612,
+                                "name": "J. Murillo",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 11573,
+                                "name": "H. Garc\u00eda",
+                                "number": 24,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52931,
+                                "name": "C. Larotonda",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 159161,
+                                "name": "A. Romero",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 57910,
+                                "name": "T. Rodr\u00edguez",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 197661,
+                                "name": "J. Caraballo",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 415110,
+                                "name": "R. Rodr\u00edguez",
+                                "number": 39,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 389575,
+                                "name": "Y. P\u00e9rez",
+                                "number": 33,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 389574,
+                                "name": "R. Iriarte",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 474991,
+                                "name": "Y. Sulbar\u00e1n",
+                                "number": 30,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 314308,
+                                "name": "D. Castillo",
+                                "number": 26,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 376739,
+                                "name": "J. Cabrera",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 414205,
+                                "name": "S. Asibe",
+                                "number": 38,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 474986,
+                                "name": "E. Osorio",
+                                "number": 99,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

@@ -1,0 +1,929 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1211329"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1211329,
+                "referee": "J. Erdos",
+                "timezone": "UTC",
+                "date": "2024-07-26T18:15:00+00:00",
+                "timestamp": 1722017700,
+                "periods": {
+                    "first": 1722017700,
+                    "second": 1722021300
+                },
+                "venue": {
+                    "id": 805,
+                    "name": "V\u00e1rosi Stadion",
+                    "city": "Mez\u0151k\u00f6vesd"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 271,
+                "name": "NB I",
+                "country": "Hungary",
+                "logo": "https://media.api-sports.io/football/leagues/271.png",
+                "flag": "https://media.api-sports.io/flags/hu.svg",
+                "season": 2024,
+                "round": "Regular Season - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 2403,
+                    "name": "Nyiregyhaza",
+                    "logo": "https://media.api-sports.io/football/teams/2403.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 2402,
+                    "name": "Gyori ETO FC",
+                    "logo": "https://media.api-sports.io/football/teams/2402.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 29,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2403,
+                        "name": "Nyiregyhaza",
+                        "logo": "https://media.api-sports.io/football/teams/2403.png"
+                    },
+                    "player": {
+                        "id": 28542,
+                        "name": "M. Kov\u00e1csr\u00e9ti"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2402,
+                        "name": "Gyori ETO FC",
+                        "logo": "https://media.api-sports.io/football/teams/2402.png"
+                    },
+                    "player": {
+                        "id": 27785,
+                        "name": "J. Sz\u00e9pe"
+                    },
+                    "assist": {
+                        "id": 3713,
+                        "name": "E. Bitri"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2402,
+                        "name": "Gyori ETO FC",
+                        "logo": "https://media.api-sports.io/football/teams/2402.png"
+                    },
+                    "player": {
+                        "id": 271296,
+                        "name": "C. Kr\u00f6hn"
+                    },
+                    "assist": {
+                        "id": 133396,
+                        "name": "\u017d. Gavri\u0107"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 55,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2403,
+                        "name": "Nyiregyhaza",
+                        "logo": "https://media.api-sports.io/football/teams/2403.png"
+                    },
+                    "player": {
+                        "id": 178720,
+                        "name": "P. Beke"
+                    },
+                    "assist": {
+                        "id": 289734,
+                        "name": "M. Gres\u00f3"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 58,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2402,
+                        "name": "Gyori ETO FC",
+                        "logo": "https://media.api-sports.io/football/teams/2402.png"
+                    },
+                    "player": {
+                        "id": 133396,
+                        "name": "Z. Gavric"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2403,
+                        "name": "Nyiregyhaza",
+                        "logo": "https://media.api-sports.io/football/teams/2403.png"
+                    },
+                    "player": {
+                        "id": 353056,
+                        "name": "B. Farkas"
+                    },
+                    "assist": {
+                        "id": 37625,
+                        "name": "J. Navr\u00e1til"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2403,
+                        "name": "Nyiregyhaza",
+                        "logo": "https://media.api-sports.io/football/teams/2403.png"
+                    },
+                    "player": {
+                        "id": 289734,
+                        "name": "M. Gres\u00f3"
+                    },
+                    "assist": {
+                        "id": 89036,
+                        "name": "P. Pinte"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 61,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2402,
+                        "name": "Gyori ETO FC",
+                        "logo": "https://media.api-sports.io/football/teams/2402.png"
+                    },
+                    "player": {
+                        "id": 419517,
+                        "name": "R. T\u00f3th"
+                    },
+                    "assist": {
+                        "id": 305859,
+                        "name": "M. Krivokapi\u0107"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 68,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2402,
+                        "name": "Gyori ETO FC",
+                        "logo": "https://media.api-sports.io/football/teams/2402.png"
+                    },
+                    "player": {
+                        "id": 45349,
+                        "name": "N. Luki\u0107"
+                    },
+                    "assist": {
+                        "id": 137546,
+                        "name": "B. Farkas"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2402,
+                        "name": "Gyori ETO FC",
+                        "logo": "https://media.api-sports.io/football/teams/2402.png"
+                    },
+                    "player": {
+                        "id": 3713,
+                        "name": "E. Bitri"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 75,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2403,
+                        "name": "Nyiregyhaza",
+                        "logo": "https://media.api-sports.io/football/teams/2403.png"
+                    },
+                    "player": {
+                        "id": 178720,
+                        "name": "P. Beke"
+                    },
+                    "assist": {
+                        "id": 198622,
+                        "name": "S. Babi\u0107"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2402,
+                        "name": "Gyori ETO FC",
+                        "logo": "https://media.api-sports.io/football/teams/2402.png"
+                    },
+                    "player": {
+                        "id": 305859,
+                        "name": "M. Krivokapi\u0107"
+                    },
+                    "assist": {
+                        "id": 62152,
+                        "name": "C. Bumba"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2403,
+                        "name": "Nyiregyhaza",
+                        "logo": "https://media.api-sports.io/football/teams/2403.png"
+                    },
+                    "player": {
+                        "id": 28508,
+                        "name": "B. Keszty\u0171s"
+                    },
+                    "assist": {
+                        "id": 157026,
+                        "name": "O. Tam\u00e1s"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2403,
+                        "name": "Nyiregyhaza",
+                        "logo": "https://media.api-sports.io/football/teams/2403.png"
+                    },
+                    "player": {
+                        "id": 28418,
+                        "name": "A. Temesv\u00e1ri"
+                    },
+                    "assist": {
+                        "id": 129022,
+                        "name": "R. Joki\u0107"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2402,
+                        "name": "Gyori ETO FC",
+                        "logo": "https://media.api-sports.io/football/teams/2402.png"
+                    },
+                    "player": {
+                        "id": 178882,
+                        "name": "D. Csontos"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2403,
+                        "name": "Nyiregyhaza",
+                        "logo": "https://media.api-sports.io/football/teams/2403.png"
+                    },
+                    "player": {
+                        "id": 129022,
+                        "name": "R. Jokic"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 89,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2402,
+                        "name": "Gyori ETO FC",
+                        "logo": "https://media.api-sports.io/football/teams/2402.png"
+                    },
+                    "player": {
+                        "id": 53684,
+                        "name": "P. Anton"
+                    },
+                    "assist": {
+                        "id": 476886,
+                        "name": "L. Ntsama"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 4
+                    },
+                    "team": {
+                        "id": 2403,
+                        "name": "Nyiregyhaza",
+                        "logo": "https://media.api-sports.io/football/teams/2403.png"
+                    },
+                    "player": {
+                        "id": 28542,
+                        "name": "M. Kovacsreti"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 4
+                    },
+                    "team": {
+                        "id": 2402,
+                        "name": "Gyori ETO FC",
+                        "logo": "https://media.api-sports.io/football/teams/2402.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "M. Krivokapic"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 2403,
+                        "name": "Nyiregyhaza",
+                        "logo": "https://media.api-sports.io/football/teams/2403.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 16310,
+                        "name": "K. Tim\u00e1r",
+                        "photo": "https://media.api-sports.io/football/coachs/16310.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 43123,
+                                "name": "B. Fej\u00e9r",
+                                "number": 95,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28526,
+                                "name": "M. Riashko",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 127657,
+                                "name": "B. Nagy",
+                                "number": 77,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28418,
+                                "name": "A. Temesv\u00e1ri",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 348272,
+                                "name": "\u00c1. Alaxai",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 353056,
+                                "name": "B. Farkas",
+                                "number": 88,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28508,
+                                "name": "B. Keszty\u0171s",
+                                "number": 93,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 40389,
+                                "name": "D. Nagy",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 289734,
+                                "name": "M. Gres\u00f3",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 178720,
+                                "name": "P. Beke",
+                                "number": 99,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28542,
+                                "name": "M. Kov\u00e1csr\u00e9ti",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 37625,
+                                "name": "J. Navr\u00e1til",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 89036,
+                                "name": "P. Pinte",
+                                "number": 74,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 198622,
+                                "name": "S. Babi\u0107",
+                                "number": 45,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 129022,
+                                "name": "R. Joki\u0107",
+                                "number": 3,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 157026,
+                                "name": "O. Tam\u00e1s",
+                                "number": 33,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 378267,
+                                "name": "B. Ol\u00e1h",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 322981,
+                                "name": "B. T\u00f3th",
+                                "number": 32,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 198273,
+                                "name": "K. Horv\u00e1th",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 27848,
+                                "name": "M. Kov\u00e1cs",
+                                "number": 12,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28552,
+                                "name": "G. Gengeliczki",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70341,
+                                "name": "M. Eppel",
+                                "number": 27,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 2402,
+                        "name": "Gyori ETO FC",
+                        "logo": "https://media.api-sports.io/football/teams/2402.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 8412,
+                        "name": "B. Borbely",
+                        "photo": "https://media.api-sports.io/football/coachs/8412.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 28019,
+                                "name": "E. Gyur\u00e1kovics",
+                                "number": 26,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 31636,
+                                "name": "D. Boldor",
+                                "number": 25,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 27785,
+                                "name": "J. Sz\u00e9pe",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 237091,
+                                "name": "L. Vera",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 178882,
+                                "name": "D. Csontos",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 53684,
+                                "name": "P. Anton",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 61242,
+                                "name": "M. \u0160kvarka",
+                                "number": 92,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 62152,
+                                "name": "C. Bumba",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 419517,
+                                "name": "R. T\u00f3th",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 45349,
+                                "name": "N. Luki\u0107",
+                                "number": 27,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 271296,
+                                "name": "C. Kr\u00f6hn",
+                                "number": 55,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 133396,
+                                "name": "\u017d. Gavri\u0107",
+                                "number": 80,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 3713,
+                                "name": "E. Bitri",
+                                "number": 33,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 305859,
+                                "name": "M. Krivokapi\u0107",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 137546,
+                                "name": "B. Farkas",
+                                "number": 97,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 476886,
+                                "name": "L. Ntsama",
+                                "number": 40,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 190487,
+                                "name": "F\u00e1bio Vianna",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 467675,
+                                "name": "K. B\u00e1n\u00e1ti",
+                                "number": 90,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 375614,
+                                "name": "M. Krpi\u0107",
+                                "number": 24,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 196342,
+                                "name": "A. Marku",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 281956,
+                                "name": "B. Ruisz",
+                                "number": 12,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

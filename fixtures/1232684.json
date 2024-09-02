@@ -1,0 +1,753 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1232684"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1232684,
+                "referee": "M. Zimmermann",
+                "timezone": "UTC",
+                "date": "2024-08-04T17:00:00+00:00",
+                "timestamp": 1722790800,
+                "periods": {
+                    "first": 1722790800,
+                    "second": 1722794400
+                },
+                "venue": {
+                    "id": 1737,
+                    "name": "Terszty\u00e1nszky \u00d6d\u00f6n Sportk\u00f6zpont",
+                    "city": "Cs\u00e1kv\u00e1r"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 272,
+                "name": "NB II",
+                "country": "Hungary",
+                "logo": "https://media.api-sports.io/football/leagues/272.png",
+                "flag": "https://media.api-sports.io/flags/hu.svg",
+                "season": 2024,
+                "round": "Regular Season - 2"
+            },
+            "teams": {
+                "home": {
+                    "id": 2409,
+                    "name": "Csakvar",
+                    "logo": "https://media.api-sports.io/football/teams/2409.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 5071,
+                    "name": "BVSC",
+                    "logo": "https://media.api-sports.io/football/teams/5071.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 3,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 5071,
+                        "name": "BVSC",
+                        "logo": "https://media.api-sports.io/football/teams/5071.png"
+                    },
+                    "player": {
+                        "id": 122084,
+                        "name": "M. Szil\u00e1gyi"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 61,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2409,
+                        "name": "Csakvar",
+                        "logo": "https://media.api-sports.io/football/teams/2409.png"
+                    },
+                    "player": {
+                        "id": 28315,
+                        "name": "V. Haragos"
+                    },
+                    "assist": {
+                        "id": 28517,
+                        "name": "A. Simon"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 61,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2409,
+                        "name": "Csakvar",
+                        "logo": "https://media.api-sports.io/football/teams/2409.png"
+                    },
+                    "player": {
+                        "id": 28057,
+                        "name": "A. Farkas"
+                    },
+                    "assist": {
+                        "id": 405332,
+                        "name": "S. Dusinszki"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 61,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2409,
+                        "name": "Csakvar",
+                        "logo": "https://media.api-sports.io/football/teams/2409.png"
+                    },
+                    "player": {
+                        "id": 27856,
+                        "name": "Z. Nagy"
+                    },
+                    "assist": {
+                        "id": 396469,
+                        "name": "Z. Menyh\u00e1rt"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 61,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 5071,
+                        "name": "BVSC",
+                        "logo": "https://media.api-sports.io/football/teams/5071.png"
+                    },
+                    "player": {
+                        "id": 336401,
+                        "name": "K. Sz\u00e9kely"
+                    },
+                    "assist": {
+                        "id": 28309,
+                        "name": "G. M\u00e1jer"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 74,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 5071,
+                        "name": "BVSC",
+                        "logo": "https://media.api-sports.io/football/teams/5071.png"
+                    },
+                    "player": {
+                        "id": 122084,
+                        "name": "M. Szil\u00e1gyi"
+                    },
+                    "assist": {
+                        "id": 28180,
+                        "name": "B. Zamostny"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 74,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 5071,
+                        "name": "BVSC",
+                        "logo": "https://media.api-sports.io/football/teams/5071.png"
+                    },
+                    "player": {
+                        "id": 28600,
+                        "name": "P. Bacsa"
+                    },
+                    "assist": {
+                        "id": 27891,
+                        "name": "K. T\u00f3th"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 77,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2409,
+                        "name": "Csakvar",
+                        "logo": "https://media.api-sports.io/football/teams/2409.png"
+                    },
+                    "player": {
+                        "id": 28596,
+                        "name": "B. Szab\u00f3"
+                    },
+                    "assist": {
+                        "id": 28064,
+                        "name": "R. Baracskai"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2409,
+                        "name": "Csakvar",
+                        "logo": "https://media.api-sports.io/football/teams/2409.png"
+                    },
+                    "player": {
+                        "id": 313151,
+                        "name": "A. Nahirnyi"
+                    },
+                    "assist": {
+                        "id": 419581,
+                        "name": "\u00c1. Umathum"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 5071,
+                        "name": "BVSC",
+                        "logo": "https://media.api-sports.io/football/teams/5071.png"
+                    },
+                    "player": {
+                        "id": 28458,
+                        "name": "L. Pek\u00e1r"
+                    },
+                    "assist": {
+                        "id": 405522,
+                        "name": "M. Nemes"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 5071,
+                        "name": "BVSC",
+                        "logo": "https://media.api-sports.io/football/teams/5071.png"
+                    },
+                    "player": {
+                        "id": 435843,
+                        "name": "D. Nwachukwu"
+                    },
+                    "assist": {
+                        "id": 150765,
+                        "name": "P. Kelemen"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 2409,
+                        "name": "Csakvar",
+                        "logo": "https://media.api-sports.io/football/teams/2409.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 17778,
+                        "name": "B. T\u00f3th",
+                        "photo": "https://media.api-sports.io/football/coachs/17778.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 268097,
+                                "name": "P. Zelizi",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28299,
+                                "name": "D. Karacs",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 313151,
+                                "name": "A. Nahirnyi",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 442458,
+                                "name": "Z. Gregor",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28175,
+                                "name": "D. Szak\u00e1ly",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28057,
+                                "name": "A. Farkas",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28596,
+                                "name": "B. Szab\u00f3",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 374957,
+                                "name": "M. Major",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 27855,
+                                "name": "B. Murka",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28315,
+                                "name": "V. Haragos",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 27856,
+                                "name": "Z. Nagy",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 28517,
+                                "name": "A. Simon",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 405332,
+                                "name": "S. Dusinszki",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 396469,
+                                "name": "Z. Menyh\u00e1rt",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28064,
+                                "name": "R. Baracskai",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 419581,
+                                "name": "\u00c1. Umathum",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 458990,
+                                "name": "A. Gr\u00fcnfelder",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 443855,
+                                "name": "A. Perczel",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 340651,
+                                "name": "L. Juh\u00e1sz",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 390318,
+                                "name": "N. Dencinger",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 428276,
+                                "name": "O. Yablonskyi",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 390324,
+                                "name": "P. Szalai",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 358388,
+                                "name": "V. Gazdag",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 5071,
+                        "name": "BVSC",
+                        "logo": "https://media.api-sports.io/football/teams/5071.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 2747,
+                        "name": "J. Cs\u00e1bi",
+                        "photo": "https://media.api-sports.io/football/coachs/2747.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 378263,
+                                "name": "B. Erd\u00e9lyi",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 2338,
+                                "name": "P. Vin\u00edcius",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 228466,
+                                "name": "N. Benk\u0151-B\u00edr\u00f3",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 122079,
+                                "name": "O. Hesz",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28215,
+                                "name": "A. Kir\u00e1ly",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 89022,
+                                "name": "P. Hidi",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28458,
+                                "name": "L. Pek\u00e1r",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 122084,
+                                "name": "M. Szil\u00e1gyi",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 336401,
+                                "name": "K. Sz\u00e9kely",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 435843,
+                                "name": "D. Nwachukwu",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28600,
+                                "name": "P. Bacsa",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 28309,
+                                "name": "G. M\u00e1jer",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28180,
+                                "name": "B. Zamostny",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 27891,
+                                "name": "K. T\u00f3th",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 405522,
+                                "name": "M. Nemes",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 150765,
+                                "name": "P. Kelemen",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 392425,
+                                "name": "A. Ureche",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 323379,
+                                "name": "D. Kov\u00e1cs",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 89274,
+                                "name": "G. Megyeri",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 444334,
+                                "name": "Z. Szil\u00e1gyi",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

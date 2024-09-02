@@ -1,0 +1,153 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1218424"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1218424,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-27T14:00:00+00:00",
+                "timestamp": 1722088800,
+                "periods": {
+                    "first": 1722088800,
+                    "second": 1722092400
+                },
+                "venue": {
+                    "id": 5595,
+                    "name": "Lincoln Road",
+                    "city": "Peterborough"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 7737,
+                    "name": "Peterborough Sports",
+                    "logo": "https://media.api-sports.io/football/teams/7737.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 8146,
+                    "name": "Boston United",
+                    "logo": "https://media.api-sports.io/football/teams/8146.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 6,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8146,
+                        "name": "Boston United",
+                        "logo": "https://media.api-sports.io/football/teams/8146.png"
+                    },
+                    "player": {
+                        "id": 179949,
+                        "name": "T. Weston"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 11,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7737,
+                        "name": "Peterborough Sports",
+                        "logo": "https://media.api-sports.io/football/teams/7737.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "D. Jarvis"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 72,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8146,
+                        "name": "Boston United",
+                        "logo": "https://media.api-sports.io/football/teams/8146.png"
+                    },
+                    "player": {
+                        "id": 179949,
+                        "name": "T. Weston"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

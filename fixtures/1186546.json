@@ -1,0 +1,934 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1186546"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1186546,
+                "referee": "Liu Chentao",
+                "timezone": "UTC",
+                "date": "2024-07-21T08:00:00+00:00",
+                "timestamp": 1721548800,
+                "periods": {
+                    "first": 1721548800,
+                    "second": 1721552400
+                },
+                "venue": {
+                    "id": 19664,
+                    "name": "Haimen Sports Center Stadium",
+                    "city": "Nantong"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 929,
+                "name": "League Two",
+                "country": "China",
+                "logo": "https://media.api-sports.io/football/leagues/929.png",
+                "flag": "https://media.api-sports.io/flags/cn.svg",
+                "season": 2024,
+                "round": "Regular Season - 17"
+            },
+            "teams": {
+                "home": {
+                    "id": 19319,
+                    "name": "Nantong Haimen Codion",
+                    "logo": "https://media.api-sports.io/football/teams/19319.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 23288,
+                    "name": "Shandong Taishan II",
+                    "logo": "https://media.api-sports.io/football/teams/23288.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 9,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 19319,
+                        "name": "Nantong Haimen Codion",
+                        "logo": "https://media.api-sports.io/football/teams/19319.png"
+                    },
+                    "player": {
+                        "id": 12716,
+                        "name": "Luo Hanbowen"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 16,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 23288,
+                        "name": "Shandong Taishan II",
+                        "logo": "https://media.api-sports.io/football/teams/23288.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "J. Lu"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 19319,
+                        "name": "Nantong Haimen Codion",
+                        "logo": "https://media.api-sports.io/football/teams/19319.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "X. Li"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 23288,
+                        "name": "Shandong Taishan II",
+                        "logo": "https://media.api-sports.io/football/teams/23288.png"
+                    },
+                    "player": {
+                        "id": 340506,
+                        "name": "Mustapa Tash"
+                    },
+                    "assist": {
+                        "id": 409627,
+                        "name": "Peng Xiao"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 19319,
+                        "name": "Nantong Haimen Codion",
+                        "logo": "https://media.api-sports.io/football/teams/19319.png"
+                    },
+                    "player": {
+                        "id": 462763,
+                        "name": "Cao Yuetao"
+                    },
+                    "assist": {
+                        "id": 298265,
+                        "name": "Wang Bowen"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 19319,
+                        "name": "Nantong Haimen Codion",
+                        "logo": "https://media.api-sports.io/football/teams/19319.png"
+                    },
+                    "player": {
+                        "id": 298262,
+                        "name": "Li Xiancheng"
+                    },
+                    "assist": {
+                        "id": 417723,
+                        "name": "Chen Weijing"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 19319,
+                        "name": "Nantong Haimen Codion",
+                        "logo": "https://media.api-sports.io/football/teams/19319.png"
+                    },
+                    "player": {
+                        "id": 417673,
+                        "name": "Jin Hang"
+                    },
+                    "assist": {
+                        "id": 417707,
+                        "name": "Pei Guoguang"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 23288,
+                        "name": "Shandong Taishan II",
+                        "logo": "https://media.api-sports.io/football/teams/23288.png"
+                    },
+                    "player": {
+                        "id": 463589,
+                        "name": "Lu Junwei"
+                    },
+                    "assist": {
+                        "id": 475042,
+                        "name": "Zhang Yutong"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 54,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 19319,
+                        "name": "Nantong Haimen Codion",
+                        "logo": "https://media.api-sports.io/football/teams/19319.png"
+                    },
+                    "player": {
+                        "id": 417669,
+                        "name": "Cheng Xin"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 54,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 23288,
+                        "name": "Shandong Taishan II",
+                        "logo": "https://media.api-sports.io/football/teams/23288.png"
+                    },
+                    "player": {
+                        "id": 423534,
+                        "name": "Mei Shuaijun"
+                    },
+                    "assist": {
+                        "id": 364014,
+                        "name": "Yin Jiaxi"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 54,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 23288,
+                        "name": "Shandong Taishan II",
+                        "logo": "https://media.api-sports.io/football/teams/23288.png"
+                    },
+                    "player": {
+                        "id": 462781,
+                        "name": "Imran Memet"
+                    },
+                    "assist": {
+                        "id": 462749,
+                        "name": "Wang Jiancong"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 55,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 19319,
+                        "name": "Nantong Haimen Codion",
+                        "logo": "https://media.api-sports.io/football/teams/19319.png"
+                    },
+                    "player": {
+                        "id": 417668,
+                        "name": "Bai Xianyi"
+                    },
+                    "assist": {
+                        "id": 398232,
+                        "name": "Tan Jingbo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 19319,
+                        "name": "Nantong Haimen Codion",
+                        "logo": "https://media.api-sports.io/football/teams/19319.png"
+                    },
+                    "player": {
+                        "id": 417710,
+                        "name": "Yin Hanlong"
+                    },
+                    "assist": {
+                        "id": 277639,
+                        "name": "Yan Ge"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 23288,
+                        "name": "Shandong Taishan II",
+                        "logo": "https://media.api-sports.io/football/teams/23288.png"
+                    },
+                    "player": {
+                        "id": 428992,
+                        "name": "Yan Hengye"
+                    },
+                    "assist": {
+                        "id": 462779,
+                        "name": "Peng Yixiang"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 74,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 23288,
+                        "name": "Shandong Taishan II",
+                        "logo": "https://media.api-sports.io/football/teams/23288.png"
+                    },
+                    "player": {
+                        "id": 462779,
+                        "name": "Peng Yixiang"
+                    },
+                    "assist": {
+                        "id": 364014,
+                        "name": "Yin Jiaxi"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 19319,
+                        "name": "Nantong Haimen Codion",
+                        "logo": "https://media.api-sports.io/football/teams/19319.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "B. Wang"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 89,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 23288,
+                        "name": "Shandong Taishan II",
+                        "logo": "https://media.api-sports.io/football/teams/23288.png"
+                    },
+                    "player": {
+                        "id": 462784,
+                        "name": "Liu Qiwei"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 5
+                    },
+                    "team": {
+                        "id": 23288,
+                        "name": "Shandong Taishan II",
+                        "logo": "https://media.api-sports.io/football/teams/23288.png"
+                    },
+                    "player": {
+                        "id": 409627,
+                        "name": "Peng Xiao"
+                    },
+                    "assist": {
+                        "id": 474303,
+                        "name": "Gong Ruicong"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 19319,
+                        "name": "Nantong Haimen Codion",
+                        "logo": "https://media.api-sports.io/football/teams/19319.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 19886,
+                        "name": "Lu Qiang",
+                        "photo": "https://media.api-sports.io/football/coachs/19886.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 417719,
+                                "name": "Liang Zhenfu",
+                                "number": 55,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 298262,
+                                "name": "Li Xiancheng",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 12716,
+                                "name": "Luo Hanbowen",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 278397,
+                                "name": "Yu Jiawei",
+                                "number": 3,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 417708,
+                                "name": "Qi Dan",
+                                "number": 32,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 417710,
+                                "name": "Yin Hanlong",
+                                "number": 60,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 417711,
+                                "name": "Zheng Lei",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 417668,
+                                "name": "Bai Xianyi",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 417669,
+                                "name": "Cheng Xin",
+                                "number": 50,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 417673,
+                                "name": "Jin Hang",
+                                "number": 29,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 462763,
+                                "name": "Cao Yuetao",
+                                "number": 45,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 298265,
+                                "name": "Wang Bowen",
+                                "number": 43,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 417723,
+                                "name": "Chen Weijing",
+                                "number": 49,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 417707,
+                                "name": "Pei Guoguang",
+                                "number": 26,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 398232,
+                                "name": "Tan Jingbo",
+                                "number": 42,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 277639,
+                                "name": "Yan Ge",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 418073,
+                                "name": "Xie Gongbo",
+                                "number": 52,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 417670,
+                                "name": "Dai Yuanji",
+                                "number": 59,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 462764,
+                                "name": "Sun Qi'nan",
+                                "number": 56,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 417720,
+                                "name": "Ji Sangnan",
+                                "number": 46,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 462741,
+                                "name": "Cheng Yi",
+                                "number": 53,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 462740,
+                                "name": "Huang Jiang Daya",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 462762,
+                                "name": "Guo Kainan",
+                                "number": 41,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 23288,
+                        "name": "Shandong Taishan II",
+                        "logo": "https://media.api-sports.io/football/teams/23288.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 22129,
+                        "name": "Han Peng",
+                        "photo": "https://media.api-sports.io/football/coachs/22129.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 462784,
+                                "name": "Liu Qiwei",
+                                "number": 51,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 340506,
+                                "name": "Mustapa Tash",
+                                "number": 69,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 409627,
+                                "name": "Peng Xiao",
+                                "number": 64,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 415653,
+                                "name": "Shi Songchen",
+                                "number": 68,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 428992,
+                                "name": "Yan Hengye",
+                                "number": 63,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 462777,
+                                "name": "He Bingzhuang",
+                                "number": 66,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 341386,
+                                "name": "Chen Zeshi",
+                                "number": 45,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 423534,
+                                "name": "Mei Shuaijun",
+                                "number": 59,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 462781,
+                                "name": "Imran Memet",
+                                "number": 44,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 462778,
+                                "name": "Yusup Amut",
+                                "number": 60,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 463589,
+                                "name": "Lu Junwei",
+                                "number": 52,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 475042,
+                                "name": "Zhang Yutong",
+                                "number": 72,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 364014,
+                                "name": "Yin Jiaxi",
+                                "number": 65,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 462749,
+                                "name": "Wang Jiancong",
+                                "number": 42,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 462779,
+                                "name": "Peng Yixiang",
+                                "number": 58,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 474303,
+                                "name": "Gong Ruicong",
+                                "number": 71,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 463588,
+                                "name": "Tang Rui",
+                                "number": 46,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 364002,
+                                "name": "Liu Qingchang",
+                                "number": 67,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 423531,
+                                "name": "He Kanghua",
+                                "number": 47,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 462782,
+                                "name": "Jing Xinbo",
+                                "number": 56,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 364007,
+                                "name": "Zhang Yingkai",
+                                "number": 55,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 425864,
+                                "name": "Luan Yi",
+                                "number": 70,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 462747,
+                                "name": "Ezher Tashmemet",
+                                "number": 49,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

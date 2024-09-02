@@ -1,0 +1,461 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1168964"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1168964,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-11T16:30:00+00:00",
+                "timestamp": 1723393800,
+                "periods": {
+                    "first": 1723393800,
+                    "second": 1723397400
+                },
+                "venue": {
+                    "id": 325,
+                    "name": "Estadio Deportivo Barnechea",
+                    "city": "Santiago de Chile"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 266,
+                "name": "Primera B",
+                "country": "Chile",
+                "logo": "https://media.api-sports.io/football/leagues/266.png",
+                "flag": "https://media.api-sports.io/flags/cl.svg",
+                "season": 2024,
+                "round": "Regular Season - 21"
+            },
+            "teams": {
+                "home": {
+                    "id": 2338,
+                    "name": "Barnechea",
+                    "logo": "https://media.api-sports.io/football/teams/2338.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 2335,
+                    "name": "Santiago Morning",
+                    "logo": "https://media.api-sports.io/football/teams/2335.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 33,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2338,
+                        "name": "Barnechea",
+                        "logo": "https://media.api-sports.io/football/teams/2338.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "A. Ortiz"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 4
+                    },
+                    "team": {
+                        "id": 2335,
+                        "name": "Santiago Morning",
+                        "logo": "https://media.api-sports.io/football/teams/2335.png"
+                    },
+                    "player": {
+                        "id": 11740,
+                        "name": "F. Manriquez Hernandez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2338,
+                        "name": "Barnechea",
+                        "logo": "https://media.api-sports.io/football/teams/2338.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "G. Tapia Paez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2338,
+                        "name": "Barnechea",
+                        "logo": "https://media.api-sports.io/football/teams/2338.png"
+                    },
+                    "player": {
+                        "id": 303088,
+                        "name": "B. Valdez"
+                    },
+                    "assist": {
+                        "id": 27451,
+                        "name": "J. Romo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2338,
+                        "name": "Barnechea",
+                        "logo": "https://media.api-sports.io/football/teams/2338.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "C. Pardo"
+                    },
+                    "assist": {
+                        "id": 5767,
+                        "name": "M. Gallegos Panozzo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2335,
+                        "name": "Santiago Morning",
+                        "logo": "https://media.api-sports.io/football/teams/2335.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "S. Salazar"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "M. Arancibia"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2335,
+                        "name": "Santiago Morning",
+                        "logo": "https://media.api-sports.io/football/teams/2335.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "J. Barrientos"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "C. Diaz"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2335,
+                        "name": "Santiago Morning",
+                        "logo": "https://media.api-sports.io/football/teams/2335.png"
+                    },
+                    "player": {
+                        "id": 308382,
+                        "name": "J. Santander"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 77,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2338,
+                        "name": "Barnechea",
+                        "logo": "https://media.api-sports.io/football/teams/2338.png"
+                    },
+                    "player": {
+                        "id": 12106,
+                        "name": "G. Alucema"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "D. Bravo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 81,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2338,
+                        "name": "Barnechea",
+                        "logo": "https://media.api-sports.io/football/teams/2338.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "H. Salgado"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2338,
+                        "name": "Barnechea",
+                        "logo": "https://media.api-sports.io/football/teams/2338.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "H. Salgado"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2338,
+                        "name": "Barnechea",
+                        "logo": "https://media.api-sports.io/football/teams/2338.png"
+                    },
+                    "player": {
+                        "id": 311323,
+                        "name": "E. Garcia"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "H. Salgado"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2338,
+                        "name": "Barnechea",
+                        "logo": "https://media.api-sports.io/football/teams/2338.png"
+                    },
+                    "player": {
+                        "id": 362737,
+                        "name": "F. Da Rosa"
+                    },
+                    "assist": {
+                        "id": 54098,
+                        "name": "B. Sagredo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 89,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2335,
+                        "name": "Santiago Morning",
+                        "logo": "https://media.api-sports.io/football/teams/2335.png"
+                    },
+                    "player": {
+                        "id": 11992,
+                        "name": "D. Opazo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2335,
+                        "name": "Santiago Morning",
+                        "logo": "https://media.api-sports.io/football/teams/2335.png"
+                    },
+                    "player": {
+                        "id": 308382,
+                        "name": "J. Santander"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2335,
+                        "name": "Santiago Morning",
+                        "logo": "https://media.api-sports.io/football/teams/2335.png"
+                    },
+                    "player": {
+                        "id": 308382,
+                        "name": "J. Santander"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 2
+                    },
+                    "team": {
+                        "id": 2338,
+                        "name": "Barnechea",
+                        "logo": "https://media.api-sports.io/football/teams/2338.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "M. Llanten"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

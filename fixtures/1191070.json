@@ -1,0 +1,351 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1191070"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1191070,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-11T12:00:00+00:00",
+                "timestamp": 1723377600,
+                "periods": {
+                    "first": 1723377600,
+                    "second": 1723381200
+                },
+                "venue": {
+                    "id": 1204,
+                    "name": "SR-Bank Arena",
+                    "city": "Stavanger"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 473,
+                "name": "2. Division - Group 1",
+                "country": "Norway",
+                "logo": "https://media.api-sports.io/football/leagues/473.png",
+                "flag": "https://media.api-sports.io/flags/no.svg",
+                "season": 2024,
+                "round": "Group 1 - 16"
+            },
+            "teams": {
+                "home": {
+                    "id": 12891,
+                    "name": "Viking II",
+                    "logo": "https://media.api-sports.io/football/teams/12891.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 2150,
+                    "name": "hodd",
+                    "logo": "https://media.api-sports.io/football/teams/2150.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 3
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 3
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 10,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 12891,
+                        "name": "Viking II",
+                        "logo": "https://media.api-sports.io/football/teams/12891.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "E. Austbo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 17,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2150,
+                        "name": "hodd",
+                        "logo": "https://media.api-sports.io/football/teams/2150.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "E. Myrlid"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "M. Haheim-Elveseter"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 28,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2150,
+                        "name": "hodd",
+                        "logo": "https://media.api-sports.io/football/teams/2150.png"
+                    },
+                    "player": {
+                        "id": 39238,
+                        "name": "T. Kallevag"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 32,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2150,
+                        "name": "hodd",
+                        "logo": "https://media.api-sports.io/football/teams/2150.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "H. Urnes"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 12891,
+                        "name": "Viking II",
+                        "logo": "https://media.api-sports.io/football/teams/12891.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "F. Lillehammer"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 12891,
+                        "name": "Viking II",
+                        "logo": "https://media.api-sports.io/football/teams/12891.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "J. Galta"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "E. Austbo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 49,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2150,
+                        "name": "hodd",
+                        "logo": "https://media.api-sports.io/football/teams/2150.png"
+                    },
+                    "player": {
+                        "id": 39238,
+                        "name": "T. Kallevag"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 52,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2150,
+                        "name": "hodd",
+                        "logo": "https://media.api-sports.io/football/teams/2150.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "E. Myrlid"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 12891,
+                        "name": "Viking II",
+                        "logo": "https://media.api-sports.io/football/teams/12891.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "A. Tveiten"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "J. Hansen"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 74,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2150,
+                        "name": "hodd",
+                        "logo": "https://media.api-sports.io/football/teams/2150.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "I. Hagen"
+                    },
+                    "assist": {
+                        "id": 151206,
+                        "name": "U. Seferi"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2150,
+                        "name": "hodd",
+                        "logo": "https://media.api-sports.io/football/teams/2150.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "A. Televik"
+                    },
+                    "assist": {
+                        "id": 94793,
+                        "name": "R. Hjelmeseth"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 12891,
+                        "name": "Viking II",
+                        "logo": "https://media.api-sports.io/football/teams/12891.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "F. Larsen"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "T. Haland"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

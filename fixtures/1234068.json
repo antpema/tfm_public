@@ -1,0 +1,461 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1234068"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1234068,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-08T21:00:00+00:00",
+                "timestamp": 1723150800,
+                "periods": {
+                    "first": 1723150800,
+                    "second": 1723154400
+                },
+                "venue": {
+                    "id": 1653,
+                    "name": "Estadio Ol\u00edmpico de la UCV",
+                    "city": "Caracas"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 299,
+                "name": "Primera Divisi\u00f3n",
+                "country": "Venezuela",
+                "logo": "https://media.api-sports.io/football/leagues/299.png",
+                "flag": "https://media.api-sports.io/flags/ve.svg",
+                "season": 2024,
+                "round": "Clausura - 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 2813,
+                    "name": "Real Esppor Club",
+                    "logo": "https://media.api-sports.io/football/teams/2813.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 2838,
+                    "name": "Angostura FC",
+                    "logo": "https://media.api-sports.io/football/teams/2838.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 3,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 3,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 3,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 11,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2813,
+                        "name": "Real Esppor Club",
+                        "logo": "https://media.api-sports.io/football/teams/2813.png"
+                    },
+                    "player": {
+                        "id": 52710,
+                        "name": "J. Castellanos"
+                    },
+                    "assist": {
+                        "id": 52515,
+                        "name": "E. Farias"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 16,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2813,
+                        "name": "Real Esppor Club",
+                        "logo": "https://media.api-sports.io/football/teams/2813.png"
+                    },
+                    "player": {
+                        "id": 57803,
+                        "name": "J. Gutierrez"
+                    },
+                    "assist": {
+                        "id": 52515,
+                        "name": "E. Farias"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 32,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2813,
+                        "name": "Real Esppor Club",
+                        "logo": "https://media.api-sports.io/football/teams/2813.png"
+                    },
+                    "player": {
+                        "id": 358969,
+                        "name": "K. Lamadrid"
+                    },
+                    "assist": {
+                        "id": 57803,
+                        "name": "J. Gutierrez"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 2838,
+                        "name": "Angostura FC",
+                        "logo": "https://media.api-sports.io/football/teams/2838.png"
+                    },
+                    "player": {
+                        "id": 52732,
+                        "name": "C. Varela"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Own Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2838,
+                        "name": "Angostura FC",
+                        "logo": "https://media.api-sports.io/football/teams/2838.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "E. Pereira"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "J. Gomez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 58,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2813,
+                        "name": "Real Esppor Club",
+                        "logo": "https://media.api-sports.io/football/teams/2813.png"
+                    },
+                    "player": {
+                        "id": 52719,
+                        "name": "J. Perdomo"
+                    },
+                    "assist": {
+                        "id": 52710,
+                        "name": "J. Castellanos"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2813,
+                        "name": "Real Esppor Club",
+                        "logo": "https://media.api-sports.io/football/teams/2813.png"
+                    },
+                    "player": {
+                        "id": 365213,
+                        "name": "S. Castillo"
+                    },
+                    "assist": {
+                        "id": 46213,
+                        "name": "J. Meza"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 69,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2813,
+                        "name": "Real Esppor Club",
+                        "logo": "https://media.api-sports.io/football/teams/2813.png"
+                    },
+                    "player": {
+                        "id": 52453,
+                        "name": "J. Arias"
+                    },
+                    "assist": {
+                        "id": 52658,
+                        "name": "R. Ibarra"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2838,
+                        "name": "Angostura FC",
+                        "logo": "https://media.api-sports.io/football/teams/2838.png"
+                    },
+                    "player": {
+                        "id": 53088,
+                        "name": "R. Maza"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "A. Velasco"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2838,
+                        "name": "Angostura FC",
+                        "logo": "https://media.api-sports.io/football/teams/2838.png"
+                    },
+                    "player": {
+                        "id": 52377,
+                        "name": "A. Cardozo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "C. Gomez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2838,
+                        "name": "Angostura FC",
+                        "logo": "https://media.api-sports.io/football/teams/2838.png"
+                    },
+                    "player": {
+                        "id": 52927,
+                        "name": "J. Castillo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "J. Rondon"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2838,
+                        "name": "Angostura FC",
+                        "logo": "https://media.api-sports.io/football/teams/2838.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "A. Contreras"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 81,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2813,
+                        "name": "Real Esppor Club",
+                        "logo": "https://media.api-sports.io/football/teams/2813.png"
+                    },
+                    "player": {
+                        "id": 52463,
+                        "name": "R. Arace"
+                    },
+                    "assist": {
+                        "id": 358969,
+                        "name": "K. Lamadrid"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 81,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2813,
+                        "name": "Real Esppor Club",
+                        "logo": "https://media.api-sports.io/football/teams/2813.png"
+                    },
+                    "player": {
+                        "id": 51977,
+                        "name": "G. Poncet"
+                    },
+                    "assist": {
+                        "id": 52515,
+                        "name": "E. Farias"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 81,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2838,
+                        "name": "Angostura FC",
+                        "logo": "https://media.api-sports.io/football/teams/2838.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "J. Zappacosta"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "J. Pacheco"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 86,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2838,
+                        "name": "Angostura FC",
+                        "logo": "https://media.api-sports.io/football/teams/2838.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "A. Contreras"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "E. Pereira"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2838,
+                        "name": "Angostura FC",
+                        "logo": "https://media.api-sports.io/football/teams/2838.png"
+                    },
+                    "player": {
+                        "id": 52927,
+                        "name": "J. Castillo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

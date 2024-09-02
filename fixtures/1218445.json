@@ -1,0 +1,138 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1218445"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1218445,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-27T17:30:00+00:00",
+                "timestamp": 1722101400,
+                "periods": {
+                    "first": 1722101400,
+                    "second": 1722105000
+                },
+                "venue": {
+                    "id": 6516,
+                    "name": "Estadio Municipal de Tarazona",
+                    "city": "Tarazona"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 9416,
+                    "name": "Tarazona",
+                    "logo": "https://media.api-sports.io/football/teams/9416.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 732,
+                    "name": "Zaragoza",
+                    "logo": "https://media.api-sports.io/football/teams/732.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 4,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 732,
+                        "name": "Zaragoza",
+                        "logo": "https://media.api-sports.io/football/teams/732.png"
+                    },
+                    "player": {
+                        "id": 380261,
+                        "name": "M. Luna"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 9416,
+                        "name": "Tarazona",
+                        "logo": "https://media.api-sports.io/football/teams/9416.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 6713,
+                        "name": "Molo",
+                        "photo": "https://media.api-sports.io/football/coachs/6713.png"
+                    },
+                    "formation": null
+                },
+                {
+                    "team": {
+                        "id": 732,
+                        "name": "Zaragoza",
+                        "logo": "https://media.api-sports.io/football/teams/732.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 50,
+                        "name": "Victor Fern\u00e1ndez",
+                        "photo": "https://media.api-sports.io/football/coachs/50.png"
+                    },
+                    "formation": null
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

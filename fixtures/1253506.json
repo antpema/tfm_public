@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1253506"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1253506,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-11T21:15:00+00:00",
+                "timestamp": 1723410900,
+                "periods": {
+                    "first": 1723410900,
+                    "second": 1723414500
+                },
+                "venue": {
+                    "id": 20461,
+                    "name": "Estadio Antonio Toledo Valle",
+                    "city": "Zacatecoluca"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 370,
+                "name": "Primera Division",
+                "country": "El-Salvador",
+                "logo": "https://media.api-sports.io/football/leagues/370.png",
+                "flag": "https://media.api-sports.io/flags/sv.svg",
+                "season": 2024,
+                "round": "Apertura - 4"
+            },
+            "teams": {
+                "home": {
+                    "id": 19763,
+                    "name": "Platense",
+                    "logo": "https://media.api-sports.io/football/teams/19763.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 22157,
+                    "name": "Fuerte San Francisco",
+                    "logo": "https://media.api-sports.io/football/teams/22157.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 40,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 22157,
+                        "name": "Fuerte San Francisco",
+                        "logo": "https://media.api-sports.io/football/teams/22157.png"
+                    },
+                    "player": {
+                        "id": 32535,
+                        "name": "C. Murray"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 22157,
+                        "name": "Fuerte San Francisco",
+                        "logo": "https://media.api-sports.io/football/teams/22157.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "V. Torres"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

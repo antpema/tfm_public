@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1268912"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1268912,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-03T16:00:00+00:00",
+                "timestamp": 1722700800,
+                "periods": {
+                    "first": 1722700800,
+                    "second": 1722704400
+                },
+                "venue": {
+                    "id": 893,
+                    "name": "Stadio San Vito-Luigi Marulla",
+                    "city": "Cosenza"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 10137,
+                    "name": "Cosenza",
+                    "logo": "https://media.api-sports.io/football/teams/10137.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 521,
+                    "name": "Foggia",
+                    "logo": "https://media.api-sports.io/football/teams/521.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 49,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10137,
+                        "name": "Cosenza",
+                        "logo": "https://media.api-sports.io/football/teams/10137.png"
+                    },
+                    "player": {
+                        "id": 31123,
+                        "name": "S. Mazzocchi"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 88,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10137,
+                        "name": "Cosenza",
+                        "logo": "https://media.api-sports.io/football/teams/10137.png"
+                    },
+                    "player": {
+                        "id": 327581,
+                        "name": "M. Zilli"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

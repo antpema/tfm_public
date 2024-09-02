@@ -1,0 +1,822 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1234350"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1234350,
+                "referee": "B. Li\u00e9vano",
+                "timezone": "UTC",
+                "date": "2024-08-06T23:30:00+00:00",
+                "timestamp": 1722987000,
+                "periods": {
+                    "first": 1722987000,
+                    "second": 1722990600
+                },
+                "venue": {
+                    "id": 387,
+                    "name": "Estadio Sierra Nevada",
+                    "city": "Santa Marta"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 240,
+                "name": "Primera B",
+                "country": "Colombia",
+                "logo": "https://media.api-sports.io/football/leagues/240.png",
+                "flag": "https://media.api-sports.io/flags/co.svg",
+                "season": 2024,
+                "round": "Clausura - 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 1465,
+                    "name": "Union Magdalena",
+                    "logo": "https://media.api-sports.io/football/teams/1465.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 1469,
+                    "name": "Orsomarso",
+                    "logo": "https://media.api-sports.io/football/teams/1469.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 3,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 3,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 10,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1465,
+                        "name": "Union Magdalena",
+                        "logo": "https://media.api-sports.io/football/teams/1465.png"
+                    },
+                    "player": {
+                        "id": 405127,
+                        "name": "J. Sarmiento"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 16,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1469,
+                        "name": "Orsomarso",
+                        "logo": "https://media.api-sports.io/football/teams/1469.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "S. Gonzalez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 23,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1469,
+                        "name": "Orsomarso",
+                        "logo": "https://media.api-sports.io/football/teams/1469.png"
+                    },
+                    "player": {
+                        "id": 279358,
+                        "name": "D. Copete"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 40,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1465,
+                        "name": "Union Magdalena",
+                        "logo": "https://media.api-sports.io/football/teams/1465.png"
+                    },
+                    "player": {
+                        "id": 51523,
+                        "name": "C. E. Sencion Rodriguez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1465,
+                        "name": "Union Magdalena",
+                        "logo": "https://media.api-sports.io/football/teams/1465.png"
+                    },
+                    "player": {
+                        "id": 59814,
+                        "name": "A. Escobar"
+                    },
+                    "assist": {
+                        "id": 374582,
+                        "name": "V. Sanchez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 55,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1465,
+                        "name": "Union Magdalena",
+                        "logo": "https://media.api-sports.io/football/teams/1465.png"
+                    },
+                    "player": {
+                        "id": 13657,
+                        "name": "O. Aragon"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 56,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1469,
+                        "name": "Orsomarso",
+                        "logo": "https://media.api-sports.io/football/teams/1469.png"
+                    },
+                    "player": {
+                        "id": 456477,
+                        "name": "S. Gonz\u00e1lez"
+                    },
+                    "assist": {
+                        "id": 375860,
+                        "name": "E. Preciado"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 56,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1469,
+                        "name": "Orsomarso",
+                        "logo": "https://media.api-sports.io/football/teams/1469.png"
+                    },
+                    "player": {
+                        "id": 383250,
+                        "name": "C. Ibarra"
+                    },
+                    "assist": {
+                        "id": 477182,
+                        "name": "J. Angulo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1465,
+                        "name": "Union Magdalena",
+                        "logo": "https://media.api-sports.io/football/teams/1465.png"
+                    },
+                    "player": {
+                        "id": 289496,
+                        "name": "A. L. Spina"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1469,
+                        "name": "Orsomarso",
+                        "logo": "https://media.api-sports.io/football/teams/1469.png"
+                    },
+                    "player": {
+                        "id": 471060,
+                        "name": "A. Ru\u00edz"
+                    },
+                    "assist": {
+                        "id": 200157,
+                        "name": "S. Girado"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1469,
+                        "name": "Orsomarso",
+                        "logo": "https://media.api-sports.io/football/teams/1469.png"
+                    },
+                    "player": {
+                        "id": 378206,
+                        "name": "A. Arag\u00f3n"
+                    },
+                    "assist": {
+                        "id": 59607,
+                        "name": "J. Molina"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1465,
+                        "name": "Union Magdalena",
+                        "logo": "https://media.api-sports.io/football/teams/1465.png"
+                    },
+                    "player": {
+                        "id": 289496,
+                        "name": "A. Spina"
+                    },
+                    "assist": {
+                        "id": 52585,
+                        "name": "Juan Giraldo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1465,
+                        "name": "Union Magdalena",
+                        "logo": "https://media.api-sports.io/football/teams/1465.png"
+                    },
+                    "player": {
+                        "id": 13657,
+                        "name": "O. Aragon"
+                    },
+                    "assist": {
+                        "id": 13809,
+                        "name": "R. Blanco"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 75,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1465,
+                        "name": "Union Magdalena",
+                        "logo": "https://media.api-sports.io/football/teams/1465.png"
+                    },
+                    "player": {
+                        "id": 405127,
+                        "name": "J. Sarmiento"
+                    },
+                    "assist": {
+                        "id": 466392,
+                        "name": "J. Alem\u00e1n"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 77,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1465,
+                        "name": "Union Magdalena",
+                        "logo": "https://media.api-sports.io/football/teams/1465.png"
+                    },
+                    "player": {
+                        "id": 374582,
+                        "name": "V. Sanchez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1469,
+                        "name": "Orsomarso",
+                        "logo": "https://media.api-sports.io/football/teams/1469.png"
+                    },
+                    "player": {
+                        "id": 279358,
+                        "name": "D. Copete"
+                    },
+                    "assist": {
+                        "id": 437105,
+                        "name": "G. Benavides"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1465,
+                        "name": "Union Magdalena",
+                        "logo": "https://media.api-sports.io/football/teams/1465.png"
+                    },
+                    "player": {
+                        "id": 51523,
+                        "name": "C. Senci\u00f3n"
+                    },
+                    "assist": {
+                        "id": 362518,
+                        "name": "J. Mercado"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 1465,
+                        "name": "Union Magdalena",
+                        "logo": "https://media.api-sports.io/football/teams/1465.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 2163,
+                        "name": "J. Pinto",
+                        "photo": "https://media.api-sports.io/football/coachs/2163.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 59503,
+                                "name": "G. G\u00f3mez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13668,
+                                "name": "A. Correa",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13798,
+                                "name": "F. Cantillo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13506,
+                                "name": "G. Tegu\u0308\u00e9",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 59538,
+                                "name": "D. Mera",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 207918,
+                                "name": "J. Tello",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 51523,
+                                "name": "C. Senci\u00f3n",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 59814,
+                                "name": "A. Escobar",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 289496,
+                                "name": "A. Spina",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 405127,
+                                "name": "J. Sarmiento",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13657,
+                                "name": "O. Aragon",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 374582,
+                                "name": "V. Sanchez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52585,
+                                "name": "Juan Giraldo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13809,
+                                "name": "R. Blanco",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 466392,
+                                "name": "J. Alem\u00e1n",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 362518,
+                                "name": "J. Mercado",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13382,
+                                "name": "J. Wallens",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13517,
+                                "name": "Jaime Giraldo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 1469,
+                        "name": "Orsomarso",
+                        "logo": "https://media.api-sports.io/football/teams/1469.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 15733,
+                        "name": "S. S\u00e1nchez",
+                        "photo": "https://media.api-sports.io/football/coachs/15733.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 352517,
+                                "name": "E. Obando",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 411170,
+                                "name": "S. Mayo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 454541,
+                                "name": "J. Casta\u00f1o",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 456477,
+                                "name": "S. Gonz\u00e1lez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 456476,
+                                "name": "D. Bonilla",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 471060,
+                                "name": "A. Ru\u00edz",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 279358,
+                                "name": "D. Copete",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 405558,
+                                "name": "L. G\u00f3mez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 378206,
+                                "name": "A. Arag\u00f3n",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 383250,
+                                "name": "C. Ibarra",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 449373,
+                                "name": "S. Ag\u00e1mez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 375860,
+                                "name": "E. Preciado",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 477182,
+                                "name": "J. Angulo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 200157,
+                                "name": "S. Girado",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 59607,
+                                "name": "J. Molina",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 437105,
+                                "name": "G. Benavides",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 408338,
+                                "name": "B. Ben\u00edtez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 415107,
+                                "name": "Y. Mosquera",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

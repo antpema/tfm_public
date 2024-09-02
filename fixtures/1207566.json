@@ -1,0 +1,818 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1207566"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1207566,
+                "referee": "S. Kolev",
+                "timezone": "UTC",
+                "date": "2024-07-20T15:30:00+00:00",
+                "timestamp": 1721489400,
+                "periods": {
+                    "first": 1721489400,
+                    "second": 1721493000
+                },
+                "venue": {
+                    "id": 6105,
+                    "name": "Stadion Chavdar Tsvetkov",
+                    "city": "Svoge"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 173,
+                "name": "Second League",
+                "country": "Bulgaria",
+                "logo": "https://media.api-sports.io/football/leagues/173.png",
+                "flag": "https://media.api-sports.io/flags/bg.svg",
+                "season": 2024,
+                "round": "Regular Season - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 8550,
+                    "name": "Sportist Svoge",
+                    "logo": "https://media.api-sports.io/football/teams/8550.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 1428,
+                    "name": "Pirin Blagoevgrad",
+                    "logo": "https://media.api-sports.io/football/teams/1428.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 3,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1428,
+                        "name": "Pirin Blagoevgrad",
+                        "logo": "https://media.api-sports.io/football/teams/1428.png"
+                    },
+                    "player": {
+                        "id": 10852,
+                        "name": "V. Yoskov"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 41,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8550,
+                        "name": "Sportist Svoge",
+                        "logo": "https://media.api-sports.io/football/teams/8550.png"
+                    },
+                    "player": {
+                        "id": 11084,
+                        "name": "B. Danchev"
+                    },
+                    "assist": {
+                        "id": 10692,
+                        "name": "K. Stefanov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 44,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1428,
+                        "name": "Pirin Blagoevgrad",
+                        "logo": "https://media.api-sports.io/football/teams/1428.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8550,
+                        "name": "Sportist Svoge",
+                        "logo": "https://media.api-sports.io/football/teams/8550.png"
+                    },
+                    "player": {
+                        "id": 458287,
+                        "name": "Paulo Soares"
+                    },
+                    "assist": {
+                        "id": 64275,
+                        "name": "K. Beshev"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1428,
+                        "name": "Pirin Blagoevgrad",
+                        "logo": "https://media.api-sports.io/football/teams/1428.png"
+                    },
+                    "player": {
+                        "id": 457827,
+                        "name": "E. Georgiev"
+                    },
+                    "assist": {
+                        "id": 71434,
+                        "name": "B. Bozhurkin"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8550,
+                        "name": "Sportist Svoge",
+                        "logo": "https://media.api-sports.io/football/teams/8550.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8550,
+                        "name": "Sportist Svoge",
+                        "logo": "https://media.api-sports.io/football/teams/8550.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1428,
+                        "name": "Pirin Blagoevgrad",
+                        "logo": "https://media.api-sports.io/football/teams/1428.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8550,
+                        "name": "Sportist Svoge",
+                        "logo": "https://media.api-sports.io/football/teams/8550.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 81,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1428,
+                        "name": "Pirin Blagoevgrad",
+                        "logo": "https://media.api-sports.io/football/teams/1428.png"
+                    },
+                    "player": {
+                        "id": 72506,
+                        "name": "B. Kovalenko"
+                    },
+                    "assist": {
+                        "id": 305954,
+                        "name": "I. Botnari"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1428,
+                        "name": "Pirin Blagoevgrad",
+                        "logo": "https://media.api-sports.io/football/teams/1428.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1428,
+                        "name": "Pirin Blagoevgrad",
+                        "logo": "https://media.api-sports.io/football/teams/1428.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8550,
+                        "name": "Sportist Svoge",
+                        "logo": "https://media.api-sports.io/football/teams/8550.png"
+                    },
+                    "player": {
+                        "id": 458223,
+                        "name": "A. Veselinski"
+                    },
+                    "assist": {
+                        "id": 281891,
+                        "name": "H. Dimitrov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 89,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1428,
+                        "name": "Pirin Blagoevgrad",
+                        "logo": "https://media.api-sports.io/football/teams/1428.png"
+                    },
+                    "player": {
+                        "id": 43288,
+                        "name": "A. Souda"
+                    },
+                    "assist": {
+                        "id": 385872,
+                        "name": "L. Boyanov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 5
+                    },
+                    "team": {
+                        "id": 1428,
+                        "name": "Pirin Blagoevgrad",
+                        "logo": "https://media.api-sports.io/football/teams/1428.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 5
+                    },
+                    "team": {
+                        "id": 1428,
+                        "name": "Pirin Blagoevgrad",
+                        "logo": "https://media.api-sports.io/football/teams/1428.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 8550,
+                        "name": "Sportist Svoge",
+                        "logo": "https://media.api-sports.io/football/teams/8550.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 22726,
+                        "name": "B. Stoychev",
+                        "photo": "https://media.api-sports.io/football/coachs/22726.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 283578,
+                                "name": "Dylan Silva",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 91305,
+                                "name": "T. Kaleba",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 390492,
+                                "name": "G. Madzharov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 323707,
+                                "name": "G. Ivanov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 390532,
+                                "name": "K. Hristov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 10883,
+                                "name": "A. Bastunov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 11084,
+                                "name": "B. Danchev",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 458287,
+                                "name": "Paulo Soares",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 458223,
+                                "name": "A. Veselinski",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 156139,
+                                "name": "J. Clifford",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 390491,
+                                "name": "M. Krastev",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 10692,
+                                "name": "K. Stefanov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 64275,
+                                "name": "K. Beshev",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 281891,
+                                "name": "H. Dimitrov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 356767,
+                                "name": "E. Kyosov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 401136,
+                                "name": "T. Totev",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 78122,
+                                "name": "D. Damyanov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 476855,
+                                "name": "A. Ramadan",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 1428,
+                        "name": "Pirin Blagoevgrad",
+                        "logo": "https://media.api-sports.io/football/teams/1428.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 1622,
+                        "name": "I. Trenchev",
+                        "photo": "https://media.api-sports.io/football/coachs/1622.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 11151,
+                                "name": "K. Kostov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 10993,
+                                "name": "N. Bodurov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 11296,
+                                "name": "A. Dyulgerov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 323928,
+                                "name": "B. Ivanov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 368172,
+                                "name": "H. Petrov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 11169,
+                                "name": "G. Valchev",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 457827,
+                                "name": "E. Georgiev",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43288,
+                                "name": "A. Souda",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 72506,
+                                "name": "B. Kovalenko",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 10852,
+                                "name": "V. Yoskov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 11093,
+                                "name": "Z. Dinev",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 71434,
+                                "name": "B. Bozhurkin",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 305954,
+                                "name": "I. Botnari",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 385872,
+                                "name": "L. Boyanov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 476299,
+                                "name": "D. Buchev",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 368171,
+                                "name": "I. Kostov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 426620,
+                                "name": "M. Georgiev",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 475201,
+                                "name": "N. Bandev",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 426518,
+                                "name": "V. Laskov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 420941,
+                                "name": "Y. Dimitrov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

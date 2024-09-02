@@ -1,0 +1,675 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1230647"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1230647,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-01T17:00:00+00:00",
+                "timestamp": 1722531600,
+                "periods": {
+                    "first": 1722531600,
+                    "second": 1722535200
+                },
+                "venue": {
+                    "id": 1154,
+                    "name": "Stadion Galgenwaard",
+                    "city": "Utrecht"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 207,
+                    "name": "Utrecht",
+                    "logo": "https://media.api-sports.io/football/teams/207.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 517,
+                    "name": "Venezia",
+                    "logo": "https://media.api-sports.io/football/teams/517.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 2
+                    },
+                    "team": {
+                        "id": 207,
+                        "name": "Utrecht",
+                        "logo": "https://media.api-sports.io/football/teams/207.png"
+                    },
+                    "player": {
+                        "id": 15945,
+                        "name": "J. Okkels"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 207,
+                        "name": "Utrecht",
+                        "logo": "https://media.api-sports.io/football/teams/207.png"
+                    },
+                    "player": {
+                        "id": 180466,
+                        "name": "A. Descotte"
+                    },
+                    "assist": {
+                        "id": 15945,
+                        "name": "J. Okkels"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 517,
+                        "name": "Venezia",
+                        "logo": "https://media.api-sports.io/football/teams/517.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "I. Doumbia"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 207,
+                        "name": "Utrecht",
+                        "logo": "https://media.api-sports.io/football/teams/207.png"
+                    },
+                    "player": {
+                        "id": 203162,
+                        "name": "C. Bozdogan"
+                    },
+                    "assist": {
+                        "id": 284295,
+                        "name": "Z. Iqbal"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 207,
+                        "name": "Utrecht",
+                        "logo": "https://media.api-sports.io/football/teams/207.png"
+                    },
+                    "player": {
+                        "id": 280317,
+                        "name": "N. Ohio"
+                    },
+                    "assist": {
+                        "id": 93007,
+                        "name": "D. Min"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 207,
+                        "name": "Utrecht",
+                        "logo": "https://media.api-sports.io/football/teams/207.png"
+                    },
+                    "player": {
+                        "id": 37383,
+                        "name": "O. ter Haar Romeny"
+                    },
+                    "assist": {
+                        "id": 37156,
+                        "name": "J. Toornstra"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 207,
+                        "name": "Utrecht",
+                        "logo": "https://media.api-sports.io/football/teams/207.png"
+                    },
+                    "player": {
+                        "id": 367472,
+                        "name": "A. Blake"
+                    },
+                    "assist": {
+                        "id": 38752,
+                        "name": "V. Jensen"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 207,
+                        "name": "Utrecht",
+                        "logo": "https://media.api-sports.io/football/teams/207.png"
+                    },
+                    "player": {
+                        "id": 37383,
+                        "name": "O. ter Haar Romeny"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 517,
+                        "name": "Venezia",
+                        "logo": "https://media.api-sports.io/football/teams/517.png"
+                    },
+                    "player": {
+                        "id": 30551,
+                        "name": "N. Lella"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 207,
+                        "name": "Utrecht",
+                        "logo": "https://media.api-sports.io/football/teams/207.png",
+                        "colors": {
+                            "player": {
+                                "primary": "ff0000",
+                                "number": "ffffff",
+                                "border": "ff0000"
+                            },
+                            "goalkeeper": {
+                                "primary": "d76ca6",
+                                "number": "0e0d0d",
+                                "border": "d76ca6"
+                            }
+                        }
+                    },
+                    "formation": "4-2-3-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 584,
+                                "name": "Vasilis Barkas",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 37874,
+                                "name": "Siebe Horemans",
+                                "number": 2,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19322,
+                                "name": "Mike van der Hoorn",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 232,
+                                "name": "Nick Viergever",
+                                "number": 24,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 127803,
+                                "name": "Souffian El Karouani",
+                                "number": 16,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 38752,
+                                "name": "Victor Jensen",
+                                "number": 7,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 321746,
+                                "name": "Alonzo Engwanda",
+                                "number": 65,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 284295,
+                                "name": "Zidane Iqbal",
+                                "number": 14,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 37156,
+                                "name": "Jens Toornstra",
+                                "number": 18,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15945,
+                                "name": "Jeppe Okkels",
+                                "number": 17,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 93007,
+                                "name": "David Min",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 180466,
+                                "name": "Anthony Descotte",
+                                "number": 19,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 203162,
+                                "name": "Can Bozdo\u011fan",
+                                "number": 6,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 280317,
+                                "name": "Noah Ohio",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 37383,
+                                "name": "Ole Romeny",
+                                "number": 77,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 367472,
+                                "name": "Adrian Blake",
+                                "number": 15,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 37247,
+                                "name": "Michael Brouwer",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 161898,
+                                "name": "Matisse Didden",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Wessel Kooy",
+                                "number": 33,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 313009,
+                                "name": "Rickson van Hees",
+                                "number": 99,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 298042,
+                                "name": "Joshua Mukeh",
+                                "number": 44,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 411290,
+                                "name": "Nazjir Held",
+                                "number": 45,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 192434,
+                                "name": "Miguel Rodr\u00edguez",
+                                "number": 22,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 350641,
+                                "name": "Ivar Jenner",
+                                "number": 38,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Silas Sinan Erhen Thorup Andersen",
+                                "number": 46,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47895,
+                                "name": "Isac Lidberg",
+                                "number": 37,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 1986,
+                        "name": "R. Jans",
+                        "photo": "https://media.api-sports.io/football/coachs/1986.png"
+                    }
+                },
+                {
+                    "team": {
+                        "id": 517,
+                        "name": "Venezia",
+                        "logo": "https://media.api-sports.io/football/teams/517.png",
+                        "colors": {
+                            "player": {
+                                "primary": "000000",
+                                "number": "ffffff",
+                                "border": "000000"
+                            },
+                            "goalkeeper": {
+                                "primary": "f69815",
+                                "number": "ffffff",
+                                "border": "f69815"
+                            }
+                        }
+                    },
+                    "formation": "3-5-2",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 1282,
+                                "name": "Jesse Joronen",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 37651,
+                                "name": "Jay Idzes",
+                                "number": 4,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 26095,
+                                "name": "Marin \u0160verko",
+                                "number": 33,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7090,
+                                "name": "Michael Svoboda",
+                                "number": 30,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Issa Doumbia",
+                                "number": 46,
+                                "pos": "M",
+                                "grid": "3:5"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15905,
+                                "name": "Magnus Kofod Andersen",
+                                "number": 38,
+                                "pos": "M",
+                                "grid": "3:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28700,
+                                "name": "Bjarki Steinn Bjarkason",
+                                "number": 19,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 89520,
+                                "name": "Mikael Ellertsson",
+                                "number": 77,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 31079,
+                                "name": "Francesco Zampano",
+                                "number": 7,
+                                "pos": "D",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 986,
+                                "name": "Joel Pohjanpalo",
+                                "number": 20,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 161859,
+                                "name": "Gaetano Oristanio",
+                                "number": 25,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 16723,
+                        "name": "P. Vanoli",
+                        "photo": "https://media.api-sports.io/football/coachs/16723.png"
+                    }
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

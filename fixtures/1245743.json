@@ -1,0 +1,871 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1245743"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1245743,
+                "referee": "T. Kolof\u00edk",
+                "timezone": "UTC",
+                "date": "2024-07-27T15:00:00+00:00",
+                "timestamp": 1722092400,
+                "periods": {
+                    "first": 1722092400,
+                    "second": 1722096000
+                },
+                "venue": {
+                    "id": 18869,
+                    "name": "\u0160tadi\u00f3n M\u0160K Pova\u017esk\u00e1 Bystrica",
+                    "city": "Pova\u017esk\u00e1 Bystrica"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 506,
+                "name": "2. liga",
+                "country": "Slovakia",
+                "logo": "https://media.api-sports.io/football/leagues/506.png",
+                "flag": "https://media.api-sports.io/flags/sk.svg",
+                "season": 2024,
+                "round": "Regular Season - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 14062,
+                    "name": "Pova\u017esk\u00e1 Bystrica",
+                    "logo": "https://media.api-sports.io/football/teams/14062.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 10544,
+                    "name": "Slovan Bratislava II",
+                    "logo": "https://media.api-sports.io/football/teams/10544.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 3
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 3
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 19,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10544,
+                        "name": "Slovan Bratislava II",
+                        "logo": "https://media.api-sports.io/football/teams/10544.png"
+                    },
+                    "player": {
+                        "id": 374462,
+                        "name": "D. Laktionov"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 44,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10544,
+                        "name": "Slovan Bratislava II",
+                        "logo": "https://media.api-sports.io/football/teams/10544.png"
+                    },
+                    "player": {
+                        "id": 342157,
+                        "name": "M. Marko"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14062,
+                        "name": "Pova\u017esk\u00e1 Bystrica",
+                        "logo": "https://media.api-sports.io/football/teams/14062.png"
+                    },
+                    "player": {
+                        "id": 303072,
+                        "name": "M. Matej\u010d\u00edk"
+                    },
+                    "assist": {
+                        "id": 204853,
+                        "name": "S. Pag\u00e1\u010d"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14062,
+                        "name": "Pova\u017esk\u00e1 Bystrica",
+                        "logo": "https://media.api-sports.io/football/teams/14062.png"
+                    },
+                    "player": {
+                        "id": 429229,
+                        "name": "T. Kras\u0148an"
+                    },
+                    "assist": {
+                        "id": 267269,
+                        "name": "D. Rapav\u00fd"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 58,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10544,
+                        "name": "Slovan Bratislava II",
+                        "logo": "https://media.api-sports.io/football/teams/10544.png"
+                    },
+                    "player": {
+                        "id": 470393,
+                        "name": "M. Mateas"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14062,
+                        "name": "Pova\u017esk\u00e1 Bystrica",
+                        "logo": "https://media.api-sports.io/football/teams/14062.png"
+                    },
+                    "player": {
+                        "id": 267639,
+                        "name": "M. Boris"
+                    },
+                    "assist": {
+                        "id": 359768,
+                        "name": "P. Jakub\u00edk"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14062,
+                        "name": "Pova\u017esk\u00e1 Bystrica",
+                        "logo": "https://media.api-sports.io/football/teams/14062.png"
+                    },
+                    "player": {
+                        "id": 205019,
+                        "name": "R. Zemko"
+                    },
+                    "assist": {
+                        "id": 205114,
+                        "name": "A. Cis\u00e1r"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10544,
+                        "name": "Slovan Bratislava II",
+                        "logo": "https://media.api-sports.io/football/teams/10544.png"
+                    },
+                    "player": {
+                        "id": 161783,
+                        "name": "A. T\u00f3th"
+                    },
+                    "assist": {
+                        "id": 303120,
+                        "name": "M. Mi\u010d\u00e1k"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 81,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10544,
+                        "name": "Slovan Bratislava II",
+                        "logo": "https://media.api-sports.io/football/teams/10544.png"
+                    },
+                    "player": {
+                        "id": 161779,
+                        "name": "G. Horny\u00e1k"
+                    },
+                    "assist": {
+                        "id": 409546,
+                        "name": "A. Maro\u0161"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 81,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10544,
+                        "name": "Slovan Bratislava II",
+                        "logo": "https://media.api-sports.io/football/teams/10544.png"
+                    },
+                    "player": {
+                        "id": 470393,
+                        "name": "M. Mateas"
+                    },
+                    "assist": {
+                        "id": 450708,
+                        "name": "S. Mur\u00e1r"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14062,
+                        "name": "Pova\u017esk\u00e1 Bystrica",
+                        "logo": "https://media.api-sports.io/football/teams/14062.png"
+                    },
+                    "player": {
+                        "id": 267269,
+                        "name": "D. Rapavy"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14062,
+                        "name": "Pova\u017esk\u00e1 Bystrica",
+                        "logo": "https://media.api-sports.io/football/teams/14062.png"
+                    },
+                    "player": {
+                        "id": 205114,
+                        "name": "A. Cisar"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10544,
+                        "name": "Slovan Bratislava II",
+                        "logo": "https://media.api-sports.io/football/teams/10544.png"
+                    },
+                    "player": {
+                        "id": 308907,
+                        "name": "A. Hrdina"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10544,
+                        "name": "Slovan Bratislava II",
+                        "logo": "https://media.api-sports.io/football/teams/10544.png"
+                    },
+                    "player": {
+                        "id": 311274,
+                        "name": "M. Ku\u0161n\u00edr"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 10544,
+                        "name": "Slovan Bratislava II",
+                        "logo": "https://media.api-sports.io/football/teams/10544.png"
+                    },
+                    "player": {
+                        "id": 342157,
+                        "name": "M. Marko"
+                    },
+                    "assist": {
+                        "id": 389638,
+                        "name": "D. Murar"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 10544,
+                        "name": "Slovan Bratislava II",
+                        "logo": "https://media.api-sports.io/football/teams/10544.png"
+                    },
+                    "player": {
+                        "id": 374462,
+                        "name": "D. Laktionov"
+                    },
+                    "assist": {
+                        "id": 417478,
+                        "name": "T. Balko"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 14062,
+                        "name": "Pova\u017esk\u00e1 Bystrica",
+                        "logo": "https://media.api-sports.io/football/teams/14062.png"
+                    },
+                    "player": {
+                        "id": 267269,
+                        "name": "D. Rapav\u00fd"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 5
+                    },
+                    "team": {
+                        "id": 10544,
+                        "name": "Slovan Bratislava II",
+                        "logo": "https://media.api-sports.io/football/teams/10544.png"
+                    },
+                    "player": {
+                        "id": 417478,
+                        "name": "T. Balko"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 14062,
+                        "name": "Pova\u017esk\u00e1 Bystrica",
+                        "logo": "https://media.api-sports.io/football/teams/14062.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 8583,
+                        "name": "P. Jaku\u0161",
+                        "photo": "https://media.api-sports.io/football/coachs/8583.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 131517,
+                                "name": "R. Hod\u00e1l",
+                                "number": 73,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 204888,
+                                "name": "D. Kuchar\u010d\u00edk",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 204772,
+                                "name": "M. Vacul\u00edk",
+                                "number": 12,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 204766,
+                                "name": "M. \u010curik",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 303072,
+                                "name": "M. Matej\u010d\u00edk",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1397,
+                                "name": "A. Sloboda",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 61247,
+                                "name": "L. J\u00e1no\u0161\u00edk",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 205019,
+                                "name": "R. Zemko",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 131523,
+                                "name": "J. Tanc\u00edk",
+                                "number": 77,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 267639,
+                                "name": "M. Boris",
+                                "number": 27,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 429229,
+                                "name": "T. Kras\u0148an",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 204853,
+                                "name": "S. Pag\u00e1\u010d",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 267269,
+                                "name": "D. Rapav\u00fd",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 205114,
+                                "name": "A. Cis\u00e1r",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 359768,
+                                "name": "P. Jakub\u00edk",
+                                "number": 24,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 461957,
+                                "name": "J. Mita\u0161",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 461958,
+                                "name": "S. Sol\u00edk",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 477840,
+                                "name": "J. Kubala",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 477841,
+                                "name": "O. Min\u00e1r",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 10544,
+                        "name": "Slovan Bratislava II",
+                        "logo": "https://media.api-sports.io/football/teams/10544.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 5302,
+                        "name": "V. G\u00e1la",
+                        "photo": "https://media.api-sports.io/football/coachs/5302.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 308907,
+                                "name": "A. Hrdina",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 161783,
+                                "name": "A. T\u00f3th",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 428444,
+                                "name": "T. Maru\u0161in",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 161779,
+                                "name": "G. Horny\u00e1k",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 162282,
+                                "name": "S. Habodasz",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 311274,
+                                "name": "M. Ku\u0161n\u00edr",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 342157,
+                                "name": "M. Marko",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 314299,
+                                "name": "M. Mi\u0161ovi\u010d",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 347798,
+                                "name": "M. Boledovi\u010d",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 470393,
+                                "name": "M. Mateas",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 374462,
+                                "name": "D. Laktionov",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 303120,
+                                "name": "M. Mi\u010d\u00e1k",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 409546,
+                                "name": "A. Maro\u0161",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 450708,
+                                "name": "S. Mur\u00e1r",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 389638,
+                                "name": "D. Murar",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 417478,
+                                "name": "T. Balko",
+                                "number": 12,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 204905,
+                                "name": "J. Bal\u00e1\u017e",
+                                "number": 3,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 314297,
+                                "name": "D. Szalma",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 383043,
+                                "name": "A. Mikol\u00e1\u0161",
+                                "number": 30,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 377904,
+                                "name": "Z. Ivanics",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

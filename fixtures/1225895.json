@@ -1,0 +1,770 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1225895"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1225895,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-10T16:00:00+00:00",
+                "timestamp": 1723305600,
+                "periods": {
+                    "first": 1723305600,
+                    "second": 1723309200
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Stadion im. Sultana Bilimkhanova",
+                    "city": "Groznyi"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 236,
+                "name": "First League",
+                "country": "Russia",
+                "logo": "https://media.api-sports.io/football/leagues/236.png",
+                "flag": "https://media.api-sports.io/flags/ru.svg",
+                "season": 2024,
+                "round": "Regular Season - 5"
+            },
+            "teams": {
+                "home": {
+                    "id": 6787,
+                    "name": "Alaniya Vladikavkaz",
+                    "logo": "https://media.api-sports.io/football/teams/6787.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 1089,
+                    "name": "Enisey",
+                    "logo": "https://media.api-sports.io/football/teams/1089.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 13,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1089,
+                        "name": "Enisey",
+                        "logo": "https://media.api-sports.io/football/teams/1089.png"
+                    },
+                    "player": {
+                        "id": 356664,
+                        "name": "D. Grigorjev"
+                    },
+                    "assist": {
+                        "id": 324170,
+                        "name": "T. Shipunov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1089,
+                        "name": "Enisey",
+                        "logo": "https://media.api-sports.io/football/teams/1089.png"
+                    },
+                    "player": {
+                        "id": 116107,
+                        "name": "A. Gilyazetdinov"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 61,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6787,
+                        "name": "Alaniya Vladikavkaz",
+                        "logo": "https://media.api-sports.io/football/teams/6787.png"
+                    },
+                    "player": {
+                        "id": 200493,
+                        "name": "N. Abdokov"
+                    },
+                    "assist": {
+                        "id": 7916,
+                        "name": "A. Chochiev"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1089,
+                        "name": "Enisey",
+                        "logo": "https://media.api-sports.io/football/teams/1089.png"
+                    },
+                    "player": {
+                        "id": 53584,
+                        "name": "A. Chukanov"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 69,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6787,
+                        "name": "Alaniya Vladikavkaz",
+                        "logo": "https://media.api-sports.io/football/teams/6787.png"
+                    },
+                    "player": {
+                        "id": 149575,
+                        "name": "A. Khugaev"
+                    },
+                    "assist": {
+                        "id": 7845,
+                        "name": "S. Makarov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 69,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6787,
+                        "name": "Alaniya Vladikavkaz",
+                        "logo": "https://media.api-sports.io/football/teams/6787.png"
+                    },
+                    "player": {
+                        "id": 375684,
+                        "name": "E. Gubiev"
+                    },
+                    "assist": {
+                        "id": 149570,
+                        "name": "A. Butaev"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 69,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6787,
+                        "name": "Alaniya Vladikavkaz",
+                        "logo": "https://media.api-sports.io/football/teams/6787.png"
+                    },
+                    "player": {
+                        "id": 290720,
+                        "name": "D. Kokoev"
+                    },
+                    "assist": {
+                        "id": 53744,
+                        "name": "P. Dolgov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 79,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1089,
+                        "name": "Enisey",
+                        "logo": "https://media.api-sports.io/football/teams/1089.png"
+                    },
+                    "player": {
+                        "id": 149867,
+                        "name": "D. Samoilov"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6787,
+                        "name": "Alaniya Vladikavkaz",
+                        "logo": "https://media.api-sports.io/football/teams/6787.png"
+                    },
+                    "player": {
+                        "id": 358544,
+                        "name": "A. Dryaev"
+                    },
+                    "assist": {
+                        "id": 375685,
+                        "name": "T. Gagloev"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1089,
+                        "name": "Enisey",
+                        "logo": "https://media.api-sports.io/football/teams/1089.png"
+                    },
+                    "player": {
+                        "id": 268958,
+                        "name": "A. Mazurin"
+                    },
+                    "assist": {
+                        "id": 116107,
+                        "name": "A. Gilyazetdinov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1089,
+                        "name": "Enisey",
+                        "logo": "https://media.api-sports.io/football/teams/1089.png"
+                    },
+                    "player": {
+                        "id": 138565,
+                        "name": "I. Molteninov"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "M. Savelyev"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 1089,
+                        "name": "Enisey",
+                        "logo": "https://media.api-sports.io/football/teams/1089.png"
+                    },
+                    "player": {
+                        "id": 268958,
+                        "name": "A. Mazurin"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 6787,
+                        "name": "Alaniya Vladikavkaz",
+                        "logo": "https://media.api-sports.io/football/teams/6787.png",
+                        "colors": {
+                            "player": {
+                                "primary": "ff0000",
+                                "number": "ffffff",
+                                "border": "ff0000"
+                            },
+                            "goalkeeper": {
+                                "primary": "fafb00",
+                                "number": "000000",
+                                "border": "fafb00"
+                            }
+                        }
+                    },
+                    "formation": "3-4-2-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 43341,
+                                "name": "Rostislav Soldatenko",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66246,
+                                "name": "Aleksey Tataev",
+                                "number": 2,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 97517,
+                                "name": "Alan Bagaev",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 53523,
+                                "name": "Konstantin Pliev",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 149570,
+                                "name": "Allon Butaev",
+                                "number": 19,
+                                "pos": "D",
+                                "grid": "3:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7845,
+                                "name": "Sergey Makarov",
+                                "number": 27,
+                                "pos": "D",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 53599,
+                                "name": "Ibragim Tsallagov",
+                                "number": 15,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 323769,
+                                "name": "Ilya Moskalenchik",
+                                "number": 22,
+                                "pos": "D",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 375685,
+                                "name": "Taras Gagloev",
+                                "number": 37,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7916,
+                                "name": "Alan Chochiev",
+                                "number": 11,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 53744,
+                                "name": "Pavel Dolgov",
+                                "number": 91,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 200493,
+                                "name": "Nuri Abdokov",
+                                "number": 9,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 375684,
+                                "name": "Erik Gubiev",
+                                "number": 12,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 149575,
+                                "name": "Alan Khugaev",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 290720,
+                                "name": "David Kokoev",
+                                "number": 77,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 358544,
+                                "name": "Arsen Dryaev",
+                                "number": 61,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 149815,
+                                "name": "Georgi Natabashvili",
+                                "number": 23,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 53718,
+                                "name": "Azamat Zaseev",
+                                "number": 13,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 149826,
+                                "name": "Ruslan Daurov",
+                                "number": 70,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 362565,
+                                "name": "Zaur Tarba",
+                                "number": 6,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 345452,
+                                "name": "Viktor Nafikov",
+                                "number": 76,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 476337,
+                                "name": "Williams Chimezie Oluebube",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 7895,
+                        "name": "S. Tazabaev",
+                        "photo": "https://media.api-sports.io/football/coachs/7895.png"
+                    }
+                },
+                {
+                    "team": {
+                        "id": 1089,
+                        "name": "Enisey",
+                        "logo": "https://media.api-sports.io/football/teams/1089.png",
+                        "colors": {
+                            "player": {
+                                "primary": "00274f",
+                                "number": "ffffff",
+                                "border": "00274f"
+                            },
+                            "goalkeeper": {
+                                "primary": "0e0000",
+                                "number": "ffffff",
+                                "border": "0e0000"
+                            }
+                        }
+                    },
+                    "formation": "3-5-2",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 43503,
+                                "name": "Stanislav Antipin",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 92090,
+                                "name": "Maksim Shiryaev",
+                                "number": 12,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43844,
+                                "name": "Tomas Rukas",
+                                "number": 96,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 310299,
+                                "name": "Yan Tses",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 116107,
+                                "name": "Artur Gilyazetdinov",
+                                "number": 43,
+                                "pos": "M",
+                                "grid": "3:5"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43741,
+                                "name": "Aleksandr Lomakin",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": "3:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 149867,
+                                "name": "Denis Samoilov",
+                                "number": 88,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 53584,
+                                "name": "Andrea Chukanov",
+                                "number": 7,
+                                "pos": "F",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 149704,
+                                "name": "Aleksandr Maslovskiy",
+                                "number": 33,
+                                "pos": "D",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 324170,
+                                "name": "Timofey Shipunov",
+                                "number": 10,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 267982,
+                                "name": "Maksim Saveljev",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 356664,
+                                "name": "Daniil Grigorjev",
+                                "number": 13,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 268958,
+                                "name": "Andrey Mazurin",
+                                "number": 87,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 138565,
+                                "name": "Ilya Molteninov",
+                                "number": 28,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 53489,
+                                "name": "Egor Shamov",
+                                "number": 50,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 269582,
+                                "name": "Maksim Laykin",
+                                "number": 20,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 206994,
+                                "name": "Roman Denisov",
+                                "number": 4,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43479,
+                                "name": "Aleksandr Nadolsky",
+                                "number": 18,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 3401,
+                        "name": "A. Tikhonov",
+                        "photo": "https://media.api-sports.io/football/coachs/3401.png"
+                    }
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

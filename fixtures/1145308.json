@@ -1,0 +1,153 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1145308"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1145308,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-10T05:00:00+00:00",
+                "timestamp": 1723266000,
+                "periods": {
+                    "first": 1723266000,
+                    "second": 1723269600
+                },
+                "venue": {
+                    "id": 19353,
+                    "name": "Pettys Reserve Pitch 1",
+                    "city": "Melbourne"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 195,
+                "name": "Victoria NPL",
+                "country": "Australia",
+                "logo": "https://media.api-sports.io/football/leagues/195.png",
+                "flag": "https://media.api-sports.io/flags/au.svg",
+                "season": 2024,
+                "round": "Regular Season - 25"
+            },
+            "teams": {
+                "home": {
+                    "id": 16784,
+                    "name": "Manningham United Blues",
+                    "logo": "https://media.api-sports.io/football/teams/16784.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 3803,
+                    "name": "Heidelberg United",
+                    "logo": "https://media.api-sports.io/football/teams/3803.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 16784,
+                        "name": "Manningham United Blues",
+                        "logo": "https://media.api-sports.io/football/teams/16784.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "J. Kada"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 7
+                    },
+                    "team": {
+                        "id": 3803,
+                        "name": "Heidelberg United",
+                        "logo": "https://media.api-sports.io/football/teams/3803.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "L. Mazis"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 9
+                    },
+                    "team": {
+                        "id": 3803,
+                        "name": "Heidelberg United",
+                        "logo": "https://media.api-sports.io/football/teams/3803.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "A. Yokokawa"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1148756"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1148756,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-03T08:00:00+00:00",
+                "timestamp": 1722672000,
+                "periods": {
+                    "first": 1722672000,
+                    "second": 1722675600
+                },
+                "venue": {
+                    "id": 7159,
+                    "name": "Cooks Square Park",
+                    "city": "East Maitland"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 481,
+                "name": "Northern NSW NPL",
+                "country": "Australia",
+                "logo": "https://media.api-sports.io/football/leagues/481.png",
+                "flag": "https://media.api-sports.io/flags/au.svg",
+                "season": 2024,
+                "round": "Regular Season - 14"
+            },
+            "teams": {
+                "home": {
+                    "id": 10208,
+                    "name": "Maitland",
+                    "logo": "https://media.api-sports.io/football/teams/10208.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 20789,
+                    "name": "New Lambton",
+                    "logo": "https://media.api-sports.io/football/teams/20789.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 12,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 20789,
+                        "name": "New Lambton",
+                        "logo": "https://media.api-sports.io/football/teams/20789.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 57,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10208,
+                        "name": "Maitland",
+                        "logo": "https://media.api-sports.io/football/teams/10208.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

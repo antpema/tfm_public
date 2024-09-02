@@ -1,0 +1,109 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1159742"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1159742,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-21T18:00:00+00:00",
+                "timestamp": 1721584800,
+                "periods": {
+                    "first": 1721584800,
+                    "second": 1721588400
+                },
+                "venue": {
+                    "id": 40,
+                    "name": "Estadio Ricardo Puga",
+                    "city": "General Rodr\u00edguez, Provincia de Buenos Aires"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 132,
+                "name": "Primera C",
+                "country": "Argentina",
+                "logo": "https://media.api-sports.io/football/leagues/132.png",
+                "flag": "https://media.api-sports.io/flags/ar.svg",
+                "season": 2024,
+                "round": "Clausura - 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 1937,
+                    "name": "Atletico Atlas",
+                    "logo": "https://media.api-sports.io/football/teams/1937.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 790,
+                    "name": "Central Cordoba",
+                    "logo": "https://media.api-sports.io/football/teams/790.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 4,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1937,
+                        "name": "Atletico Atlas",
+                        "logo": "https://media.api-sports.io/football/teams/1937.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "F. Guiterrez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

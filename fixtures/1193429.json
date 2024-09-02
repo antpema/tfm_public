@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1193429"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1193429,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-11T10:30:00+00:00",
+                "timestamp": 1723372200,
+                "periods": {
+                    "first": 1723372200,
+                    "second": 1723375800
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Fu Jen Catholic University",
+                    "city": "New Taipei City"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 589,
+                "name": "Taiwan Football Premier League",
+                "country": "Chinese-Taipei",
+                "logo": "https://media.api-sports.io/football/leagues/589.png",
+                "flag": "https://media.api-sports.io/flags/tw.svg",
+                "season": 2024,
+                "round": "Regular Season - 12"
+            },
+            "teams": {
+                "home": {
+                    "id": 8028,
+                    "name": "Hang Yuen",
+                    "logo": "https://media.api-sports.io/football/teams/8028.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 9427,
+                    "name": "Taipower",
+                    "logo": "https://media.api-sports.io/football/teams/9427.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 30,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 9427,
+                        "name": "Taipower",
+                        "logo": "https://media.api-sports.io/football/teams/9427.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "Q. Bairui"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 41,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 9427,
+                        "name": "Taipower",
+                        "logo": "https://media.api-sports.io/football/teams/9427.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "Gao Wei-Jie"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

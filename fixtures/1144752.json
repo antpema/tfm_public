@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1144752"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1144752,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-03T05:30:00+00:00",
+                "timestamp": 1722663000,
+                "periods": {
+                    "first": 1722663000,
+                    "second": 1722666600
+                },
+                "venue": {
+                    "id": 11886,
+                    "name": "Rushworth Reserve",
+                    "city": "Adelaide"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 834,
+                "name": "South Australia State League 1",
+                "country": "Australia",
+                "logo": "https://media.api-sports.io/football/leagues/834.png",
+                "flag": "https://media.api-sports.io/flags/au.svg",
+                "season": 2024,
+                "round": "Regular Season - 21"
+            },
+            "teams": {
+                "home": {
+                    "id": 16765,
+                    "name": "Adelaide Victory",
+                    "logo": "https://media.api-sports.io/football/teams/16765.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 10009,
+                    "name": "Cumberland United",
+                    "logo": "https://media.api-sports.io/football/teams/10009.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 35,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10009,
+                        "name": "Cumberland United",
+                        "logo": "https://media.api-sports.io/football/teams/10009.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "H. Gepp"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 51,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 16765,
+                        "name": "Adelaide Victory",
+                        "logo": "https://media.api-sports.io/football/teams/16765.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "A. Totani"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

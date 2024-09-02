@@ -1,0 +1,827 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1151999"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1151999,
+                "referee": "M. Hafezi",
+                "timezone": "UTC",
+                "date": "2024-07-29T17:00:00+00:00",
+                "timestamp": 1722272400,
+                "periods": {
+                    "first": 1722272400,
+                    "second": 1722276000
+                },
+                "venue": {
+                    "id": 1203,
+                    "name": "Intility Arena",
+                    "city": "Oslo"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 104,
+                "name": "1. Division",
+                "country": "Norway",
+                "logo": "https://media.api-sports.io/football/leagues/104.png",
+                "flag": "https://media.api-sports.io/flags/no.svg",
+                "season": 2024,
+                "round": "Regular Season - 16"
+            },
+            "teams": {
+                "home": {
+                    "id": 326,
+                    "name": "Valerenga",
+                    "logo": "https://media.api-sports.io/football/teams/326.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 322,
+                    "name": "Ranheim",
+                    "logo": "https://media.api-sports.io/football/teams/322.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 3,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 3,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 25,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 326,
+                        "name": "Valerenga",
+                        "logo": "https://media.api-sports.io/football/teams/326.png"
+                    },
+                    "player": {
+                        "id": 2022,
+                        "name": "S. Jarl"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 51,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 326,
+                        "name": "Valerenga",
+                        "logo": "https://media.api-sports.io/football/teams/326.png"
+                    },
+                    "player": {
+                        "id": 266663,
+                        "name": "M. Riisn\u00e6s"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 52,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 322,
+                        "name": "Ranheim",
+                        "logo": "https://media.api-sports.io/football/teams/322.png"
+                    },
+                    "player": {
+                        "id": 464060,
+                        "name": "L. Kolstad"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 326,
+                        "name": "Valerenga",
+                        "logo": "https://media.api-sports.io/football/teams/326.png"
+                    },
+                    "player": {
+                        "id": 1171,
+                        "name": "V. Hedenstad"
+                    },
+                    "assist": {
+                        "id": 8448,
+                        "name": "S. Jukler\u00f8d"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 68,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 322,
+                        "name": "Ranheim",
+                        "logo": "https://media.api-sports.io/football/teams/322.png"
+                    },
+                    "player": {
+                        "id": 464060,
+                        "name": "L. Kolstad"
+                    },
+                    "assist": {
+                        "id": 266660,
+                        "name": "M. Emilsen"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 68,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 322,
+                        "name": "Ranheim",
+                        "logo": "https://media.api-sports.io/football/teams/322.png"
+                    },
+                    "player": {
+                        "id": 1180,
+                        "name": "M. Johnsen"
+                    },
+                    "assist": {
+                        "id": 437900,
+                        "name": "V. Wenaas"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 68,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 322,
+                        "name": "Ranheim",
+                        "logo": "https://media.api-sports.io/football/teams/322.png"
+                    },
+                    "player": {
+                        "id": 39173,
+                        "name": "B. Bye"
+                    },
+                    "assist": {
+                        "id": 180772,
+                        "name": "G. Mogensen"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 326,
+                        "name": "Valerenga",
+                        "logo": "https://media.api-sports.io/football/teams/326.png"
+                    },
+                    "player": {
+                        "id": 16194,
+                        "name": "C. Lange"
+                    },
+                    "assist": {
+                        "id": 39217,
+                        "name": "P. Strand"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 326,
+                        "name": "Valerenga",
+                        "logo": "https://media.api-sports.io/football/teams/326.png"
+                    },
+                    "player": {
+                        "id": 266663,
+                        "name": "M. Riisn\u00e6s"
+                    },
+                    "assist": {
+                        "id": 388327,
+                        "name": "F. Thorvaldsen"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 74,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 322,
+                        "name": "Ranheim",
+                        "logo": "https://media.api-sports.io/football/teams/322.png"
+                    },
+                    "player": {
+                        "id": 25356,
+                        "name": "P. Skjelbred"
+                    },
+                    "assist": {
+                        "id": 328821,
+                        "name": "O. Kvendb\u00f8 Holden"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 326,
+                        "name": "Valerenga",
+                        "logo": "https://media.api-sports.io/football/teams/326.png"
+                    },
+                    "player": {
+                        "id": 351913,
+                        "name": "J. El Abdellaoui"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 322,
+                        "name": "Ranheim",
+                        "logo": "https://media.api-sports.io/football/teams/322.png"
+                    },
+                    "player": {
+                        "id": 39257,
+                        "name": "E. T\u00f8nne"
+                    },
+                    "assist": {
+                        "id": 318422,
+                        "name": "L. Qvigstad"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 322,
+                        "name": "Ranheim",
+                        "logo": "https://media.api-sports.io/football/teams/322.png"
+                    },
+                    "player": {
+                        "id": 180772,
+                        "name": "G. Mogensen"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 84,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 326,
+                        "name": "Valerenga",
+                        "logo": "https://media.api-sports.io/football/teams/326.png"
+                    },
+                    "player": {
+                        "id": 303108,
+                        "name": "F. Ambina"
+                    },
+                    "assist": {
+                        "id": 12888,
+                        "name": "O. Kamara"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 84,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 326,
+                        "name": "Valerenga",
+                        "logo": "https://media.api-sports.io/football/teams/326.png"
+                    },
+                    "player": {
+                        "id": 287982,
+                        "name": "M. Brajanac"
+                    },
+                    "assist": {
+                        "id": 384572,
+                        "name": "S. Sj\u00f8vold"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 89,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 326,
+                        "name": "Valerenga",
+                        "logo": "https://media.api-sports.io/football/teams/326.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "S. Sjovold"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 326,
+                        "name": "Valerenga",
+                        "logo": "https://media.api-sports.io/football/teams/326.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 1946,
+                        "name": "G. Bakke",
+                        "photo": "https://media.api-sports.io/football/coachs/1946.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 265838,
+                                "name": "M. Sj\u00f8eng",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1171,
+                                "name": "V. Hedenstad",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 57454,
+                                "name": "C. Borchgrevink",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 138736,
+                                "name": "A. Kiil Olsen",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 8626,
+                                "name": "H. Bj\u00f8rdal",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 2022,
+                                "name": "S. Jarl",
+                                "number": 55,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 16194,
+                                "name": "C. Lange",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 266663,
+                                "name": "M. Riisn\u00e6s",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 303108,
+                                "name": "F. Ambina",
+                                "number": 29,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 287982,
+                                "name": "M. Brajanac",
+                                "number": 80,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 351913,
+                                "name": "J. El Abdellaoui",
+                                "number": 25,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 8448,
+                                "name": "S. Jukler\u00f8d",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 39217,
+                                "name": "P. Strand",
+                                "number": 24,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 388327,
+                                "name": "F. Thorvaldsen",
+                                "number": 26,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 12888,
+                                "name": "O. Kamara",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 384572,
+                                "name": "S. Sj\u00f8vold",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 57165,
+                                "name": "J. Storevik",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 297675,
+                                "name": "N. Idumba",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 296831,
+                                "name": "M. Rijks",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 216763,
+                                "name": "O. Bully",
+                                "number": 31,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 322,
+                        "name": "Ranheim",
+                        "logo": "https://media.api-sports.io/football/teams/322.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 1520,
+                        "name": "K. Ingebrigtsen",
+                        "photo": "https://media.api-sports.io/football/coachs/1520.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 216759,
+                                "name": "S. Nilsen",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 39257,
+                                "name": "E. T\u00f8nne",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 39308,
+                                "name": "P. Sl\u00f8rdahl",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 388923,
+                                "name": "N. Skuseth",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 25356,
+                                "name": "P. Skjelbred",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 12660,
+                                "name": "Hou Yongyong",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1180,
+                                "name": "M. Johnsen",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 228883,
+                                "name": "S. Haugen",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 323327,
+                                "name": "D. Gaustad",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 464060,
+                                "name": "L. Kolstad",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 39173,
+                                "name": "B. Bye",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 266660,
+                                "name": "M. Emilsen",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 437900,
+                                "name": "V. Wenaas",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 180772,
+                                "name": "G. Mogensen",
+                                "number": 27,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 328821,
+                                "name": "O. Kvendb\u00f8 Holden",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 318422,
+                                "name": "L. Qvigstad",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 94741,
+                                "name": "J. Tromsdal",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 94759,
+                                "name": "S. Solli",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 477834,
+                                "name": "T. Solvoll",
+                                "number": 30,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

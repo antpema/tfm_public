@@ -1,0 +1,329 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1222938"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1222938,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-04T15:00:00+00:00",
+                "timestamp": 1722783600,
+                "periods": {
+                    "first": 1722783600,
+                    "second": 1722787200
+                },
+                "venue": {
+                    "id": 5352,
+                    "name": "Stadion na Zelni\u010dk\u00e1ch",
+                    "city": "Str\u00e1n\u00ed"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 349,
+                "name": "3. liga - MSFL",
+                "country": "Czech-Republic",
+                "logo": "https://media.api-sports.io/football/leagues/349.png",
+                "flag": "https://media.api-sports.io/flags/cz.svg",
+                "season": 2024,
+                "round": "MSFL - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 7363,
+                    "name": "Str\u00e1n\u00ed",
+                    "logo": "https://media.api-sports.io/football/teams/7363.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 7296,
+                    "name": "Hlu\u010d\u00edn",
+                    "logo": "https://media.api-sports.io/football/teams/7296.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 48,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7296,
+                        "name": "Hlu\u010d\u00edn",
+                        "logo": "https://media.api-sports.io/football/teams/7296.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "D. Mladek"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 61,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7296,
+                        "name": "Hlu\u010d\u00edn",
+                        "logo": "https://media.api-sports.io/football/teams/7296.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "T. Buchvaldek"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "J. Ptacek"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 61,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7296,
+                        "name": "Hlu\u010d\u00edn",
+                        "logo": "https://media.api-sports.io/football/teams/7296.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "M. Abdoulkarim"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "D. Mladek"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7363,
+                        "name": "Str\u00e1n\u00ed",
+                        "logo": "https://media.api-sports.io/football/teams/7363.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "J. Spacil"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "J. Michalec"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7363,
+                        "name": "Str\u00e1n\u00ed",
+                        "logo": "https://media.api-sports.io/football/teams/7363.png"
+                    },
+                    "player": {
+                        "id": 204893,
+                        "name": "M. Matus"
+                    },
+                    "assist": {
+                        "id": 204804,
+                        "name": "R. Hasa"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 72,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7296,
+                        "name": "Hlu\u010d\u00edn",
+                        "logo": "https://media.api-sports.io/football/teams/7296.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "M. Havran"
+                    },
+                    "assist": {
+                        "id": 108504,
+                        "name": "D. Smekal"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 72,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7296,
+                        "name": "Hlu\u010d\u00edn",
+                        "logo": "https://media.api-sports.io/football/teams/7296.png"
+                    },
+                    "player": {
+                        "id": 215659,
+                        "name": "R. Plesnik"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7296,
+                        "name": "Hlu\u010d\u00edn",
+                        "logo": "https://media.api-sports.io/football/teams/7296.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "T. Cabadaj"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7363,
+                        "name": "Str\u00e1n\u00ed",
+                        "logo": "https://media.api-sports.io/football/teams/7363.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "S. Toth"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "J. Svrcek"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7296,
+                        "name": "Hlu\u010d\u00edn",
+                        "logo": "https://media.api-sports.io/football/teams/7296.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "T. Kovala"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "T. Cabadaj"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7296,
+                        "name": "Hlu\u010d\u00edn",
+                        "logo": "https://media.api-sports.io/football/teams/7296.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "D. Hasala"
+                    },
+                    "assist": {
+                        "id": 119898,
+                        "name": "L. Kania"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

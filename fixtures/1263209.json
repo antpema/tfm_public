@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1263209"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1263209,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-07T15:30:00+00:00",
+                "timestamp": 1723044600,
+                "periods": {
+                    "first": 1723044600,
+                    "second": 1723048200
+                },
+                "venue": {
+                    "id": 3848,
+                    "name": "ESMTK Stadion",
+                    "city": "Budapest"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 1023,
+                "name": "NB III - Southeast",
+                "country": "Hungary",
+                "logo": "https://media.api-sports.io/football/leagues/1023.png",
+                "flag": "https://media.api-sports.io/flags/hu.svg",
+                "season": 2024,
+                "round": "Southeast - 2"
+            },
+            "teams": {
+                "home": {
+                    "id": 5087,
+                    "name": "ESMTK",
+                    "logo": "https://media.api-sports.io/football/teams/5087.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 2416,
+                    "name": "Szolnoki MAV FC",
+                    "logo": "https://media.api-sports.io/football/teams/2416.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 31,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 5087,
+                        "name": "ESMTK",
+                        "logo": "https://media.api-sports.io/football/teams/5087.png"
+                    },
+                    "player": {
+                        "id": 89328,
+                        "name": "B. Soos"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 5087,
+                        "name": "ESMTK",
+                        "logo": "https://media.api-sports.io/football/teams/5087.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "L. Horvath"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

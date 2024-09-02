@@ -1,0 +1,417 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1212089"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1212089,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-12T15:30:00+00:00",
+                "timestamp": 1723476600,
+                "periods": {
+                    "first": 1723476600,
+                    "second": 1723480200
+                },
+                "venue": {
+                    "id": 11958,
+                    "name": "Sportovn\u00ed are\u00e1l Drnovice",
+                    "city": "Drnovice"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 346,
+                "name": "FNL",
+                "country": "Czech-Republic",
+                "logo": "https://media.api-sports.io/football/leagues/346.png",
+                "flag": "https://media.api-sports.io/flags/cz.svg",
+                "season": 2024,
+                "round": "Regular Season - 5"
+            },
+            "teams": {
+                "home": {
+                    "id": 7379,
+                    "name": "Vy\u0161kov",
+                    "logo": "https://media.api-sports.io/football/teams/7379.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 8618,
+                    "name": "Slavia Praha II",
+                    "logo": "https://media.api-sports.io/football/teams/8618.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 23,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7379,
+                        "name": "Vy\u0161kov",
+                        "logo": "https://media.api-sports.io/football/teams/7379.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "T. Ulbrich"
+                    },
+                    "assist": {
+                        "id": 66494,
+                        "name": "T. Celustka"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 7379,
+                        "name": "Vy\u0161kov",
+                        "logo": "https://media.api-sports.io/football/teams/7379.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "O. Conde"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Roughing"
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8618,
+                        "name": "Slavia Praha II",
+                        "logo": "https://media.api-sports.io/football/teams/8618.png"
+                    },
+                    "player": {
+                        "id": 1250,
+                        "name": "M. Skoda"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "S. Pikolon"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 60,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7379,
+                        "name": "Vy\u0161kov",
+                        "logo": "https://media.api-sports.io/football/teams/7379.png"
+                    },
+                    "player": {
+                        "id": 153076,
+                        "name": "T. Egbri"
+                    },
+                    "assist": {
+                        "id": 66489,
+                        "name": "P. Schon"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 60,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7379,
+                        "name": "Vy\u0161kov",
+                        "logo": "https://media.api-sports.io/football/teams/7379.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "B. Lacik"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "O. Conde"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8618,
+                        "name": "Slavia Praha II",
+                        "logo": "https://media.api-sports.io/football/teams/8618.png"
+                    },
+                    "player": {
+                        "id": 388769,
+                        "name": "D. Toula"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Tripping"
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7379,
+                        "name": "Vy\u0161kov",
+                        "logo": "https://media.api-sports.io/football/teams/7379.png"
+                    },
+                    "player": {
+                        "id": 66107,
+                        "name": "T. Zajic"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Tripping"
+                },
+                {
+                    "time": {
+                        "elapsed": 69,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8618,
+                        "name": "Slavia Praha II",
+                        "logo": "https://media.api-sports.io/football/teams/8618.png"
+                    },
+                    "player": {
+                        "id": 450921,
+                        "name": "P. Kacor"
+                    },
+                    "assist": {
+                        "id": 388769,
+                        "name": "D. Toula"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 69,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8618,
+                        "name": "Slavia Praha II",
+                        "logo": "https://media.api-sports.io/football/teams/8618.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "D. Mikulanda"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "D. Pech"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7379,
+                        "name": "Vy\u0161kov",
+                        "logo": "https://media.api-sports.io/football/teams/7379.png"
+                    },
+                    "player": {
+                        "id": 465583,
+                        "name": "D. Mbonu"
+                    },
+                    "assist": {
+                        "id": 66107,
+                        "name": "T. Zajic"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7379,
+                        "name": "Vy\u0161kov",
+                        "logo": "https://media.api-sports.io/football/teams/7379.png"
+                    },
+                    "player": {
+                        "id": 37306,
+                        "name": "Z. El Azzouzi"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "T. Ulbrich"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 81,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8618,
+                        "name": "Slavia Praha II",
+                        "logo": "https://media.api-sports.io/football/teams/8618.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "B. Sy"
+                    },
+                    "assist": {
+                        "id": 378832,
+                        "name": "S. Beran"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 88,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7379,
+                        "name": "Vy\u0161kov",
+                        "logo": "https://media.api-sports.io/football/teams/7379.png"
+                    },
+                    "player": {
+                        "id": 216701,
+                        "name": "M. Novak"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "D. Sekou"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 88,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8618,
+                        "name": "Slavia Praha II",
+                        "logo": "https://media.api-sports.io/football/teams/8618.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "P. Behensky"
+                    },
+                    "assist": {
+                        "id": 338983,
+                        "name": "M. Zitny"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 3
+                    },
+                    "team": {
+                        "id": 7379,
+                        "name": "Vy\u0161kov",
+                        "logo": "https://media.api-sports.io/football/teams/7379.png"
+                    },
+                    "player": {
+                        "id": 216701,
+                        "name": "M. Novak"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Roughing"
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

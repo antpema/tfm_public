@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1215474"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1215474,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-10T12:00:00+00:00",
+                "timestamp": 1723291200,
+                "periods": {
+                    "first": 1723291200,
+                    "second": 1723294800
+                },
+                "venue": {
+                    "id": 6168,
+                    "name": "ALPI Arena N\u00e6sby",
+                    "city": "Odense"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 862,
+                "name": "3. Division",
+                "country": "Denmark",
+                "logo": "https://media.api-sports.io/football/leagues/862.png",
+                "flag": "https://media.api-sports.io/flags/dk.svg",
+                "season": 2024,
+                "round": "Regular Season - 2"
+            },
+            "teams": {
+                "home": {
+                    "id": 8635,
+                    "name": "N\u00e6sby",
+                    "logo": "https://media.api-sports.io/football/teams/8635.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 6028,
+                    "name": "Holstebro",
+                    "logo": "https://media.api-sports.io/football/teams/6028.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 21,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6028,
+                        "name": "Holstebro",
+                        "logo": "https://media.api-sports.io/football/teams/6028.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "A. Iversen"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 49,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6028,
+                        "name": "Holstebro",
+                        "logo": "https://media.api-sports.io/football/teams/6028.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "J. H. Sondergaard"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

@@ -1,0 +1,153 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1232054"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1232054,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-28T02:00:00+00:00",
+                "timestamp": 1722132000,
+                "periods": {
+                    "first": 1722132000,
+                    "second": 1722135600
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Bluewater Stadium",
+                    "city": "Napier"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 1127,
+                "name": "Chatham Cup",
+                "country": "New-Zealand",
+                "logo": "https://media.api-sports.io/football/leagues/1127.png",
+                "flag": "https://media.api-sports.io/flags/nz.svg",
+                "season": 2024,
+                "round": "Quarter-finals"
+            },
+            "teams": {
+                "home": {
+                    "id": 20642,
+                    "name": "Napier City Rovers",
+                    "logo": "https://media.api-sports.io/football/teams/20642.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 20650,
+                    "name": "Birkenhead United",
+                    "logo": "https://media.api-sports.io/football/teams/20650.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 23,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 20650,
+                        "name": "Birkenhead United",
+                        "logo": "https://media.api-sports.io/football/teams/20650.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "C. Piper"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 33,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 20650,
+                        "name": "Birkenhead United",
+                        "logo": "https://media.api-sports.io/football/teams/20650.png"
+                    },
+                    "player": {
+                        "id": 77177,
+                        "name": "M. Patterson"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 20642,
+                        "name": "Napier City Rovers",
+                        "logo": "https://media.api-sports.io/football/teams/20642.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "J. Albertini"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

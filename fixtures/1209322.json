@@ -1,0 +1,818 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1209322"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1209322,
+                "referee": "N. Andersen",
+                "timezone": "UTC",
+                "date": "2024-07-19T17:00:00+00:00",
+                "timestamp": 1721408400,
+                "periods": {
+                    "first": 1721408400,
+                    "second": 1721412000
+                },
+                "venue": {
+                    "id": 448,
+                    "name": "Nord Energi Arena",
+                    "city": "Hj\u00f8rring"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 120,
+                "name": "1. Division",
+                "country": "Denmark",
+                "logo": "https://media.api-sports.io/football/leagues/120.png",
+                "flag": "https://media.api-sports.io/flags/dk.svg",
+                "season": 2024,
+                "round": "Regular Season - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 399,
+                    "name": "Vendsyssel FF",
+                    "logo": "https://media.api-sports.io/football/teams/399.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 2067,
+                    "name": "Roskilde",
+                    "logo": "https://media.api-sports.io/football/teams/2067.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 3,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 3,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 26,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 399,
+                        "name": "Vendsyssel FF",
+                        "logo": "https://media.api-sports.io/football/teams/399.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "O. Ohlenschlaeger"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 399,
+                        "name": "Vendsyssel FF",
+                        "logo": "https://media.api-sports.io/football/teams/399.png"
+                    },
+                    "player": {
+                        "id": 378638,
+                        "name": "A. Ahmad"
+                    },
+                    "assist": {
+                        "id": 125224,
+                        "name": "L. Steffensen"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 58,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 399,
+                        "name": "Vendsyssel FF",
+                        "logo": "https://media.api-sports.io/football/teams/399.png"
+                    },
+                    "player": {
+                        "id": 125224,
+                        "name": "L. Steffensen"
+                    },
+                    "assist": {
+                        "id": 15749,
+                        "name": "L. Jensen"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 399,
+                        "name": "Vendsyssel FF",
+                        "logo": "https://media.api-sports.io/football/teams/399.png"
+                    },
+                    "player": {
+                        "id": 15596,
+                        "name": "M. Kaastrup"
+                    },
+                    "assist": {
+                        "id": 15721,
+                        "name": "F. B\u00f8rsting"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 62,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2067,
+                        "name": "Roskilde",
+                        "logo": "https://media.api-sports.io/football/teams/2067.png"
+                    },
+                    "player": {
+                        "id": 386338,
+                        "name": "K. Nyegaard"
+                    },
+                    "assist": {
+                        "id": 474803,
+                        "name": "N. Zachariassen"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 69,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 399,
+                        "name": "Vendsyssel FF",
+                        "logo": "https://media.api-sports.io/football/teams/399.png"
+                    },
+                    "player": {
+                        "id": 15725,
+                        "name": "K. Kusk"
+                    },
+                    "assist": {
+                        "id": 15619,
+                        "name": "V. Mpindi"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 69,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2067,
+                        "name": "Roskilde",
+                        "logo": "https://media.api-sports.io/football/teams/2067.png"
+                    },
+                    "player": {
+                        "id": 377129,
+                        "name": "S. Baskaya"
+                    },
+                    "assist": {
+                        "id": 215868,
+                        "name": "A. Taranis"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 69,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2067,
+                        "name": "Roskilde",
+                        "logo": "https://media.api-sports.io/football/teams/2067.png"
+                    },
+                    "player": {
+                        "id": 16174,
+                        "name": "E. Nielsen"
+                    },
+                    "assist": {
+                        "id": 385139,
+                        "name": "M. Winkel"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 399,
+                        "name": "Vendsyssel FF",
+                        "logo": "https://media.api-sports.io/football/teams/399.png"
+                    },
+                    "player": {
+                        "id": 425317,
+                        "name": "O. \u00d8hlenschl\u00e6ger"
+                    },
+                    "assist": {
+                        "id": 207237,
+                        "name": "M. Hannesbo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2067,
+                        "name": "Roskilde",
+                        "logo": "https://media.api-sports.io/football/teams/2067.png"
+                    },
+                    "player": {
+                        "id": 128876,
+                        "name": "M. Juhl"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 72,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 399,
+                        "name": "Vendsyssel FF",
+                        "logo": "https://media.api-sports.io/football/teams/399.png"
+                    },
+                    "player": {
+                        "id": 15581,
+                        "name": "M. Lassen"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 77,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2067,
+                        "name": "Roskilde",
+                        "logo": "https://media.api-sports.io/football/teams/2067.png"
+                    },
+                    "player": {
+                        "id": 128876,
+                        "name": "M. Juhl"
+                    },
+                    "assist": {
+                        "id": 326479,
+                        "name": "N. Vesterb\u00e6k"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2067,
+                        "name": "Roskilde",
+                        "logo": "https://media.api-sports.io/football/teams/2067.png"
+                    },
+                    "player": {
+                        "id": 474803,
+                        "name": "N. Zachariassen"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 399,
+                        "name": "Vendsyssel FF",
+                        "logo": "https://media.api-sports.io/football/teams/399.png"
+                    },
+                    "player": {
+                        "id": 207237,
+                        "name": "M. Hannesbo"
+                    },
+                    "assist": {
+                        "id": 15749,
+                        "name": "L. Jensen"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 88,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 399,
+                        "name": "Vendsyssel FF",
+                        "logo": "https://media.api-sports.io/football/teams/399.png"
+                    },
+                    "player": {
+                        "id": 314734,
+                        "name": "G. Mortensen"
+                    },
+                    "assist": {
+                        "id": 15766,
+                        "name": "M. Haarup"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 3
+                    },
+                    "team": {
+                        "id": 399,
+                        "name": "Vendsyssel FF",
+                        "logo": "https://media.api-sports.io/football/teams/399.png"
+                    },
+                    "player": {
+                        "id": 15806,
+                        "name": "A. Simon Okosun"
+                    },
+                    "assist": {
+                        "id": 15721,
+                        "name": "F. B\u00f8rsting"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 399,
+                        "name": "Vendsyssel FF",
+                        "logo": "https://media.api-sports.io/football/teams/399.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 9352,
+                        "name": "B. Zinck",
+                        "photo": "https://media.api-sports.io/football/coachs/9352.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 296941,
+                                "name": "L. Schulz",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15661,
+                                "name": "M. Greve",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15581,
+                                "name": "M. Lassen",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 314734,
+                                "name": "G. Mortensen",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 339824,
+                                "name": "O. Jebali",
+                                "number": 34,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15725,
+                                "name": "K. Kusk",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15806,
+                                "name": "A. Simon Okosun",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 425317,
+                                "name": "O. \u00d8hlenschl\u00e6ger",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15749,
+                                "name": "L. Jensen",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15596,
+                                "name": "M. Kaastrup",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 378638,
+                                "name": "A. Ahmad",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 125224,
+                                "name": "L. Steffensen",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15721,
+                                "name": "F. B\u00f8rsting",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15619,
+                                "name": "V. Mpindi",
+                                "number": 29,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 207237,
+                                "name": "M. Hannesbo",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15766,
+                                "name": "M. Haarup",
+                                "number": 27,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15729,
+                                "name": "R. Thellufsen",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 81070,
+                                "name": "P. Rejnhold",
+                                "number": 3,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 345793,
+                                "name": "M. Nielsen",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 265587,
+                                "name": "T. Hartzell",
+                                "number": 44,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 2067,
+                        "name": "Roskilde",
+                        "logo": "https://media.api-sports.io/football/teams/2067.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 22672,
+                        "name": "M. Thygesen",
+                        "photo": "https://media.api-sports.io/football/coachs/22672.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 271979,
+                                "name": "M. Brylov",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 128876,
+                                "name": "M. Juhl",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 332790,
+                                "name": "O. Skolnik",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 377127,
+                                "name": "V. Montell",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 430619,
+                                "name": "O. Juul",
+                                "number": 3,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 16158,
+                                "name": "N. Halse",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 328558,
+                                "name": "A. Maarup",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 377129,
+                                "name": "S. Baskaya",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 386338,
+                                "name": "K. Nyegaard",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 16174,
+                                "name": "E. Nielsen",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 277141,
+                                "name": "R. Arabaci",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 474803,
+                                "name": "N. Zachariassen",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 215868,
+                                "name": "A. Taranis",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 385139,
+                                "name": "M. Winkel",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 326479,
+                                "name": "N. Vesterb\u00e6k",
+                                "number": 12,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 475675,
+                                "name": "F. Engqvist",
+                                "number": 25,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 16052,
+                                "name": "A. Jensen",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 432140,
+                                "name": "V. Svensson",
+                                "number": 24,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

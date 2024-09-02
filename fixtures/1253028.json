@@ -1,0 +1,543 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1253028"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1253028,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-27T14:00:00+00:00",
+                "timestamp": 1722088800,
+                "periods": {
+                    "first": 1722088800,
+                    "second": 1722092400
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Stadio Pineta",
+                    "city": "Pinzolo"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 5"
+            },
+            "teams": {
+                "home": {
+                    "id": 503,
+                    "name": "Torino",
+                    "logo": "https://media.api-sports.io/football/teams/503.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 520,
+                    "name": "Cremonese",
+                    "logo": "https://media.api-sports.io/football/teams/520.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 17,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 520,
+                        "name": "Cremonese",
+                        "logo": "https://media.api-sports.io/football/teams/520.png"
+                    },
+                    "player": {
+                        "id": 31211,
+                        "name": "J. Vandeputte"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 33,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 503,
+                        "name": "Torino",
+                        "logo": "https://media.api-sports.io/football/teams/503.png"
+                    },
+                    "player": {
+                        "id": 2495,
+                        "name": "D. Zapata"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 520,
+                        "name": "Cremonese",
+                        "logo": "https://media.api-sports.io/football/teams/520.png"
+                    },
+                    "player": {
+                        "id": 10997,
+                        "name": "V. Antov"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 503,
+                        "name": "Torino",
+                        "logo": "https://media.api-sports.io/football/teams/503.png",
+                        "colors": {
+                            "player": {
+                                "primary": "680b22",
+                                "number": "ffffff",
+                                "border": "680b22"
+                            },
+                            "goalkeeper": {
+                                "primary": "f0660a",
+                                "number": "ffffff",
+                                "border": "f0660a"
+                            }
+                        }
+                    },
+                    "formation": "3-5-2",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 31156,
+                                "name": "Vanja Milinkovi\u0107-Savi\u0107",
+                                "number": 32,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 8586,
+                                "name": "M\u00ebrgim Vojvoda",
+                                "number": 27,
+                                "pos": "M",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 122468,
+                                "name": "Saul Coco",
+                                "number": 23,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 18799,
+                                "name": "Adam Masina",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 91422,
+                                "name": "Raoul Bellanova",
+                                "number": 19,
+                                "pos": "M",
+                                "grid": "3:5"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 22174,
+                                "name": "Adrien Tameze",
+                                "number": 61,
+                                "pos": "D",
+                                "grid": "3:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 46170,
+                                "name": "Ivan Ili\u0107",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 31056,
+                                "name": "Samuele Ricci",
+                                "number": 28,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 25353,
+                                "name": "Valentino Lazaro",
+                                "number": 20,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 2522,
+                                "name": "Antonio Sanabria",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 2495,
+                                "name": "Duv\u00e1n Zapata",
+                                "number": 91,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 349232,
+                                "name": "Ali Dembele",
+                                "number": 25,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 27789,
+                                "name": "Krisztofer Horv\u00e1th",
+                                "number": 17,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 30642,
+                                "name": "Alberto Paleari",
+                                "number": 33,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 42796,
+                                "name": "Mihai Popa",
+                                "number": 71,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 268728,
+                                "name": "Saba Sazonov",
+                                "number": 15,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 438215,
+                                "name": "Co\u0302me Bianay Balcot",
+                                "number": 35,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Michele Casali",
+                                "number": 38,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 342005,
+                                "name": "Alessandro Dellavalle",
+                                "number": 39,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 154791,
+                                "name": "Brian Bayeye",
+                                "number": 40,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 336573,
+                                "name": "Emirhan \u0130lkhan",
+                                "number": 26,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 3009,
+                                "name": "Karol Linetty",
+                                "number": 77,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Marco Dalla Vecchia",
+                                "number": 47,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1278,
+                                "name": "Yann Karamoh",
+                                "number": 24,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 123,
+                                "name": "Pietro Pellegri",
+                                "number": 11,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 383006,
+                                "name": "Alieu Njie",
+                                "number": 41,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 2408,
+                        "name": "I. Juric",
+                        "photo": "https://media.api-sports.io/football/coachs/2408.png"
+                    }
+                },
+                {
+                    "team": {
+                        "id": 520,
+                        "name": "Cremonese",
+                        "logo": "https://media.api-sports.io/football/teams/520.png",
+                        "colors": {
+                            "player": {
+                                "primary": "ffffff",
+                                "number": "000000",
+                                "border": "ffffff"
+                            },
+                            "goalkeeper": {
+                                "primary": "f1ff00",
+                                "number": "ffffff",
+                                "border": "f1ff00"
+                            }
+                        }
+                    },
+                    "formation": "4-2-3-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 277175,
+                                "name": "Andreas Jungdal",
+                                "number": 22,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 30530,
+                                "name": "Leonardo Sernicola",
+                                "number": 17,
+                                "pos": "M",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 31421,
+                                "name": "Luca Ravanelli",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 30919,
+                                "name": "Matteo Bianchetti",
+                                "number": 15,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 31084,
+                                "name": "Paolo Ghiglione",
+                                "number": 18,
+                                "pos": "M",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 31614,
+                                "name": "Michele Castagnetti",
+                                "number": 19,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 31736,
+                                "name": "\u017dan Majer",
+                                "number": 37,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 31211,
+                                "name": "Jari Vandeputte",
+                                "number": 27,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 2057,
+                                "name": "Franco V\u00e1zquez",
+                                "number": 20,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 36986,
+                                "name": "Dennis Johnsen",
+                                "number": 71,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1652,
+                                "name": "Frank Tsadjout",
+                                "number": 74,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 1604,
+                        "name": "G. Stroppa",
+                        "photo": "https://media.api-sports.io/football/coachs/1604.png"
+                    }
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

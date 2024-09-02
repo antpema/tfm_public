@@ -1,0 +1,606 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1152846"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1152846,
+                "referee": "A. Ingvarsson",
+                "timezone": "UTC",
+                "date": "2024-07-26T18:00:00+00:00",
+                "timestamp": 1722016800,
+                "periods": {
+                    "first": 1722016800,
+                    "second": 1722020400
+                },
+                "venue": {
+                    "id": 1956,
+                    "name": "Extra v\u00f6llurinn",
+                    "city": "Reykjav\u00edk"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 165,
+                "name": "1. Deild",
+                "country": "Iceland",
+                "logo": "https://media.api-sports.io/football/leagues/165.png",
+                "flag": "https://media.api-sports.io/flags/is.svg",
+                "season": 2024,
+                "round": "Regular Season - 14"
+            },
+            "teams": {
+                "home": {
+                    "id": 273,
+                    "name": "Fjolnir",
+                    "logo": "https://media.api-sports.io/football/teams/273.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 4172,
+                    "name": "Dalv\u00edk / Reynir",
+                    "logo": "https://media.api-sports.io/football/teams/4172.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 56,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 273,
+                        "name": "Fjolnir",
+                        "logo": "https://media.api-sports.io/football/teams/273.png"
+                    },
+                    "player": {
+                        "id": 126447,
+                        "name": "B. Hafstein"
+                    },
+                    "assist": {
+                        "id": 61755,
+                        "name": "A. Har\u00f0ar\u00adson"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 69,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 273,
+                        "name": "Fjolnir",
+                        "logo": "https://media.api-sports.io/football/teams/273.png"
+                    },
+                    "player": {
+                        "id": 61624,
+                        "name": "O. \u00de\u00f3rhallsson"
+                    },
+                    "assist": {
+                        "id": 61746,
+                        "name": "S. Reynisson"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 81,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4172,
+                        "name": "Dalv\u00edk / Reynir",
+                        "logo": "https://media.api-sports.io/football/teams/4172.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "F. Lalic"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4172,
+                        "name": "Dalv\u00edk / Reynir",
+                        "logo": "https://media.api-sports.io/football/teams/4172.png"
+                    },
+                    "player": {
+                        "id": 18697,
+                        "name": "H. Jalloh"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 86,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 273,
+                        "name": "Fjolnir",
+                        "logo": "https://media.api-sports.io/football/teams/273.png"
+                    },
+                    "player": {
+                        "id": 379101,
+                        "name": "D. Ingvarsson"
+                    },
+                    "assist": {
+                        "id": 61771,
+                        "name": "\u00d3. Thorlacius"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 88,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4172,
+                        "name": "Dalv\u00edk / Reynir",
+                        "logo": "https://media.api-sports.io/football/teams/4172.png"
+                    },
+                    "player": {
+                        "id": 72713,
+                        "name": "Borja L\u00f3pez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 6
+                    },
+                    "team": {
+                        "id": 4172,
+                        "name": "Dalv\u00edk / Reynir",
+                        "logo": "https://media.api-sports.io/football/teams/4172.png"
+                    },
+                    "player": {
+                        "id": 72713,
+                        "name": "Borja L\u00f3pez"
+                    },
+                    "assist": {
+                        "id": 416585,
+                        "name": "T. \u00de\u00f3r\u00f0arson"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 273,
+                        "name": "Fjolnir",
+                        "logo": "https://media.api-sports.io/football/teams/273.png"
+                    },
+                    "player": {
+                        "id": 68541,
+                        "name": "V. Hj\u00e1lmarsson"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 273,
+                        "name": "Fjolnir",
+                        "logo": "https://media.api-sports.io/football/teams/273.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 17286,
+                        "name": "\u00da. J\u00f6kulsson",
+                        "photo": "https://media.api-sports.io/football/coachs/17286.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 366875,
+                                "name": "H. Georgsson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 72799,
+                                "name": "R. Haraldsson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28930,
+                                "name": "D. Hilmarsson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 126447,
+                                "name": "B. Hafstein",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 68541,
+                                "name": "V. Hj\u00e1lmarsson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 366729,
+                                "name": "B. Berndsen",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 379101,
+                                "name": "D. Ingvarsson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 61614,
+                                "name": "G. Gu\u00f0mundsson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28881,
+                                "name": "M. Hilmarsson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 61624,
+                                "name": "O. \u00de\u00f3rhallsson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 263841,
+                                "name": "D. Axelsson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 61755,
+                                "name": "A. Har\u00f0ar\u00adson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 61746,
+                                "name": "S. Reynisson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 61771,
+                                "name": "\u00d3. Thorlacius",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 467249,
+                                "name": "J. Arnarsson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 410508,
+                                "name": "K. Arnarsson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 61603,
+                                "name": "S. Har\u00f0arson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 410509,
+                                "name": "S. Sigmarsson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 4172,
+                        "name": "Dalv\u00edk / Reynir",
+                        "logo": "https://media.api-sports.io/football/teams/4172.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 19828,
+                        "name": "D. Stojanovi\u0107",
+                        "photo": "https://media.api-sports.io/football/coachs/19828.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 61508,
+                                "name": "F. Lali\u0107",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 72709,
+                                "name": "R. Bj\u00f6rnsson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 332853,
+                                "name": "B. \u00d3skarsson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 134309,
+                                "name": "\u00c1lex Zambrano",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 72713,
+                                "name": "Borja L\u00f3pez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 312048,
+                                "name": "F. J\u00f3nsson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 368716,
+                                "name": "G. Ingvarsson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 72705,
+                                "name": "J. Sigurj\u00f3nsson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 61801,
+                                "name": "\u00c1. S\u00f6lvason",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 348036,
+                                "name": "H. Jalloh",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 433865,
+                                "name": "B. Baldursson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 416585,
+                                "name": "T. \u00de\u00f3r\u00f0arson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 371731,
+                                "name": "A. Sverrisson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 368692,
+                                "name": "E. J\u00f3nsson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 72182,
+                                "name": "\u00cd. Maronsson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 72719,
+                                "name": "V. S\u00e6valdsson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

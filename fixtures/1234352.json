@@ -1,0 +1,800 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1234352"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1234352,
+                "referee": "J. Ram\u00edrez",
+                "timezone": "UTC",
+                "date": "2024-08-04T21:00:00+00:00",
+                "timestamp": 1722805200,
+                "periods": {
+                    "first": 1722805200,
+                    "second": 1722808800
+                },
+                "venue": {
+                    "id": 371,
+                    "name": "Estadio Enrique Olaya Herrera",
+                    "city": "Bogot\u00e1, D.C."
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 240,
+                "name": "Primera B",
+                "country": "Colombia",
+                "logo": "https://media.api-sports.io/football/leagues/240.png",
+                "flag": "https://media.api-sports.io/flags/co.svg",
+                "season": 2024,
+                "round": "Clausura - 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 1145,
+                    "name": "Tigres FC",
+                    "logo": "https://media.api-sports.io/football/teams/1145.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 1463,
+                    "name": "Real Santander",
+                    "logo": "https://media.api-sports.io/football/teams/1463.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 27,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1463,
+                        "name": "Real Santander",
+                        "logo": "https://media.api-sports.io/football/teams/1463.png"
+                    },
+                    "player": {
+                        "id": 126747,
+                        "name": "E. Zapata"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1463,
+                        "name": "Real Santander",
+                        "logo": "https://media.api-sports.io/football/teams/1463.png"
+                    },
+                    "player": {
+                        "id": 456486,
+                        "name": "Jordi Hern\u00e1ndez"
+                    },
+                    "assist": {
+                        "id": 301887,
+                        "name": "F. Mendoza"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1463,
+                        "name": "Real Santander",
+                        "logo": "https://media.api-sports.io/football/teams/1463.png"
+                    },
+                    "player": {
+                        "id": 311407,
+                        "name": "L. Segura"
+                    },
+                    "assist": {
+                        "id": 428166,
+                        "name": "L. Yanes"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 66,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1145,
+                        "name": "Tigres FC",
+                        "logo": "https://media.api-sports.io/football/teams/1145.png"
+                    },
+                    "player": {
+                        "id": 352282,
+                        "name": "J. Laiton"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 68,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1145,
+                        "name": "Tigres FC",
+                        "logo": "https://media.api-sports.io/football/teams/1145.png"
+                    },
+                    "player": {
+                        "id": 456491,
+                        "name": "C. Cuadros"
+                    },
+                    "assist": {
+                        "id": 59750,
+                        "name": "C. Salguero"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 68,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1145,
+                        "name": "Tigres FC",
+                        "logo": "https://media.api-sports.io/football/teams/1145.png"
+                    },
+                    "player": {
+                        "id": 363885,
+                        "name": "S. Mera"
+                    },
+                    "assist": {
+                        "id": 397956,
+                        "name": "L. Palacios"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1463,
+                        "name": "Real Santander",
+                        "logo": "https://media.api-sports.io/football/teams/1463.png"
+                    },
+                    "player": {
+                        "id": 59784,
+                        "name": "F. Espinal"
+                    },
+                    "assist": {
+                        "id": 456489,
+                        "name": "J. Ararat"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1463,
+                        "name": "Real Santander",
+                        "logo": "https://media.api-sports.io/football/teams/1463.png"
+                    },
+                    "player": {
+                        "id": 301888,
+                        "name": "G. Reyes"
+                    },
+                    "assist": {
+                        "id": 375825,
+                        "name": "J. Yusty"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 75,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1145,
+                        "name": "Tigres FC",
+                        "logo": "https://media.api-sports.io/football/teams/1145.png"
+                    },
+                    "player": {
+                        "id": 6498,
+                        "name": "\u00d3. Cabezas"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 77,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1145,
+                        "name": "Tigres FC",
+                        "logo": "https://media.api-sports.io/football/teams/1145.png"
+                    },
+                    "player": {
+                        "id": 373955,
+                        "name": "M. Mahecha"
+                    },
+                    "assist": {
+                        "id": 311412,
+                        "name": "D. Prieto"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 77,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1145,
+                        "name": "Tigres FC",
+                        "logo": "https://media.api-sports.io/football/teams/1145.png"
+                    },
+                    "player": {
+                        "id": 352282,
+                        "name": "J. Laiton"
+                    },
+                    "assist": {
+                        "id": 478971,
+                        "name": "J. Molano"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1145,
+                        "name": "Tigres FC",
+                        "logo": "https://media.api-sports.io/football/teams/1145.png"
+                    },
+                    "player": {
+                        "id": 478971,
+                        "name": "J. Molano"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1463,
+                        "name": "Real Santander",
+                        "logo": "https://media.api-sports.io/football/teams/1463.png"
+                    },
+                    "player": {
+                        "id": 356521,
+                        "name": "A. Segura"
+                    },
+                    "assist": {
+                        "id": 375826,
+                        "name": "J. Pert\u00faz"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1145,
+                        "name": "Tigres FC",
+                        "logo": "https://media.api-sports.io/football/teams/1145.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1145,
+                        "name": "Tigres FC",
+                        "logo": "https://media.api-sports.io/football/teams/1145.png"
+                    },
+                    "player": {
+                        "id": 284859,
+                        "name": "S. Cubides"
+                    },
+                    "assist": {
+                        "id": 308861,
+                        "name": "D. Ibarra"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1463,
+                        "name": "Real Santander",
+                        "logo": "https://media.api-sports.io/football/teams/1463.png"
+                    },
+                    "player": {
+                        "id": 301887,
+                        "name": "F. I. Rivera Mendoza"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 1145,
+                        "name": "Tigres FC",
+                        "logo": "https://media.api-sports.io/football/teams/1145.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 21777,
+                        "name": "J. Castro",
+                        "photo": "https://media.api-sports.io/football/coachs/21777.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 59649,
+                                "name": "O. Rodr\u00edguez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6498,
+                                "name": "\u00d3. Cabezas",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 64158,
+                                "name": "M. Pajaro",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 352282,
+                                "name": "J. Laiton",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 311433,
+                                "name": "Y. Mart\u00ednez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 369699,
+                                "name": "K. Balanta",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 373955,
+                                "name": "M. Mahecha",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 456491,
+                                "name": "C. Cuadros",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 284859,
+                                "name": "S. Cubides",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 297947,
+                                "name": "H. Mena",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 363885,
+                                "name": "S. Mera",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 59750,
+                                "name": "C. Salguero",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 397956,
+                                "name": "L. Palacios",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 311412,
+                                "name": "D. Prieto",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 478971,
+                                "name": "J. Molano",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 308861,
+                                "name": "D. Ibarra",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 281965,
+                                "name": "J. Huertas",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 373956,
+                                "name": "J. Lopera",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 1463,
+                        "name": "Real Santander",
+                        "logo": "https://media.api-sports.io/football/teams/1463.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 21776,
+                        "name": "\u00d3. \u00c1lvarez",
+                        "photo": "https://media.api-sports.io/football/coachs/21776.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 365610,
+                                "name": "K. Chac\u00f3n",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13428,
+                                "name": "J. Solarte",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 126747,
+                                "name": "E. Zapata",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 301888,
+                                "name": "G. Reyes",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 301886,
+                                "name": "P. Rodr\u00edguez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 406425,
+                                "name": "J. Camacho",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 59784,
+                                "name": "F. Espinal",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 442467,
+                                "name": "J. G\u00f3mez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 456486,
+                                "name": "Jordi Hern\u00e1ndez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 311407,
+                                "name": "L. Segura",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 356521,
+                                "name": "A. Segura",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 301887,
+                                "name": "F. Mendoza",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 428166,
+                                "name": "L. Yanes",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 456489,
+                                "name": "J. Ararat",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 375825,
+                                "name": "J. Yusty",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 375826,
+                                "name": "J. Pert\u00faz",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 406423,
+                                "name": "C. Dur\u00e1n",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 456483,
+                                "name": "J. Lazaro",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

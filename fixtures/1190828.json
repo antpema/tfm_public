@@ -1,0 +1,778 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1190828"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1190828,
+                "referee": "R. Ekelund",
+                "timezone": "UTC",
+                "date": "2024-08-04T14:00:00+00:00",
+                "timestamp": 1722780000,
+                "periods": {
+                    "first": 1722780000,
+                    "second": 1722783600
+                },
+                "venue": {
+                    "id": 4898,
+                    "name": "Edsborgs IP",
+                    "city": "Trollh\u00e4ttan"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 564,
+                "name": "Ettan - S\u00f6dra",
+                "country": "Sweden",
+                "logo": "https://media.api-sports.io/football/leagues/564.png",
+                "flag": "https://media.api-sports.io/flags/se.svg",
+                "season": 2024,
+                "round": "S\u00f6dra - 16"
+            },
+            "teams": {
+                "home": {
+                    "id": 6702,
+                    "name": "Trollh\u00e4ttan",
+                    "logo": "https://media.api-sports.io/football/teams/6702.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 6694,
+                    "name": "Roseng\u00e5rd",
+                    "logo": "https://media.api-sports.io/football/teams/6694.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 13,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6702,
+                        "name": "Trollh\u00e4ttan",
+                        "logo": "https://media.api-sports.io/football/teams/6702.png"
+                    },
+                    "player": {
+                        "id": 100481,
+                        "name": "K. Liimatainen"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 13,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6702,
+                        "name": "Trollh\u00e4ttan",
+                        "logo": "https://media.api-sports.io/football/teams/6702.png"
+                    },
+                    "player": {
+                        "id": 100481,
+                        "name": "K. Liimatainen"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 6694,
+                        "name": "Roseng\u00e5rd",
+                        "logo": "https://media.api-sports.io/football/teams/6694.png"
+                    },
+                    "player": {
+                        "id": 291875,
+                        "name": "E. Igbonekwu"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 58,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6702,
+                        "name": "Trollh\u00e4ttan",
+                        "logo": "https://media.api-sports.io/football/teams/6702.png"
+                    },
+                    "player": {
+                        "id": 439663,
+                        "name": "Fabio"
+                    },
+                    "assist": {
+                        "id": 47738,
+                        "name": "M. Andelkovic"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6702,
+                        "name": "Trollh\u00e4ttan",
+                        "logo": "https://media.api-sports.io/football/teams/6702.png"
+                    },
+                    "player": {
+                        "id": 107238,
+                        "name": "I. Shamoun"
+                    },
+                    "assist": {
+                        "id": 457987,
+                        "name": "M. Berg"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6702,
+                        "name": "Trollh\u00e4ttan",
+                        "logo": "https://media.api-sports.io/football/teams/6702.png"
+                    },
+                    "player": {
+                        "id": 100481,
+                        "name": "K. Liimatainen"
+                    },
+                    "assist": {
+                        "id": 205432,
+                        "name": "W. Lekay"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 72,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6702,
+                        "name": "Trollh\u00e4ttan",
+                        "logo": "https://media.api-sports.io/football/teams/6702.png"
+                    },
+                    "player": {
+                        "id": 137999,
+                        "name": "C. Sener"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6694,
+                        "name": "Roseng\u00e5rd",
+                        "logo": "https://media.api-sports.io/football/teams/6694.png"
+                    },
+                    "player": {
+                        "id": 100093,
+                        "name": "G. Stagova"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 76,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6694,
+                        "name": "Roseng\u00e5rd",
+                        "logo": "https://media.api-sports.io/football/teams/6694.png"
+                    },
+                    "player": {
+                        "id": 453381,
+                        "name": "D. Alm"
+                    },
+                    "assist": {
+                        "id": 137796,
+                        "name": "D. Kosik Sulaiman"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 76,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6694,
+                        "name": "Roseng\u00e5rd",
+                        "logo": "https://media.api-sports.io/football/teams/6694.png"
+                    },
+                    "player": {
+                        "id": 100093,
+                        "name": "G. Stagova"
+                    },
+                    "assist": {
+                        "id": 55427,
+                        "name": "G. Backaliden"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6702,
+                        "name": "Trollh\u00e4ttan",
+                        "logo": "https://media.api-sports.io/football/teams/6702.png"
+                    },
+                    "player": {
+                        "id": 205432,
+                        "name": "W. Lekay"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 79,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6694,
+                        "name": "Roseng\u00e5rd",
+                        "logo": "https://media.api-sports.io/football/teams/6694.png"
+                    },
+                    "player": {
+                        "id": 48233,
+                        "name": "I. Magnusson"
+                    },
+                    "assist": {
+                        "id": 335109,
+                        "name": "A. Avdic"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 79,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6694,
+                        "name": "Roseng\u00e5rd",
+                        "logo": "https://media.api-sports.io/football/teams/6694.png"
+                    },
+                    "player": {
+                        "id": 371417,
+                        "name": "E. Karimi"
+                    },
+                    "assist": {
+                        "id": 47923,
+                        "name": "M. Frithzell"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6702,
+                        "name": "Trollh\u00e4ttan",
+                        "logo": "https://media.api-sports.io/football/teams/6702.png"
+                    },
+                    "player": {
+                        "id": 139630,
+                        "name": "J. Richards"
+                    },
+                    "assist": {
+                        "id": 111887,
+                        "name": "O. Lennerskog"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 3
+                    },
+                    "team": {
+                        "id": 6694,
+                        "name": "Roseng\u00e5rd",
+                        "logo": "https://media.api-sports.io/football/teams/6694.png"
+                    },
+                    "player": {
+                        "id": 291875,
+                        "name": "E. Igbonekwu"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 6702,
+                        "name": "Trollh\u00e4ttan",
+                        "logo": "https://media.api-sports.io/football/teams/6702.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 17027,
+                        "name": "N. Wenderyd",
+                        "photo": "https://media.api-sports.io/football/coachs/17027.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 139663,
+                                "name": "C. Hogg",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47858,
+                                "name": "F. Lundgren",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 439663,
+                                "name": "Fabio",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 137927,
+                                "name": "S. Rundqvist",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 458518,
+                                "name": "M. Belouchi",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 137999,
+                                "name": "C. Sener",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 100481,
+                                "name": "K. Liimatainen",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 161093,
+                                "name": "Y. Embaye",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 139630,
+                                "name": "J. Richards",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 107238,
+                                "name": "I. Shamoun",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 321495,
+                                "name": "E. Reljanovic",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 47738,
+                                "name": "M. Andelkovic",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 457987,
+                                "name": "M. Berg",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 205432,
+                                "name": "W. Lekay",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 111887,
+                                "name": "O. Lennerskog",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 408874,
+                                "name": "D. W\u00e4nblom",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 239573,
+                                "name": "S. Zupancic",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 100115,
+                                "name": "T. Sernling",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 6694,
+                        "name": "Roseng\u00e5rd",
+                        "logo": "https://media.api-sports.io/football/teams/6694.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 20030,
+                        "name": "H. Kabil",
+                        "photo": "https://media.api-sports.io/football/coachs/20030.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 48252,
+                                "name": "I. Pettersson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 100268,
+                                "name": "S. Fr\u00f6jdh",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 108004,
+                                "name": "P. Balde",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 291875,
+                                "name": "E. Igbonekwu",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 239447,
+                                "name": "E. Grimbe",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 119106,
+                                "name": "T. Tsetskhladze",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 100093,
+                                "name": "G. Stagova",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 48233,
+                                "name": "I. Magnusson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 160972,
+                                "name": "E. Johansson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 371417,
+                                "name": "E. Karimi",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 453381,
+                                "name": "D. Alm",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 137796,
+                                "name": "D. Kosik Sulaiman",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 55427,
+                                "name": "G. Backaliden",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 335109,
+                                "name": "A. Avdic",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47923,
+                                "name": "M. Frithzell",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 161100,
+                                "name": "A. Olofsson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 396649,
+                                "name": "S. Aljukic",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 479613,
+                                "name": "D. Aljukic",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

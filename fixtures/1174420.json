@@ -1,0 +1,906 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1174420"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1174420,
+                "referee": "S. Berna Rico",
+                "timezone": "UTC",
+                "date": "2024-08-04T19:00:00+00:00",
+                "timestamp": 1722798000,
+                "periods": {
+                    "first": 1722798000,
+                    "second": 1722801600
+                },
+                "venue": {
+                    "id": 20579,
+                    "name": "Starfire Sports Stadium",
+                    "city": "Tukwila, Washington"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 909,
+                "name": "MLS Next Pro",
+                "country": "USA",
+                "logo": "https://media.api-sports.io/football/leagues/909.png",
+                "flag": "https://media.api-sports.io/flags/us.svg",
+                "season": 2024,
+                "round": "Regular Season - 28"
+            },
+            "teams": {
+                "home": {
+                    "id": 4020,
+                    "name": "Tacoma Defiance",
+                    "logo": "https://media.api-sports.io/football/teams/4020.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 18814,
+                    "name": "Minnesota United II",
+                    "logo": "https://media.api-sports.io/football/teams/18814.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 5,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 3,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 5,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 3,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4020,
+                        "name": "Tacoma Defiance",
+                        "logo": "https://media.api-sports.io/football/teams/4020.png"
+                    },
+                    "player": {
+                        "id": 407582,
+                        "name": "C. Aquino"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 36,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4020,
+                        "name": "Tacoma Defiance",
+                        "logo": "https://media.api-sports.io/football/teams/4020.png"
+                    },
+                    "player": {
+                        "id": 362164,
+                        "name": "S. Brunell"
+                    },
+                    "assist": {
+                        "id": 362441,
+                        "name": "G. Minoungou"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 3
+                    },
+                    "team": {
+                        "id": 4020,
+                        "name": "Tacoma Defiance",
+                        "logo": "https://media.api-sports.io/football/teams/4020.png"
+                    },
+                    "player": {
+                        "id": 407582,
+                        "name": "C. Aquino"
+                    },
+                    "assist": {
+                        "id": 362164,
+                        "name": "S. Brunell"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4020,
+                        "name": "Tacoma Defiance",
+                        "logo": "https://media.api-sports.io/football/teams/4020.png"
+                    },
+                    "player": {
+                        "id": 460353,
+                        "name": "Y. Tsukanome"
+                    },
+                    "assist": {
+                        "id": 413227,
+                        "name": "S. Gomez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 18814,
+                        "name": "Minnesota United II",
+                        "logo": "https://media.api-sports.io/football/teams/18814.png"
+                    },
+                    "player": {
+                        "id": 462043,
+                        "name": "J. Arias"
+                    },
+                    "assist": {
+                        "id": 472850,
+                        "name": "J. Farris"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 18814,
+                        "name": "Minnesota United II",
+                        "logo": "https://media.api-sports.io/football/teams/18814.png"
+                    },
+                    "player": {
+                        "id": 464293,
+                        "name": "A. Martinez"
+                    },
+                    "assist": {
+                        "id": 463486,
+                        "name": "W. Schmidt"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4020,
+                        "name": "Tacoma Defiance",
+                        "logo": "https://media.api-sports.io/football/teams/4020.png"
+                    },
+                    "player": {
+                        "id": 407582,
+                        "name": "C. Aquino"
+                    },
+                    "assist": {
+                        "id": 313589,
+                        "name": "B. Fahling"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 61,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 18814,
+                        "name": "Minnesota United II",
+                        "logo": "https://media.api-sports.io/football/teams/18814.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 62,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 18814,
+                        "name": "Minnesota United II",
+                        "logo": "https://media.api-sports.io/football/teams/18814.png"
+                    },
+                    "player": {
+                        "id": 462042,
+                        "name": "D. Mawing"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 62,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 18814,
+                        "name": "Minnesota United II",
+                        "logo": "https://media.api-sports.io/football/teams/18814.png"
+                    },
+                    "player": {
+                        "id": 463582,
+                        "name": "Hugo Bacharach"
+                    },
+                    "assist": {
+                        "id": 461629,
+                        "name": "G. Cruz"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 69,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 18814,
+                        "name": "Minnesota United II",
+                        "logo": "https://media.api-sports.io/football/teams/18814.png"
+                    },
+                    "player": {
+                        "id": 425893,
+                        "name": "A. Randell"
+                    },
+                    "assist": {
+                        "id": 437944,
+                        "name": "N. Moua"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 69,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 18814,
+                        "name": "Minnesota United II",
+                        "logo": "https://media.api-sports.io/football/teams/18814.png"
+                    },
+                    "player": {
+                        "id": 425893,
+                        "name": "A. Randell"
+                    },
+                    "assist": {
+                        "id": 463486,
+                        "name": "W. Schmidt"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4020,
+                        "name": "Tacoma Defiance",
+                        "logo": "https://media.api-sports.io/football/teams/4020.png"
+                    },
+                    "player": {
+                        "id": 335553,
+                        "name": "O. De Rosario"
+                    },
+                    "assist": {
+                        "id": 102921,
+                        "name": "G. Miglietti"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4020,
+                        "name": "Tacoma Defiance",
+                        "logo": "https://media.api-sports.io/football/teams/4020.png"
+                    },
+                    "player": {
+                        "id": 362164,
+                        "name": "S. Brunell"
+                    },
+                    "assist": {
+                        "id": 405563,
+                        "name": "O. O'Malley"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 18814,
+                        "name": "Minnesota United II",
+                        "logo": "https://media.api-sports.io/football/teams/18814.png"
+                    },
+                    "player": {
+                        "id": 313699,
+                        "name": "B. Fischer"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4020,
+                        "name": "Tacoma Defiance",
+                        "logo": "https://media.api-sports.io/football/teams/4020.png"
+                    },
+                    "player": {
+                        "id": 413227,
+                        "name": "S. Gomez"
+                    },
+                    "assist": {
+                        "id": 313589,
+                        "name": "B. Fahling"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4020,
+                        "name": "Tacoma Defiance",
+                        "logo": "https://media.api-sports.io/football/teams/4020.png"
+                    },
+                    "player": {
+                        "id": 362441,
+                        "name": "G. Minoungou"
+                    },
+                    "assist": {
+                        "id": 475034,
+                        "name": "O. Hassan"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 86,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 18814,
+                        "name": "Minnesota United II",
+                        "logo": "https://media.api-sports.io/football/teams/18814.png"
+                    },
+                    "player": {
+                        "id": 475590,
+                        "name": "Enrique Nieves"
+                    },
+                    "assist": {
+                        "id": 413047,
+                        "name": "T. Ibsais"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 18814,
+                        "name": "Minnesota United II",
+                        "logo": "https://media.api-sports.io/football/teams/18814.png"
+                    },
+                    "player": {
+                        "id": 463486,
+                        "name": "W. Schmidt"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 5
+                    },
+                    "team": {
+                        "id": 4020,
+                        "name": "Tacoma Defiance",
+                        "logo": "https://media.api-sports.io/football/teams/4020.png"
+                    },
+                    "player": {
+                        "id": 475034,
+                        "name": "O. Hassan"
+                    },
+                    "assist": {
+                        "id": 405563,
+                        "name": "O. O'Malley"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 4020,
+                        "name": "Tacoma Defiance",
+                        "logo": "https://media.api-sports.io/football/teams/4020.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 22039,
+                        "name": "H. Diese",
+                        "photo": "https://media.api-sports.io/football/coachs/22039.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 102583,
+                                "name": "J. Castro",
+                                "number": 29,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 412226,
+                                "name": "E. Katsaros",
+                                "number": 83,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 177781,
+                                "name": "T. Sousa",
+                                "number": 31,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 212237,
+                                "name": "A. Lopez",
+                                "number": 35,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 412225,
+                                "name": "B. Bowen",
+                                "number": 96,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 407582,
+                                "name": "C. Aquino",
+                                "number": 80,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 362164,
+                                "name": "S. Brunell",
+                                "number": 37,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 415232,
+                                "name": "K. Kossa-Rienzi",
+                                "number": 85,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 335553,
+                                "name": "O. De Rosario",
+                                "number": 95,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 362441,
+                                "name": "G. Minoungou",
+                                "number": 93,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 460353,
+                                "name": "Y. Tsukanome",
+                                "number": 36,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 413227,
+                                "name": "S. Gomez",
+                                "number": 90,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 313589,
+                                "name": "B. Fahling",
+                                "number": 97,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 405563,
+                                "name": "O. O'Malley",
+                                "number": 32,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 102921,
+                                "name": "G. Miglietti",
+                                "number": 81,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 475034,
+                                "name": "O. Hassan",
+                                "number": 72,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 418677,
+                                "name": "L. Helleren",
+                                "number": 30,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 362440,
+                                "name": "E. Veillard",
+                                "number": 44,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 470539,
+                                "name": "K. Brito",
+                                "number": 40,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 414089,
+                                "name": "G. Sandnes",
+                                "number": 53,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 18814,
+                        "name": "Minnesota United II",
+                        "logo": "https://media.api-sports.io/football/teams/18814.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 22351,
+                        "name": "J. Hall",
+                        "photo": "https://media.api-sports.io/football/coachs/22351.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 102605,
+                                "name": "F. Montali",
+                                "number": 98,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 313699,
+                                "name": "B. Fischer",
+                                "number": 35,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 464292,
+                                "name": "F. McRobb",
+                                "number": 39,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 462042,
+                                "name": "D. Mawing",
+                                "number": 51,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 463582,
+                                "name": "Hugo Bacharach",
+                                "number": 24,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 413051,
+                                "name": "R. O'Driscoll",
+                                "number": 34,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 462043,
+                                "name": "J. Arias",
+                                "number": 42,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 425893,
+                                "name": "A. Randell",
+                                "number": 57,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 413044,
+                                "name": "K. Romanshyn",
+                                "number": 38,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 464293,
+                                "name": "A. Martinez",
+                                "number": 50,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 475590,
+                                "name": "Enrique Nieves",
+                                "number": 95,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 463486,
+                                "name": "W. Schmidt",
+                                "number": 49,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 472850,
+                                "name": "J. Farris",
+                                "number": 59,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 461629,
+                                "name": "G. Cruz",
+                                "number": 45,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 437944,
+                                "name": "N. Moua",
+                                "number": 52,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 413047,
+                                "name": "T. Ibsais",
+                                "number": 48,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 475591,
+                                "name": "R. Nyembwe",
+                                "number": 65,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 474282,
+                                "name": "O. Herrera",
+                                "number": 63,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

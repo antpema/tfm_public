@@ -1,0 +1,505 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1212085"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1212085,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-11T08:15:00+00:00",
+                "timestamp": 1723364100,
+                "periods": {
+                    "first": 1723364100,
+                    "second": 1723367700
+                },
+                "venue": {
+                    "id": 435,
+                    "name": "Andr\u016fv stadion",
+                    "city": "Olomouc"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 346,
+                "name": "FNL",
+                "country": "Czech-Republic",
+                "logo": "https://media.api-sports.io/football/leagues/346.png",
+                "flag": "https://media.api-sports.io/flags/cz.svg",
+                "season": 2024,
+                "round": "Regular Season - 5"
+            },
+            "teams": {
+                "home": {
+                    "id": 8622,
+                    "name": "Sigma Olomouc II",
+                    "logo": "https://media.api-sports.io/football/teams/8622.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 3731,
+                    "name": "Vyso\u010dina Jihlava",
+                    "logo": "https://media.api-sports.io/football/teams/3731.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 3,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 3,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 14,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8622,
+                        "name": "Sigma Olomouc II",
+                        "logo": "https://media.api-sports.io/football/teams/8622.png"
+                    },
+                    "player": {
+                        "id": 420359,
+                        "name": "M. Emmanuel"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 33,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8622,
+                        "name": "Sigma Olomouc II",
+                        "logo": "https://media.api-sports.io/football/teams/8622.png"
+                    },
+                    "player": {
+                        "id": 420359,
+                        "name": "M. Emmanuel"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8622,
+                        "name": "Sigma Olomouc II",
+                        "logo": "https://media.api-sports.io/football/teams/8622.png"
+                    },
+                    "player": {
+                        "id": 162784,
+                        "name": "A. Bednar"
+                    },
+                    "assist": {
+                        "id": 282300,
+                        "name": "J. Elbel"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3731,
+                        "name": "Vyso\u010dina Jihlava",
+                        "logo": "https://media.api-sports.io/football/teams/3731.png"
+                    },
+                    "player": {
+                        "id": 162192,
+                        "name": "M. Hosek"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "B. Labaran Khalid"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 53,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3731,
+                        "name": "Vyso\u010dina Jihlava",
+                        "logo": "https://media.api-sports.io/football/teams/3731.png"
+                    },
+                    "player": {
+                        "id": 70479,
+                        "name": "J. Selnar"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 55,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3731,
+                        "name": "Vyso\u010dina Jihlava",
+                        "logo": "https://media.api-sports.io/football/teams/3731.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "M. Krehlik"
+                    },
+                    "assist": {
+                        "id": 70479,
+                        "name": "J. Selnar"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 55,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3731,
+                        "name": "Vyso\u010dina Jihlava",
+                        "logo": "https://media.api-sports.io/football/teams/3731.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "J. Vitek"
+                    },
+                    "assist": {
+                        "id": 66679,
+                        "name": "M. Lacko"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 60,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3731,
+                        "name": "Vyso\u010dina Jihlava",
+                        "logo": "https://media.api-sports.io/football/teams/3731.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "M. Krehlik"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 62,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8622,
+                        "name": "Sigma Olomouc II",
+                        "logo": "https://media.api-sports.io/football/teams/8622.png"
+                    },
+                    "player": {
+                        "id": 200805,
+                        "name": "Y. Muritala"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 68,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8622,
+                        "name": "Sigma Olomouc II",
+                        "logo": "https://media.api-sports.io/football/teams/8622.png"
+                    },
+                    "player": {
+                        "id": 200805,
+                        "name": "Y. Muritala"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 68,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8622,
+                        "name": "Sigma Olomouc II",
+                        "logo": "https://media.api-sports.io/football/teams/8622.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "A. Proniuk"
+                    },
+                    "assist": {
+                        "id": 210180,
+                        "name": "D. Israel"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 68,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8622,
+                        "name": "Sigma Olomouc II",
+                        "logo": "https://media.api-sports.io/football/teams/8622.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "S. Jalovicor"
+                    },
+                    "assist": {
+                        "id": 162787,
+                        "name": "S. Langer"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 72,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3731,
+                        "name": "Vyso\u010dina Jihlava",
+                        "logo": "https://media.api-sports.io/football/teams/3731.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "M. Smutny"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "T. Franek"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8622,
+                        "name": "Sigma Olomouc II",
+                        "logo": "https://media.api-sports.io/football/teams/8622.png"
+                    },
+                    "player": {
+                        "id": 162192,
+                        "name": "M. Hosek"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Own Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 79,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8622,
+                        "name": "Sigma Olomouc II",
+                        "logo": "https://media.api-sports.io/football/teams/8622.png"
+                    },
+                    "player": {
+                        "id": 162784,
+                        "name": "A. Bednar"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 81,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3731,
+                        "name": "Vyso\u010dina Jihlava",
+                        "logo": "https://media.api-sports.io/football/teams/3731.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "A. Pesek"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "F. Sancl"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8622,
+                        "name": "Sigma Olomouc II",
+                        "logo": "https://media.api-sports.io/football/teams/8622.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "A. Urica"
+                    },
+                    "assist": {
+                        "id": 162755,
+                        "name": "J. Sip"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8622,
+                        "name": "Sigma Olomouc II",
+                        "logo": "https://media.api-sports.io/football/teams/8622.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "S. Jalovicor"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8622,
+                        "name": "Sigma Olomouc II",
+                        "logo": "https://media.api-sports.io/football/teams/8622.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "J. Coufal"
+                    },
+                    "assist": {
+                        "id": 40481,
+                        "name": "M. Pospisil"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

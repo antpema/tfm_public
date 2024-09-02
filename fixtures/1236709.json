@@ -1,0 +1,792 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1236709"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1236709,
+                "referee": "Florian Badstubner, Germany",
+                "timezone": "UTC",
+                "date": "2024-08-04T11:30:00+00:00",
+                "timestamp": 1722771000,
+                "periods": {
+                    "first": 1722771000,
+                    "second": 1722774600
+                },
+                "venue": {
+                    "id": 1727,
+                    "name": "Sportpark H\u00f6henberg",
+                    "city": "K\u00f6ln"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 80,
+                "name": "3. Liga",
+                "country": "Germany",
+                "logo": "https://media.api-sports.io/football/leagues/80.png",
+                "flag": "https://media.api-sports.io/flags/de.svg",
+                "season": 2024,
+                "round": "Regular Season - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 1620,
+                    "name": "FC Viktoria Koln",
+                    "logo": "https://media.api-sports.io/football/teams/1620.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 183,
+                    "name": "Dynamo Dresden",
+                    "logo": "https://media.api-sports.io/football/teams/183.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 22,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1620,
+                        "name": "FC Viktoria Koln",
+                        "logo": "https://media.api-sports.io/football/teams/1620.png"
+                    },
+                    "player": {
+                        "id": 432310,
+                        "name": "Said El Mala"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1620,
+                        "name": "FC Viktoria Koln",
+                        "logo": "https://media.api-sports.io/football/teams/1620.png"
+                    },
+                    "player": {
+                        "id": 177841,
+                        "name": "Eduardo Dos Santos Haesler"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 47,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 183,
+                        "name": "Dynamo Dresden",
+                        "logo": "https://media.api-sports.io/football/teams/183.png"
+                    },
+                    "player": {
+                        "id": 26254,
+                        "name": "C. Daferner"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 62,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1620,
+                        "name": "FC Viktoria Koln",
+                        "logo": "https://media.api-sports.io/football/teams/1620.png"
+                    },
+                    "player": {
+                        "id": 178328,
+                        "name": "E. Lofolomo"
+                    },
+                    "assist": {
+                        "id": 7737,
+                        "name": "B. Henning"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 62,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1620,
+                        "name": "FC Viktoria Koln",
+                        "logo": "https://media.api-sports.io/football/teams/1620.png"
+                    },
+                    "player": {
+                        "id": 432310,
+                        "name": "S. El Mala"
+                    },
+                    "assist": {
+                        "id": 178325,
+                        "name": "S. G\u00fcler"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 183,
+                        "name": "Dynamo Dresden",
+                        "logo": "https://media.api-sports.io/football/teams/183.png"
+                    },
+                    "player": {
+                        "id": 24800,
+                        "name": "N. Hauptmann"
+                    },
+                    "assist": {
+                        "id": 327947,
+                        "name": "J. Oehmichen"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 183,
+                        "name": "Dynamo Dresden",
+                        "logo": "https://media.api-sports.io/football/teams/183.png"
+                    },
+                    "player": {
+                        "id": 26254,
+                        "name": "C. Daferner"
+                    },
+                    "assist": {
+                        "id": 25224,
+                        "name": "S. Kutschke"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 72,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1620,
+                        "name": "FC Viktoria Koln",
+                        "logo": "https://media.api-sports.io/football/teams/1620.png"
+                    },
+                    "player": {
+                        "id": 26512,
+                        "name": "C. Greger"
+                    },
+                    "assist": {
+                        "id": 127909,
+                        "name": "K. Schulz"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 183,
+                        "name": "Dynamo Dresden",
+                        "logo": "https://media.api-sports.io/football/teams/183.png"
+                    },
+                    "player": {
+                        "id": 25224,
+                        "name": "S. Kutschke"
+                    },
+                    "assist": {
+                        "id": 344288,
+                        "name": "T. Menzel"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1620,
+                        "name": "FC Viktoria Koln",
+                        "logo": "https://media.api-sports.io/football/teams/1620.png"
+                    },
+                    "player": {
+                        "id": 178325,
+                        "name": "S. G\u00fcler"
+                    },
+                    "assist": {
+                        "id": 202988,
+                        "name": "N. May"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1620,
+                        "name": "FC Viktoria Koln",
+                        "logo": "https://media.api-sports.io/football/teams/1620.png"
+                    },
+                    "player": {
+                        "id": 26071,
+                        "name": "S. Handle"
+                    },
+                    "assist": {
+                        "id": 432311,
+                        "name": "M. El Mala"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 183,
+                        "name": "Dynamo Dresden",
+                        "logo": "https://media.api-sports.io/football/teams/183.png"
+                    },
+                    "player": {
+                        "id": 344288,
+                        "name": "T. Menzel"
+                    },
+                    "assist": {
+                        "id": 91178,
+                        "name": "L. B\u00fcnning"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 4
+                    },
+                    "team": {
+                        "id": 183,
+                        "name": "Dynamo Dresden",
+                        "logo": "https://media.api-sports.io/football/teams/183.png"
+                    },
+                    "player": {
+                        "id": 70099,
+                        "name": "O. Batista Meier"
+                    },
+                    "assist": {
+                        "id": 440136,
+                        "name": "D. Bohdanov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 1620,
+                        "name": "FC Viktoria Koln",
+                        "logo": "https://media.api-sports.io/football/teams/1620.png",
+                        "colors": {
+                            "player": {
+                                "primary": "ffffff",
+                                "number": "000000",
+                                "border": "ffffff"
+                            },
+                            "goalkeeper": {
+                                "primary": "ffd900",
+                                "number": "000000",
+                                "border": "ffd900"
+                            }
+                        }
+                    },
+                    "coach": {
+                        "id": 10302,
+                        "name": "O. Jan\u00dfen",
+                        "photo": "https://media.api-sports.io/football/coachs/10302.png"
+                    },
+                    "formation": "4-2-3-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 177841,
+                                "name": "Dudu",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 202988,
+                                "name": "N. May",
+                                "number": 37,
+                                "pos": "M",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 26547,
+                                "name": "L. Dietz",
+                                "number": 2,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 26512,
+                                "name": "C. Greger",
+                                "number": 15,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 308689,
+                                "name": "Sidny Cabral",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 178328,
+                                "name": "E. Lofolomo",
+                                "number": 14,
+                                "pos": "D",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 280371,
+                                "name": "F. Engelhardt",
+                                "number": 16,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 432310,
+                                "name": "S. El Mala",
+                                "number": 22,
+                                "pos": "F",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 25001,
+                                "name": "A. Vrenezi",
+                                "number": 10,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 26071,
+                                "name": "S. Handle",
+                                "number": 7,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 108617,
+                                "name": "L. Lobinger",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 7737,
+                                "name": "B. Henning",
+                                "number": 6,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 178325,
+                                "name": "S. G\u00fcler",
+                                "number": 30,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 127909,
+                                "name": "K. Schulz",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 432311,
+                                "name": "M. El Mala",
+                                "number": 42,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 26200,
+                                "name": "K. Rauhut",
+                                "number": 24,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 26062,
+                                "name": "P. Koronkiewicz",
+                                "number": 28,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 26541,
+                                "name": "K. Pytlik",
+                                "number": 4,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 334327,
+                                "name": "L. de Meester",
+                                "number": 13,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 334146,
+                                "name": "J. Sticker",
+                                "number": 33,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 183,
+                        "name": "Dynamo Dresden",
+                        "logo": "https://media.api-sports.io/football/teams/183.png",
+                        "colors": {
+                            "player": {
+                                "primary": "272727",
+                                "number": "ffffff",
+                                "border": "272727"
+                            },
+                            "goalkeeper": {
+                                "primary": "0dd849",
+                                "number": "ffffff",
+                                "border": "0dd849"
+                            }
+                        }
+                    },
+                    "coach": {
+                        "id": 8168,
+                        "name": "T. Stamm",
+                        "photo": "https://media.api-sports.io/football/coachs/8168.png"
+                    },
+                    "formation": "3-5-2",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 129139,
+                                "name": "T. Schreiber",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 178152,
+                                "name": "C. Kammerknecht",
+                                "number": 15,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 120390,
+                                "name": "A. Casar",
+                                "number": 17,
+                                "pos": "M",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 24816,
+                                "name": "L. Boeder",
+                                "number": 29,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 178084,
+                                "name": "J. Lemmer",
+                                "number": 10,
+                                "pos": "F",
+                                "grid": "3:5"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70099,
+                                "name": "O. Batista Meier",
+                                "number": 7,
+                                "pos": "F",
+                                "grid": "3:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 344288,
+                                "name": "T. Menzel",
+                                "number": 24,
+                                "pos": "F",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 24800,
+                                "name": "N. Hauptmann",
+                                "number": 27,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19067,
+                                "name": "P. Heise",
+                                "number": 16,
+                                "pos": "D",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 26254,
+                                "name": "C. Daferner",
+                                "number": 33,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 177688,
+                                "name": "R. Mei\u00dfner",
+                                "number": 21,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 327947,
+                                "name": "J. Oehmichen",
+                                "number": 25,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 25224,
+                                "name": "S. Kutschke",
+                                "number": 30,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 91178,
+                                "name": "L. B\u00fcnning",
+                                "number": 23,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 440136,
+                                "name": "D. Bohdanov",
+                                "number": 34,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 119249,
+                                "name": "J. Marx",
+                                "number": 26,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 356357,
+                                "name": "P. Lehmann",
+                                "number": 14,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 276508,
+                                "name": "D. Duah",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 334329,
+                                "name": "D. Kubatta",
+                                "number": 39,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 25254,
+                                "name": "D. Mesenh\u00f6ler",
+                                "number": 37,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

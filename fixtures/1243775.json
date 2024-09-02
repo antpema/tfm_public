@@ -1,0 +1,153 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1243775"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1243775,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-03T13:00:00+00:00",
+                "timestamp": 1722690000,
+                "periods": {
+                    "first": 1722690000,
+                    "second": 1722693600
+                },
+                "venue": {
+                    "id": 18715,
+                    "name": "Sportgel\u00e4nde Gebenbach",
+                    "city": "Gebenbach"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 938,
+                "name": "Oberliga - Bayern Nord",
+                "country": "Germany",
+                "logo": "https://media.api-sports.io/football/leagues/938.png",
+                "flag": "https://media.api-sports.io/flags/de.svg",
+                "season": 2024,
+                "round": "Bayern Nord - 4"
+            },
+            "teams": {
+                "home": {
+                    "id": 19228,
+                    "name": "Gebenbach",
+                    "logo": "https://media.api-sports.io/football/teams/19228.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 12727,
+                    "name": "ATSV Erlangen",
+                    "logo": "https://media.api-sports.io/football/teams/12727.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 26,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 19228,
+                        "name": "Gebenbach",
+                        "logo": "https://media.api-sports.io/football/teams/19228.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "J. Fischer"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 31,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 12727,
+                        "name": "ATSV Erlangen",
+                        "logo": "https://media.api-sports.io/football/teams/12727.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "D. Pisanu"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 12727,
+                        "name": "ATSV Erlangen",
+                        "logo": "https://media.api-sports.io/football/teams/12727.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "C. Civelek"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

@@ -1,0 +1,858 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1227540"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1227540,
+                "referee": "Nazmi Nasaruddin",
+                "timezone": "UTC",
+                "date": "2024-07-19T12:15:00+00:00",
+                "timestamp": 1721391300,
+                "periods": {
+                    "first": 1721391300,
+                    "second": 1721394900
+                },
+                "venue": {
+                    "id": 1052,
+                    "name": "Stadium Darul Aman",
+                    "city": "Alor Setar"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 500,
+                "name": "FA Cup",
+                "country": "Malaysia",
+                "logo": "https://media.api-sports.io/football/leagues/500.png",
+                "flag": "https://media.api-sports.io/flags/my.svg",
+                "season": 2024,
+                "round": "Semi-finals"
+            },
+            "teams": {
+                "home": {
+                    "id": 2527,
+                    "name": "Kedah",
+                    "logo": "https://media.api-sports.io/football/teams/2527.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 2523,
+                    "name": "Johor Darul Takzim FC",
+                    "logo": "https://media.api-sports.io/football/teams/2523.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 24,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2523,
+                        "name": "Johor Darul Takzim FC",
+                        "logo": "https://media.api-sports.io/football/teams/2523.png"
+                    },
+                    "player": {
+                        "id": 70072,
+                        "name": "\u00d3scar Arribas"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 28,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2523,
+                        "name": "Johor Darul Takzim FC",
+                        "logo": "https://media.api-sports.io/football/teams/2523.png"
+                    },
+                    "player": {
+                        "id": 49388,
+                        "name": "Heberty"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 34,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2523,
+                        "name": "Johor Darul Takzim FC",
+                        "logo": "https://media.api-sports.io/football/teams/2523.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Var",
+                    "detail": "Goal Disallowed",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 7
+                    },
+                    "team": {
+                        "id": 2527,
+                        "name": "Kedah",
+                        "logo": "https://media.api-sports.io/football/teams/2527.png"
+                    },
+                    "player": {
+                        "id": 73625,
+                        "name": "S. Nurulloyev"
+                    },
+                    "assist": {
+                        "id": 358952,
+                        "name": "Kamil Akmal"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 57,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2527,
+                        "name": "Kedah",
+                        "logo": "https://media.api-sports.io/football/teams/2527.png"
+                    },
+                    "player": {
+                        "id": 46124,
+                        "name": "M. Gordi\u0107"
+                    },
+                    "assist": {
+                        "id": 20700,
+                        "name": "E. Assifuah"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 57,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2527,
+                        "name": "Kedah",
+                        "logo": "https://media.api-sports.io/football/teams/2527.png"
+                    },
+                    "player": {
+                        "id": 67837,
+                        "name": "Hasbullah Abu Bakar"
+                    },
+                    "assist": {
+                        "id": 35218,
+                        "name": "Amirul Hisyam"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2527,
+                        "name": "Kedah",
+                        "logo": "https://media.api-sports.io/football/teams/2527.png"
+                    },
+                    "player": {
+                        "id": 35231,
+                        "name": "Faiz Nasir"
+                    },
+                    "assist": {
+                        "id": 35213,
+                        "name": "Fayadh Zulkifli"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2523,
+                        "name": "Johor Darul Takzim FC",
+                        "logo": "https://media.api-sports.io/football/teams/2523.png"
+                    },
+                    "player": {
+                        "id": 35147,
+                        "name": "Afiq Fazail"
+                    },
+                    "assist": {
+                        "id": 35240,
+                        "name": "Endrick"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2527,
+                        "name": "Kedah",
+                        "logo": "https://media.api-sports.io/football/teams/2527.png"
+                    },
+                    "player": {
+                        "id": 35197,
+                        "name": "Rizal Ghazali"
+                    },
+                    "assist": {
+                        "id": 35281,
+                        "name": "Wan Amirul Afiq"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 81,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2523,
+                        "name": "Johor Darul Takzim FC",
+                        "logo": "https://media.api-sports.io/football/teams/2523.png"
+                    },
+                    "player": {
+                        "id": 35150,
+                        "name": "Natxo Insa"
+                    },
+                    "assist": {
+                        "id": 152965,
+                        "name": "Hong Wan"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2523,
+                        "name": "Johor Darul Takzim FC",
+                        "logo": "https://media.api-sports.io/football/teams/2523.png"
+                    },
+                    "player": {
+                        "id": 47171,
+                        "name": "Juan Mu\u00f1iz"
+                    },
+                    "assist": {
+                        "id": 1487,
+                        "name": "Francisco Geraldes"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 84,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2523,
+                        "name": "Johor Darul Takzim FC",
+                        "logo": "https://media.api-sports.io/football/teams/2523.png"
+                    },
+                    "player": {
+                        "id": 34914,
+                        "name": "S. Hazmi"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 86,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2523,
+                        "name": "Johor Darul Takzim FC",
+                        "logo": "https://media.api-sports.io/football/teams/2523.png"
+                    },
+                    "player": {
+                        "id": 197975,
+                        "name": "F. Baharudin"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2527,
+                        "name": "Kedah",
+                        "logo": "https://media.api-sports.io/football/teams/2527.png"
+                    },
+                    "player": {
+                        "id": 194794,
+                        "name": "Habib Haroon"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 4
+                    },
+                    "team": {
+                        "id": 2523,
+                        "name": "Johor Darul Takzim FC",
+                        "logo": "https://media.api-sports.io/football/teams/2523.png"
+                    },
+                    "player": {
+                        "id": 49388,
+                        "name": "Heberty"
+                    },
+                    "assist": {
+                        "id": 182966,
+                        "name": "Murilo Henrique"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 3
+                    },
+                    "team": {
+                        "id": 2523,
+                        "name": "Johor Darul Takzim FC",
+                        "logo": "https://media.api-sports.io/football/teams/2523.png"
+                    },
+                    "player": {
+                        "id": 70072,
+                        "name": "\u00d3scar Arribas"
+                    },
+                    "assist": {
+                        "id": 35266,
+                        "name": "Romel Morales"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 9
+                    },
+                    "team": {
+                        "id": 2523,
+                        "name": "Johor Darul Takzim FC",
+                        "logo": "https://media.api-sports.io/football/teams/2523.png"
+                    },
+                    "player": {
+                        "id": 35266,
+                        "name": "Romel Morales"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 2527,
+                        "name": "Kedah",
+                        "logo": "https://media.api-sports.io/football/teams/2527.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 8113,
+                        "name": "Nafuzi Zain",
+                        "photo": "https://media.api-sports.io/football/coachs/8113.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 35351,
+                                "name": "Kalamullah Al-Hafiz",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35197,
+                                "name": "Rizal Ghazali",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35263,
+                                "name": "Ariff Farhan",
+                                "number": 27,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41233,
+                                "name": "Cleylton",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35463,
+                                "name": "Irfan Zakaria",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 73625,
+                                "name": "S. Nurulloyev",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 67837,
+                                "name": "Hasbullah Abu Bakar",
+                                "number": 35,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35231,
+                                "name": "Faiz Nasir",
+                                "number": 55,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 194794,
+                                "name": "Habib Haroon",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 29084,
+                                "name": "S. Nord\u00e9",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 46124,
+                                "name": "M. Gordi\u0107",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 358952,
+                                "name": "Kamil Akmal",
+                                "number": 66,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 20700,
+                                "name": "E. Assifuah",
+                                "number": 70,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35218,
+                                "name": "Amirul Hisyam",
+                                "number": 77,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35281,
+                                "name": "Wan Amirul Afiq",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35213,
+                                "name": "Fayadh Zulkifli",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35192,
+                                "name": "Ifwat Akmal",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 34984,
+                                "name": "Akmal Zahir",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35209,
+                                "name": "Fadzrul Danel",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35233,
+                                "name": "Halim Saari",
+                                "number": 81,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 2523,
+                        "name": "Johor Darul Takzim FC",
+                        "logo": "https://media.api-sports.io/football/teams/2523.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 850,
+                        "name": "H. Bidoglio",
+                        "photo": "https://media.api-sports.io/football/coachs/850.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 34914,
+                                "name": "Syihan Hazmi",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47531,
+                                "name": "J. Amat",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47171,
+                                "name": "Juan Mu\u00f1iz",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35335,
+                                "name": "Shahrul Saad",
+                                "number": 3,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 197975,
+                                "name": "Feroz Baharudin",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35150,
+                                "name": "Natxo Insa",
+                                "number": 30,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35147,
+                                "name": "Afiq Fazail",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70072,
+                                "name": "\u00d3scar Arribas",
+                                "number": 24,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 197977,
+                                "name": "Arif Aiman",
+                                "number": 42,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 77665,
+                                "name": "B\u00e9rgson",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 49388,
+                                "name": "Heberty",
+                                "number": 37,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 35240,
+                                "name": "Endrick",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 152965,
+                                "name": "Hong Wan",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1487,
+                                "name": "Francisco Geraldes",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 182966,
+                                "name": "Murilo Henrique",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35266,
+                                "name": "Romel Morales",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35173,
+                                "name": "Matthew Davies",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35148,
+                                "name": "Nazmi Faiz",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35136,
+                                "name": "Izham Tarmizi Roslan",
+                                "number": 29,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35234,
+                                "name": "Syahmi Safari",
+                                "number": 91,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

@@ -1,0 +1,623 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1250894"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1250894,
+                "referee": "M. Sanz",
+                "timezone": "UTC",
+                "date": "2024-08-04T18:30:00+00:00",
+                "timestamp": 1722796200,
+                "periods": {
+                    "first": 1722796200,
+                    "second": 1722799800
+                },
+                "venue": {
+                    "id": 19532,
+                    "name": "Estadio Leonardo Costa",
+                    "city": "Lincoln, Provincia de Buenos Aires"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 134,
+                "name": "Torneo Federal A",
+                "country": "Argentina",
+                "logo": "https://media.api-sports.io/football/leagues/134.png",
+                "flag": "https://media.api-sports.io/flags/ar.svg",
+                "season": 2024,
+                "round": "Lower Table Round - 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 21041,
+                    "name": "El Linque\u00f1o",
+                    "logo": "https://media.api-sports.io/football/teams/21041.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 788,
+                    "name": "Crucero Del Norte",
+                    "logo": "https://media.api-sports.io/football/teams/788.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 788,
+                        "name": "Crucero Del Norte",
+                        "logo": "https://media.api-sports.io/football/teams/788.png"
+                    },
+                    "player": {
+                        "id": 70623,
+                        "name": "Ramiro Bernal"
+                    },
+                    "assist": {
+                        "id": 195119,
+                        "name": "M. Rol\u00f3n"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 21041,
+                        "name": "El Linque\u00f1o",
+                        "logo": "https://media.api-sports.io/football/teams/21041.png"
+                    },
+                    "player": {
+                        "id": 411472,
+                        "name": "M. Pav\u00f3n Z\u00e1rate"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 68,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 788,
+                        "name": "Crucero Del Norte",
+                        "logo": "https://media.api-sports.io/football/teams/788.png"
+                    },
+                    "player": {
+                        "id": 463384,
+                        "name": "G. Dominico"
+                    },
+                    "assist": {
+                        "id": 462835,
+                        "name": "J. Vera"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 68,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 788,
+                        "name": "Crucero Del Norte",
+                        "logo": "https://media.api-sports.io/football/teams/788.png"
+                    },
+                    "player": {
+                        "id": 292854,
+                        "name": "A. Vallejos"
+                    },
+                    "assist": {
+                        "id": 309142,
+                        "name": "A. Braure"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 14
+                    },
+                    "team": {
+                        "id": 21041,
+                        "name": "El Linque\u00f1o",
+                        "logo": "https://media.api-sports.io/football/teams/21041.png"
+                    },
+                    "player": {
+                        "id": 411465,
+                        "name": "G. Medina"
+                    },
+                    "assist": {
+                        "id": 411461,
+                        "name": "M. Badano"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 21041,
+                        "name": "El Linque\u00f1o",
+                        "logo": "https://media.api-sports.io/football/teams/21041.png"
+                    },
+                    "player": {
+                        "id": 411472,
+                        "name": "M. Pav\u00f3n Z\u00e1rate"
+                    },
+                    "assist": {
+                        "id": 5332,
+                        "name": "E. Romero"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 21041,
+                        "name": "El Linque\u00f1o",
+                        "logo": "https://media.api-sports.io/football/teams/21041.png"
+                    },
+                    "player": {
+                        "id": 462830,
+                        "name": "N. Herrera"
+                    },
+                    "assist": {
+                        "id": 463416,
+                        "name": "A. McCormick"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 14
+                    },
+                    "team": {
+                        "id": 21041,
+                        "name": "El Linque\u00f1o",
+                        "logo": "https://media.api-sports.io/football/teams/21041.png"
+                    },
+                    "player": {
+                        "id": 462831,
+                        "name": "A. Sonzogni"
+                    },
+                    "assist": {
+                        "id": 474257,
+                        "name": "L. Ciotti"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 788,
+                        "name": "Crucero Del Norte",
+                        "logo": "https://media.api-sports.io/football/teams/788.png"
+                    },
+                    "player": {
+                        "id": 55441,
+                        "name": "L. Balbi"
+                    },
+                    "assist": {
+                        "id": 465365,
+                        "name": "A. Cura"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 788,
+                        "name": "Crucero Del Norte",
+                        "logo": "https://media.api-sports.io/football/teams/788.png"
+                    },
+                    "player": {
+                        "id": 169975,
+                        "name": "J. Barros"
+                    },
+                    "assist": {
+                        "id": 308820,
+                        "name": "Y. Abraham"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 21041,
+                        "name": "El Linque\u00f1o",
+                        "logo": "https://media.api-sports.io/football/teams/21041.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 14065,
+                        "name": "R. Drago",
+                        "photo": "https://media.api-sports.io/football/coachs/14065.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 320018,
+                                "name": "J. Cabrera",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 58120,
+                                "name": "C. N\u00fa\u00f1ez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 411465,
+                                "name": "G. Medina",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 462828,
+                                "name": "J. Veinticinco",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 462843,
+                                "name": "D. Actis",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 321882,
+                                "name": "E. Sosa",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 347161,
+                                "name": "K. Redondo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 411467,
+                                "name": "J. Coria",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 462831,
+                                "name": "A. Sonzogni",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 462830,
+                                "name": "N. Herrera",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 411472,
+                                "name": "M. Pav\u00f3n Z\u00e1rate",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 411461,
+                                "name": "M. Badano",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 5332,
+                                "name": "E. Romero",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 463416,
+                                "name": "A. McCormick",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 474257,
+                                "name": "L. Ciotti",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 788,
+                        "name": "Crucero Del Norte",
+                        "logo": "https://media.api-sports.io/football/teams/788.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 19290,
+                        "name": "C. Brizuela",
+                        "photo": "https://media.api-sports.io/football/coachs/19290.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 6491,
+                                "name": "J. Ayala",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 55441,
+                                "name": "L. Balbi",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 292854,
+                                "name": "A. Vallejos",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 462847,
+                                "name": "F. G\u00f3mez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 75462,
+                                "name": "M. Iglesias",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 351182,
+                                "name": "C. Araujo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 463384,
+                                "name": "G. Dominico",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70623,
+                                "name": "Ramiro Bernal",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 169975,
+                                "name": "J. Barros",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 308290,
+                                "name": "M. Dom\u00ednguez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 477889,
+                                "name": "P. \u00c1lvarez de Olivera",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 195119,
+                                "name": "M. Rol\u00f3n",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 462835,
+                                "name": "J. Vera",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 309142,
+                                "name": "A. Braure",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 465365,
+                                "name": "A. Cura",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 308820,
+                                "name": "Y. Abraham",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

@@ -1,0 +1,631 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1222448"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1222448,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-01T16:30:00+00:00",
+                "timestamp": 1722529800,
+                "periods": {
+                    "first": 1722529800,
+                    "second": 1722533400
+                },
+                "venue": {
+                    "id": 882,
+                    "name": "Stadio Mario Rigamonti",
+                    "city": "Brescia"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 518,
+                    "name": "Brescia",
+                    "logo": "https://media.api-sports.io/football/teams/518.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 495,
+                    "name": "Genoa",
+                    "logo": "https://media.api-sports.io/football/teams/495.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 38,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 518,
+                        "name": "Brescia",
+                        "logo": "https://media.api-sports.io/football/teams/518.png"
+                    },
+                    "player": {
+                        "id": 30665,
+                        "name": "G. Moncini"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 68,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 518,
+                        "name": "Brescia",
+                        "logo": "https://media.api-sports.io/football/teams/518.png"
+                    },
+                    "player": {
+                        "id": 31499,
+                        "name": "G. Borrelli"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 518,
+                        "name": "Brescia",
+                        "logo": "https://media.api-sports.io/football/teams/518.png",
+                        "colors": {
+                            "player": {
+                                "primary": "06469d",
+                                "number": "ffffff",
+                                "border": "06469d"
+                            },
+                            "goalkeeper": {
+                                "primary": "fcaa3b",
+                                "number": "000066",
+                                "border": "fcaa3b"
+                            }
+                        }
+                    },
+                    "formation": "4-3-1-2",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 31352,
+                                "name": "Luca Lezzerini",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 30857,
+                                "name": "Lorenzo Dickmann",
+                                "number": 24,
+                                "pos": "M",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 30644,
+                                "name": "Davide Adorni",
+                                "number": 28,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 207480,
+                                "name": "Andrea Papetti",
+                                "number": 32,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47786,
+                                "name": "Alexander Jallow",
+                                "number": 18,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 31139,
+                                "name": "Dimitri Bisoli",
+                                "number": 25,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 252,
+                                "name": "Matthias Verreth",
+                                "number": 6,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 91306,
+                                "name": "Massimo Bertagnoli",
+                                "number": 26,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 263480,
+                                "name": "Giacomo Olzer",
+                                "number": 27,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 266481,
+                                "name": "Flavio Bianchi",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": "5:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 30665,
+                                "name": "Gabriele Moncini",
+                                "number": 11,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 31270,
+                                "name": "Fabrizio Paghera",
+                                "number": 4,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 437778,
+                                "name": "Riccardo Fogliata",
+                                "number": 21,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 280938,
+                                "name": "Nicolas Galazzi",
+                                "number": 23,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 136005,
+                                "name": "Niccol\u00f2 Corrado",
+                                "number": 97,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 342011,
+                                "name": "Michele Besaggio",
+                                "number": 39,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6839,
+                                "name": "Trent Buhagiar",
+                                "number": 96,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 31499,
+                                "name": "Gennaro Borrelli",
+                                "number": 29,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 106196,
+                                "name": "Michele Avella",
+                                "number": 30,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 343567,
+                                "name": "Zylif Muca",
+                                "number": 33,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 469327,
+                                "name": "Carlo Ghidini",
+                                "number": 95,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 350856,
+                                "name": "Ernest Nuamah",
+                                "number": 37,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Filippo Faggiano",
+                                "number": 99,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Tommaso Mafezzoni",
+                                "number": 98,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 2428,
+                        "name": "R. Maran",
+                        "photo": "https://media.api-sports.io/football/coachs/2428.png"
+                    }
+                },
+                {
+                    "team": {
+                        "id": 495,
+                        "name": "Genoa",
+                        "logo": "https://media.api-sports.io/football/teams/495.png",
+                        "colors": {
+                            "player": {
+                                "primary": "ffffff",
+                                "number": "09437e",
+                                "border": "ffffff"
+                            },
+                            "goalkeeper": {
+                                "primary": "0297b6",
+                                "number": "f3f3f7",
+                                "border": "0297b6"
+                            }
+                        }
+                    },
+                    "formation": "3-5-2",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 31631,
+                                "name": "Nicola Leali",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 31521,
+                                "name": "Alessandro Vogliacco",
+                                "number": 14,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 162141,
+                                "name": "Koni De Winter",
+                                "number": 4,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 316517,
+                                "name": "Alan Matturro",
+                                "number": 33,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 31137,
+                                "name": "Stefano Sabelli",
+                                "number": 20,
+                                "pos": "M",
+                                "grid": "3:5"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1938,
+                                "name": "Ruslan Malinovskyi",
+                                "number": 17,
+                                "pos": "M",
+                                "grid": "3:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 39286,
+                                "name": "Emil Bohinen",
+                                "number": 5,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 36980,
+                                "name": "Morten Thorsby",
+                                "number": 2,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 348533,
+                                "name": "Seydou Fini",
+                                "number": 23,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 56396,
+                                "name": "Junior Messias",
+                                "number": 10,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 281408,
+                                "name": "Vitinha",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 31445,
+                                "name": "Daniele Sommariva",
+                                "number": 39,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Gabriele Calvani",
+                                "number": 99,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 162907,
+                                "name": "Alessandro Zanoli",
+                                "number": 95,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 281096,
+                                "name": "Patrizio Masini",
+                                "number": 96,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15881,
+                                "name": "Morten Frendrup",
+                                "number": 32,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6420,
+                                "name": "Mateo Retegui",
+                                "number": 19,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 30736,
+                                "name": "Mattia Bani",
+                                "number": 13,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 25914,
+                                "name": "Aar\u00f3n Mart\u00edn",
+                                "number": 3,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 342003,
+                                "name": "Federico Accornero",
+                                "number": 94,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 438216,
+                                "name": "Tommaso Pittino",
+                                "number": 98,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1850,
+                                "name": "Milan Badelj",
+                                "number": 47,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Lorenzo Venturino",
+                                "number": 92,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 437091,
+                                "name": "Christos Papadopoulos",
+                                "number": 97,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Jeff Ekhator",
+                                "number": 93,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 411,
+                        "name": "A. Gilardino",
+                        "photo": "https://media.api-sports.io/football/coachs/411.png"
+                    }
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

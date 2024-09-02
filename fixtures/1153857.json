@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1153857"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1153857,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-21T05:00:00+00:00",
+                "timestamp": 1721538000,
+                "periods": {
+                    "first": 1721538000,
+                    "second": 1721541600
+                },
+                "venue": {
+                    "id": 1943,
+                    "name": "AIS Grass Field 2\u00a0",
+                    "city": "Canberra"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 189,
+                "name": "Capital Territory NPL",
+                "country": "Australia",
+                "logo": "https://media.api-sports.io/football/leagues/189.png",
+                "flag": "https://media.api-sports.io/flags/au.svg",
+                "season": 2024,
+                "round": "Regular Season - 15"
+            },
+            "teams": {
+                "home": {
+                    "id": 1456,
+                    "name": "Gungahlin United",
+                    "logo": "https://media.api-sports.io/football/teams/1456.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 1447,
+                    "name": "Tuggeranong United",
+                    "logo": "https://media.api-sports.io/football/teams/1447.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 15,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1456,
+                        "name": "Gungahlin United",
+                        "logo": "https://media.api-sports.io/football/teams/1456.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "C. Junna"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 5
+                    },
+                    "team": {
+                        "id": 1456,
+                        "name": "Gungahlin United",
+                        "logo": "https://media.api-sports.io/football/teams/1456.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "L. Ahmed-Shaibu"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

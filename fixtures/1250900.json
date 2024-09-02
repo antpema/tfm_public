@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1250900"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1250900,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-11T18:00:00+00:00",
+                "timestamp": 1723399200,
+                "periods": {
+                    "first": 1723399200,
+                    "second": 1723402800
+                },
+                "venue": {
+                    "id": 1769,
+                    "name": "Estadio Ra\u00fal Orlando Lungarzo",
+                    "city": "Chivilcoy, Provincia de Buenos Aires"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 134,
+                "name": "Torneo Federal A",
+                "country": "Argentina",
+                "logo": "https://media.api-sports.io/football/leagues/134.png",
+                "flag": "https://media.api-sports.io/flags/ar.svg",
+                "season": 2024,
+                "round": "Lower Table Round - 4"
+            },
+            "teams": {
+                "home": {
+                    "id": 1960,
+                    "name": "Independiente De Chivilcoy",
+                    "logo": "https://media.api-sports.io/football/teams/1960.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 3942,
+                    "name": "Def. de Pronunciamiento",
+                    "logo": "https://media.api-sports.io/football/teams/3942.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 49,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3942,
+                        "name": "Def. de Pronunciamiento",
+                        "logo": "https://media.api-sports.io/football/teams/3942.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "D. Sanchez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 77,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1960,
+                        "name": "Independiente De Chivilcoy",
+                        "logo": "https://media.api-sports.io/football/teams/1960.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "K. Martinez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

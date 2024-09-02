@@ -1,0 +1,823 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1198797"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1198797,
+                "referee": "Rodrigo Fernandes Junior",
+                "timezone": "UTC",
+                "date": "2024-08-04T18:00:00+00:00",
+                "timestamp": 1722794400,
+                "periods": {
+                    "first": 1722794400,
+                    "second": 1722798000
+                },
+                "venue": {
+                    "id": 12666,
+                    "name": "Est\u00e1dio Municipal Francisco Marques Figueira",
+                    "city": "Suzano, S\u00e3o Paulo"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 742,
+                "name": "Copa Paulista",
+                "country": "Brazil",
+                "logo": "https://media.api-sports.io/football/leagues/742.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "season": 2024,
+                "round": "1st Round - 8"
+            },
+            "teams": {
+                "home": {
+                    "id": 18304,
+                    "name": "USAC",
+                    "logo": "https://media.api-sports.io/football/teams/18304.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 7786,
+                    "name": "S\u00e3o Caetano",
+                    "logo": "https://media.api-sports.io/football/teams/7786.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 3
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 3
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 31,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 18304,
+                        "name": "USAC",
+                        "logo": "https://media.api-sports.io/football/teams/18304.png"
+                    },
+                    "player": {
+                        "id": 475018,
+                        "name": "Matheus Soldado"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 18304,
+                        "name": "USAC",
+                        "logo": "https://media.api-sports.io/football/teams/18304.png"
+                    },
+                    "player": {
+                        "id": 385874,
+                        "name": "Pel\u00e1gio"
+                    },
+                    "assist": {
+                        "id": 455145,
+                        "name": "Vinicius"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7786,
+                        "name": "S\u00e3o Caetano",
+                        "logo": "https://media.api-sports.io/football/teams/7786.png"
+                    },
+                    "player": {
+                        "id": 54875,
+                        "name": "Stephanno"
+                    },
+                    "assist": {
+                        "id": 157816,
+                        "name": "Franklin"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7786,
+                        "name": "S\u00e3o Caetano",
+                        "logo": "https://media.api-sports.io/football/teams/7786.png"
+                    },
+                    "player": {
+                        "id": 418748,
+                        "name": "Douglas Nathan"
+                    },
+                    "assist": {
+                        "id": 195317,
+                        "name": "Gabriel Bonet"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 48,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 18304,
+                        "name": "USAC",
+                        "logo": "https://media.api-sports.io/football/teams/18304.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 51,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 18304,
+                        "name": "USAC",
+                        "logo": "https://media.api-sports.io/football/teams/18304.png"
+                    },
+                    "player": {
+                        "id": 474661,
+                        "name": "Guilherme Jesus"
+                    },
+                    "assist": {
+                        "id": 473248,
+                        "name": "Kaike"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 51,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 18304,
+                        "name": "USAC",
+                        "logo": "https://media.api-sports.io/football/teams/18304.png"
+                    },
+                    "player": {
+                        "id": 458370,
+                        "name": "L\u00facio Fl\u00e1vio"
+                    },
+                    "assist": {
+                        "id": 473250,
+                        "name": "Wellington"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 61,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7786,
+                        "name": "S\u00e3o Caetano",
+                        "logo": "https://media.api-sports.io/football/teams/7786.png"
+                    },
+                    "player": {
+                        "id": 106438,
+                        "name": "Lucas Mufalo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7786,
+                        "name": "S\u00e3o Caetano",
+                        "logo": "https://media.api-sports.io/football/teams/7786.png"
+                    },
+                    "player": {
+                        "id": 195970,
+                        "name": "S\u00e1vio"
+                    },
+                    "assist": {
+                        "id": 364461,
+                        "name": "Kleber"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 69,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7786,
+                        "name": "S\u00e3o Caetano",
+                        "logo": "https://media.api-sports.io/football/teams/7786.png"
+                    },
+                    "player": {
+                        "id": 196193,
+                        "name": "Wermeson"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 18304,
+                        "name": "USAC",
+                        "logo": "https://media.api-sports.io/football/teams/18304.png"
+                    },
+                    "player": {
+                        "id": 306808,
+                        "name": "Paolo"
+                    },
+                    "assist": {
+                        "id": 475024,
+                        "name": "Hasan"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 75,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7786,
+                        "name": "S\u00e3o Caetano",
+                        "logo": "https://media.api-sports.io/football/teams/7786.png"
+                    },
+                    "player": {
+                        "id": 194940,
+                        "name": "Lucas Nathan"
+                    },
+                    "assist": {
+                        "id": 67282,
+                        "name": "Dhonata"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 86,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 18304,
+                        "name": "USAC",
+                        "logo": "https://media.api-sports.io/football/teams/18304.png"
+                    },
+                    "player": {
+                        "id": 475018,
+                        "name": "Matheus Soldado"
+                    },
+                    "assist": {
+                        "id": 475019,
+                        "name": "Jo\u00e3o Pedro"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 86,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7786,
+                        "name": "S\u00e3o Caetano",
+                        "logo": "https://media.api-sports.io/football/teams/7786.png"
+                    },
+                    "player": {
+                        "id": 196193,
+                        "name": "Wermeson"
+                    },
+                    "assist": {
+                        "id": 195316,
+                        "name": "Matheus L\u00fa"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 2
+                    },
+                    "team": {
+                        "id": 7786,
+                        "name": "S\u00e3o Caetano",
+                        "logo": "https://media.api-sports.io/football/teams/7786.png"
+                    },
+                    "player": {
+                        "id": 195316,
+                        "name": "Matheus L\u00fa"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 18304,
+                        "name": "USAC",
+                        "logo": "https://media.api-sports.io/football/teams/18304.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 22579,
+                        "name": "Petterson Martins",
+                        "photo": "https://media.api-sports.io/football/coachs/22579.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 457714,
+                                "name": "Mateus",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 306176,
+                                "name": "Leonardo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 458370,
+                                "name": "L\u00facio Fl\u00e1vio",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 474661,
+                                "name": "Guilherme Jesus",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 299174,
+                                "name": "Mateus Moura",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 359296,
+                                "name": "Matheus Jesus",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 385874,
+                                "name": "Pel\u00e1gio",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 476803,
+                                "name": "Nathan",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 306808,
+                                "name": "Paolo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 455160,
+                                "name": "Cau\u00e3",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 475018,
+                                "name": "Matheus Soldado",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 455145,
+                                "name": "Vinicius",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 473248,
+                                "name": "Kaike",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 473250,
+                                "name": "Wellington",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 475024,
+                                "name": "Hasan",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 475019,
+                                "name": "Jo\u00e3o Pedro",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 476805,
+                                "name": "N\u00edcolas",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 473281,
+                                "name": "Jo\u00e3o Guilherme",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 473249,
+                                "name": "Kayky",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 475017,
+                                "name": "Lucas",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 473247,
+                                "name": "Matheus",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 7786,
+                        "name": "S\u00e3o Caetano",
+                        "logo": "https://media.api-sports.io/football/teams/7786.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 8093,
+                        "name": "Edson Vieira",
+                        "photo": "https://media.api-sports.io/football/coachs/8093.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 477143,
+                                "name": "Adriano",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 77862,
+                                "name": "Fl\u00e1vio Boaventura",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 106438,
+                                "name": "Lucas Mufalo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 166735,
+                                "name": "Ronaldo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 455135,
+                                "name": "Allan",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 478970,
+                                "name": "Leandro",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 54875,
+                                "name": "Stephanno",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 194940,
+                                "name": "Lucas Nathan",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 196193,
+                                "name": "Wermeson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 418748,
+                                "name": "Douglas Nathan",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 195970,
+                                "name": "S\u00e1vio",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 157816,
+                                "name": "Franklin",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 195317,
+                                "name": "Gabriel Bonet",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 364461,
+                                "name": "Kleber",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 67282,
+                                "name": "Dhonata",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 195316,
+                                "name": "Matheus L\u00fa",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 351486,
+                                "name": "Lucas Guerra",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 438162,
+                                "name": "Rafael",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 472911,
+                                "name": "Miguel Afonso",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 280123,
+                                "name": "Steylon Kaique",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

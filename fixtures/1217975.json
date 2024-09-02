@@ -1,0 +1,640 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1217975"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1217975,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-24T15:30:00+00:00",
+                "timestamp": 1721835000,
+                "periods": {
+                    "first": 1721835000,
+                    "second": 1721838600
+                },
+                "venue": {
+                    "id": 3350,
+                    "name": "\u0160portni park Radomlje",
+                    "city": "Radomlje"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 2"
+            },
+            "teams": {
+                "home": {
+                    "id": 607,
+                    "name": "Konyaspor",
+                    "logo": "https://media.api-sports.io/football/teams/607.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 1068,
+                    "name": "HNK Gorica",
+                    "logo": "https://media.api-sports.io/football/teams/1068.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 607,
+                        "name": "Konyaspor",
+                        "logo": "https://media.api-sports.io/football/teams/607.png"
+                    },
+                    "player": {
+                        "id": 2154,
+                        "name": "S. \u00c7ikalleshi"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 81,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1068,
+                        "name": "HNK Gorica",
+                        "logo": "https://media.api-sports.io/football/teams/1068.png"
+                    },
+                    "player": {
+                        "id": 80214,
+                        "name": "D. \u0160tiglec"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 1068,
+                        "name": "HNK Gorica",
+                        "logo": "https://media.api-sports.io/football/teams/1068.png",
+                        "colors": {
+                            "player": {
+                                "primary": "007f00",
+                                "number": "ffffff",
+                                "border": "007f00"
+                            },
+                            "goalkeeper": {
+                                "primary": "fffa00",
+                                "number": "000000",
+                                "border": "fffa00"
+                            }
+                        }
+                    },
+                    "formation": "4-2-3-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 40328,
+                                "name": "Jakub S\u0142owik",
+                                "number": 27,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 50063,
+                                "name": "U\u011furcan Yaz\u011f\u0131l\u0131",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 61986,
+                                "name": "Adil Demirba\u011f",
+                                "number": 4,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 14691,
+                                "name": "Josip \u0106alu\u0161i\u0107",
+                                "number": 15,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 40472,
+                                "name": "Guilherme Haubert Sity\u00e1",
+                                "number": 12,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 61939,
+                                "name": "O\u011fulcan \u00dclg\u00fcn",
+                                "number": 35,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 62417,
+                                "name": "Ufuk Akyol",
+                                "number": 19,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 50234,
+                                "name": "Yusuf Erdo\u011fan",
+                                "number": 10,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 194880,
+                                "name": "Alassane Ndao",
+                                "number": 18,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 182072,
+                                "name": "Pedrinho",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 161980,
+                                "name": "Emrehan Gedikli",
+                                "number": 90,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Egemen Ayd\u0131n",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Emir",
+                                "number": 99,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 62023,
+                                "name": "Yasir Suba\u015f\u0131",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 63285,
+                                "name": "Metehan Mert",
+                                "number": 14,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 270163,
+                                "name": "Niko Rak",
+                                "number": 21,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Efe Se\u00e7il",
+                                "number": 6,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 161880,
+                                "name": "Muhammet Tunahan Tasci",
+                                "number": 7,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15650,
+                                "name": "Louka Prip",
+                                "number": 11,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 50008,
+                                "name": "Marko Jevtovi\u0107",
+                                "number": 16,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 111314,
+                                "name": "Emmanuel Boateng",
+                                "number": 26,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Adem Eren Kabak",
+                                "number": 66,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 152845,
+                                "name": "Melih Ibrahimoglu",
+                                "number": 77,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 448443,
+                                "name": "Semih Kocat\u00fcrk",
+                                "number": 88,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 2154,
+                                "name": "Sokol Cikalleshi",
+                                "number": 17,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 292942,
+                                "name": "Bouly Junior Sambou",
+                                "number": 25,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 22408,
+                        "name": "A. \u00c7amdal\u0131",
+                        "photo": "https://media.api-sports.io/football/coachs/22408.png"
+                    }
+                },
+                {
+                    "team": {
+                        "id": 607,
+                        "name": "Konyaspor",
+                        "logo": "https://media.api-sports.io/football/teams/607.png",
+                        "colors": {
+                            "player": {
+                                "primary": "da2325",
+                                "number": "ffffff",
+                                "border": "da2325"
+                            },
+                            "goalkeeper": {
+                                "primary": "ffff1c",
+                                "number": "ff0000",
+                                "border": "ffff1c"
+                            }
+                        }
+                    },
+                    "formation": "4-2-3-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 14494,
+                                "name": "Ivan Bani\u0107",
+                                "number": 31,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 342331,
+                                "name": "\u0110uro-Giulio \u0110eki\u0107",
+                                "number": 40,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 393072,
+                                "name": "Jakov Gurlica",
+                                "number": 6,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 14361,
+                                "name": "Kre\u0161imir Krizmani\u0107",
+                                "number": 25,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 394912,
+                                "name": "Ante Su\u0161ak",
+                                "number": 66,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 104801,
+                                "name": "Merveil Ndockyt",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 386271,
+                                "name": "Vito \u010cai\u0107",
+                                "number": 55,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 394978,
+                                "name": "Toni Maji\u0107",
+                                "number": 24,
+                                "pos": "F",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 68083,
+                                "name": "Martin Slogar",
+                                "number": 11,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 321756,
+                                "name": "Caio Cruz",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 362493,
+                                "name": "Vinko Skrbin",
+                                "number": 17,
+                                "pos": "M",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 29700,
+                                "name": "Bo\u017eidar Rado\u0161evi\u0107",
+                                "number": 44,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 106721,
+                                "name": "Karlo \u017diger",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 14698,
+                                "name": "Mateo Le\u0161",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 25149,
+                                "name": "Mario Malo\u010da",
+                                "number": 22,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 404178,
+                                "name": "Mario Matkovi\u0107",
+                                "number": 34,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 80214,
+                                "name": "Dino \u0160tiglec",
+                                "number": 90,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 14599,
+                                "name": "Jurica Pr\u0161ir",
+                                "number": 10,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 302972,
+                                "name": "Andrej Lazarov",
+                                "number": 16,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 375307,
+                                "name": "Luka Kapulica",
+                                "number": 23,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 14774,
+                                "name": "Valentino Majstorovi\u0107",
+                                "number": 77,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 337630,
+                                "name": "Ante Matej Juri\u0107",
+                                "number": 7,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 40191,
+                                "name": "Marko Kolar",
+                                "number": 24,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 462234,
+                                "name": "Luka Vrzi\u0107",
+                                "number": 99,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 22168,
+                        "name": "R. Vidovi\u0107",
+                        "photo": "https://media.api-sports.io/football/coachs/22168.png"
+                    }
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

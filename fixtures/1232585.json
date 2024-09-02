@@ -1,0 +1,668 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1232585"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1232585,
+                "referee": "V. Robles",
+                "timezone": "UTC",
+                "date": "2024-07-28T14:00:00+00:00",
+                "timestamp": 1722175200,
+                "periods": {
+                    "first": 1722175200,
+                    "second": 1722178800
+                },
+                "venue": {
+                    "id": 19356,
+                    "name": "Estadio Municipal de Carapegu\u00e1",
+                    "city": "Carapegu\u00e1"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 251,
+                "name": "Division Intermedia",
+                "country": "Paraguay",
+                "logo": "https://media.api-sports.io/football/leagues/251.png",
+                "flag": "https://media.api-sports.io/flags/py.svg",
+                "season": 2024,
+                "round": "Regular Season - 18"
+            },
+            "teams": {
+                "home": {
+                    "id": 20786,
+                    "name": "Sportivo Carapegu\u00e1",
+                    "logo": "https://media.api-sports.io/football/teams/20786.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 1189,
+                    "name": "Deportivo Santani",
+                    "logo": "https://media.api-sports.io/football/teams/1189.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 7,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 20786,
+                        "name": "Sportivo Carapegu\u00e1",
+                        "logo": "https://media.api-sports.io/football/teams/20786.png"
+                    },
+                    "player": {
+                        "id": 425003,
+                        "name": "A. Gim\u00e9nez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1189,
+                        "name": "Deportivo Santani",
+                        "logo": "https://media.api-sports.io/football/teams/1189.png"
+                    },
+                    "player": {
+                        "id": 279784,
+                        "name": "F. Ant\u00fanez"
+                    },
+                    "assist": {
+                        "id": 197043,
+                        "name": "R. Duarte"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 58,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 20786,
+                        "name": "Sportivo Carapegu\u00e1",
+                        "logo": "https://media.api-sports.io/football/teams/20786.png"
+                    },
+                    "player": {
+                        "id": 472505,
+                        "name": "A. Qui\u00f1\u00f3nez"
+                    },
+                    "assist": {
+                        "id": 95239,
+                        "name": "J. Arg\u00fcello"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 58,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 20786,
+                        "name": "Sportivo Carapegu\u00e1",
+                        "logo": "https://media.api-sports.io/football/teams/20786.png"
+                    },
+                    "player": {
+                        "id": 394296,
+                        "name": "J. C\u00e1ceres"
+                    },
+                    "assist": {
+                        "id": 352724,
+                        "name": "I. Salcedo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1189,
+                        "name": "Deportivo Santani",
+                        "logo": "https://media.api-sports.io/football/teams/1189.png"
+                    },
+                    "player": {
+                        "id": 424967,
+                        "name": "A. Machado"
+                    },
+                    "assist": {
+                        "id": 475411,
+                        "name": "L. Silva"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1189,
+                        "name": "Deportivo Santani",
+                        "logo": "https://media.api-sports.io/football/teams/1189.png"
+                    },
+                    "player": {
+                        "id": 370333,
+                        "name": "G. Gamarra"
+                    },
+                    "assist": {
+                        "id": 424926,
+                        "name": "R. Bord\u00f3n"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1189,
+                        "name": "Deportivo Santani",
+                        "logo": "https://media.api-sports.io/football/teams/1189.png"
+                    },
+                    "player": {
+                        "id": 302624,
+                        "name": "V. Berrio"
+                    },
+                    "assist": {
+                        "id": 36204,
+                        "name": "G. Ca\u00f1izales"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 20786,
+                        "name": "Sportivo Carapegu\u00e1",
+                        "logo": "https://media.api-sports.io/football/teams/20786.png"
+                    },
+                    "player": {
+                        "id": 271787,
+                        "name": "C. Samudio"
+                    },
+                    "assist": {
+                        "id": 12402,
+                        "name": "O. Leguizam\u00f3n"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 20786,
+                        "name": "Sportivo Carapegu\u00e1",
+                        "logo": "https://media.api-sports.io/football/teams/20786.png"
+                    },
+                    "player": {
+                        "id": 425003,
+                        "name": "A. Gim\u00e9nez"
+                    },
+                    "assist": {
+                        "id": 424904,
+                        "name": "C. D\u00edaz"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 20786,
+                        "name": "Sportivo Carapegu\u00e1",
+                        "logo": "https://media.api-sports.io/football/teams/20786.png"
+                    },
+                    "player": {
+                        "id": 265763,
+                        "name": "M. Aquino"
+                    },
+                    "assist": {
+                        "id": 425365,
+                        "name": "W. Pacheco"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 20786,
+                        "name": "Sportivo Carapegu\u00e1",
+                        "logo": "https://media.api-sports.io/football/teams/20786.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 20210,
+                        "name": "R. Maldonado",
+                        "photo": "https://media.api-sports.io/football/coachs/20210.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 70574,
+                                "name": "A. P\u00e9rez",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 95537,
+                                "name": "D. Aguada",
+                                "number": 28,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 95576,
+                                "name": "A. Arce",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 277170,
+                                "name": "G. Verd\u00fan",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 308369,
+                                "name": "M. Parris",
+                                "number": 32,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 265763,
+                                "name": "M. Aquino",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 271787,
+                                "name": "C. Samudio",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 425002,
+                                "name": "S. Sanabria",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 394296,
+                                "name": "J. C\u00e1ceres",
+                                "number": 26,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 425003,
+                                "name": "A. Gim\u00e9nez",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 472505,
+                                "name": "A. Qui\u00f1\u00f3nez",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 95239,
+                                "name": "J. Arg\u00fcello",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 352724,
+                                "name": "I. Salcedo",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 12402,
+                                "name": "O. Leguizam\u00f3n",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 424904,
+                                "name": "C. D\u00edaz",
+                                "number": 27,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 425365,
+                                "name": "W. Pacheco",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 95256,
+                                "name": "A. Vera",
+                                "number": 12,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 349545,
+                                "name": "A. Cabrera",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 1189,
+                        "name": "Deportivo Santani",
+                        "logo": "https://media.api-sports.io/football/teams/1189.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 20189,
+                        "name": "C. Castro",
+                        "photo": "https://media.api-sports.io/football/coachs/20189.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 278362,
+                                "name": "L. Verza",
+                                "number": 25,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 370333,
+                                "name": "G. Gamarra",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 425001,
+                                "name": "F. Arce",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 424998,
+                                "name": "R. Vera",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 262098,
+                                "name": "M. Montiel",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 279784,
+                                "name": "F. Ant\u00fanez",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 281349,
+                                "name": "D. Colm\u00e1n",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 301655,
+                                "name": "Juan Gonz\u00e1lez",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 302624,
+                                "name": "V. Berrio",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 405862,
+                                "name": "R. Escobar",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 424967,
+                                "name": "A. Machado",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 197043,
+                                "name": "R. Duarte",
+                                "number": 33,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 475411,
+                                "name": "L. Silva",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 424926,
+                                "name": "R. Bord\u00f3n",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 36204,
+                                "name": "G. Ca\u00f1izales",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 144326,
+                                "name": "J. C\u00e1ceres",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 424917,
+                                "name": "Justo Gonz\u00e1lez",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 425012,
+                                "name": "C. Aquino",
+                                "number": 30,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

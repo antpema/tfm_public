@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1239312"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1239312,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-31T20:00:00+00:00",
+                "timestamp": 1722456000,
+                "periods": {
+                    "first": 1722456000,
+                    "second": 1722459600
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Estadio PUCMM",
+                    "city": "Santiago De Los Caballeros"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 759,
+                "name": "Liga Mayor",
+                "country": "Dominican-Republic",
+                "logo": "https://media.api-sports.io/football/leagues/759.png",
+                "flag": "https://media.api-sports.io/flags/do.svg",
+                "season": 2024,
+                "round": "Championship Round - 2"
+            },
+            "teams": {
+                "home": {
+                    "id": 8004,
+                    "name": "Cibao",
+                    "logo": "https://media.api-sports.io/football/teams/8004.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 16141,
+                    "name": "Universidad O&M",
+                    "logo": "https://media.api-sports.io/football/teams/16141.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 21,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8004,
+                        "name": "Cibao",
+                        "logo": "https://media.api-sports.io/football/teams/8004.png"
+                    },
+                    "player": {
+                        "id": 59533,
+                        "name": "R. Correa"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 36,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 16141,
+                        "name": "Universidad O&M",
+                        "logo": "https://media.api-sports.io/football/teams/16141.png"
+                    },
+                    "player": {
+                        "id": 141123,
+                        "name": "R. Rivera"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

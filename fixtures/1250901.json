@@ -1,0 +1,109 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1250901"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1250901,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-11T18:30:00+00:00",
+                "timestamp": 1723401000,
+                "periods": {
+                    "first": 1723401000,
+                    "second": 1723404600
+                },
+                "venue": {
+                    "id": 114,
+                    "name": "Estadio Uni\u00f3n de Sunchales",
+                    "city": "Sunchales, Provincia de Santa Fe"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 134,
+                "name": "Torneo Federal A",
+                "country": "Argentina",
+                "logo": "https://media.api-sports.io/football/leagues/134.png",
+                "flag": "https://media.api-sports.io/flags/ar.svg",
+                "season": 2024,
+                "round": "Lower Table Round - 4"
+            },
+            "teams": {
+                "home": {
+                    "id": 1934,
+                    "name": "Union Sunchales",
+                    "logo": "https://media.api-sports.io/football/teams/1934.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 21041,
+                    "name": "El Linque\u00f1o",
+                    "logo": "https://media.api-sports.io/football/teams/21041.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 62,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 21041,
+                        "name": "El Linque\u00f1o",
+                        "logo": "https://media.api-sports.io/football/teams/21041.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "J. I. Coria"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

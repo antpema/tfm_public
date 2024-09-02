@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1230630"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1230630,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-27T11:30:00+00:00",
+                "timestamp": 1722079800,
+                "periods": {
+                    "first": 1722079800,
+                    "second": 1722083400
+                },
+                "venue": {
+                    "id": 728,
+                    "name": "Fritz-Walter-Stadion",
+                    "city": "Kaiserslautern"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 745,
+                    "name": "FC Kaiserslautern",
+                    "logo": "https://media.api-sports.io/football/teams/745.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 786,
+                    "name": "TSV 1860 Munich",
+                    "logo": "https://media.api-sports.io/football/teams/786.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 56,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 745,
+                        "name": "FC Kaiserslautern",
+                        "logo": "https://media.api-sports.io/football/teams/745.png"
+                    },
+                    "player": {
+                        "id": 24833,
+                        "name": "M. Ritter"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 76,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 745,
+                        "name": "FC Kaiserslautern",
+                        "logo": "https://media.api-sports.io/football/teams/745.png"
+                    },
+                    "player": {
+                        "id": 108575,
+                        "name": "J. Mause"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

@@ -1,0 +1,109 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1149469"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1149469,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-03T07:00:00+00:00",
+                "timestamp": 1722668400,
+                "periods": {
+                    "first": 1722668400,
+                    "second": 1722672000
+                },
+                "venue": {
+                    "id": 19361,
+                    "name": "Jensen Park",
+                    "city": "Sydney"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 835,
+                "name": "New South Wales NPL 2",
+                "country": "Australia",
+                "logo": "https://media.api-sports.io/football/leagues/835.png",
+                "flag": "https://media.api-sports.io/flags/au.svg",
+                "season": 2024,
+                "round": "Regular Season - 27"
+            },
+            "teams": {
+                "home": {
+                    "id": 20790,
+                    "name": "Bankstown City Lions",
+                    "logo": "https://media.api-sports.io/football/teams/20790.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 22853,
+                    "name": "Nepean",
+                    "logo": "https://media.api-sports.io/football/teams/22853.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 35,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 20790,
+                        "name": "Bankstown City Lions",
+                        "logo": "https://media.api-sports.io/football/teams/20790.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "R. Desilva"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

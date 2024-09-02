@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1176526"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1176526,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-22T18:00:00+00:00",
+                "timestamp": 1721671200,
+                "periods": {
+                    "first": 1721671200,
+                    "second": 1721674800
+                },
+                "venue": {
+                    "id": 20589,
+                    "name": "Estadio Oscar Pachi Funes",
+                    "city": "La Plata, Provincia de Buenos Aires"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 1067,
+                "name": "Torneo Promocional Amateur",
+                "country": "Argentina",
+                "logo": "https://media.api-sports.io/football/leagues/1067.png",
+                "flag": "https://media.api-sports.io/flags/ar.svg",
+                "season": 2024,
+                "round": "Clausura - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 23101,
+                    "name": "Everton La Plata",
+                    "logo": "https://media.api-sports.io/football/teams/23101.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 23106,
+                    "name": "SAT Moreno",
+                    "logo": "https://media.api-sports.io/football/teams/23106.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 24,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 23106,
+                        "name": "SAT Moreno",
+                        "logo": "https://media.api-sports.io/football/teams/23106.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "N. Sanabria"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 60,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 23106,
+                        "name": "SAT Moreno",
+                        "logo": "https://media.api-sports.io/football/teams/23106.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "A. Lizondo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

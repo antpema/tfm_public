@@ -1,0 +1,406 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1230622"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1230622,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-24T17:30:00+00:00",
+                "timestamp": 1721842200,
+                "periods": {
+                    "first": 1721842200,
+                    "second": 1721845800
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Sportpark De Gagelrijzen",
+                    "city": "Sint Willebrord"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 203,
+                    "name": "NAC Breda",
+                    "logo": "https://media.api-sports.io/football/teams/203.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 1124,
+                    "name": "OFI",
+                    "logo": "https://media.api-sports.io/football/teams/1124.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 6,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 203,
+                        "name": "NAC Breda",
+                        "logo": "https://media.api-sports.io/football/teams/203.png"
+                    },
+                    "player": {
+                        "id": 38737,
+                        "name": "B. Kemper"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 36,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1124,
+                        "name": "OFI",
+                        "logo": "https://media.api-sports.io/football/teams/1124.png"
+                    },
+                    "player": {
+                        "id": 8588,
+                        "name": "M. Bakic"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 57,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1124,
+                        "name": "OFI",
+                        "logo": "https://media.api-sports.io/football/teams/1124.png"
+                    },
+                    "player": {
+                        "id": 35639,
+                        "name": "F. Gallegos"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 203,
+                        "name": "NAC Breda",
+                        "logo": "https://media.api-sports.io/football/teams/203.png",
+                        "colors": {
+                            "player": {
+                                "primary": "ffcc00",
+                                "number": "000000",
+                                "border": "ffcc00"
+                            },
+                            "goalkeeper": {
+                                "primary": "cc3333",
+                                "number": "ffffff",
+                                "border": "cc3333"
+                            }
+                        }
+                    },
+                    "formation": "4-3-3",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 40220,
+                                "name": "Daniel Bielica",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 453918,
+                                "name": "Cherrion Valerius",
+                                "number": 25,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 376671,
+                                "name": "Rowan Besselink",
+                                "number": 23,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 8900,
+                                "name": "Jan Van den Bergh",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 38737,
+                                "name": "Boy Kemper",
+                                "number": 4,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66098,
+                                "name": "Dominik Jano\u0161ek",
+                                "number": 39,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 272724,
+                                "name": "Casper Staring",
+                                "number": 6,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 296642,
+                                "name": "Maximilien Balard",
+                                "number": 42,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 306952,
+                                "name": "Adam Kaied",
+                                "number": 14,
+                                "pos": "F",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 40780,
+                                "name": "Kacper Kostorz",
+                                "number": 99,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 37896,
+                                "name": "El\u00edas M\u00e1r \u00d3marsson",
+                                "number": 10,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 14497,
+                        "name": "J. van Gastel",
+                        "photo": "https://media.api-sports.io/football/coachs/14497.png"
+                    }
+                },
+                {
+                    "team": {
+                        "id": 1124,
+                        "name": "OFI",
+                        "logo": "https://media.api-sports.io/football/teams/1124.png",
+                        "colors": {
+                            "player": {
+                                "primary": "f0f0f0",
+                                "number": "0d0d0d",
+                                "border": "f0f0f0"
+                            },
+                            "goalkeeper": {
+                                "primary": "7eeea7",
+                                "number": "181616",
+                                "border": "7eeea7"
+                            }
+                        }
+                    },
+                    "formation": "4-2-3-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Nikolaos Christogeorgos",
+                                "number": 31,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 92525,
+                                "name": "Borja Gonzalez Tejada",
+                                "number": 17,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 594,
+                                "name": "Vasilis Lampropoulos",
+                                "number": 24,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 26826,
+                                "name": "Giannis Christopoulos",
+                                "number": 22,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 26733,
+                                "name": "Ilias Chatzitheodoridis",
+                                "number": 12,
+                                "pos": "M",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 26952,
+                                "name": "Zisis Karachalios",
+                                "number": 6,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 35639,
+                                "name": "Felipe Gallegos",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 349497,
+                                "name": "Giannis Apostolakis",
+                                "number": 45,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 8588,
+                                "name": "Marko Baki\u0107",
+                                "number": 88,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 133918,
+                                "name": "Adri\u00e1n Riera",
+                                "number": 7,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 22153,
+                                "name": "Aaron Leya Iseka",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 2527,
+                        "name": "T. Dellas",
+                        "photo": "https://media.api-sports.io/football/coachs/2527.png"
+                    }
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

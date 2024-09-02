@@ -1,0 +1,153 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1210868"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1210868,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-27T13:30:00+00:00",
+                "timestamp": 1722087000,
+                "periods": {
+                    "first": 1722087000,
+                    "second": 1722090600
+                },
+                "venue": {
+                    "id": 4200,
+                    "name": "Guilsfield Community Centre Ground",
+                    "city": "Guilsfield / Cegidfa, Powys"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 111,
+                "name": "FAW Championship",
+                "country": "Wales",
+                "logo": "https://media.api-sports.io/football/leagues/111.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2024,
+                "round": "North - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 5616,
+                    "name": "Guilsfield",
+                    "logo": "https://media.api-sports.io/football/teams/5616.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 6445,
+                    "name": "Caersws",
+                    "logo": "https://media.api-sports.io/football/teams/6445.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 6445,
+                        "name": "Caersws",
+                        "logo": "https://media.api-sports.io/football/teams/6445.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "R. Hesden"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 2
+                    },
+                    "team": {
+                        "id": 5616,
+                        "name": "Guilsfield",
+                        "logo": "https://media.api-sports.io/football/teams/5616.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "J. Haycock"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 86,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6445,
+                        "name": "Caersws",
+                        "logo": "https://media.api-sports.io/football/teams/6445.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "M. Mclaughlin"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

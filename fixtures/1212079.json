@@ -1,0 +1,733 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1212079"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1212079,
+                "referee": "A. Bohata",
+                "timezone": "UTC",
+                "date": "2024-08-04T08:15:00+00:00",
+                "timestamp": 1722759300,
+                "periods": {
+                    "first": 1722759300,
+                    "second": 1722762900
+                },
+                "venue": {
+                    "id": 19255,
+                    "name": "Sportovn\u00ed centrum Radot\u00edn",
+                    "city": "Praha"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 346,
+                "name": "FNL",
+                "country": "Czech-Republic",
+                "logo": "https://media.api-sports.io/football/leagues/346.png",
+                "flag": "https://media.api-sports.io/flags/cz.svg",
+                "season": 2024,
+                "round": "Regular Season - 4"
+            },
+            "teams": {
+                "home": {
+                    "id": 8618,
+                    "name": "Slavia Praha II",
+                    "logo": "https://media.api-sports.io/football/teams/8618.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 3722,
+                    "name": "Chrudim",
+                    "logo": "https://media.api-sports.io/football/teams/3722.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 16,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3722,
+                        "name": "Chrudim",
+                        "logo": "https://media.api-sports.io/football/teams/3722.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "J. Hrubes"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Holding"
+                },
+                {
+                    "time": {
+                        "elapsed": 35,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3722,
+                        "name": "Chrudim",
+                        "logo": "https://media.api-sports.io/football/teams/3722.png"
+                    },
+                    "player": {
+                        "id": 66120,
+                        "name": "J. Reznicek"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Unsportsmanlike conduct"
+                },
+                {
+                    "time": {
+                        "elapsed": 40,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3722,
+                        "name": "Chrudim",
+                        "logo": "https://media.api-sports.io/football/teams/3722.png"
+                    },
+                    "player": {
+                        "id": 277563,
+                        "name": "D. L\u00e1tal"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8618,
+                        "name": "Slavia Praha II",
+                        "logo": "https://media.api-sports.io/football/teams/8618.png"
+                    },
+                    "player": {
+                        "id": 388772,
+                        "name": "E. Pit\u00e1k"
+                    },
+                    "assist": {
+                        "id": 361368,
+                        "name": "M. Zachoval"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8618,
+                        "name": "Slavia Praha II",
+                        "logo": "https://media.api-sports.io/football/teams/8618.png"
+                    },
+                    "player": {
+                        "id": 388769,
+                        "name": "D. Toula"
+                    },
+                    "assist": {
+                        "id": 475996,
+                        "name": "D. Mikulanda"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3722,
+                        "name": "Chrudim",
+                        "logo": "https://media.api-sports.io/football/teams/3722.png"
+                    },
+                    "player": {
+                        "id": 271978,
+                        "name": "S. Simek"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Tripping"
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8618,
+                        "name": "Slavia Praha II",
+                        "logo": "https://media.api-sports.io/football/teams/8618.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "M. Konecny"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Tripping"
+                },
+                {
+                    "time": {
+                        "elapsed": 68,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3722,
+                        "name": "Chrudim",
+                        "logo": "https://media.api-sports.io/football/teams/3722.png"
+                    },
+                    "player": {
+                        "id": 309639,
+                        "name": "M. Kej\u0159"
+                    },
+                    "assist": {
+                        "id": 378179,
+                        "name": "D. Bauer"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 68,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3722,
+                        "name": "Chrudim",
+                        "logo": "https://media.api-sports.io/football/teams/3722.png"
+                    },
+                    "player": {
+                        "id": 389696,
+                        "name": "D. Holub"
+                    },
+                    "assist": {
+                        "id": 152754,
+                        "name": "D. Kosek"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8618,
+                        "name": "Slavia Praha II",
+                        "logo": "https://media.api-sports.io/football/teams/8618.png"
+                    },
+                    "player": {
+                        "id": 338983,
+                        "name": "M. \u017ditn\u00fd"
+                    },
+                    "assist": {
+                        "id": 1250,
+                        "name": "M. \u0160koda"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8618,
+                        "name": "Slavia Praha II",
+                        "logo": "https://media.api-sports.io/football/teams/8618.png"
+                    },
+                    "player": {
+                        "id": 449653,
+                        "name": "K. Bel\u017e\u00edk"
+                    },
+                    "assist": {
+                        "id": 392410,
+                        "name": "J. Dufek"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 81,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8618,
+                        "name": "Slavia Praha II",
+                        "logo": "https://media.api-sports.io/football/teams/8618.png"
+                    },
+                    "player": {
+                        "id": 363313,
+                        "name": "J. Tr\u00e9dl"
+                    },
+                    "assist": {
+                        "id": 476428,
+                        "name": "T. Boledovi\u010d"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 4
+                    },
+                    "team": {
+                        "id": 3722,
+                        "name": "Chrudim",
+                        "logo": "https://media.api-sports.io/football/teams/3722.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "J. Tichai"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3722,
+                        "name": "Chrudim",
+                        "logo": "https://media.api-sports.io/football/teams/3722.png"
+                    },
+                    "player": {
+                        "id": 277563,
+                        "name": "D. L\u00e1tal"
+                    },
+                    "assist": {
+                        "id": 344219,
+                        "name": "D. V\u00e1cha"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 3
+                    },
+                    "team": {
+                        "id": 3722,
+                        "name": "Chrudim",
+                        "logo": "https://media.api-sports.io/football/teams/3722.png"
+                    },
+                    "player": {
+                        "id": 340024,
+                        "name": "J. Hrube\u0161"
+                    },
+                    "assist": {
+                        "id": 448562,
+                        "name": "P. Wehowsk\u00fd"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 8618,
+                        "name": "Slavia Praha II",
+                        "logo": "https://media.api-sports.io/football/teams/8618.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 22698,
+                        "name": "D. Strihavka",
+                        "photo": "https://media.api-sports.io/football/coachs/22698.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 376313,
+                                "name": "F. Slavata",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 338974,
+                                "name": "E. Hun\u00e1l",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 363313,
+                                "name": "J. Tr\u00e9dl",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 388774,
+                                "name": "M. Kone\u010dn\u00fd",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 388772,
+                                "name": "E. Pit\u00e1k",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 338983,
+                                "name": "M. \u017ditn\u00fd",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 378832,
+                                "name": "\u0160. Beran",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 394698,
+                                "name": "D. Pech",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 449653,
+                                "name": "K. Bel\u017e\u00edk",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 388769,
+                                "name": "D. Toula",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 394639,
+                                "name": "S. Pikolon",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 361368,
+                                "name": "M. Zachoval",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 475996,
+                                "name": "D. Mikulanda",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1250,
+                                "name": "M. \u0160koda",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 392410,
+                                "name": "J. Dufek",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 476428,
+                                "name": "T. Boledovi\u010d",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 3722,
+                        "name": "Chrudim",
+                        "logo": "https://media.api-sports.io/football/teams/3722.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 22682,
+                        "name": "J. Tichai",
+                        "photo": "https://media.api-sports.io/football/coachs/22682.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 314020,
+                                "name": "J. \u0160er\u00e1k",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66501,
+                                "name": "M. Toml",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 345830,
+                                "name": "D. Kut\u00edk",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 428492,
+                                "name": "J. Kozojed",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 269947,
+                                "name": "M. Skwarczek",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66120,
+                                "name": "J. \u0158ezn\u00ed\u010dek",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 271978,
+                                "name": "S. \u0160imek",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 309639,
+                                "name": "M. Kej\u0159",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 277563,
+                                "name": "D. L\u00e1tal",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 340024,
+                                "name": "J. Hrube\u0161",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 389696,
+                                "name": "D. Holub",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 378179,
+                                "name": "D. Bauer",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 152754,
+                                "name": "D. Kosek",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 344219,
+                                "name": "D. V\u00e1cha",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 448562,
+                                "name": "P. Wehowsk\u00fd",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

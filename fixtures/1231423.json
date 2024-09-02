@@ -1,0 +1,823 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1231423"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1231423,
+                "referee": "Sergio Guelho, Portugal",
+                "timezone": "UTC",
+                "date": "2024-08-10T14:30:00+00:00",
+                "timestamp": 1723300200,
+                "periods": {
+                    "first": 1723300200,
+                    "second": 1723303800
+                },
+                "venue": {
+                    "id": 1278,
+                    "name": "Est\u00e1dio do Mar",
+                    "city": "Matosinhos"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 95,
+                "name": "Segunda Liga",
+                "country": "Portugal",
+                "logo": "https://media.api-sports.io/football/leagues/95.png",
+                "flag": "https://media.api-sports.io/flags/pt.svg",
+                "season": 2024,
+                "round": "Regular Season - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 244,
+                    "name": "Leixoes",
+                    "logo": "https://media.api-sports.io/football/teams/244.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 229,
+                    "name": "Benfica B",
+                    "logo": "https://media.api-sports.io/football/teams/229.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 29,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 229,
+                        "name": "Benfica B",
+                        "logo": "https://media.api-sports.io/football/teams/229.png"
+                    },
+                    "player": {
+                        "id": 328781,
+                        "name": "Luan"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 42,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 229,
+                        "name": "Benfica B",
+                        "logo": "https://media.api-sports.io/football/teams/229.png"
+                    },
+                    "player": {
+                        "id": 312164,
+                        "name": "J. Wynder"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 2
+                    },
+                    "team": {
+                        "id": 244,
+                        "name": "Leixoes",
+                        "logo": "https://media.api-sports.io/football/teams/244.png"
+                    },
+                    "player": {
+                        "id": 304827,
+                        "name": "Gustavo Marques"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Own Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 61,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 229,
+                        "name": "Benfica B",
+                        "logo": "https://media.api-sports.io/football/teams/229.png"
+                    },
+                    "player": {
+                        "id": 335050,
+                        "name": "Nuno F\u00e9lix"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 75,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 229,
+                        "name": "Benfica B",
+                        "logo": "https://media.api-sports.io/football/teams/229.png"
+                    },
+                    "player": {
+                        "id": 441269,
+                        "name": "Paul Okon-Engstler"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 244,
+                        "name": "Leixoes",
+                        "logo": "https://media.api-sports.io/football/teams/244.png"
+                    },
+                    "player": {
+                        "id": 41867,
+                        "name": "M. Tour\u00e9"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 229,
+                        "name": "Benfica B",
+                        "logo": "https://media.api-sports.io/football/teams/229.png"
+                    },
+                    "player": {
+                        "id": 279444,
+                        "name": "Melro"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 244,
+                        "name": "Leixoes",
+                        "logo": "https://media.api-sports.io/football/teams/244.png",
+                        "colors": {
+                            "player": {
+                                "primary": "ffffff",
+                                "number": "000000",
+                                "border": "ffffff"
+                            },
+                            "goalkeeper": {
+                                "primary": "cfff36",
+                                "number": "ffffff",
+                                "border": "cfff36"
+                            }
+                        }
+                    },
+                    "formation": "4-3-3",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 41904,
+                                "name": "Igor Stefanovi\u0107",
+                                "number": 51,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41905,
+                                "name": "Jo\u00e3o Amorim",
+                                "number": 61,
+                                "pos": "M",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41701,
+                                "name": "Rafael Vieira",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41414,
+                                "name": "Hugo Basto",
+                                "number": 14,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41968,
+                                "name": "Sim\u00e3ozinho",
+                                "number": 15,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 118752,
+                                "name": "Paulinho",
+                                "number": 6,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 604,
+                                "name": "Andr\u00e9 Sim\u00f5es",
+                                "number": 16,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41555,
+                                "name": "Fabinho",
+                                "number": 27,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 311158,
+                                "name": "Werton",
+                                "number": 7,
+                                "pos": "F",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 427064,
+                                "name": "Morufdeen Moshood",
+                                "number": 19,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41288,
+                                "name": "Ricardo Valente",
+                                "number": 33,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 190491,
+                                "name": "Paulit\u00e9",
+                                "number": 10,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41867,
+                                "name": "Mohamed Cheik Ali Toure",
+                                "number": 21,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41550,
+                                "name": "Chicao",
+                                "number": 4,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41153,
+                                "name": "Andr\u00e9 Andr\u00e9",
+                                "number": 11,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 266645,
+                                "name": "Rafael Freitas",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41512,
+                                "name": "Ricardo Ribeiro",
+                                "number": 87,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41352,
+                                "name": "Henrique",
+                                "number": 23,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 163256,
+                                "name": "Jo\u00e3o Oliveira",
+                                "number": 20,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 293613,
+                                "name": "Mauro Ribeiro",
+                                "number": 17,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 0,
+                        "name": null,
+                        "photo": null
+                    }
+                },
+                {
+                    "team": {
+                        "id": 229,
+                        "name": "Benfica B",
+                        "logo": "https://media.api-sports.io/football/teams/229.png",
+                        "colors": {
+                            "player": {
+                                "primary": "f40101",
+                                "number": "ffffff",
+                                "border": "f40101"
+                            },
+                            "goalkeeper": {
+                                "primary": "daff1f",
+                                "number": "000000",
+                                "border": "daff1f"
+                            }
+                        }
+                    },
+                    "formation": "4-2-3-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 350337,
+                                "name": "Andr\u00e9 Gomes",
+                                "number": 75,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 342967,
+                                "name": "Diogo Spencer",
+                                "number": 82,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 304827,
+                                "name": "Gustavo Marques",
+                                "number": 76,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 312164,
+                                "name": "Joshua Wynder",
+                                "number": 66,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 379124,
+                                "name": "Kiko",
+                                "number": 78,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 335050,
+                                "name": "Nuno F\u00e9lix",
+                                "number": 60,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 364811,
+                                "name": "Diogo Prioste",
+                                "number": 86,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 181802,
+                                "name": "Gerson Sousa",
+                                "number": 77,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 349193,
+                                "name": "Hugo F\u00e9lix",
+                                "number": 79,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 328781,
+                                "name": "Luan",
+                                "number": 99,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 340547,
+                                "name": "Gustavo Varela",
+                                "number": 89,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 182311,
+                                "name": "Lenny Lacroix",
+                                "number": 62,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 441269,
+                                "name": "Paul Okon-Engstler",
+                                "number": 72,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 345416,
+                                "name": "Rafael Luis",
+                                "number": 83,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 345387,
+                                "name": "Ivan Lima",
+                                "number": 85,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 279444,
+                                "name": "Melro",
+                                "number": 97,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 378849,
+                                "name": "Pedro Souza",
+                                "number": 92,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 474842,
+                                "name": "Leandro Santos",
+                                "number": 71,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 345390,
+                                "name": "Joao Veloso",
+                                "number": 68,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 454415,
+                                "name": "Beni Souza",
+                                "number": 73,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 12090,
+                        "name": "Nelson Ver\u00edssimo",
+                        "photo": "https://media.api-sports.io/football/coachs/12090.png"
+                    }
+                }
+            ],
+            "statistics": [
+                {
+                    "team": {
+                        "id": 244,
+                        "name": "Leixoes",
+                        "logo": "https://media.api-sports.io/football/teams/244.png"
+                    },
+                    "statistics": [
+                        {
+                            "type": "Shots on Goal",
+                            "value": null
+                        },
+                        {
+                            "type": "Shots off Goal",
+                            "value": null
+                        },
+                        {
+                            "type": "Total Shots",
+                            "value": null
+                        },
+                        {
+                            "type": "Blocked Shots",
+                            "value": null
+                        },
+                        {
+                            "type": "Shots insidebox",
+                            "value": null
+                        },
+                        {
+                            "type": "Shots outsidebox",
+                            "value": null
+                        },
+                        {
+                            "type": "Fouls",
+                            "value": null
+                        },
+                        {
+                            "type": "Corner Kicks",
+                            "value": null
+                        },
+                        {
+                            "type": "Offsides",
+                            "value": null
+                        },
+                        {
+                            "type": "Ball Possession",
+                            "value": null
+                        },
+                        {
+                            "type": "Yellow Cards",
+                            "value": 0
+                        },
+                        {
+                            "type": "Red Cards",
+                            "value": 0
+                        },
+                        {
+                            "type": "Goalkeeper Saves",
+                            "value": null
+                        },
+                        {
+                            "type": "Total passes",
+                            "value": null
+                        },
+                        {
+                            "type": "Passes accurate",
+                            "value": null
+                        },
+                        {
+                            "type": "Passes %",
+                            "value": null
+                        },
+                        {
+                            "type": "expected_goals",
+                            "value": null
+                        },
+                        {
+                            "type": "goals_prevented",
+                            "value": null
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 229,
+                        "name": "Benfica B",
+                        "logo": "https://media.api-sports.io/football/teams/229.png"
+                    },
+                    "statistics": [
+                        {
+                            "type": "Shots on Goal",
+                            "value": null
+                        },
+                        {
+                            "type": "Shots off Goal",
+                            "value": null
+                        },
+                        {
+                            "type": "Total Shots",
+                            "value": null
+                        },
+                        {
+                            "type": "Blocked Shots",
+                            "value": null
+                        },
+                        {
+                            "type": "Shots insidebox",
+                            "value": null
+                        },
+                        {
+                            "type": "Shots outsidebox",
+                            "value": null
+                        },
+                        {
+                            "type": "Fouls",
+                            "value": null
+                        },
+                        {
+                            "type": "Corner Kicks",
+                            "value": null
+                        },
+                        {
+                            "type": "Offsides",
+                            "value": null
+                        },
+                        {
+                            "type": "Ball Possession",
+                            "value": null
+                        },
+                        {
+                            "type": "Yellow Cards",
+                            "value": 2
+                        },
+                        {
+                            "type": "Red Cards",
+                            "value": 2
+                        },
+                        {
+                            "type": "Goalkeeper Saves",
+                            "value": null
+                        },
+                        {
+                            "type": "Total passes",
+                            "value": null
+                        },
+                        {
+                            "type": "Passes accurate",
+                            "value": null
+                        },
+                        {
+                            "type": "Passes %",
+                            "value": null
+                        },
+                        {
+                            "type": "expected_goals",
+                            "value": null
+                        },
+                        {
+                            "type": "goals_prevented",
+                            "value": null
+                        }
+                    ]
+                }
+            ],
+            "players": []
+        }
+    ]
+}

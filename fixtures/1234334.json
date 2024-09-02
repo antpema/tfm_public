@@ -1,0 +1,857 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1234334"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1234334,
+                "referee": "C. D\u00edaz",
+                "timezone": "UTC",
+                "date": "2024-07-22T21:00:00+00:00",
+                "timestamp": 1721682000,
+                "periods": {
+                    "first": 1721682000,
+                    "second": 1721685600
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Estadio Enrique Olaya Herrera",
+                    "city": "Bogot\u00e1, D.C."
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 240,
+                "name": "Primera B",
+                "country": "Colombia",
+                "logo": "https://media.api-sports.io/football/leagues/240.png",
+                "flag": "https://media.api-sports.io/flags/co.svg",
+                "season": 2024,
+                "round": "Clausura - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 22099,
+                    "name": "Real Soacha",
+                    "logo": "https://media.api-sports.io/football/teams/22099.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 1469,
+                    "name": "Orsomarso",
+                    "logo": "https://media.api-sports.io/football/teams/1469.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 15,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1469,
+                        "name": "Orsomarso",
+                        "logo": "https://media.api-sports.io/football/teams/1469.png"
+                    },
+                    "player": {
+                        "id": 375860,
+                        "name": "E. Preciado"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 17,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 22099,
+                        "name": "Real Soacha",
+                        "logo": "https://media.api-sports.io/football/teams/22099.png"
+                    },
+                    "player": {
+                        "id": 365026,
+                        "name": "A. Rocha"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 27,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 22099,
+                        "name": "Real Soacha",
+                        "logo": "https://media.api-sports.io/football/teams/22099.png"
+                    },
+                    "player": {
+                        "id": 364417,
+                        "name": "I. Camacho"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 30,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 22099,
+                        "name": "Real Soacha",
+                        "logo": "https://media.api-sports.io/football/teams/22099.png"
+                    },
+                    "player": {
+                        "id": 391274,
+                        "name": "J. Cabal"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 39,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1469,
+                        "name": "Orsomarso",
+                        "logo": "https://media.api-sports.io/football/teams/1469.png"
+                    },
+                    "player": {
+                        "id": 411170,
+                        "name": "S. Mayo"
+                    },
+                    "assist": {
+                        "id": 439969,
+                        "name": "B. Correa"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 22099,
+                        "name": "Real Soacha",
+                        "logo": "https://media.api-sports.io/football/teams/22099.png"
+                    },
+                    "player": {
+                        "id": 364417,
+                        "name": "I. Camacho"
+                    },
+                    "assist": {
+                        "id": 59440,
+                        "name": "B. Sanch\u00e9z"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 49,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 22099,
+                        "name": "Real Soacha",
+                        "logo": "https://media.api-sports.io/football/teams/22099.png"
+                    },
+                    "player": {
+                        "id": 79243,
+                        "name": "D. Orozco"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 53,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1469,
+                        "name": "Orsomarso",
+                        "logo": "https://media.api-sports.io/football/teams/1469.png"
+                    },
+                    "player": {
+                        "id": 456478,
+                        "name": "J. Villarreal"
+                    },
+                    "assist": {
+                        "id": 471060,
+                        "name": "A. Ru\u00edz"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 53,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1469,
+                        "name": "Orsomarso",
+                        "logo": "https://media.api-sports.io/football/teams/1469.png"
+                    },
+                    "player": {
+                        "id": 375860,
+                        "name": "E. Preciado"
+                    },
+                    "assist": {
+                        "id": 383250,
+                        "name": "C. Ibarra"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 53,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1469,
+                        "name": "Orsomarso",
+                        "logo": "https://media.api-sports.io/football/teams/1469.png"
+                    },
+                    "player": {
+                        "id": 378206,
+                        "name": "A. Arag\u00f3n"
+                    },
+                    "assist": {
+                        "id": 405558,
+                        "name": "L. G\u00f3mez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 60,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 22099,
+                        "name": "Real Soacha",
+                        "logo": "https://media.api-sports.io/football/teams/22099.png"
+                    },
+                    "player": {
+                        "id": 301353,
+                        "name": "J. Mart\u00ednez"
+                    },
+                    "assist": {
+                        "id": 407899,
+                        "name": "M. Parra"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 22099,
+                        "name": "Real Soacha",
+                        "logo": "https://media.api-sports.io/football/teams/22099.png"
+                    },
+                    "player": {
+                        "id": 79243,
+                        "name": "D. Orozco"
+                    },
+                    "assist": {
+                        "id": 422781,
+                        "name": "D. Riascos"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1469,
+                        "name": "Orsomarso",
+                        "logo": "https://media.api-sports.io/football/teams/1469.png"
+                    },
+                    "player": {
+                        "id": 437105,
+                        "name": "G. Benavides"
+                    },
+                    "assist": {
+                        "id": 446736,
+                        "name": "J. Rubio"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1469,
+                        "name": "Orsomarso",
+                        "logo": "https://media.api-sports.io/football/teams/1469.png"
+                    },
+                    "player": {
+                        "id": 456476,
+                        "name": "D. Bonilla"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 74,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 22099,
+                        "name": "Real Soacha",
+                        "logo": "https://media.api-sports.io/football/teams/22099.png"
+                    },
+                    "player": {
+                        "id": 13640,
+                        "name": "L. Payares"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 22099,
+                        "name": "Real Soacha",
+                        "logo": "https://media.api-sports.io/football/teams/22099.png"
+                    },
+                    "player": {
+                        "id": 365026,
+                        "name": "A. Rocha"
+                    },
+                    "assist": {
+                        "id": 406079,
+                        "name": "J. Viveros"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 22099,
+                        "name": "Real Soacha",
+                        "logo": "https://media.api-sports.io/football/teams/22099.png"
+                    },
+                    "player": {
+                        "id": 391274,
+                        "name": "J. Cabal"
+                    },
+                    "assist": {
+                        "id": 354022,
+                        "name": "R. Ramos"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 22099,
+                        "name": "Real Soacha",
+                        "logo": "https://media.api-sports.io/football/teams/22099.png"
+                    },
+                    "player": {
+                        "id": 407899,
+                        "name": "M. Parra"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 22099,
+                        "name": "Real Soacha",
+                        "logo": "https://media.api-sports.io/football/teams/22099.png"
+                    },
+                    "player": {
+                        "id": 354024,
+                        "name": "J. Angulo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 22099,
+                        "name": "Real Soacha",
+                        "logo": "https://media.api-sports.io/football/teams/22099.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 15236,
+                        "name": "J. Ni\u00f1o",
+                        "photo": "https://media.api-sports.io/football/coachs/15236.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 356916,
+                                "name": "K. Cata\u00f1o",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13640,
+                                "name": "L. Payares",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 299728,
+                                "name": "J. Abon\u00eda",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 362887,
+                                "name": "S. Guerrero",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 362869,
+                                "name": "S. Barbosa",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 365026,
+                                "name": "A. Rocha",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 301353,
+                                "name": "J. Mart\u00ednez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 354024,
+                                "name": "J. Angulo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 364417,
+                                "name": "I. Camacho",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 79243,
+                                "name": "D. Orozco",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 391274,
+                                "name": "J. Cabal",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 59440,
+                                "name": "B. Sanch\u00e9z",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 407899,
+                                "name": "M. Parra",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 422781,
+                                "name": "D. Riascos",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 406079,
+                                "name": "J. Viveros",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 354022,
+                                "name": "R. Ramos",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13494,
+                                "name": "W. Asprilla",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 475971,
+                                "name": "J. Rodr\u00edguez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 1469,
+                        "name": "Orsomarso",
+                        "logo": "https://media.api-sports.io/football/teams/1469.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 15733,
+                        "name": "S. S\u00e1nchez",
+                        "photo": "https://media.api-sports.io/football/coachs/15733.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 352517,
+                                "name": "E. Obando",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 411170,
+                                "name": "S. Mayo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 415107,
+                                "name": "Y. Mosquera",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 456477,
+                                "name": "S. Gonz\u00e1lez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 456476,
+                                "name": "D. Bonilla",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 437105,
+                                "name": "G. Benavides",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 200157,
+                                "name": "S. Girado",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 375860,
+                                "name": "E. Preciado",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 378206,
+                                "name": "A. Arag\u00f3n",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 449373,
+                                "name": "S. Ag\u00e1mez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 456478,
+                                "name": "J. Villarreal",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 439969,
+                                "name": "B. Correa",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 471060,
+                                "name": "A. Ru\u00edz",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 383250,
+                                "name": "C. Ibarra",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 405558,
+                                "name": "L. G\u00f3mez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 446736,
+                                "name": "J. Rubio",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 468633,
+                                "name": "A. Palacios",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

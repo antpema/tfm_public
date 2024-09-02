@@ -1,0 +1,160 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1218271"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1218271,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-23T18:45:00+00:00",
+                "timestamp": 1721760300,
+                "periods": {
+                    "first": 1721760300,
+                    "second": 1721763900
+                },
+                "venue": {
+                    "id": 19925,
+                    "name": "The Croud Meadow",
+                    "city": "Shrewsbury, Shropshire"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 1352,
+                    "name": "Shrewsbury",
+                    "logo": "https://media.api-sports.io/football/teams/1352.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 46,
+                    "name": "Leicester",
+                    "logo": "https://media.api-sports.io/football/teams/46.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 27,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 46,
+                        "name": "Leicester",
+                        "logo": "https://media.api-sports.io/football/teams/46.png"
+                    },
+                    "player": {
+                        "id": 879,
+                        "name": "Stephy Mavididi"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 52,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 46,
+                        "name": "Leicester",
+                        "logo": "https://media.api-sports.io/football/teams/46.png"
+                    },
+                    "player": {
+                        "id": 283290,
+                        "name": "Kasey McAteer"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 1352,
+                        "name": "Shrewsbury",
+                        "logo": "https://media.api-sports.io/football/teams/1352.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 12935,
+                        "name": "M. Taylor",
+                        "photo": "https://media.api-sports.io/football/coachs/12935.png"
+                    },
+                    "formation": null
+                },
+                {
+                    "team": {
+                        "id": 46,
+                        "name": "Leicester",
+                        "logo": "https://media.api-sports.io/football/teams/46.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 12629,
+                        "name": "E. Maresca",
+                        "photo": "https://media.api-sports.io/football/coachs/12629.png"
+                    },
+                    "formation": null
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

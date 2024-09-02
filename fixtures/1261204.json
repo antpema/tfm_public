@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1261204"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1261204,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-10T15:00:00+00:00",
+                "timestamp": 1723302000,
+                "periods": {
+                    "first": 1723302000,
+                    "second": 1723305600
+                },
+                "venue": {
+                    "id": 2519,
+                    "name": "Stadion Donja Sutvara",
+                    "city": "Radanovi\u0107i"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 356,
+                "name": "Second League",
+                "country": "Montenegro",
+                "logo": "https://media.api-sports.io/football/leagues/356.png",
+                "flag": "https://media.api-sports.io/flags/me.svg",
+                "season": 2024,
+                "round": "Regular Season - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 3737,
+                    "name": "Grbalj",
+                    "logo": "https://media.api-sports.io/football/teams/3737.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 6236,
+                    "name": "Ibar",
+                    "logo": "https://media.api-sports.io/football/teams/6236.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 36,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3737,
+                        "name": "Grbalj",
+                        "logo": "https://media.api-sports.io/football/teams/3737.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "L. Rakocevic"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 60,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3737,
+                        "name": "Grbalj",
+                        "logo": "https://media.api-sports.io/football/teams/3737.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "S. Perunicic"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

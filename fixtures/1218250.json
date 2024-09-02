@@ -1,0 +1,160 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1218250"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1218250,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-23T18:30:00+00:00",
+                "timestamp": 1721759400,
+                "periods": {
+                    "first": 1721759400,
+                    "second": 1721763000
+                },
+                "venue": {
+                    "id": 3552,
+                    "name": "Tameside Stadium",
+                    "city": "Ashton-under-Lyne, Lancashire"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 4703,
+                    "name": "Curzon Ashton",
+                    "logo": "https://media.api-sports.io/football/teams/4703.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 1839,
+                    "name": "AFC Fylde",
+                    "logo": "https://media.api-sports.io/football/teams/1839.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 2,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1839,
+                        "name": "AFC Fylde",
+                        "logo": "https://media.api-sports.io/football/teams/1839.png"
+                    },
+                    "player": {
+                        "id": 17829,
+                        "name": "Harry Davis"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1839,
+                        "name": "AFC Fylde",
+                        "logo": "https://media.api-sports.io/football/teams/1839.png"
+                    },
+                    "player": {
+                        "id": 398876,
+                        "name": "Taelor O' Kane"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 4703,
+                        "name": "Curzon Ashton",
+                        "logo": "https://media.api-sports.io/football/teams/4703.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 16002,
+                        "name": "C. Mahon",
+                        "photo": "https://media.api-sports.io/football/coachs/16002.png"
+                    },
+                    "formation": null
+                },
+                {
+                    "team": {
+                        "id": 1839,
+                        "name": "AFC Fylde",
+                        "logo": "https://media.api-sports.io/football/teams/1839.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 6590,
+                        "name": "C. Beech",
+                        "photo": "https://media.api-sports.io/football/coachs/6590.png"
+                    },
+                    "formation": null
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

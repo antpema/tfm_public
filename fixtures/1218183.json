@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1218183"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1218183,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-21T16:00:00+00:00",
+                "timestamp": 1721577600,
+                "periods": {
+                    "first": 1721577600,
+                    "second": 1721581200
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Centre d'entra\u00eenement Robert Louis-Dreyfus",
+                    "city": "Marseille"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 81,
+                    "name": "Marseille",
+                    "logo": "https://media.api-sports.io/football/teams/81.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 92,
+                    "name": "Nimes",
+                    "logo": "https://media.api-sports.io/football/teams/92.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 44,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 92,
+                        "name": "Nimes",
+                        "logo": "https://media.api-sports.io/football/teams/92.png"
+                    },
+                    "player": {
+                        "id": 21074,
+                        "name": "I. Camara"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 48,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 92,
+                        "name": "Nimes",
+                        "logo": "https://media.api-sports.io/football/teams/92.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "A. Amara"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

@@ -1,0 +1,779 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1231425"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1231425,
+                "referee": "Helder Malheiro, Portugal",
+                "timezone": "UTC",
+                "date": "2024-08-10T17:00:00+00:00",
+                "timestamp": 1723309200,
+                "periods": {
+                    "first": 1723309200,
+                    "second": 1723312800
+                },
+                "venue": {
+                    "id": 1264,
+                    "name": "Est\u00e1dio Municipal do Fontelo",
+                    "city": "Viseu"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 95,
+                "name": "Segunda Liga",
+                "country": "Portugal",
+                "logo": "https://media.api-sports.io/football/leagues/95.png",
+                "flag": "https://media.api-sports.io/flags/pt.svg",
+                "season": 2024,
+                "round": "Regular Season - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 238,
+                    "name": "Academico Viseu",
+                    "logo": "https://media.api-sports.io/football/teams/238.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 223,
+                    "name": "Chaves",
+                    "logo": "https://media.api-sports.io/football/teams/223.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 20,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 238,
+                        "name": "Academico Viseu",
+                        "logo": "https://media.api-sports.io/football/teams/238.png"
+                    },
+                    "player": {
+                        "id": 41686,
+                        "name": "Yuri Ara\u00fajo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 26,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 238,
+                        "name": "Academico Viseu",
+                        "logo": "https://media.api-sports.io/football/teams/238.png"
+                    },
+                    "player": {
+                        "id": 339184,
+                        "name": "Marquinho"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 89,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 223,
+                        "name": "Chaves",
+                        "logo": "https://media.api-sports.io/football/teams/223.png"
+                    },
+                    "player": {
+                        "id": 41374,
+                        "name": "Wellington Carvalho"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 4
+                    },
+                    "team": {
+                        "id": 238,
+                        "name": "Academico Viseu",
+                        "logo": "https://media.api-sports.io/football/teams/238.png"
+                    },
+                    "player": {
+                        "id": 382294,
+                        "name": "Kau\u00e3 Oliveira"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 3
+                    },
+                    "team": {
+                        "id": 223,
+                        "name": "Chaves",
+                        "logo": "https://media.api-sports.io/football/teams/223.png"
+                    },
+                    "player": {
+                        "id": 311084,
+                        "name": "Ktatau"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 238,
+                        "name": "Academico Viseu",
+                        "logo": "https://media.api-sports.io/football/teams/238.png",
+                        "colors": {
+                            "player": {
+                                "primary": "383838",
+                                "number": "ffffff",
+                                "border": "383838"
+                            },
+                            "goalkeeper": {
+                                "primary": "ff0000",
+                                "number": "ffffff",
+                                "border": "ff0000"
+                            }
+                        }
+                    },
+                    "formation": "4-3-3",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 110105,
+                                "name": "Domen Gril",
+                                "number": 75,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 119352,
+                                "name": "Miguel Bandarra",
+                                "number": 28,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 304686,
+                                "name": "Arthur Chaves",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 69975,
+                                "name": "Andr\u00e9 Almeida",
+                                "number": 4,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 195382,
+                                "name": "Igor Milioransa",
+                                "number": 66,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 3438,
+                                "name": "Sori Man\u00e9",
+                                "number": 16,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 199938,
+                                "name": "Soufiane Messeguem",
+                                "number": 6,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 339184,
+                                "name": "Marquinho",
+                                "number": 88,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41686,
+                                "name": "Yuri Ara\u00fajo",
+                                "number": 7,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41761,
+                                "name": "Andr\u00e9 Cl\u00f3vis",
+                                "number": 33,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 201264,
+                                "name": "Gauthier Ott",
+                                "number": 11,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 90693,
+                                "name": "Cihan Kahraman",
+                                "number": 18,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41413,
+                                "name": "Paulinho Mota",
+                                "number": 77,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 78365,
+                                "name": "Daniel Nussbaumer",
+                                "number": 26,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 313847,
+                                "name": "Samba Kon\u00e9",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 352424,
+                                "name": "Matheus Sampaio",
+                                "number": 58,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 141858,
+                                "name": "Mohamed Aidara",
+                                "number": 25,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 288219,
+                                "name": "Jo\u00e3o Reis Pinto",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 203019,
+                                "name": "Famana Quizera",
+                                "number": 10,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 161927,
+                                "name": "Nils Mortimer",
+                                "number": 17,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 22354,
+                        "name": "Gil Oliveira",
+                        "photo": "https://media.api-sports.io/football/coachs/22354.png"
+                    }
+                },
+                {
+                    "team": {
+                        "id": 223,
+                        "name": "Chaves",
+                        "logo": "https://media.api-sports.io/football/teams/223.png",
+                        "colors": {
+                            "player": {
+                                "primary": "ffffff",
+                                "number": "f28507",
+                                "border": "ffffff"
+                            },
+                            "goalkeeper": {
+                                "primary": "000000",
+                                "number": "ffffff",
+                                "border": "000000"
+                            }
+                        }
+                    },
+                    "formation": "4-4-2",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 15304,
+                                "name": "Vozinha",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41304,
+                                "name": "Carra\u00e7a",
+                                "number": 27,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 187921,
+                                "name": "Bruno Rodrigues",
+                                "number": 4,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41387,
+                                "name": "Vasco Fernandes",
+                                "number": 13,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 279599,
+                                "name": "Kiko Pereira",
+                                "number": 55,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 208311,
+                                "name": "Paulo Victor",
+                                "number": 7,
+                                "pos": "F",
+                                "grid": "3:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 14174,
+                                "name": "Roan Wilson",
+                                "number": 14,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 40555,
+                                "name": "Pedro Tiba",
+                                "number": 25,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 206280,
+                                "name": "Leandro Sanca",
+                                "number": 10,
+                                "pos": "F",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 480403,
+                                "name": "David Kusso",
+                                "number": 17,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 381611,
+                                "name": "Ruben Pina",
+                                "number": 88,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 41374,
+                                "name": "Wellington Carvalho",
+                                "number": 21,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 311084,
+                                "name": "Ktatau",
+                                "number": 12,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 323569,
+                                "name": "Pedro Pinho",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41428,
+                                "name": "Higor Platiny",
+                                "number": 29,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 33438,
+                                "name": "J\u00f4 Batista",
+                                "number": 99,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 119477,
+                                "name": "Rodrigo Nascimento",
+                                "number": 31,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 262844,
+                                "name": "Tiago Almeida",
+                                "number": 19,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 407807,
+                                "name": "Brice Eboudj\u00e9",
+                                "number": 6,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 313133,
+                                "name": "Helder Morim",
+                                "number": 70,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 14592,
+                        "name": "Moreno",
+                        "photo": "https://media.api-sports.io/football/coachs/14592.png"
+                    }
+                }
+            ],
+            "statistics": [
+                {
+                    "team": {
+                        "id": 238,
+                        "name": "Academico Viseu",
+                        "logo": "https://media.api-sports.io/football/teams/238.png"
+                    },
+                    "statistics": [
+                        {
+                            "type": "Shots on Goal",
+                            "value": null
+                        },
+                        {
+                            "type": "Shots off Goal",
+                            "value": null
+                        },
+                        {
+                            "type": "Total Shots",
+                            "value": null
+                        },
+                        {
+                            "type": "Blocked Shots",
+                            "value": null
+                        },
+                        {
+                            "type": "Shots insidebox",
+                            "value": null
+                        },
+                        {
+                            "type": "Shots outsidebox",
+                            "value": null
+                        },
+                        {
+                            "type": "Fouls",
+                            "value": null
+                        },
+                        {
+                            "type": "Corner Kicks",
+                            "value": null
+                        },
+                        {
+                            "type": "Offsides",
+                            "value": null
+                        },
+                        {
+                            "type": "Ball Possession",
+                            "value": null
+                        },
+                        {
+                            "type": "Yellow Cards",
+                            "value": 1
+                        },
+                        {
+                            "type": "Red Cards",
+                            "value": 0
+                        },
+                        {
+                            "type": "Goalkeeper Saves",
+                            "value": null
+                        },
+                        {
+                            "type": "Total passes",
+                            "value": null
+                        },
+                        {
+                            "type": "Passes accurate",
+                            "value": null
+                        },
+                        {
+                            "type": "Passes %",
+                            "value": null
+                        },
+                        {
+                            "type": "expected_goals",
+                            "value": null
+                        },
+                        {
+                            "type": "goals_prevented",
+                            "value": null
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 223,
+                        "name": "Chaves",
+                        "logo": "https://media.api-sports.io/football/teams/223.png"
+                    },
+                    "statistics": [
+                        {
+                            "type": "Shots on Goal",
+                            "value": null
+                        },
+                        {
+                            "type": "Shots off Goal",
+                            "value": null
+                        },
+                        {
+                            "type": "Total Shots",
+                            "value": null
+                        },
+                        {
+                            "type": "Blocked Shots",
+                            "value": null
+                        },
+                        {
+                            "type": "Shots insidebox",
+                            "value": null
+                        },
+                        {
+                            "type": "Shots outsidebox",
+                            "value": null
+                        },
+                        {
+                            "type": "Fouls",
+                            "value": null
+                        },
+                        {
+                            "type": "Corner Kicks",
+                            "value": null
+                        },
+                        {
+                            "type": "Offsides",
+                            "value": null
+                        },
+                        {
+                            "type": "Ball Possession",
+                            "value": null
+                        },
+                        {
+                            "type": "Yellow Cards",
+                            "value": 1
+                        },
+                        {
+                            "type": "Red Cards",
+                            "value": 0
+                        },
+                        {
+                            "type": "Goalkeeper Saves",
+                            "value": null
+                        },
+                        {
+                            "type": "Total passes",
+                            "value": null
+                        },
+                        {
+                            "type": "Passes accurate",
+                            "value": null
+                        },
+                        {
+                            "type": "Passes %",
+                            "value": null
+                        },
+                        {
+                            "type": "expected_goals",
+                            "value": null
+                        },
+                        {
+                            "type": "goals_prevented",
+                            "value": null
+                        }
+                    ]
+                }
+            ],
+            "players": []
+        }
+    ]
+}

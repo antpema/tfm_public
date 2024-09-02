@@ -1,0 +1,778 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1195642"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1195642,
+                "referee": "J. Kontinen",
+                "timezone": "UTC",
+                "date": "2024-07-27T13:00:00+00:00",
+                "timestamp": 1722085200,
+                "periods": {
+                    "first": 1722085200,
+                    "second": 1722088800
+                },
+                "venue": {
+                    "id": 6353,
+                    "name": "Mikkelin Urheilupuisto",
+                    "city": "Mikkeli"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 1087,
+                "name": "Ykk\u00f6sliiga",
+                "country": "Finland",
+                "logo": "https://media.api-sports.io/football/leagues/1087.png",
+                "flag": "https://media.api-sports.io/flags/fi.svg",
+                "season": 2024,
+                "round": "Regular Season - 18"
+            },
+            "teams": {
+                "home": {
+                    "id": 9175,
+                    "name": "MP",
+                    "logo": "https://media.api-sports.io/football/teams/9175.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 9198,
+                    "name": "SJK Akatemia",
+                    "logo": "https://media.api-sports.io/football/teams/9198.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 41,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 9198,
+                        "name": "SJK Akatemia",
+                        "logo": "https://media.api-sports.io/football/teams/9198.png"
+                    },
+                    "player": {
+                        "id": 463771,
+                        "name": "L. Kyll\u00f6nen"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 9175,
+                        "name": "MP",
+                        "logo": "https://media.api-sports.io/football/teams/9175.png"
+                    },
+                    "player": {
+                        "id": 363886,
+                        "name": "A. Hypp\u00f6nen"
+                    },
+                    "assist": {
+                        "id": 197715,
+                        "name": "E. Yl\u00f6nen"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 60,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 9198,
+                        "name": "SJK Akatemia",
+                        "logo": "https://media.api-sports.io/football/teams/9198.png"
+                    },
+                    "player": {
+                        "id": 463771,
+                        "name": "L. Kyll\u00f6nen"
+                    },
+                    "assist": {
+                        "id": 365254,
+                        "name": "T. Karkulowski"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 9175,
+                        "name": "MP",
+                        "logo": "https://media.api-sports.io/football/teams/9175.png"
+                    },
+                    "player": {
+                        "id": 173717,
+                        "name": "O. Kilpel\u00e4inen"
+                    },
+                    "assist": {
+                        "id": 416520,
+                        "name": "A. Deng"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 9175,
+                        "name": "MP",
+                        "logo": "https://media.api-sports.io/football/teams/9175.png"
+                    },
+                    "player": {
+                        "id": 55357,
+                        "name": "A. Honka-Hallila"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 9198,
+                        "name": "SJK Akatemia",
+                        "logo": "https://media.api-sports.io/football/teams/9198.png"
+                    },
+                    "player": {
+                        "id": 465888,
+                        "name": "S. Yakubu"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 9198,
+                        "name": "SJK Akatemia",
+                        "logo": "https://media.api-sports.io/football/teams/9198.png"
+                    },
+                    "player": {
+                        "id": 313753,
+                        "name": "K. Ofori"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 9198,
+                        "name": "SJK Akatemia",
+                        "logo": "https://media.api-sports.io/football/teams/9198.png"
+                    },
+                    "player": {
+                        "id": 434046,
+                        "name": "B. Armah"
+                    },
+                    "assist": {
+                        "id": 440104,
+                        "name": "E. Essel"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 9198,
+                        "name": "SJK Akatemia",
+                        "logo": "https://media.api-sports.io/football/teams/9198.png"
+                    },
+                    "player": {
+                        "id": 340120,
+                        "name": "O. H\u00e4nninen"
+                    },
+                    "assist": {
+                        "id": 410178,
+                        "name": "A. Atarah"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 76,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 9175,
+                        "name": "MP",
+                        "logo": "https://media.api-sports.io/football/teams/9175.png"
+                    },
+                    "player": {
+                        "id": 173767,
+                        "name": "R. Lehtonen"
+                    },
+                    "assist": {
+                        "id": 416496,
+                        "name": "V. Karttunen"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 9198,
+                        "name": "SJK Akatemia",
+                        "logo": "https://media.api-sports.io/football/teams/9198.png"
+                    },
+                    "player": {
+                        "id": 313753,
+                        "name": "K. Ofori"
+                    },
+                    "assist": {
+                        "id": 330666,
+                        "name": "E. Honkola"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 9175,
+                        "name": "MP",
+                        "logo": "https://media.api-sports.io/football/teams/9175.png"
+                    },
+                    "player": {
+                        "id": 370734,
+                        "name": "V. Huovila"
+                    },
+                    "assist": {
+                        "id": 464218,
+                        "name": "N. Levis"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 9175,
+                        "name": "MP",
+                        "logo": "https://media.api-sports.io/football/teams/9175.png"
+                    },
+                    "player": {
+                        "id": 336109,
+                        "name": "A. Liljaniemi"
+                    },
+                    "assist": {
+                        "id": 286383,
+                        "name": "J. J\u00e4ppinen"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 9175,
+                        "name": "MP",
+                        "logo": "https://media.api-sports.io/football/teams/9175.png"
+                    },
+                    "player": {
+                        "id": 416520,
+                        "name": "A. Deng"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 4
+                    },
+                    "team": {
+                        "id": 9198,
+                        "name": "SJK Akatemia",
+                        "logo": "https://media.api-sports.io/football/teams/9198.png"
+                    },
+                    "player": {
+                        "id": 465889,
+                        "name": "N. Tahmbi"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 9175,
+                        "name": "MP",
+                        "logo": "https://media.api-sports.io/football/teams/9175.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 8056,
+                        "name": "J. Pasoja",
+                        "photo": "https://media.api-sports.io/football/coachs/8056.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 55357,
+                                "name": "A. Honka-Hallila",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 173717,
+                                "name": "O. Kilpel\u00e4inen",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 173609,
+                                "name": "J. Laitinen",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 198439,
+                                "name": "B. Urgenc",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 313306,
+                                "name": "B. Dahlstr\u00f6m",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 328159,
+                                "name": "K. Viram\u00e4ki",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 336109,
+                                "name": "A. Liljaniemi",
+                                "number": 3,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 199655,
+                                "name": "J. Heinonen",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 173767,
+                                "name": "R. Lehtonen",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 363886,
+                                "name": "A. Hypp\u00f6nen",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 370734,
+                                "name": "V. Huovila",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 197715,
+                                "name": "E. Yl\u00f6nen",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 416520,
+                                "name": "A. Deng",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 416496,
+                                "name": "V. Karttunen",
+                                "number": 45,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 464218,
+                                "name": "N. Levis",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 286383,
+                                "name": "J. J\u00e4ppinen",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 381333,
+                                "name": "V. M\u00e4\u00e4tt\u00e4",
+                                "number": 27,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 334716,
+                                "name": "T. Heikkinen",
+                                "number": 30,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 9198,
+                        "name": "SJK Akatemia",
+                        "logo": "https://media.api-sports.io/football/teams/9198.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 19799,
+                        "name": "T. Lehtinen",
+                        "photo": "https://media.api-sports.io/football/coachs/19799.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 310727,
+                                "name": "M. Rodr\u00edguez",
+                                "number": 25,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 314118,
+                                "name": "T. Koivisto",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 368787,
+                                "name": "O. V\u00e4ist\u00f6",
+                                "number": 27,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 363507,
+                                "name": "G. Oksanen",
+                                "number": 35,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 463771,
+                                "name": "L. Kyll\u00f6nen",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 465889,
+                                "name": "N. Tahmbi",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 465888,
+                                "name": "S. Yakubu",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 263898,
+                                "name": "D. Cukici",
+                                "number": 36,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 434046,
+                                "name": "B. Armah",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 313753,
+                                "name": "K. Ofori",
+                                "number": 28,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 340120,
+                                "name": "O. H\u00e4nninen",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 365254,
+                                "name": "T. Karkulowski",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 440104,
+                                "name": "E. Essel",
+                                "number": 3,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 410178,
+                                "name": "A. Atarah",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 330666,
+                                "name": "E. Honkola",
+                                "number": 26,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 194939,
+                                "name": "Vin\u00edcius Ribeiro",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 417627,
+                                "name": "J. Kaunism\u00e4ki",
+                                "number": 34,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 441925,
+                                "name": "E. Hautam\u00e4ki",
+                                "number": 38,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

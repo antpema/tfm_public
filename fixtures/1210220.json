@@ -1,0 +1,626 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1210220"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1210220,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-20T15:00:00+00:00",
+                "timestamp": 1721487600,
+                "periods": {
+                    "first": 1721487600,
+                    "second": 1721491200
+                },
+                "venue": {
+                    "id": 3790,
+                    "name": "Sportplatz Welzenegg",
+                    "city": "Klagenfurt am W\u00f6rthersee"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 2"
+            },
+            "teams": {
+                "home": {
+                    "id": 1405,
+                    "name": "Austria Klagenfurt",
+                    "logo": "https://media.api-sports.io/football/teams/1405.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 1007,
+                    "name": "Rizespor",
+                    "logo": "https://media.api-sports.io/football/teams/1007.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 19,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1007,
+                        "name": "Rizespor",
+                        "logo": "https://media.api-sports.io/football/teams/1007.png"
+                    },
+                    "player": {
+                        "id": 180644,
+                        "name": "I. Olawoyin"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 37,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1007,
+                        "name": "Rizespor",
+                        "logo": "https://media.api-sports.io/football/teams/1007.png"
+                    },
+                    "player": {
+                        "id": 127164,
+                        "name": "A. Zeqiri"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 47,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1405,
+                        "name": "Austria Klagenfurt",
+                        "logo": "https://media.api-sports.io/football/teams/1405.png"
+                    },
+                    "player": {
+                        "id": 287932,
+                        "name": "B. Bobzien"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 1405,
+                        "name": "Austria Klagenfurt",
+                        "logo": "https://media.api-sports.io/football/teams/1405.png",
+                        "colors": {
+                            "player": {
+                                "primary": "400080",
+                                "number": "ffffff",
+                                "border": "400080"
+                            },
+                            "goalkeeper": {
+                                "primary": "d5ff00",
+                                "number": "000000",
+                                "border": "d5ff00"
+                            }
+                        }
+                    },
+                    "formation": "4-3-1-2",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 203324,
+                                "name": "Simon Emil Spari",
+                                "number": 30,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 128822,
+                                "name": "Simon Straudi",
+                                "number": 17,
+                                "pos": "M",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 120447,
+                                "name": "Niklas Szerencsi",
+                                "number": 19,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7647,
+                                "name": "Thorsten Mahrer",
+                                "number": 31,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 202634,
+                                "name": "Jonas K\u00fchn",
+                                "number": 27,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 287932,
+                                "name": "Ben Justus Bobzien",
+                                "number": 77,
+                                "pos": "F",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 177779,
+                                "name": "Iba May",
+                                "number": 16,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7290,
+                                "name": "Kosmas Gezos",
+                                "number": 8,
+                                "pos": "D",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7212,
+                                "name": "Christopher Cvetko",
+                                "number": 14,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 137073,
+                                "name": "David To\u0161evski",
+                                "number": 10,
+                                "pos": "F",
+                                "grid": "5:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 169446,
+                                "name": "Nicolas Binder",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 25198,
+                                "name": "Marco Knaller",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 162116,
+                                "name": "Solomon Bonnah",
+                                "number": 2,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 384968,
+                                "name": "Jannik Thomas Robatsch",
+                                "number": 34,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7587,
+                                "name": "Tobias Koch",
+                                "number": 6,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Min-young Lee",
+                                "number": 80,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7567,
+                                "name": "Christopher Wernitznig",
+                                "number": 24,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Philipp Wydra",
+                                "number": 95,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 129138,
+                                "name": "Laurenz Dehl",
+                                "number": 29,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7303,
+                                "name": "Florian Jaritz",
+                                "number": 7,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 25393,
+                                "name": "Sebastian Soto",
+                                "number": 11,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 3397,
+                        "name": "P. Pacult",
+                        "photo": "https://media.api-sports.io/football/coachs/3397.png"
+                    }
+                },
+                {
+                    "team": {
+                        "id": 1007,
+                        "name": "Rizespor",
+                        "logo": "https://media.api-sports.io/football/teams/1007.png",
+                        "colors": {
+                            "player": {
+                                "primary": "f9fbf9",
+                                "number": "055ff0",
+                                "border": "f9fbf9"
+                            },
+                            "goalkeeper": {
+                                "primary": "fffb0d",
+                                "number": "000000",
+                                "border": "fffb0d"
+                            }
+                        }
+                    },
+                    "formation": "4-2-3-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 50021,
+                                "name": "Zafer G\u00f6rgen",
+                                "number": 91,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15579,
+                                "name": "Casper H\u00f8jer",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 2335,
+                                "name": "Attila Mocsi",
+                                "number": 4,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 137430,
+                                "name": "Seyfettin Anil Yasar",
+                                "number": 16,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Taha \u015eahin",
+                                "number": 37,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1186,
+                                "name": "Babajide David Akintola",
+                                "number": 28,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 27039,
+                                "name": "Giannis Papanikolaou",
+                                "number": 90,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 138833,
+                                "name": "Dal Vare\u0161anovi\u0107",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 180644,
+                                "name": "Ibrahim Olawoyin",
+                                "number": 10,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 127164,
+                                "name": "Altin Zeqiri",
+                                "number": 77,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 11012,
+                                "name": "Ali Sowe",
+                                "number": 22,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 62401,
+                                "name": "Tarik \u00c7etin",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 134755,
+                                "name": "Canberk Yurdakul",
+                                "number": 40,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 338502,
+                                "name": "Eray Korkmaz",
+                                "number": 27,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 61812,
+                                "name": "Halil Ibrahim Pehlivan",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 151943,
+                                "name": "Mithat Pala",
+                                "number": 54,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 50040,
+                                "name": "Okechukwu Azubuike",
+                                "number": 14,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 104855,
+                                "name": "\u00d3scar Pinchi",
+                                "number": 93,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 392093,
+                                "name": "Emirhan Yilmaz",
+                                "number": 94,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 11116,
+                                "name": "Martin Minchev",
+                                "number": 89,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 419870,
+                                "name": "Oumar Diouf",
+                                "number": 19,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 366674,
+                                "name": "Efe Tecimer",
+                                "number": 99,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 383860,
+                                "name": "Emrecan Bulut",
+                                "number": 95,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 394448,
+                                "name": "Habil \u00d6zbakir",
+                                "number": 92,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Remzi Kolcuoglu",
+                                "number": 96,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 15478,
+                        "name": "\u0130. Palut",
+                        "photo": "https://media.api-sports.io/football/coachs/15478.png"
+                    }
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

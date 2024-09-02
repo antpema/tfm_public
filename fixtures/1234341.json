@@ -1,0 +1,954 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1234341"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1234341,
+                "referee": "J. Guti\u00e9rrez",
+                "timezone": "UTC",
+                "date": "2024-07-26T20:00:00+00:00",
+                "timestamp": 1722024000,
+                "periods": {
+                    "first": 1722024000,
+                    "second": 1722027600
+                },
+                "venue": {
+                    "id": 376,
+                    "name": "Estadio Deportivo Cali",
+                    "city": "Palmira"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 240,
+                "name": "Primera B",
+                "country": "Colombia",
+                "logo": "https://media.api-sports.io/football/leagues/240.png",
+                "flag": "https://media.api-sports.io/flags/co.svg",
+                "season": 2024,
+                "round": "Clausura - 2"
+            },
+            "teams": {
+                "home": {
+                    "id": 1468,
+                    "name": "Depor FC",
+                    "logo": "https://media.api-sports.io/football/teams/1468.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 1143,
+                    "name": "Leones FC",
+                    "logo": "https://media.api-sports.io/football/teams/1143.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 5,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1143,
+                        "name": "Leones FC",
+                        "logo": "https://media.api-sports.io/football/teams/1143.png"
+                    },
+                    "player": {
+                        "id": 13411,
+                        "name": "I. Iba\u00f1ez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Own Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 15,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1468,
+                        "name": "Depor FC",
+                        "logo": "https://media.api-sports.io/football/teams/1468.png"
+                    },
+                    "player": {
+                        "id": 59364,
+                        "name": "J. Barriosnuevo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 19,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1143,
+                        "name": "Leones FC",
+                        "logo": "https://media.api-sports.io/football/teams/1143.png"
+                    },
+                    "player": {
+                        "id": 475969,
+                        "name": "S. Montoya"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 42,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1143,
+                        "name": "Leones FC",
+                        "logo": "https://media.api-sports.io/football/teams/1143.png"
+                    },
+                    "player": {
+                        "id": 200640,
+                        "name": "G. Meneses"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 44,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1468,
+                        "name": "Depor FC",
+                        "logo": "https://media.api-sports.io/football/teams/1468.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "K. A. Ventes Cundumi"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1143,
+                        "name": "Leones FC",
+                        "logo": "https://media.api-sports.io/football/teams/1143.png"
+                    },
+                    "player": {
+                        "id": 200642,
+                        "name": "C. Rodr\u00edguez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1468,
+                        "name": "Depor FC",
+                        "logo": "https://media.api-sports.io/football/teams/1468.png"
+                    },
+                    "player": {
+                        "id": 13411,
+                        "name": "I. Iba\u00f1ez"
+                    },
+                    "assist": {
+                        "id": 297952,
+                        "name": "V. Hurtado"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1143,
+                        "name": "Leones FC",
+                        "logo": "https://media.api-sports.io/football/teams/1143.png"
+                    },
+                    "player": {
+                        "id": 126096,
+                        "name": "J. Montoya"
+                    },
+                    "assist": {
+                        "id": 79165,
+                        "name": "J. Mu\u00f1oz"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1143,
+                        "name": "Leones FC",
+                        "logo": "https://media.api-sports.io/football/teams/1143.png"
+                    },
+                    "player": {
+                        "id": 200640,
+                        "name": "G. Meneses"
+                    },
+                    "assist": {
+                        "id": 476349,
+                        "name": "A. Salda\u00f1a"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1468,
+                        "name": "Depor FC",
+                        "logo": "https://media.api-sports.io/football/teams/1468.png"
+                    },
+                    "player": {
+                        "id": 206335,
+                        "name": "K. Ventes"
+                    },
+                    "assist": {
+                        "id": 465438,
+                        "name": "J. Caballero"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 55,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1468,
+                        "name": "Depor FC",
+                        "logo": "https://media.api-sports.io/football/teams/1468.png"
+                    },
+                    "player": {
+                        "id": 59530,
+                        "name": "M. Trejos"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1468,
+                        "name": "Depor FC",
+                        "logo": "https://media.api-sports.io/football/teams/1468.png"
+                    },
+                    "player": {
+                        "id": 13243,
+                        "name": "C. Riascos"
+                    },
+                    "assist": {
+                        "id": 428168,
+                        "name": "J. Qui\u00f1onez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1143,
+                        "name": "Leones FC",
+                        "logo": "https://media.api-sports.io/football/teams/1143.png"
+                    },
+                    "player": {
+                        "id": 406430,
+                        "name": "D. Villa"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 68,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1143,
+                        "name": "Leones FC",
+                        "logo": "https://media.api-sports.io/football/teams/1143.png"
+                    },
+                    "player": {
+                        "id": 383800,
+                        "name": "J. Mart\u00ednez"
+                    },
+                    "assist": {
+                        "id": 308157,
+                        "name": "J. Osorio"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 77,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1143,
+                        "name": "Leones FC",
+                        "logo": "https://media.api-sports.io/football/teams/1143.png"
+                    },
+                    "player": {
+                        "id": 200642,
+                        "name": "C. Rodr\u00edguez"
+                    },
+                    "assist": {
+                        "id": 411210,
+                        "name": "L. Garc\u00eda"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 77,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1143,
+                        "name": "Leones FC",
+                        "logo": "https://media.api-sports.io/football/teams/1143.png"
+                    },
+                    "player": {
+                        "id": 456471,
+                        "name": "O. Villadiego"
+                    },
+                    "assist": {
+                        "id": 304732,
+                        "name": "R. Fruto"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 79,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1468,
+                        "name": "Depor FC",
+                        "logo": "https://media.api-sports.io/football/teams/1468.png"
+                    },
+                    "player": {
+                        "id": 323879,
+                        "name": "B. Barbosa"
+                    },
+                    "assist": {
+                        "id": 476903,
+                        "name": "J. Perdomo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 81,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1143,
+                        "name": "Leones FC",
+                        "logo": "https://media.api-sports.io/football/teams/1143.png"
+                    },
+                    "player": {
+                        "id": 444546,
+                        "name": "J. Romero"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1143,
+                        "name": "Leones FC",
+                        "logo": "https://media.api-sports.io/football/teams/1143.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "J. S. Osorio Ceballos"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 86,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1468,
+                        "name": "Depor FC",
+                        "logo": "https://media.api-sports.io/football/teams/1468.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "N. Mosorongo Zamora"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 88,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1468,
+                        "name": "Depor FC",
+                        "logo": "https://media.api-sports.io/football/teams/1468.png"
+                    },
+                    "player": {
+                        "id": 428168,
+                        "name": "J. Qui\u00f1onez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1143,
+                        "name": "Leones FC",
+                        "logo": "https://media.api-sports.io/football/teams/1143.png"
+                    },
+                    "player": {
+                        "id": 444546,
+                        "name": "J. Romero"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1143,
+                        "name": "Leones FC",
+                        "logo": "https://media.api-sports.io/football/teams/1143.png"
+                    },
+                    "player": {
+                        "id": 444546,
+                        "name": "J. Romero"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 1468,
+                        "name": "Depor FC",
+                        "logo": "https://media.api-sports.io/football/teams/1468.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 21785,
+                        "name": "Clodoaldo",
+                        "photo": "https://media.api-sports.io/football/coachs/21785.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 283831,
+                                "name": "J. Jaramillo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 59364,
+                                "name": "J. Barriosnuevo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13243,
+                                "name": "C. Riascos",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 59430,
+                                "name": "J. Alom\u00eda",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 206335,
+                                "name": "K. Ventes",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 133137,
+                                "name": "E. Balanta",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 59530,
+                                "name": "M. Trejos",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 197817,
+                                "name": "N. Mosorongo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 323879,
+                                "name": "B. Barbosa",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 13411,
+                                "name": "I. Iba\u00f1ez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 337221,
+                                "name": "J. Escobar",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 465438,
+                                "name": "J. Caballero",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 297952,
+                                "name": "V. Hurtado",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 428168,
+                                "name": "J. Qui\u00f1onez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 476903,
+                                "name": "J. Perdomo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 458944,
+                                "name": "J. Julio",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 457424,
+                                "name": "M. Su\u00e1rez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 324921,
+                                "name": "N. Rivera",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 1143,
+                        "name": "Leones FC",
+                        "logo": "https://media.api-sports.io/football/teams/1143.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 20685,
+                        "name": "G. Ruiz",
+                        "photo": "https://media.api-sports.io/football/coachs/20685.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 126096,
+                                "name": "J. Montoya",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 200640,
+                                "name": "G. Meneses",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 356058,
+                                "name": "S. Valencia",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 456470,
+                                "name": "Juan Renter\u00eda",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 456471,
+                                "name": "O. Villadiego",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 200642,
+                                "name": "C. Rodr\u00edguez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 348907,
+                                "name": "L. Palacios",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 406430,
+                                "name": "D. Villa",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 444546,
+                                "name": "J. Romero",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 383800,
+                                "name": "J. Mart\u00ednez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 475969,
+                                "name": "S. Montoya",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 476349,
+                                "name": "A. Salda\u00f1a",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 79165,
+                                "name": "J. Mu\u00f1oz",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 308157,
+                                "name": "J. Osorio",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 411210,
+                                "name": "L. Garc\u00eda",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 304732,
+                                "name": "R. Fruto",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 308154,
+                                "name": "C. Holgu\u00edn",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 470218,
+                                "name": "Jhon Renter\u00eda",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

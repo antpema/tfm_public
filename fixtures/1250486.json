@@ -1,0 +1,867 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1250486"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1250486,
+                "referee": "V. Kopiievskyi",
+                "timezone": "UTC",
+                "date": "2024-07-31T17:00:00+00:00",
+                "timestamp": 1722445200,
+                "periods": {
+                    "first": 1722445200,
+                    "second": 1722448800
+                },
+                "venue": {
+                    "id": null,
+                    "name": "LNK Sporta Parks",
+                    "city": "Riga"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 2,
+                "name": "UEFA Champions League",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/2.png",
+                "flag": null,
+                "season": 2024,
+                "round": "2nd Qualifying Round"
+            },
+            "teams": {
+                "home": {
+                    "id": 4160,
+                    "name": "R\u012bgas FS",
+                    "logo": "https://media.api-sports.io/football/teams/4160.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 327,
+                    "name": "Bodo/Glimt",
+                    "logo": "https://media.api-sports.io/football/teams/327.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 3
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 3
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 14,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4160,
+                        "name": "R\u012bgas FS",
+                        "logo": "https://media.api-sports.io/football/teams/4160.png"
+                    },
+                    "player": {
+                        "id": 68531,
+                        "name": "J. Ikaunieks"
+                    },
+                    "assist": {
+                        "id": 357227,
+                        "name": "I. Diomand\u00e9"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 39,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4160,
+                        "name": "R\u012bgas FS",
+                        "logo": "https://media.api-sports.io/football/teams/4160.png"
+                    },
+                    "player": {
+                        "id": 3397,
+                        "name": "Fabrice Ondoa"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Foul"
+                },
+                {
+                    "time": {
+                        "elapsed": 40,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 327,
+                        "name": "Bodo/Glimt",
+                        "logo": "https://media.api-sports.io/football/teams/327.png"
+                    },
+                    "player": {
+                        "id": 39073,
+                        "name": "J. Hauge"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4160,
+                        "name": "R\u012bgas FS",
+                        "logo": "https://media.api-sports.io/football/teams/4160.png"
+                    },
+                    "player": {
+                        "id": 70353,
+                        "name": "M. \u0136igurs"
+                    },
+                    "assist": {
+                        "id": 128496,
+                        "name": "D. Zelenkovs"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 327,
+                        "name": "Bodo/Glimt",
+                        "logo": "https://media.api-sports.io/football/teams/327.png"
+                    },
+                    "player": {
+                        "id": 410604,
+                        "name": "O. Kapskarmo"
+                    },
+                    "assist": {
+                        "id": 15704,
+                        "name": "K. H\u00f8gh"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 327,
+                        "name": "Bodo/Glimt",
+                        "logo": "https://media.api-sports.io/football/teams/327.png"
+                    },
+                    "player": {
+                        "id": 39360,
+                        "name": "A. Mikkelsen"
+                    },
+                    "assist": {
+                        "id": 57153,
+                        "name": "I. M\u00e4\u00e4tt\u00e4"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 56,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4160,
+                        "name": "R\u012bgas FS",
+                        "logo": "https://media.api-sports.io/football/teams/4160.png"
+                    },
+                    "player": {
+                        "id": 408544,
+                        "name": "Haruna Njie"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Foul"
+                },
+                {
+                    "time": {
+                        "elapsed": 58,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4160,
+                        "name": "R\u012bgas FS",
+                        "logo": "https://media.api-sports.io/football/teams/4160.png"
+                    },
+                    "player": {
+                        "id": 387361,
+                        "name": "Adam Markhiyev"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Foul"
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4160,
+                        "name": "R\u012bgas FS",
+                        "logo": "https://media.api-sports.io/football/teams/4160.png"
+                    },
+                    "player": {
+                        "id": 56041,
+                        "name": "R. Sava\u013cnieks"
+                    },
+                    "assist": {
+                        "id": 427436,
+                        "name": "R. Ndjiki"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 62,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 327,
+                        "name": "Bodo/Glimt",
+                        "logo": "https://media.api-sports.io/football/teams/327.png"
+                    },
+                    "player": {
+                        "id": 39058,
+                        "name": "F. Bj\u00f8rkan"
+                    },
+                    "assist": {
+                        "id": 16061,
+                        "name": "A. S\u00f8rensen"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 62,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 327,
+                        "name": "Bodo/Glimt",
+                        "logo": "https://media.api-sports.io/football/teams/327.png"
+                    },
+                    "player": {
+                        "id": 351483,
+                        "name": "F. Sj\u00f8vold"
+                    },
+                    "assist": {
+                        "id": 57159,
+                        "name": "S. Fet"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 77,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4160,
+                        "name": "R\u012bgas FS",
+                        "logo": "https://media.api-sports.io/football/teams/4160.png"
+                    },
+                    "player": {
+                        "id": 387361,
+                        "name": "A. Markhiev"
+                    },
+                    "assist": {
+                        "id": 306192,
+                        "name": "L. Odisharia"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 77,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4160,
+                        "name": "R\u012bgas FS",
+                        "logo": "https://media.api-sports.io/football/teams/4160.png"
+                    },
+                    "player": {
+                        "id": 72373,
+                        "name": "C. Kouadio"
+                    },
+                    "assist": {
+                        "id": 72360,
+                        "name": "E. Stuglis"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 77,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 327,
+                        "name": "Bodo/Glimt",
+                        "logo": "https://media.api-sports.io/football/teams/327.png"
+                    },
+                    "player": {
+                        "id": 39073,
+                        "name": "J. Hauge"
+                    },
+                    "assist": {
+                        "id": 39169,
+                        "name": "S. S\u00f8rli"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 327,
+                        "name": "Bodo/Glimt",
+                        "logo": "https://media.api-sports.io/football/teams/327.png"
+                    },
+                    "player": {
+                        "id": 39069,
+                        "name": "U. Saltnes"
+                    },
+                    "assist": {
+                        "id": 15704,
+                        "name": "K. H\u00f8gh"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 88,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 327,
+                        "name": "Bodo/Glimt",
+                        "logo": "https://media.api-sports.io/football/teams/327.png"
+                    },
+                    "player": {
+                        "id": 15704,
+                        "name": "K. H\u00f8gh"
+                    },
+                    "assist": {
+                        "id": 16061,
+                        "name": "A. S\u00f8rensen"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 4160,
+                        "name": "R\u012bgas FS",
+                        "logo": "https://media.api-sports.io/football/teams/4160.png",
+                        "colors": {
+                            "player": {
+                                "primary": "115ba1",
+                                "number": "ffffff",
+                                "border": "115ba1"
+                            },
+                            "goalkeeper": {
+                                "primary": "f06f33",
+                                "number": "333333",
+                                "border": "f06f33"
+                            }
+                        }
+                    },
+                    "coach": {
+                        "id": 2040,
+                        "name": "V. Morozs",
+                        "photo": "https://media.api-sports.io/football/coachs/2040.png"
+                    },
+                    "formation": "4-2-3-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 3397,
+                                "name": "F. Ondoa",
+                                "number": 40,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 56041,
+                                "name": "R. Sava\u013cnieks",
+                                "number": 11,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 72479,
+                                "name": "D. Balodis",
+                                "number": 2,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 109696,
+                                "name": "\u017d. Lipu\u0161\u010dek",
+                                "number": 43,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 408544,
+                                "name": "H. Njie",
+                                "number": 30,
+                                "pos": "M",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 72346,
+                                "name": "S. Pani\u010d",
+                                "number": 26,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 387361,
+                                "name": "A. Markhiev",
+                                "number": 27,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 68531,
+                                "name": "J. Ikaunieks",
+                                "number": 9,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70353,
+                                "name": "M. \u0136igurs",
+                                "number": 49,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 72373,
+                                "name": "C. Kouadio",
+                                "number": 17,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 357227,
+                                "name": "I. Diomand\u00e9",
+                                "number": 7,
+                                "pos": "M",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 128496,
+                                "name": "D. Zelenkovs",
+                                "number": 18,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 427436,
+                                "name": "R. Ndjiki",
+                                "number": 15,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 306192,
+                                "name": "L. Odisharia",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 72360,
+                                "name": "E. Stuglis",
+                                "number": 21,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 72358,
+                                "name": "D. Lemaji\u010d",
+                                "number": 22,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 40302,
+                                "name": "P. \u0160teinbors",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 210186,
+                                "name": "S. Vilkovs",
+                                "number": 16,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 24777,
+                                "name": "L. Silagadze",
+                                "number": 77,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66254,
+                                "name": "P. Mare\u0161",
+                                "number": 25,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 72347,
+                                "name": "H. Prenga",
+                                "number": 23,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 327,
+                        "name": "Bodo/Glimt",
+                        "logo": "https://media.api-sports.io/football/teams/327.png",
+                        "colors": {
+                            "player": {
+                                "primary": "5cfab6",
+                                "number": "ffffff",
+                                "border": "5cfab6"
+                            },
+                            "goalkeeper": {
+                                "primary": "01598b",
+                                "number": "ffffff",
+                                "border": "01598b"
+                            }
+                        }
+                    },
+                    "coach": {
+                        "id": 1952,
+                        "name": "K. Knutsen",
+                        "photo": "https://media.api-sports.io/football/coachs/1952.png"
+                    },
+                    "formation": "4-3-3",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 39178,
+                                "name": "J. Faye Lund",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 351483,
+                                "name": "F. Sj\u00f8vold",
+                                "number": 20,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 39061,
+                                "name": "B. Moe",
+                                "number": 18,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 39352,
+                                "name": "J. Gundersen",
+                                "number": 6,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 39058,
+                                "name": "F. Bj\u00f8rkan",
+                                "number": 15,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 39065,
+                                "name": "H. Evjen",
+                                "number": 26,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 39064,
+                                "name": "P. Berg",
+                                "number": 7,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 39069,
+                                "name": "U. Saltnes",
+                                "number": 14,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 39073,
+                                "name": "J. Hauge",
+                                "number": 23,
+                                "pos": "F",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 410604,
+                                "name": "O. Kapskarmo",
+                                "number": 28,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 39360,
+                                "name": "A. Mikkelsen",
+                                "number": 94,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 15704,
+                                "name": "K. H\u00f8gh",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 57153,
+                                "name": "I. M\u00e4\u00e4tt\u00e4",
+                                "number": 25,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 16061,
+                                "name": "A. S\u00f8rensen",
+                                "number": 30,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 57159,
+                                "name": "S. Fet",
+                                "number": 19,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 39169,
+                                "name": "S. S\u00f8rli",
+                                "number": 27,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 39083,
+                                "name": "O. Bj\u00f8rtuft",
+                                "number": 4,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 449592,
+                                "name": "V. Nielsen",
+                                "number": 2,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 39099,
+                                "name": "A. Helmersen",
+                                "number": 21,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 319319,
+                                "name": "M. Br\u00f8ndbo",
+                                "number": 44,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

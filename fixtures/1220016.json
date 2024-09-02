@@ -1,0 +1,109 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1220016"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1220016,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-30T18:45:00+00:00",
+                "timestamp": 1722365100,
+                "periods": {
+                    "first": 1722365100,
+                    "second": 1722368700
+                },
+                "venue": {
+                    "id": 6203,
+                    "name": "Vestacare Stadium",
+                    "city": "Oldham, Greater Manchester"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 8690,
+                    "name": "Avro",
+                    "logo": "https://media.api-sports.io/football/teams/8690.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 1339,
+                    "name": "Rochdale",
+                    "logo": "https://media.api-sports.io/football/teams/1339.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 54,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8690,
+                        "name": "Avro",
+                        "logo": "https://media.api-sports.io/football/teams/8690.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "L. Ellis"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

@@ -1,0 +1,571 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1219996"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1219996,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-30T18:00:00+00:00",
+                "timestamp": 1722362400,
+                "periods": {
+                    "first": 1722362400,
+                    "second": 1722366000
+                },
+                "venue": {
+                    "id": 510,
+                    "name": "Memorial Stadium",
+                    "city": "Bristol, Gloucestershire"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 1334,
+                    "name": "Bristol Rovers",
+                    "logo": "https://media.api-sports.io/football/teams/1334.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 1357,
+                    "name": "Plymouth",
+                    "logo": "https://media.api-sports.io/football/teams/1357.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 8,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1334,
+                        "name": "Bristol Rovers",
+                        "logo": "https://media.api-sports.io/football/teams/1334.png"
+                    },
+                    "player": {
+                        "id": 69298,
+                        "name": "P. Omochere"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 32,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1334,
+                        "name": "Bristol Rovers",
+                        "logo": "https://media.api-sports.io/football/teams/1334.png"
+                    },
+                    "player": {
+                        "id": 19261,
+                        "name": "J. Hunt"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 40,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1357,
+                        "name": "Plymouth",
+                        "logo": "https://media.api-sports.io/football/teams/1357.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1334,
+                        "name": "Bristol Rovers",
+                        "logo": "https://media.api-sports.io/football/teams/1334.png"
+                    },
+                    "player": {
+                        "id": 69298,
+                        "name": "P. Omochere"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 3
+                    },
+                    "team": {
+                        "id": 1334,
+                        "name": "Bristol Rovers",
+                        "logo": "https://media.api-sports.io/football/teams/1334.png"
+                    },
+                    "player": {
+                        "id": 286760,
+                        "name": "J. Connolly"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1357,
+                        "name": "Plymouth",
+                        "logo": "https://media.api-sports.io/football/teams/1357.png"
+                    },
+                    "player": {
+                        "id": 19894,
+                        "name": "B. Mumba"
+                    },
+                    "assist": {
+                        "id": 19127,
+                        "name": "A. Forshaw"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 60,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1334,
+                        "name": "Bristol Rovers",
+                        "logo": "https://media.api-sports.io/football/teams/1334.png"
+                    },
+                    "player": {
+                        "id": 138818,
+                        "name": "C. Mola"
+                    },
+                    "assist": {
+                        "id": 284419,
+                        "name": "M. Forbes"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 60,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1334,
+                        "name": "Bristol Rovers",
+                        "logo": "https://media.api-sports.io/football/teams/1334.png"
+                    },
+                    "player": {
+                        "id": 1133,
+                        "name": "S. Sinclair"
+                    },
+                    "assist": {
+                        "id": 69298,
+                        "name": "P. Omochere"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 60,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1334,
+                        "name": "Bristol Rovers",
+                        "logo": "https://media.api-sports.io/football/teams/1334.png"
+                    },
+                    "player": {
+                        "id": 118975,
+                        "name": "J. Senior"
+                    },
+                    "assist": {
+                        "id": 286760,
+                        "name": "J. Connolly"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 60,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1334,
+                        "name": "Bristol Rovers",
+                        "logo": "https://media.api-sports.io/football/teams/1334.png"
+                    },
+                    "player": {
+                        "id": 17367,
+                        "name": "J. Wilson"
+                    },
+                    "assist": {
+                        "id": 19261,
+                        "name": "J. Hunt"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 60,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1334,
+                        "name": "Bristol Rovers",
+                        "logo": "https://media.api-sports.io/football/teams/1334.png"
+                    },
+                    "player": {
+                        "id": 20331,
+                        "name": "T. Moore"
+                    },
+                    "assist": {
+                        "id": 45068,
+                        "name": "J. Lindsay"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 60,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1334,
+                        "name": "Bristol Rovers",
+                        "logo": "https://media.api-sports.io/football/teams/1334.png"
+                    },
+                    "player": {
+                        "id": 350318,
+                        "name": "K. Conteh"
+                    },
+                    "assist": {
+                        "id": 296534,
+                        "name": "C. Taylor"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 6",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1357,
+                        "name": "Plymouth",
+                        "logo": "https://media.api-sports.io/football/teams/1357.png"
+                    },
+                    "player": {
+                        "id": 152948,
+                        "name": "C. Wright"
+                    },
+                    "assist": {
+                        "id": 20432,
+                        "name": "D. Scarr"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1357,
+                        "name": "Plymouth",
+                        "logo": "https://media.api-sports.io/football/teams/1357.png"
+                    },
+                    "player": {
+                        "id": 153424,
+                        "name": "L. Gibson"
+                    },
+                    "assist": {
+                        "id": 15595,
+                        "name": "M. Bundu"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1357,
+                        "name": "Plymouth",
+                        "logo": "https://media.api-sports.io/football/teams/1357.png"
+                    },
+                    "player": {
+                        "id": 1451,
+                        "name": "J. Pleguezuelo"
+                    },
+                    "assist": {
+                        "id": 2793,
+                        "name": "V. Palsson"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1357,
+                        "name": "Plymouth",
+                        "logo": "https://media.api-sports.io/football/teams/1357.png"
+                    },
+                    "player": {
+                        "id": 44956,
+                        "name": "R. Hardie"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "M. Tijani"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 75,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1334,
+                        "name": "Bristol Rovers",
+                        "logo": "https://media.api-sports.io/football/teams/1334.png"
+                    },
+                    "player": {
+                        "id": 339279,
+                        "name": "B. Bilongo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "Trialist"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 7",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1334,
+                        "name": "Bristol Rovers",
+                        "logo": "https://media.api-sports.io/football/teams/1334.png"
+                    },
+                    "player": {
+                        "id": 19742,
+                        "name": "G. Ward"
+                    },
+                    "assist": {
+                        "id": 448503,
+                        "name": "K. Shaw"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 8",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1334,
+                        "name": "Bristol Rovers",
+                        "logo": "https://media.api-sports.io/football/teams/1334.png"
+                    },
+                    "player": {
+                        "id": 20338,
+                        "name": "I. Hutchinson"
+                    },
+                    "assist": {
+                        "id": 127199,
+                        "name": "L. McCormick"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 9",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1357,
+                        "name": "Plymouth",
+                        "logo": "https://media.api-sports.io/football/teams/1357.png"
+                    },
+                    "player": {
+                        "id": 129918,
+                        "name": "M. Sorinola"
+                    },
+                    "assist": {
+                        "id": 82140,
+                        "name": "B. Galloway"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 6",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1357,
+                        "name": "Plymouth",
+                        "logo": "https://media.api-sports.io/football/teams/1357.png"
+                    },
+                    "player": {
+                        "id": 331570,
+                        "name": "W. Jenkins-Davies"
+                    },
+                    "assist": {
+                        "id": 17424,
+                        "name": "J. Houghton"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 7",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1357,
+                        "name": "Plymouth",
+                        "logo": "https://media.api-sports.io/football/teams/1357.png"
+                    },
+                    "player": {
+                        "id": 44956,
+                        "name": "R. Hardie"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

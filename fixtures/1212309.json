@@ -1,0 +1,351 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1212309"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1212309,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-11T16:10:00+00:00",
+                "timestamp": 1723392600,
+                "periods": {
+                    "first": 1723392600,
+                    "second": 1723396200
+                },
+                "venue": {
+                    "id": 1671,
+                    "name": "Old Road",
+                    "city": "Briton Ferry"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 110,
+                "name": "Premier League",
+                "country": "Wales",
+                "logo": "https://media.api-sports.io/football/leagues/110.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2024,
+                "round": "Regular Season - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 2201,
+                    "name": "Briton Ferry",
+                    "logo": "https://media.api-sports.io/football/teams/2201.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 2191,
+                    "name": "Penybont",
+                    "logo": "https://media.api-sports.io/football/teams/2191.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 20,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2201,
+                        "name": "Briton Ferry",
+                        "logo": "https://media.api-sports.io/football/teams/2201.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "E. Sage"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "T. Walters"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 21,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2191,
+                        "name": "Penybont",
+                        "logo": "https://media.api-sports.io/football/teams/2191.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "B. Borge"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "K. Ludvigsen"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 31,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2201,
+                        "name": "Briton Ferry",
+                        "logo": "https://media.api-sports.io/football/teams/2201.png"
+                    },
+                    "player": {
+                        "id": 129462,
+                        "name": "A. Gammond"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 42,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2191,
+                        "name": "Penybont",
+                        "logo": "https://media.api-sports.io/football/teams/2191.png"
+                    },
+                    "player": {
+                        "id": 383817,
+                        "name": "J. Crole"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 44,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2191,
+                        "name": "Penybont",
+                        "logo": "https://media.api-sports.io/football/teams/2191.png"
+                    },
+                    "player": {
+                        "id": 53221,
+                        "name": "C. Green"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 3
+                    },
+                    "team": {
+                        "id": 2191,
+                        "name": "Penybont",
+                        "logo": "https://media.api-sports.io/football/teams/2191.png"
+                    },
+                    "player": {
+                        "id": 383817,
+                        "name": "J. Crole"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2201,
+                        "name": "Briton Ferry",
+                        "logo": "https://media.api-sports.io/football/teams/2201.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "R. Owen"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "J. Rickard"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2201,
+                        "name": "Briton Ferry",
+                        "logo": "https://media.api-sports.io/football/teams/2201.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "J. Payne"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "R. Bevan"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 69,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2201,
+                        "name": "Briton Ferry",
+                        "logo": "https://media.api-sports.io/football/teams/2201.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "K. Evans"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2201,
+                        "name": "Briton Ferry",
+                        "logo": "https://media.api-sports.io/football/teams/2201.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "C. Demery"
+                    },
+                    "assist": {
+                        "id": 53391,
+                        "name": "L. Bowen"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2191,
+                        "name": "Penybont",
+                        "logo": "https://media.api-sports.io/football/teams/2191.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "I. Phillips"
+                    },
+                    "assist": {
+                        "id": 383817,
+                        "name": "J. Crole"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2191,
+                        "name": "Penybont",
+                        "logo": "https://media.api-sports.io/football/teams/2191.png"
+                    },
+                    "player": {
+                        "id": 171044,
+                        "name": "J. Woodiwiss"
+                    },
+                    "assist": {
+                        "id": 128399,
+                        "name": "K. Owen"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

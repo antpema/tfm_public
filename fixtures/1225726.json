@@ -1,0 +1,951 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1225726"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1225726,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-03T15:30:00+00:00",
+                "timestamp": 1722699000,
+                "periods": {
+                    "first": 1722699000,
+                    "second": 1722702600
+                },
+                "venue": {
+                    "id": 651,
+                    "name": "Stade Francis Le Basser",
+                    "city": "Laval"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 433,
+                    "name": "Laval",
+                    "logo": "https://media.api-sports.io/football/teams/433.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 83,
+                    "name": "Nantes",
+                    "logo": "https://media.api-sports.io/football/teams/83.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 24,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 83,
+                        "name": "Nantes",
+                        "logo": "https://media.api-sports.io/football/teams/83.png"
+                    },
+                    "player": {
+                        "id": 3084,
+                        "name": "T. Kadewere"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 433,
+                        "name": "Laval",
+                        "logo": "https://media.api-sports.io/football/teams/433.png"
+                    },
+                    "player": {
+                        "id": 22263,
+                        "name": "K. Zohi"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 52,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 83,
+                        "name": "Nantes",
+                        "logo": "https://media.api-sports.io/football/teams/83.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 56,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 83,
+                        "name": "Nantes",
+                        "logo": "https://media.api-sports.io/football/teams/83.png"
+                    },
+                    "player": {
+                        "id": 22134,
+                        "name": "K. Amian"
+                    },
+                    "assist": {
+                        "id": 388777,
+                        "name": "B. Meupiyou"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 60,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 83,
+                        "name": "Nantes",
+                        "logo": "https://media.api-sports.io/football/teams/83.png"
+                    },
+                    "player": {
+                        "id": 2781,
+                        "name": "M. Simon"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 83,
+                        "name": "Nantes",
+                        "logo": "https://media.api-sports.io/football/teams/83.png"
+                    },
+                    "player": {
+                        "id": 93671,
+                        "name": "P. Chirivella"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 83,
+                        "name": "Nantes",
+                        "logo": "https://media.api-sports.io/football/teams/83.png"
+                    },
+                    "player": {
+                        "id": 349636,
+                        "name": "A. Mahamoud"
+                    },
+                    "assist": {
+                        "id": 2781,
+                        "name": "M. Simon"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 66,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 433,
+                        "name": "Laval",
+                        "logo": "https://media.api-sports.io/football/teams/433.png"
+                    },
+                    "player": {
+                        "id": 22255,
+                        "name": "A. Goncalves"
+                    },
+                    "assist": {
+                        "id": 162779,
+                        "name": "T. Vargas"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 66,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 433,
+                        "name": "Laval",
+                        "logo": "https://media.api-sports.io/football/teams/433.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "C. Kouassi"
+                    },
+                    "assist": {
+                        "id": 26943,
+                        "name": "M. Adilehou"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 83,
+                        "name": "Nantes",
+                        "logo": "https://media.api-sports.io/football/teams/83.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "M. Acapandie"
+                    },
+                    "assist": {
+                        "id": 21498,
+                        "name": "M. Coco"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 83,
+                        "name": "Nantes",
+                        "logo": "https://media.api-sports.io/football/teams/83.png"
+                    },
+                    "player": {
+                        "id": 388779,
+                        "name": "D. Assoumani"
+                    },
+                    "assist": {
+                        "id": 3084,
+                        "name": "T. Kadewere"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 83,
+                        "name": "Nantes",
+                        "logo": "https://media.api-sports.io/football/teams/83.png"
+                    },
+                    "player": {
+                        "id": 22177,
+                        "name": "I. Ganago"
+                    },
+                    "assist": {
+                        "id": 161622,
+                        "name": "M. Abline"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 83,
+                        "name": "Nantes",
+                        "logo": "https://media.api-sports.io/football/teams/83.png"
+                    },
+                    "player": {
+                        "id": 20655,
+                        "name": "J. Duverne"
+                    },
+                    "assist": {
+                        "id": 20654,
+                        "name": "F. Centonze"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 6",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 83,
+                        "name": "Nantes",
+                        "logo": "https://media.api-sports.io/football/teams/83.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "L. Leroux"
+                    },
+                    "assist": {
+                        "id": 349636,
+                        "name": "A. Mahamoud"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 7",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 83,
+                        "name": "Nantes",
+                        "logo": "https://media.api-sports.io/football/teams/83.png"
+                    },
+                    "player": {
+                        "id": 365742,
+                        "name": "J. M. Diaz"
+                    },
+                    "assist": {
+                        "id": 20545,
+                        "name": "J. Castelletto"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 8",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 83,
+                        "name": "Nantes",
+                        "logo": "https://media.api-sports.io/football/teams/83.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "M. Gomes"
+                    },
+                    "assist": {
+                        "id": 93671,
+                        "name": "P. Chirivella"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 9",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 83,
+                        "name": "Nantes",
+                        "logo": "https://media.api-sports.io/football/teams/83.png"
+                    },
+                    "player": {
+                        "id": 21088,
+                        "name": "N. Pallois"
+                    },
+                    "assist": {
+                        "id": 343359,
+                        "name": "N. Zeze"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 10",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 75,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 83,
+                        "name": "Nantes",
+                        "logo": "https://media.api-sports.io/football/teams/83.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 433,
+                        "name": "Laval",
+                        "logo": "https://media.api-sports.io/football/teams/433.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "A. Badey"
+                    },
+                    "assist": {
+                        "id": 20577,
+                        "name": "Y. Tavares"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 433,
+                        "name": "Laval",
+                        "logo": "https://media.api-sports.io/football/teams/433.png",
+                        "colors": {
+                            "player": {
+                                "primary": "ff6600",
+                                "number": "ffffff",
+                                "border": "ff6600"
+                            },
+                            "goalkeeper": {
+                                "primary": "0082ff",
+                                "number": "020000",
+                                "border": "0082ff"
+                            }
+                        }
+                    },
+                    "formation": "4-1-2-3",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 179475,
+                                "name": "Amjhad Nazih",
+                                "number": 16,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 195897,
+                                "name": "Amine Cherni",
+                                "number": 20,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 20577,
+                                "name": "Yohan Tavares",
+                                "number": 23,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 26943,
+                                "name": "Moise Adilehou",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 162779,
+                                "name": "Thibault Vargas",
+                                "number": 7,
+                                "pos": "M",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 161915,
+                                "name": "Titouan Thomas",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 20984,
+                                "name": "Jimmy Roye",
+                                "number": 5,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 129683,
+                                "name": "Sam Sanna",
+                                "number": 6,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 22263,
+                                "name": "K\u00e9vin Zohi",
+                                "number": 10,
+                                "pos": "F",
+                                "grid": "5:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 21653,
+                                "name": "Malik Tchokount\u00e9",
+                                "number": 18,
+                                "pos": "F",
+                                "grid": "5:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 161620,
+                                "name": "Junior Kadile",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Lucas Droyaux",
+                                "number": 40,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 22255,
+                                "name": "Anthony Gon\u00e7alves",
+                                "number": 39,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 20628,
+                                "name": "Peter Ouaneh",
+                                "number": 15,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 297142,
+                                "name": "Williams Kokolo",
+                                "number": 17,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 327554,
+                                "name": "Lo\u00efs Martins",
+                                "number": 11,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 276550,
+                                "name": "William Benard",
+                                "number": 26,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Christ-Owen Kouassi Bathele",
+                                "number": 21,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 20734,
+                                "name": "Jordan Tell",
+                                "number": 14,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 190959,
+                                "name": "Malik Sellouki",
+                                "number": 19,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Ange Badey",
+                                "number": 29,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 3550,
+                        "name": "O. Frapolli",
+                        "photo": "https://media.api-sports.io/football/coachs/3550.png"
+                    }
+                },
+                {
+                    "team": {
+                        "id": 83,
+                        "name": "Nantes",
+                        "logo": "https://media.api-sports.io/football/teams/83.png",
+                        "colors": {
+                            "player": {
+                                "primary": "ffffff",
+                                "number": "070808",
+                                "border": "ffffff"
+                            },
+                            "goalkeeper": {
+                                "primary": "8db7cf",
+                                "number": "f0f0f4",
+                                "border": "8db7cf"
+                            }
+                        }
+                    },
+                    "formation": "4-2-3-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 30393,
+                                "name": "Alban Lafont",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 21498,
+                                "name": "Marcus Coco",
+                                "number": 11,
+                                "pos": "M",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 343359,
+                                "name": "Nathan Zeze",
+                                "number": 44,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 20545,
+                                "name": "Jean-Charles Castelletto",
+                                "number": 21,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 20654,
+                                "name": "Fabien Centonze",
+                                "number": 18,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 93671,
+                                "name": "Pedro Chirivella",
+                                "number": 5,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 388777,
+                                "name": "Bastien Meupiyou",
+                                "number": 45,
+                                "pos": "D",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 18599,
+                                "name": "Sorba Thomas",
+                                "number": 22,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 3084,
+                                "name": "Tino Kadewere",
+                                "number": 15,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 2781,
+                                "name": "Moses Simon",
+                                "number": 27,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 161622,
+                                "name": "Matthis Abline",
+                                "number": 39,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 22134,
+                                "name": "Kelvin Amian",
+                                "number": 98,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 349636,
+                                "name": "Adel Mahamoud",
+                                "number": 54,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 20655,
+                                "name": "Jean-Kevin Duverne",
+                                "number": 2,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 365742,
+                                "name": "Michel Diaz",
+                                "number": 63,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 21088,
+                                "name": "Nicolas Pallois",
+                                "number": 4,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 386438,
+                                "name": "Mathieu Acapandi\u00e9",
+                                "number": 41,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Louis Leroux",
+                                "number": 66,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Malang Gomes",
+                                "number": 67,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 388779,
+                                "name": "Dehmaine Assoumani",
+                                "number": 59,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 22177,
+                                "name": "Ignatius Ganago",
+                                "number": 7,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Tom Mabon",
+                                "number": 60,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 3044,
+                        "name": "A. Kombouare",
+                        "photo": "https://media.api-sports.io/football/coachs/3044.png"
+                    }
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

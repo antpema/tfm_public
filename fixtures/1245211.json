@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1245211"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1245211,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-10T14:00:00+00:00",
+                "timestamp": 1723298400,
+                "periods": {
+                    "first": 1723298400,
+                    "second": 1723302000
+                },
+                "venue": {
+                    "id": 20976,
+                    "name": "Campo Major Baptista da Silva",
+                    "city": "Lisboa"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 1041,
+                "name": "J\u00faniores U19",
+                "country": "Portugal",
+                "logo": "https://media.api-sports.io/football/leagues/1041.png",
+                "flag": "https://media.api-sports.io/flags/pt.svg",
+                "season": 2024,
+                "round": "Regular Season - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 22508,
+                    "name": "Belenenses U19",
+                    "logo": "https://media.api-sports.io/football/teams/22508.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 22514,
+                    "name": "Lusit\u00e2nia U19",
+                    "logo": "https://media.api-sports.io/football/teams/22514.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 2
+                    },
+                    "team": {
+                        "id": 22508,
+                        "name": "Belenenses U19",
+                        "logo": "https://media.api-sports.io/football/teams/22508.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 22508,
+                        "name": "Belenenses U19",
+                        "logo": "https://media.api-sports.io/football/teams/22508.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

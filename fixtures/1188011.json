@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1188011"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1188011,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-10T09:00:00+00:00",
+                "timestamp": 1723280400,
+                "periods": {
+                    "first": 1723280400,
+                    "second": 1723284000
+                },
+                "venue": {
+                    "id": 11920,
+                    "name": "Futbol'noe pole 4 Akademiya Spartak im. F. Cherenkova",
+                    "city": "Moskva"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 652,
+                "name": "Second League - Group 2",
+                "country": "Russia",
+                "logo": "https://media.api-sports.io/football/leagues/652.png",
+                "flag": "https://media.api-sports.io/flags/ru.svg",
+                "season": 2024,
+                "round": "Group 2 - 18"
+            },
+            "teams": {
+                "home": {
+                    "id": 2003,
+                    "name": "Spartak Moscow 2",
+                    "logo": "https://media.api-sports.io/football/teams/2003.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 19447,
+                    "name": "Dinamo Vologda",
+                    "logo": "https://media.api-sports.io/football/teams/19447.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 7,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 19447,
+                        "name": "Dinamo Vologda",
+                        "logo": "https://media.api-sports.io/football/teams/19447.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "D. Krivoruchko"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 48,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 19447,
+                        "name": "Dinamo Vologda",
+                        "logo": "https://media.api-sports.io/football/teams/19447.png"
+                    },
+                    "player": {
+                        "id": 271672,
+                        "name": "D. Yugaldin"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

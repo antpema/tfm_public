@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1243752"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1243752,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-26T17:00:00+00:00",
+                "timestamp": 1722013200,
+                "periods": {
+                    "first": 1722013200,
+                    "second": 1722016800
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Audi Sportpark - Platz 5",
+                    "city": "Ingolstadt"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 938,
+                "name": "Oberliga - Bayern Nord",
+                "country": "Germany",
+                "logo": "https://media.api-sports.io/football/leagues/938.png",
+                "flag": "https://media.api-sports.io/flags/de.svg",
+                "season": 2024,
+                "round": "Bayern Nord - 2"
+            },
+            "teams": {
+                "home": {
+                    "id": 12792,
+                    "name": "Ingolstadt II",
+                    "logo": "https://media.api-sports.io/football/teams/12792.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 19760,
+                    "name": "Weiden",
+                    "logo": "https://media.api-sports.io/football/teams/19760.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 15,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 12792,
+                        "name": "Ingolstadt II",
+                        "logo": "https://media.api-sports.io/football/teams/12792.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 49,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 12792,
+                        "name": "Ingolstadt II",
+                        "logo": "https://media.api-sports.io/football/teams/12792.png"
+                    },
+                    "player": {
+                        "id": 380533,
+                        "name": "E. Gul"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

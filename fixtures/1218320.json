@@ -1,0 +1,512 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1218320"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1218320,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-26T16:00:00+00:00",
+                "timestamp": 1722009600,
+                "periods": {
+                    "first": 1722009600,
+                    "second": 1722013200
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Cidade Deportiva Afouteza",
+                    "city": "Pontevedra"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 538,
+                    "name": "Celta Vigo",
+                    "logo": "https://media.api-sports.io/football/teams/538.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 762,
+                    "name": "GIL Vicente",
+                    "logo": "https://media.api-sports.io/football/teams/762.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 16,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 538,
+                        "name": "Celta Vigo",
+                        "logo": "https://media.api-sports.io/football/teams/538.png"
+                    },
+                    "player": {
+                        "id": 570,
+                        "name": "F. Cervi"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 72,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 538,
+                        "name": "Celta Vigo",
+                        "logo": "https://media.api-sports.io/football/teams/538.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 538,
+                        "name": "Celta Vigo",
+                        "logo": "https://media.api-sports.io/football/teams/538.png",
+                        "colors": {
+                            "player": {
+                                "primary": "9ed9f5",
+                                "number": "f8f6f6",
+                                "border": "9ed9f5"
+                            },
+                            "goalkeeper": {
+                                "primary": "db46a2",
+                                "number": "edbe2a",
+                                "border": "db46a2"
+                            }
+                        }
+                    },
+                    "formation": "4-3-3",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 47427,
+                                "name": "Iv\u00e1n Villar",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 157988,
+                                "name": "Sergio Carreira",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 286559,
+                                "name": "Carlos Dom\u00ednguez",
+                                "number": 24,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1364,
+                                "name": "Jailson",
+                                "number": 16,
+                                "pos": "M",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 18896,
+                                "name": "Javier Manquillo",
+                                "number": 22,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 286796,
+                                "name": "Dami\u00e1n Rodr\u00edguez",
+                                "number": 28,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 313651,
+                                "name": "Hugo Sotelo",
+                                "number": 33,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 570,
+                                "name": "Franco Cervi",
+                                "number": 11,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47445,
+                                "name": "Iago Aspas",
+                                "number": 10,
+                                "pos": "F",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Pablo Dur\u00e1n",
+                                "number": 25,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 22235,
+                                "name": "Jonathan Bamba",
+                                "number": 17,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 182730,
+                                "name": "Marc Vidal",
+                                "number": 26,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1926,
+                                "name": "Joseph Aidoo",
+                                "number": 15,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Javi Rodr\u00edguez",
+                                "number": 20,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47988,
+                                "name": "Carl Starfelt",
+                                "number": 2,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 162712,
+                                "name": "\u00d3scar Mingueza",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47277,
+                                "name": "Unai N\u00fa\u00f1ez",
+                                "number": 4,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 179955,
+                                "name": "Javier Rueda",
+                                "number": 29,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47435,
+                                "name": "Fran Beltr\u00e1n",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 269163,
+                                "name": "Williot Swedberg",
+                                "number": 19,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 329720,
+                                "name": "Hugo \u00c1lvarez",
+                                "number": 30,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 67955,
+                                "name": "Carles P\u00e9rez",
+                                "number": 7,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 26845,
+                                "name": "Anastasios Douvikas",
+                                "number": 12,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 119213,
+                                "name": "Alfon Gonz\u00e1lez",
+                                "number": 31,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47348,
+                                "name": "Borja Iglesias",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 18101,
+                        "name": "Claudio Gir\u00e1ldez",
+                        "photo": "https://media.api-sports.io/football/coachs/18101.png"
+                    }
+                },
+                {
+                    "team": {
+                        "id": 762,
+                        "name": "GIL Vicente",
+                        "logo": "https://media.api-sports.io/football/teams/762.png",
+                        "colors": {
+                            "player": {
+                                "primary": "ff0000",
+                                "number": "ffffff",
+                                "border": "ff0000"
+                            },
+                            "goalkeeper": {
+                                "primary": "cff50d",
+                                "number": "000000",
+                                "border": "cff50d"
+                            }
+                        }
+                    },
+                    "formation": "4-5-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 80528,
+                                "name": "Andrew",
+                                "number": 42,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 162209,
+                                "name": "Jonathan Mutombo Mawesi",
+                                "number": 45,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41355,
+                                "name": "R\u00faben Fernandes",
+                                "number": 26,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41174,
+                                "name": "Jonathan Buatu-Mananga",
+                                "number": 39,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41574,
+                                "name": "Sandro Cruz",
+                                "number": 57,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 48637,
+                                "name": "Maxime Dominguez",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": "3:5"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 33794,
+                                "name": "Kanya Fujimoto",
+                                "number": 10,
+                                "pos": "M",
+                                "grid": "3:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 156992,
+                                "name": "Mory Gbane",
+                                "number": 24,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 184743,
+                                "name": "Santi Garc\u00eda",
+                                "number": 19,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 135749,
+                                "name": "F\u00e9lix Correia",
+                                "number": 71,
+                                "pos": "F",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 334430,
+                                "name": "Dep\u00fa",
+                                "number": 29,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 17838,
+                        "name": "Toz\u00e9 Marreco",
+                        "photo": "https://media.api-sports.io/football/coachs/17838.png"
+                    }
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

@@ -1,0 +1,662 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1218245"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1218245,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-23T17:00:00+00:00",
+                "timestamp": 1721754000,
+                "periods": {
+                    "first": 1721754000,
+                    "second": 1721757600
+                },
+                "venue": {
+                    "id": 150,
+                    "name": "Merkur Arena",
+                    "city": "Graz"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 637,
+                    "name": "Sturm Graz",
+                    "logo": "https://media.api-sports.io/football/teams/637.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 212,
+                    "name": "FC Porto",
+                    "logo": "https://media.api-sports.io/football/teams/212.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 33,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 212,
+                        "name": "FC Porto",
+                        "logo": "https://media.api-sports.io/football/teams/212.png"
+                    },
+                    "player": {
+                        "id": 25350,
+                        "name": "Marko Gruji\u0107"
+                    },
+                    "assist": {
+                        "id": 336596,
+                        "name": "Martim Fernandes"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 55,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 212,
+                        "name": "FC Porto",
+                        "logo": "https://media.api-sports.io/football/teams/212.png"
+                    },
+                    "player": {
+                        "id": 19625,
+                        "name": "Danny Namaso"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 637,
+                        "name": "Sturm Graz",
+                        "logo": "https://media.api-sports.io/football/teams/637.png"
+                    },
+                    "player": {
+                        "id": 372585,
+                        "name": "Leon Grgi\u0107"
+                    },
+                    "assist": {
+                        "id": 405333,
+                        "name": "Martin Kern"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 637,
+                        "name": "Sturm Graz",
+                        "logo": "https://media.api-sports.io/football/teams/637.png",
+                        "colors": {
+                            "player": {
+                                "primary": "000000",
+                                "number": "ffffff",
+                                "border": "000000"
+                            },
+                            "goalkeeper": {
+                                "primary": "01cee9",
+                                "number": "ffffff",
+                                "border": "01cee9"
+                            }
+                        }
+                    },
+                    "formation": "4-3-1-2",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 37276,
+                                "name": "Kjell Scherpen",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 268595,
+                                "name": "Max Johnston",
+                                "number": 2,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7719,
+                                "name": "Emanuel Aiwu",
+                                "number": 47,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 950,
+                                "name": "Gregory W\u00fcthrich",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 38763,
+                                "name": "Dimitri Laval\u0117e",
+                                "number": 24,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 109740,
+                                "name": "Tomi Horvat",
+                                "number": 19,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 169498,
+                                "name": "Niklas Geyrhofer",
+                                "number": 35,
+                                "pos": "D",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 199931,
+                                "name": "William B\u00f8ving",
+                                "number": 15,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 314226,
+                                "name": "Lovro Zvonarek",
+                                "number": 14,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 283026,
+                                "name": "Mika Biereth",
+                                "number": 18,
+                                "pos": "F",
+                                "grid": "5:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 428504,
+                                "name": "Amady Camara",
+                                "number": 36,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 405333,
+                                "name": "Martin Kern",
+                                "number": 30,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 328258,
+                                "name": "Matteo Bignetti",
+                                "number": 40,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 281989,
+                                "name": "Daniil Khudyakov",
+                                "number": 53,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7319,
+                                "name": "Jusuf Gazibegovi\u0107",
+                                "number": 22,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 152846,
+                                "name": "Amadou Dante",
+                                "number": 44,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19041,
+                                "name": "Jon Gorenc Stankovi\u0107",
+                                "number": 4,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7683,
+                                "name": "Emir Kari\u0107",
+                                "number": 17,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 137384,
+                                "name": "Tochi Chukwuani",
+                                "number": 21,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 409670,
+                                "name": "Arjan Mali\u0107",
+                                "number": 23,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7583,
+                                "name": "Stefan Hierl\u00e4nder",
+                                "number": 25,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 158614,
+                                "name": "Szymon W\u0142odarczyk",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7449,
+                                "name": "Manprit Sarkaria",
+                                "number": 11,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 372585,
+                                "name": "Leon Grgi\u0107",
+                                "number": 38,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 1918,
+                        "name": "C. Ilzer",
+                        "photo": "https://media.api-sports.io/football/coachs/1918.png"
+                    }
+                },
+                {
+                    "team": {
+                        "id": 212,
+                        "name": "FC Porto",
+                        "logo": "https://media.api-sports.io/football/teams/212.png",
+                        "colors": {
+                            "player": {
+                                "primary": "ffff73",
+                                "number": "0005ff",
+                                "border": "ffff73"
+                            },
+                            "goalkeeper": {
+                                "primary": "d007ee",
+                                "number": "f1eeee",
+                                "border": "d007ee"
+                            }
+                        }
+                    },
+                    "formation": "4-2-3-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 41432,
+                                "name": "Cl\u00e1udio Ramos",
+                                "number": 14,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41734,
+                                "name": "Jo\u00e3o M\u00e1rio",
+                                "number": 23,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41964,
+                                "name": "Z\u00e9 Pedro",
+                                "number": 97,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41970,
+                                "name": "David Carmo",
+                                "number": 4,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 336596,
+                                "name": "Martim Fernandes",
+                                "number": 52,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 25350,
+                                "name": "Marko Gruji\u0107",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 278375,
+                                "name": "Alan Varela",
+                                "number": 22,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 128385,
+                                "name": "Gon\u00e7alo Borges",
+                                "number": 70,
+                                "pos": "F",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 161933,
+                                "name": "Nico Gonz\u00e1lez",
+                                "number": 16,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 46828,
+                                "name": "Iv\u00e1n Jaime",
+                                "number": 17,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19625,
+                                "name": "Danny Namaso",
+                                "number": 19,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 80667,
+                                "name": "Samuel",
+                                "number": 94,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 354585,
+                                "name": "Gon\u00e7alo Ribeiro",
+                                "number": 91,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41208,
+                                "name": "F\u00e1bio Cardoso",
+                                "number": 2,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 336683,
+                                "name": "Gabriel Br\u00e1s",
+                                "number": 73,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 266013,
+                                "name": "Ot\u00e1vio",
+                                "number": 31,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 386871,
+                                "name": "Dinis Rodrigues",
+                                "number": 76,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Martim Cunha",
+                                "number": 99,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 325830,
+                                "name": "Vasco Sousa",
+                                "number": 67,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41730,
+                                "name": "Rom\u00e1rio Bar\u00f3",
+                                "number": 28,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 130256,
+                                "name": "Andr\u00e9 Franco",
+                                "number": 20,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 404097,
+                                "name": "Rodrigo Mora",
+                                "number": 86,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41197,
+                                "name": "Wenderson Galeno",
+                                "number": 13,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 400550,
+                                "name": "Gon\u00e7alo Sousa",
+                                "number": 49,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 936,
+                                "name": "Fran Navarro",
+                                "number": 21,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47181,
+                                "name": "Toni Mart\u00ednez",
+                                "number": 29,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 2204,
+                        "name": "S\u00e9rgio Concei\u00e7\u00e3o",
+                        "photo": "https://media.api-sports.io/football/coachs/2204.png"
+                    }
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

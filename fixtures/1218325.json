@@ -1,0 +1,138 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1218325"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1218325,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-26T14:00:00+00:00",
+                "timestamp": 1722002400,
+                "periods": {
+                    "first": 1722002400,
+                    "second": 1722006000
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Sportpark VV Kapelle",
+                    "city": "Kapelle"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 203,
+                    "name": "NAC Breda",
+                    "logo": "https://media.api-sports.io/football/teams/203.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 6219,
+                    "name": "Lierse Kempenzonen",
+                    "logo": "https://media.api-sports.io/football/teams/6219.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 48,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6219,
+                        "name": "Lierse Kempenzonen",
+                        "logo": "https://media.api-sports.io/football/teams/6219.png"
+                    },
+                    "player": {
+                        "id": 390548,
+                        "name": "M. Kireev"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 203,
+                        "name": "NAC Breda",
+                        "logo": "https://media.api-sports.io/football/teams/203.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 14497,
+                        "name": "J. van Gastel",
+                        "photo": "https://media.api-sports.io/football/coachs/14497.png"
+                    },
+                    "formation": null
+                },
+                {
+                    "team": {
+                        "id": 6219,
+                        "name": "Lierse Kempenzonen",
+                        "logo": "https://media.api-sports.io/football/teams/6219.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 11555,
+                        "name": "S. Vandenbroeck",
+                        "photo": "https://media.api-sports.io/football/coachs/11555.png"
+                    },
+                    "formation": null
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

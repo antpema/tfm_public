@@ -1,0 +1,571 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1239464"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1239464,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-11T10:00:00+00:00",
+                "timestamp": 1723370400,
+                "periods": {
+                    "first": 1723370400,
+                    "second": 1723374000
+                },
+                "venue": {
+                    "id": 4700,
+                    "name": "Est\u00e1dio do Lusit\u00e2nia FC",
+                    "city": "Lourosa"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 865,
+                "name": "Liga 3",
+                "country": "Portugal",
+                "logo": "https://media.api-sports.io/football/leagues/865.png",
+                "flag": "https://media.api-sports.io/flags/pt.svg",
+                "season": 2024,
+                "round": "Regular Season - 2"
+            },
+            "teams": {
+                "home": {
+                    "id": 6358,
+                    "name": "Lusit\u00e2nia Lourosa",
+                    "logo": "https://media.api-sports.io/football/teams/6358.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 4727,
+                    "name": "Anadia",
+                    "logo": "https://media.api-sports.io/football/teams/4727.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 3,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "fulltime": {
+                    "home": 3,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 22,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6358,
+                        "name": "Lusit\u00e2nia Lourosa",
+                        "logo": "https://media.api-sports.io/football/teams/6358.png"
+                    },
+                    "player": {
+                        "id": 41493,
+                        "name": "T. Mesquita"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 24,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6358,
+                        "name": "Lusit\u00e2nia Lourosa",
+                        "logo": "https://media.api-sports.io/football/teams/6358.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "Nhayson"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 30,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4727,
+                        "name": "Anadia",
+                        "logo": "https://media.api-sports.io/football/teams/4727.png"
+                    },
+                    "player": {
+                        "id": 163257,
+                        "name": "L. Tipote"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 4727,
+                        "name": "Anadia",
+                        "logo": "https://media.api-sports.io/football/teams/4727.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "Y. Farias"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 2
+                    },
+                    "team": {
+                        "id": 6358,
+                        "name": "Lusit\u00e2nia Lourosa",
+                        "logo": "https://media.api-sports.io/football/teams/6358.png"
+                    },
+                    "player": {
+                        "id": 142142,
+                        "name": "D. Collard"
+                    },
+                    "assist": {
+                        "id": 41937,
+                        "name": "Silverio"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6358,
+                        "name": "Lusit\u00e2nia Lourosa",
+                        "logo": "https://media.api-sports.io/football/teams/6358.png"
+                    },
+                    "player": {
+                        "id": 96360,
+                        "name": "Joao Vasco"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "D. Pereira"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 51,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6358,
+                        "name": "Lusit\u00e2nia Lourosa",
+                        "logo": "https://media.api-sports.io/football/teams/6358.png"
+                    },
+                    "player": {
+                        "id": 41517,
+                        "name": "M. Valente"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 56,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4727,
+                        "name": "Anadia",
+                        "logo": "https://media.api-sports.io/football/teams/4727.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "Andre Mendy"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6358,
+                        "name": "Lusit\u00e2nia Lourosa",
+                        "logo": "https://media.api-sports.io/football/teams/6358.png"
+                    },
+                    "player": {
+                        "id": 279631,
+                        "name": "Tokinho Doria"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "Renato Luis"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6358,
+                        "name": "Lusit\u00e2nia Lourosa",
+                        "logo": "https://media.api-sports.io/football/teams/6358.png"
+                    },
+                    "player": {
+                        "id": 41476,
+                        "name": "Avto"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "T. Cerveira"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 60,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4727,
+                        "name": "Anadia",
+                        "logo": "https://media.api-sports.io/football/teams/4727.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "T. Martins"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4727,
+                        "name": "Anadia",
+                        "logo": "https://media.api-sports.io/football/teams/4727.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 69,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4727,
+                        "name": "Anadia",
+                        "logo": "https://media.api-sports.io/football/teams/4727.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4727,
+                        "name": "Anadia",
+                        "logo": "https://media.api-sports.io/football/teams/4727.png"
+                    },
+                    "player": {
+                        "id": 107041,
+                        "name": "Zimbabwe"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "B. Costa"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 75,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6358,
+                        "name": "Lusit\u00e2nia Lourosa",
+                        "logo": "https://media.api-sports.io/football/teams/6358.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "D. Castro"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "Nhayson"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 81,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4727,
+                        "name": "Anadia",
+                        "logo": "https://media.api-sports.io/football/teams/4727.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4727,
+                        "name": "Anadia",
+                        "logo": "https://media.api-sports.io/football/teams/4727.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "J. Ca"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "J. Sinisterra"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 88,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6358,
+                        "name": "Lusit\u00e2nia Lourosa",
+                        "logo": "https://media.api-sports.io/football/teams/6358.png"
+                    },
+                    "player": {
+                        "id": 41517,
+                        "name": "M. Valente"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 6358,
+                        "name": "Lusit\u00e2nia Lourosa",
+                        "logo": "https://media.api-sports.io/football/teams/6358.png"
+                    },
+                    "player": {
+                        "id": 96360,
+                        "name": "Joao Vasco"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 5
+                    },
+                    "team": {
+                        "id": 4727,
+                        "name": "Anadia",
+                        "logo": "https://media.api-sports.io/football/teams/4727.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 5
+                    },
+                    "team": {
+                        "id": 4727,
+                        "name": "Anadia",
+                        "logo": "https://media.api-sports.io/football/teams/4727.png"
+                    },
+                    "player": {
+                        "id": 96500,
+                        "name": "Nuca"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 9
+                    },
+                    "team": {
+                        "id": 6358,
+                        "name": "Lusit\u00e2nia Lourosa",
+                        "logo": "https://media.api-sports.io/football/teams/6358.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

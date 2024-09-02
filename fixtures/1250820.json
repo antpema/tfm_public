@@ -1,0 +1,676 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1250820"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1250820,
+                "referee": "J. Gil",
+                "timezone": "UTC",
+                "date": "2024-08-04T18:30:00+00:00",
+                "timestamp": 1722796200,
+                "periods": {
+                    "first": 1722796200,
+                    "second": 1722799800
+                },
+                "venue": {
+                    "id": 109,
+                    "name": "Estadio La Perrera",
+                    "city": "Las Parejas, Provincia de Santa Fe"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 134,
+                "name": "Torneo Federal A",
+                "country": "Argentina",
+                "logo": "https://media.api-sports.io/football/leagues/134.png",
+                "flag": "https://media.api-sports.io/flags/ar.svg",
+                "season": 2024,
+                "round": "2nd Round - 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 1950,
+                    "name": "Sportivo Las Parejas",
+                    "logo": "https://media.api-sports.io/football/teams/1950.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 1966,
+                    "name": "Sportivo Belgrano",
+                    "logo": "https://media.api-sports.io/football/teams/1966.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 35,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1950,
+                        "name": "Sportivo Las Parejas",
+                        "logo": "https://media.api-sports.io/football/teams/1950.png"
+                    },
+                    "player": {
+                        "id": 310579,
+                        "name": "Mat\u00edas Mart\u00ednez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1950,
+                        "name": "Sportivo Las Parejas",
+                        "logo": "https://media.api-sports.io/football/teams/1950.png"
+                    },
+                    "player": {
+                        "id": 411481,
+                        "name": "C. Leineker"
+                    },
+                    "assist": {
+                        "id": 459653,
+                        "name": "L. Pasinato"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 51,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1950,
+                        "name": "Sportivo Las Parejas",
+                        "logo": "https://media.api-sports.io/football/teams/1950.png"
+                    },
+                    "player": {
+                        "id": 359517,
+                        "name": "L. Almada"
+                    },
+                    "assist": {
+                        "id": 219059,
+                        "name": "B. Mart\u00ednez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 55,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1966,
+                        "name": "Sportivo Belgrano",
+                        "logo": "https://media.api-sports.io/football/teams/1966.png"
+                    },
+                    "player": {
+                        "id": 467588,
+                        "name": "M. Forlin"
+                    },
+                    "assist": {
+                        "id": 75170,
+                        "name": "C. Arriola"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 55,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1966,
+                        "name": "Sportivo Belgrano",
+                        "logo": "https://media.api-sports.io/football/teams/1966.png"
+                    },
+                    "player": {
+                        "id": 58221,
+                        "name": "B. Berlo"
+                    },
+                    "assist": {
+                        "id": 95041,
+                        "name": "N. Parodi"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1966,
+                        "name": "Sportivo Belgrano",
+                        "logo": "https://media.api-sports.io/football/teams/1966.png"
+                    },
+                    "player": {
+                        "id": 58122,
+                        "name": "R. Tapia"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 72,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1950,
+                        "name": "Sportivo Las Parejas",
+                        "logo": "https://media.api-sports.io/football/teams/1950.png"
+                    },
+                    "player": {
+                        "id": 75076,
+                        "name": "F. Britos"
+                    },
+                    "assist": {
+                        "id": 463345,
+                        "name": "A. Albano"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 72,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1950,
+                        "name": "Sportivo Las Parejas",
+                        "logo": "https://media.api-sports.io/football/teams/1950.png"
+                    },
+                    "player": {
+                        "id": 430107,
+                        "name": "L. Pr\u00edncipe"
+                    },
+                    "assist": {
+                        "id": 322309,
+                        "name": "M. Valor"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 79,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1966,
+                        "name": "Sportivo Belgrano",
+                        "logo": "https://media.api-sports.io/football/teams/1966.png"
+                    },
+                    "player": {
+                        "id": 5356,
+                        "name": "P. Cortizo"
+                    },
+                    "assist": {
+                        "id": 313064,
+                        "name": "B. Ram\u00edrez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1966,
+                        "name": "Sportivo Belgrano",
+                        "logo": "https://media.api-sports.io/football/teams/1966.png"
+                    },
+                    "player": {
+                        "id": 58446,
+                        "name": "M. Mauri"
+                    },
+                    "assist": {
+                        "id": 126927,
+                        "name": "D. Leiva"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1966,
+                        "name": "Sportivo Belgrano",
+                        "logo": "https://media.api-sports.io/football/teams/1966.png"
+                    },
+                    "player": {
+                        "id": 361950,
+                        "name": "F. Hang"
+                    },
+                    "assist": {
+                        "id": 430998,
+                        "name": "S. Turina"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 84,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1950,
+                        "name": "Sportivo Las Parejas",
+                        "logo": "https://media.api-sports.io/football/teams/1950.png"
+                    },
+                    "player": {
+                        "id": 318437,
+                        "name": "M. Caballo"
+                    },
+                    "assist": {
+                        "id": 58948,
+                        "name": "Mariano Mart\u00ednez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 1950,
+                        "name": "Sportivo Las Parejas",
+                        "logo": "https://media.api-sports.io/football/teams/1950.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 16650,
+                        "name": "S. Cejas",
+                        "photo": "https://media.api-sports.io/football/coachs/16650.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 355255,
+                                "name": "Diego Gonz\u00e1lez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6340,
+                                "name": "A. Luque",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 310579,
+                                "name": "Mat\u00edas Mart\u00ednez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 411585,
+                                "name": "S. Strasorier",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 430107,
+                                "name": "L. Pr\u00edncipe",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 58662,
+                                "name": "J. Iturrieta",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 75076,
+                                "name": "F. Britos",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 318437,
+                                "name": "M. Caballo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 359517,
+                                "name": "L. Almada",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 360527,
+                                "name": "J. Bonet",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 411481,
+                                "name": "C. Leineker",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 459653,
+                                "name": "L. Pasinato",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 219059,
+                                "name": "B. Mart\u00ednez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 463345,
+                                "name": "A. Albano",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 322309,
+                                "name": "M. Valor",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 58948,
+                                "name": "Mariano Mart\u00ednez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 1966,
+                        "name": "Sportivo Belgrano",
+                        "logo": "https://media.api-sports.io/football/teams/1966.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 14402,
+                        "name": "S. Maza",
+                        "photo": "https://media.api-sports.io/football/coachs/14402.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 463414,
+                                "name": "S. Roggero",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 5695,
+                                "name": "L. Ferreyra",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 58221,
+                                "name": "B. Berlo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 58600,
+                                "name": "B. Flores",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 58446,
+                                "name": "M. Mauri",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 5356,
+                                "name": "P. Cortizo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 58122,
+                                "name": "R. Tapia",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6683,
+                                "name": "T. Federico",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 361950,
+                                "name": "F. Hang",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 5954,
+                                "name": "F. M\u00e1rquez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 467588,
+                                "name": "M. Forlin",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 75170,
+                                "name": "C. Arriola",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 95041,
+                                "name": "N. Parodi",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 313064,
+                                "name": "B. Ram\u00edrez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 126927,
+                                "name": "D. Leiva",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 430998,
+                                "name": "S. Turina",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

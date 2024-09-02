@@ -1,0 +1,734 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1167090"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1167090,
+                "referee": "S. Sasaki",
+                "timezone": "UTC",
+                "date": "2024-07-21T09:00:00+00:00",
+                "timestamp": 1721552400,
+                "periods": {
+                    "first": 1721552400,
+                    "second": 1721556000
+                },
+                "venue": {
+                    "id": 3303,
+                    "name": "Iwagin Stadium",
+                    "city": "Morioka"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 100,
+                "name": "J3 League",
+                "country": "Japan",
+                "logo": "https://media.api-sports.io/football/leagues/100.png",
+                "flag": "https://media.api-sports.io/flags/jp.svg",
+                "season": 2024,
+                "round": "Regular Season - 22"
+            },
+            "teams": {
+                "home": {
+                    "id": 4321,
+                    "name": "Grulla Morioka",
+                    "logo": "https://media.api-sports.io/football/teams/4321.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 4322,
+                    "name": "Kataller Toyama",
+                    "logo": "https://media.api-sports.io/football/teams/4322.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 29,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4322,
+                        "name": "Kataller Toyama",
+                        "logo": "https://media.api-sports.io/football/teams/4322.png"
+                    },
+                    "player": {
+                        "id": 32942,
+                        "name": "T. Yoshihira"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 38,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4321,
+                        "name": "Grulla Morioka",
+                        "logo": "https://media.api-sports.io/football/teams/4321.png"
+                    },
+                    "player": {
+                        "id": 33874,
+                        "name": "K. Fukatsu"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4321,
+                        "name": "Grulla Morioka",
+                        "logo": "https://media.api-sports.io/football/teams/4321.png"
+                    },
+                    "player": {
+                        "id": 268143,
+                        "name": "K. Toyoda"
+                    },
+                    "assist": {
+                        "id": 377926,
+                        "name": "S. Adachi"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 60,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4321,
+                        "name": "Grulla Morioka",
+                        "logo": "https://media.api-sports.io/football/teams/4321.png"
+                    },
+                    "player": {
+                        "id": 33189,
+                        "name": "K. Tokura"
+                    },
+                    "assist": {
+                        "id": 42014,
+                        "name": "S. Fukahori"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 60,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4322,
+                        "name": "Kataller Toyama",
+                        "logo": "https://media.api-sports.io/football/teams/4322.png"
+                    },
+                    "player": {
+                        "id": 32942,
+                        "name": "T. Yoshihira"
+                    },
+                    "assist": {
+                        "id": 216010,
+                        "name": "N. Inoue"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 60,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4322,
+                        "name": "Kataller Toyama",
+                        "logo": "https://media.api-sports.io/football/teams/4322.png"
+                    },
+                    "player": {
+                        "id": 109420,
+                        "name": "N. Shiina"
+                    },
+                    "assist": {
+                        "id": 404328,
+                        "name": "S. Fuseya"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 60,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4322,
+                        "name": "Kataller Toyama",
+                        "logo": "https://media.api-sports.io/football/teams/4322.png"
+                    },
+                    "player": {
+                        "id": 433907,
+                        "name": "S. Usui"
+                    },
+                    "assist": {
+                        "id": 106841,
+                        "name": "K. Matsumoto"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4321,
+                        "name": "Grulla Morioka",
+                        "logo": "https://media.api-sports.io/football/teams/4321.png"
+                    },
+                    "player": {
+                        "id": 33874,
+                        "name": "K. Fukatsu"
+                    },
+                    "assist": {
+                        "id": 353575,
+                        "name": "R. Saito"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4321,
+                        "name": "Grulla Morioka",
+                        "logo": "https://media.api-sports.io/football/teams/4321.png"
+                    },
+                    "player": {
+                        "id": 307937,
+                        "name": "T. Kagami"
+                    },
+                    "assist": {
+                        "id": 353578,
+                        "name": "S. Kiri"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4321,
+                        "name": "Grulla Morioka",
+                        "logo": "https://media.api-sports.io/football/teams/4321.png"
+                    },
+                    "player": {
+                        "id": 307954,
+                        "name": "K. Otabor"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 84,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4321,
+                        "name": "Grulla Morioka",
+                        "logo": "https://media.api-sports.io/football/teams/4321.png"
+                    },
+                    "player": {
+                        "id": 106846,
+                        "name": "T. Miyaichi"
+                    },
+                    "assist": {
+                        "id": 33912,
+                        "name": "D. Kogure"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4322,
+                        "name": "Kataller Toyama",
+                        "logo": "https://media.api-sports.io/football/teams/4322.png"
+                    },
+                    "player": {
+                        "id": 426483,
+                        "name": "Y. Takahashi"
+                    },
+                    "assist": {
+                        "id": 355472,
+                        "name": "Y. Arai"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 4
+                    },
+                    "team": {
+                        "id": 4322,
+                        "name": "Kataller Toyama",
+                        "logo": "https://media.api-sports.io/football/teams/4322.png"
+                    },
+                    "player": {
+                        "id": 33339,
+                        "name": "Y. Kawai"
+                    },
+                    "assist": {
+                        "id": 206961,
+                        "name": "H. Tsubokawa"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 4321,
+                        "name": "Grulla Morioka",
+                        "logo": "https://media.api-sports.io/football/teams/4321.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 22481,
+                        "name": "T. Jinno",
+                        "photo": "https://media.api-sports.io/football/coachs/22481.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 33384,
+                                "name": "T. \u014ckubo",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 33874,
+                                "name": "K. Fukatsu",
+                                "number": 51,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 33604,
+                                "name": "S. Takahashi",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 106846,
+                                "name": "T. Miyaichi",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 353574,
+                                "name": "D. Fukagawa",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 354522,
+                                "name": "Y. Yamato",
+                                "number": 25,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 33769,
+                                "name": "R. Niizato",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 307937,
+                                "name": "T. Kagami",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 307954,
+                                "name": "K. Otabor",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 33189,
+                                "name": "K. Tokura",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 268143,
+                                "name": "K. Toyoda",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 377926,
+                                "name": "S. Adachi",
+                                "number": 30,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 42014,
+                                "name": "S. Fukahori",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 353575,
+                                "name": "R. Saito",
+                                "number": 3,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 353578,
+                                "name": "S. Kiri",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 33912,
+                                "name": "D. Kogure",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 354508,
+                                "name": "A. Inaba",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 467242,
+                                "name": "Kim Jae-Young",
+                                "number": 88,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 4322,
+                        "name": "Kataller Toyama",
+                        "logo": "https://media.api-sports.io/football/teams/4322.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 18534,
+                        "name": "M. Otagiri",
+                        "photo": "https://media.api-sports.io/football/coachs/18534.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 268608,
+                                "name": "T. Tagawa",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 352464,
+                                "name": "K. Kamiyama",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 370141,
+                                "name": "A. Nabeta",
+                                "number": 26,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 458242,
+                                "name": "S. Nishiya",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 33339,
+                                "name": "Y. Kawai",
+                                "number": 24,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 109420,
+                                "name": "N. Shiina",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 196906,
+                                "name": "H. Sueki",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 352467,
+                                "name": "S. Yasumitsu",
+                                "number": 25,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 426483,
+                                "name": "Y. Takahashi",
+                                "number": 33,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 32942,
+                                "name": "T. Yoshihira",
+                                "number": 27,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 433907,
+                                "name": "S. Usui",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 216010,
+                                "name": "N. Inoue",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 404328,
+                                "name": "S. Fuseya",
+                                "number": 28,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 106841,
+                                "name": "K. Matsumoto",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 355472,
+                                "name": "Y. Arai",
+                                "number": 48,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 206961,
+                                "name": "H. Tsubokawa",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 109311,
+                                "name": "K. Wakimoto",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 109346,
+                                "name": "K. Saito",
+                                "number": 31,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

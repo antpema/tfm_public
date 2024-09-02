@@ -1,0 +1,109 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1209692"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1209692,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-23T21:00:00+00:00",
+                "timestamp": 1721768400,
+                "periods": {
+                    "first": 1721768400,
+                    "second": 1721772000
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Estadi Els Arcs",
+                    "city": "Alc\u00fadia"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 940,
+                "name": "COTIF Tournament",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/940.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Group Stage - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 10284,
+                    "name": "Argentina U20",
+                    "logo": "https://media.api-sports.io/football/teams/10284.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 19924,
+                    "name": "Levante U20",
+                    "logo": "https://media.api-sports.io/football/teams/19924.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": 4
+                    },
+                    "team": {
+                        "id": 10284,
+                        "name": "Argentina U20",
+                        "logo": "https://media.api-sports.io/football/teams/10284.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "I. Zufiaurre"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

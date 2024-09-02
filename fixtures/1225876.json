@@ -1,0 +1,841 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1225876"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1225876,
+                "referee": "R. Ziyakov",
+                "timezone": "UTC",
+                "date": "2024-07-22T15:00:00+00:00",
+                "timestamp": 1721660400,
+                "periods": {
+                    "first": 1721660400,
+                    "second": 1721664000
+                },
+                "venue": {
+                    "id": 1348,
+                    "name": "Volgograd Arena",
+                    "city": "Volgograd"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 236,
+                "name": "First League",
+                "country": "Russia",
+                "logo": "https://media.api-sports.io/football/leagues/236.png",
+                "flag": "https://media.api-sports.io/flags/ru.svg",
+                "season": 2024,
+                "round": "Regular Season - 2"
+            },
+            "teams": {
+                "home": {
+                    "id": 2010,
+                    "name": "Rotor Volgograd",
+                    "logo": "https://media.api-sports.io/football/teams/2010.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 3985,
+                    "name": "Torpedo Moskva",
+                    "logo": "https://media.api-sports.io/football/teams/3985.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 18,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3985,
+                        "name": "Torpedo Moskva",
+                        "logo": "https://media.api-sports.io/football/teams/3985.png"
+                    },
+                    "player": {
+                        "id": 43353,
+                        "name": "I. Gorbunov"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 2010,
+                        "name": "Rotor Volgograd",
+                        "logo": "https://media.api-sports.io/football/teams/2010.png"
+                    },
+                    "player": {
+                        "id": 43625,
+                        "name": "Yuri Zavezen"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2010,
+                        "name": "Rotor Volgograd",
+                        "logo": "https://media.api-sports.io/football/teams/2010.png"
+                    },
+                    "player": {
+                        "id": 43625,
+                        "name": "Y. Zavezen"
+                    },
+                    "assist": {
+                        "id": 375415,
+                        "name": "N. Plotnikov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2010,
+                        "name": "Rotor Volgograd",
+                        "logo": "https://media.api-sports.io/football/teams/2010.png"
+                    },
+                    "player": {
+                        "id": 394861,
+                        "name": "I. Pyatkin"
+                    },
+                    "assist": {
+                        "id": 316840,
+                        "name": "I. Sokolov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2010,
+                        "name": "Rotor Volgograd",
+                        "logo": "https://media.api-sports.io/football/teams/2010.png"
+                    },
+                    "player": {
+                        "id": 272118,
+                        "name": "V. Morozov"
+                    },
+                    "assist": {
+                        "id": 204048,
+                        "name": "M. Ageev"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3985,
+                        "name": "Torpedo Moskva",
+                        "logo": "https://media.api-sports.io/football/teams/3985.png"
+                    },
+                    "player": {
+                        "id": 14879,
+                        "name": "M. \u0106uri\u0107"
+                    },
+                    "assist": {
+                        "id": 43590,
+                        "name": "A. Koryan"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3985,
+                        "name": "Torpedo Moskva",
+                        "logo": "https://media.api-sports.io/football/teams/3985.png"
+                    },
+                    "player": {
+                        "id": 72374,
+                        "name": "M. Maksimov"
+                    },
+                    "assist": {
+                        "id": 201700,
+                        "name": "W. Aponz\u00e1"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 66,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3985,
+                        "name": "Torpedo Moskva",
+                        "logo": "https://media.api-sports.io/football/teams/3985.png"
+                    },
+                    "player": {
+                        "id": 7948,
+                        "name": "Gleb Shevchenko"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 66,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2010,
+                        "name": "Rotor Volgograd",
+                        "logo": "https://media.api-sports.io/football/teams/2010.png"
+                    },
+                    "player": {
+                        "id": 53574,
+                        "name": "E. Bolotov"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3985,
+                        "name": "Torpedo Moskva",
+                        "logo": "https://media.api-sports.io/football/teams/3985.png"
+                    },
+                    "player": {
+                        "id": 43353,
+                        "name": "I. Gorbunov"
+                    },
+                    "assist": {
+                        "id": 321449,
+                        "name": "I. Manelov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3985,
+                        "name": "Torpedo Moskva",
+                        "logo": "https://media.api-sports.io/football/teams/3985.png"
+                    },
+                    "player": {
+                        "id": 430259,
+                        "name": "R. Chervyakov"
+                    },
+                    "assist": {
+                        "id": 267984,
+                        "name": "V. Shitov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 74,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2010,
+                        "name": "Rotor Volgograd",
+                        "logo": "https://media.api-sports.io/football/teams/2010.png"
+                    },
+                    "player": {
+                        "id": 53574,
+                        "name": "E. Bolotov"
+                    },
+                    "assist": {
+                        "id": 268959,
+                        "name": "A. Usanov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 77,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2010,
+                        "name": "Rotor Volgograd",
+                        "logo": "https://media.api-sports.io/football/teams/2010.png"
+                    },
+                    "player": {
+                        "id": 375415,
+                        "name": "N. Plotnikov"
+                    },
+                    "assist": {
+                        "id": 324394,
+                        "name": "G. Shilnikov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 88,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3985,
+                        "name": "Torpedo Moskva",
+                        "logo": "https://media.api-sports.io/football/teams/3985.png"
+                    },
+                    "player": {
+                        "id": 149751,
+                        "name": "A. Ivankov"
+                    },
+                    "assist": {
+                        "id": 43578,
+                        "name": "E. Danilkin"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 2010,
+                        "name": "Rotor Volgograd",
+                        "logo": "https://media.api-sports.io/football/teams/2010.png",
+                        "colors": {
+                            "player": {
+                                "primary": "66ccff",
+                                "number": "ffffff",
+                                "border": "66ccff"
+                            },
+                            "goalkeeper": {
+                                "primary": "f38500",
+                                "number": "ffffff",
+                                "border": "f38500"
+                            }
+                        }
+                    },
+                    "coach": {
+                        "id": 1082,
+                        "name": "D. Boyarintsev",
+                        "photo": "https://media.api-sports.io/football/coachs/1082.png"
+                    },
+                    "formation": "4-2-3-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 43530,
+                                "name": "N. Chagrov",
+                                "number": 13,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 97548,
+                                "name": "A. Semenov",
+                                "number": 28,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7912,
+                                "name": "M. Shvetsov",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43403,
+                                "name": "A. Shumskikh",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 8135,
+                                "name": "D. Prishchepa",
+                                "number": 12,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 394861,
+                                "name": "I. Pyatkin",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 53574,
+                                "name": "E. Bolotov",
+                                "number": 57,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 202261,
+                                "name": "M. Maltsev",
+                                "number": 24,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43625,
+                                "name": "Y. Zavezen",
+                                "number": 6,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 264139,
+                                "name": "V. Tyurin",
+                                "number": 18,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 272118,
+                                "name": "V. Morozov",
+                                "number": 9,
+                                "pos": "M",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 375415,
+                                "name": "N. Plotnikov",
+                                "number": 19,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 316840,
+                                "name": "I. Sokolov",
+                                "number": 10,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 204048,
+                                "name": "M. Ageev",
+                                "number": 63,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 268959,
+                                "name": "A. Usanov",
+                                "number": 11,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 324394,
+                                "name": "G. Shilnikov",
+                                "number": 17,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 97658,
+                                "name": "V. Averkiev",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 270079,
+                                "name": "D. Kamlashev",
+                                "number": 7,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 358552,
+                                "name": "E. Mukhin",
+                                "number": 78,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 133343,
+                                "name": "K. Dontsov",
+                                "number": 80,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 3985,
+                        "name": "Torpedo Moskva",
+                        "logo": "https://media.api-sports.io/football/teams/3985.png",
+                        "colors": {
+                            "player": {
+                                "primary": "000000",
+                                "number": "ffffff",
+                                "border": "000000"
+                            },
+                            "goalkeeper": {
+                                "primary": "33cc33",
+                                "number": "ffffff",
+                                "border": "33cc33"
+                            }
+                        }
+                    },
+                    "coach": {
+                        "id": 1309,
+                        "name": "O. Kononov",
+                        "photo": "https://media.api-sports.io/football/coachs/1309.png"
+                    },
+                    "formation": "4-1-4-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 53588,
+                                "name": "E. Baburin",
+                                "number": 12,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7948,
+                                "name": "G. Shevchenko",
+                                "number": 99,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 149751,
+                                "name": "A. Ivankov",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 2070,
+                                "name": "S. Borodin",
+                                "number": 4,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66780,
+                                "name": "B. Roganovi\u0107",
+                                "number": 90,
+                                "pos": "M",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43594,
+                                "name": "R. Netfullin",
+                                "number": 52,
+                                "pos": "D",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 430259,
+                                "name": "R. Chervyakov",
+                                "number": 89,
+                                "pos": "M",
+                                "grid": "4:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 14879,
+                                "name": "M. \u0106uri\u0107",
+                                "number": 97,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43864,
+                                "name": "D. Shamkin",
+                                "number": 11,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43353,
+                                "name": "I. Gorbunov",
+                                "number": 17,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 72374,
+                                "name": "M. Maksimov",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 43590,
+                                "name": "A. Koryan",
+                                "number": 7,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 201700,
+                                "name": "W. Aponz\u00e1",
+                                "number": 29,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 321449,
+                                "name": "I. Manelov",
+                                "number": 69,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 267984,
+                                "name": "V. Shitov",
+                                "number": 77,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43578,
+                                "name": "E. Danilkin",
+                                "number": 15,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 53606,
+                                "name": "I. Konovalov",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 149929,
+                                "name": "R. Baytukov",
+                                "number": 19,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 268956,
+                                "name": "V. Galkin",
+                                "number": 22,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 126902,
+                                "name": "I. Nasyrov",
+                                "number": 71,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 306639,
+                                "name": "M. Volkov",
+                                "number": 74,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 306114,
+                                "name": "A. Kostin",
+                                "number": 87,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 324215,
+                                "name": "A. Chupaev",
+                                "number": 38,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

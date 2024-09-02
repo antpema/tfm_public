@@ -1,0 +1,505 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1232690"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1232690,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-11T17:00:00+00:00",
+                "timestamp": 1723395600,
+                "periods": {
+                    "first": 1723395600,
+                    "second": 1723399200
+                },
+                "venue": {
+                    "id": 805,
+                    "name": "V\u00e1rosi Stadion",
+                    "city": "Mez\u0151k\u00f6vesd"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 272,
+                "name": "NB II",
+                "country": "Hungary",
+                "logo": "https://media.api-sports.io/football/leagues/272.png",
+                "flag": "https://media.api-sports.io/flags/hu.svg",
+                "season": 2024,
+                "round": "Regular Season - 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 2389,
+                    "name": "Mezokovesd-zsory",
+                    "logo": "https://media.api-sports.io/football/teams/2389.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 5139,
+                    "name": "Szentl\u0151rinc SE",
+                    "logo": "https://media.api-sports.io/football/teams/5139.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 3
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 3
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 24,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 5139,
+                        "name": "Szentl\u0151rinc SE",
+                        "logo": "https://media.api-sports.io/football/teams/5139.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "P. Stifter"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 37,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 5139,
+                        "name": "Szentl\u0151rinc SE",
+                        "logo": "https://media.api-sports.io/football/teams/5139.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "T. Szekszardi"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 40,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 5139,
+                        "name": "Szentl\u0151rinc SE",
+                        "logo": "https://media.api-sports.io/football/teams/5139.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "M. Medgyesi"
+                    },
+                    "assist": {
+                        "id": 27822,
+                        "name": "R. Nagy"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 41,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2389,
+                        "name": "Mezokovesd-zsory",
+                        "logo": "https://media.api-sports.io/football/teams/2389.png"
+                    },
+                    "player": {
+                        "id": 321418,
+                        "name": "Z. Kojnok"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2389,
+                        "name": "Mezokovesd-zsory",
+                        "logo": "https://media.api-sports.io/football/teams/2389.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "F. Cibla"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "B. Takacs"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 5139,
+                        "name": "Szentl\u0151rinc SE",
+                        "logo": "https://media.api-sports.io/football/teams/5139.png"
+                    },
+                    "player": {
+                        "id": 342430,
+                        "name": "C. Papp"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "P. Stifter"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2389,
+                        "name": "Mezokovesd-zsory",
+                        "logo": "https://media.api-sports.io/football/teams/2389.png"
+                    },
+                    "player": {
+                        "id": 28447,
+                        "name": "T. Cseri"
+                    },
+                    "assist": {
+                        "id": 28009,
+                        "name": "R. Krausz"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2389,
+                        "name": "Mezokovesd-zsory",
+                        "logo": "https://media.api-sports.io/football/teams/2389.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "K. Kallai"
+                    },
+                    "assist": {
+                        "id": 321418,
+                        "name": "Z. Kojnok"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 48,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2389,
+                        "name": "Mezokovesd-zsory",
+                        "logo": "https://media.api-sports.io/football/teams/2389.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "D. Bartusz"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 54,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 5139,
+                        "name": "Szentl\u0151rinc SE",
+                        "logo": "https://media.api-sports.io/football/teams/5139.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "K. Toth-Gabor"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 56,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2389,
+                        "name": "Mezokovesd-zsory",
+                        "logo": "https://media.api-sports.io/football/teams/2389.png"
+                    },
+                    "player": {
+                        "id": 152672,
+                        "name": "V. Zvekanov"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 60,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2389,
+                        "name": "Mezokovesd-zsory",
+                        "logo": "https://media.api-sports.io/football/teams/2389.png"
+                    },
+                    "player": {
+                        "id": 28453,
+                        "name": "S. Vajda"
+                    },
+                    "assist": {
+                        "id": 28501,
+                        "name": "P. Zachan"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2389,
+                        "name": "Mezokovesd-zsory",
+                        "logo": "https://media.api-sports.io/football/teams/2389.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "I. Harsanyi"
+                    },
+                    "assist": {
+                        "id": 237114,
+                        "name": "P. Posztobanyi"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 69,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 5139,
+                        "name": "Szentl\u0151rinc SE",
+                        "logo": "https://media.api-sports.io/football/teams/5139.png"
+                    },
+                    "player": {
+                        "id": 27828,
+                        "name": "D. Biro"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "R. Hajdu"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 5139,
+                        "name": "Szentl\u0151rinc SE",
+                        "logo": "https://media.api-sports.io/football/teams/5139.png"
+                    },
+                    "player": {
+                        "id": 312202,
+                        "name": "O. Dinnyes"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 75,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 5139,
+                        "name": "Szentl\u0151rinc SE",
+                        "logo": "https://media.api-sports.io/football/teams/5139.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "B. Keresztes"
+                    },
+                    "assist": {
+                        "id": 312202,
+                        "name": "O. Dinnyes"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 84,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 5139,
+                        "name": "Szentl\u0151rinc SE",
+                        "logo": "https://media.api-sports.io/football/teams/5139.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "K. Toth-Gabor"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 5139,
+                        "name": "Szentl\u0151rinc SE",
+                        "logo": "https://media.api-sports.io/football/teams/5139.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "B. Rab"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 2
+                    },
+                    "team": {
+                        "id": 5139,
+                        "name": "Szentl\u0151rinc SE",
+                        "logo": "https://media.api-sports.io/football/teams/5139.png"
+                    },
+                    "player": {
+                        "id": 342430,
+                        "name": "C. Papp"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

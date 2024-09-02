@@ -1,0 +1,663 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1194875"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1194875,
+                "referee": "M. Pesonen",
+                "timezone": "UTC",
+                "date": "2024-07-27T15:00:00+00:00",
+                "timestamp": 1722092400,
+                "periods": {
+                    "first": 1722092400,
+                    "second": 1722096000
+                },
+                "venue": {
+                    "id": 8455,
+                    "name": "Tuusulan Urheilukeskus Stadion",
+                    "city": "Tuusula"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 245,
+                "name": "Ykk\u00f6nen",
+                "country": "Finland",
+                "logo": "https://media.api-sports.io/football/leagues/245.png",
+                "flag": "https://media.api-sports.io/flags/fi.svg",
+                "season": 2024,
+                "round": "Regular Season - 17"
+            },
+            "teams": {
+                "home": {
+                    "id": 9203,
+                    "name": "PKKU",
+                    "logo": "https://media.api-sports.io/football/teams/9203.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 9195,
+                    "name": "OLS",
+                    "logo": "https://media.api-sports.io/football/teams/9195.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 4,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 9203,
+                        "name": "PKKU",
+                        "logo": "https://media.api-sports.io/football/teams/9203.png"
+                    },
+                    "player": {
+                        "id": 55825,
+                        "name": "N. Leinonen"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 9195,
+                        "name": "OLS",
+                        "logo": "https://media.api-sports.io/football/teams/9195.png"
+                    },
+                    "player": {
+                        "id": 464760,
+                        "name": "J. Korhonen"
+                    },
+                    "assist": {
+                        "id": 467346,
+                        "name": "L. Piirto"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 9203,
+                        "name": "PKKU",
+                        "logo": "https://media.api-sports.io/football/teams/9203.png"
+                    },
+                    "player": {
+                        "id": 55825,
+                        "name": "N. Leinonen"
+                    },
+                    "assist": {
+                        "id": 370891,
+                        "name": "S. Tiainen"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 9203,
+                        "name": "PKKU",
+                        "logo": "https://media.api-sports.io/football/teams/9203.png"
+                    },
+                    "player": {
+                        "id": 466721,
+                        "name": "N. Umetsu"
+                    },
+                    "assist": {
+                        "id": 470341,
+                        "name": "E. Lappalainen"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 61,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 9195,
+                        "name": "OLS",
+                        "logo": "https://media.api-sports.io/football/teams/9195.png"
+                    },
+                    "player": {
+                        "id": 415676,
+                        "name": "L. Tiainen"
+                    },
+                    "assist": {
+                        "id": 467345,
+                        "name": "K. Flygare"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 72,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 9203,
+                        "name": "PKKU",
+                        "logo": "https://media.api-sports.io/football/teams/9203.png"
+                    },
+                    "player": {
+                        "id": 470341,
+                        "name": "E. Lappalainen"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 75,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 9195,
+                        "name": "OLS",
+                        "logo": "https://media.api-sports.io/football/teams/9195.png"
+                    },
+                    "player": {
+                        "id": 467346,
+                        "name": "L. Piirto"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 9195,
+                        "name": "OLS",
+                        "logo": "https://media.api-sports.io/football/teams/9195.png"
+                    },
+                    "player": {
+                        "id": 316913,
+                        "name": "D. Heikkinen"
+                    },
+                    "assist": {
+                        "id": 365215,
+                        "name": "N. Sarkkinen"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 9195,
+                        "name": "OLS",
+                        "logo": "https://media.api-sports.io/football/teams/9195.png"
+                    },
+                    "player": {
+                        "id": 196769,
+                        "name": "D. S\u00e4ily"
+                    },
+                    "assist": {
+                        "id": 477853,
+                        "name": "P. Kabinga"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 9203,
+                        "name": "PKKU",
+                        "logo": "https://media.api-sports.io/football/teams/9203.png"
+                    },
+                    "player": {
+                        "id": 391766,
+                        "name": "J. Virtanen"
+                    },
+                    "assist": {
+                        "id": 466714,
+                        "name": "A. Zahedi"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 9203,
+                        "name": "PKKU",
+                        "logo": "https://media.api-sports.io/football/teams/9203.png"
+                    },
+                    "player": {
+                        "id": 173804,
+                        "name": "A. Sainio"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 9203,
+                        "name": "PKKU",
+                        "logo": "https://media.api-sports.io/football/teams/9203.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 6227,
+                        "name": "R. Hakanp\u00e4\u00e4",
+                        "photo": "https://media.api-sports.io/football/coachs/6227.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 416505,
+                                "name": "R. Barton",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 174059,
+                                "name": "R. M\u00e4kil\u00e4",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 371135,
+                                "name": "N. Inha",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 174214,
+                                "name": "V. Azemi",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 55825,
+                                "name": "N. Leinonen",
+                                "number": 24,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 366184,
+                                "name": "A. Lindholm",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 379633,
+                                "name": "A. Musa",
+                                "number": 77,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 391766,
+                                "name": "J. Virtanen",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 466721,
+                                "name": "N. Umetsu",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 173804,
+                                "name": "A. Sainio",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 364042,
+                                "name": "I. K\u00e4rs\u00e4m\u00e4",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 370891,
+                                "name": "S. Tiainen",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 470341,
+                                "name": "E. Lappalainen",
+                                "number": 33,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 466714,
+                                "name": "A. Zahedi",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 418702,
+                                "name": "M. Formisano",
+                                "number": 3,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 314125,
+                                "name": "A. Pllana",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 83338,
+                                "name": "S. Volotinen",
+                                "number": 12,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 306916,
+                                "name": "S. Gr\u00f6nberg",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 9195,
+                        "name": "OLS",
+                        "logo": "https://media.api-sports.io/football/teams/9195.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 4768,
+                        "name": "M. Isokangas",
+                        "photo": "https://media.api-sports.io/football/coachs/4768.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 419638,
+                                "name": "J. Pentti",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 429110,
+                                "name": "O. Parkkila",
+                                "number": 48,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 455279,
+                                "name": "E. Saarela",
+                                "number": 44,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 466720,
+                                "name": "T. Ridanp\u00e4\u00e4",
+                                "number": 49,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 60614,
+                                "name": "A. Nurmela",
+                                "number": 32,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 196769,
+                                "name": "D. S\u00e4ily",
+                                "number": 60,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 316913,
+                                "name": "D. Heikkinen",
+                                "number": 54,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 414691,
+                                "name": "E. Merikanto",
+                                "number": 38,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 464760,
+                                "name": "J. Korhonen",
+                                "number": 40,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 55326,
+                                "name": "E. Raittinen",
+                                "number": 47,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 415676,
+                                "name": "L. Tiainen",
+                                "number": 42,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 467346,
+                                "name": "L. Piirto",
+                                "number": 37,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 467345,
+                                "name": "K. Flygare",
+                                "number": 39,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 365215,
+                                "name": "N. Sarkkinen",
+                                "number": 31,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 477853,
+                                "name": "P. Kabinga",
+                                "number": 34,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

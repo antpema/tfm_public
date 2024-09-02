@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1227635"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1227635,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-11T19:00:00+00:00",
+                "timestamp": 1723402800,
+                "periods": {
+                    "first": 1723402800,
+                    "second": 1723406400
+                },
+                "venue": {
+                    "id": 872,
+                    "name": "Stadio Comunale Chiavari",
+                    "city": "Chiavari"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 891,
+                "name": "Coppa Italia Serie C",
+                "country": "Italy",
+                "logo": "https://media.api-sports.io/football/leagues/891.png",
+                "flag": "https://media.api-sports.io/flags/it.svg",
+                "season": 2024,
+                "round": "1st Round"
+            },
+            "teams": {
+                "home": {
+                    "id": 527,
+                    "name": "Virtus Entella",
+                    "logo": "https://media.api-sports.io/football/teams/527.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 17824,
+                    "name": "Alcione",
+                    "logo": "https://media.api-sports.io/football/teams/17824.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 30,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 527,
+                        "name": "Virtus Entella",
+                        "logo": "https://media.api-sports.io/football/teams/527.png"
+                    },
+                    "player": {
+                        "id": 326880,
+                        "name": "P. Chierichetti"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Own Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 62,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 527,
+                        "name": "Virtus Entella",
+                        "logo": "https://media.api-sports.io/football/teams/527.png"
+                    },
+                    "player": {
+                        "id": 56525,
+                        "name": "D. Bariti"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

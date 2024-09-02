@@ -1,0 +1,681 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1191243"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1191243,
+                "referee": "M. Hammarstr\u00f8m",
+                "timezone": "UTC",
+                "date": "2024-08-04T12:00:00+00:00",
+                "timestamp": 1722772800,
+                "periods": {
+                    "first": 1722772800,
+                    "second": 1722776400
+                },
+                "venue": {
+                    "id": 1198,
+                    "name": "Str\u00f8mmen Stadion",
+                    "city": "Str\u00f8mmen"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 474,
+                "name": "2. Division - Group 2",
+                "country": "Norway",
+                "logo": "https://media.api-sports.io/football/leagues/474.png",
+                "flag": "https://media.api-sports.io/flags/no.svg",
+                "season": 2024,
+                "round": "Group 2 - 15"
+            },
+            "teams": {
+                "home": {
+                    "id": 2147,
+                    "name": "Strommen",
+                    "logo": "https://media.api-sports.io/football/teams/2147.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 6965,
+                    "name": "Alta",
+                    "logo": "https://media.api-sports.io/football/teams/6965.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 42,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2147,
+                        "name": "Strommen",
+                        "logo": "https://media.api-sports.io/football/teams/2147.png"
+                    },
+                    "player": {
+                        "id": 127386,
+                        "name": "A. Nord"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2147,
+                        "name": "Strommen",
+                        "logo": "https://media.api-sports.io/football/teams/2147.png"
+                    },
+                    "player": {
+                        "id": 127386,
+                        "name": "A. Nord"
+                    },
+                    "assist": {
+                        "id": 416059,
+                        "name": "E. Rogne"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 58,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6965,
+                        "name": "Alta",
+                        "logo": "https://media.api-sports.io/football/teams/6965.png"
+                    },
+                    "player": {
+                        "id": 370902,
+                        "name": "P. Aas"
+                    },
+                    "assist": {
+                        "id": 39356,
+                        "name": "M. Andersen"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 68,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2147,
+                        "name": "Strommen",
+                        "logo": "https://media.api-sports.io/football/teams/2147.png"
+                    },
+                    "player": {
+                        "id": 153174,
+                        "name": "M. Sundberg"
+                    },
+                    "assist": {
+                        "id": 378171,
+                        "name": "M. Balatoni"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 68,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2147,
+                        "name": "Strommen",
+                        "logo": "https://media.api-sports.io/football/teams/2147.png"
+                    },
+                    "player": {
+                        "id": 359719,
+                        "name": "J. Kristeng\u00e5rd"
+                    },
+                    "assist": {
+                        "id": 378173,
+                        "name": "O. Henriksrud"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 72,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6965,
+                        "name": "Alta",
+                        "logo": "https://media.api-sports.io/football/teams/6965.png"
+                    },
+                    "player": {
+                        "id": 381475,
+                        "name": "G. Olsen"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 74,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6965,
+                        "name": "Alta",
+                        "logo": "https://media.api-sports.io/football/teams/6965.png"
+                    },
+                    "player": {
+                        "id": 381475,
+                        "name": "G. Olsen"
+                    },
+                    "assist": {
+                        "id": 274589,
+                        "name": "T. Suhr-Stamnes"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 75,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2147,
+                        "name": "Strommen",
+                        "logo": "https://media.api-sports.io/football/teams/2147.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "Rogne Even"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2147,
+                        "name": "Strommen",
+                        "logo": "https://media.api-sports.io/football/teams/2147.png"
+                    },
+                    "player": {
+                        "id": 159407,
+                        "name": "S. Rindal"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 6965,
+                        "name": "Alta",
+                        "logo": "https://media.api-sports.io/football/teams/6965.png"
+                    },
+                    "player": {
+                        "id": 216769,
+                        "name": "M. Trige"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2147,
+                        "name": "Strommen",
+                        "logo": "https://media.api-sports.io/football/teams/2147.png"
+                    },
+                    "player": {
+                        "id": 318419,
+                        "name": "J. Bruusgaard"
+                    },
+                    "assist": {
+                        "id": 363784,
+                        "name": "N. Solberg"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 2147,
+                        "name": "Strommen",
+                        "logo": "https://media.api-sports.io/football/teams/2147.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 22242,
+                        "name": "\u00d8. Heiberg",
+                        "photo": "https://media.api-sports.io/football/coachs/22242.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 271898,
+                                "name": "J. Sveinhaug",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 77111,
+                                "name": "C. Crestani",
+                                "number": 3,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 57309,
+                                "name": "M. Aadn\u00f8y",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 159407,
+                                "name": "S. Rindal",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 217082,
+                                "name": "O. Jansson",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 363862,
+                                "name": "M. Lunde",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 435140,
+                                "name": "M. Abbas",
+                                "number": 55,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 359719,
+                                "name": "J. Kristeng\u00e5rd",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 127386,
+                                "name": "A. Nord",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 318419,
+                                "name": "J. Bruusgaard",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 153174,
+                                "name": "M. Sundberg",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 416059,
+                                "name": "E. Rogne",
+                                "number": 27,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 378171,
+                                "name": "M. Balatoni",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 378173,
+                                "name": "O. Henriksrud",
+                                "number": 26,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 363784,
+                                "name": "N. Solberg",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 57491,
+                                "name": "M. Achrifi",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 371389,
+                                "name": "M. St\u00e6r-Jensen",
+                                "number": 12,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 321433,
+                                "name": "M. Myrmo",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 337608,
+                                "name": "S. Aronsen",
+                                "number": 25,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 470152,
+                                "name": "S. Nilsen",
+                                "number": 33,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 6965,
+                        "name": "Alta",
+                        "logo": "https://media.api-sports.io/football/teams/6965.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 17117,
+                        "name": "M. Duilo",
+                        "photo": "https://media.api-sports.io/football/coachs/17117.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 216769,
+                                "name": "M. Trige",
+                                "number": 29,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 138764,
+                                "name": "R. Overvik",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 191793,
+                                "name": "N. Antonsen",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 363988,
+                                "name": "J. Lamark",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 381474,
+                                "name": "J. Andersen",
+                                "number": 32,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 138761,
+                                "name": "F. Jacobsen",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 370902,
+                                "name": "P. Aas",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 381475,
+                                "name": "G. Olsen",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 138728,
+                                "name": "C. Reginiussen",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 127345,
+                                "name": "T. Hestad",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 318181,
+                                "name": "P. Brekke",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 39356,
+                                "name": "M. Andersen",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 274589,
+                                "name": "T. Suhr-Stamnes",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 415955,
+                                "name": "N. Skum",
+                                "number": 12,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 335931,
+                                "name": "K. Holsb\u00f8",
+                                "number": 25,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

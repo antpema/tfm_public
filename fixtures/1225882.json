@@ -1,0 +1,916 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1225882"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1225882,
+                "referee": "V. Falov",
+                "timezone": "UTC",
+                "date": "2024-07-28T16:00:00+00:00",
+                "timestamp": 1722182400,
+                "periods": {
+                    "first": 1722182400,
+                    "second": 1722186000
+                },
+                "venue": {
+                    "id": 2834,
+                    "name": "Olimpiyskiy Stadion Fisht",
+                    "city": "Sochi"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 236,
+                "name": "First League",
+                "country": "Russia",
+                "logo": "https://media.api-sports.io/football/leagues/236.png",
+                "flag": "https://media.api-sports.io/flags/ru.svg",
+                "season": 2024,
+                "round": "Regular Season - 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 2012,
+                    "name": "FC Sochi",
+                    "logo": "https://media.api-sports.io/football/teams/2012.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 1087,
+                    "name": "Ska-khabarovsk",
+                    "logo": "https://media.api-sports.io/football/teams/1087.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 43,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1087,
+                        "name": "Ska-khabarovsk",
+                        "logo": "https://media.api-sports.io/football/teams/1087.png"
+                    },
+                    "player": {
+                        "id": 150209,
+                        "name": "G. Gongadze"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 2012,
+                        "name": "FC Sochi",
+                        "logo": "https://media.api-sports.io/football/teams/2012.png"
+                    },
+                    "player": {
+                        "id": 43351,
+                        "name": "Kirill Zaika"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 58,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1087,
+                        "name": "Ska-khabarovsk",
+                        "logo": "https://media.api-sports.io/football/teams/1087.png"
+                    },
+                    "player": {
+                        "id": 150209,
+                        "name": "G. Gongadze"
+                    },
+                    "assist": {
+                        "id": 125374,
+                        "name": "A. Gongapshev"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2012,
+                        "name": "FC Sochi",
+                        "logo": "https://media.api-sports.io/football/teams/2012.png"
+                    },
+                    "player": {
+                        "id": 180380,
+                        "name": "Marcelo Alves"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 60,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2012,
+                        "name": "FC Sochi",
+                        "logo": "https://media.api-sports.io/football/teams/2012.png"
+                    },
+                    "player": {
+                        "id": 43804,
+                        "name": "I. Safronov"
+                    },
+                    "assist": {
+                        "id": 105579,
+                        "name": "M. Kramari\u010d"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 60,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2012,
+                        "name": "FC Sochi",
+                        "logo": "https://media.api-sports.io/football/teams/2012.png"
+                    },
+                    "player": {
+                        "id": 43742,
+                        "name": "A. Makarchuk"
+                    },
+                    "assist": {
+                        "id": 43762,
+                        "name": "R. Magal"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1087,
+                        "name": "Ska-khabarovsk",
+                        "logo": "https://media.api-sports.io/football/teams/1087.png"
+                    },
+                    "player": {
+                        "id": 75995,
+                        "name": "A. Simonyan"
+                    },
+                    "assist": {
+                        "id": 270104,
+                        "name": "N. Miroshnichenko"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1087,
+                        "name": "Ska-khabarovsk",
+                        "logo": "https://media.api-sports.io/football/teams/1087.png"
+                    },
+                    "player": {
+                        "id": 109576,
+                        "name": "N. Sadiki"
+                    },
+                    "assist": {
+                        "id": 97699,
+                        "name": "Y. Zhuravlev"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 74,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1087,
+                        "name": "Ska-khabarovsk",
+                        "logo": "https://media.api-sports.io/football/teams/1087.png"
+                    },
+                    "player": {
+                        "id": 267980,
+                        "name": "Nikita Pershin"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 76,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2012,
+                        "name": "FC Sochi",
+                        "logo": "https://media.api-sports.io/football/teams/2012.png"
+                    },
+                    "player": {
+                        "id": 382908,
+                        "name": "R. Bart"
+                    },
+                    "assist": {
+                        "id": 43352,
+                        "name": "N. Burmistrov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 76,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2012,
+                        "name": "FC Sochi",
+                        "logo": "https://media.api-sports.io/football/teams/2012.png"
+                    },
+                    "player": {
+                        "id": 162172,
+                        "name": "K. Kravtsov"
+                    },
+                    "assist": {
+                        "id": 324438,
+                        "name": "R. Shagiakhmetov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 79,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1087,
+                        "name": "Ska-khabarovsk",
+                        "logo": "https://media.api-sports.io/football/teams/1087.png"
+                    },
+                    "player": {
+                        "id": 43597,
+                        "name": "K. Aliev"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 79,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1087,
+                        "name": "Ska-khabarovsk",
+                        "logo": "https://media.api-sports.io/football/teams/1087.png"
+                    },
+                    "player": {
+                        "id": 408726,
+                        "name": "E. Noskov"
+                    },
+                    "assist": {
+                        "id": 137577,
+                        "name": "N. Poyarkov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 79,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1087,
+                        "name": "Ska-khabarovsk",
+                        "logo": "https://media.api-sports.io/football/teams/1087.png"
+                    },
+                    "player": {
+                        "id": 267980,
+                        "name": "N. Pershin"
+                    },
+                    "assist": {
+                        "id": 115618,
+                        "name": "R. Gadzhimuradov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 81,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2012,
+                        "name": "FC Sochi",
+                        "logo": "https://media.api-sports.io/football/teams/2012.png"
+                    },
+                    "player": {
+                        "id": 66147,
+                        "name": "V. Levin"
+                    },
+                    "assist": {
+                        "id": 415454,
+                        "name": "Z. Fedorov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1087,
+                        "name": "Ska-khabarovsk",
+                        "logo": "https://media.api-sports.io/football/teams/1087.png"
+                    },
+                    "player": {
+                        "id": 202282,
+                        "name": "Islam Imamov"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2012,
+                        "name": "FC Sochi",
+                        "logo": "https://media.api-sports.io/football/teams/2012.png"
+                    },
+                    "player": {
+                        "id": 43518,
+                        "name": "O. Kozhemyakin"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 2012,
+                        "name": "FC Sochi",
+                        "logo": "https://media.api-sports.io/football/teams/2012.png",
+                        "colors": {
+                            "player": {
+                                "primary": "ffffff",
+                                "number": "033154",
+                                "border": "ffffff"
+                            },
+                            "goalkeeper": {
+                                "primary": "cef35c",
+                                "number": "0e1115",
+                                "border": "cef35c"
+                            }
+                        }
+                    },
+                    "coach": {
+                        "id": 208,
+                        "name": "Robert Moreno",
+                        "photo": "https://media.api-sports.io/football/coachs/208.png"
+                    },
+                    "formation": "4-3-3",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 55390,
+                                "name": "M. Rudakov",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43351,
+                                "name": "K. Zaika",
+                                "number": 27,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 180380,
+                                "name": "Marcelo Alves",
+                                "number": 33,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43518,
+                                "name": "O. Kozhemyakin",
+                                "number": 22,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43742,
+                                "name": "A. Makarchuk",
+                                "number": 17,
+                                "pos": "M",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 11371,
+                                "name": "I. Saavedra",
+                                "number": 21,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 162172,
+                                "name": "K. Kravtsov",
+                                "number": 14,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66147,
+                                "name": "V. Levin",
+                                "number": 6,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 157992,
+                                "name": "S. Guarirapa",
+                                "number": 23,
+                                "pos": "F",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 382908,
+                                "name": "R. Bart",
+                                "number": 59,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43804,
+                                "name": "I. Safronov",
+                                "number": 77,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 105579,
+                                "name": "M. Kramari\u010d",
+                                "number": 10,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43762,
+                                "name": "R. Magal",
+                                "number": 28,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43352,
+                                "name": "N. Burmistrov",
+                                "number": 18,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 324438,
+                                "name": "R. Shagiakhmetov",
+                                "number": 72,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 415454,
+                                "name": "Z. Fedorov",
+                                "number": 11,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43558,
+                                "name": "V. Litvinov",
+                                "number": 4,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43342,
+                                "name": "N. Zabolotny",
+                                "number": 12,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43453,
+                                "name": "K. Suslov",
+                                "number": 15,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 284129,
+                                "name": "N. Karabashev",
+                                "number": 16,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 149870,
+                                "name": "K. Ushatov",
+                                "number": 19,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 107516,
+                                "name": "A. Makarov",
+                                "number": 88,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 166841,
+                                "name": "V. Lazarev",
+                                "number": 89,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 1087,
+                        "name": "Ska-khabarovsk",
+                        "logo": "https://media.api-sports.io/football/teams/1087.png",
+                        "colors": {
+                            "player": {
+                                "primary": "c0c0c0",
+                                "number": "0033ff",
+                                "border": "c0c0c0"
+                            },
+                            "goalkeeper": {
+                                "primary": "000000",
+                                "number": "ffffff",
+                                "border": "000000"
+                            }
+                        }
+                    },
+                    "coach": {
+                        "id": 1091,
+                        "name": "D. Voetskiy",
+                        "photo": "https://media.api-sports.io/football/coachs/1091.png"
+                    },
+                    "formation": "4-1-4-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 202282,
+                                "name": "I. Imamov",
+                                "number": 78,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43510,
+                                "name": "N. Pokidyshev",
+                                "number": 17,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 408726,
+                                "name": "E. Noskov",
+                                "number": 91,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 374173,
+                                "name": "A. Bykov",
+                                "number": 55,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 109576,
+                                "name": "N. Sadiki",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 53632,
+                                "name": "Y. Bavin",
+                                "number": 14,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 43597,
+                                "name": "K. Aliev",
+                                "number": 20,
+                                "pos": "M",
+                                "grid": "4:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 162894,
+                                "name": "D. Tsallagov",
+                                "number": 77,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 267980,
+                                "name": "N. Pershin",
+                                "number": 46,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 75995,
+                                "name": "A. Simonyan",
+                                "number": 7,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 150209,
+                                "name": "G. Gongadze",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 125374,
+                                "name": "A. Gongapshev",
+                                "number": 11,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 270104,
+                                "name": "N. Miroshnichenko",
+                                "number": 18,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 97699,
+                                "name": "Y. Zhuravlev",
+                                "number": 44,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 137577,
+                                "name": "N. Poyarkov",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 115618,
+                                "name": "R. Gadzhimuradov",
+                                "number": 70,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 150042,
+                                "name": "A. Kuznetsov",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 97793,
+                                "name": "A. Gagloev",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 387134,
+                                "name": "J. Charles",
+                                "number": 29,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 139796,
+                                "name": "R. Khalimbekov",
+                                "number": 33,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 53763,
+                                "name": "M. Kostyukov",
+                                "number": 88,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

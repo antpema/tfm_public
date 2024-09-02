@@ -1,0 +1,439 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1212090"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1212090,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-10T13:00:00+00:00",
+                "timestamp": 1723294800,
+                "periods": {
+                    "first": 1723294800,
+                    "second": 1723298400
+                },
+                "venue": {
+                    "id": 2508,
+                    "name": "Stadion Kvapilova",
+                    "city": "T\u00e1bor"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 346,
+                "name": "FNL",
+                "country": "Czech-Republic",
+                "logo": "https://media.api-sports.io/football/leagues/346.png",
+                "flag": "https://media.api-sports.io/flags/cz.svg",
+                "season": 2024,
+                "round": "Regular Season - 5"
+            },
+            "teams": {
+                "home": {
+                    "id": 3726,
+                    "name": "T\u00e1borsko",
+                    "logo": "https://media.api-sports.io/football/teams/3726.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 3733,
+                    "name": "Zbrojovka Brno",
+                    "logo": "https://media.api-sports.io/football/teams/3733.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 33,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3726,
+                        "name": "T\u00e1borsko",
+                        "logo": "https://media.api-sports.io/football/teams/3726.png"
+                    },
+                    "player": {
+                        "id": 377067,
+                        "name": "M. Varacka"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": "Tripping"
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3726,
+                        "name": "T\u00e1borsko",
+                        "logo": "https://media.api-sports.io/football/teams/3726.png"
+                    },
+                    "player": {
+                        "id": 203528,
+                        "name": "N. Sunzu"
+                    },
+                    "assist": {
+                        "id": 302365,
+                        "name": "M. Kone"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3726,
+                        "name": "T\u00e1borsko",
+                        "logo": "https://media.api-sports.io/football/teams/3726.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "J. Kubovsky"
+                    },
+                    "assist": {
+                        "id": 66081,
+                        "name": "J. Sasinka"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 56,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3733,
+                        "name": "Zbrojovka Brno",
+                        "logo": "https://media.api-sports.io/football/teams/3733.png"
+                    },
+                    "player": {
+                        "id": 378175,
+                        "name": "L. Kubr"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "F. Gyamfi"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 56,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3733,
+                        "name": "Zbrojovka Brno",
+                        "logo": "https://media.api-sports.io/football/teams/3733.png"
+                    },
+                    "player": {
+                        "id": 8765,
+                        "name": "J. Reznicek"
+                    },
+                    "assist": {
+                        "id": 271972,
+                        "name": "D. Jambor"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 57,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3733,
+                        "name": "Zbrojovka Brno",
+                        "logo": "https://media.api-sports.io/football/teams/3733.png"
+                    },
+                    "player": {
+                        "id": 66057,
+                        "name": "R. Potocny"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Holding"
+                },
+                {
+                    "time": {
+                        "elapsed": 57,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3726,
+                        "name": "T\u00e1borsko",
+                        "logo": "https://media.api-sports.io/football/teams/3726.png"
+                    },
+                    "player": {
+                        "id": 66633,
+                        "name": "P. Plachy"
+                    },
+                    "assist": {
+                        "id": 66148,
+                        "name": "J. Necas"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3733,
+                        "name": "Zbrojovka Brno",
+                        "logo": "https://media.api-sports.io/football/teams/3733.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "D. Svancara"
+                    },
+                    "assist": {
+                        "id": 396321,
+                        "name": "A. Kronus"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3733,
+                        "name": "Zbrojovka Brno",
+                        "logo": "https://media.api-sports.io/football/teams/3733.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "D. Polak"
+                    },
+                    "assist": {
+                        "id": 66285,
+                        "name": "J. Texl"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 77,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3733,
+                        "name": "Zbrojovka Brno",
+                        "logo": "https://media.api-sports.io/football/teams/3733.png"
+                    },
+                    "player": {
+                        "id": 8765,
+                        "name": "J. Reznicek"
+                    },
+                    "assist": {
+                        "id": 66061,
+                        "name": "D. Granecny"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 79,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3726,
+                        "name": "T\u00e1borsko",
+                        "logo": "https://media.api-sports.io/football/teams/3726.png"
+                    },
+                    "player": {
+                        "id": 66477,
+                        "name": "O. Blaha"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Roughing"
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3733,
+                        "name": "Zbrojovka Brno",
+                        "logo": "https://media.api-sports.io/football/teams/3733.png"
+                    },
+                    "player": {
+                        "id": 66117,
+                        "name": "J. Janetzky"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Foul"
+                },
+                {
+                    "time": {
+                        "elapsed": 84,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3726,
+                        "name": "T\u00e1borsko",
+                        "logo": "https://media.api-sports.io/football/teams/3726.png"
+                    },
+                    "player": {
+                        "id": 357703,
+                        "name": "J. Mach"
+                    },
+                    "assist": {
+                        "id": 66478,
+                        "name": "B. Djordjic"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 84,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3726,
+                        "name": "T\u00e1borsko",
+                        "logo": "https://media.api-sports.io/football/teams/3726.png"
+                    },
+                    "player": {
+                        "id": 66470,
+                        "name": "P. Heppner"
+                    },
+                    "assist": {
+                        "id": 140227,
+                        "name": "M. Foltyn"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3733,
+                        "name": "Zbrojovka Brno",
+                        "logo": "https://media.api-sports.io/football/teams/3733.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "C. Matekovic"
+                    },
+                    "assist": {
+                        "id": 66057,
+                        "name": "R. Potocny"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 89,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3733,
+                        "name": "Zbrojovka Brno",
+                        "logo": "https://media.api-sports.io/football/teams/3733.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "D. Polak"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Tripping"
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

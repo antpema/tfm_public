@@ -1,0 +1,956 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1146232"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1146232,
+                "referee": "M. D\u00edaz de Vivar",
+                "timezone": "UTC",
+                "date": "2024-07-20T20:00:00+00:00",
+                "timestamp": 1721505600,
+                "periods": {
+                    "first": 1721505600,
+                    "second": 1721509200
+                },
+                "venue": {
+                    "id": 1224,
+                    "name": "Estadio Lu\u00eds Alfonso Giagni",
+                    "city": "Asunci\u00f3n"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 252,
+                "name": "Division Profesional - Clausura",
+                "country": "Paraguay",
+                "logo": "https://media.api-sports.io/football/leagues/252.png",
+                "flag": "https://media.api-sports.io/flags/py.svg",
+                "season": 2024,
+                "round": "Clausura - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 10491,
+                    "name": "Tacuary",
+                    "logo": "https://media.api-sports.io/football/teams/10491.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 1179,
+                    "name": "Libertad Asuncion",
+                    "logo": "https://media.api-sports.io/football/teams/1179.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 4
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 3
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 4
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 32,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1179,
+                        "name": "Libertad Asuncion",
+                        "logo": "https://media.api-sports.io/football/teams/1179.png"
+                    },
+                    "player": {
+                        "id": 70745,
+                        "name": "A. Bareiro"
+                    },
+                    "assist": {
+                        "id": 377174,
+                        "name": "R. Lezcano"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 41,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1179,
+                        "name": "Libertad Asuncion",
+                        "logo": "https://media.api-sports.io/football/teams/1179.png"
+                    },
+                    "player": {
+                        "id": 70736,
+                        "name": "H. Mart\u00ednez"
+                    },
+                    "assist": {
+                        "id": 70745,
+                        "name": "A. Bareiro"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 43,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10491,
+                        "name": "Tacuary",
+                        "logo": "https://media.api-sports.io/football/teams/10491.png"
+                    },
+                    "player": {
+                        "id": 126651,
+                        "name": "L. Caceres"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": 5
+                    },
+                    "team": {
+                        "id": 1179,
+                        "name": "Libertad Asuncion",
+                        "logo": "https://media.api-sports.io/football/teams/1179.png"
+                    },
+                    "player": {
+                        "id": 377174,
+                        "name": "R. Lezcano"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10491,
+                        "name": "Tacuary",
+                        "logo": "https://media.api-sports.io/football/teams/10491.png"
+                    },
+                    "player": {
+                        "id": 70773,
+                        "name": "N. Mor\u00ednigo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10491,
+                        "name": "Tacuary",
+                        "logo": "https://media.api-sports.io/football/teams/10491.png"
+                    },
+                    "player": {
+                        "id": 354716,
+                        "name": "G. Medina"
+                    },
+                    "assist": {
+                        "id": 363117,
+                        "name": "L. Romero"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1179,
+                        "name": "Libertad Asuncion",
+                        "logo": "https://media.api-sports.io/football/teams/1179.png"
+                    },
+                    "player": {
+                        "id": 377174,
+                        "name": "R. Lezcano"
+                    },
+                    "assist": {
+                        "id": 70776,
+                        "name": "A. Silva"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10491,
+                        "name": "Tacuary",
+                        "logo": "https://media.api-sports.io/football/teams/10491.png"
+                    },
+                    "player": {
+                        "id": 95235,
+                        "name": "O. Colm\u00e1n"
+                    },
+                    "assist": {
+                        "id": 11749,
+                        "name": "L. Riveros"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10491,
+                        "name": "Tacuary",
+                        "logo": "https://media.api-sports.io/football/teams/10491.png"
+                    },
+                    "player": {
+                        "id": 25225,
+                        "name": "D. Lezcano"
+                    },
+                    "assist": {
+                        "id": 410326,
+                        "name": "S. Bedoya"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1179,
+                        "name": "Libertad Asuncion",
+                        "logo": "https://media.api-sports.io/football/teams/1179.png"
+                    },
+                    "player": {
+                        "id": 374098,
+                        "name": "R. Villalba"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1179,
+                        "name": "Libertad Asuncion",
+                        "logo": "https://media.api-sports.io/football/teams/1179.png"
+                    },
+                    "player": {
+                        "id": 70775,
+                        "name": "R. Santa Cruz"
+                    },
+                    "assist": {
+                        "id": 70743,
+                        "name": "G. Aguilar"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 70,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1179,
+                        "name": "Libertad Asuncion",
+                        "logo": "https://media.api-sports.io/football/teams/1179.png"
+                    },
+                    "player": {
+                        "id": 374098,
+                        "name": "R. Villalba"
+                    },
+                    "assist": {
+                        "id": 415980,
+                        "name": "M. Schabus"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 76,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10491,
+                        "name": "Tacuary",
+                        "logo": "https://media.api-sports.io/football/teams/10491.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "S. Corrales"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1179,
+                        "name": "Libertad Asuncion",
+                        "logo": "https://media.api-sports.io/football/teams/1179.png"
+                    },
+                    "player": {
+                        "id": 70762,
+                        "name": "H. Caballero"
+                    },
+                    "assist": {
+                        "id": 70740,
+                        "name": "C. Riveros"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1179,
+                        "name": "Libertad Asuncion",
+                        "logo": "https://media.api-sports.io/football/teams/1179.png"
+                    },
+                    "player": {
+                        "id": 70745,
+                        "name": "A. Bareiro"
+                    },
+                    "assist": {
+                        "id": 70766,
+                        "name": "W. Mendieta"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10491,
+                        "name": "Tacuary",
+                        "logo": "https://media.api-sports.io/football/teams/10491.png"
+                    },
+                    "player": {
+                        "id": 10538,
+                        "name": "F. Brizuela"
+                    },
+                    "assist": {
+                        "id": 278328,
+                        "name": "M. N\u00fa\u00f1ez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10491,
+                        "name": "Tacuary",
+                        "logo": "https://media.api-sports.io/football/teams/10491.png"
+                    },
+                    "player": {
+                        "id": 69168,
+                        "name": "R. Pedrozo"
+                    },
+                    "assist": {
+                        "id": 70793,
+                        "name": "W. Clar"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 88,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10491,
+                        "name": "Tacuary",
+                        "logo": "https://media.api-sports.io/football/teams/10491.png"
+                    },
+                    "player": {
+                        "id": 70773,
+                        "name": "N. Mor\u00ednigo"
+                    },
+                    "assist": {
+                        "id": 11749,
+                        "name": "L. Riveros"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 3
+                    },
+                    "team": {
+                        "id": 1179,
+                        "name": "Libertad Asuncion",
+                        "logo": "https://media.api-sports.io/football/teams/1179.png"
+                    },
+                    "player": {
+                        "id": 415980,
+                        "name": "M. Schabus"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 10491,
+                        "name": "Tacuary",
+                        "logo": "https://media.api-sports.io/football/teams/10491.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 22679,
+                        "name": "M. Palau",
+                        "photo": "https://media.api-sports.io/football/coachs/22679.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 10183,
+                                "name": "V\u00e1gner",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70547,
+                                "name": "M. C\u00e1ceres",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 126651,
+                                "name": "L. C\u00e1ceres",
+                                "number": 33,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70755,
+                                "name": "A. Fern\u00e1ndez",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 69168,
+                                "name": "R. Pedrozo",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 95235,
+                                "name": "O. Colm\u00e1n",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 352722,
+                                "name": "A. Amarilla",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 354716,
+                                "name": "G. Medina",
+                                "number": 27,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 25225,
+                                "name": "D. Lezcano",
+                                "number": 25,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70773,
+                                "name": "N. Mor\u00ednigo",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 10538,
+                                "name": "F. Brizuela",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 363117,
+                                "name": "L. Romero",
+                                "number": 26,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 11749,
+                                "name": "L. Riveros",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 410326,
+                                "name": "S. Bedoya",
+                                "number": 35,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70793,
+                                "name": "W. Clar",
+                                "number": 37,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 278328,
+                                "name": "M. N\u00fa\u00f1ez",
+                                "number": 36,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 95288,
+                                "name": "J. Verd\u00fan",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 54660,
+                                "name": "Valdeci",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 95538,
+                                "name": "P. Espinoza",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 465909,
+                                "name": "M. Arguello",
+                                "number": 34,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 10053,
+                                "name": "Helerson",
+                                "number": 30,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 10175,
+                                "name": "O. Berr\u00edo",
+                                "number": 28,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 352718,
+                                "name": "A. Bareiro",
+                                "number": 12,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 1179,
+                        "name": "Libertad Asuncion",
+                        "logo": "https://media.api-sports.io/football/teams/1179.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 13448,
+                        "name": "A. Galeano",
+                        "photo": "https://media.api-sports.io/football/coachs/13448.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 70720,
+                                "name": "R. Mor\u00ednigo",
+                                "number": 12,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 2503,
+                                "name": "I. Piris",
+                                "number": 33,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 6305,
+                                "name": "D. Viera",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 95216,
+                                "name": "M. Jacquet",
+                                "number": 27,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 95259,
+                                "name": "N. Gim\u00e9nez",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70762,
+                                "name": "H. Caballero",
+                                "number": 26,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70736,
+                                "name": "H. Mart\u00ednez",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 374098,
+                                "name": "R. Villalba",
+                                "number": 35,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 377174,
+                                "name": "R. Lezcano",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70775,
+                                "name": "R. Santa Cruz",
+                                "number": 24,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70745,
+                                "name": "A. Bareiro",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 70776,
+                                "name": "A. Silva",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70743,
+                                "name": "G. Aguilar",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 415980,
+                                "name": "M. Schabus",
+                                "number": 37,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70766,
+                                "name": "W. Mendieta",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70740,
+                                "name": "C. Riveros",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70733,
+                                "name": "\u00c1. Cardozo Lucena",
+                                "number": 36,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 2609,
+                                "name": "M. Silva",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70671,
+                                "name": "I. Ram\u00edrez",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70475,
+                                "name": "\u00d3. Cardozo",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70741,
+                                "name": "L. Sanabria",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1788,
+                                "name": "L. Melgarejo",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 466317,
+                                "name": "S. Del Valle",
+                                "number": 38,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

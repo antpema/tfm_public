@@ -1,0 +1,581 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1209558"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1209558,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-19T18:00:00+00:00",
+                "timestamp": 1721412000,
+                "periods": {
+                    "first": 1721412000,
+                    "second": 1721415600
+                },
+                "venue": {
+                    "id": 10709,
+                    "name": "Erftstadion Euskirchen",
+                    "city": "Euskirchen"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 192,
+                    "name": "1.FC K\u00f6ln",
+                    "logo": "https://media.api-sports.io/football/teams/192.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 735,
+                    "name": "St. Truiden",
+                    "logo": "https://media.api-sports.io/football/teams/735.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 3,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 3,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 17,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 192,
+                        "name": "1.FC K\u00f6ln",
+                        "logo": "https://media.api-sports.io/football/teams/192.png"
+                    },
+                    "player": {
+                        "id": 203040,
+                        "name": "T. Lemperle"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 54,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 192,
+                        "name": "1.FC K\u00f6ln",
+                        "logo": "https://media.api-sports.io/football/teams/192.png"
+                    },
+                    "player": {
+                        "id": 334362,
+                        "name": "D. Downs"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 192,
+                        "name": "1.FC K\u00f6ln",
+                        "logo": "https://media.api-sports.io/football/teams/192.png"
+                    },
+                    "player": {
+                        "id": 91181,
+                        "name": "F. Dietz"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 192,
+                        "name": "1.FC K\u00f6ln",
+                        "logo": "https://media.api-sports.io/football/teams/192.png",
+                        "colors": {
+                            "player": {
+                                "primary": "ffffff",
+                                "number": "ff0000",
+                                "border": "ffffff"
+                            },
+                            "goalkeeper": {
+                                "primary": "0f0f0f",
+                                "number": "fbf9f9",
+                                "border": "0f0f0f"
+                            }
+                        }
+                    },
+                    "formation": "3-2-4-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 203376,
+                                "name": "Jonas Urbig",
+                                "number": 40,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 90641,
+                                "name": "Timo H\u00fcbers",
+                                "number": 4,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Julian Pauli",
+                                "number": 24,
+                                "pos": null,
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 355167,
+                                "name": "Max Finkgrafe",
+                                "number": 35,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 162480,
+                                "name": "Eric Martel",
+                                "number": 6,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1725,
+                                "name": "Dejan Ljubi\u010di\u0107",
+                                "number": 7,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 181908,
+                                "name": "Jan Thielmann",
+                                "number": 29,
+                                "pos": "M",
+                                "grid": "4:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 24803,
+                                "name": "Florian Kainz",
+                                "number": 11,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 202838,
+                                "name": "Denis Huseinba\u0161i\u0107",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 203040,
+                                "name": "Tim Lemperle",
+                                "number": 19,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 334362,
+                                "name": "Damion Downs",
+                                "number": 42,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 334358,
+                                "name": "Meiko W\u00e4schenbach",
+                                "number": null,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 24993,
+                                "name": "Sargis Adamyan",
+                                "number": null,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 26237,
+                                "name": "Dominique Heintz",
+                                "number": null,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 25178,
+                                "name": "Leart Paqarada",
+                                "number": null,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 334337,
+                                "name": "Rijad Smajic",
+                                "number": null,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15907,
+                                "name": "Jacob Christensen",
+                                "number": null,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 140612,
+                                "name": "Mathias Olesen",
+                                "number": null,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Jaka Cuber Potocnik",
+                                "number": null,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 91181,
+                                "name": "Florian Dietz",
+                                "number": null,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 26343,
+                                "name": "Steffen Tigges",
+                                "number": null,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15871,
+                                "name": "Marvin Schw\u00e4be",
+                                "number": null,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 12774,
+                        "name": "T. Schultz",
+                        "photo": "https://media.api-sports.io/football/coachs/12774.png"
+                    }
+                },
+                {
+                    "team": {
+                        "id": 735,
+                        "name": "St. Truiden",
+                        "logo": "https://media.api-sports.io/football/teams/735.png",
+                        "colors": {
+                            "player": {
+                                "primary": "040404",
+                                "number": "ffffff",
+                                "border": "040404"
+                            },
+                            "goalkeeper": {
+                                "primary": "c0c0c0",
+                                "number": "000000",
+                                "border": "c0c0c0"
+                            }
+                        }
+                    },
+                    "formation": "4-4-2",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 26143,
+                                "name": "Jo Coppens",
+                                "number": null,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 428636,
+                                "name": "Alouis Diriken",
+                                "number": 33,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 358380,
+                                "name": "Rein Van Helden",
+                                "number": 20,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 8583,
+                                "name": "Bruno Godeau",
+                                "number": 31,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 8516,
+                                "name": "Wolke Janssens",
+                                "number": 22,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 381316,
+                                "name": "Robert-Jan Vanwesemael",
+                                "number": 60,
+                                "pos": "M",
+                                "grid": "3:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 319513,
+                                "name": "Olivier Dumont",
+                                "number": 14,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 32923,
+                                "name": "Ryotaro Ito",
+                                "number": 13,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 32855,
+                                "name": "Ryoya Ogawa",
+                                "number": 2,
+                                "pos": "D",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 129126,
+                                "name": "Adriano Bertaccini",
+                                "number": 91,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 162900,
+                                "name": "Joselpho Barnes",
+                                "number": 23,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 377293,
+                                "name": "Matt Lendfers",
+                                "number": null,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 324897,
+                                "name": "David Mindombe",
+                                "number": null,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 425826,
+                                "name": "Tristan Teuchy",
+                                "number": null,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 25200,
+                                "name": "Frederic Ananou",
+                                "number": null,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Mamadou Diallo",
+                                "number": null,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 425828,
+                                "name": "Adam Nhaili",
+                                "number": null,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Mats Kuipers",
+                                "number": null,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 431405,
+                                "name": "Kahveh Zahiroleslam",
+                                "number": null,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 19427,
+                        "name": "C. Lattanzio",
+                        "photo": "https://media.api-sports.io/football/coachs/19427.png"
+                    }
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

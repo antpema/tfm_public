@@ -1,0 +1,406 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1220029"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1220029,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-31T17:00:00+00:00",
+                "timestamp": 1722445200,
+                "periods": {
+                    "first": 1722445200,
+                    "second": 1722448800
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Gal Hierba Artificial",
+                    "city": "Irun"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "PEN",
+                    "elapsed": 120
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 9586,
+                    "name": "Real Uni\u00f3n",
+                    "logo": "https://media.api-sports.io/football/teams/9586.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 98,
+                    "name": "Ajaccio",
+                    "logo": "https://media.api-sports.io/football/teams/98.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": 0,
+                    "away": 1
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 3,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 9586,
+                        "name": "Real Uni\u00f3n",
+                        "logo": "https://media.api-sports.io/football/teams/9586.png"
+                    },
+                    "player": {
+                        "id": 185094,
+                        "name": "A. Quintana"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 31,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 98,
+                        "name": "Ajaccio",
+                        "logo": "https://media.api-sports.io/football/teams/98.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 40,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 98,
+                        "name": "Ajaccio",
+                        "logo": "https://media.api-sports.io/football/teams/98.png"
+                    },
+                    "player": {
+                        "id": 174711,
+                        "name": "C. Ibayi"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 9586,
+                        "name": "Real Uni\u00f3n",
+                        "logo": "https://media.api-sports.io/football/teams/9586.png",
+                        "colors": {
+                            "player": {
+                                "primary": "ffffff",
+                                "number": "000000",
+                                "border": "ffffff"
+                            },
+                            "goalkeeper": {
+                                "primary": "66cc00",
+                                "number": "ffffff",
+                                "border": "66cc00"
+                            }
+                        }
+                    },
+                    "formation": "3-5-2",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Charlie P\u00e9rez",
+                                "number": 25,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 183064,
+                                "name": "V\u00edctor Eimil",
+                                "number": 19,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 162605,
+                                "name": "Javi Dom\u00ednguez",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Jos\u00e9 Carlos M\u00e1rquez",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Victor San Bartolome Prieto",
+                                "number": 21,
+                                "pos": "M",
+                                "grid": "3:5"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 185094,
+                                "name": "Alberto Quintana",
+                                "number": 6,
+                                "pos": "M",
+                                "grid": "3:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 131536,
+                                "name": "Ander Vidorreta",
+                                "number": 16,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 181566,
+                                "name": "Iker Bilbao",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 134241,
+                                "name": "Aitor Aranzabe",
+                                "number": 7,
+                                "pos": "F",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 197939,
+                                "name": "Ivan Ayllon",
+                                "number": 23,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 127376,
+                                "name": "Asier Benito",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 6847,
+                        "name": "Fran Justo",
+                        "photo": "https://media.api-sports.io/football/coachs/6847.png"
+                    }
+                },
+                {
+                    "team": {
+                        "id": 98,
+                        "name": "Ajaccio",
+                        "logo": "https://media.api-sports.io/football/teams/98.png",
+                        "colors": {
+                            "player": {
+                                "primary": "9f0000",
+                                "number": "ffffff",
+                                "border": "9f0000"
+                            },
+                            "goalkeeper": {
+                                "primary": "f3f040",
+                                "number": "ffffff",
+                                "border": "f3f040"
+                            }
+                        }
+                    },
+                    "formation": "4-3-3",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 20938,
+                                "name": "Francois-Joseph Sollacaro",
+                                "number": 16,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 127546,
+                                "name": "Matthieu Huard",
+                                "number": 37,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 193715,
+                                "name": "Jesah Ayessa",
+                                "number": 31,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 21575,
+                                "name": "Clement Vidal",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Julien Prenant",
+                                "number": 29,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 325783,
+                                "name": "Everson Junior",
+                                "number": 17,
+                                "pos": "F",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 153603,
+                                "name": "Al Hassan Toure",
+                                "number": 19,
+                                "pos": "F",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 21148,
+                                "name": "Thomas Mangani",
+                                "number": 6,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 20592,
+                                "name": "Yoann Touzghar",
+                                "number": 7,
+                                "pos": "F",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 174711,
+                                "name": "Christopher Ibayi",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 21317,
+                                "name": "Benjamin Santelli",
+                                "number": 99,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 1466,
+                        "name": "O. Pantaloni",
+                        "photo": "https://media.api-sports.io/football/coachs/1466.png"
+                    }
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

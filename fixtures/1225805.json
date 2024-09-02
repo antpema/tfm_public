@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1225805"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1225805,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-03T14:00:00+00:00",
+                "timestamp": 1722693600,
+                "periods": {
+                    "first": 1722693600,
+                    "second": 1722697200
+                },
+                "venue": {
+                    "id": 11897,
+                    "name": "Kuflink Stadium",
+                    "city": "Northfleet, Kent"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 1840,
+                    "name": "Ebbsfleet United",
+                    "logo": "https://media.api-sports.io/football/teams/1840.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 1362,
+                    "name": "Crawley Town",
+                    "logo": "https://media.api-sports.io/football/teams/1362.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1362,
+                        "name": "Crawley Town",
+                        "logo": "https://media.api-sports.io/football/teams/1362.png"
+                    },
+                    "player": {
+                        "id": 197844,
+                        "name": "H. Forster"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 86,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1840,
+                        "name": "Ebbsfleet United",
+                        "logo": "https://media.api-sports.io/football/teams/1840.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Own Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

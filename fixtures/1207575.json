@@ -1,0 +1,805 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1207575"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1207575,
+                "referee": "G. Ivanov",
+                "timezone": "UTC",
+                "date": "2024-07-21T15:30:00+00:00",
+                "timestamp": 1721575800,
+                "periods": {
+                    "first": 1721575800,
+                    "second": 1721579400
+                },
+                "venue": {
+                    "id": 12285,
+                    "name": "Stadion Tsar Samuil",
+                    "city": "Petrich"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 173,
+                "name": "Second League",
+                "country": "Bulgaria",
+                "logo": "https://media.api-sports.io/football/leagues/173.png",
+                "flag": "https://media.api-sports.io/flags/bg.svg",
+                "season": 2024,
+                "round": "Regular Season - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 8540,
+                    "name": "Belasitsa",
+                    "logo": "https://media.api-sports.io/football/teams/8540.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 1421,
+                    "name": "Strumska Slava",
+                    "logo": "https://media.api-sports.io/football/teams/1421.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 3,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 3,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 18,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8540,
+                        "name": "Belasitsa",
+                        "logo": "https://media.api-sports.io/football/teams/8540.png"
+                    },
+                    "player": {
+                        "id": 10640,
+                        "name": "R. Sandev"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Own Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8540,
+                        "name": "Belasitsa",
+                        "logo": "https://media.api-sports.io/football/teams/8540.png"
+                    },
+                    "player": {
+                        "id": 426673,
+                        "name": "M. Todorski"
+                    },
+                    "assist": {
+                        "id": 380349,
+                        "name": "K. Eta"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1421,
+                        "name": "Strumska Slava",
+                        "logo": "https://media.api-sports.io/football/teams/1421.png"
+                    },
+                    "player": {
+                        "id": 154873,
+                        "name": "E. Iliev"
+                    },
+                    "assist": {
+                        "id": 457995,
+                        "name": "A. Kadri\u0107"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1421,
+                        "name": "Strumska Slava",
+                        "logo": "https://media.api-sports.io/football/teams/1421.png"
+                    },
+                    "player": {
+                        "id": 10776,
+                        "name": "M. Kostov"
+                    },
+                    "assist": {
+                        "id": 281893,
+                        "name": "M. Stoilov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 53,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8540,
+                        "name": "Belasitsa",
+                        "logo": "https://media.api-sports.io/football/teams/8540.png"
+                    },
+                    "player": {
+                        "id": 195395,
+                        "name": "Lucas Grossi"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 57,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8540,
+                        "name": "Belasitsa",
+                        "logo": "https://media.api-sports.io/football/teams/8540.png"
+                    },
+                    "player": {
+                        "id": 195395,
+                        "name": "Lucas Grossi"
+                    },
+                    "assist": {
+                        "id": 10756,
+                        "name": "V. Bozhinov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 61,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8540,
+                        "name": "Belasitsa",
+                        "logo": "https://media.api-sports.io/football/teams/8540.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 66,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8540,
+                        "name": "Belasitsa",
+                        "logo": "https://media.api-sports.io/football/teams/8540.png"
+                    },
+                    "player": {
+                        "id": 375628,
+                        "name": "D. Ivanov"
+                    },
+                    "assist": {
+                        "id": 10877,
+                        "name": "A. Smilkov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 66,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1421,
+                        "name": "Strumska Slava",
+                        "logo": "https://media.api-sports.io/football/teams/1421.png"
+                    },
+                    "player": {
+                        "id": 10704,
+                        "name": "G. Mariyanov"
+                    },
+                    "assist": {
+                        "id": 475769,
+                        "name": "J. Ivanoff"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 66,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1421,
+                        "name": "Strumska Slava",
+                        "logo": "https://media.api-sports.io/football/teams/1421.png"
+                    },
+                    "player": {
+                        "id": 10820,
+                        "name": "T. Vachev"
+                    },
+                    "assist": {
+                        "id": 398927,
+                        "name": "M. Ivanov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 76,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1421,
+                        "name": "Strumska Slava",
+                        "logo": "https://media.api-sports.io/football/teams/1421.png"
+                    },
+                    "player": {
+                        "id": 374650,
+                        "name": "S. Georgiev"
+                    },
+                    "assist": {
+                        "id": 288795,
+                        "name": "A. Videnov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8540,
+                        "name": "Belasitsa",
+                        "logo": "https://media.api-sports.io/football/teams/8540.png"
+                    },
+                    "player": {
+                        "id": 71495,
+                        "name": "A. Karachorov"
+                    },
+                    "assist": {
+                        "id": 78170,
+                        "name": "A. Dimitrov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8540,
+                        "name": "Belasitsa",
+                        "logo": "https://media.api-sports.io/football/teams/8540.png"
+                    },
+                    "player": {
+                        "id": 10673,
+                        "name": "A. Gushterov"
+                    },
+                    "assist": {
+                        "id": 289094,
+                        "name": "Zhivko Dimitrov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 3
+                    },
+                    "team": {
+                        "id": 1421,
+                        "name": "Strumska Slava",
+                        "logo": "https://media.api-sports.io/football/teams/1421.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 5
+                    },
+                    "team": {
+                        "id": 8540,
+                        "name": "Belasitsa",
+                        "logo": "https://media.api-sports.io/football/teams/8540.png"
+                    },
+                    "player": {
+                        "id": 289094,
+                        "name": "Zhivko Dimitrov"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 8540,
+                        "name": "Belasitsa",
+                        "logo": "https://media.api-sports.io/football/teams/8540.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 13243,
+                        "name": "Daniel Morales",
+                        "photo": "https://media.api-sports.io/football/coachs/13243.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 289086,
+                                "name": "Zahari Dimitrov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 71495,
+                                "name": "A. Karachorov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 126720,
+                                "name": "M. Ruskov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 289088,
+                                "name": "A. Shamkalov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 375630,
+                                "name": "V. Kostov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 269292,
+                                "name": "V. Gogov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 426674,
+                                "name": "A. Taonsa",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 426673,
+                                "name": "M. Todorski",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 10673,
+                                "name": "A. Gushterov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 195395,
+                                "name": "Lucas Grossi",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 375628,
+                                "name": "D. Ivanov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 380349,
+                                "name": "K. Eta",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 10756,
+                                "name": "V. Bozhinov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 10877,
+                                "name": "A. Smilkov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 78170,
+                                "name": "A. Dimitrov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 289094,
+                                "name": "Zhivko Dimitrov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 451845,
+                                "name": "A. Popov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 289098,
+                                "name": "I. Marchev",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 289087,
+                                "name": "K. Georgiev",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 287015,
+                                "name": "R. Parlikov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 1421,
+                        "name": "Strumska Slava",
+                        "logo": "https://media.api-sports.io/football/teams/1421.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 1636,
+                        "name": "V. Dimitrov",
+                        "photo": "https://media.api-sports.io/football/coachs/1636.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 10772,
+                                "name": "D. Petkov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 10640,
+                                "name": "R. Sandev",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 10698,
+                                "name": "D. Mitsakov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 10776,
+                                "name": "M. Kostov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 263212,
+                                "name": "M. Dilchovski",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 10784,
+                                "name": "G. Yanev",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 10704,
+                                "name": "G. Mariyanov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 374650,
+                                "name": "S. Georgiev",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 10792,
+                                "name": "B. Nikolov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 10820,
+                                "name": "T. Vachev",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 154873,
+                                "name": "E. Iliev",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 457995,
+                                "name": "A. Kadri\u0107",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 281893,
+                                "name": "M. Stoilov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 475769,
+                                "name": "J. Ivanoff",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 398927,
+                                "name": "M. Ivanov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 288795,
+                                "name": "A. Videnov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 10663,
+                                "name": "A. Aleksandrov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 456450,
+                                "name": "R. Rashkov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 476327,
+                                "name": "T. Durev",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

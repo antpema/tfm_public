@@ -1,0 +1,746 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1212053"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1212053,
+                "referee": "J. Pet\u0159\u00edk",
+                "timezone": "UTC",
+                "date": "2024-07-22T15:30:00+00:00",
+                "timestamp": 1721662200,
+                "periods": {
+                    "first": 1721662200,
+                    "second": 1721665800
+                },
+                "venue": {
+                    "id": 2513,
+                    "name": "Stadion v Jir\u00e1skov\u011b ulici",
+                    "city": "Jihlava"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 346,
+                "name": "FNL",
+                "country": "Czech-Republic",
+                "logo": "https://media.api-sports.io/football/leagues/346.png",
+                "flag": "https://media.api-sports.io/flags/cz.svg",
+                "season": 2024,
+                "round": "Regular Season - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 3731,
+                    "name": "Vyso\u010dina Jihlava",
+                    "logo": "https://media.api-sports.io/football/teams/3731.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 3733,
+                    "name": "Zbrojovka Brno",
+                    "logo": "https://media.api-sports.io/football/teams/3733.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 4,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3733,
+                        "name": "Zbrojovka Brno",
+                        "logo": "https://media.api-sports.io/football/teams/3733.png"
+                    },
+                    "player": {
+                        "id": 66117,
+                        "name": "J. Janetzk\u00fd"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 30,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3733,
+                        "name": "Zbrojovka Brno",
+                        "logo": "https://media.api-sports.io/football/teams/3733.png"
+                    },
+                    "player": {
+                        "id": 803,
+                        "name": "L. Pernica"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Holding"
+                },
+                {
+                    "time": {
+                        "elapsed": 38,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3733,
+                        "name": "Zbrojovka Brno",
+                        "logo": "https://media.api-sports.io/football/teams/3733.png"
+                    },
+                    "player": {
+                        "id": 396321,
+                        "name": "A. Kronus"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Holding"
+                },
+                {
+                    "time": {
+                        "elapsed": 42,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3731,
+                        "name": "Vyso\u010dina Jihlava",
+                        "logo": "https://media.api-sports.io/football/teams/3731.png"
+                    },
+                    "player": {
+                        "id": 66679,
+                        "name": "M. Lacko"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Roughing"
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3731,
+                        "name": "Vyso\u010dina Jihlava",
+                        "logo": "https://media.api-sports.io/football/teams/3731.png"
+                    },
+                    "player": {
+                        "id": 323825,
+                        "name": "T. Fran\u011bk"
+                    },
+                    "assist": {
+                        "id": 376338,
+                        "name": "M. K\u0159ehl\u00edk"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 66,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3733,
+                        "name": "Zbrojovka Brno",
+                        "logo": "https://media.api-sports.io/football/teams/3733.png"
+                    },
+                    "player": {
+                        "id": 396321,
+                        "name": "A. Kronus"
+                    },
+                    "assist": {
+                        "id": 66061,
+                        "name": "D. Grane\u010dn\u00fd"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 66,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3733,
+                        "name": "Zbrojovka Brno",
+                        "logo": "https://media.api-sports.io/football/teams/3733.png"
+                    },
+                    "player": {
+                        "id": 123454,
+                        "name": "T. Smejkal"
+                    },
+                    "assist": {
+                        "id": 60451,
+                        "name": "W. Alli"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3733,
+                        "name": "Zbrojovka Brno",
+                        "logo": "https://media.api-sports.io/football/teams/3733.png"
+                    },
+                    "player": {
+                        "id": 436274,
+                        "name": "C. Matekovi\u0107"
+                    },
+                    "assist": {
+                        "id": 66285,
+                        "name": "J. Texl"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3733,
+                        "name": "Zbrojovka Brno",
+                        "logo": "https://media.api-sports.io/football/teams/3733.png"
+                    },
+                    "player": {
+                        "id": 378175,
+                        "name": "L. Kubr"
+                    },
+                    "assist": {
+                        "id": 271972,
+                        "name": "D. Jambor"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 74,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3731,
+                        "name": "Vyso\u010dina Jihlava",
+                        "logo": "https://media.api-sports.io/football/teams/3731.png"
+                    },
+                    "player": {
+                        "id": 162192,
+                        "name": "M. Ho\u0161ek"
+                    },
+                    "assist": {
+                        "id": 476433,
+                        "name": "M. Smutn\u00fd"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 78,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3731,
+                        "name": "Vyso\u010dina Jihlava",
+                        "logo": "https://media.api-sports.io/football/teams/3731.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "D. Stetka"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": "Holding"
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3733,
+                        "name": "Zbrojovka Brno",
+                        "logo": "https://media.api-sports.io/football/teams/3733.png"
+                    },
+                    "player": {
+                        "id": 66057,
+                        "name": "R. Potocny"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Unsportsmanlike conduct"
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3731,
+                        "name": "Vyso\u010dina Jihlava",
+                        "logo": "https://media.api-sports.io/football/teams/3731.png"
+                    },
+                    "player": {
+                        "id": 426136,
+                        "name": "A. Pe\u0161ek"
+                    },
+                    "assist": {
+                        "id": 426135,
+                        "name": "J. Chytr\u00fd"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 84,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3733,
+                        "name": "Zbrojovka Brno",
+                        "logo": "https://media.api-sports.io/football/teams/3733.png"
+                    },
+                    "player": {
+                        "id": 66057,
+                        "name": "R. Poto\u010dn\u00fd"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 3
+                    },
+                    "team": {
+                        "id": 3731,
+                        "name": "Vyso\u010dina Jihlava",
+                        "logo": "https://media.api-sports.io/football/teams/3731.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "J. Chytry"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Holding"
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 1
+                    },
+                    "team": {
+                        "id": 3733,
+                        "name": "Zbrojovka Brno",
+                        "logo": "https://media.api-sports.io/football/teams/3733.png"
+                    },
+                    "player": {
+                        "id": 66057,
+                        "name": "R. Poto\u010dn\u00fd"
+                    },
+                    "assist": {
+                        "id": 449649,
+                        "name": "D. \u0160vancara"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 3731,
+                        "name": "Vyso\u010dina Jihlava",
+                        "logo": "https://media.api-sports.io/football/teams/3731.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 1183,
+                        "name": "D. Oulehla",
+                        "photo": "https://media.api-sports.io/football/coachs/1183.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 66720,
+                                "name": "P. Soukup",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 162192,
+                                "name": "M. Ho\u0161ek",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 161869,
+                                "name": "D. \u0160t\u011btka",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 343746,
+                                "name": "M. Boussou",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 401060,
+                                "name": "B. Khalid",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66679,
+                                "name": "M. Lacko",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70479,
+                                "name": "J. Selnar",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 409945,
+                                "name": "F. \u0160ancl",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 426136,
+                                "name": "A. Pe\u0161ek",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 237352,
+                                "name": "J. Araujo-Wilson",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 323825,
+                                "name": "T. Fran\u011bk",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 376338,
+                                "name": "M. K\u0159ehl\u00edk",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 476433,
+                                "name": "M. Smutn\u00fd",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 426135,
+                                "name": "J. Chytr\u00fd",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 3733,
+                        "name": "Zbrojovka Brno",
+                        "logo": "https://media.api-sports.io/football/teams/3733.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 17635,
+                        "name": "J. Hynek",
+                        "photo": "https://media.api-sports.io/football/coachs/17635.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 797,
+                                "name": "D. Sv\u00e1\u010dek",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 803,
+                                "name": "L. Pernica",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66163,
+                                "name": "M. Nov\u00fd",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66402,
+                                "name": "J. \u0160ural",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 80432,
+                                "name": "F. \u0160t\u011bp\u00e1nek",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 378175,
+                                "name": "L. Kubr",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66057,
+                                "name": "R. Poto\u010dn\u00fd",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66117,
+                                "name": "J. Janetzk\u00fd",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 123454,
+                                "name": "T. Smejkal",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 396321,
+                                "name": "A. Kronus",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 436274,
+                                "name": "C. Matekovi\u0107",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 66061,
+                                "name": "D. Grane\u010dn\u00fd",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 60451,
+                                "name": "W. Alli",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 66285,
+                                "name": "J. Texl",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 271972,
+                                "name": "D. Jambor",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 449649,
+                                "name": "D. \u0160vancara",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

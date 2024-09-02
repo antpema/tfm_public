@@ -1,0 +1,981 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1212878"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1212878,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-23T19:30:00+00:00",
+                "timestamp": 1721763000,
+                "periods": {
+                    "first": 1721763000,
+                    "second": 1721766600
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Est\u00e1dio Do Algarve",
+                    "city": "Almancil"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 228,
+                    "name": "Sporting CP",
+                    "logo": "https://media.api-sports.io/football/teams/228.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 536,
+                    "name": "Sevilla",
+                    "logo": "https://media.api-sports.io/football/teams/536.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 5,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 536,
+                        "name": "Sevilla",
+                        "logo": "https://media.api-sports.io/football/teams/536.png"
+                    },
+                    "player": {
+                        "id": 957,
+                        "name": "Djibril Sow"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 15,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 228,
+                        "name": "Sporting CP",
+                        "logo": "https://media.api-sports.io/football/teams/228.png"
+                    },
+                    "player": {
+                        "id": 341641,
+                        "name": "Rodrigo Ribeiro"
+                    },
+                    "assist": {
+                        "id": 41194,
+                        "name": "Nuno Santos"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 31,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 228,
+                        "name": "Sporting CP",
+                        "logo": "https://media.api-sports.io/football/teams/228.png"
+                    },
+                    "player": {
+                        "id": 41194,
+                        "name": "Nuno Santos"
+                    },
+                    "assist": {
+                        "id": 41099,
+                        "name": "Ricardo Esgaio"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 33,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 536,
+                        "name": "Sevilla",
+                        "logo": "https://media.api-sports.io/football/teams/536.png"
+                    },
+                    "player": {
+                        "id": 1911,
+                        "name": "Lucas Ocampos"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 536,
+                        "name": "Sevilla",
+                        "logo": "https://media.api-sports.io/football/teams/536.png"
+                    },
+                    "player": {
+                        "id": 1489,
+                        "name": "Nemanja Gudelj"
+                    },
+                    "assist": {
+                        "id": 133110,
+                        "name": "Tanguy Nianzou"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 536,
+                        "name": "Sevilla",
+                        "logo": "https://media.api-sports.io/football/teams/536.png"
+                    },
+                    "player": {
+                        "id": 1911,
+                        "name": "Lucas Ocampos"
+                    },
+                    "assist": {
+                        "id": 1650,
+                        "name": "Suso"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 228,
+                        "name": "Sporting CP",
+                        "logo": "https://media.api-sports.io/football/teams/228.png"
+                    },
+                    "player": {
+                        "id": 41112,
+                        "name": "Francisco Trinc\u00e3o"
+                    },
+                    "assist": {
+                        "id": 341641,
+                        "name": "Rodrigo Ribeiro"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 54,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 228,
+                        "name": "Sporting CP",
+                        "logo": "https://media.api-sports.io/football/teams/228.png"
+                    },
+                    "player": {
+                        "id": 37148,
+                        "name": "Jeremiah St. Juste"
+                    },
+                    "assist": {
+                        "id": 336575,
+                        "name": "Diogo Travassos"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 536,
+                        "name": "Sevilla",
+                        "logo": "https://media.api-sports.io/football/teams/536.png"
+                    },
+                    "player": {
+                        "id": 39121,
+                        "name": "Chidera Ejuke"
+                    },
+                    "assist": {
+                        "id": 284241,
+                        "name": "Mateo Mejia"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 536,
+                        "name": "Sevilla",
+                        "logo": "https://media.api-sports.io/football/teams/536.png"
+                    },
+                    "player": {
+                        "id": 47329,
+                        "name": "Adri\u00e0 Pedrosa"
+                    },
+                    "assist": {
+                        "id": 331607,
+                        "name": "Manu Bueno"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 536,
+                        "name": "Sevilla",
+                        "logo": "https://media.api-sports.io/football/teams/536.png"
+                    },
+                    "player": {
+                        "id": 297311,
+                        "name": "Kike Salas"
+                    },
+                    "assist": {
+                        "id": 433,
+                        "name": "Marc\u00e3o"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 536,
+                        "name": "Sevilla",
+                        "logo": "https://media.api-sports.io/football/teams/536.png"
+                    },
+                    "player": {
+                        "id": 335057,
+                        "name": "Dar\u00edo Benavides"
+                    },
+                    "assist": {
+                        "id": 360411,
+                        "name": "Alberto Collado"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 6",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 536,
+                        "name": "Sevilla",
+                        "logo": "https://media.api-sports.io/football/teams/536.png"
+                    },
+                    "player": {
+                        "id": 957,
+                        "name": "Djibril Sow"
+                    },
+                    "assist": {
+                        "id": 340152,
+                        "name": "Stanis Idumbo Muzambo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 7",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 536,
+                        "name": "Sevilla",
+                        "logo": "https://media.api-sports.io/football/teams/536.png"
+                    },
+                    "player": {
+                        "id": 1427,
+                        "name": "Albert Sambi Lokonga"
+                    },
+                    "assist": {
+                        "id": 197196,
+                        "name": "Ram\u00f3n Mart\u00ednez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 8",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 536,
+                        "name": "Sevilla",
+                        "logo": "https://media.api-sports.io/football/teams/536.png"
+                    },
+                    "player": {
+                        "id": 48,
+                        "name": "Sa\u00fal \u00d1\u00edguez"
+                    },
+                    "assist": {
+                        "id": 335037,
+                        "name": "Diego Hormigo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 9",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 536,
+                        "name": "Sevilla",
+                        "logo": "https://media.api-sports.io/football/teams/536.png"
+                    },
+                    "player": {
+                        "id": 185398,
+                        "name": "Isaac Romero"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "Pablo Rivera"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 10",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 79,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 536,
+                        "name": "Sevilla",
+                        "logo": "https://media.api-sports.io/football/teams/536.png"
+                    },
+                    "player": {
+                        "id": 197196,
+                        "name": "Ram\u00f3n Mart\u00ednez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 228,
+                        "name": "Sporting CP",
+                        "logo": "https://media.api-sports.io/football/teams/228.png"
+                    },
+                    "player": {
+                        "id": 354753,
+                        "name": "Ousmane Diomande"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 536,
+                        "name": "Sevilla",
+                        "logo": "https://media.api-sports.io/football/teams/536.png"
+                    },
+                    "player": {
+                        "id": 360411,
+                        "name": "Alberto Collado"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 228,
+                        "name": "Sporting CP",
+                        "logo": "https://media.api-sports.io/football/teams/228.png"
+                    },
+                    "player": {
+                        "id": 154839,
+                        "name": "Geny Catamo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": "Miguel Monteiro Alves"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 86,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 536,
+                        "name": "Sevilla",
+                        "logo": "https://media.api-sports.io/football/teams/536.png"
+                    },
+                    "player": {
+                        "id": 197196,
+                        "name": "Ram\u00f3n Mart\u00ednez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 228,
+                        "name": "Sporting CP",
+                        "logo": "https://media.api-sports.io/football/teams/228.png"
+                    },
+                    "player": {
+                        "id": 262845,
+                        "name": "Eduardo Quaresma"
+                    },
+                    "assist": {
+                        "id": 338748,
+                        "name": "Samuel Justo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 228,
+                        "name": "Sporting CP",
+                        "logo": "https://media.api-sports.io/football/teams/228.png",
+                        "colors": {
+                            "player": {
+                                "primary": "187312",
+                                "number": "ffffff",
+                                "border": "187312"
+                            },
+                            "goalkeeper": {
+                                "primary": "fee62e",
+                                "number": "000000",
+                                "border": "fee62e"
+                            }
+                        }
+                    },
+                    "formation": "5-2-3",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 70336,
+                                "name": "Vladan Kova\u010devi\u0107",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 154839,
+                                "name": "Geny Catamo",
+                                "number": 21,
+                                "pos": "M",
+                                "grid": "2:5"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 262845,
+                                "name": "Eduardo Quaresma",
+                                "number": 72,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 354753,
+                                "name": "Ousmane Diomande",
+                                "number": 26,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 37148,
+                                "name": "Jeremiah St. Juste",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41194,
+                                "name": "Nuno Santos",
+                                "number": 11,
+                                "pos": "M",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 32960,
+                                "name": "Hidemasa Morita",
+                                "number": 5,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41892,
+                                "name": "Daniel Bragan\u00e7a",
+                                "number": 23,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41112,
+                                "name": "Francisco Trinc\u00e3o",
+                                "number": 17,
+                                "pos": "F",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 341641,
+                                "name": "Rodrigo Ribeiro",
+                                "number": 37,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 18748,
+                                "name": "Pedro Gon\u00e7alves",
+                                "number": 8,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 41099,
+                                "name": "Ricardo Esgaio",
+                                "number": null,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 336575,
+                                "name": "Diogo Travassos",
+                                "number": null,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Miguel Monteiro Alves",
+                                "number": null,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 338748,
+                                "name": "Samuel Justo",
+                                "number": null,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Francisco Silva",
+                                "number": null,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 336676,
+                                "name": "Diogo Pinto",
+                                "number": null,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 4720,
+                        "name": "R\u00faben Amorim",
+                        "photo": "https://media.api-sports.io/football/coachs/4720.png"
+                    }
+                },
+                {
+                    "team": {
+                        "id": 536,
+                        "name": "Sevilla",
+                        "logo": "https://media.api-sports.io/football/teams/536.png",
+                        "colors": {
+                            "player": {
+                                "primary": "c40000",
+                                "number": "d5c78c",
+                                "border": "c40000"
+                            },
+                            "goalkeeper": {
+                                "primary": "e8ff01",
+                                "number": "0d0d0d",
+                                "border": "e8ff01"
+                            }
+                        }
+                    },
+                    "formation": "4-3-3",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 308346,
+                                "name": "Alberto Flores",
+                                "number": 31,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 335057,
+                                "name": "Dar\u00edo Benavides",
+                                "number": 29,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1489,
+                                "name": "Nemanja Gudelj",
+                                "number": 6,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 297311,
+                                "name": "Kike Salas",
+                                "number": 4,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 47329,
+                                "name": "Adri\u00e0 Pedrosa",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1427,
+                                "name": "Albert Sambi Lokonga",
+                                "number": 12,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 48,
+                                "name": "Sa\u00fal \u00d1\u00edguez",
+                                "number": 17,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 957,
+                                "name": "Djibril Sow",
+                                "number": 20,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1911,
+                                "name": "Lucas Ocampos",
+                                "number": 5,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 185398,
+                                "name": "Isaac Romero",
+                                "number": 7,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 39121,
+                                "name": "Chidera Ejuke",
+                                "number": 21,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 133110,
+                                "name": "Tanguy Nianzou",
+                                "number": null,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 1650,
+                                "name": "Suso",
+                                "number": null,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 197196,
+                                "name": "Ram\u00f3n Mart\u00ednez",
+                                "number": null,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 335037,
+                                "name": "Diego Hormigo",
+                                "number": null,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 433,
+                                "name": "Marc\u00e3o",
+                                "number": null,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 331607,
+                                "name": "Manu Bueno",
+                                "number": null,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 360411,
+                                "name": "Alberto Collado",
+                                "number": null,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Pablo Rivera",
+                                "number": null,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 340152,
+                                "name": "Stanis Idumbo Muzambo",
+                                "number": null,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 284241,
+                                "name": "Mateo Mejia",
+                                "number": null,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 331330,
+                                "name": "Mat\u00edas \u00c1rbol",
+                                "number": null,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 21,
+                        "name": "Quique S\u00e1nchez Flores",
+                        "photo": "https://media.api-sports.io/football/coachs/21.png"
+                    }
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

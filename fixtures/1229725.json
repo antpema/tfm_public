@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1229725"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1229725,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-10T12:00:00+00:00",
+                "timestamp": 1723291200,
+                "periods": {
+                    "first": 1723291200,
+                    "second": 1723294800
+                },
+                "venue": {
+                    "id": 10596,
+                    "name": "Haapsalu Staadion",
+                    "city": "Haapsalu"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 1126,
+                "name": "Esiliiga B",
+                "country": "Estonia",
+                "logo": "https://media.api-sports.io/football/leagues/1126.png",
+                "flag": "https://media.api-sports.io/flags/ee.svg",
+                "season": 2024,
+                "round": "Regular Season - 22"
+            },
+            "teams": {
+                "home": {
+                    "id": 14309,
+                    "name": "L\u00e4\u00e4nemaa Haapsalu",
+                    "logo": "https://media.api-sports.io/football/teams/14309.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 16962,
+                    "name": "Tartu Kalev",
+                    "logo": "https://media.api-sports.io/football/teams/16962.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 66,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 16962,
+                        "name": "Tartu Kalev",
+                        "logo": "https://media.api-sports.io/football/teams/16962.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "A. Varusk"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 84,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14309,
+                        "name": "L\u00e4\u00e4nemaa Haapsalu",
+                        "logo": "https://media.api-sports.io/football/teams/14309.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "M. Salf"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

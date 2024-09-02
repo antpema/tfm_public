@@ -1,0 +1,836 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1207589"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1207589,
+                "referee": "K. Krastev",
+                "timezone": "UTC",
+                "date": "2024-08-03T15:00:00+00:00",
+                "timestamp": 1722697200,
+                "periods": {
+                    "first": 1722697200,
+                    "second": 1722700800
+                },
+                "venue": {
+                    "id": 301,
+                    "name": "Gradski stadion",
+                    "city": "Nesebar"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 173,
+                "name": "Second League",
+                "country": "Bulgaria",
+                "logo": "https://media.api-sports.io/football/leagues/173.png",
+                "flag": "https://media.api-sports.io/flags/bg.svg",
+                "season": 2024,
+                "round": "Regular Season - 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 1410,
+                    "name": "Nesebar",
+                    "logo": "https://media.api-sports.io/football/teams/1410.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 1419,
+                    "name": "Litex",
+                    "logo": "https://media.api-sports.io/football/teams/1419.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 3,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1419,
+                        "name": "Litex",
+                        "logo": "https://media.api-sports.io/football/teams/1419.png"
+                    },
+                    "player": {
+                        "id": 10916,
+                        "name": "E. Ignatov"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 5,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1419,
+                        "name": "Litex",
+                        "logo": "https://media.api-sports.io/football/teams/1419.png"
+                    },
+                    "player": {
+                        "id": 395431,
+                        "name": "K. Buchi"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1410,
+                        "name": "Nesebar",
+                        "logo": "https://media.api-sports.io/football/teams/1410.png"
+                    },
+                    "player": {
+                        "id": 295615,
+                        "name": "V. Kunev"
+                    },
+                    "assist": {
+                        "id": 10620,
+                        "name": "N. Gavov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1410,
+                        "name": "Nesebar",
+                        "logo": "https://media.api-sports.io/football/teams/1410.png"
+                    },
+                    "player": {
+                        "id": 448974,
+                        "name": "D. Ivanov"
+                    },
+                    "assist": {
+                        "id": 107956,
+                        "name": "S. Velinov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1419,
+                        "name": "Litex",
+                        "logo": "https://media.api-sports.io/football/teams/1419.png"
+                    },
+                    "player": {
+                        "id": 395430,
+                        "name": "S. Abdulganiyu"
+                    },
+                    "assist": {
+                        "id": 323721,
+                        "name": "Y. Kasov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 47,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1419,
+                        "name": "Litex",
+                        "logo": "https://media.api-sports.io/football/teams/1419.png"
+                    },
+                    "player": {
+                        "id": 409200,
+                        "name": "N. Yankov"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 58,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1410,
+                        "name": "Nesebar",
+                        "logo": "https://media.api-sports.io/football/teams/1410.png"
+                    },
+                    "player": {
+                        "id": 10900,
+                        "name": "V. Yanev"
+                    },
+                    "assist": {
+                        "id": 71477,
+                        "name": "K. Parashkevov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1410,
+                        "name": "Nesebar",
+                        "logo": "https://media.api-sports.io/football/teams/1410.png"
+                    },
+                    "player": {
+                        "id": 11072,
+                        "name": "D. Balinov"
+                    },
+                    "assist": {
+                        "id": 323720,
+                        "name": "N. Gelin"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1410,
+                        "name": "Nesebar",
+                        "logo": "https://media.api-sports.io/football/teams/1410.png"
+                    },
+                    "player": {
+                        "id": 10652,
+                        "name": "V. Hristov"
+                    },
+                    "assist": {
+                        "id": 10949,
+                        "name": "N. Pyuskyulyu"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1419,
+                        "name": "Litex",
+                        "logo": "https://media.api-sports.io/football/teams/1419.png"
+                    },
+                    "player": {
+                        "id": 395431,
+                        "name": "K. Buchi"
+                    },
+                    "assist": {
+                        "id": 357881,
+                        "name": "Y. Lozanov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 79,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1419,
+                        "name": "Litex",
+                        "logo": "https://media.api-sports.io/football/teams/1419.png"
+                    },
+                    "player": {
+                        "id": 10916,
+                        "name": "E. Ignatov"
+                    },
+                    "assist": {
+                        "id": 476298,
+                        "name": "G. Dimitrov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 79,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1419,
+                        "name": "Litex",
+                        "logo": "https://media.api-sports.io/football/teams/1419.png"
+                    },
+                    "player": {
+                        "id": 476291,
+                        "name": "M. Banev"
+                    },
+                    "assist": {
+                        "id": 427443,
+                        "name": "S. Ivanov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 81,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1410,
+                        "name": "Nesebar",
+                        "logo": "https://media.api-sports.io/football/teams/1410.png"
+                    },
+                    "player": {
+                        "id": 11101,
+                        "name": "P. Dimov"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 84,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1410,
+                        "name": "Nesebar",
+                        "logo": "https://media.api-sports.io/football/teams/1410.png"
+                    },
+                    "player": {
+                        "id": 107956,
+                        "name": "S. Velinov"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 4
+                    },
+                    "team": {
+                        "id": 1419,
+                        "name": "Litex",
+                        "logo": "https://media.api-sports.io/football/teams/1419.png"
+                    },
+                    "player": {
+                        "id": 10683,
+                        "name": "V. Vasilev"
+                    },
+                    "assist": {
+                        "id": 382285,
+                        "name": "V. Nankov"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 2
+                    },
+                    "team": {
+                        "id": 1410,
+                        "name": "Nesebar",
+                        "logo": "https://media.api-sports.io/football/teams/1410.png"
+                    },
+                    "player": {
+                        "id": 323720,
+                        "name": "N. Gelin"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 1410,
+                        "name": "Nesebar",
+                        "logo": "https://media.api-sports.io/football/teams/1410.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 3658,
+                        "name": "N. Zhechev",
+                        "photo": "https://media.api-sports.io/football/coachs/3658.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 312607,
+                                "name": "P. Pepelyashev",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 11101,
+                                "name": "P. Dimov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 78103,
+                                "name": "N. Kostov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 11303,
+                                "name": "I. Stoyanov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 11072,
+                                "name": "D. Balinov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 448974,
+                                "name": "D. Ivanov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 10652,
+                                "name": "V. Hristov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 176689,
+                                "name": "V. Slivov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 10900,
+                                "name": "V. Yanev",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 295615,
+                                "name": "V. Kunev",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 325684,
+                                "name": "A. Uzunov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 10620,
+                                "name": "N. Gavov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 107956,
+                                "name": "S. Velinov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 71477,
+                                "name": "K. Parashkevov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 323720,
+                                "name": "N. Gelin",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 10949,
+                                "name": "N. Pyuskyulyu",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 390535,
+                                "name": "A. Minev",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 269306,
+                                "name": "G. Dalev",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 427439,
+                                "name": "H. Georgiev",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 476859,
+                                "name": "M. Kaishev",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 1419,
+                        "name": "Litex",
+                        "logo": "https://media.api-sports.io/football/teams/1419.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 1637,
+                        "name": "Z. Zhelev",
+                        "photo": "https://media.api-sports.io/football/coachs/1637.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 476296,
+                                "name": "I. Nedelchev",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 10695,
+                                "name": "I. Ivanov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 10615,
+                                "name": "G. Tashev",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 268433,
+                                "name": "P. Kepov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 409200,
+                                "name": "N. Yankov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 367489,
+                                "name": "K. Valkov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 395431,
+                                "name": "K. Buchi",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 476291,
+                                "name": "M. Banev",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 10916,
+                                "name": "E. Ignatov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 10683,
+                                "name": "V. Vasilev",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 395430,
+                                "name": "S. Abdulganiyu",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 323721,
+                                "name": "Y. Kasov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 357881,
+                                "name": "Y. Lozanov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 476298,
+                                "name": "G. Dimitrov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 427443,
+                                "name": "S. Ivanov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 382285,
+                                "name": "V. Nankov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 476297,
+                                "name": "B. Stefkov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 366348,
+                                "name": "D. Georgiev",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 477390,
+                                "name": "D. Tsonev",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 442449,
+                                "name": "M. Yankov",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

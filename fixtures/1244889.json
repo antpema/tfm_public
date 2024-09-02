@@ -1,0 +1,362 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1244889"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1244889,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-18T15:30:00+00:00",
+                "timestamp": 1721316600,
+                "periods": {
+                    "first": 1721316600,
+                    "second": 1721320200
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Holzhaider-Stadion",
+                    "city": "Freistadt"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 2929,
+                    "name": "Al-Ahli Jeddah",
+                    "logo": "https://media.api-sports.io/football/teams/2929.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 2255,
+                    "name": "Ujpest",
+                    "logo": "https://media.api-sports.io/football/teams/2255.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 11,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2929,
+                        "name": "Al-Ahli Jeddah",
+                        "logo": "https://media.api-sports.io/football/teams/2929.png"
+                    },
+                    "player": {
+                        "id": 302,
+                        "name": "R. Firmino"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 2929,
+                        "name": "Al-Ahli Jeddah",
+                        "logo": "https://media.api-sports.io/football/teams/2929.png",
+                        "colors": {
+                            "player": {
+                                "primary": "ffffff",
+                                "number": "00520e",
+                                "border": "ffffff"
+                            },
+                            "goalkeeper": {
+                                "primary": "002aa5",
+                                "number": "ffffff",
+                                "border": "002aa5"
+                            }
+                        }
+                    },
+                    "formation": "4-2-3-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 2986,
+                                "name": "Edouard Mendy",
+                                "number": 16,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": null,
+                                "name": "Mohammed Sulaiman Bakor",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 144699,
+                                "name": "Fahad Al Hamad",
+                                "number": 26,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 30424,
+                                "name": "Roger Iba\u00f1ez",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 44367,
+                                "name": "Ali Majrashi",
+                                "number": 27,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 44754,
+                                "name": "Ali Al-Asmari",
+                                "number": 40,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 269172,
+                                "name": "Ziyad Aljohani",
+                                "number": 30,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 635,
+                                "name": "Riyad Mahrez",
+                                "number": 7,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 302,
+                                "name": "Roberto Firmino",
+                                "number": 10,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 442321,
+                                "name": "Abdulkarim Darisi",
+                                "number": 45,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 44324,
+                                "name": "Firas Al-Buraikan",
+                                "number": 20,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 13959,
+                        "name": "M. Jaissle",
+                        "photo": "https://media.api-sports.io/football/coachs/13959.png"
+                    }
+                },
+                {
+                    "team": {
+                        "id": 2255,
+                        "name": "Ujpest",
+                        "logo": "https://media.api-sports.io/football/teams/2255.png",
+                        "colors": {
+                            "player": {
+                                "primary": "ffffff",
+                                "number": "000000",
+                                "border": "ffffff"
+                            },
+                            "goalkeeper": {
+                                "primary": "000000",
+                                "number": "ffffff",
+                                "border": "000000"
+                            }
+                        }
+                    },
+                    "formation": "3-4-2-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 31222,
+                                "name": "Riccardo Piscitelli",
+                                "number": 93,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 20685,
+                                "name": "Barnab\u00e1s Bese",
+                                "number": 33,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 40438,
+                                "name": "Jo\u00e3o Nunes",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 27780,
+                                "name": "Bence Gerg\u00e9nyi",
+                                "number": 44,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 2337,
+                                "name": "Kriszti\u00e1n Tam\u00e1s",
+                                "number": 22,
+                                "pos": "D",
+                                "grid": "3:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 28597,
+                                "name": "M\u00e1ty\u00e1s Tajti",
+                                "number": 10,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 426200,
+                                "name": "B\u00e1lint Geiger",
+                                "number": 26,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 339179,
+                                "name": "Nimrod Baranyai",
+                                "number": 25,
+                                "pos": "D",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41590,
+                                "name": "Kevin Csoboth",
+                                "number": 77,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41243,
+                                "name": "Matija Ljuji\u0107",
+                                "number": 88,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 22267,
+                                "name": "Mamoudou Karamoko",
+                                "number": 70,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 4040,
+                        "name": "G. M\u00e9sz\u00f6ly",
+                        "photo": "https://media.api-sports.io/football/coachs/4040.png"
+                    }
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

@@ -1,0 +1,131 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1198807"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1198807,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-10T18:00:00+00:00",
+                "timestamp": 1723312800,
+                "periods": {
+                    "first": 1723312800,
+                    "second": 1723316400
+                },
+                "venue": {
+                    "id": 5638,
+                    "name": "Est\u00e1dio Municipal Anacleto Campanella",
+                    "city": "S\u00e3o Caetano do Sul, S\u00e3o Paulo"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 742,
+                "name": "Copa Paulista",
+                "country": "Brazil",
+                "logo": "https://media.api-sports.io/football/leagues/742.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "season": 2024,
+                "round": "1st Round - 9"
+            },
+            "teams": {
+                "home": {
+                    "id": 7786,
+                    "name": "S\u00e3o Caetano",
+                    "logo": "https://media.api-sports.io/football/teams/7786.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 143,
+                    "name": "Oeste",
+                    "logo": "https://media.api-sports.io/football/teams/143.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 48,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7786,
+                        "name": "S\u00e3o Caetano",
+                        "logo": "https://media.api-sports.io/football/teams/7786.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "Gabriel Bonet"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 4
+                    },
+                    "team": {
+                        "id": 7786,
+                        "name": "S\u00e3o Caetano",
+                        "logo": "https://media.api-sports.io/football/teams/7786.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "Wermeson"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

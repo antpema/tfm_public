@@ -1,0 +1,153 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1209567"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1209567,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-07-19T18:45:00+00:00",
+                "timestamp": 1721414700,
+                "periods": {
+                    "first": 1721414700,
+                    "second": 1721418300
+                },
+                "venue": {
+                    "id": 5557,
+                    "name": "SFC Stadium",
+                    "city": "Swakopmund"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 7695,
+                    "name": "Bamber Bridge",
+                    "logo": "https://media.api-sports.io/football/teams/7695.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 1844,
+                    "name": "Salford City",
+                    "logo": "https://media.api-sports.io/football/teams/1844.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 15,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1844,
+                        "name": "Salford City",
+                        "logo": "https://media.api-sports.io/football/teams/1844.png"
+                    },
+                    "player": {
+                        "id": 276991,
+                        "name": "J. Luamba"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 72,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 7695,
+                        "name": "Bamber Bridge",
+                        "logo": "https://media.api-sports.io/football/teams/7695.png"
+                    },
+                    "player": {
+                        "id": 19445,
+                        "name": "J. Baxter"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 89,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1844,
+                        "name": "Salford City",
+                        "logo": "https://media.api-sports.io/football/teams/1844.png"
+                    },
+                    "player": {
+                        "id": 70908,
+                        "name": "C. Stockton"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Penalty",
+                    "comments": null
+                }
+            ],
+            "lineups": [],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

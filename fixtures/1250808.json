@@ -1,0 +1,530 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1250808"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1250808,
+                "referee": "J. Correa",
+                "timezone": "UTC",
+                "date": "2024-07-28T18:30:00+00:00",
+                "timestamp": 1722191400,
+                "periods": {
+                    "first": 1722191400,
+                    "second": 1722195000
+                },
+                "venue": {
+                    "id": 3027,
+                    "name": "Estadio El Fort\u00edn",
+                    "city": "Rawson, Provincia del Chubut"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 134,
+                "name": "Torneo Federal A",
+                "country": "Argentina",
+                "logo": "https://media.api-sports.io/football/leagues/134.png",
+                "flag": "https://media.api-sports.io/flags/ar.svg",
+                "season": 2024,
+                "round": "2nd Round - 2"
+            },
+            "teams": {
+                "home": {
+                    "id": 3972,
+                    "name": "Germinal de Rawson",
+                    "logo": "https://media.api-sports.io/football/teams/3972.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 443,
+                    "name": "Olimpo Bahia Blanca",
+                    "logo": "https://media.api-sports.io/football/teams/443.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 8,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 443,
+                        "name": "Olimpo Bahia Blanca",
+                        "logo": "https://media.api-sports.io/football/teams/443.png"
+                    },
+                    "player": {
+                        "id": 74811,
+                        "name": "R. Acosta"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 60,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3972,
+                        "name": "Germinal de Rawson",
+                        "logo": "https://media.api-sports.io/football/teams/3972.png"
+                    },
+                    "player": {
+                        "id": 323253,
+                        "name": "L. Zannier"
+                    },
+                    "assist": {
+                        "id": 411502,
+                        "name": "F. Carcamo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 60,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3972,
+                        "name": "Germinal de Rawson",
+                        "logo": "https://media.api-sports.io/football/teams/3972.png"
+                    },
+                    "player": {
+                        "id": 418474,
+                        "name": "R. Ferro"
+                    },
+                    "assist": {
+                        "id": 353528,
+                        "name": "N. Rosa"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 73,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 443,
+                        "name": "Olimpo Bahia Blanca",
+                        "logo": "https://media.api-sports.io/football/teams/443.png"
+                    },
+                    "player": {
+                        "id": 16457,
+                        "name": "L. Vila"
+                    },
+                    "assist": {
+                        "id": 58427,
+                        "name": "J. C\u00e1ceres"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 83,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3972,
+                        "name": "Germinal de Rawson",
+                        "logo": "https://media.api-sports.io/football/teams/3972.png"
+                    },
+                    "player": {
+                        "id": 371538,
+                        "name": "R. R\u00edos"
+                    },
+                    "assist": {
+                        "id": 477887,
+                        "name": "B. Mart\u00ednez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 87,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 443,
+                        "name": "Olimpo Bahia Blanca",
+                        "logo": "https://media.api-sports.io/football/teams/443.png"
+                    },
+                    "player": {
+                        "id": 146024,
+                        "name": "D. Ram\u00edrez"
+                    },
+                    "assist": {
+                        "id": 5445,
+                        "name": "L. Segovia"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 3
+                    },
+                    "team": {
+                        "id": 443,
+                        "name": "Olimpo Bahia Blanca",
+                        "logo": "https://media.api-sports.io/football/teams/443.png"
+                    },
+                    "player": {
+                        "id": 74811,
+                        "name": "R. Acosta"
+                    },
+                    "assist": {
+                        "id": 5830,
+                        "name": "M. Osurak"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 3972,
+                        "name": "Germinal de Rawson",
+                        "logo": "https://media.api-sports.io/football/teams/3972.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 5966,
+                        "name": "C. Corrales",
+                        "photo": "https://media.api-sports.io/football/coachs/5966.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 5718,
+                                "name": "G. Laborda",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 196697,
+                                "name": "E. Navarro",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 294516,
+                                "name": "J. Motroni",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 352368,
+                                "name": "M. Gonz\u00e1lez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 411517,
+                                "name": "I. Ter\u00e1n",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 195752,
+                                "name": "L. Villalba",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 310845,
+                                "name": "M. Vargas",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 323253,
+                                "name": "L. Zannier",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 371538,
+                                "name": "R. R\u00edos",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 373293,
+                                "name": "M. Tuset",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 418474,
+                                "name": "R. Ferro",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 411502,
+                                "name": "F. Carcamo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 353528,
+                                "name": "N. Rosa",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 477887,
+                                "name": "B. Mart\u00ednez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 443,
+                        "name": "Olimpo Bahia Blanca",
+                        "logo": "https://media.api-sports.io/football/teams/443.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 20114,
+                        "name": "P. Llorens",
+                        "photo": "https://media.api-sports.io/football/coachs/20114.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 59234,
+                                "name": "M. Garc\u00eda",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 5227,
+                                "name": "J. Fleita",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 146657,
+                                "name": "A. Osinaga",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 5788,
+                                "name": "F. Affranchino",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 146024,
+                                "name": "D. Ram\u00edrez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 5358,
+                                "name": "E. Garc\u00eda",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 58490,
+                                "name": "L. Larrea",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 313856,
+                                "name": "I. Di Buo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 354277,
+                                "name": "A. Paredes",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 16457,
+                                "name": "L. Vila",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 74811,
+                                "name": "R. Acosta",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 58427,
+                                "name": "J. C\u00e1ceres",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 5445,
+                                "name": "L. Segovia",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 5830,
+                                "name": "M. Osurak",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

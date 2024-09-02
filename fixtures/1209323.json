@@ -1,0 +1,770 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1209323"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1209323,
+                "referee": "Svendsen",
+                "timezone": "UTC",
+                "date": "2024-07-20T14:00:00+00:00",
+                "timestamp": 1721484000,
+                "periods": {
+                    "first": 1721484000,
+                    "second": 1721487600
+                },
+                "venue": {
+                    "id": 445,
+                    "name": "Blue Water Arena",
+                    "city": "Esbjerg"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 120,
+                "name": "1. Division",
+                "country": "Denmark",
+                "logo": "https://media.api-sports.io/football/leagues/120.png",
+                "flag": "https://media.api-sports.io/flags/dk.svg",
+                "season": 2024,
+                "round": "Regular Season - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 403,
+                    "name": "Esbjerg",
+                    "logo": "https://media.api-sports.io/football/teams/403.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 405,
+                    "name": "Odense",
+                    "logo": "https://media.api-sports.io/football/teams/405.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 17,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 405,
+                        "name": "Odense",
+                        "logo": "https://media.api-sports.io/football/teams/405.png"
+                    },
+                    "player": {
+                        "id": 128766,
+                        "name": "L. Deedson"
+                    },
+                    "assist": {
+                        "id": 332788,
+                        "name": "L. Kjerrumgaard"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 30,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 403,
+                        "name": "Esbjerg",
+                        "logo": "https://media.api-sports.io/football/teams/403.png"
+                    },
+                    "player": {
+                        "id": 202016,
+                        "name": "L. Montano"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 58,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 405,
+                        "name": "Odense",
+                        "logo": "https://media.api-sports.io/football/teams/405.png"
+                    },
+                    "player": {
+                        "id": 444452,
+                        "name": "W. Martin"
+                    },
+                    "assist": {
+                        "id": 371928,
+                        "name": "M. Jensen"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 58,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 405,
+                        "name": "Odense",
+                        "logo": "https://media.api-sports.io/football/teams/405.png"
+                    },
+                    "player": {
+                        "id": 25207,
+                        "name": "B. Paulsen"
+                    },
+                    "assist": {
+                        "id": 198465,
+                        "name": "J. Gomez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 58,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 405,
+                        "name": "Odense",
+                        "logo": "https://media.api-sports.io/football/teams/405.png"
+                    },
+                    "player": {
+                        "id": 376927,
+                        "name": "M. Ejdum"
+                    },
+                    "assist": {
+                        "id": 15853,
+                        "name": "G. Grubbe"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 403,
+                        "name": "Esbjerg",
+                        "logo": "https://media.api-sports.io/football/teams/403.png"
+                    },
+                    "player": {
+                        "id": 16100,
+                        "name": "E. Holten"
+                    },
+                    "assist": {
+                        "id": 15822,
+                        "name": "J. Mortensen"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 403,
+                        "name": "Esbjerg",
+                        "logo": "https://media.api-sports.io/football/teams/403.png"
+                    },
+                    "player": {
+                        "id": 106704,
+                        "name": "L. From"
+                    },
+                    "assist": {
+                        "id": 203385,
+                        "name": "M. Maden"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 403,
+                        "name": "Esbjerg",
+                        "logo": "https://media.api-sports.io/football/teams/403.png"
+                    },
+                    "player": {
+                        "id": 15910,
+                        "name": "N. Strunck"
+                    },
+                    "assist": {
+                        "id": 15589,
+                        "name": "B. Hvidt"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 403,
+                        "name": "Esbjerg",
+                        "logo": "https://media.api-sports.io/football/teams/403.png"
+                    },
+                    "player": {
+                        "id": 15822,
+                        "name": "J. Mortensen"
+                    },
+                    "assist": {
+                        "id": 15818,
+                        "name": "P. Tj\u00f8rnelund"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 403,
+                        "name": "Esbjerg",
+                        "logo": "https://media.api-sports.io/football/teams/403.png"
+                    },
+                    "player": {
+                        "id": 282467,
+                        "name": "A. Lausen"
+                    },
+                    "assist": {
+                        "id": 333224,
+                        "name": "E. Andersen"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 405,
+                        "name": "Odense",
+                        "logo": "https://media.api-sports.io/football/teams/405.png"
+                    },
+                    "player": {
+                        "id": 368129,
+                        "name": "T. Slotsager"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 403,
+                        "name": "Esbjerg",
+                        "logo": "https://media.api-sports.io/football/teams/403.png"
+                    },
+                    "player": {
+                        "id": 16100,
+                        "name": "E. Holten"
+                    },
+                    "assist": {
+                        "id": 93010,
+                        "name": "T. Freriks"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 7
+                    },
+                    "team": {
+                        "id": 405,
+                        "name": "Odense",
+                        "logo": "https://media.api-sports.io/football/teams/405.png"
+                    },
+                    "player": {
+                        "id": 332788,
+                        "name": "L. Kjerrumgaard"
+                    },
+                    "assist": {
+                        "id": 128766,
+                        "name": "L. Deedson"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 403,
+                        "name": "Esbjerg",
+                        "logo": "https://media.api-sports.io/football/teams/403.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 7256,
+                        "name": "L. S\u00f8rensen",
+                        "photo": "https://media.api-sports.io/football/coachs/7256.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 15574,
+                                "name": "K. Kristensen",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 163498,
+                                "name": "T. Stagaard",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15822,
+                                "name": "J. Mortensen",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 202016,
+                                "name": "L. Montano",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 346534,
+                                "name": "A. Troelsen",
+                                "number": 5,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15910,
+                                "name": "N. Strunck",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 20802,
+                                "name": "Y. Bourhane",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 282467,
+                                "name": "A. Lausen",
+                                "number": 12,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 16100,
+                                "name": "E. Holten",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 133246,
+                                "name": "E. S\u00f8rensen",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 106704,
+                                "name": "L. From",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 203385,
+                                "name": "M. Maden",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15589,
+                                "name": "B. Hvidt",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15818,
+                                "name": "P. Tj\u00f8rnelund",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 333224,
+                                "name": "E. Andersen",
+                                "number": 39,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 93010,
+                                "name": "T. Freriks",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 324077,
+                                "name": "E. J\u00f8rgensen",
+                                "number": 34,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 442454,
+                                "name": "F. Flaskager",
+                                "number": 26,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15815,
+                                "name": "J. Lauridsen",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 344888,
+                                "name": "O. Svendsen",
+                                "number": 3,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 405,
+                        "name": "Odense",
+                        "logo": "https://media.api-sports.io/football/teams/405.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 21395,
+                        "name": "S. Krogh",
+                        "photo": "https://media.api-sports.io/football/coachs/21395.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 39325,
+                                "name": "V. Myhra",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 25207,
+                                "name": "B. Paulsen",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 37224,
+                                "name": "L. Owusu",
+                                "number": 20,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 39331,
+                                "name": "N. Mickelson",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 368129,
+                                "name": "T. Slotsager",
+                                "number": 28,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15955,
+                                "name": "J. Bonde",
+                                "number": 6,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 11137,
+                                "name": "A. Manneh",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 376927,
+                                "name": "M. Ejdum",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 128766,
+                                "name": "L. Deedson",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 332788,
+                                "name": "L. Kjerrumgaard",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 444452,
+                                "name": "W. Martin",
+                                "number": 40,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 371928,
+                                "name": "M. Jensen",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 198465,
+                                "name": "J. Gomez",
+                                "number": 29,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15853,
+                                "name": "G. Grubbe",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 422165,
+                                "name": "N. Lassen",
+                                "number": 41,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 48368,
+                                "name": "M. Hansen",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 396191,
+                                "name": "N. Juul-Sandberg",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 396507,
+                                "name": "M. McCoy",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 412886,
+                                "name": "J. Berthel Askou",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 339876,
+                                "name": "E. Hansborg-S\u00f8rensen",
+                                "number": 26,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

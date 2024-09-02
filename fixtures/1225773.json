@@ -1,0 +1,489 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1225773"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1225773,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2024-08-03T14:00:00+00:00",
+                "timestamp": 1722693600,
+                "periods": {
+                    "first": 1722693600,
+                    "second": 1722697200
+                },
+                "venue": {
+                    "id": 11896,
+                    "name": "The Coventry Building Society Arena",
+                    "city": "Coventry, West Midlands"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Club Friendlies 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 1346,
+                    "name": "Coventry",
+                    "logo": "https://media.api-sports.io/football/teams/1346.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 162,
+                    "name": "Werder Bremen",
+                    "logo": "https://media.api-sports.io/football/teams/162.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 8,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 162,
+                        "name": "Werder Bremen",
+                        "logo": "https://media.api-sports.io/football/teams/162.png"
+                    },
+                    "player": {
+                        "id": 334334,
+                        "name": "K. Topp"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 28,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1346,
+                        "name": "Coventry",
+                        "logo": "https://media.api-sports.io/football/teams/1346.png"
+                    },
+                    "player": {
+                        "id": 20372,
+                        "name": "J. Rudoni"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 162,
+                        "name": "Werder Bremen",
+                        "logo": "https://media.api-sports.io/football/teams/162.png"
+                    },
+                    "player": {
+                        "id": 25464,
+                        "name": "M. Ducksch"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 1346,
+                        "name": "Coventry",
+                        "logo": "https://media.api-sports.io/football/teams/1346.png",
+                        "colors": {
+                            "player": {
+                                "primary": "99ccff",
+                                "number": "ffffff",
+                                "border": "99ccff"
+                            },
+                            "goalkeeper": {
+                                "primary": "0f0f0f",
+                                "number": "ffffff",
+                                "border": "0f0f0f"
+                            }
+                        }
+                    },
+                    "formation": "4-2-3-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 47899,
+                                "name": "Oliver Dovin",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 145538,
+                                "name": "Joel Latibeaudiere",
+                                "number": 22,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 264437,
+                                "name": "Bobby Thomas",
+                                "number": 4,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 154799,
+                                "name": "Luis Binks",
+                                "number": 2,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19574,
+                                "name": "Jake Bidwell",
+                                "number": 21,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 20372,
+                                "name": "Jack Rudoni",
+                                "number": 5,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 16046,
+                                "name": "Victor Torp",
+                                "number": 29,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 33462,
+                                "name": "Tatsuhiro Sakamoto",
+                                "number": 7,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 20024,
+                                "name": "Jamie Allen",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19274,
+                                "name": "Kasey Palmer",
+                                "number": 45,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 138786,
+                                "name": "Ellis Simms",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 20016,
+                                "name": "Bradley Collins",
+                                "number": 40,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 18202,
+                                "name": "Liam Kitching",
+                                "number": 15,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 37961,
+                                "name": "Milan van Ewijk",
+                                "number": 27,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19260,
+                                "name": "Jay Dasilva",
+                                "number": 3,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 19984,
+                                "name": "Josh Eccles",
+                                "number": 28,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 18404,
+                                "name": "Ephron Mason-Clark",
+                                "number": 10,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 325754,
+                                "name": "Ryan Howley",
+                                "number": 21,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 82090,
+                                "name": "Brandon Thomas-Asante",
+                                "number": 21,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 427,
+                                "name": "Haji Wright",
+                                "number": 11,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 605,
+                        "name": "M. Robins",
+                        "photo": "https://media.api-sports.io/football/coachs/605.png"
+                    }
+                },
+                {
+                    "team": {
+                        "id": 162,
+                        "name": "Werder Bremen",
+                        "logo": "https://media.api-sports.io/football/teams/162.png",
+                        "colors": {
+                            "player": {
+                                "primary": "048d79",
+                                "number": "fbfefd",
+                                "border": "048d79"
+                            },
+                            "goalkeeper": {
+                                "primary": "fd711a",
+                                "number": "10110e",
+                                "border": "fd711a"
+                            }
+                        }
+                    },
+                    "formation": "3-4-1-2",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 7288,
+                                "name": "Michael Zetterer",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15874,
+                                "name": "Anthony Jung",
+                                "number": 3,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 2916,
+                                "name": "Niklas Stark",
+                                "number": 4,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 2821,
+                                "name": "Milo\u0161 Veljkovi\u0107",
+                                "number": 13,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 973,
+                                "name": "Mitchell Weiser",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": "3:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 15592,
+                                "name": "Jens Stage",
+                                "number": 6,
+                                "pos": "M",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 38798,
+                                "name": "Senne Lynen",
+                                "number": 14,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 26319,
+                                "name": "Felix Agu",
+                                "number": 27,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7562,
+                                "name": "Romano Schmid",
+                                "number": 20,
+                                "pos": "M",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 25464,
+                                "name": "Marvin Ducksch",
+                                "number": 7,
+                                "pos": "F",
+                                "grid": "5:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 334334,
+                                "name": "Keke Topp",
+                                "number": 42,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "coach": {
+                        "id": 1348,
+                        "name": "O. Werner",
+                        "photo": "https://media.api-sports.io/football/coachs/1348.png"
+                    }
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

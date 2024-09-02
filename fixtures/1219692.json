@@ -1,0 +1,963 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1219692"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1219692,
+                "referee": "F. Leitner",
+                "timezone": "UTC",
+                "date": "2024-08-02T16:00:00+00:00",
+                "timestamp": 1722614400,
+                "periods": {
+                    "first": 1722614400,
+                    "second": 1722618000
+                },
+                "venue": {
+                    "id": 19961,
+                    "name": "M\u00fcnzer Bioindustrie Sportpark Voitsberg",
+                    "city": "Voitsberg"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 219,
+                "name": "2. Liga",
+                "country": "Austria",
+                "logo": "https://media.api-sports.io/football/leagues/219.png",
+                "flag": "https://media.api-sports.io/flags/at.svg",
+                "season": 2024,
+                "round": "Regular Season - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 8332,
+                    "name": "Voitsberg",
+                    "logo": "https://media.api-sports.io/football/teams/8332.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 1404,
+                    "name": "SKU Amstetten",
+                    "logo": "https://media.api-sports.io/football/teams/1404.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 30,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8332,
+                        "name": "Voitsberg",
+                        "logo": "https://media.api-sports.io/football/teams/8332.png"
+                    },
+                    "player": {
+                        "id": 265320,
+                        "name": "D. Kirnbauer"
+                    },
+                    "assist": {
+                        "id": 7585,
+                        "name": "J. Jantscher"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 32,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1404,
+                        "name": "SKU Amstetten",
+                        "logo": "https://media.api-sports.io/football/teams/1404.png"
+                    },
+                    "player": {
+                        "id": 362612,
+                        "name": "T. Gruber"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 42,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1404,
+                        "name": "SKU Amstetten",
+                        "logo": "https://media.api-sports.io/football/teams/1404.png"
+                    },
+                    "player": {
+                        "id": 120050,
+                        "name": "S. Leimhofer"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 54,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1404,
+                        "name": "SKU Amstetten",
+                        "logo": "https://media.api-sports.io/football/teams/1404.png"
+                    },
+                    "player": {
+                        "id": 120050,
+                        "name": "S. Leimhofer"
+                    },
+                    "assist": {
+                        "id": 7075,
+                        "name": "T. Mayer"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 55,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1404,
+                        "name": "SKU Amstetten",
+                        "logo": "https://media.api-sports.io/football/teams/1404.png"
+                    },
+                    "player": {
+                        "id": 427937,
+                        "name": "M. Grubhofer"
+                    },
+                    "assist": {
+                        "id": 177749,
+                        "name": "J. Herrmann"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1404,
+                        "name": "SKU Amstetten",
+                        "logo": "https://media.api-sports.io/football/teams/1404.png"
+                    },
+                    "player": {
+                        "id": 177749,
+                        "name": "J. Herrmann"
+                    },
+                    "assist": {
+                        "id": 7219,
+                        "name": "M. W\u00fcrdinger"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8332,
+                        "name": "Voitsberg",
+                        "logo": "https://media.api-sports.io/football/teams/8332.png"
+                    },
+                    "player": {
+                        "id": 169456,
+                        "name": "M. Krienzer"
+                    },
+                    "assist": {
+                        "id": 374282,
+                        "name": "M. Suppan"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 67,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8332,
+                        "name": "Voitsberg",
+                        "logo": "https://media.api-sports.io/football/teams/8332.png"
+                    },
+                    "player": {
+                        "id": 7460,
+                        "name": "S. Sulzer"
+                    },
+                    "assist": {
+                        "id": 169483,
+                        "name": "D. Saurer"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 69,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1404,
+                        "name": "SKU Amstetten",
+                        "logo": "https://media.api-sports.io/football/teams/1404.png"
+                    },
+                    "player": {
+                        "id": 7364,
+                        "name": "B. Y\u0131lmaz"
+                    },
+                    "assist": {
+                        "id": 7443,
+                        "name": "N. Hahn"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 79,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8332,
+                        "name": "Voitsberg",
+                        "logo": "https://media.api-sports.io/football/teams/8332.png"
+                    },
+                    "player": {
+                        "id": 301650,
+                        "name": "E. Jandrisevits"
+                    },
+                    "assist": {
+                        "id": 120496,
+                        "name": "R. Asemota"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 79,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8332,
+                        "name": "Voitsberg",
+                        "logo": "https://media.api-sports.io/football/teams/8332.png"
+                    },
+                    "player": {
+                        "id": 120587,
+                        "name": "P. Zuna"
+                    },
+                    "assist": {
+                        "id": 7390,
+                        "name": "P. Seidl"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1404,
+                        "name": "SKU Amstetten",
+                        "logo": "https://media.api-sports.io/football/teams/1404.png"
+                    },
+                    "player": {
+                        "id": 271415,
+                        "name": "J. Wanner"
+                    },
+                    "assist": {
+                        "id": 7219,
+                        "name": "M. W\u00fcrdinger"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 84,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1404,
+                        "name": "SKU Amstetten",
+                        "logo": "https://media.api-sports.io/football/teams/1404.png"
+                    },
+                    "player": {
+                        "id": 271415,
+                        "name": "J. Wanner"
+                    },
+                    "assist": {
+                        "id": 427935,
+                        "name": "F. Unterbuchschachner"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 8332,
+                        "name": "Voitsberg",
+                        "logo": "https://media.api-sports.io/football/teams/8332.png"
+                    },
+                    "player": {
+                        "id": 427402,
+                        "name": "M. Allmannsdorfer"
+                    },
+                    "assist": {
+                        "id": 427390,
+                        "name": "L. Sidar"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1404,
+                        "name": "SKU Amstetten",
+                        "logo": "https://media.api-sports.io/football/teams/1404.png"
+                    },
+                    "player": {
+                        "id": 427935,
+                        "name": "F. Unterbuchschachner"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 8332,
+                        "name": "Voitsberg",
+                        "logo": "https://media.api-sports.io/football/teams/8332.png",
+                        "colors": {
+                            "player": {
+                                "primary": "ffffff",
+                                "number": "222226",
+                                "border": "ffffff"
+                            },
+                            "goalkeeper": {
+                                "primary": "f5f910",
+                                "number": "222226",
+                                "border": "f5f910"
+                            }
+                        }
+                    },
+                    "coach": {
+                        "id": 1425,
+                        "name": "D. Prei\u00df",
+                        "photo": "https://media.api-sports.io/football/coachs/1425.png"
+                    },
+                    "formation": "4-2-3-1",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 7227,
+                                "name": "F. Ehmann",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 121261,
+                                "name": "M. Salentinig",
+                                "number": 22,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 78281,
+                                "name": "A. Pfingstner",
+                                "number": 13,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 265320,
+                                "name": "D. Kirnbauer",
+                                "number": 24,
+                                "pos": "D",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 301650,
+                                "name": "E. Jandrisevits",
+                                "number": 21,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 120587,
+                                "name": "P. Zuna",
+                                "number": 10,
+                                "pos": "F",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 427402,
+                                "name": "M. Allmannsdorfer",
+                                "number": 4,
+                                "pos": "M",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 322109,
+                                "name": "P. Scheucher",
+                                "number": 12,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7460,
+                                "name": "S. Sulzer",
+                                "number": 7,
+                                "pos": "F",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7585,
+                                "name": "J. Jantscher",
+                                "number": 89,
+                                "pos": "F",
+                                "grid": "4:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 169456,
+                                "name": "M. Krienzer",
+                                "number": 15,
+                                "pos": "F",
+                                "grid": "5:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 374282,
+                                "name": "M. Suppan",
+                                "number": 80,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 169483,
+                                "name": "D. Saurer",
+                                "number": 6,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 120496,
+                                "name": "R. Asemota",
+                                "number": 11,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7390,
+                                "name": "P. Seidl",
+                                "number": 20,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 427390,
+                                "name": "L. Sidar",
+                                "number": 16,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 271317,
+                                "name": "C. Strommer",
+                                "number": 27,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 120701,
+                                "name": "F. Sch\u00f6gl",
+                                "number": 31,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 1404,
+                        "name": "SKU Amstetten",
+                        "logo": "https://media.api-sports.io/football/teams/1404.png",
+                        "colors": {
+                            "player": {
+                                "primary": "1157ba",
+                                "number": "ffffff",
+                                "border": "1157ba"
+                            },
+                            "goalkeeper": {
+                                "primary": "000000",
+                                "number": "ffffff",
+                                "border": "000000"
+                            }
+                        }
+                    },
+                    "coach": {
+                        "id": 17705,
+                        "name": "P. Enengl",
+                        "photo": "https://media.api-sports.io/football/coachs/17705.png"
+                    },
+                    "formation": "4-3-3",
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 15476,
+                                "name": "A. Gremsl",
+                                "number": 1,
+                                "pos": "G",
+                                "grid": "1:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7219,
+                                "name": "M. W\u00fcrdinger",
+                                "number": 17,
+                                "pos": "D",
+                                "grid": "2:4"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 362612,
+                                "name": "T. Gruber",
+                                "number": 22,
+                                "pos": "D",
+                                "grid": "2:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7417,
+                                "name": "P. Offenthaler",
+                                "number": 15,
+                                "pos": "M",
+                                "grid": "2:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 202810,
+                                "name": "Y. Oberleitner",
+                                "number": 5,
+                                "pos": "D",
+                                "grid": "2:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 26077,
+                                "name": "S. Wimmer",
+                                "number": 18,
+                                "pos": "D",
+                                "grid": "3:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7364,
+                                "name": "B. Y\u0131lmaz",
+                                "number": 10,
+                                "pos": "M",
+                                "grid": "3:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 271415,
+                                "name": "J. Wanner",
+                                "number": 42,
+                                "pos": "F",
+                                "grid": "3:1"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 120050,
+                                "name": "S. Leimhofer",
+                                "number": 92,
+                                "pos": "M",
+                                "grid": "4:3"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 427937,
+                                "name": "M. Grubhofer",
+                                "number": 20,
+                                "pos": "M",
+                                "grid": "4:2"
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 128141,
+                                "name": "C. Kurt",
+                                "number": 6,
+                                "pos": "D",
+                                "grid": "4:1"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 7075,
+                                "name": "T. Mayer",
+                                "number": 16,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 177749,
+                                "name": "J. Herrmann",
+                                "number": 9,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 7443,
+                                "name": "N. Hahn",
+                                "number": 8,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 427935,
+                                "name": "F. Unterbuchschachner",
+                                "number": 21,
+                                "pos": "M",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 476961,
+                                "name": "S. Neudhart",
+                                "number": 13,
+                                "pos": "G",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 426113,
+                                "name": "J. Koppensteiner",
+                                "number": 37,
+                                "pos": "F",
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 215680,
+                                "name": "M. Hausberger",
+                                "number": 24,
+                                "pos": "D",
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [
+                {
+                    "team": {
+                        "id": 8332,
+                        "name": "Voitsberg",
+                        "logo": "https://media.api-sports.io/football/teams/8332.png"
+                    },
+                    "statistics": [
+                        {
+                            "type": "Shots on Goal",
+                            "value": 1
+                        },
+                        {
+                            "type": "Shots off Goal",
+                            "value": 6
+                        },
+                        {
+                            "type": "Total Shots",
+                            "value": 13
+                        },
+                        {
+                            "type": "Blocked Shots",
+                            "value": 6
+                        },
+                        {
+                            "type": "Shots insidebox",
+                            "value": null
+                        },
+                        {
+                            "type": "Shots outsidebox",
+                            "value": null
+                        },
+                        {
+                            "type": "Fouls",
+                            "value": 11
+                        },
+                        {
+                            "type": "Corner Kicks",
+                            "value": 7
+                        },
+                        {
+                            "type": "Offsides",
+                            "value": 1
+                        },
+                        {
+                            "type": "Ball Possession",
+                            "value": "51%"
+                        },
+                        {
+                            "type": "Yellow Cards",
+                            "value": 0
+                        },
+                        {
+                            "type": "Red Cards",
+                            "value": 0
+                        },
+                        {
+                            "type": "Goalkeeper Saves",
+                            "value": 2
+                        },
+                        {
+                            "type": "Total passes",
+                            "value": null
+                        },
+                        {
+                            "type": "Passes accurate",
+                            "value": null
+                        },
+                        {
+                            "type": "Passes %",
+                            "value": null
+                        },
+                        {
+                            "type": "expected_goals",
+                            "value": null
+                        },
+                        {
+                            "type": "goals_prevented",
+                            "value": null
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 1404,
+                        "name": "SKU Amstetten",
+                        "logo": "https://media.api-sports.io/football/teams/1404.png"
+                    },
+                    "statistics": [
+                        {
+                            "type": "Shots on Goal",
+                            "value": 4
+                        },
+                        {
+                            "type": "Shots off Goal",
+                            "value": 5
+                        },
+                        {
+                            "type": "Total Shots",
+                            "value": 10
+                        },
+                        {
+                            "type": "Blocked Shots",
+                            "value": 1
+                        },
+                        {
+                            "type": "Shots insidebox",
+                            "value": null
+                        },
+                        {
+                            "type": "Shots outsidebox",
+                            "value": null
+                        },
+                        {
+                            "type": "Fouls",
+                            "value": 15
+                        },
+                        {
+                            "type": "Corner Kicks",
+                            "value": 5
+                        },
+                        {
+                            "type": "Offsides",
+                            "value": 2
+                        },
+                        {
+                            "type": "Ball Possession",
+                            "value": "49%"
+                        },
+                        {
+                            "type": "Yellow Cards",
+                            "value": 3
+                        },
+                        {
+                            "type": "Red Cards",
+                            "value": 0
+                        },
+                        {
+                            "type": "Goalkeeper Saves",
+                            "value": 0
+                        },
+                        {
+                            "type": "Total passes",
+                            "value": null
+                        },
+                        {
+                            "type": "Passes accurate",
+                            "value": null
+                        },
+                        {
+                            "type": "Passes %",
+                            "value": null
+                        },
+                        {
+                            "type": "expected_goals",
+                            "value": null
+                        },
+                        {
+                            "type": "goals_prevented",
+                            "value": null
+                        }
+                    ]
+                }
+            ],
+            "players": []
+        }
+    ]
+}

@@ -1,0 +1,814 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1205295"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1205295,
+                "referee": "D. Chesky",
+                "timezone": "UTC",
+                "date": "2024-08-03T00:00:00+00:00",
+                "timestamp": 1722643200,
+                "periods": {
+                    "first": 1722643200,
+                    "second": 1722646800
+                },
+                "venue": {
+                    "id": 1619,
+                    "name": "Red Bull Arena",
+                    "city": "Harrison, New Jersey"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 1119,
+                "name": "NWSL - Liga MXF Summer Cup",
+                "country": "USA",
+                "logo": "https://media.api-sports.io/football/leagues/1119.png",
+                "flag": "https://media.api-sports.io/flags/us.svg",
+                "season": 2024,
+                "round": "Group Stage - 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 3003,
+                    "name": "NJ/NY Gotham FC W",
+                    "logo": "https://media.api-sports.io/football/teams/3003.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 14876,
+                    "name": "Guadalajara W",
+                    "logo": "https://media.api-sports.io/football/teams/14876.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 3,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 3,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 25,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3003,
+                        "name": "NJ/NY Gotham FC W",
+                        "logo": "https://media.api-sports.io/football/teams/3003.png"
+                    },
+                    "player": {
+                        "id": 102297,
+                        "name": "K. Edmonds"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 31,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3003,
+                        "name": "NJ/NY Gotham FC W",
+                        "logo": "https://media.api-sports.io/football/teams/3003.png"
+                    },
+                    "player": {
+                        "id": 76147,
+                        "name": "K. Stengel"
+                    },
+                    "assist": {
+                        "id": 265341,
+                        "name": "E. Stevens"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 32,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3003,
+                        "name": "NJ/NY Gotham FC W",
+                        "logo": "https://media.api-sports.io/football/teams/3003.png"
+                    },
+                    "player": {
+                        "id": 265341,
+                        "name": "E. Stevens"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14876,
+                        "name": "Guadalajara W",
+                        "logo": "https://media.api-sports.io/football/teams/14876.png"
+                    },
+                    "player": {
+                        "id": 451490,
+                        "name": "K. Mart\u00ednez"
+                    },
+                    "assist": {
+                        "id": 379930,
+                        "name": "K. Guzm\u00e1n"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14876,
+                        "name": "Guadalajara W",
+                        "logo": "https://media.api-sports.io/football/teams/14876.png"
+                    },
+                    "player": {
+                        "id": 420648,
+                        "name": "Araceli Torres"
+                    },
+                    "assist": {
+                        "id": 303718,
+                        "name": "Y. Franco"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14876,
+                        "name": "Guadalajara W",
+                        "logo": "https://media.api-sports.io/football/teams/14876.png"
+                    },
+                    "player": {
+                        "id": 337745,
+                        "name": "V. Salazar"
+                    },
+                    "assist": {
+                        "id": 385196,
+                        "name": "A. Iturbide"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 61,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3003,
+                        "name": "NJ/NY Gotham FC W",
+                        "logo": "https://media.api-sports.io/football/teams/3003.png"
+                    },
+                    "player": {
+                        "id": 102219,
+                        "name": "M. Zerboni"
+                    },
+                    "assist": {
+                        "id": 321608,
+                        "name": "D. Sheehan"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 61,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3003,
+                        "name": "NJ/NY Gotham FC W",
+                        "logo": "https://media.api-sports.io/football/teams/3003.png"
+                    },
+                    "player": {
+                        "id": 102297,
+                        "name": "K. Edmonds"
+                    },
+                    "assist": {
+                        "id": 81838,
+                        "name": "J. Carter"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3003,
+                        "name": "NJ/NY Gotham FC W",
+                        "logo": "https://media.api-sports.io/football/teams/3003.png"
+                    },
+                    "player": {
+                        "id": 265341,
+                        "name": "E. Stevens"
+                    },
+                    "assist": {
+                        "id": 76147,
+                        "name": "K. Stengel"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3003,
+                        "name": "NJ/NY Gotham FC W",
+                        "logo": "https://media.api-sports.io/football/teams/3003.png"
+                    },
+                    "player": {
+                        "id": 76147,
+                        "name": "K. Stengel"
+                    },
+                    "assist": {
+                        "id": 265341,
+                        "name": "E. Stevens"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 74,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14876,
+                        "name": "Guadalajara W",
+                        "logo": "https://media.api-sports.io/football/teams/14876.png"
+                    },
+                    "player": {
+                        "id": 321932,
+                        "name": "C. Jaramillo"
+                    },
+                    "assist": {
+                        "id": 455961,
+                        "name": "D. Sandoval"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 74,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 14876,
+                        "name": "Guadalajara W",
+                        "logo": "https://media.api-sports.io/football/teams/14876.png"
+                    },
+                    "player": {
+                        "id": 379931,
+                        "name": "D. Delgado"
+                    },
+                    "assist": {
+                        "id": 476017,
+                        "name": "V. Acevedo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 77,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3003,
+                        "name": "NJ/NY Gotham FC W",
+                        "logo": "https://media.api-sports.io/football/teams/3003.png"
+                    },
+                    "player": {
+                        "id": 317408,
+                        "name": "Y. Ryan"
+                    },
+                    "assist": {
+                        "id": 360247,
+                        "name": "T. Torres"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 77,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3003,
+                        "name": "NJ/NY Gotham FC W",
+                        "logo": "https://media.api-sports.io/football/teams/3003.png"
+                    },
+                    "player": {
+                        "id": 265341,
+                        "name": "E. Stevens"
+                    },
+                    "assist": {
+                        "id": 102327,
+                        "name": "S. Flores"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 80,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 3003,
+                        "name": "NJ/NY Gotham FC W",
+                        "logo": "https://media.api-sports.io/football/teams/3003.png"
+                    },
+                    "player": {
+                        "id": 274942,
+                        "name": "Bruninha"
+                    },
+                    "assist": {
+                        "id": 477194,
+                        "name": "M. Whitham"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 3003,
+                        "name": "NJ/NY Gotham FC W",
+                        "logo": "https://media.api-sports.io/football/teams/3003.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 13618,
+                        "name": "Juan Carlos Amor\u00f3s",
+                        "photo": "https://media.api-sports.io/football/coachs/13618.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 102303,
+                                "name": "M. Betos",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 102297,
+                                "name": "K. Edmonds",
+                                "number": 12,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 458818,
+                                "name": "M. Bell",
+                                "number": 25,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 283815,
+                                "name": "S. Hiatt",
+                                "number": 21,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 274942,
+                                "name": "Bruninha",
+                                "number": 3,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 310547,
+                                "name": "N. Martin",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 102219,
+                                "name": "M. Zerboni",
+                                "number": 7,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 99737,
+                                "name": "Maitane L\u00f3pez",
+                                "number": 77,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 317408,
+                                "name": "Y. Ryan",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 76147,
+                                "name": "K. Stengel",
+                                "number": 28,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 265341,
+                                "name": "E. Stevens",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 321608,
+                                "name": "D. Sheehan",
+                                "number": 17,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 81838,
+                                "name": "J. Carter",
+                                "number": 27,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 360247,
+                                "name": "T. Torres",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 102327,
+                                "name": "S. Flores",
+                                "number": 35,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 477194,
+                                "name": "M. Whitham",
+                                "number": 31,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 311146,
+                                "name": "G. Cuevas",
+                                "number": 32,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 413405,
+                                "name": "M. Pluck",
+                                "number": 24,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 213759,
+                                "name": "C. Miller",
+                                "number": 38,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 119985,
+                                "name": "N. Baxter",
+                                "number": 55,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 14876,
+                        "name": "Guadalajara W",
+                        "logo": "https://media.api-sports.io/football/teams/14876.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 17169,
+                        "name": "J. Moreno",
+                        "photo": "https://media.api-sports.io/football/coachs/17169.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 472158,
+                                "name": "B. F\u00e9lix",
+                                "number": 12,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 476006,
+                                "name": "D. Rodriguez",
+                                "number": 2,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 420646,
+                                "name": "D. God\u00ednez",
+                                "number": 3,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 420648,
+                                "name": "Araceli Torres",
+                                "number": 26,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 451490,
+                                "name": "K. Mart\u00ednez",
+                                "number": 22,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 321932,
+                                "name": "C. Jaramillo",
+                                "number": 8,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 379931,
+                                "name": "D. Delgado",
+                                "number": 19,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 476613,
+                                "name": "D. Hern\u00e1ndez",
+                                "number": 18,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 337745,
+                                "name": "V. Salazar",
+                                "number": 30,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 321887,
+                                "name": "A. Cervantes",
+                                "number": 24,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 476004,
+                                "name": "G. Valenzuela",
+                                "number": 9,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 379930,
+                                "name": "K. Guzm\u00e1n",
+                                "number": 4,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 303718,
+                                "name": "Y. Franco",
+                                "number": 11,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 385196,
+                                "name": "A. Iturbide",
+                                "number": 10,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 455961,
+                                "name": "D. Sandoval",
+                                "number": 13,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 476017,
+                                "name": "V. Acevedo",
+                                "number": 16,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 476003,
+                                "name": "R. Soto",
+                                "number": 15,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 379904,
+                                "name": "A. Ram\u00edrez",
+                                "number": 23,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 379928,
+                                "name": "C. Espino",
+                                "number": 1,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 476002,
+                                "name": "J. de la Rosa",
+                                "number": 14,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}

@@ -1,0 +1,866 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "id": "1168934"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 1168934,
+                "referee": "F. Alveal",
+                "timezone": "UTC",
+                "date": "2024-07-21T19:00:00+00:00",
+                "timestamp": 1721588400,
+                "periods": {
+                    "first": 1721588400,
+                    "second": 1721592000
+                },
+                "venue": {
+                    "id": 330,
+                    "name": "Estadio Municipal Joaqu\u00edn Mu\u00f1oz Garc\u00eda",
+                    "city": "Santa Cruz"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 266,
+                "name": "Primera B",
+                "country": "Chile",
+                "logo": "https://media.api-sports.io/football/leagues/266.png",
+                "flag": "https://media.api-sports.io/flags/cl.svg",
+                "season": 2024,
+                "round": "Regular Season - 17"
+            },
+            "teams": {
+                "home": {
+                    "id": 2346,
+                    "name": "Deportes Santa Cruz",
+                    "logo": "https://media.api-sports.io/football/teams/2346.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 2333,
+                    "name": "Santiago Wanderers",
+                    "logo": "https://media.api-sports.io/football/teams/2333.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 12,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2333,
+                        "name": "Santiago Wanderers",
+                        "logo": "https://media.api-sports.io/football/teams/2333.png"
+                    },
+                    "player": {
+                        "id": 196004,
+                        "name": "J. Le\u00f3n"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 42,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2346,
+                        "name": "Deportes Santa Cruz",
+                        "logo": "https://media.api-sports.io/football/teams/2346.png"
+                    },
+                    "player": {
+                        "id": 78690,
+                        "name": "J. Navarrete"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2346,
+                        "name": "Deportes Santa Cruz",
+                        "logo": "https://media.api-sports.io/football/teams/2346.png"
+                    },
+                    "player": {
+                        "id": 11514,
+                        "name": "I. Ledezma"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2333,
+                        "name": "Santiago Wanderers",
+                        "logo": "https://media.api-sports.io/football/teams/2333.png"
+                    },
+                    "player": {
+                        "id": 459010,
+                        "name": "J. Silva"
+                    },
+                    "assist": {
+                        "id": 70625,
+                        "name": "M. Ca\u00f1ete"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 63,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2333,
+                        "name": "Santiago Wanderers",
+                        "logo": "https://media.api-sports.io/football/teams/2333.png"
+                    },
+                    "player": {
+                        "id": 11435,
+                        "name": "A. Vilches"
+                    },
+                    "assist": {
+                        "id": 11676,
+                        "name": "C. Valenzuela"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2346,
+                        "name": "Deportes Santa Cruz",
+                        "logo": "https://media.api-sports.io/football/teams/2346.png"
+                    },
+                    "player": {
+                        "id": 12239,
+                        "name": "M. Pinto"
+                    },
+                    "assist": {
+                        "id": 445082,
+                        "name": "D. Guzm\u00e1n"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 64,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2346,
+                        "name": "Deportes Santa Cruz",
+                        "logo": "https://media.api-sports.io/football/teams/2346.png"
+                    },
+                    "player": {
+                        "id": 78690,
+                        "name": "J. Navarrete"
+                    },
+                    "assist": {
+                        "id": 307111,
+                        "name": "J. Fern\u00e1ndez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 2",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 71,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2346,
+                        "name": "Deportes Santa Cruz",
+                        "logo": "https://media.api-sports.io/football/teams/2346.png"
+                    },
+                    "player": {
+                        "id": 12004,
+                        "name": "K. Medel"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 76,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2333,
+                        "name": "Santiago Wanderers",
+                        "logo": "https://media.api-sports.io/football/teams/2333.png"
+                    },
+                    "player": {
+                        "id": 70625,
+                        "name": "M. Ca\u00f1ete"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 77,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2346,
+                        "name": "Deportes Santa Cruz",
+                        "logo": "https://media.api-sports.io/football/teams/2346.png"
+                    },
+                    "player": {
+                        "id": 41283,
+                        "name": "L. Barrera"
+                    },
+                    "assist": {
+                        "id": 12155,
+                        "name": "C. Ojeda"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 77,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2346,
+                        "name": "Deportes Santa Cruz",
+                        "logo": "https://media.api-sports.io/football/teams/2346.png"
+                    },
+                    "player": {
+                        "id": 11553,
+                        "name": "P. Mu\u00f1oz"
+                    },
+                    "assist": {
+                        "id": 52052,
+                        "name": "Diego Alexis Gonz\u00e1lez"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2346,
+                        "name": "Deportes Santa Cruz",
+                        "logo": "https://media.api-sports.io/football/teams/2346.png"
+                    },
+                    "player": {
+                        "id": 309446,
+                        "name": "R. Guzm\u00e1n"
+                    },
+                    "assist": {
+                        "id": 12181,
+                        "name": "J. Gaete"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 5",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 82,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2346,
+                        "name": "Deportes Santa Cruz",
+                        "logo": "https://media.api-sports.io/football/teams/2346.png"
+                    },
+                    "player": {
+                        "id": 52052,
+                        "name": "Diego Alexis Gonz\u00e1lez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 84,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2333,
+                        "name": "Santiago Wanderers",
+                        "logo": "https://media.api-sports.io/football/teams/2333.png"
+                    },
+                    "player": {
+                        "id": 11403,
+                        "name": "K. Vasquez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2333,
+                        "name": "Santiago Wanderers",
+                        "logo": "https://media.api-sports.io/football/teams/2333.png"
+                    },
+                    "player": {
+                        "id": 11813,
+                        "name": "C. Mu\u00f1oz"
+                    },
+                    "assist": {
+                        "id": 412204,
+                        "name": "D. Opazo"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 3",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2333,
+                        "name": "Santiago Wanderers",
+                        "logo": "https://media.api-sports.io/football/teams/2333.png"
+                    },
+                    "player": {
+                        "id": 11403,
+                        "name": "K. V\u00e1squez"
+                    },
+                    "assist": {
+                        "id": 12359,
+                        "name": "E. Orme\u00f1o"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 4",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 85,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2346,
+                        "name": "Deportes Santa Cruz",
+                        "logo": "https://media.api-sports.io/football/teams/2346.png"
+                    },
+                    "player": {
+                        "id": 41283,
+                        "name": "L. Barrera"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": 3
+                    },
+                    "team": {
+                        "id": 2333,
+                        "name": "Santiago Wanderers",
+                        "logo": "https://media.api-sports.io/football/teams/2333.png"
+                    },
+                    "player": {
+                        "id": 70625,
+                        "name": "M. Canete"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 90,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2333,
+                        "name": "Santiago Wanderers",
+                        "logo": "https://media.api-sports.io/football/teams/2333.png"
+                    },
+                    "player": {
+                        "id": 412204,
+                        "name": "D. Opazo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ],
+            "lineups": [
+                {
+                    "team": {
+                        "id": 2346,
+                        "name": "Deportes Santa Cruz",
+                        "logo": "https://media.api-sports.io/football/teams/2346.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 8071,
+                        "name": "H. Pe\u00f1a",
+                        "photo": "https://media.api-sports.io/football/coachs/8071.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 289316,
+                                "name": "G. Flores",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 12182,
+                                "name": "Diego Abraham Gonz\u00e1lez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 12307,
+                                "name": "G. Santelices",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 78690,
+                                "name": "J. Navarrete",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 309446,
+                                "name": "R. Guzm\u00e1n",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 51469,
+                                "name": "M. Santos",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 12004,
+                                "name": "K. Medel",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 11514,
+                                "name": "I. Ledezma",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 11553,
+                                "name": "P. Mu\u00f1oz",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 41283,
+                                "name": "L. Barrera",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 12239,
+                                "name": "M. Pinto",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 445082,
+                                "name": "D. Guzm\u00e1n",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 307111,
+                                "name": "J. Fern\u00e1ndez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 12155,
+                                "name": "C. Ojeda",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 52052,
+                                "name": "Diego Alexis Gonz\u00e1lez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 12181,
+                                "name": "J. Gaete",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 367580,
+                                "name": "H. Fa\u00fandez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 265917,
+                                "name": "R. Cisterna",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "team": {
+                        "id": 2333,
+                        "name": "Santiago Wanderers",
+                        "logo": "https://media.api-sports.io/football/teams/2333.png",
+                        "colors": null
+                    },
+                    "coach": {
+                        "id": 485,
+                        "name": "J. Garc\u00eda",
+                        "photo": "https://media.api-sports.io/football/coachs/485.png"
+                    },
+                    "formation": null,
+                    "startXI": [
+                        {
+                            "player": {
+                                "id": 125879,
+                                "name": "E. Miranda",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 70726,
+                                "name": "D. Ortiz",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 11862,
+                                "name": "V. Espinoza",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 51968,
+                                "name": "J. Pereyra",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 11403,
+                                "name": "K. V\u00e1squez",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 12281,
+                                "name": "B. Garrido",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 196004,
+                                "name": "J. Le\u00f3n",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 459010,
+                                "name": "J. Silva",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 11813,
+                                "name": "C. Mu\u00f1oz",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 11435,
+                                "name": "A. Vilches",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 11939,
+                                "name": "J. Duma",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "player": {
+                                "id": 70625,
+                                "name": "M. Ca\u00f1ete",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 11676,
+                                "name": "C. Valenzuela",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 412204,
+                                "name": "D. Opazo",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 12359,
+                                "name": "E. Orme\u00f1o",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 471147,
+                                "name": "C. Ponce",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 11520,
+                                "name": "D. Torres",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        },
+                        {
+                            "player": {
+                                "id": 11755,
+                                "name": "F. Hurtado",
+                                "number": null,
+                                "pos": null,
+                                "grid": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "statistics": [],
+            "players": []
+        }
+    ]
+}
