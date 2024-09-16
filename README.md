@@ -9,7 +9,7 @@ Para validar la demo se puede utilizar la siguiente URL desde cualquier navegado
 
 https://europe-southwest1-prefab-breaker-433816-j4.cloudfunctions.net/football-result-predict?day=yyyy-mm-dd&team=name
 
-Ejemplo de equipos: "Real Madrid" y "Barcelona"
+Ejemplo de equipos: "Real Madrid", "Barcelona" u "Osasuna"
 
 NOTA 1: Tener en consideración que la cuenta donde está desplegada la API es gratuita con recursos limitados de ahí que se recomiende su invocación especificando tanto día como equipo. Aún así, la API puede tardar varios segundos / minutos pero si se utiliza, por ejemplo, el navegador de Microsoft Edge, no hay problema. Otros navegadores podrían dar timeout.
 
